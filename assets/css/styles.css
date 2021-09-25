@@ -1291,9 +1291,9 @@ img {
         flex-direction: row;
         column-gap: 2rem;
     }
-    /* .footer__socials {
+    .footer__socials {
         justify-self: flex-end;
-    } */
+    }
     .footer__copy {
         margin-top: 4.5rem;
     }
