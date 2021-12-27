@@ -21,8 +21,8 @@
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #fff;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 95%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 85%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 100%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 90%);
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -1079,6 +1079,10 @@ img {
 ::-webkit-scrollbar-thumb {
     background-color: var(--scroll-thumb-color);
     border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color-light);
 }
 
 
