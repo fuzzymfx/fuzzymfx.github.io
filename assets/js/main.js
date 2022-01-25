@@ -177,13 +177,13 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-const srr = ScrollReveal({
-    origin: 'top',
-    distance: '6px',
-    duration: 2500
-        // reset: true
-})
+// const srr = ScrollReveal({
+//     origin: 'top',
+//     distance: '6px',
+//     duration: 2500
+//         // reset: true
+// })
 
-srr.reveal('.home__data')
-srr.reveal('.home__img', { delay: 700 })
-srr.reveal('.home__img', '.home__scroll', { delay: 900 })
+// srr.reveal('.home__data')
+// srr.reveal('.home__img', { delay: 700 })
+// srr.reveal('.home__img', '.home__scroll', { delay: 900 })
