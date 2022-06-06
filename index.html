@@ -996,34 +996,34 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://formspree.io/f/mvolyoqn" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="name" class="contact__label">Name</label>
-                                <input type="text" id="name" class="contact__input">
+                                <input type="text" id="name" name="name" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="email" class="contact__label">Email</label>
-                                <input type="email" id="email" class="contact__input">
+                                <input type="email" id="email" name="email" class="contact__input">
                             </div>
                         </div>
 
                         <div class="contact__content">
                             <label for="project-contact" class="contact__label">Project</label>
-                            <input type="text" id="project-contact" class="contact__input">
+                            <input type="text" id="project-contact" name='subject' class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="message-contact" class="contact__label">Message</label>
-                            <textarea name="" cols="0" rows="7" id="message-contact" class="contact__input"></textarea>
+                            <textarea name="message" cols="0" rows="7" id="message-contact" class="contact__input"></textarea>
                         </div>
-
                         <div>
-                            <a href="#" class="button button--flex">Send</a>
+                            <button type="submit" class="button button--flex"> Send</button>
                         </div>
-                    </form>
                 </div>
+                </form>
+            </div>
             </div>
 
         </section>
