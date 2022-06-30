@@ -3,6 +3,7 @@ const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
 const navClose = document.getElementById('nav-close')
 
+
 /* ===== MENU SHOW ===== */
 /* Validate if constant exists */
 if (navToggle) {
@@ -184,6 +185,9 @@ const srr = ScrollReveal({
         // reset: true
 })
 
-srr.reveal('.home__data')
+srr.reveal('.home__data', )
+srr.reveal('.home__social')
 srr.reveal('.home__img', { delay: 700 })
 srr.reveal('.home__img', '.home__scroll', { delay: 900 })
+ScrollReveal().reveal('.header');
+ScrollReveal().reveal('.services__container');
