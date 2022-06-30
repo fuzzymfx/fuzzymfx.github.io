@@ -18,6 +18,7 @@
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --text-color-footer: hsl(var(--hue-color), 8%, 85%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #fff;
@@ -1019,7 +1020,7 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: var(--text-color-footer);
     margin-top: var(--mb-3);
 }
 
