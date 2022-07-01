@@ -189,5 +189,3 @@ srr.reveal('.home__data', )
 srr.reveal('.home__social')
 srr.reveal('.home__img', { delay: 700 })
 srr.reveal('.home__img', '.home__scroll', { delay: 900 })
-ScrollReveal().reveal('.header');
-ScrollReveal().reveal('.services__container');
