@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     -webkit-box-sizing: border-box;
 }
@@ -155,7 +156,7 @@ section:nth-child(2n) {
 }
 
 #logo {
-    font: 100px 'Italiana', sans-serif;
+    font: 100px 'Montserrat', sans-serif;
     /* text-transform: lowercase; */
 }
 
