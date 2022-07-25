@@ -101,6 +101,12 @@ code {
     /* margin-bottom: 20px; */
 }
 
+.foot {
+    text-align: center;
+    font-size: 1em;
+    bottom: 0;
+}
+
 h1 {
     margin-top: 0;
     font-size: 2em;
@@ -250,4 +256,204 @@ section:nth-child(2n) {
     body {
         font-size: 13px;
     }
+}
+
+
+/* old */
+
+
+/*========== SCROLL BAR ==========*/
+
+::-webkit-scrollbar {
+    width: .60rem;
+    background-color: #f5f5f5;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}
+
+
+/*========== SKILLS ==========*/
+
+.section__subtitle {
+    display: block;
+    font-size: 0.813rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.skills__container {
+    row-gap: 0;
+}
+
+.skills__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+    font-size: 2rem;
+    color: black;
+}
+
+.skills__icon {
+    margin-right: 0.75rem;
+    color: #33333d;
+}
+
+.skills__title {
+    font-size: var(--h4-font-size);
+}
+
+.skills__subtitle {
+    font-size: 0.813rem;
+    color: gray;
+}
+
+.skills__subtitles {
+    font-size: 0.813rem;
+    color: #444053;
+    font-weight: 0.813rem;
+}
+
+.skills__arrow {
+    margin-left: auto;
+    transition: .4s;
+    color: #33333d;
+}
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: var(--h4-font-size);
+    color: #33333d
+}
+
+.skills__name {
+    font-size: 14px;
+    /* font-weight: ; */
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar {
+    background-color: gray;
+    display: none;
+}
+
+.skills__cpp {
+    width: 80%;
+}
+
+.skills__c {
+    width: 80%;
+}
+
+.skills__python {
+    width: 80%;
+}
+
+.skills__jsx {
+    width: 80%;
+}
+
+.skills__numpy {
+    width: 80%;
+}
+
+.skills__pandas {
+    width: 80%;
+}
+
+.skills__sklearn {
+    width: 80%;
+}
+
+.skills__matplotlib {
+    width: 80%;
+}
+
+.skills__tensorflow {
+    width: 80%;
+}
+
+.skills__web {
+    width: 80%;
+}
+
+.skills__lib {
+    width: 80%;
+}
+
+.skills__net {
+    width: 80%;
+}
+
+.skills__db {
+    width: 80%;
+}
+
+.skills__ui {
+    width: 80%;
+}
+
+.skills__ps {
+    width: 80%;
+}
+
+.skills__ai {
+    width: 80%;
+}
+
+.skills__axd {
+    width: 80%;
+}
+
+.skills__es {
+    width: 80%;
+}
+
+.skills__nr {
+    width: 80%;
+}
+
+.skills__aws {
+    width: 80%;
+}
+
+.skills__ard {
+    width: 20%;
+}
+
+.skills__close .skills__list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list {
+    height: max-content;
+    margin-bottom: 2.5rem;
+}
+
+.skills__open .skills__arrow {
+    transform: rotate(-180deg);
+}
+
+.skills__number {
+    display: none;
 }
