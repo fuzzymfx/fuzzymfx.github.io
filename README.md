@@ -1,6 +1,6 @@
 # Welcome to my portfolio  
 
-This website has been created using html, vanila css and javascript.
+The `version 1` of this website has been created using html, vanila css and javascript.
 
 Libraries:
 
