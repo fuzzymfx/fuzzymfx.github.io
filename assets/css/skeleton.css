@@ -238,6 +238,26 @@ section:nth-child(2n) {
     }
 }
 
+@media screen and (min-width: 568px) {
+    .qualification__sections:not(#education) {
+        display: grid;
+        grid-template-columns: 0.6fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .qualification__tabs {
+        justify-content: center;
+    }
+    .qualification__button {
+        margin: 0 1rem;
+    }
+    .qualification__sections {
+        grid-template-columns: .8fr;
+    }
+}
+
 @media screen and (max-width: 500px) {
     section:not(#top) {
         /* padding: 50px 10px; */
@@ -255,6 +275,9 @@ section:nth-child(2n) {
     }
     body {
         font-size: 13px;
+    }
+    .qualification__data {
+        gap: .5rem;
     }
 }
 
@@ -280,13 +303,93 @@ section:nth-child(2n) {
 }
 
 
+/*==================== QUALIFICATION ====================*/
+
+.qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.qualification__button {
+    font-size: 1.125rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.qualification__button:hover {
+    color: #33333d;
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: 0.25rem;
+}
+
+.qualification__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification__title {
+    font-size: 0.938rem;
+    font-weight: 500;
+}
+
+.qualification__subtitle {
+    display: inline-block;
+    font-size: 0.813;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qualification__calendar {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #33333d;
+    border-radius: 50%;
+}
+
+.qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #3d3a4b;
+    transform: translate(6px, -7px);
+}
+
+.qualification [data-content] {
+    display: none;
+}
+
+.qualification__active[data-content] {
+    display: block;
+}
+
+.qualification__button.qualification__active {
+    color: #33333d;
+}
+
+.qualification__tech {
+    border-bottom: 3px solid #444053;
+    border-radius: .2rem;
+}
+
+
 /*========== SKILLS ==========*/
 
 .section__subtitle {
     display: block;
     font-size: 0.813rem;
     margin-bottom: 3rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .skills__container {
