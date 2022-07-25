@@ -9,18 +9,44 @@ html {
     height: 100%;
 }
 
+
+/* unvisited link */
+
+a:link {
+    text-decoration: none;
+    color: #007fff;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #8370ed;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #0099ff;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
 body {
-    /* font: 17px/1.5 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
-    font-family: 17px 'Open Sans', sans-serif;
+    font: 17px/1.5 "Helvetica", sans-serif;
+    /* font-family: 17px 'Open Sans', sans-serif; */
+    font-size: 17px;
     background: white;
     margin: 0;
     color: #33333d;
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-a {
-    color: #33a0c0;
 }
 
 section {
@@ -57,12 +83,22 @@ pre .hljs {
 p {
     font-weight: 300;
     /* font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    /* font: 17px/1.5 "Helvetica", sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 code {
     font-family: monospace;
     font-size: .9em;
+}
+
+#resume {
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #3d3a4b;
+    padding-bottom: 40px;
+    /* margin-bottom: 20px; */
 }
 
 h1 {
@@ -198,7 +234,7 @@ section:nth-child(2n) {
 
 @media screen and (max-width: 500px) {
     section:not(#top) {
-        padding: 50px 10px;
+        /* padding: 50px 10px; */
         margin: 10px;
     }
     .top {
@@ -209,7 +245,7 @@ section:nth-child(2n) {
     }
     #tagline {
         margin: 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
     body {
         font-size: 13px;
