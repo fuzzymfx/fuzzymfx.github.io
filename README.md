@@ -1,12 +1,11 @@
 # Welcome to my portfolio  
 
-This website has been created using html, vanila css and javascript.
+This is the `version 2` of the website.
+This has been created using html, vanila css and javascript.
 
 Libraries:
 
-- [Swiper](https://swiperjs.com/)
-- [Scroll Reveal](https://scrollrevealjs.org/)
-- Google Fonts: [Roboto](https://fonts.google.com/specimen/Roboto)
-- [Mapbox](https://www.mapbox.com/)
-- [Formspree](https://formspree.io/)
+- Google Fonts: [Open Sans](https://fonts.google.com/specimen/OpenSans)
 - [Icons](https://iconscout.com/unicons)
+- [Icons](https://getbootstrap.com/icons)
+- inspired from [koa](https://koajs.com)
