@@ -9,3 +9,4 @@ Libraries:
 - [Icons](https://iconscout.com/unicons)
 - [Icons](https://getbootstrap.com/icons)
 - inspired from [koa](https://koajs.com)
+[Compile this resume format](https://github.com/codebotx/resume-latex-deedy/edit/main/README.md)
