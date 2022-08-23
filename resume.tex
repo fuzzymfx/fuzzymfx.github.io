@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     \documentclass[]{assets/deedy-resume-openfont}
+ 
+     \begin{document}
+     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %
+  %     Profile
+  %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+  
+\namesection{Anubhab} {Patnaik}\infoline{\href{mailto:anubhabr50@gmail.com}{anubhabr50@gmail.com} | +91 9430332116 | Bhubaneswar, India}\\\vspace{4pt}\linksline{\descript{\href{https://github.com/codebotx}{GitHub | }}\descript{\href{https://www.linkedin.com/in/anubhabpatnaik0530/}{Linkedin | }}\descript{\href{https://www.hackerrank.com/anubhabr50}{HackerRank | }}\descript{\href{https://leetcode.com/anubhabr50/}{LeetCode | }}\descript{\href{http://anubhavp.me}{Portfolio}}}\underlineheader{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Education
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\raggedright
+
+    \runsubsection{\href{http://www.silicon.ac.in}{Silicon Institute of Technology, Bhubaneswar}}\hspace*{\fill}  \location{July 2019 - March 2023}\\
+    \descript{B. Tech Computer Science and Engineering}\hspace*{\fill}\location{Bhubaneswar, India}\\
+    GPA: 8.91\\
+    \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       %
+       %     Experience
+       %
+       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       \section{Experience}
+       \runsubsection{\href{http://squibix.com/}{Squbix Digital}}\descript{| Fullstack blockchain developer}\hfill \location{Bhubaneswar | Jun 2022 – present}
+           \begin{tightemize}
+            \item Refactored react16 codebase to react18 codebase. Refactoring React Native applications with better UI and implementing offline storage.
+            \item Building backend sockets and apis using nodejs.
+            \item Building pokadot relay chains and parachains - blockchains using substrate and rust. Worked on testing custom pallets. Upgrading the current network implementing a new robust architecture.
+           \end{tightemize}
+           \sectionsep
+       \runsubsection{\href{https://www.afixi.com/}{Afixi Technologies Pvt. LTD}}\descript{| Web developer }\hfill \location{Bhubaneswar | March 2022 – May 2022}
+           \begin{tightemize}
+  \item Designed and built a platform to handle DDEX submissions using GO, MongoDB \& Javascript to automate music uploads on public music \& video streaming platforms.
+  \item Used AWS S3 \& Lambda to automate handling DDEX transactions to upload music on Youtube.
+\end{tightemize}
+           \sectionsep
+       \runsubsection{\href{http://ebibil.com/}{E-Bibil Technologies}}\descript{| Front-end developer}\hfill \location{WFH | July 2021 – Sep 2021}
+           \begin{tightemize}
+  \item Built react PWA to integrate with AI models for a smart parking system venture to recognize the license plate.
+  \item Built Django app for the to integrate with the react application which uses python and OpenCV for ANPR system
+\end{tightemize}
+           \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technologies worked with}
+\raggedright
+\begin{tabular}{ l l }
+\descript{Programming Languages} & {\location{C/C++, Python, JavaScript/TypeScript, PHP, Rust, SQL}} \\
+\descript{Libraries/ Frameworks} & {\location{Numpy, Pandas, Sk-Learn, React, ReactNative, NodeJs, Django, Flutter}} \\
+\descript{Databases/ Tools \& Platforms} & {\location{Git, AWS, Firebase, Canva, Figma, MongoDB, PostgreSQL}} \\
+\end{tabular}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Projects
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects \& Technical skills}
+\raggedright
+
+    \runsubsection{\large{W3BCHAT \& BLOGCHAIN}}
+    \descript{{| \href{https://bit.ly/sdchapp}{DC-Link}} {| \href{https://github.com/codebotx/rust-tokio-chat-server}{B-Link}}} \hfill \location{GunJS, Svelte, Rust, Tokio, Substrate, React, Firebase}\\
+    W3BCHAT is an multi client chat app buit in svelte \& gunjs. Blogchain is a blockchain based blogging platform built on top of substrate and react for super fast performance and excellent memory management.\\
+    \sectionsep
+
+    \runsubsection{\large{MEEP: Exam Portal System \& Marks Predictor}}
+    \descript{| \href{https://anubhavp.me/IWT_project}{Link}}\hfill \location{Bootstrap, JS, PHP, MySql, Sklearn}\\
+    MEEP is an e-exam portal with a blog, e-repository, notesapp, marks predictor using ML: LR \& gradient descent.\\
+    \sectionsep
+  
+
+    \runsubsection{\large{Getflix: Movie recommender \& rating predictor}}
+    \descript{| \href{https://github.com/codebotx/Movie-recommendation}{Link}{| \href{https://github.com/codebotx/Movie-rating-prediction}{Link}}}\hfill \location{Pandas, Sklearn, NLP, LP}\\
+    An item based collaborative movie recommendation system based on user ratings and number of ratings and a rating prediction system using a trained a Multinomial Naive Bayes to classify movie reviews as good/bad.\\
+    \sectionsep
+  
+
+    \runsubsection{\large{ZUZU \& BLOG-2}}
+    \descript{| \href{https://github.com/codebotx/blogapp}{IB}| \href{https://github.com/codebotx/react-frontend-blogapp}{F}| \href{https://github.com/codebotx/zuzu}{zuzu}}
+    \hfill \location{Node, Django REST, Bootstrap, React Hooks, SQLite3, AWS EC2}\\
+    A static site generator written in javascript that parses markdown files and renders htmls. A react-django blog for publishing(CRUD ) articles with token based authentication using react-hooks. \\
+    \sectionsep
+  
+
+    \runsubsection{\large{RESOC}}
+    \descript{| \href{https://github.com/codebotx/react-firebase-notes-app}{R-Link}{| \href{https://auth-notesapp-test.web.app/}{H-Site}}}\hfill \location{React, React-Native, React-Bootstrap, Firebase, Cloud Firestore}\\
+    A react website for accessing all kinds of free resources with a login register component for profile management, a task management component for bookmarking, managing tasks and a live chat component.\\
+    \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Awards
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hobbies \& Achievements}
+\begin{tightemize}  
+    \item Co-founded - \href{https://cbrtl.github.io}{cbrtl} : A FOSS paltform for programmers who like to craft fun projects together.\\
+    \item Co-founder \& ex- Secretary(J), Silicon Wing of Technical and Coding Hub, the official coding club of College.\\
+    \item Student Branch Chair 2022-23, IEEE Students’ Chapter, Silicon Institute of Technology.\\
+    \item Finalist in the \href{https://www.binance.com/en-IN/support/announcement/7ccec2ff0fd0429b8efdddcff962ff64}{Binance Ideathon} – ‘Blockchain for Good’\\
+\end{tightemize}
+     \ 
+     \end{document}
