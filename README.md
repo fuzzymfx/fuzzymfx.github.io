@@ -10,4 +10,4 @@ Libraries:
 - [Icons](https://getbootstrap.com/icons)
 - inspired from [koa](https://koajs.com)
 
-[Compile this resume format](https://github.com/codebotx/resume-latex-deedy/main/README.md)
+[Compile this resume format](https://github.com/codebotx/resume-latex-deedy/)
