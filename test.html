@@ -35,7 +35,7 @@
 
 <body>
     <section id="top">
-        <div id="globeViz"></div>
+        <div id="globeViz" style="display: flex; justify-content:center"></div>
         <div id="menu"><a id="toggle" href="#"><i class="bi bi-list"></i></a>
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
@@ -777,7 +777,7 @@
             .then(landTopo => {
                 world
                     .polygonsData(topojson.feature(landTopo, landTopo.objects.land).features)
-                    .polygonCapMaterial(new THREE.MeshLambertMaterial({ color: 'darkslategrey', side: THREE.DoubleSide }))
+                    .polygonCapMaterial(new THREE.MeshLambertMaterial({ color: 'offwhite', side: THREE.DoubleSide }))
                     .polygonSideColor(() => 'rgba(0,0,0,0)');
             });
     </script>
