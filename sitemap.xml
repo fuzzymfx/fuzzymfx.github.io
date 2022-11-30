@@ -67,5 +67,20 @@
     <loc>https://anubhavp.dev/blog/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://anubhavp.dev/blog</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://anubhavp.dev/oldblog/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://anubhavp.dev/resume.pdf/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
