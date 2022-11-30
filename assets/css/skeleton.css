@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     -webkit-box-sizing: border-box;
 }
@@ -93,11 +94,11 @@ code {
     font-size: .9em;
 }
 
-#resume {
+.resume {
     /* text-align: center; */
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 1.5em;
-    color: #3d3a4b;
+    color: #3d3a4b !important;
     padding-bottom: 40px;
     /* margin-bottom: 20px; */
 }
@@ -228,12 +229,15 @@ section:nth-child(2n) {
     section:not(#top) {
         padding: 50px 25px;
     }
+
     #heading {
         margin-top: -75px;
     }
+
     #logo {
         font-size: 50px;
     }
+
     #tagline {
         font-size: 12px;
     }
@@ -251,9 +255,11 @@ section:nth-child(2n) {
     .qualification__tabs {
         justify-content: center;
     }
+
     .qualification__button {
         margin: 0 1rem;
     }
+
     .qualification__sections {
         grid-template-columns: .8fr;
     }
@@ -264,19 +270,24 @@ section:nth-child(2n) {
         /* padding: 50px 10px; */
         margin: 10px;
     }
+
     .top {
         margin: 100px;
     }
+
     #logo {
         margin: 5px;
     }
+
     #tagline {
         margin: 10px;
         font-size: 14px;
     }
+
     body {
         font-size: 13px;
     }
+
     .qualification__data {
         gap: .5rem;
     }
