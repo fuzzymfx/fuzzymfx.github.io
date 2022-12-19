@@ -48,21 +48,21 @@ Latest update: \today
 \end{textblock}}
 
 \newcommand{\linksline}[1]{
-	\centering{ \color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1}\\
+	\color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1\\
 	\vspace{5pt}
 }
 
 \newcommand{\infoline}[1]{
-	\centering{ \color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1}\\
+	\color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1\\
 	\vspace{5pt}
 }
 
 % Name command
 \newcommand{\namesection}[3]{
-	\centering{
+	{
 		\sffamily
-		\fontspec[Path = assets/fonts/raleway/]{Raleway-ExtraLight}\fontsize{38pt}{10cm}\selectfont #1
-		\fontspec[Path = assets/fonts/raleway/]{Raleway-ExtraLight}\selectfont #2
+		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{24pt}{5cm}\selectfont #1
+		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\selectfont #2
 	} \\
 	\vspace{5pt}
 }
@@ -75,24 +75,24 @@ Latest update: \today
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{15pt}{23pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
-\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{10pt}\selectfont\bfseries\uppercase}{}{0em}{}
 \titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 \newcommand{\runsubsection}[1]{\color{subheadings}
-\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{10pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 % Descriptors command
-\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
+\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1} \normalfont}
 
 % Location command
-\newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
+\newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1} \normalfont}
 
 % Section seperators command
-\newcommand{\sectionsep}[0]{\vspace{7pt}}
+\newcommand{\sectionsep}[0]{\vspace{6pt}}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\vspace{-1mm}\begin{itemize}\itemsep1pt \parskip1.5pt \parsep1.5pt}{\end{itemize}\vspace{-\topsep}}
