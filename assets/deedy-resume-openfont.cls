@@ -61,7 +61,7 @@ Latest update: \today
 \newcommand{\namesection}[3]{
 	{
 		\sffamily
-		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{24pt}{5cm}\selectfont #1
+		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{28pt}{5cm}\selectfont #1
 		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\selectfont #2
 	} \\
 	\vspace{5pt}
