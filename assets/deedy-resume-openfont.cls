@@ -48,18 +48,20 @@ Latest update: \today
 \end{textblock}}
 
 \newcommand{\linksline}[1]{
-	\color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1\\
+	\centering{
+	\color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1}\\
 	\vspace{5pt}
 }
 
 \newcommand{\infoline}[1]{
-	\color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1\\
+	\centering{
+	\color{headings}\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #1}\\
 	\vspace{5pt}
 }
 
 % Name command
 \newcommand{\namesection}[3]{
-	{
+	\centering{
 		\sffamily
 		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\fontsize{28pt}{5cm}\selectfont #1
 		\fontspec[Path = assets/fonts/raleway/]{Raleway-Medium}\selectfont #2
