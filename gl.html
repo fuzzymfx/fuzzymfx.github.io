@@ -6,7 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJVRSTJNZ8"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-WJVRSTJNZ8');
@@ -16,8 +19,7 @@
     <link rel="icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description"
-        content="A CS undergrad who likes building awesome stuff, solving problems and has a passion for science, engineering & entrepreneurship ;)" />
+    <meta name="description" content="A CS undergrad who likes building awesome stuff, solving problems and has a passion for science, engineering & entrepreneurship ;)" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
@@ -31,13 +33,12 @@
     <!--==================== CSS ====================-->
     <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
     <link rel="stylesheet" href="assets/css/skeleton.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Anubhav's Portfolio | CS undergrad from SIT </title>
     <script src="https://unpkg.com/three"></script>
     <script src="https://unpkg.com/topojson-client"></script>
     <script src="https://unpkg.com/globe.gl"></script>
+    <title>Anubhav's Portfolio | CS undergrad from SIT </title>
 </head>
 
 <body>
@@ -47,18 +48,19 @@
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#background">Background</a></li>
-                <li><a href="#skills">Tech</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#links">Links</a></li>
+                <li><a href="#links">Socials</a></li>
+                <hr>
+                <li><a target="_blank" id="resume" href="./resume.pdf">Resume</a></li>
+                <li><a target="_blank" id="blog" href="/blog/">Blog</a></li>
+
             </ul>
         </div>
         <div id="heading">
             <h1 id="logo" class="my-0">
                 Anubhab Patnaik
             </h1>
-            <div class='p-1' id="tagline">A CS undergrad who likes building awesome stuff, solving problems, and has a
-                passion for
-                science, engineering & entrepreneurship ;)</div>
+            <div class='p-1' id="tagline">A CS undergrad who likes building awesome stuff, solving problems, and has a passion for science, engineering & entrepreneurship ;)</div>
         </div>
     </section>
 
@@ -67,55 +69,42 @@
             <h1 id="introduction">Introduction</h1>
             <div>
                 <p class="about__description">
-                    Hi, I am Anubhab Patnaik, a CS undergrad from <a id="link" href="https://www.silicon.ac.in">Silicon
-                        Institute of Technology,
-                        Bhubaneswar, India.</a> I work as a full-stack blockchain web and
-                    mobile
-                    developer-operations engineer and a solutions architect, building scalable software and systems and
-                    at <a href="https://squbix.com">Squbix
-                        Digital </a>, an AI and blockchain based startup. I graduated from high school in 2018 from
-                    FIITJE
-                    and middle school in 2016 from DAV Public School
-                    and used to be a python tutor and before that a ML Engineer and a full stack dev.
+
+                    Hi, I am Anubhab Patnaik, a CS undergrad from the <a id="link" href="https://www.silicon.ac.in">Silicon Institute of Technology, Bhubaneswar, India</a>. I worked as a full-stack blockchain web and mobile developer-operations engineer,
+                    building scalable software and systems at <a href="https://squbix.com">Squbix Digital</a>, an AI and blockchain-based startup. I graduated from high school in 2018 from FIITJEE and middle school in 2016 from DAV Public School and used
+                    to be a python tutor, an ML Engineer, and a full-stack dev.
                 </p>
                 <p class="about__description">
-                    Interested in problem solving, building and managing stuff, I have hosted and organized various
-                    intercollege hackathons, coding events, and webinars. I am the student Chair in IEEE Students’
-                    Chapter, Silicon Institute of Technology, Bhubaneswar and the
-                    co-founder and was the j-secretary of SWITCH (the official Coding Club of our college).
+                    Interested in problem-solving, building, and management, I have hosted and organized various intercollege hackathons, coding events, and webinars. I was the student Chairperson of the IEEE Students’ Chapter 2022-2023, Silicon Institute of Technology,
+                    Bhubaneswar, and the joint secretary of SWITCH (2021-2022)( the official Coding Club of our college).
                 </p>
             </div>
+            <!-- <br> -->
+            <a class="bi bi-link-45deg resume" target="_blank" id="resume" href="./resume.pdf">Resume</a>
+            <br>
+            <br>
         </div>
-        <a class="resume" target="_blank" id="resume" href="./resume.pdf">Resume</a>
-    </section>
-    <section>
+
+        <!-- </section> -->
+        <!-- <section> -->
         <div class="content">
             <h2 id="introduction">Interests & Hobbies</h2>
             <div>
                 <p>
-                    I love music, watch a lot of TV, read, eat,<a href="https://anubhavp.dev/blog "> write,</a> and
-                    drink
-                    a lot. I like <a href="https://instagram.com/anubhavclicks"> photography</a>, and love to play the
-                    guitar. I have a passion for science,
-                    tech and egineering and remain usually busy trying to learn, build or break things ;). With a
-                    profound love for astrophysics and a huge crush on the infinite space and stars, I attend talks on
-                    space, life in space and theoretical &
-                    quantum physics. I also attend talks on tech, entrepreneurship, debates and MUNs. Also a freelance
-                    graphic designer and a tutor.
+                    I love music, watching a lot of TV shows, reading, eating,<a href="https://anubhavp.dev/blog "> and
+                        writing</a>. I click a lot of <a href="https://instagram.com/anubhavclicks"> photos</a>, and play the guitar. I have a passion for science, tech, and engineering and remain busy trying to learn, build or break things. I like to
+                    attend talks on space, life in space, and theoretical & quantum physics, tech, entrepreneurship, debates, and I attend MUNs. I am also a freelance graphic designer and tutor.
                 </p>
                 <p>
-                    With <a href="https://injuly.in"> Srijan</a>, a CS geek, I cofounded <a
-                        href="https://cbrtl.github.io">cbrtl</a>, a FOSS community for geeks and coders to chill, hang
-                    out and showcase awesome projects.
-                </p>
-                <p>
-                    <a href="https://www.linkedin.com/in/swayam-vikash-pattanaik-69b739200/">Swayam</a> introduced me to
-                    Startuptyme, an edtech startup that we founded and we are working on that. We train students in
-                    digital marketing and web development.
+                    With <a href="https://injuly.in"> Srijan</a>, a peer CS geek, I cofounded <a href="https://cbrtl.github.io">cbrtl</a>, a FOSS community for geeks and coders to chill, hang out and showcase awesome projects.<a href="https://www.linkedin.com/in/swayam-vikash-pattanaik-69b739200/">Swayam</a>                    introduced me to Startuptyme, an edtech startup that we founded and we are working on that. We train students in digital marketing and web development. With <a href="https://www.linkedin.com/in/saurav-jha-4a01341b1/">Saurav Jha</a>,
+                    I cofounded <a href="https://www.linkedin.com/company/switch-sit/">
+                        SWITCH</a>, the official coding club of our college.
                 </p>
             </div>
+            <!-- <br> -->
+            <a class="bi bi-link-45deg resume" target="_blank" id="blog" href="/blog/"> Blog</a>
         </div>
-        <a class="resume" target="_blank" id="blog" href="/blog/">Blog</a>
+        <!-- <br> -->
     </section>
     <section>
         <div class="qualification section content" id="background">
@@ -302,413 +291,62 @@
                 </div>
             </div>
     </section>
-    <section>
-        <div class="skills section content" id="skills">
-            <h1 class="section__title">Tech</h1>
-            <span class="section__subtitle">Technologies worked with</span>
-            <div class="skills__container container grid">
-                <div>
-                    <!--==================== SKILLS 1 ====================-->
-                    <div class="skills__content skills__open">
-                        <div class="skills__header">
-                            <i class="bi bi-braces skills__icon"></i>
 
-
-                            <div>
-                                <h2 class="skills__title">
-                                    Programming Languages
-                                </h2>
-                                <!-- <span class="skills__subtitle">More than a year</span> -->
-                            </div>
-
-                            <i class="bi bi-caret-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
-                            <i> <span class="section__subtitle my-1">Over 10000 lines</span></i>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <p class="skills__name">
-
-                                        C/C++
-
-                                    </p>
-
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <p class="skills__name">
-
-
-                                        Python
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <i> <span class="section__subtitle my-1">Fammiliar/ Worked with</span></i>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <p class="skills__name">
-
-
-                                        Javascript/ Typescript
-
-                                    </p>
-
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-
-                                    <p class="skills__name">
-
-                                        PHP
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <p class="skills__name">
-                                        SQL
-                                    </p>
-
-                                </div>
-                            </div class="skills__data">
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    Rust
-                                </p>
-                            </div>
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    Go
-                                </p>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <!--==================== SKILLS 2 ====================-->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="bi bi-robot skills__icon"></i>
-                        <div>
-                            <h2 class="skills__title">
-                                Machine Learning
-                            </h2>
-                            <!-- <span class="skills__subtitle">More than a year</span> -->
-                        </div>
-                        <i class="bi bi-caret-down skills__arrow"></i>
-                    </div>
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    NumPy
-                                </p>
-                                <span class="skills__number">
-                                    85%
-                                    /span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__numpy">
-
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    Pandas
-                                </p>
-                                <span class="skills__number">
-                                    80%
-                                </span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__pandas">
-
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    SkLearn
-                                </p>
-                                <span class="skills__number">
-                                    88%
-                                </span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__sklearn">
-
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    Matplotlib
-                                </p>
-                                <span class="skills__number">
-                                    25%
-                                </span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__matplotlib">
-
-                                </span>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <!--==================== SKILLS 3 ====================-->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="bi bi-hdd-network skills__icon"></i>
-                        <div>
-                            <h2 class="skills__title">
-                                Software Development
-                            </h2>
-                            <!-- <span class="skills__subtitle">Less than a year</span> -->
-                        </div>
-                        <i class="bi bi-caret-down skills__arrow"></i>
-                    </div>
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h4 class="skills__name">
-                                    Web Frameworks & Libraries:
-                                    <p>
-                                    <p class="skills__subtitles"> React, Django, Firebase, ExpressJS, Bootstrap, NodeJs
-                                    </p>
-                                    </p>
-                                </h4>
-                            </div>
-                        </div>
-
-
-
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h4 class="skills__name">
-                                    Application Development:
-                                    <p>
-
-                                    <p class="skills__subtitles">React Native, Flutter</p>
-                                    </p>
-                                </h4>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h4 class="skills__name">
-                                    Databases:
-                                    <p>
-
-                                    <p class="skills__subtitles"> PostgreSQL, MongoDB, Cloud Firestore </p>
-                                    </p>
-
-                                </h4>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <!--==================== SKILLS 4 ====================-->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="bi bi-cloud skills__icon"></i>
-                        <div>
-                            <h2 class="skills__title">
-                                Cloud Computing
-                            </h2>
-                        </div>
-                        <i class="bi bi-caret-down skills__arrow"></i>
-                    </div>
-                    <div class="skills__list grid">
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <p class="skills__name">
-                                        AWS
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="bi bi-currency-bitcoin skills__icon"></i>
-                        <div>
-                            <h2 class="skills__title">
-                                Blockchain
-                            </h2>
-                            <!-- <span class="skills__subtitle">More than a year</span> -->
-                        </div>
-                        <i class="bi bi-caret-down skills__arrow"></i>
-                    </div>
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <p class="skills__name">
-                                    <b>Polkadot</b> : Substrate
-                                </p>
-                                <span class="skills__number">
-                                    85%
-                                    /span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__numpy">
-
-                                </span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
 
     <section>
         <div class="content">
             <h1 id="projects">Projects</h1>
-            <span class="section__subtitle">Personal projects</span>
+            <span class="section__subtitle">Personal projects </span>
             <div>
                 <ul style="list-style: none;">
                     <li class="py-2">
                         <h5>Zuzu:</h5>
                         <p style="font-size:16px">
-                            Zuzu is a static site generator that takes in markdown files and render htmls pages. <a
-                                href="https://anubhavp.dev/blog">This blog</a>, for example, has been written using this
-                            generator. This enables noobs like me to write blogs
-                            without having to learn a lot of code! It is a very simple and easy to use generator. All
-                            you
-                            need to do is to write a markdown file and it will be rendered as a page ;) You can create a
-                            new
-                            page by creating a new markdown file.</p>
-                        <a style="font-size:16px" class="bi bi-github" href="https://github.com/codebotx/zuzu"> Source
-                            Code</a>
-                        <br>
-                        <a style="font-size:16px" class="bi bi-github" href="https://anubhavp.dev/blog/zuzu.html">
-                            Blog</a>
-                        <br>
+                            Zuzu is a static site generator that takes in markdown files and render htmls pages. <a href="https://anubhavp.dev/oldblog">This blog</a>, for example, has been written using this generator. This enables noobs like me to write
+                            blogs without having to learn a lot of code! It is a very simple and easy to use generator. All you need to do is to write a markdown file and it will be rendered as a page ;) You can create a new page by creating a new markdown
+                            file.
+                        </p>
 
+                        <a style="font-size:16px" class="bi bi-link-45deg" href="https://anubhavp.dev/blog/zuzu.html">
+                            Blog</a>
 
                     </li>
 
                     <li class="py-2">
                         <h5>RESOC:</h5>
                         <p style="font-size:16px">
-                            A fun, resource management app for students. A social media for students to access college
-                            notes, bookmark their notes, get assignments, chat, put up queries and hang out with other
-                            students.
+                            A fun, resource management app for students. A social media for students to access college notes, bookmark their notes, get assignments, chat, put up queries and hang out with each other.
                         </p>
-                        <a style="font-size:16px" class="bi bi-github" href="https://github.com/codebotx/resoc"> Source
-                            Code</a>
-                        <br>
-                        <a style="font-size:16px" class="bi bi-github" href="https://notes-sit.live"> Website</a>
+
+                        <a style="font-size:16px" class="bi bi-link-45deg" href="https://notes-sit.live"> Live
+                            Website</a>
 
                     </li>
 
 
                     <li class="py-2">
-                        <h5>Getflix:</h5>
+                        <h5>Conflix:</h5>
                         <p style="font-size:16px">
-                            A Movie-recommendation and rating prediction system. Getflix is an item based collaborative
-                            movie recommendation system to suggest movies based on a correlation matrix of user ratings
-                            and
-                            number of ratings. It uses a trained a Multinomial Naive Bayes
-                            to classify movie reviews as good/ bad predicts the rating of a movie by a user using nltk.
+                            A custom bit-torrent client to download moviesand a movie-recommendation and rating prediction system. Getflix is an item based collaborative movie recommendation system to suggest movies based on a correlation matrix of user ratings and number of ratings.
+                            It uses a trained a Multinomial Naive Bayes to classify movie reviews as good/ bad predicts the rating of a movie by a user using nltk.
                         </p>
-
-                        <a style="font-size:16px" class="bi bi-github"
-                            href="https://github.com/codebotx/Movie-rating-prediction"> Rating
-                            prediction system- Source Code</a>
-                        <br>
-                        <a style="font-size:16px" class="bi bi-github"
-                            href="https://github.com/codebotx/Movie-recommendation"> Recommendation
-                            engine- Source Code</a>
-
-                    </li>
-
-                    <li class="py-2">
-                        <h5>W3bchat:</h5>
-                        <p style="font-size:16px">
-                            A decentralized chat application using svelte, skeleton css and gunjs as a graph based db to
-                            mimic the working of web3. The project is in active development and will be released soon.
-                            The
-                            v2 of the project will be the same application with custom made
-                            backend with funjs( selfmade <a href="https://gun.eco/">gunjs</a> parody), <a
-                                href="https://github.com/srijan-paul/nicedear">nicedear</a>( selfmade
-                            <a href="https://avatars.dicebear.com/">dicebear</a> parody) and rio( selfmade <a
-                                href="https://reactjs.org/">react</a> parody). A multi client chat server using tokio
-                            and
-                            rust which accepts tcp requests and braodcasts them over
-                            a multiple channels, which can be joined by any user.
-                        </p>
-
-                        <a style="font-size:16px" class="bi bi-github" href="https://github.com/codebotx/w3bchat-dapp">
-                            DAPP- Source Code</a>
-                        <br>
-                        <a style="font-size:16px" class="bi bi-github"
-                            href="https://github.com/codebotx/rust-tokio-chat-server"> Rust- Tokio
-                            Source Code</a>
                     </li>
                 </ul>
-
-
-                <!-- <a href="https://github.com/codebotx/ ">More stuff here</a> -->
-                <a style="font-size:16px" href="https://github.com/codebotx/ " class="bi bi-github "> More stuff
-                    here</a>
-                <br>
-                <a style="font-size:16px" href="https://anubhavp.dev/blog " class="bi bi-body-text"> My blog</a>
-
-
-
+                Visit my <a style="font-size:16px" class="bi bi-github" href="https://github.com/codebotx"> Github
+                    Profile</a> for more.
             </div>
         </div>
         <br>
 
         <div class="content">
-            <h4 id="ventures">Other Ventures</h4>
+            <h4 id="ventures">Group Projects</h4>
             <span class="section__subtitle">Side ventures and active group projects in development.</span>
             <div>
                 <ul style="list-style: none;">
                     <li class="py-2">
                         <h3>CBRTL:</h3>
                         <p style="font-size:16px">
-                            cbrtl is a small, tight knit group of programmers and open source sorcerers who like to
-                            craft
-                            fun projects together and build a community. We are a group of developers. We are primarily
-                            a <a href="https://github.com/cbrtl">GitHub Organization</a>.
+                            cbrtl is a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community. We are a group of developers. We are primarily a <a href="https://github.com/cbrtl">GitHub Organization</a>.
                         </p>
                         <p style="font-size:16px">
                             <b> What do we do here?</b>
@@ -717,28 +355,26 @@
 
                         <p style="font-size:16px">
                             A lot of stuff, actually!
-                        <ul style="font-size:16px">
-                            <li>
+                            <ul style="font-size:16px">
+                                <li>
 
-                                Create fun and unique projects. Either in groups or in isolation.
-                            </li>
+                                    Create fun and unique projects. Either in groups or in isolation.
+                                </li>
 
-                            <li>
-                                Organize community and online showcases for group and individual projects.
-                            </li>
-                            <li>
-                                Contribute to Open Source projects both in cbrtl and in other communities.
+                                <li>
+                                    Organize community and online showcases for group and individual projects.
+                                </li>
+                                <li>
+                                    Contribute to Open Source projects both in cbrtl and in other communities.
 
-                            </li>
-                            <li>
-                                Conduct code reviews and JAMs. Share lesser known resources to learn.
-                            </li>
-                            <li>
-                                Write blog posts about the eccentricities of everyday software. Ones that you wish you’d
-                                have
-                                found when starting out.
-                            </li>
-                        </ul>
+                                </li>
+                                <li>
+                                    Conduct code reviews and JAMs. Share lesser known resources to learn.
+                                </li>
+                                <li>
+                                    Write blog posts about the eccentricities of everyday software. Ones that you wish you’d have found when starting out.
+                                </li>
+                            </ul>
 
 
 
@@ -751,17 +387,21 @@
 
                         <h3>Startuptyme:</h3>
                         <p style="font-size:16px">
-                            Startuptyme is an edtech startup founded by <a
-                                href="https://www.linkedin.com/in/swayam-vikash-pattanaik-69b739200">Swayam</a> which
-                            focuses on creating a platform for students to learn and teach. We train students in
-                            software
-                            development, graphics designing digital marketing, let them work on real projects and get
-                            stipend based on thier work. This buisness opens up doors for students to get back whatever
-                            they
-                            invest plus secure a job in the industry.
+                            Startuptyme is an edtech startup founded by <a href="https://www.linkedin.com/in/swayam-vikash-pattanaik-69b739200">Swayam</a> which focuses on creating a platform for students to learn and teach. We train students in software
+                            development, graphics designing digital marketing, let them work on real projects and get stipend based on thier work. This buisness opens up doors for students to get back whatever they invest plus secure a job in the industry.
                         </p>
 
-                        <a style="font-size:16px" class="bi bi-github" href="#"> Website</a>
+                        <a style="font-size:16px" class="bi bi-link-45deg" href="#"> Website</a>
+                    </li>
+                    <li class="py-2">
+
+                        <h3>SWITCH:</h3>
+                        <p style="font-size:16px">Switch is the official coding club of Silicon Institue of Technology, founded by <a href="https://www.linkedin.com/in/saurav-jha-4a01341b1/">Saurav Jha</a> which focuses on building a community of students that collaborates together
+                            to come up with solutions to real world problems. Switch is not only restricted to coding, but also developing interpersonal skills and upskilling together. We conduct workshops, hackathons, and coding competitions to help
+                            students learn and grow and also provide a platform for students to showcase their skills and get recognition for their work. </p>
+                        </p>
+
+                        <a style="font-size:16px" class="bi bi-link-45deg" href="https://silicon.ac.in/bbsr-home/student-activities/"> Website</a>
                     </li>
                 </ul>
             </div>
@@ -774,35 +414,30 @@
 
                 <div class='icons my-1'>
 
-                    <a aria-label="Instagram" target="_blank" rel="noopener" id="github"
-                        href="http://github.com/codebotx " class=" p-2 ">
-                        <i class="fa-brands fa-github"></i>
+                    <a aria-label="GitHub" target="_blank" rel="noopener" id="github" href="http://github.com/codebotx " class=" p-2 ">
+                        <i class="bi bi-github"></i>
                     </a>
 
-                    <a aria-label="Instagram" target="_blank" rel="noopener" id="instagram"
-                        href="http://instagram.com/anubhavclicks " class="p-2 ">
+                    <a aria-label="Instagram" target="_blank" rel="noopener" id="instagram" href="http://instagram.com/anubhavclicks " class="p-2 ">
                         <i class="bi bi-instagram "></i>
                     </a>
 
-                    <a aria-label="Mail" target="_blank" rel="noopener" id="mail" href="mailto:anubhabr50@gmail.com "
-                        class="p-2 ">
+                    <a aria-label="Mail" target="_blank" rel="noopener" id="mail" href="mailto:anubhabr50@gmail.com " class="p-2 ">
                         <i class="bi bi-envelope-open-fill "></i>
                     </a>
 
-                    <a aria-label="Linkedin" target="_blank" rel="noopener" id="linkedin"
-                        href="https://www.linkedin.com/in/anubhabpatnaik0530/ " class="p-2 ">
+                    <a aria-label="Linkedin" target="_blank" rel="noopener" id="linkedin" href="https://www.linkedin.com/in/anubhabpatnaik0530/ " class="p-2 ">
                         <i class="bi bi-linkedin "></i>
                     </a>
 
-                    <a aria-label="Blog" target="_blank" rel="noopener" id="personal-blog"
-                        href="https://anubhavp.dev/blog ">
+                    <a aria-label="Blog" target="_blank" rel="noopener" id="personal-blog" href="https://anubhavp.dev/blog ">
                         <i class="bi bi-card-text "></i>
                     </a>
 
                 </div>
             </div>
             <div>
-                ©Anubhab Patnaik. All rights reserved.
+                ©Anubhab Patnaik. Socials can be found here.
             </div>
         </div>
 
@@ -818,16 +453,18 @@
             .then(landTopo => {
                 world
                     .polygonsData(topojson.feature(landTopo, landTopo.objects.land).features)
-                    .polygonCapMaterial(new THREE.MeshLambertMaterial({ color: 'offwhite', side: THREE.DoubleSide }))
+                    .polygonCapMaterial(new THREE.MeshLambertMaterial({
+                        color: 'offwhite',
+                        side: THREE.DoubleSide
+                    }))
                     .polygonSideColor(() => 'rgba(0,0,0,0)');
             });
     </script>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous ">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous ">
+    </script>
 
     <script src="assets/js/main.js "></script>
 </body>
