@@ -152,12 +152,12 @@ section:nth-child(2n) {
 }
 
 #logo {
-    font: 100px 'Montserrat', sans-serif;
+    font: 80px 'Montserrat', sans-serif;
     /* text-transform: lowercase; */
 }
 
 #tagline {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #menu {
