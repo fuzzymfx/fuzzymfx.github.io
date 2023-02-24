@@ -87,7 +87,7 @@ const processFile = async(filename, template, outPath) => {
 
 const main = () => {
     const srcPath = path.resolve('content')
-    const outPath = path.resolve('test')
+    const outPath = path.resolve('blog')
     const template = fs.readFileSync('./templates/initial/template.html', 'utf8')
     const filenames = glob.sync(srcPath + '/**/*.md')
 
