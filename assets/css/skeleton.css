@@ -61,7 +61,7 @@ section:not(:last-child) {
 
 section:not(#top) {
     padding: 150px 100px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 pre {
@@ -152,7 +152,7 @@ section:nth-child(2n) {
 }
 
 #logo {
-    font: 80px 'Montserrat', sans-serif;
+    font: 50px 'Montserrat', sans-serif;
     /* text-transform: lowercase; */
 }
 
