@@ -15,6 +15,12 @@
     },
     "type": "module",
     "scripts": {
+        "predeploy": "CI=false && npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "CI=false && react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
         "devgenerate": "nodemon -e js,md,html --ignore dist/ ./generator.js",
         "generate": "node ./generator.js"
     },
