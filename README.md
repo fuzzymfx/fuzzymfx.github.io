@@ -1,12 +1,6 @@
 # Welcome to my portfolio  
 
-This is the `version 2` of the website.
-This has been created using html, vanila css and javascript.
-
-Libraries:
-
-- Google Fonts: [Open Sans](https://fonts.google.com/specimen/OpenSans)
-- [Icons](https://getbootstrap.com/icons)
-- inspired from [koa](https://koajs.com)
+This is the `version 3` of the website.
+This has been created using html, css and bootstrap, and is inspired from [blog.matsu.io](https://blog.matsu.io/about).
 
 [Compile this resume format](https://github.com/codebotx/resume-latex-deedy/)
