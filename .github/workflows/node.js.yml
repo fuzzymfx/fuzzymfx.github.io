@@ -27,9 +27,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    - run: git config --global user.name codebotx
+    - run: git config --global user.name fuzzymfx
     - run: git config --global user.email anubhabr50@gmail.com
-    - run: git remote set-url origin https://codebotx:${{ secrets.PAT }}@github.com/codebotx/codebotx.github.io
+    - run: git remote set-url origin https://fuzzymfx:${{ secrets.PAT }}@github.com/fuzzymfx/fuzzymfx.github.io
     - run: npm ci
     - run: npm run generate
     - run: git add .
