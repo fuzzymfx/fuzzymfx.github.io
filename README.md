@@ -1,7 +1,6 @@
 # Welcome to my portfolio  
 
-This is the `version 2` of the website.
-This has been created using html, vanila css and javascript.
+This is the `version 1` and has been created using html, vanila css and javascript.
 
 Libraries:
 
@@ -9,5 +8,3 @@ Libraries:
 - [Icons](https://iconscout.com/unicons)
 - [Icons](https://getbootstrap.com/icons)
 - inspired from [koa](https://koajs.com)
-
-[Compile this resume format](https://github.com/codebotx/resume-latex-deedy/)
