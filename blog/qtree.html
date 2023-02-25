@@ -51,6 +51,22 @@
 <script type="module" src="/assets/js/qtree/qdtree.js" ></script>
 <p>I stumbled upon <a href="https://koalastothemax.com/">KoalasToTheMax</a> while reading a blog post about the most exciting web pages built for fun, and I was blown away. <a href="https://injuly.in/">Srijan</a> explained how it works, and we were inspired to create something similar.</p>
 <p>But first, let’s get into the basics of the data structures used in our project.</p>
+<ul>
+<li><a href="#quadtree">Quadtree</a>
+<ul>
+<li><a href="#member-functions">Member Functions</a></li>
+<li><a href="#node">Node</a></li>
+</ul>
+</li>
+<li><a href="#demonstration">Demonstration</a></li>
+<li><a href="#setting-up-the-canvas">Setting up the Canvas</a>
+<ul>
+<li><a href="#image-data-compression">Image Data Compression</a></li>
+<li><a href="#bounding-box">Bounding Box</a></li>
+<li><a href="#image-data-to-quadtree">Image Data to Quadtree</a></li>
+</ul>
+</li>
+</ul>
 <h2 id="quadtree" tabindex="-1">Quadtree</h2>
 <p>A quadtree is a tree-based data structure where each node has exactly four child nodes. Our quadtree represents a partition of space in two dimensions by dividing the region into four equal quadrants. Each quadrant is then subdivided into four equal quadrants, and so on. Each node in the tree has exactly four children or no children at all, which makes it a leaf node. The height of a quadtree depends on the amount of data being decomposed.</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Quad_tree_bitmap.svg" alt="quadtree"></p>

@@ -16,6 +16,18 @@ Some questions that may come to your mind are:
 
 To answer these questions, let us first go through how a programming language works.
 
+- [Programming Languages and their working](#programming-languages-and-their-working)
+  - [Compilers and interpreters](#compilers-and-interpreters)
+  - [Compiled Vs Interpreted languages](#compiled-vs-interpreted-languages)
+- [C++: The king of programming languages](#c-the-king-of-programming-languages)
+- [Memory management in programming languages](#memory-management-in-programming-languages)
+  - [c++](#c)
+  - [Garbage collection](#garbage-collection)
+- [Rust](#rust)
+  - [Rust > C++](#rust-c)
+
+
+
 ## Programming Languages and their working
 
 A programming language is a set of instructions that can be used to interact with and control a computer. These languages can be used for a multitude of purposes, such as creating a website, analyzing data, writing a program to solve a mathematical problem, creating a game, piloting a car, building a robot, making rockets take off, controlling spacecraft and the list goes on. A computer, even though can control a rover on Mars, detect an incoming ballistic missile, and detonate it before it reaches you, cannot understand English, or anything else except **'0'** & **'1'**. Computers can be thought of to be made up of tiny switches, and can be either 'on' (1) or 'off' (0) called **'bits'**. Whatever instruction you want to execute on a computer, has to be converted into a series of '0's and '1's before it can be executed. Even a simple "Hi" is parsed as **01001000 01101001**. Yes, this is what Siri responds when you *Hey Siri*. Since the English language is vast and complicated, it is not possible to convert it into a series of '0' and '1' directly. A subset of English or any other language is created, which is called a **programming language**. High-Level Programming Languages have English-like syntax and are designed to be easy to read and write, whereas low-Level Programming Languages are designed to be easy for the computer to understand. To make things easier for us, there are tools that convert whatever we want the computer to do into a series of '0's and '1's. This series of '0's and '1's is then executed by the computer.

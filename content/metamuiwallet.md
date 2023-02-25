@@ -9,6 +9,13 @@ ShowBreadCrumbs: true
 
 I am working with [Squbix Digital](https://squbix.com/) to build a decentralized, secure and scalable solution using blockchain technology for [Sovereign Wallet](https://swnglobal.com/). The solution is to build a platform to exchange digital assets such as cryptocurrencies and digital currencies across a country/ organization and a cross-border payments system. Here is the [metamui whitepaper](https://sovereignwallet-network.github.io/whitepaper/MetaMUI-Blockchain-White-Paper.pdf) and here are some of the things that I couldn't digest well.
 
+- [Metablockchain-core](#metablockchain-core)
+	- [Robust, decentralized, and secure?](#robust-decentralized-and-secure)
+	- [Issues with the current infrastructure](#issues-with-the-current-infrastructure)
+	- [Ideological challenges](#ideological-challenges)
+- [A better direction](#a-better-direction)
+	- [Improving the current infrastructure](#improving-the-current-infrastructure)
+
 ## Metablockchain-core
 
 Metablockchain: The blockchain that lets you regulate digital currencies and cryptocurrencies across the nation. The platform is built on Polkadot protocol that has significantly better runtime efficiency, is cost-effective, and supports parallel faster transactions when compared to other traditional blockchains. The Polkadot protocol is designed to allow unrelated blockchains to securely talk to each other, so that value or data can flow between, say, the Ethereum and Bitcoin blockchains without any intermediary. It’s also designed to be speedy and scalable, via the use of many parallel blockchains (or “parachains”) that take much of the processing demand off of the main blockchain. The Polkadot network can process more than 1,000 transactions per second, compared to about 7 for Bitcoin and 30 for Ethereum. As the network grows and more parachains are added, Polkadot should get even faster, with speeds that could hit a million transactions per second.

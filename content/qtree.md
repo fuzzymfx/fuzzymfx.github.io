@@ -13,6 +13,15 @@ I stumbled upon [KoalasToTheMax](https://koalastothemax.com/) while reading a bl
 
 But first, let's get into the basics of the data structures used in our project.
 
+- [Quadtree](#quadtree)
+  - [Member Functions](#member-functions)
+  - [Node](#node)
+- [Demonstration](#demonstration)
+- [Setting up the Canvas](#setting-up-the-canvas)
+  - [Image Data Compression](#image-data-compression)
+  - [Bounding Box](#bounding-box)
+  - [Image Data to Quadtree](#image-data-to-quadtree)
+
 ## Quadtree
 
 A quadtree is a tree-based data structure where each node has exactly four child nodes. Our quadtree represents a partition of space in two dimensions by dividing the region into four equal quadrants. Each quadrant is then subdivided into four equal quadrants, and so on. Each node in the tree has exactly four children or no children at all, which makes it a leaf node. The height of a quadtree depends on the amount of data being decomposed.

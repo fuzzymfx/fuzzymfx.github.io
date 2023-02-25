@@ -27,6 +27,15 @@ And then there are the social problems -
 ones that are so nuanced that they can't be tackled by any number of token standards or consensus algorithms.
 This post is my attempt at shedding some light on the problems that I'm aware of.
 
+- [Social](#social)
+  - [The majority of crypto is shady, even for artists.](#the-majority-of-crypto-is-shady-even-for-artists)
+  - [NFT marketplaces are centralised and controlled.](#nft-marketplaces-are-centralised-and-controlled)
+  - [NFTs are... worthless?](#nfts-are-worthless)
+  - [Your 'get-rich-quick' chances are miniscule.](#your-get-rich-quick-chances-are-miniscule)
+- [Engineering](#engineering)
+  - [NFTs CAN be altered.](#nfts-can-be-altered)
+  - [Web3 is not technically feasible.](#web3-is-not-technically-feasible)
+	
 ## Social
 
 ### The majority of crypto is shady, even for artists
