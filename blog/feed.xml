@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Anubhab's Blogs]]></title>
+        <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
+        <link>https://anubhavp.dev</link>
+        <image>
+            <url>https://anubhavp.dev/apple-touch-icon.png</url>
+            <title>Anubhab&apos;s Blogs</title>
+            <link>https://anubhavp.dev</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 25 Feb 2023 17:28:29 GMT</lastBuildDate>
+        <atom:link href="https://anubhavp.dev/feed.xml" rel="self" type="application/rss+xml"/>
+        <managingEditor><![CDATA[Anubhab Patnaik]]></managingEditor>
+        <webMaster><![CDATA[Anubhab Patnaik]]></webMaster>
+        <item>
+            <title><![CDATA[Anubhab's Blogs]]></title>
+            <link>https://anubhavp.dev/blog/index.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/index.html</guid>
+        </item>
+        <item>
+            <title><![CDATA[Why is Web3 a sham?| Anubhab's blogs ]]></title>
+            <link>https://anubhavp.dev/blog/infeasibleWeb3.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/infeasibleWeb3.html</guid>
+            <dc:creator><![CDATA[Srijan Paul]]></dc:creator>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Decentralization in MetaMUI Wallet: A Case Study| Anubhab's blogs ]]></title>
+            <link>https://anubhavp.dev/blog/metamuiwallet.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/metamuiwallet.html</guid>
+            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[QTree| Anubhab's blogs ]]></title>
+            <link>https://anubhavp.dev/blog/qtree.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/qtree.html</guid>
+            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <pubDate>Tue, 14 Feb 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rust: The next C++ ?| Anubhab's blogs ]]></title>
+            <link>https://anubhavp.dev/blog/rust.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/rust.html</guid>
+            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[zuzu: A Static Site Generator (SSG)| Anubhab's blogs ]]></title>
+            <link>https://anubhavp.dev/blog/zuzu.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/zuzu.html</guid>
+            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <pubDate>Sun, 29 May 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
