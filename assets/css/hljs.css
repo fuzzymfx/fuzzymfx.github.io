@@ -1,98 +1,8 @@
-@media (prefers-color-scheme: dark) {
-    /* Tomorrow Night Blue Theme */
-    /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-    /* Original theme - https://github.com/chriskempson/tomorrow-theme */
-    /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-    /* Tomorrow Comment */
-    .hljs-comment {
-        color-scheme: dark;
-        color: #7285b7;
-    }
-    /* Tomorrow Red */
-    .hljs-variable,
-    .hljs-attribute,
-    .hljs-tag,
-    .hljs-regexp,
-    .ruby .hljs-constant,
-    .xml .hljs-tag .hljs-title,
-    .xml .hljs-pi,
-    .xml .hljs-doctype,
-    .html .hljs-doctype,
-    .css .hljs-id,
-    .css .hljs-class,
-    .css .hljs-pseudo {
-        color: #ff9da4;
-    }
-    /* Tomorrow Orange */
-    .hljs-number,
-    .hljs-preprocessor,
-    .hljs-pragma,
-    .hljs-built_in,
-    .hljs-literal,
-    .hljs-params,
-    .hljs-constant {
-        color: #ffc58f;
-    }
-    /* Tomorrow Yellow */
-    .ruby .hljs-class .hljs-title,
-    .css .hljs-rule .hljs-attribute {
-        color: #ffeead;
-    }
-    /* Tomorrow Green */
-    .hljs-string,
-    .hljs-value,
-    .hljs-inheritance,
-    .hljs-header,
-    .hljs-name,
-    .ruby .hljs-symbol,
-    .xml .hljs-cdata {
-        color: #d1f1a9;
-    }
-    /* Tomorrow Aqua */
-    .hljs-title,
-    .css .hljs-hexcolor {
-        color: #99ffff;
-    }
-    /* Tomorrow Blue */
-    .hljs-function,
-    .python .hljs-decorator,
-    .python .hljs-title,
-    .ruby .hljs-function .hljs-title,
-    .ruby .hljs-title .hljs-keyword,
-    .perl .hljs-sub,
-    .javascript .hljs-title,
-    .coffeescript .hljs-title {
-        color: #bbdaff;
-    }
-    /* Tomorrow Purple */
-    .hljs-keyword,
-    .javascript .hljs-function {
-        color: #ebbbff;
-    }
-    .hljs {
-        display: block;
-        overflow-x: auto;
-        background: #002451;
-        color: white;
-        padding: 0.5em;
-        -webkit-text-size-adjust: none;
-    }
-    .coffeescript .javascript,
-    .javascript .xml,
-    .tex .hljs-formula,
-    .xml .javascript,
-    .xml .vbscript,
-    .xml .css,
-    .xml .hljs-cdata {
-        opacity: 0.5;
-    }
-}
-
-@media (prefers-color-scheme: Light) {
     /*
 Date: 17.V.2011
 Author: pumbur <pumbur@pumbur.net>
 */
+
     .hljs {
         display: block;
         overflow-x: auto;
@@ -100,11 +10,13 @@ Author: pumbur <pumbur@pumbur.net>
         background: #222;
         -webkit-text-size-adjust: none;
     }
+
     .profile .hljs-header *,
     .ini .hljs-title,
     .nginx .hljs-title {
         color: #fff;
     }
+
     .hljs-comment,
     .hljs-javadoc,
     .hljs-preprocessor,
@@ -120,6 +32,7 @@ Author: pumbur <pumbur@pumbur.net>
     .tex .hljs-special {
         color: #444;
     }
+
     .hljs-string,
     .hljs-symbol,
     .diff .hljs-change,
@@ -132,10 +45,12 @@ Author: pumbur <pumbur@pumbur.net>
     .coffeescript .hljs-attribute {
         color: #ffcc33;
     }
+
     .hljs-number,
     .hljs-addition {
         color: #00cc66;
     }
+
     .hljs-built_in,
     .hljs-literal,
     .hljs-type,
@@ -157,6 +72,7 @@ Author: pumbur <pumbur@pumbur.net>
     .parser3 .hljs-variable {
         color: #32aaee;
     }
+
     .hljs-keyword,
     .hljs-tag .hljs-title,
     .css .hljs-tag,
@@ -170,6 +86,7 @@ Author: pumbur <pumbur@pumbur.net>
     .hljs-status {
         color: #6644aa;
     }
+
     .hljs-title,
     .ruby .hljs-constant,
     .vala .hljs-constant,
@@ -194,6 +111,7 @@ Author: pumbur <pumbur@pumbur.net>
     .tex .hljs-formula * {
         color: #bb1166;
     }
+
     .hljs-yardoctag,
     .hljs-phpdoc,
     .hljs-dartdoc,
@@ -203,6 +121,7 @@ Author: pumbur <pumbur@pumbur.net>
     .parser3 .hljs-title {
         font-weight: bold;
     }
+
     .coffeescript .javascript,
     .javascript .xml,
     .tex .hljs-formula,
@@ -212,6 +131,7 @@ Author: pumbur <pumbur@pumbur.net>
     .xml .hljs-cdata {
         opacity: 0.6;
     }
+
     .hljs,
     .hljs-subst,
     .diff .hljs-chunk,
@@ -219,4 +139,3 @@ Author: pumbur <pumbur@pumbur.net>
     .css .hljs-attribute {
         color: #aaa;
     }
-}
