@@ -6,7 +6,7 @@ description: "Zuzu is a static site generator that converts all your markdown fi
 tags: ["project, markdown, javascript, html, css"]
 ShowBreadCrumbs: true 
 ---
-Zuzu is a static site generator that takes in markdown files and render htmls pages. [This blog](https://anubhavp.dev/oldblog), for example, has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code! It is a very simple and easy to use generator. All you need to do is to write a markdown file and it will be rendered as a page ;) You can create a new page by creating a new markdown file.  
+Zuzu is a static site generator that takes in markdown files and render htmls pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code!  
 
 - [How does it work?](#how-does-it-work)
   * [1. Create a markdown file](#1-create-a-markdown-file)
@@ -18,7 +18,7 @@ Zuzu is a static site generator that takes in markdown files and render htmls pa
   
 ## How does it work?
 
-Zuzu parses the markdown file using *javascript* and renders it as *html documents*. It then saves the html files in the `public` folder. The public folder, with `index.html` file, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on [Github Pages](https://anubhavp.dev/oldblog/).
+Zuzu parses the markdown file using *javascript* and renders it as *html documents*. It then saves the html files in the `docs` folder. The docs folder, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on Github Pages. Here is a blog built using zuzu and react for additional feat. [Anubhab's Blog](https://anubhavp.dev/oldblog/)
 
 ### 1. Create a markdown file
 
@@ -43,9 +43,7 @@ Zuzu parses the markdown file using *javascript* and renders it as *html documen
 
 ### 2. Run the generator and find your blog
 
-Run `npm run generate` in the console.
-You'll now see the blog in the public folder! Run the index.html file in your browser to see your blog. You may now deploy your site
-to a server.
+Run `npm run generate` in the console. We have used GitHub flavoured markdown in the initial setup. You may add your own theme, build your own css and js files and add them to the `static` folder. The `static` folder contains all the static files that are required to render the blog.
 
 ## The Static Site Generator
 
@@ -56,11 +54,15 @@ to a server.
 - [Glob](https://www.npmjs.com/package/glob) *"Globs" are the patterns you type when you do stuff like ls .js on the command line, or put build/ in a .gitignore file.*
 - [Gray-Matter](https://www.npmjs.com/package/gray-matter) *Parse front-matter from a string or file.*
 - [Mkdirp](https://npmjs.com/package/mkdirp) *Create Dirs if they do not exist.*
+- [Path](https://nodejs.org/api/path.html) *Provides utilities for working with file and directory paths.*
+- [Highlight.js](https://highlightjs.org/) *Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It works with pretty much any markup, doesn’t depend on any framework and has automatic language detection.*
+- [MDtoPDF](https://www.npmjs.com/package/md-to-pdf) *Converts markdown to pdf.*
+- [RSS](https://www.npmjs.com/package/rss) *RSS parser.*
+- [Cheerio](https://www.npmjs.com/package/cheerio) *Fast, flexible, and lean implementation of core jQuery designed specifically for the server.*
 
 ### 2. Workflow
 
-This is the code for the generator.js.
-The code works in the following way:
+This is the `version1` of the generator.js. The rest of the code is in the [Github Repo](https://github.com/fuzzymfx/zuzu). Feel free to browse through the rest of the codes to explore additional features like **RSS feed**, **PDF generation**, etc. have been added to the generator.
 
 1. `fs.readfile() from fs` reads all the files from the said directory and stores then in `filename` using `glob`. It is a `glob` that matches all the files in the directory. The `file system` module allows you to work with the file system on your computer.
 1. `gray-matter` helps extracting front matter from the a string or file.
@@ -171,7 +173,7 @@ const processFile = (filename, template, outPath) => {
 
 const main = () => {
     const srcPath = path.resolve('content')
-    const outPath = path.resolve('public')
+    const outPath = path.resolve('docs')
     const template = fs.readFileSync('./templates/initial/template.html', 'utf8')
     const filenames = glob.sync(srcPath + '/**/*.md')
 
