@@ -50,7 +50,7 @@
                     </li>
                 </ul>
                 <div class="content custom">
-                <p>Zuzu is a static site generator that takes in markdown files and render htmls pages. <a href="https://anubhavp.dev/oldblog">This blog</a>, for example, has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code! It is a very simple and easy to use generator. All you need to do is to write a markdown file and it will be rendered as a page ;) You can create a new page by creating a new markdown file.</p>
+                <p>Zuzu is a static site generator that takes in markdown files and render htmls pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code!</p>
 <ul>
 <li><a href="#how-does-it-work">How does it work?</a>
 <ul>
@@ -67,7 +67,7 @@
 </li>
 </ul>
 <h2 id="how-does-it-work" tabindex="-1">How does it work?</h2>
-<p>Zuzu parses the markdown file using <em>javascript</em> and renders it as <em>html documents</em>. It then saves the html files in the <code>public</code> folder. The public folder, with <code>index.html</code> file, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on <a href="https://anubhavp.dev/oldblog/">Github Pages</a>.</p>
+<p>Zuzu parses the markdown file using <em>javascript</em> and renders it as <em>html documents</em>. It then saves the html files in the <code>docs</code> folder. The docs folder, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on Github Pages. Here is a blog built using zuzu and react for additional feat. <a href="https://anubhavp.dev/oldblog/">Anubhab’s Blog</a></p>
 <h3 id="1-create-a-markdown-file" tabindex="-1">1. Create a markdown file</h3>
 <pre><code># This is a title
 This is a paragraph
@@ -89,9 +89,7 @@ This is a table:
 This is a link: [zuzu](https://anubhavp.dev/blog/zuzu.html)
 </code></pre>
 <h3 id="2-run-the-generator-and-find-your-blog" tabindex="-1">2. Run the generator and find your blog</h3>
-<p>Run <code>npm run generate</code> in the console.
-You’ll now see the blog in the public folder! Run the index.html file in your browser to see your blog. You may now deploy your site
-to a server.</p>
+<p>Run <code>npm run generate</code> in the console. We have used GitHub flavoured markdown in the initial setup. You may add your own theme, build your own css and js files and add them to the <code>static</code> folder. The <code>static</code> folder contains all the static files that are required to render the blog.</p>
 <h2 id="the-static-site-generator" tabindex="-1">The Static Site Generator</h2>
 <h3 id="1-libraries-used" tabindex="-1">1. Libraries used</h3>
 <ul>
@@ -100,10 +98,14 @@ to a server.</p>
 <li><a href="https://www.npmjs.com/package/glob">Glob</a> <em>“Globs” are the patterns you type when you do stuff like ls .js on the command line, or put build/ in a .gitignore file.</em></li>
 <li><a href="https://www.npmjs.com/package/gray-matter">Gray-Matter</a> <em>Parse front-matter from a string or file.</em></li>
 <li><a href="https://npmjs.com/package/mkdirp">Mkdirp</a> <em>Create Dirs if they do not exist.</em></li>
+<li><a href="https://nodejs.org/api/path.html">Path</a> <em>Provides utilities for working with file and directory paths.</em></li>
+<li><a href="https://highlightjs.org/">Highlight.js</a> <em>Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It works with pretty much any markup, doesn’t depend on any framework and has automatic language detection.</em></li>
+<li><a href="https://www.npmjs.com/package/md-to-pdf">MDtoPDF</a> <em>Converts markdown to pdf.</em></li>
+<li><a href="https://www.npmjs.com/package/rss">RSS</a> <em>RSS parser.</em></li>
+<li><a href="https://www.npmjs.com/package/cheerio">Cheerio</a> <em>Fast, flexible, and lean implementation of core jQuery designed specifically for the server.</em></li>
 </ul>
 <h3 id="2-workflow" tabindex="-1">2. Workflow</h3>
-<p>This is the code for the generator.js.
-The code works in the following way:</p>
+<p>This is the <code>version1</code> of the generator.js. The rest of the code is in the <a href="https://github.com/fuzzymfx/zuzu">Github Repo</a>. Feel free to browse through the rest of the codes to explore additional features like <strong>RSS feed</strong>, <strong>PDF generation</strong>, etc. have been added to the generator.</p>
 <ol>
 <li><code>fs.readfile() from fs</code> reads all the files from the said directory and stores then in <code>filename</code> using <code>glob</code>. It is a <code>glob</code> that matches all the files in the directory. The <code>file system</code> module allows you to work with the file system on your computer.</li>
 <li><code>gray-matter</code> helps extracting front matter from the a string or file.
@@ -211,7 +213,7 @@ data: {
 
 <span class="hljs-keyword">const</span> <span class="hljs-title function_">main</span> = (<span class="hljs-params"></span>) =&gt; {
     <span class="hljs-keyword">const</span> srcPath = path.<span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;content&#x27;</span>)
-    <span class="hljs-keyword">const</span> outPath = path.<span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;public&#x27;</span>)
+    <span class="hljs-keyword">const</span> outPath = path.<span class="hljs-title function_">resolve</span>(<span class="hljs-string">&#x27;docs&#x27;</span>)
     <span class="hljs-keyword">const</span> template = fs.<span class="hljs-title function_">readFileSync</span>(<span class="hljs-string">&#x27;./templates/initial/template.html&#x27;</span>, <span class="hljs-string">&#x27;utf8&#x27;</span>)
     <span class="hljs-keyword">const</span> filenames = glob.<span class="hljs-title function_">sync</span>(srcPath + <span class="hljs-string">&#x27;/**/*.md&#x27;</span>)
 
