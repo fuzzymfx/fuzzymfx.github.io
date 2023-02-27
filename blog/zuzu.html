@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="description"
 		content="Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff " />
         <meta name="publish-date" content="2022-05-29">
     <meta name="author" content="Anubhab Patnaik">
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
@@ -66,7 +66,7 @@
 </li>
 </ul>
 <h2 id="how-does-it-work" tabindex="-1">How does it work?</h2>
-<p>Zuzu parses the markdown file using <em>javascript</em> and renders it as <em>html documents</em>. It then saves the html files in the <code>docs</code> folder. The docs folder, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on Github Pages. Here is a blog built using zuzu and react for additional feat. <a href="https://anubhavp.dev/oldblog/">Anubhab’s Blog</a></p>
+<p>Zuzu parses the markdown file using <em>javascript</em> and renders it as <em>html documents</em>. It then saves the html files in the <code>docs</code> folder. The docs folder, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on Github Pages. Here is another blog built using zuzu and react for additional feat. <a href="https://anubhavp.dev/oldblog/">Anubhab’s Blog</a></p>
 <h3 id="1-create-a-markdown-file" tabindex="-1">1. Create a markdown file</h3>
 <pre><code># This is a title
 This is a paragraph
@@ -104,7 +104,7 @@ This is a link: [zuzu](https://anubhavp.dev/blog/zuzu.html)
 <li><a href="https://www.npmjs.com/package/cheerio">Cheerio</a> <em>Fast, flexible, and lean implementation of core jQuery designed specifically for the server.</em></li>
 </ul>
 <h3 id="2-workflow" tabindex="-1">2. Workflow</h3>
-<p>This is the <code>version1</code> of the generator.js. The rest of the code is in the <a href="https://github.com/fuzzymfx/zuzu">Github Repo</a>. Feel free to browse through the rest of the codes to explore additional features like <strong>RSS feed</strong>, <strong>PDF generation</strong>, etc. have been added to the generator.</p>
+<p>The code refered here is the <code>version1</code> of the generator.js. We are currently running with the <code>version2</code>. The rest of the code is in the <a href="https://github.com/fuzzymfx/zuzu">Github Repo</a>. Feel free to browse through the rest of the codes to explore additional features like <strong>RSS feed generation</strong>, <strong>PDF generation</strong>, etc. have been added to the generator. We are working towards adding a search feature to the generator.</p>
 <ol>
 <li><code>fs.readfile() from fs</code> reads all the files from the said directory and stores then in <code>filename</code> using <code>glob</code>. It is a <code>glob</code> that matches all the files in the directory. The <code>file system</code> module allows you to work with the file system on your computer.</li>
 <li><code>gray-matter</code> helps extracting front matter from the a string or file.
