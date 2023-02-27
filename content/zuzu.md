@@ -18,7 +18,7 @@ Zuzu is a static site generator that takes in markdown files and render htmls pa
   
 ## How does it work?
 
-Zuzu parses the markdown file using *javascript* and renders it as *html documents*. It then saves the html files in the `docs` folder. The docs folder, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on Github Pages. Here is a blog built using zuzu and react for additional feat. [Anubhab's Blog](https://anubhavp.dev/oldblog/)
+Zuzu parses the markdown file using *javascript* and renders it as *html documents*. It then saves the html files in the `docs` folder. The docs folder, is the final output of the generator and this can be deployed and hosted in various platforms. This particular blog has been deployed on Github Pages. Here is another blog built using zuzu and react for additional feat. [Anubhab's Blog](https://anubhavp.dev/oldblog/)
 
 ### 1. Create a markdown file
 
@@ -62,7 +62,7 @@ Run `npm run generate` in the console. We have used GitHub flavoured markdown in
 
 ### 2. Workflow
 
-This is the `version1` of the generator.js. The rest of the code is in the [Github Repo](https://github.com/fuzzymfx/zuzu). Feel free to browse through the rest of the codes to explore additional features like **RSS feed**, **PDF generation**, etc. have been added to the generator.
+The code refered here is the `version1` of the generator.js. We are currently running with the `version2`. The rest of the code is in the [Github Repo](https://github.com/fuzzymfx/zuzu). Feel free to browse through the rest of the codes to explore additional features like **RSS feed generation**, **PDF generation**, etc. have been added to the generator. We are working towards adding a search feature to the generator.
 
 1. `fs.readfile() from fs` reads all the files from the said directory and stores then in `filename` using `glob`. It is a `glob` that matches all the files in the directory. The `file system` module allows you to work with the file system on your computer.
 1. `gray-matter` helps extracting front matter from the a string or file.
