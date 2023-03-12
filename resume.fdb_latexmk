@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1678605267 "/Users/anubh/Documents/fuzzymfx.github.io/resume.tex" "resume.pdf" "resume" 1678605267
-  "/Users/anubh/Documents/fuzzymfx.github.io/resume.tex" 1678605266 9583 c376d2041a737310d876b12800991635 ""
+["pdflatex"] 1678649490 "/Users/anubh/Documents/fuzzymfx.github.io/resume.tex" "resume.pdf" "resume" 1678649490
+  "/Users/anubh/Documents/fuzzymfx.github.io/resume.tex" 1678649489 9451 5a43c23384376ad197302cf979dc7e0c ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/UKenglish.ldf" 1496785618 2772 43f923fdb8719709f1f3e1f4f671e083 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -54,8 +54,8 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678217458 2826437 d14697ce01b3dbdba7999ee9701450dc ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "assets/deedy-resume-openfont.cls" 1678216386 3642 fae36972848f0d704644eb23c42ce806 ""
-  "resume.aux" 1678605267 32 3985256e7290058c681f74d7a3565a19 ""
-  "resume.tex" 1678605266 9583 c376d2041a737310d876b12800991635 ""
+  "resume.aux" 1678649490 32 3985256e7290058c681f74d7a3565a19 ""
+  "resume.tex" 1678649489 9451 5a43c23384376ad197302cf979dc7e0c ""
   (generated)
   "resume.log"
   "resume.pdf"
