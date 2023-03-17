@@ -8,7 +8,6 @@
 	--lightgray: #f7f7f7;
 }
 
-
 /**
  * Reset
  */
@@ -17,9 +16,10 @@
 	box-sizing: border-box;
 }
 
+body,
 html {
 	font-size: 16px;
-	font-family: avenir next, avenir, 'Open Sans', sans-serif;
+	font-family: avenir next, avenir, 'Open Sans', sans-serif !important;
 }
 
 
