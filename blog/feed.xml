@@ -9,7 +9,7 @@
             <link>https://anubhavp.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Mar 2023 16:02:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Mar 2023 17:25:00 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/feed.xml" rel="self" type="application/rss+xml"/>
         <managingEditor><![CDATA[Anubhab Patnaik]]></managingEditor>
         <webMaster><![CDATA[Anubhab Patnaik]]></webMaster>
@@ -40,7 +40,7 @@
             <pubDate>Tue, 14 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[QTree | Anubhab's blogs ]]></title>
+            <title><![CDATA[RESOC | Anubhab's blogs ]]></title>
             <link>https://anubhavp.dev/blog/resoc.html</link>
             <guid isPermaLink="false">https://anubhavp.dev/blog/resoc.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
