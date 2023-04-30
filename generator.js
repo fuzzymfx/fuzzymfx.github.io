@@ -104,10 +104,12 @@ const main = () => {
     const indexoutPath = path.resolve('')
     const blogtemplate = fs.readFileSync('./templates/initial/blogtemplate.html', 'utf8')
     const indextemplate = fs.readFileSync('./templates/initial/indextemplate.html', 'utf8')
+    const currenttemplate = fs.readFileSync('./templates/initial/currenttemplate.html', 'utf8')
     const filenames = glob.sync(srcPath + '/**/*.md')
 
     filenames.forEach((filename) => {
         if(filename.includes('index.md')) processIndexFile(filename, indextemplate, indexoutPath);
+        else if(filename.includes('current.md')) processIndexFile(filename, currenttemplate, indexoutPath);
         else processBlogFile(filename, blogtemplate, outPath)
     })
 }
