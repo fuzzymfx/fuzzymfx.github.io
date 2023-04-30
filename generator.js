@@ -47,6 +47,10 @@ const templatize = (template, { date, title, content, author }) =>
     .replace(/<!-- TITLE -->/g, title)
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- AUTHOR -->/g, author)
+const indextemplatize = (template, { date, title, content, author }) =>
+    template
+    .replace(/<!-- CONTENT -->/g, content)
+    
 
 const saveFile = (filename, contents) => {
     const dir = path.dirname(filename)
@@ -68,7 +72,7 @@ const getOutputPdfname = (filename, outPath) => {
     return outfile
 }
 
-const processFile = async(filename, template, outPath) => {
+const processBlogFile = async(filename, template, outPath) => {
     const file = readFile(filename)
     const outfilename = getOutputFilename(filename, outPath)
     const outpdfname = getOutputPdfname(filename, outPath)
@@ -84,15 +88,27 @@ const processFile = async(filename, template, outPath) => {
     console.log(`📝 ${outfilename}`)
         // console.log(`📝 ${outpdfname}`)
 }
+const processIndexFile = async(filename, template, outPath) => {
+    const file = readFile(filename)
+    const outfilename = getOutputFilename(filename, outPath)
+    const templatized = indextemplatize(template, {
+            content: file.html,
+        })
+    saveFile(outfilename, templatized)
+    console.log(`📝 ${outfilename}`)
+}
 
 const main = () => {
     const srcPath = path.resolve('content')
     const outPath = path.resolve('blog')
-    const template = fs.readFileSync('./templates/initial/template.html', 'utf8')
+    const indexoutPath = path.resolve('')
+    const blogtemplate = fs.readFileSync('./templates/initial/blogtemplate.html', 'utf8')
+    const indextemplate = fs.readFileSync('./templates/initial/indextemplate.html', 'utf8')
     const filenames = glob.sync(srcPath + '/**/*.md')
 
     filenames.forEach((filename) => {
-        processFile(filename, template, outPath)
+        if(filename.includes('index.md')) processIndexFile(filename, indextemplate, indexoutPath);
+        else processBlogFile(filename, blogtemplate, outPath)
     })
 }
 

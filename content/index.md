@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Anubhab Patnaik's Porfolio " />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Anubhab Patnaik</title>
-</head>
-
-<body>
-    <div>
-        <div class="f6">
-            <header id="header" class="measure-wide center mt6 mb4">
-                <nav>
-                    <div class="mb2 dib">
-                        <a href="/blog" title="blog" class="gray link">blog</a> .
-                        <a href="/" title="about" class="gray link active">anubhab</a>
-                    </div>
-                    <div><a href="/blog/feed.xml" title="anubhab" class="rss gray link">/rss</a></div>
-                </nav>
-            </header>
-            <section id="main" class="page-post gray mb6 lh-copy">
-                <ul class="ph0" style=" 
-                list-style: none;
-                    ">
-                    <li class="pb3">
-                        <a href="/current.html" class="link">current</a><span class="date gray"></span>
-                        <br>
-                        <a href="/resume.pdf" class="link"><span class="date gray">resume.</span></a>
-                    </li>
-                </ul>
-                <div class="content custom">
-                    <p> Hi, I am Anubhab Patnaik, a CS engineer from India.
+<p> Hi, I am Anubhab Patnaik, a CS engineer from India.
                         Interested in math, science, and engineering, I work with software engineering
                         and try to solve real-world problems. I maintain a <a href="/blog">blog</a> where I publish my
                         thoughts and ideas. I write about tech,
@@ -80,12 +41,3 @@
                             href="https://www.linkedin.com/in/anubhabpatnaik0530/">LinkedIn</a>.
                     </p>
                     <p>Say hi to me at <a href="mailto:anubhabr50@gmail.com">anubhabr50@gmail.com</a>.</p>
-
-                </div>
-            </section>
-        </div>
-    </div>
-
-</body>
-
-</html>
