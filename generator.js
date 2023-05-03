@@ -47,10 +47,10 @@ const templatize = (template, { date, title, content, author }) =>
     .replace(/<!-- TITLE -->/g, title)
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- AUTHOR -->/g, author)
-const indextemplatize = (template, { date, title, content, author }) =>
+const indextemplatize = (template, { title, content}) =>
     template
     .replace(/<!-- CONTENT -->/g, content)
-    
+    .replace(/<!-- TITLE -->/g, title)
 
 const saveFile = (filename, contents) => {
     const dir = path.dirname(filename)
@@ -60,6 +60,7 @@ const saveFile = (filename, contents) => {
 
 const getOutputFilename = (filename, outPath) => {
     const basename = path.basename(filename)
+    if(basename.includes('index.md')) return path.join(outPath, 'index.html')
     const newfilename = basename.substring(0, basename.length - 3) + '.html'
     const outfile = path.join(outPath, newfilename)
     return outfile
@@ -93,6 +94,7 @@ const processIndexFile = async(filename, template, outPath) => {
     const outfilename = getOutputFilename(filename, outPath)
     const templatized = indextemplatize(template, {
             content: file.html,
+            title: file.data.title,
         })
     saveFile(outfilename, templatized)
     console.log(`📝 ${outfilename}`)
@@ -105,11 +107,18 @@ const main = () => {
     const blogtemplate = fs.readFileSync('./templates/initial/blogtemplate.html', 'utf8')
     const indextemplate = fs.readFileSync('./templates/initial/indextemplate.html', 'utf8')
     const currenttemplate = fs.readFileSync('./templates/initial/currenttemplate.html', 'utf8')
+    const blogindextemplate = fs.readFileSync('./templates/initial/blogindextemplate.html', 'utf8')
     const filenames = glob.sync(srcPath + '/**/*.md')
 
     filenames.forEach((filename) => {
-        if(filename.includes('index.md')) processIndexFile(filename, indextemplate, indexoutPath);
+        if(filename.includes('index.md')) {
+            if(filename.includes('blogindex.md')) processIndexFile(filename, blogindextemplate, outPath);
+            else processIndexFile(filename, indextemplate, indexoutPath);
+        }
+    
         else if(filename.includes('current.md')) processIndexFile(filename, currenttemplate, indexoutPath);
+        else if (filename.includes('background.md')) processIndexFile(filename, currenttemplate, indexoutPath);
+    
         else processBlogFile(filename, blogtemplate, outPath)
     })
 }

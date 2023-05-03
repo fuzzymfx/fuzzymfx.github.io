@@ -1,10 +1,12 @@
-
+---
+title: Anubhab Patnaik
+---
 <p> Hi, I am Anubhab Patnaik, a CS engineer from India.
                         Interested in math, science, and engineering, I work with software engineering
                         and try to solve real-world problems. I maintain a <a href="/blog">blog</a> where I publish my
                         thoughts and ideas. I write about tech,
                         science, and my
-                        life. <a href="/current.html">Here's</a> what I am upto these days.
+                        life. Here's <a href="/background.html"> my background</a> and here's<a href="/current.html"> what I am upto these days</a>.
                     </p>
                     <p> I work with whatever piques my interest. I used to dabble in ML and now work with web, mobile,
                         and CMD applications. I polish my DS and algo on <a target="_blank" id="leetcode"
