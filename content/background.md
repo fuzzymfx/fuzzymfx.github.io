@@ -35,7 +35,7 @@ title: background
 - Event: NCODE - SWITCH 2021 - [🔗](https://www.instagram.com/p/CQOo-66L4ar/?igshid=YmMyMTA2M2Y=)
 - Event: HackOverflow - SWITCH 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_sitbbsr-sitswitch-hackathon-activity-6921001740745990144-sUIm?utm_source=share&utm_medium=member_desktop)
 - Event: Striver - SWITCH 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_striver-takeuforward-offline-activity-6940700525692690432-SuYL?utm_source=share&utm_medium=member_desktop)
-- President, Chairperson IEEE Studnets' Branch - SIT 2022-23 - [🔗]()
+- President, Chairperson IEEE Students' Branch - SIT 2022-23 - [🔗]()
 - Graphics Designer - IEEE SIT 2021-23 - [🔗](https://instagram.com/ieeesitbbsr?igshid=YmMyMTA2M2Y=)
 - Event: Codemesh# - IEEE SIT 2021 - [🔗](https://www.instagram.com/p/CQso808rdTi/?igshid=YmMyMTA2M2Y=)
 - Event: Tresure Hunt - IEEE SIT 2022 -[🔗](https://www.instagram.com/p/CcsM2WxLOyN/?igshid=YmMyMTA2M2Y=)
