@@ -11,11 +11,13 @@ title: background
 ### Work Experience
 
 - Cybersecurity - Summer Internship 2020 - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
+- IOT - Summer Internship 2021 - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
 - Python Tutor - Triluxo 2021 - [🔗](https://drive.google.com/file/d/1QtlOYWOXRhybfRIgOV-px3bPdye2M_cW/view?usp=sharing)
 - MLOps & React Internship - Ebibil Technologies - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
-- IOT - Summer Internship 2021 - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
-- Software Developer 2022 - Squbix Digital - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
 - Freelance Software Developer 2022 -Afixi Technologies - [🔗]()
+- Software Developer 2022 - Squbix Digital - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
+- Co-founder - CBRTL 2022 - [🔗](https://cbrtl.github.io/)
+- Co-founder & CTO 2023 - Adyquate - [🔗](https://adyquate.com/)
 
 #### Other Certifications
 
