@@ -33,6 +33,8 @@ title: background
 - High Commendation I - SITMUN 2021 - [🔗](https://drive.google.com/file/d/1RI8fXtCTYrlYlX-dnGvfQQ76CHx0AEaq/view?usp=sharing)
 - Co-founder & Joint Secretary - SWITCH 2021-22 - [🔗](https://drive.google.com/file/d/1Zub7ui2WCRYgN7tM0G8p-dbeFLirGR-d/view?usp=sharing)
 - Graphics Designer - SWITCH 2021-22 - [🔗](https://instagram.com/switch.sitbbsr?igshid=YmMyMTA2M2Y=)
+- Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
+- Linux for Cloud & DevOps Engineers - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-43d4c49a-155a-4b08-8524-ed7cae15e55e/)
 - President, Chairperson IEEE Students' Branch - SIT 2022-23 - [🔗]()
 - Graphics Designer - IEEE SIT 2021-23 - [🔗](https://instagram.com/ieeesitbbsr?igshid=YmMyMTA2M2Y=)
 - Why Rust - Squbix Digital 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_i-hosted-a-tech-talk-last-week-and-it-went-activity-6987708219385122816-aq9z?utm_source=share&utm_medium=member_desktop)
