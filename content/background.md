@@ -13,7 +13,7 @@ title: background
 - Cybersecurity - Summer Internship 2020 - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
 - IOT - Summer Internship 2021 - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
 - Python Tutor - Triluxo 2021 - [🔗](https://drive.google.com/file/d/1QtlOYWOXRhybfRIgOV-px3bPdye2M_cW/view?usp=sharing)
-- MLOps & React Internship - Ebibil Technologies 2022 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
+- MLOps & React Internship - Ebibil Technologies 2021 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
 - Freelance Software Developer -Afixi Technologies 2022 - [🔗]()
 - Software Developer - Squbix Digital 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
 - Co-founder - CBRTL 2022 - [🔗](https://cbrtl.github.io/)
