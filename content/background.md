@@ -41,7 +41,7 @@ title: background
 - Ideathon ED-Cell - SIT 2022 - [🔗]()
 - Ideathon Nirman - SIT 2022 - [🔗]()
 - Why Rust - Squbix Digital 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_i-hosted-a-tech-talk-last-week-and-it-went-activity-6987708219385122816-aq9z?utm_source=share&utm_medium=member_desktop)
-- Binance Ideathon 2022 - #BlockchainforGood - [🔗](https://drive.google.com/file/d/1IcDC_7L4bw-PPsLsNhH9cS2ezDynDAMB/view?usp=share_🔗)
+- Binance Ideathon - #BlockchainforGood 2022 - [🔗](https://drive.google.com/file/d/1IcDC_7L4bw-PPsLsNhH9cS2ezDynDAMB/view?usp=share_🔗)
 - Contigent Leader - IIT Bombay 2023 - [🔗](https://drive.google.com/file/d/1NMJChzaUcKUKqYJJW3EEGX2WogZyVPJh/view?usp=sharing)
 - Best Delegate - XIMUN 2023 - [🔗](https://drive.google.com/file/d/1vTZl3K2kRTJgDgFr3lN5mxSaz7pnwvc2/view?usp=sharing)
 - Web Developer/ Mentor- Zygon Organizing Committee 2023 - [🔗](https://drive.google.com/file/d/1Xqf9fN3ABCQli4tqEc39RKe3iXkqf-sx/view?usp=share_link)
