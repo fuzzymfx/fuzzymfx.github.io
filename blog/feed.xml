@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title><![CDATA[Anubhab's Blogs]]></title>
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
@@ -10,7 +13,7 @@
         </image>
         <generator>RSS for Node</generator>
         <lastBuildDate>Thu, 04 May 2023 13:35:39 GMT</lastBuildDate>
-        <atom:link href="https://anubhavp.dev/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://anubhavp.dev/feed.xml" rel="self" type="application/rss+xml" />
         <managingEditor><![CDATA[Anubhab Patnaik]]></managingEditor>
         <webMaster><![CDATA[Anubhab Patnaik]]></webMaster>
         <item>
@@ -24,6 +27,13 @@
             <guid isPermaLink="false">https://anubhavp.dev/blog/infeasibleWeb3.html</guid>
             <dc:creator><![CDATA[Srijan Paul]]></dc:creator>
             <pubDate>Wed, 19 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[
+        current
+    ]]></title>
+            <link>https://anubhavp.dev/blog/january23.html</link>
+            <guid isPermaLink="false">https://anubhavp.dev/blog/january23.html</guid>
         </item>
         <item>
             <title><![CDATA[Decentralization in MetaMUI Wallet: A Case Study | Anubhab's blogs ]]></title>

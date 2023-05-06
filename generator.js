@@ -111,14 +111,14 @@ const main = () => {
     const filenames = glob.sync(srcPath + '/**/*.md')
 
     filenames.forEach((filename) => {
+        const months =['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august','september', 'october', 'november', 'december']
         if(filename.includes('index.md')) {
             if(filename.includes('blogindex.md')) processIndexFile(filename, blogindextemplate, outPath);
             else processIndexFile(filename, indextemplate, indexoutPath);
         }
-    
         else if(filename.includes('current.md')) processIndexFile(filename, currenttemplate, indexoutPath);
         else if (filename.includes('background.md')) processIndexFile(filename, currenttemplate, indexoutPath);
-    
+        else if(months.some(el => filename.includes(el))) processBlogFile(filename, currenttemplate, outPath);
         else processBlogFile(filename, blogtemplate, outPath)
     })
 }

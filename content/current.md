@@ -58,4 +58,4 @@ While it is bittersweet to say goodbye to this phase of my life, I am eagerly lo
 
 Older posts:
 
-##### [January, 2023](/january23.html)
+##### [January, 2023](/blog/january23.html)
