@@ -2,154 +2,131 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="description"
-    content="Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff " />
-  <meta name="publish-date" content="2023-02-14">
-  <meta name="author" content="Anubhab Patnaik">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/manifest.json" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="description"
+		content="Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff " />
+        <meta name="publish-date" content="2023-02-14">
+    <meta name="author" content="Anubhab Patnaik">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-  <title>QTree | Anubhab's blogs </title>
-
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/hljs.css">
+    <title>QTree | Anubhab's blogs </title>
+    
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/hljs.css">
 </head>
 
 <body class="markdown-body">
-  <div>
-    <div class="f6">
-      <header id="header" class="measure-wide center mt6 mb4">
-        <nav>
-          <div class="mb2 dib">
-            <a href="/blog" title="blog" class="gray link active">blog</a> .
-            <a href="/" title="about" class="gray link ">anubhab</a>
-          </div>
-          <div><a href="/blog/feed.xml" title="anubhab" class="rss gray link">/rss</a></div>
-        </nav>
-        <h2 class="f2 lh-title mb2">
-          QTree
-        </h2>
-        <h4 class="f4 lh-title gray">
-          Anubhab Patnaik
-        </h4>
-      </header>
-      <section id="main" class="page-post gray mb6 lh-copy">
-        <ul class="ph0" style=" 
+    <div>
+        <div class="f6">
+            <header id="header" class="measure-wide center mt6 mb4">
+                <nav>
+                    <div class="mb2 dib">
+                        <a href="/blog" title="blog" class="gray link active">blog</a> .
+                        <a href="/" title="about" class="gray link ">anubhab</a> 
+                    </div>
+                    <div><a href="/blog/feed.xml" title="anubhab" class="rss gray link">/rss</a></div>
+                </nav>
+                <h2 class="f2 lh-title mb2">
+                    QTree 
+                </h2>
+                <h4 class="f4 lh-title gray">
+                    Anubhab Patnaik
+                </h4>
+            </header>
+            <section id="main" class="page-post gray mb6 lh-copy">
+                <ul class="ph0" style=" 
                 list-style: none;
                     ">
-          <li class="pb3">
-            2023-02-14
-          </li>
-        </ul>
-        <div class="content custom">
-          <script type="module" src="/assets/js/qtree/index.js"></script>
-          <script type="module" src="/assets/js/qtree/qdtree.js"></script>
-          <p>I stumbled upon <a href="https://koalastothemax.com/">KoalasToTheMax</a> while reading a blog post about
-            the most exciting web pages built for fun, and I was blown away. <a href="https://injuly.in/">Srijan</a>
-            explained how it works, and we were inspired to create something similar.</p>
-          <p>But first, let’s get into the basics of the data structures used in our project.</p>
-          <ul>
-            <li><a href="#quadtree">Quadtree</a>
-              <ul>
-                <li><a href="#member-functions">Member Functions</a></li>
-                <li><a href="#node">Node</a></li>
-              </ul>
-            </li>
-            <li><a href="#demonstration">Demonstration</a></li>
-            <li><a href="#setting-up-the-canvas">Setting up the Canvas</a>
-              <ul>
-                <li><a href="#image-data-compression">Image Data Compression</a></li>
-                <li><a href="#bounding-box">Bounding Box</a></li>
-                <li><a href="#image-data-to-quadtree">Image Data to Quadtree</a></li>
-              </ul>
-            </li>
-          </ul>
-          <h2 id="quadtree" tabindex="-1">Quadtree</h2>
-          <p>A quadtree is a tree-based data structure where each node has exactly four child nodes. Our quadtree
-            represents a partition of space in two dimensions by dividing the region into four equal quadrants. Each
-            quadrant is then subdivided into four equal quadrants, and so on. Each node in the tree has exactly four
-            children or no children at all, which makes it a leaf node. The height of a quadtree depends on the amount
-            of data being decomposed.</p>
-          <p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Quad_tree_bitmap.svg" alt="quadtree"></p>
-          <p>The root node is the image. Each node is the average value of its children’s pixel values. The tree is
-            recursively subdivided until each leaf node is a single pixel. The tree is then traversed to compress the
-            image. To decompress the image, the tree is traversed again.</p>
-          <h3 id="member-functions" tabindex="-1">Member Functions</h3>
-          <p>Our quadtree has the following member functions:</p>
-          <ul>
-            <li><strong>compressImageData</strong> : It takes the image data and the compression factor as the input and
-              returns the quadtree.</li>
-            <li><strong>createQTreeOfHeight</strong> : It takes the height of the tree and the bounding box as the input
-              and returns the quadtree.</li>
-            <li><strong>populate</strong> : It populates the quadtree with the pixel values.</li>
-            <li><strong>getRGBValuesFromCoordinates</strong> : It takes the quadtree and the coordinates as the input
-              and returns the pixel value at the given coordinates.</li>
-          </ul>
-          <h3 id="node" tabindex="-1">Node</h3>
-          <p>The QTNODE class represents a node in the quadtree. It has the following properties:</p>
-          <ul>
-            <li><strong>x</strong> : x-coordinate</li>
-            <li><strong>y</strong> : y-coordinate</li>
-            <li><strong>w</strong> : width of the bounding box.</li>
-            <li><strong>h</strong> : height of the bounding box.</li>
-            <li><strong>children</strong> : array of four children.</li>
-            <li><strong>rgb</strong> : pixel value of the node.</li>
-          </ul>
-          <p>Functions:</p>
-          <ul>
-            <li><strong>draw</strong> : draws the node. Takes the canvas context as the input and returns nothing.</li>
-            <li><strong>insert</strong>: inserts a node into the quadtree. Takes the quadtree and the node as the input
-              and returns the quadtree.</li>
-            <li><strong>drawAtHeight</strong>: draws the nodes at a given height. Takes the canvas context, the height
-              of the tree, and the current height as the input and returns nothing.</li>
-            <li><strong>draw</strong>: draws the nodes. Takes the canvas context and the height of the tree as the input
-              and returns nothing.</li>
-            <li><strong>reveal</strong>: reveals the nodes. Takes the canvas context and the height of the tree as the
-              input and returns nothing.</li>
-            <li><strong>computeAverageColor</strong>: computes the average color of the node. Takes the quadtree and the
-              image data as the input and returns the pixel value.</li>
-          </ul>
-          <h2 id="demonstration" tabindex="-1">Demonstration</h2>
-          <div class="container" style="text-align: center;">
-            <canvas id="canvas-2" style="border: 1px solid black;">
-            </canvas>
-            <br>
-            <p>Hover over any part of the canvas to recursively divide it into four quadrants.</p>
-          </div>
-          <div class="container" style="text-align: center;">
-            <canvas id="canvas-1" style="border: 1px solid black;"> </canvas>
-            <br>
-            <input type="range" id="slider" min="0" max="100" value="0">
-            <br>
-            <p>The slider controls the depth of the tree.</p>
-          </div>
-          <p>The slider is set to 0 by default, which means the entire image is compressed into a single pixel. The
-            slider when set to 100 means the image is not compressed at all. The slider can be set to any value between
-            0 and 100.</p>
-          <h2 id="setting-up-the-canvas" tabindex="-1">Setting up the Canvas</h2>
-          <p>To start with, we need two canvases - one for you to hover over and the other for you to control the depth
-            of the tree using a slider and render the nodes evenly. Initially, we had multiple ways of taking an image
-            as the input form, such as uploading an image, using query parameters, etc. But for this demonstration,
-            we’ll keep it simple and use a static image.</p>
-          <p>Here’s some JavaScript code that will load the image into a canvas:</p>
-          <pre><code class="language-js"><span class="hljs-keyword">const</span> image = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Image</span>();
+                    <li class="pb3">
+                        2023-02-14
+                    </li>
+                </ul>
+                <div class="content custom">
+                <script type="module" src="/assets/js/qtree/index.js" ></script>
+<script type="module" src="/assets/js/qtree/qdtree.js" ></script>
+<p>I stumbled upon <a href="https://koalastothemax.com/">KoalasToTheMax</a> while reading a blog post about the most exciting web pages built for fun, and I was blown away. <a href="https://injuly.in/">Srijan</a> explained how it works, and we were inspired to create something similar.</p>
+<p>But first, let’s get into the basics of the data structures used in our project.</p>
+<ul>
+<li><a href="#quadtree">Quadtree</a>
+<ul>
+<li><a href="#member-functions">Member Functions</a></li>
+<li><a href="#node">Node</a></li>
+</ul>
+</li>
+<li><a href="#demonstration">Demonstration</a></li>
+<li><a href="#setting-up-the-canvas">Setting up the Canvas</a>
+<ul>
+<li><a href="#image-data-compression">Image Data Compression</a></li>
+<li><a href="#bounding-box">Bounding Box</a></li>
+<li><a href="#image-data-to-quadtree">Image Data to Quadtree</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="quadtree" tabindex="-1">Quadtree</h2>
+<p>A quadtree is a tree-based data structure where each node has exactly four child nodes. Our quadtree represents a partition of space in two dimensions by dividing the region into four equal quadrants. Each quadrant is then subdivided into four equal quadrants, and so on. Each node in the tree has exactly four children or no children at all, which makes it a leaf node. The height of a quadtree depends on the amount of data being decomposed.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Quad_tree_bitmap.svg" alt="quadtree"></p>
+<p>The root node is the image. Each node is the average value of its children’s pixel values. The tree is recursively subdivided until each leaf node is a single pixel. The tree is then traversed to compress the image. To decompress the image, the tree is traversed again.</p>
+<h3 id="member-functions" tabindex="-1">Member Functions</h3>
+<p>Our quadtree has the following member functions:</p>
+<ul>
+<li><strong>compressImageData</strong> : It takes the image data and the compression factor as the input and returns the quadtree.</li>
+<li><strong>createQTreeOfHeight</strong> : It takes the height of the tree and the bounding box as the input and returns the quadtree.</li>
+<li><strong>populate</strong> : It populates the quadtree with the pixel values.</li>
+<li><strong>getRGBValuesFromCoordinates</strong> : It takes the quadtree and the coordinates as the input and returns the pixel value at the given coordinates.</li>
+</ul>
+<h3 id="node" tabindex="-1">Node</h3>
+<p>The QTNODE class represents a node in the quadtree. It has the following properties:</p>
+<ul>
+<li><strong>x</strong> : x-coordinate</li>
+<li><strong>y</strong> : y-coordinate</li>
+<li><strong>w</strong> : width of the bounding box.</li>
+<li><strong>h</strong> : height of the bounding box.</li>
+<li><strong>children</strong> : array of four children.</li>
+<li><strong>rgb</strong> : pixel value of the node.</li>
+</ul>
+<p>Functions:</p>
+<ul>
+<li><strong>draw</strong> : draws the node. Takes the canvas context as the input and returns nothing.</li>
+<li><strong>insert</strong>: inserts a node into the quadtree. Takes the quadtree and the node as the input and returns the quadtree.</li>
+<li><strong>drawAtHeight</strong>: draws the nodes at a given height. Takes the canvas context, the height of the tree, and the current height as the input and returns nothing.</li>
+<li><strong>draw</strong>: draws the nodes. Takes the canvas context and the height of the tree as the input and returns nothing.</li>
+<li><strong>reveal</strong>: reveals the nodes. Takes the canvas context and the height of the tree as the input and returns nothing.</li>
+<li><strong>computeAverageColor</strong>: computes the average color of the node. Takes the quadtree and the image data as the input and returns the pixel value.</li>
+</ul>
+<h2 id="demonstration" tabindex="-1">Demonstration</h2>
+<div class="container" style="text-align: center;">
+	<canvas id="canvas-2"  style="border: 1px solid black;"	>
+	</canvas>
+	<br>
+<p>Hover over any part of the canvas to recursively divide it into four quadrants.</p>
+</div>
+<div class="container" style="text-align: center;">
+	<canvas id="canvas-1" style="border: 1px solid black;"> </canvas>
+	<br>
+	<input type="range" id="slider" min="0" max="100" value="0">
+	<br>
+<p>The slider controls the depth of the tree.</p>
+</div>
+<p>The slider is set to 0 by default, which means the entire image is compressed into a single pixel. The slider when set to 100 means the image is not compressed at all. The slider can be set to any value between 0 and 100.</p>
+<h2 id="setting-up-the-canvas" tabindex="-1">Setting up the Canvas</h2>
+<p>To start with, we need two canvases - one for you to hover over and the other for you to control the depth of the tree using a slider and render the nodes evenly. Initially, we had multiple ways of taking an image as the input form, such as uploading an image, using query parameters, etc. But for this demonstration, we’ll keep it simple and use a static image.</p>
+<p>Here’s some JavaScript code that will load the image into a canvas:</p>
+<pre><code class="language-js"><span class="hljs-keyword">const</span> image = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Image</span>();
 img.<span class="hljs-property">src</span> = <span class="hljs-string">&quot;/blog/assets/images/qtree/cryptopunk.jpeg&quot;</span>;
 img.<span class="hljs-property">onload</span> = <span class="hljs-function">() =&gt;</span> {
     <span class="hljs-title function_">initSliderCanvas</span>(img);
     <span class="hljs-title function_">initMouseCanvas</span>(img);
 };
 </code></pre>
-          <p>I’ll go ahead and explain the working of the mouse hover canvas and you can explore the slider canvas. The
-            code is available on <a href="https://github.com/cbrtl/qd-compression">GitHub</a>, and you can play around
-            with it later if you are interested.</p>
-          <pre><code class="language-js"><span class="hljs-keyword">import</span> { compressImageData } <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;./qdtree.js&quot;</span>;
+<p>I’ll go ahead and explain the working of the mouse hover canvas and you can explore the slider canvas. The code is available on <a href="https://github.com/cbrtl/qd-compression">GitHub</a>, and you can play around with it later if you are interested.</p>
+<pre><code class="language-js"><span class="hljs-keyword">import</span> { compressImageData } <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;./qdtree.js&quot;</span>;
 <span class="hljs-keyword">function</span> <span class="hljs-title function_">initMouseCanvas</span>(<span class="hljs-params">img</span>){
 	<span class="hljs-keyword">const</span> canvas = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;canvas-2&quot;</span>);
     <span class="hljs-keyword">const</span> ctx = canvas.<span class="hljs-title function_">getContext</span>(<span class="hljs-string">&quot;2d&quot;</span>);
@@ -160,17 +137,10 @@ img.<span class="hljs-property">onload</span> = <span class="hljs-function">() =
 	...
 }
 </code></pre>
-          <h3 id="image-data-compression" tabindex="-1">Image Data Compression</h3>
-          <p>Now, let’s get to the fun part - compressing images. We import the <code>compressImageData</code> function
-            from the qdtree.js file. This function takes the image data and the compression factor as the input and
-            returns the quadtree. The <strong>height of the tree</strong> is calculated by taking the log of the number
-            of pixels in the image and dividing it by the log of 4 (number of children of a node). The log of 4 is 2,
-            and the log of the number of pixels is the height of the tree. The height of the tree is then rounded down
-            to the nearest integer. The tree is then created using the <code>createQTreeOfHeight</code> function that
-            takes the height of the tree and the <strong>bounding box</strong> as the input and returns the quadtree.
-          </p>
-          <p><strong>qdtree.js</strong></p>
-          <pre><code class="language-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">compressImageData</span>(<span class="hljs-params">imageData, factor</span>) {
+<h3 id="image-data-compression" tabindex="-1">Image Data Compression</h3>
+<p>Now, let’s get to the fun part - compressing images. We import the <code>compressImageData</code> function from the qdtree.js file. This function takes the image data and the compression factor as the input and returns the quadtree. The <strong>height of the tree</strong> is calculated by taking the log of the number of pixels in the image and dividing it by the log of 4 (number of children of a node). The log of 4 is 2, and the log of the number of pixels is the height of the tree. The height of the tree is then rounded down to the nearest integer. The tree is then created using the <code>createQTreeOfHeight</code> function that takes the height of the tree and the <strong>bounding box</strong> as the input and returns the quadtree.</p>
+<p><strong>qdtree.js</strong></p>
+<pre><code class="language-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">compressImageData</span>(<span class="hljs-params">imageData, factor</span>) {
   <span class="hljs-keyword">const</span> { width, height } = imageData;
   <span class="hljs-keyword">const</span> newWidth = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">ceil</span>(width / factor);
   <span class="hljs-keyword">const</span> newHeight = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">ceil</span>(height / factor);
@@ -188,14 +158,10 @@ img.<span class="hljs-property">onload</span> = <span class="hljs-function">() =
   <span class="hljs-keyword">return</span> qTree;
 }
 </code></pre>
-          <p>The <code>createQTreeOfHeight</code> function takes in the height of the tree and the bounding box as the
-            input and returns the quadtree.</p>
-          <h4 id="bounding-box" tabindex="-1">Bounding Box</h4>
-          <p>The bounding box is the area that the node represents. The bounding box is initially the entire image. The
-            bounding box is then divided into four equal quadrants, and the process is repeated until the height of the
-            tree is 0. The <code>populate</code> function takes the quadtree and the image data as the input and
-            populates the tree with the average pixel values of the children’s pixel values.</p>
-          <pre><code class="language-js"> <span class="hljs-keyword">function</span> <span class="hljs-title function_">createQTreeOfHeight</span>(<span class="hljs-params">height, aabb</span>) {
+<p>The <code>createQTreeOfHeight</code> function takes in the height of the tree and the bounding box as the input and returns the quadtree.</p>
+<h4 id="bounding-box" tabindex="-1">Bounding Box</h4>
+<p>The bounding box is the area that the node represents. The bounding box is initially the entire image. The bounding box is then divided into four equal quadrants, and the process is repeated until the height of the tree is 0. The <code>populate</code> function takes the quadtree and the image data as the input and populates the tree with the average pixel values of the children’s pixel values.</p>
+<pre><code class="language-js"> <span class="hljs-keyword">function</span> <span class="hljs-title function_">createQTreeOfHeight</span>(<span class="hljs-params">height, aabb</span>) {
   <span class="hljs-keyword">function</span> <span class="hljs-title function_">recursiveCreate</span>(<span class="hljs-params">node, height</span>) {
     <span class="hljs-keyword">if</span> (height === <span class="hljs-number">0</span>) <span class="hljs-keyword">return</span>;
 
@@ -240,13 +206,9 @@ img.<span class="hljs-property">onload</span> = <span class="hljs-function">() =
   }
  }
 </code></pre>
-          <h3 id="image-data-to-quadtree" tabindex="-1">Image data to Quadtree</h3>
-          <p>Alright, let’s talk about the <code>reveal</code> function, which is like a magician revealing the hidden
-            nodes under the mouse. And then there’s the <code>draw</code> function, which is like an artist sketching
-            the nodes on the canvas. The <code>update</code> function is like your mom constantly cleaning up after you
-            every 30 milliseconds. It clears the canvas and redraws the nodes on the canvas, all to make sure it looks
-            neat and tidy.</p>
-          <pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">initMouseCanvas</span>(<span class="hljs-params">img</span>){
+<h3 id="image-data-to-quadtree" tabindex="-1">Image data to Quadtree</h3>
+<p>Alright, let’s talk about the <code>reveal</code> function, which is like a magician revealing the hidden nodes under the mouse. And then there’s the <code>draw</code> function, which is like an artist sketching the nodes on the canvas. The <code>update</code> function is like your mom constantly cleaning up after you every 30 milliseconds. It clears the canvas and redraws the nodes on the canvas, all to make sure it looks neat and tidy.</p>
+<pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">initMouseCanvas</span>(<span class="hljs-params">img</span>){
 	...
  <span class="hljs-keyword">const</span> mousePos = { <span class="hljs-attr">x</span>: <span class="hljs-number">0</span>, <span class="hljs-attr">y</span>: <span class="hljs-number">0</span> };
     <span class="hljs-keyword">let</span> lastUpdateTime = -<span class="hljs-title class_">Infinity</span>;
@@ -273,18 +235,15 @@ img.<span class="hljs-property">onload</span> = <span class="hljs-function">() =
     });
 }
 </code></pre>
-          <h2 id="conclusion" tabindex="-1">Conclusion</h2>
-          <p>So, what’s the point of all this? Well, we can use a quadtree to compress and decompress images when the
-            mouse hovers over a specific area of the canvas. It’s like a secret code that unlocks a hidden image!</p>
-          <p>If you want to explore more, check out the slider and the entire source code on <a
-              href="http://github.com/cbrtl/qd-compression">GitHub</a>. And don’t hesitate to ask us any questions or
-            give suggestions. We’re always happy to chat on GitHub!</p>
-          <p><em>Ref: <a href="https://en.wikipedia.org/wiki/Quadtree">Wikipedia</a></em></p>
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<p>So, what’s the point of all this? Well, we can use a quadtree to compress and decompress images when the mouse hovers over a specific area of the canvas. It’s like a secret code that unlocks a hidden image!</p>
+<p>If you want to explore more, check out the slider and the entire source code on <a href="http://github.com/cbrtl/qd-compression">GitHub</a>. And don’t hesitate to ask us any questions or give suggestions. We’re always happy to chat on GitHub!</p>
+<p><em>Ref: <a href="https://en.wikipedia.org/wiki/Quadtree">Wikipedia</a></em></p>
 
+                </div>
+
+            </section>
         </div>
-
-      </section>
-    </div>
 </body>
 
 </html>
