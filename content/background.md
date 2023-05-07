@@ -38,7 +38,7 @@ title: background
 - Linux for Cloud & DevOps Engineers - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-43d4c49a-155a-4b08-8524-ed7cae15e55e/)
 - President, Chairperson IEEE Students' Branch - SIT 2022-23 - [🔗]()
 - Graphics Designer - IEEE SIT 2021-23 - [🔗](https://instagram.com/ieeesitbbsr?igshid=YmMyMTA2M2Y=)
-- Ideathon ED-Cell - SIT 2022 - [🔗]()
+- Ideathon ED-Cell - SIT 2022 - [🔗](https://drive.google.com/file/d/1i--TyXYDPxMN5IbokTzFoTGE4K-rnpXM/view?usp=share_link)
 - Ideate Nirman - SIT 2022 - [🔗](https://drive.google.com/file/d/1i--TyXYDPxMN5IbokTzFoTGE4K-rnpXM/view?usp=share_link)
 - Why Rust - Squbix Digital 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_i-hosted-a-tech-talk-last-week-and-it-went-activity-6987708219385122816-aq9z?utm_source=share&utm_medium=member_desktop)
 - Binance Ideathon - #BlockchainforGood 2022 - [🔗](https://drive.google.com/file/d/1IcDC_7L4bw-PPsLsNhH9cS2ezDynDAMB/view?usp=share_🔗)
