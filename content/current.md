@@ -4,17 +4,18 @@ title: "current"
 
 ##### April, 2023
 
-I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop): Getting into the rhythm of version control with Git & GitHub with UnStop Chapter of Sit, BBS and it was a huge success. We are planning to host a more advanced session on Git and GitHub in the near future. There's also a web development workshop coming up.
+I recently visited Bangalore and met with my friends Abinash, Sabya, and Srijan. We had a great time and I am looking forward to meeting
+them again. I went to Bangalore to explore a new idea. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, which is to work with one of the top tech companies and work on projects that I am really passionate about. While I go and hunt for jobs, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am really excited about it.
+
+I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop): Getting into the rhythm of version control with Git & GitHub with UnStop Chapter of Sit, BBS and it was a huge success. We are planning to host a more advanced session on Git and GitHub shortly. There's also a web development workshop coming up.
 
 Meanwhile, at IEEE, we arranged a talk show with Ramneek Kalra that focused on getting to know IEEE and its benefits. The IEEE Students Chapter is an organization dedicated to promoting knowledge and understanding of engineering. It organization is run by students and offers a variety of benefits, including networking opportunities, access to cutting-edge research, and professional development resources.
 
-I have planned something exciting for me to hop onto once my college gets over. My primary priority still remains the same, that is to work with one of the top tech companies, and work on projects that I am really passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am really excited about it. I will keep you posted.
-
-I am looking to to write blogs/papers on 'String Theory' in the near future. I have always been intrigued by the theory and couldn't get my head to wrap around it. However, now that my college years are coming to an end, I plan to dedicate my time to write about it. Another topic that I wanted to work on is 'Natural Language Models'. I intend to delve deeper into exploring on how exactly natural language models work, the neural networks behind it, some of the most popular models based on transformer architecture, like BERT, and GPT-3. You're always welcome to reach out to me if you want to collaborate on any of these topics.
+I am looking to write blogs/papers on 'String Theory' soon. I have always been intrigued by the theory and couldn't get my head to wrap around it. However, now that my college years are coming to an end, I plan to dedicate my time to writing about it. Another topic that I wanted to work on is 'Natural Language Models'. I intend to delve deeper into exploring how exactly natural language models work, the neural networks behind them, and some of the most popular models based on transformer architecture, like BERT, and GPT-3. You're always welcome to reach out to me if you want to collaborate on any of these topics.
 
 Books:
 
-- Remeberance of Earth's past: The trilogy
+- Remembrance of Earth's Past: The Trilogy
   - ~~The three body problem~~
   - The dark forest
   - Death's end
@@ -29,7 +30,7 @@ Binge:
 - ~~Cont. Umbrella Academy~~
 - ~~Lockwood & Co.~~
 
-Currently I am working with [Adyquate](https://adyquate.com), a digital marketing startup.
+Currently, I am working with [Adyquate](https://adyquate.com), a digital marketing startup.
 
 Lately, I've been working on a custom bit-torrent client to download files and movies based on recommendations from my [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation) and a [movie rating prediction system](https://github.com/fuzzymfx/Movie-rating-prediction). I'm planning to port it to Rust later.
 
@@ -39,7 +40,7 @@ Dev:
 
 - [BitTorrent client]( https://github.com/fuzzymfx/bittorrent-client)
   - Add feat. download using magnet links
-  - Finishing up with the project
+  - Finishing the project
   - Porting the torrent client from ts to rust
 - Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
 - [Space Impact](https://en.wikipedia.org/wiki/Space_Impact)
