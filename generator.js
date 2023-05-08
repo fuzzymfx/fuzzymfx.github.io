@@ -41,12 +41,14 @@ const readFile = (filename) => {
     return {...parsed, html }
 }
 
-const templatize = (template, { date, title, content, author }) =>
+const templatize = (template, { date, title, content, author, description }) =>
     template
     .replace(/<!-- PUBLISH_DATE -->/g, date)
     .replace(/<!-- TITLE -->/g, title)
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- AUTHOR -->/g, author)
+    .replace(/<!-- DESCRIPTION -->/g, description)
+
 const indextemplatize = (template, { title, content}) =>
     template
     .replace(/<!-- CONTENT -->/g, content)
@@ -83,6 +85,7 @@ const processBlogFile = async(filename, template, outPath) => {
             title: file.data.title,
             content: file.html,
             author: file.data.author,
+            description: file.data.description,
         })
         // await mdToPdf({ path:filename }, { dest: outpdfname }) ;
     saveFile(outfilename, templatized)
