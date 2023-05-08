@@ -4,13 +4,12 @@
         <description><![CDATA[Anubhav's Blog]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 May 2023 06:12:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 May 2023 10:22:41 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Why is Web3 a sham? | Anubhab's blogs ]]></title>
-            <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff ]]></description>
             <link>https://anubhavp.dev/blog/infeasibleWeb3.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/infeasibleWeb3.html</guid>
             <dc:creator><![CDATA[Srijan Paul]]></dc:creator>
@@ -206,7 +205,6 @@ However the world today is in a frenzy to use it in all the places where it does
         </item>
         <item>
             <title><![CDATA[Decentralization in MetaMUI Wallet: A Case Study | Anubhab's blogs ]]></title>
-            <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff ]]></description>
             <link>https://anubhavp.dev/blog/metamuiwallet.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/metamuiwallet.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
@@ -392,7 +390,6 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
         </item>
         <item>
             <title><![CDATA[QTree | Anubhab's blogs ]]></title>
-            <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff ]]></description>
             <link>https://anubhavp.dev/blog/qtree.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/qtree.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
@@ -625,7 +622,6 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
         </item>
         <item>
             <title><![CDATA[RESOC | Anubhab's blogs ]]></title>
-            <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff ]]></description>
             <link>https://anubhavp.dev/blog/resoc.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/resoc.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
@@ -682,7 +678,6 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
         </item>
         <item>
             <title><![CDATA[Rust: The next C++ ? | Anubhab's blogs ]]></title>
-            <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff ]]></description>
             <link>https://anubhavp.dev/blog/rust.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/rust.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
@@ -867,7 +862,6 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
         </item>
         <item>
             <title><![CDATA[zuzu: A Static Site Generator (SSG) | Anubhab's blogs ]]></title>
-            <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff ]]></description>
             <link>https://anubhavp.dev/blog/zuzu.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/zuzu.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>

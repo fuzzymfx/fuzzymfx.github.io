@@ -6,7 +6,6 @@ import { JSDOM } from 'jsdom';
 // Set up RSS feed
 const feed = new rss({
     title: 'Anubhav\'s Blog',
-    description: 'Anubhav\'s Blog',
     feed_url: 'https://anubhavp.dev/blog/feed.xml',
     site_url: 'https://anubhavp.dev/blog',
     guid: 'https://anubhavp.dev/blog',
@@ -45,7 +44,6 @@ fs.readdir(directoryPath, function (err, files) {
 
             const item = {
                 title,
-                description,
                 url,
                 date,
                 author,

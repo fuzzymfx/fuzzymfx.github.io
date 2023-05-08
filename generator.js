@@ -86,7 +86,7 @@ const processBlogFile = async(filename, template, outPath) => {
         })
         // await mdToPdf({ path:filename }, { dest: outpdfname }) ;
     saveFile(outfilename, templatized)
-    console.log(`📝 ${outfilename}`)
+    console.log(`📄 ${filename.split('/').slice(-1).join('/').slice(0, -3)}`)
         // console.log(`📝 ${outpdfname}`)
 }
 const processIndexFile = async(filename, template, outPath) => {
@@ -97,7 +97,9 @@ const processIndexFile = async(filename, template, outPath) => {
             title: file.data.title,
         })
     saveFile(outfilename, templatized)
-    console.log(`📝 ${outfilename}`)
+    console.log(`📄 ${
+        filename.split('/').slice(-1).join('/').slice(0, -3)
+    }`)
 }
 
 const main = () => {
