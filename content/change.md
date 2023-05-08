@@ -1,7 +1,7 @@
 ---
 author: Anubhab Patnaik
 title: 'Pathway to changes'
-date: "2023-02-14"
+date: "2023-05-08"
 description: "A short story about changes, success, and failures."
 tags: ["story", "life", "success", "failure"]
 ShowBreadCrumbs: true 
