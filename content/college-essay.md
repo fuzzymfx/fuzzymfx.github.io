@@ -1,7 +1,7 @@
 ---
 author: Anubhab patnaik
 title: My college essay 
-date: "2023-01-19"
+date: "2023-05-08"
 description: "This is the college essay that got me into the [UNI]. I am sharing this to help others write their essays. I hope this helps :)"
 tags: ["CSE", "US", "masters"]
 ShowBreadCrumbs: true 
