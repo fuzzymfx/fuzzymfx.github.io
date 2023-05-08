@@ -4,7 +4,7 @@ title: Anubhab Patnaik
 
 Hi, I am Anubhab Patnaik, a CS engineer from India. Interested in math, science, and engineering, I work with software engineering and try to solve real-world problems. This is a space where I publish my thoughts and ideas. I write about tech, science, and my life. [Here's my background](/background.html) and [here's what I am up to these days](/current.html).
 
-I work with whatever piques my interest. I used to dabble in ML and now work with web, mobile, and CMD applications. Currently I am preparing for interviews and I polish my coding skills on [Leetcode](https://leetcode.com/anubhabr50). I've also been working on a custom bit-torrent client to download files using TypeScript, and I plan on porting it to Rust. Meanwhile, I am also exploring esoteric programming languages and will work on a brainfuck interpreter soon. This site is built using my custom SSG, [zuzu](https://github.com/fuzzymfx/zuzu).
+I work with whatever piques my interest. I used to dabble in ML and now work with web, mobile, and CMD applications. Currently, I am preparing for interviews, and I polish my coding skills on [Leetcode](https://leetcode.com/anubhabr50). I've also been working on a custom bit-torrent client to download files using TypeScript, and I plan on porting it to Rust. Meanwhile, I am also exploring esoteric programming languages and will work on a brainfuck interpreter soon. This site is built using my custom SSG, [zuzu](https://github.com/fuzzymfx/zuzu).
 
 When not coding up a storm, I work with FOSS communities: I conduct workshops, hackathons, and coding competitions. I built [cbrtl](https://cbrtl.github.io), a FOSS platform for students to showcase their work and get recognition for their work.
 
