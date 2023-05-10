@@ -7,6 +7,7 @@ tags: ["story", "inspiration", "success", "failure"]
 ShowBreadCrumbs: true 
 ---
 This post has been taken from [Addy Osmani's blog](https://addyosmani.com/blog/).
+
  <figure>
   <img
   src='/assets/img/change/change.jpeg' alt='change'>
