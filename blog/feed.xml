@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 May 2023 07:55:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 May 2023 08:02:07 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -13,8 +13,8 @@
             <description><![CDATA[Breaking the loop: My journey of self-improvement and personal growth]]></description>
             <link>https://anubhavp.dev/blog/change.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/change.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
-            <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+            <dc:creator><![CDATA[Addy Osmani]]></dc:creator>
+            <pubDate>Thu, 04 May 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
         &lt;div class=&quot;f6&quot;&gt;
@@ -35,7 +35,7 @@
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    Addy Osmani
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -43,11 +43,12 @@
                 list-style: none;
                     &quot;&gt;
                     &lt;li class=&quot;pb3&quot;&gt;
-                        2023-05-08
+                        2023-05-04
                     &lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
-                 &lt;figure&gt;
+                &lt;p&gt;This post has been taken from &lt;a href=&quot;https://addyosmani.com/blog/&quot;&gt;Addy Osmani’s blog&lt;/a&gt;.&lt;/p&gt;
+ &lt;figure&gt;
   &lt;img src=&quot;/assets/img/change/change.jpeg&quot; alt=&quot;change&quot;&gt;
   &lt;i&gt;GoLimitLesss - Shane Parrish&lt;/i&gt;
  &lt;/figure&gt;
