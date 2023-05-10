@@ -4,7 +4,7 @@ title: "current"
 
 ##### April, 2023
 
-I recently visited Bangalore and met with my friends. We had a great time and I am looking forward to meeting them again. I went to Bangalore to explore a new idea. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, which is to work with one of the top tech companies and work on projects that I am really passionate about. While I go and hunt for jobs, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am really excited about it.
+I recently visited Bangalore and met with my friends; to explore and pursue a new idea. We had a great time and I am looking forward to meeting them again. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, which is to work with one of the top tech companies and work on projects that I am really passionate about. While I go and hunt for jobs, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am really excited about it.
 
 I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop): Getting into the rhythm of version control with Git & GitHub with UnStop Chapter of Sit, BBS and it was a huge success. We are planning to host a more advanced session on Git and GitHub shortly. There's also a web development workshop coming up.
 
