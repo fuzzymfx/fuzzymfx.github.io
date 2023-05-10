@@ -4,13 +4,13 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 May 2023 08:03:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 May 2023 07:55:37 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Pathway to changes | Anubhab's blogs ]]></title>
-            <description><![CDATA[A short story about changes, success, and failures.]]></description>
+            <title><![CDATA[Embracing changes | Anubhab's blogs ]]></title>
+            <description><![CDATA[Breaking the loop: My journey of self-improvement and personal growth]]></description>
             <link>https://anubhavp.dev/blog/change.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/change.html</guid>
             <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
@@ -27,11 +27,11 @@
                     &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
                 &lt;/nav&gt;
                 &lt;h2 class=&quot;f2 lh-title mb2&quot;&gt;
-                    Pathway to changes 
+                    Embracing changes 
                 &lt;/h2&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
                     &lt;p&gt;
-                       A short story about changes, success, and failures. 
+                       Breaking the loop: My journey of self-improvement and personal growth 
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
@@ -49,14 +49,14 @@
                 &lt;div class=&quot;content custom&quot;&gt;
                  &lt;figure&gt;
   &lt;img src=&quot;/assets/img/change/change.jpeg&quot; alt=&quot;change&quot;&gt;
- &lt;figure&gt;
-&lt;p&gt;“Change what you’re doing, to change where you’re going”&lt;/p&gt;
-&lt;p&gt;If you want to achieve different results, reach new heights, or even just change the direction of your life, you sometimes must be willing to make changes to your current actions and behaviors. We can’t always expect to get different results by doing the same things we’ve always done.&lt;/p&gt;
-&lt;p&gt;Let’s explore the importance of breaking away from our current loop and embracing change in order to move towards a better future.&lt;/p&gt;
-&lt;p&gt;The Loop: Understanding Our Patterns and Habits&lt;/p&gt;
+  &lt;i&gt;GoLimitLesss - Shane Parrish&lt;/i&gt;
+ &lt;/figure&gt;
+&lt;p&gt;Embracing change can be a daunting task. Striving to reach new heights, achieve different goals, or even alter the course of our lives, can be challenging: you sometimes must be willing to change your current actions and behaviours. Doing the same things we’ve always done will not yield different results; there is no space for growth in the comfort zone.&lt;/p&gt;
+&lt;p&gt;I have always avoided change: simply because I was a lazy person, hesitant to take on responsibilities, afraid of keeping up with the consistency, and even more afraid of having to start over if I failed. It took me a while to grasp this, and I am still learning to embrace change. This is my journey of self-improvement and personal growth, learning new ways of self-actualization, breaking the loop, and embracing change.&lt;/p&gt;
+&lt;h4 id=&quot;the-loop-understanding-our-patterns-and-habits&quot; tabindex=&quot;-1&quot;&gt;The Loop: Understanding Our Patterns and Habits&lt;/h4&gt;
 &lt;p&gt;Our daily lives are often filled with routines, patterns, and habits. These repetitive behaviors form a loop that keeps us locked into our current trajectory. While some of these habits may be beneficial, others could be holding us back from achieving our goals or realizing our full potential.&lt;/p&gt;
 &lt;p&gt;To change where we’re going, we must first identify the habits and actions that are keeping us stuck in our current loop. This requires self-awareness, reflection, and the courage to confront our own shortcomings.&lt;/p&gt;
-&lt;p&gt;Breaking the Loop: Embracing Change&lt;/p&gt;
+&lt;h4 id=&quot;breaking-the-loop-embracing-change&quot; tabindex=&quot;-1&quot;&gt;Breaking the Loop: Embracing Change&lt;/h4&gt;
 &lt;p&gt;Once we’ve identified the behaviors that need to change, it’s time to take action. This can be challenging, as it often requires stepping out of our comfort zone and facing the unknown. However, embracing change is an essential part of personal growth and progress.&lt;/p&gt;
 &lt;p&gt;Here are some strategies to help you break the loop and pivot towards success:&lt;/p&gt;
 &lt;ul&gt;
@@ -76,11 +76,10 @@
 &lt;p&gt;Cultivate a Growth Mindset: Believe in your ability to improve and adapt. Embrace challenges as opportunities to grow and develop new skills.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Conclusion&lt;/p&gt;
+&lt;h4 id=&quot;embracing-change&quot; tabindex=&quot;-1&quot;&gt;Embracing change&lt;/h4&gt;
 &lt;p&gt;Changing what you’re doing to change where you’re going can be a daunting process. It requires effort, persistence, and a willingness to step outside your comfort zone. Remember, the path to success is rarely a straight line. It’s a journey filled with twists and turns, but with determination and the right mindset, you can make meaningful progress towards your goals and create the life you’ve always envisioned.&lt;/p&gt;
-&lt;p&gt;Illustration credit: GoLimitLesss &amp;amp; Shane Parrish&lt;/p&gt;
 
-                &lt;/figure&gt;&lt;/figure&gt;&lt;/div&gt;
+                &lt;/div&gt;
 
             &lt;/section&gt;
         &lt;/div&gt;
@@ -128,10 +127,10 @@
                 &lt;/ul&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
                 &lt;p&gt;As I sit in front of my computer, typing away at lines of code, I am wooed by the sheer potential of computer science. As a child, I was fascinated by the art of engineering and its ability to solve complex problems and make our lives easier. I remember spending countless hours fidgeting with electronic devices and tinkering with computers, trying to understand how they worked and how I could make them do amazing things. From launching satellites and rovers on other planets to developing algorithms that can predict the future, the possibilities in this field are truly limitless. As an undergraduate student studying computer science, I am privileged to have discovered my passion for it and I am thrilled by the prospect of contributing to this ever-evolving and exciting field in the future.&lt;/p&gt;
-&lt;p&gt;During my undergraduate studies, I gained extensive experience building web, mobile, machine learning, and command-line applications. Initially, I was more interested in exploratory data analysis and machine learning, creating projects such as Movie Recommendation and Movie Rating Prediction systems, utilizing algorithms like Gradient Descent, logistic regression, and SVMs. As I progressed in my studies, my interests shifted towards web and mobile development. I began by building mobile applications and websites using technologies such as Javascript, PHP, Go, ReactJs, React Native, and Firebase, as well as cloud technologies like AWS and GCP and dev tools like git, GitHub, BitBucket, Netlify, among others. My GitHub repository now contains over 100 projects, including a static site generator built using NodeJs, a React based web platform to make education more accessible, a command-line torrent client, a fast blog application using Rust and Django, chat applications with graph dbs demonstrating decentralized frameworks, and much more.&lt;/p&gt;
-&lt;p&gt;Aside from my academic pursuits, I am passionate about utilizing technology to create positive impact within my community. Throughout my undergraduate studies, I have actively sought out opportunities to employ my knowledge for the betterment of others. During my time in college, I co-founded the first official coding club on campus, SWITCH, where I served as the joint secretary. Our primary objective was to establish a coding community for students, offering various workshops, hackathons, and coding competitions. In addition, I built a FOSS community called cbrtl, a close-knit group of programmers and open-source enthusiasts who enjoy working on fun projects together and building a community. My passion for mentoring and community-building led me to be appointed as the President, Student Chairperson of the prestigious IEEE Students’ Chapter at the Silicon Institute of Technology. I conducted workshops, hackathons, and coding competitions on a larger, wider scale, with the support of a broader community. I also served as an avid mentor in other tech communities, such as UnStop, among others.&lt;/p&gt;
+&lt;p&gt;During my undergraduate studies, I gained extensive experience building web, mobile, machine learning, and command-line applications. Initially, I was more interested in exploratory data analysis and machine learning, creating projects such as Movie Recommendation and Movie Rating Prediction systems, utilizing algorithms like Gradient Descent, logistic regression, and SVMs. As I progressed in my studies, my interests shifted towards web and mobile development. I began by building mobile applications and websites using technologies such as Javascript, PHP, Go, ReactJs, React Native, and Firebase, as well as cloud technologies like AWS and GCP and dev tools like git, GitHub, BitBucket, Netlify, among others. My GitHub repository now contains over 100 projects, including a static site generator built using NodeJs, a React-based web platform to make education more accessible, a command-line torrent client, a fast blog application using Rust and Django, chat applications with graph dbs demonstrating decentralized frameworks, and much more.&lt;/p&gt;
+&lt;p&gt;Aside from my academic pursuits, I am passionate about utilizing technology to create a positive impact within my community. Throughout my undergraduate studies, I have actively sought out opportunities to employ my knowledge for the betterment of others. During my time in college, I co-founded the first official coding club on campus, SWITCH, where I served as the joint secretary. Our primary objective was to establish a coding community for students, offering various workshops, hackathons, and coding competitions. In addition, I built a FOSS community called cbrtl, a close-knit group of programmers and open-source enthusiasts who enjoy working on fun projects together and building a community. My passion for mentoring and community-building led me to be appointed as the President, Student Chairperson of the prestigious IEEE Students’ Chapter at the Silicon Institute of Technology. I conducted workshops, hackathons, and coding competitions on a larger, wider scale, with the support of a broader community. I also served as an avid mentor in other tech communities, such as UnStop, among others.&lt;/p&gt;
 &lt;p&gt;In addition to my academic and professional endeavours, I also have a passion for music, photography, and freelance graphic design. Currently, I am learning to play the guitar, with a keen interest in Indian Bollywood music. I find that music feeds my soul and brings balance to my life, giving it a greater sense of purpose. In my free time, I enjoy reading and watching science fiction, thrillers, mysteries, and fantasy thrillers. Additionally, I attend seminars on various topics such as space exploration, life in space, and theoretical and quantum physics. I also actively participate in debates and Model United Nations conferences, where I have been recognized as the best delegate multiple times.&lt;/p&gt;
-&lt;p&gt;I am a highly ambitious individual, motivated to pursue a Master’s Degree in Computer Science at the esteemed [UNI]. I am eagerly looking forward to embarking on a new chapter. With my sights set on new horizons, I am excited to see where life takes me and to see what the future holds. My academic background, professional experience, and passion for this field make me a strong candidate for admission, and I am excited to contribute to the community of scholars at [UNI].&lt;/p&gt;
+&lt;p&gt;I am a highly ambitious individual, motivated to pursue a Master’s Degree in Computer Science at the esteemed [UNI]. I am eagerly looking forward to embarking on a new chapter. With my sights set on new horizons, I am excited to see where life takes me and to see what the future holds. My academic background, professional experience, and passion for this field make me a strong candidate for admission, and I am excited to contribute to the community of scholars at [UNI]. Here’s &lt;a href=&quot;https://anubhavp/dev&quot;&gt;my profile&lt;/a&gt;&lt;/p&gt;
 
                 &lt;/div&gt;
 
