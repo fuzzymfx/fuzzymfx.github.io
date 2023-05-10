@@ -40,6 +40,6 @@ Here are some strategies to help you break the loop and pivot towards success:
 
 - Cultivate a Growth Mindset: Believe in your ability to improve and adapt. Embrace challenges as opportunities to grow and develop new skills.
 
-#### Embracing change
+#### Conclusion
 
 Changing what you're doing to change where you're going can be a daunting process. It requires effort, persistence, and a willingness to step outside your comfort zone. Remember, the path to success is rarely a straight line. It's a journey filled with twists and turns, but with determination and the right mindset, you can make meaningful progress towards your goals and create the life you've always envisioned.
