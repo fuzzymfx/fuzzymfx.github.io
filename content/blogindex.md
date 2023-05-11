@@ -2,7 +2,6 @@
 title: Anubhab's Blog
 ---
 
-<li class="flex justify-between pb3"><a href="./change.html" class="link">Embracing changes</a><span class="date gray">08-05-2023</span> </li>
 <li class="flex justify-between pb3"><a href="./january23.html" class="link">Update: January 2023</a><span class="date gray">08-04-2023</span> </li>
 <li class="flex justify-between pb3"><a href="./resoc.html" class="link">RESOC: The coolest academic platform</a><span class="date gray">27-03-2023</span>
 </li>
