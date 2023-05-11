@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 May 2023 19:41:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 May 2023 19:54:55 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -1090,6 +1090,7 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
 Goodbye, SIT ❤️
 &lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;190310030 Signing off&lt;/code&gt;&lt;/p&gt;
 
                 &lt;/div&gt;
 
