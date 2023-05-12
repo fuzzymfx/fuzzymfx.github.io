@@ -29,8 +29,6 @@ Binge:
 - ~~Cont. Umbrella Academy~~
 - ~~Lockwood & Co.~~
 
-Currently, I am working with [Adyquate](https://adyquate.com), a digital marketing startup.
-
 Lately, I've been working on a custom bit-torrent client to download files and movies based on recommendations from my [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation) and a [movie rating prediction system](https://github.com/fuzzymfx/Movie-rating-prediction). I'm planning to port it to Rust later.
 
 Meanwhile, I am also exploring esoteric programming languages and will be working on a brainfuck interpreter.

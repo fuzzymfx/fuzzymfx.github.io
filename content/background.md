@@ -17,7 +17,6 @@ title: background
 - Freelance Software Developer -Afixi Technologies 2022 - [🔗]()
 - Software Developer - Squbix Digital 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
 - Co-founder - CBRTL 2022 - [🔗](https://cbrtl.github.io/)
-- Co-founder & CTO 2023 - Adyquate - [🔗](https://adyquate.com/)
 
 ### Activities
 
