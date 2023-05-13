@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 May 2023 05:35:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 May 2023 06:37:16 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -1090,6 +1090,86 @@ Goodbye, SIT ❤️
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;190310030 Signing Off&lt;/code&gt;&lt;/p&gt;
+
+                &lt;/div&gt;
+
+            &lt;/section&gt;
+        &lt;/div&gt;
+
+
+&lt;/div&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unfollow all: A LinkedIn Script | Anubhab's blogs ]]></title>
+            <description><![CDATA[A linkedin script to remove all your followings :D]]></description>
+            <link>https://anubhavp.dev/blog/unfollowall.html</link>
+            <guid isPermaLink="true">https://anubhavp.dev/blog/unfollowall.html</guid>
+            <dc:creator><![CDATA[Anubhab patnaik]]></dc:creator>
+            <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
+            <content:encoded>
+    &lt;div&gt;
+        &lt;div class=&quot;f6&quot;&gt;
+            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
+                &lt;nav&gt;
+                    &lt;div class=&quot;mb2 dib&quot;&gt;
+                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
+                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt; 
+                    &lt;/div&gt;
+                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
+                &lt;/nav&gt;
+                &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
+                    Unfollow all: A LinkedIn Script 
+                &lt;/h2&gt;
+                &lt;div&gt;
+                    &lt;p&gt;
+                       A linkedin script to remove all your followings :D 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
+                    Anubhab patnaik
+                &lt;/h4&gt;
+            &lt;/header&gt;
+            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
+                &lt;ul class=&quot;ph0&quot; style=&quot; 
+                list-style: none;
+                    &quot;&gt;
+                    &lt;li class=&quot;pb3&quot;&gt;
+                        2023-04-29
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;div class=&quot;content custom&quot;&gt;
+                &lt;p&gt;Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Don’t worry, I did not run the script on this account xD)&lt;/p&gt;
+&lt;p&gt;To try this out, visit &lt;a href=&quot;https://www.linkedin.com/feed/followers/&quot;&gt;https://www.linkedin.com/feed/followers/&lt;/a&gt;, inspect the page, and copy and paste the following script into your console.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;(&lt;span class=&quot;hljs-function&quot;&gt;() =&amp;gt;&lt;/span&gt; {
+ &lt;span class=&quot;hljs-keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;hljs-title function_&quot;&gt;unfollowAll&lt;/span&gt;(&lt;span class=&quot;hljs-params&quot;&gt;&lt;/span&gt;) {
+  &lt;span class=&quot;hljs-keyword&quot;&gt;const&lt;/span&gt; buttons = &lt;span class=&quot;hljs-variable language_&quot;&gt;document&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;querySelectorAll&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&apos;button.follow.is-following&apos;&lt;/span&gt;) || [];
+
+  &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;hljs-keyword&quot;&gt;const&lt;/span&gt; button &lt;span class=&quot;hljs-keyword&quot;&gt;of&lt;/span&gt; buttons) {
+   &lt;span class=&quot;hljs-keyword&quot;&gt;const&lt;/span&gt; name = button.&lt;span class=&quot;hljs-property&quot;&gt;parentElement&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;querySelector&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&apos;.follows-recommendation-card__name&apos;&lt;/span&gt;,).&lt;span class=&quot;hljs-property&quot;&gt;innerText&lt;/span&gt;;
+   &lt;span class=&quot;hljs-variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;log&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&apos;Unfollowed &apos;&lt;/span&gt;, name);
+
+   &lt;span class=&quot;hljs-variable language_&quot;&gt;window&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;scrollTo&lt;/span&gt;(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;, button.&lt;span class=&quot;hljs-property&quot;&gt;offsetTop&lt;/span&gt; - &lt;span class=&quot;hljs-number&quot;&gt;260&lt;/span&gt;);
+   button.&lt;span class=&quot;hljs-title function_&quot;&gt;click&lt;/span&gt;();
+   &lt;span class=&quot;hljs-keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-title class_&quot;&gt;Promise&lt;/span&gt;(&lt;span class=&quot;hljs-function&quot;&gt;(&lt;span class=&quot;hljs-params&quot;&gt;resolve&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-built_in&quot;&gt;setTimeout&lt;/span&gt;(resolve, &lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;));
+  }
+ }
+
+ &lt;span class=&quot;hljs-keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;hljs-title function_&quot;&gt;runUnfollowAll&lt;/span&gt;(&lt;span class=&quot;hljs-params&quot;&gt;&lt;/span&gt;) {
+  &lt;span class=&quot;hljs-keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;hljs-title function_&quot;&gt;unfollowAll&lt;/span&gt;();
+  &lt;span class=&quot;hljs-variable language_&quot;&gt;window&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;scrollTo&lt;/span&gt;(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;hljs-variable language_&quot;&gt;document&lt;/span&gt;.&lt;span class=&quot;hljs-property&quot;&gt;body&lt;/span&gt;.&lt;span class=&quot;hljs-property&quot;&gt;scrollHeight&lt;/span&gt;);
+  &lt;span class=&quot;hljs-keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-title class_&quot;&gt;Promise&lt;/span&gt;(&lt;span class=&quot;hljs-function&quot;&gt;(&lt;span class=&quot;hljs-params&quot;&gt;resolve&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-built_in&quot;&gt;setTimeout&lt;/span&gt;(resolve, &lt;span class=&quot;hljs-number&quot;&gt;2000&lt;/span&gt;));
+  &lt;span class=&quot;hljs-keyword&quot;&gt;const&lt;/span&gt; buttons = &lt;span class=&quot;hljs-variable language_&quot;&gt;document&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;querySelectorAll&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&apos;button.follow.is-following&apos;&lt;/span&gt;) || []; 
+
+  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (buttons.&lt;span class=&quot;hljs-property&quot;&gt;length&lt;/span&gt;) &lt;span class=&quot;hljs-title function_&quot;&gt;runUnfollowAll&lt;/span&gt;();
+ }
+ &lt;span class=&quot;hljs-title function_&quot;&gt;runUnfollowAll&lt;/span&gt;();
+})();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;working&quot; tabindex=&quot;-1&quot;&gt;Working&lt;/h4&gt;
+&lt;p&gt;The script scrolls down the page and unfollows everyone. It then scrolls down again and repeats the process until there are no more followings left.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;buttons&lt;/code&gt; is a list of all the follow buttons on the page. The script then iterates over the list, and for each button it checks whether the button is a following button or not. If it is, it scrolls to the button and clicks it. &lt;code&gt;button.offsetTop&lt;/code&gt; refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.&lt;/p&gt;
+&lt;p&gt;It then waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds before running the &lt;code&gt;runUnfollowAll&lt;/code&gt; function again. If there are no more followings left, the script stops.&lt;/p&gt;
+&lt;p&gt;Happy unfollowing! :D&lt;/p&gt;
 
                 &lt;/div&gt;
 
