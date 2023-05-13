@@ -15,7 +15,10 @@ ShowBreadCrumbs: true
  }
  </style>
 <figure class="skylab">
-<img src ="/assets/img/teasquared/sit-6.jpeg" class="h-75 w-75">
+<img src ="/assets/img/teasquared/sit2.jpeg" >
+<figcaption>
+SIT Campus
+</figcaption>
 </figure>
 
 As I stand here on the cusp of graduating, gazing upon the halls and pathways that have become my home for the past four years, a swirl of emotions engulfs me. My heart feels heavy with this melancholy as I roam around this campus for the final time. Every nook and corner of this campus holds a special place in my heart. Every memory, every laugh, every tear has been etched into these walls. And now, as I take my final steps through these corridors, I can feel a sense of separation looming over me. It’s hard to let go of something that has been a part of your life for so long.
@@ -27,10 +30,13 @@ It feels like only yesterday that I was a wide-eyed fresher, stepping onto campu
 I yearn to go back to the first year and walk through the gate again. I long to don those ID cards once again and stand with my friends at T-Square as we reminisce about our first-year experiences. I want to get asked to demonstrate riding bikes, ask a senior’s name in the proper format given, and pry on our classmates and get their numbers for the seniors. I wish I could attend classes again, get sent outside for disturbing, run in sweaty formals, enter the chilled CS labs, and sit there staring blankly at the screens. Looking back, I can't help but smile at the memories.
 
 <figure class="skylab">
-<img src ="/assets/img/teasquared/sit2.jpeg" class="h-75 w-75">
+<img src ="/assets/img/teasquared/sit-6.jpeg" class="h-75 w-75">
+<figcaption>
+Skylab
+</figcaption>
 </figure>
 
-Now that most of my friends have moved on, I miss going to ABD with them, not worrying about the future, and rambling about the terrible college we studied in and wonders we'd have done had have we been running the college. I want to keep discussing what we should wear to Zygon and Rythmnova, and whether we'd need to wear our ID cards at night. As I walk past the hostel gates, memories flood back of us staying together, sharing each other’s shampoos, and snacks, and using one hairdryer among two hundred people. The late nights spent in the hostel corridors talking about life, family, the future, movies, and music were magical. The evening’s borrowing speakers made sure that now none of us sleep. The exam nights we used to go to anybody’s room and ask them for a few pointers and questions, and then they wouldn’t know too( well because they are my friends, what else do you expect ? :D) and then we would go down knocking on other rooms are days I will cherish forever.
+Now that most of my friends have moved on, I miss going to ABD with them, not worrying about the future, and rambling about the terrible college we studied in and wonders we'd have done had have we been running the college. I want to keep discussing what we should wear to Zygon and Rythmnova, and whether we'd need to wear our ID cards at night. As I walk past the hostel gates, memories flood back of us staying together, sharing each other’s shampoos, and snacks, and using one hairdryer among two hundred people. The late nights spent in the hostel corridors talking about life, family, the future, movies, and music were magical. The evening’s borrowing speakers made sure that now none of us sleep. The exam nights we used to go to anybody’s room and ask them for a few pointers and questions, and then they wouldn’t know too (well because they are my friends, what else do you expect ? :D) and then we would go down knocking on other rooms are days I will cherish forever.
 
 As we bid farewell to each other, we make promises to stay in touch, meet, and gossip. We know in our hearts that these are sweet, generous lies that we tell ourselves. Life happens. We move on and learn to live without each other.
 
