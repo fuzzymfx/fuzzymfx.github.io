@@ -6,7 +6,14 @@ description: "RESOC is the coolest academic notes-sharing platform around, built
 tags: ["foss", "project", "content-management-application", "notes", "react", "nodejs", "web"]
 ShowBreadCrumbs: true 
 ---
-
+<style>
+ .resoc {
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ }
+ </style>
 RESOC lets you share notes, question papers, and other academic resources with your friends and classmates. It’s a free and open-source platform, built by a bunch of tech-savvy students at Silicon Institute, Bhubaneswar.
 
 ## How it all started
@@ -23,12 +30,22 @@ THIS IS [RESOC](https://notes-sit.live/)
 
 ## RESOC
 
-The best notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it’s totally free. We have a nifty task section for you to manage your work. No more forgetting deadlines and drowning in assignments. Pop over to the community chat page and give us a holler. We’re always happy to help out and connect with like-minded folks. You might even make a new study buddy or two. We're looking for active contributions and you're always welcome to contribute to RESOC :)
+The best notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it’s totally free. We have a [nifty task section](https://notes-sit.live/taskboard) for you to manage your work. No more forgetting deadlines and drowning in assignments. Pop over to the [community chat page](https://notes-sit.live/community) and give us a holler. We're always happy to help out and connect with like-minded folks. You might even make a new study buddy or two! We're looking for active contributions and you're always welcome to [contribute](https://notes-sit.live/contributions) to RESOC :) We've got a [team](https://notes-sit.live/team) of talented content creators who are always looking for new ideas and suggestions. If you've got something to say, we're all ears!
 
 As we continue to develop RESOC, our goal is to create a platform that feels like home to our users. We want to cater to your academic needs, and let you access important data when you need them. We've already added a ton of features, but we're always looking for ways to make the platform even more user-friendly.
 
 We don't charge you anything for the notes, but you could always consider buying us pizza! ;)
 
-		- With love and pizza dreams, TeamSoc
+- With love and pizza dreams, TeamSoc
 
 Check out the page now!! [RESOC](https://notes-sit.live/)
+
+### Update
+
+<figure class="resoc">
+<img src ="/assets/img/resoc/resoc-traffic.jpeg" class="h-75 w-75">
+<figcaption>
+RESOC Traffic during exam time!
+</figcaption>
+
+</figure>
