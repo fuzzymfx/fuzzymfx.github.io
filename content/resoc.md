@@ -36,7 +36,7 @@ As we continue to develop RESOC, our goal is to create a platform that feels lik
 
 We don't charge you anything for the notes, but you could always consider buying us pizza! ;)
 
-- With love and pizza dreams, TeamSoc
+	- With love and pizza dreams, TeamSoc
 
 Check out the page now!! [RESOC](https://notes-sit.live/)
 
