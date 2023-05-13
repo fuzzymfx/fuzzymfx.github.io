@@ -54,7 +54,7 @@
                     </li>
                 </ul>
                 <div class="content custom">
-                <p>Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Don’t worry, I did not run the script on this account xD)</p>
+                <p>Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Don’t worry, I did not run the script on my original xD)</p>
 <p>To try this out, visit <a href="https://www.linkedin.com/feed/followers/">https://www.linkedin.com/feed/followers/</a>, inspect the page, and copy and paste the following script into your console.</p>
 <pre><code class="language-js">(<span class="hljs-function">() =&gt;</span> {
  <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">unfollowAll</span>(<span class="hljs-params"></span>) {
@@ -83,8 +83,8 @@
 </code></pre>
 <h4 id="working" tabindex="-1">Working</h4>
 <p>The script scrolls down the page and unfollows everyone. It then scrolls down again and repeats the process until there are no more followings left.</p>
-<p><code>buttons</code> is a list of all the follow buttons on the page. The script then iterates over the list, and for each button it checks whether the button is a following button or not. If it is, it scrolls to the button and clicks it. <code>button.offsetTop</code> refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.</p>
-<p>It then waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds before running the <code>runUnfollowAll</code> function again. If there are no more followings left, the script stops.</p>
+<p><code>buttons</code> is a list of all the follow buttons on the page. The script then iterates over the list, and selects the button that is a following button. The <code>0</code> value in <code>window.scrollTo(0, button.offsetTop - 260);</code> is used here to indicate that there is no need to scroll horizontally, i.e., the window should remain at its current horizontal position. <code>button.offsetTop</code> refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.</p>
+<p>It then waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds to update the list of followings before running the <code>runUnfollowAll</code> function again. If there are no more followings left, the script stops.</p>
 <p>Happy unfollowing! :D</p>
 
                 </div>

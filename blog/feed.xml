@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 May 2023 07:52:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 May 2023 14:48:06 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -1159,7 +1159,7 @@ Goodbye, SIT ❤️
                     &lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
-                &lt;p&gt;Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Don’t worry, I did not run the script on this account xD)&lt;/p&gt;
+                &lt;p&gt;Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Don’t worry, I did not run the script on my original xD)&lt;/p&gt;
 &lt;p&gt;To try this out, visit &lt;a href=&quot;https://www.linkedin.com/feed/followers/&quot;&gt;https://www.linkedin.com/feed/followers/&lt;/a&gt;, inspect the page, and copy and paste the following script into your console.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;(&lt;span class=&quot;hljs-function&quot;&gt;() =&amp;gt;&lt;/span&gt; {
  &lt;span class=&quot;hljs-keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;hljs-title function_&quot;&gt;unfollowAll&lt;/span&gt;(&lt;span class=&quot;hljs-params&quot;&gt;&lt;/span&gt;) {
@@ -1188,8 +1188,8 @@ Goodbye, SIT ❤️
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&quot;working&quot; tabindex=&quot;-1&quot;&gt;Working&lt;/h4&gt;
 &lt;p&gt;The script scrolls down the page and unfollows everyone. It then scrolls down again and repeats the process until there are no more followings left.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;buttons&lt;/code&gt; is a list of all the follow buttons on the page. The script then iterates over the list, and for each button it checks whether the button is a following button or not. If it is, it scrolls to the button and clicks it. &lt;code&gt;button.offsetTop&lt;/code&gt; refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.&lt;/p&gt;
-&lt;p&gt;It then waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds before running the &lt;code&gt;runUnfollowAll&lt;/code&gt; function again. If there are no more followings left, the script stops.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;buttons&lt;/code&gt; is a list of all the follow buttons on the page. The script then iterates over the list, and selects the button that is a following button. The &lt;code&gt;0&lt;/code&gt; value in &lt;code&gt;window.scrollTo(0, button.offsetTop - 260);&lt;/code&gt; is used here to indicate that there is no need to scroll horizontally, i.e., the window should remain at its current horizontal position. &lt;code&gt;button.offsetTop&lt;/code&gt; refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.&lt;/p&gt;
+&lt;p&gt;It then waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds to update the list of followings before running the &lt;code&gt;runUnfollowAll&lt;/code&gt; function again. If there are no more followings left, the script stops.&lt;/p&gt;
 &lt;p&gt;Happy unfollowing! :D&lt;/p&gt;
 
                 &lt;/div&gt;
