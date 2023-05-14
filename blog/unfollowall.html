@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="description"
+		content="A linkedin script to remove all your followings :D" />
+        <meta name="publish-date" content="2023-04-29">
+    <meta name="author" content="Anubhab patnaik">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <title>Unfollow all: A LinkedIn Script | Anubhab's blogs </title>
+    
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/hljs.css">
+</head>
+
+<body class="markdown-body">
+    <div>
+        <div class="f6">
+            <header id="header" class="measure-wide center mt6 mb4">
+                <nav>
+                    <div class="mb2 dib">
+                        <a href="/blog" title="blog" class="gray link active">blog</a> .
+                        <a href="/" title="about" class="gray link ">anubhab</a> 
+                    </div>
+                    <div><a href="/blog/feed.xml" title="anubhab" class="rss gray link">/rss</a></div>
+                </nav>
+                <h2 class="f2 lh-title mb2 mt-2">
+                    Unfollow all: A LinkedIn Script 
+                </h2>
+                <div>
+                    <p>
+                       A linkedin script to remove all your followings :D 
+                    </p>
+                </div>
+                <h4 class="f4 lh-title gray">
+                    Anubhab patnaik
+                </h4>
+            </header>
+            <section id="main" class="page-post gray mb6 lh-copy">
+                <ul class="ph0" style=" 
+                list-style: none;
+                    ">
+                    <li class="pb3">
+                        2023-04-29
+                    </li>
+                </ul>
+                <div class="content custom">
+                <p>Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Don’t worry, I did not run the script on my original xD)</p>
+<p>To try this out, visit <a href="https://www.linkedin.com/feed/followers/">https://www.linkedin.com/feed/followers/</a>, inspect the page, and copy and paste the following script into your console.</p>
+<pre><code class="language-js">(<span class="hljs-function">() =&gt;</span> {
+ <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">unfollowAll</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> buttons = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelectorAll</span>(<span class="hljs-string">&#x27;button.follow.is-following&#x27;</span>) || [];
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> button <span class="hljs-keyword">of</span> buttons) {
+   <span class="hljs-keyword">const</span> name = button.<span class="hljs-property">parentElement</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">&#x27;.follows-recommendation-card__name&#x27;</span>,).<span class="hljs-property">innerText</span>;
+   <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;Unfollowed &#x27;</span>, name);
+
+   <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">scrollTo</span>(<span class="hljs-number">0</span>, button.<span class="hljs-property">offsetTop</span> - <span class="hljs-number">260</span>);
+   button.<span class="hljs-title function_">click</span>();
+   <span class="hljs-keyword">await</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">100</span>));
+  }
+ }
+
+ <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">runUnfollowAll</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">await</span> <span class="hljs-title function_">unfollowAll</span>();
+  <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">scrollTo</span>(<span class="hljs-number">0</span>, <span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>.<span class="hljs-property">scrollHeight</span>);
+  <span class="hljs-keyword">await</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve</span>) =&gt;</span> <span class="hljs-built_in">setTimeout</span>(resolve, <span class="hljs-number">2000</span>));
+  <span class="hljs-keyword">const</span> buttons = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelectorAll</span>(<span class="hljs-string">&#x27;button.follow.is-following&#x27;</span>) || []; 
+
+  <span class="hljs-keyword">if</span> (buttons.<span class="hljs-property">length</span>) <span class="hljs-title function_">runUnfollowAll</span>();
+ }
+ <span class="hljs-title function_">runUnfollowAll</span>();
+})();
+</code></pre>
+<h4 id="working" tabindex="-1">Working</h4>
+<p>The script scrolls down the page and unfollows everyone. It then scrolls down again and repeats the process until there are no more followings left.</p>
+<p><code>buttons</code> is a list of all the follow buttons on the page. The script then iterates over the list, and selects the button that is a following button. The <code>0</code> value in <code>window.scrollTo(0, button.offsetTop - 260);</code> is used here to indicate that there is no need to scroll horizontally, i.e., the window should remain at its current horizontal position. <code>button.offsetTop</code> refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.</p>
+<p>It then waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds to update the list of followings before running the <code>runUnfollowAll</code> function again. If there are no more followings left, the script stops.</p>
+<p>Happy unfollowing! :D</p>
+
+                </div>
+
+            </section>
+        </div>
+</body>
+
+</html>

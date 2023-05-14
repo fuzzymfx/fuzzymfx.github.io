@@ -109,13 +109,15 @@ const main = () => {
     const srcPath = path.resolve('content')
     const outPath = path.resolve('blog')
     const dir = path.resolve('blog')
-    fs.rmSync(dir, { recursive: true, force: true });
     const indexoutPath = path.resolve('')
     const blogtemplate = fs.readFileSync('./templates/initial/blogtemplate.html', 'utf8')
     const indextemplate = fs.readFileSync('./templates/initial/indextemplate.html', 'utf8')
     const currenttemplate = fs.readFileSync('./templates/initial/currenttemplate.html', 'utf8')
     const blogindextemplate = fs.readFileSync('./templates/initial/blogindextemplate.html', 'utf8')
     const filenames = glob.sync(srcPath + '/**/*.md')
+
+    fs.rmSync(dir, { recursive: true, force: true });
+    fs.mkdirSync(dir);
 
     filenames.forEach((filename) => {
         const months =['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august','september', 'october', 'november', 'december']
