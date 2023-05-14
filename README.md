@@ -6,4 +6,4 @@ This has been created using html, css and bootstrap, and is inspired from [blog.
 
 The blog is built using [zuzu](https://github.com/fuzzymfx/zuzu)
 
-[Compile this resume format](https://github.com/fuzzymfx/resume-latex-deedy/)
+[Compile this resume format](https://github.com/fuzzymfx/resume)
