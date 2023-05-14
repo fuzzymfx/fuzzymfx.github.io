@@ -4,90 +4,10 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 May 2023 15:37:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 May 2023 04:50:40 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[Embracing changes | Anubhab's blogs ]]></title>
-            <description><![CDATA[Breaking the loop: My journey of self-improvement and personal growth]]></description>
-            <link>https://anubhavp.dev/blog/change.html</link>
-            <guid isPermaLink="true">https://anubhavp.dev/blog/change.html</guid>
-            <dc:creator><![CDATA[Addy Osmani]]></dc:creator>
-            <pubDate>Thu, 04 May 2023 00:00:00 GMT</pubDate>
-            <content:encoded>
-    &lt;div&gt;
-        &lt;div class=&quot;f6&quot;&gt;
-            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
-                &lt;nav&gt;
-                    &lt;div class=&quot;mb2 dib&quot;&gt;
-                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
-                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt; 
-                    &lt;/div&gt;
-                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
-                &lt;/nav&gt;
-                &lt;h2 class=&quot;f2 lh-title mb2&quot;&gt;
-                    Embracing changes 
-                &lt;/h2&gt;
-                &lt;div class=&quot;content custom&quot;&gt;
-                    &lt;p&gt;
-                       Breaking the loop: My journey of self-improvement and personal growth 
-                    &lt;/p&gt;
-                &lt;/div&gt;
-                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Addy Osmani
-                &lt;/h4&gt;
-            &lt;/header&gt;
-            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
-                &lt;ul class=&quot;ph0&quot; style=&quot; 
-                list-style: none;
-                    &quot;&gt;
-                    &lt;li class=&quot;pb3&quot;&gt;
-                        2023-05-04
-                    &lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;div class=&quot;content custom&quot;&gt;
-                &lt;p&gt;This post has been taken from &lt;a href=&quot;https://addyosmani.com/blog/&quot;&gt;Addy Osmani’s blog&lt;/a&gt;.&lt;/p&gt;
- &lt;figure&gt;
-  &lt;img src=&quot;/assets/img/change/change.jpeg&quot; alt=&quot;change&quot;&gt;
-  &lt;i&gt;GoLimitLesss - Shane Parrish&lt;/i&gt;
- &lt;/figure&gt;
-&lt;p&gt;Embracing change can be a daunting task. Striving to reach new heights, achieve different goals, or even alter the course of our lives, can be challenging: you sometimes must be willing to change your current actions and behaviours. Doing the same things we’ve always done will not yield different results; there is no space for growth in the comfort zone.&lt;/p&gt;
-&lt;p&gt;I have always avoided change: simply because I was a lazy person, hesitant to take on responsibilities, afraid of keeping up with the consistency, and even more afraid of having to start over if I failed. It took me a while to grasp this, and I am still learning to embrace change. This is my journey of self-improvement and personal growth, learning new ways of self-actualization, breaking the loop, and embracing change.&lt;/p&gt;
-&lt;h4 id=&quot;the-loop-understanding-our-patterns-and-habits&quot; tabindex=&quot;-1&quot;&gt;The Loop: Understanding Our Patterns and Habits&lt;/h4&gt;
-&lt;p&gt;Our daily lives are often filled with routines, patterns, and habits. These repetitive behaviors form a loop that keeps us locked into our current trajectory. While some of these habits may be beneficial, others could be holding us back from achieving our goals or realizing our full potential.&lt;/p&gt;
-&lt;p&gt;To change where we’re going, we must first identify the habits and actions that are keeping us stuck in our current loop. This requires self-awareness, reflection, and the courage to confront our own shortcomings.&lt;/p&gt;
-&lt;h4 id=&quot;breaking-the-loop-embracing-change&quot; tabindex=&quot;-1&quot;&gt;Breaking the Loop: Embracing Change&lt;/h4&gt;
-&lt;p&gt;Once we’ve identified the behaviors that need to change, it’s time to take action. This can be challenging, as it often requires stepping out of our comfort zone and facing the unknown. However, embracing change is an essential part of personal growth and progress.&lt;/p&gt;
-&lt;p&gt;Here are some strategies to help you break the loop and pivot towards success:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Set Clear Goals: Define what you want to achieve and create a roadmap to guide your journey. This will help you maintain focus and motivation as you make changes to your actions and behaviors.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Create an Action Plan: Break down your goals into actionable steps, and establish a timeline for achieving each one. This will help you stay on track and measure your progress as you work towards your desired outcome.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Seek Support: Reach out to friends, family, or mentors for guidance and encouragement. Having a support system can make it easier to navigate the challenges and setbacks that often accompany change.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Embrace Failure: Understand that failure is a natural part of growth and learning. Instead of fearing it, use each setback as an opportunity to learn and refine your approach.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cultivate a Growth Mindset: Believe in your ability to improve and adapt. Embrace challenges as opportunities to grow and develop new skills.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion&lt;/h4&gt;
-&lt;p&gt;Changing what you’re doing to change where you’re going can be a daunting process. It requires effort, persistence, and a willingness to step outside your comfort zone. Remember, the path to success is rarely a straight line. It’s a journey filled with twists and turns, but with determination and the right mindset, you can make meaningful progress towards your goals and create the life you’ve always envisioned.&lt;/p&gt;
-
-                &lt;/div&gt;
-
-            &lt;/section&gt;
-        &lt;/div&gt;
-
-
-&lt;/div&gt;</content:encoded>
-        </item>
         <item>
             <title><![CDATA[My college essay | Anubhab's blogs ]]></title>
             <description><![CDATA[This is the college essay that got me into the [UNI]. I am sharing this to help others write their essays.]]></description>
@@ -1092,7 +1012,7 @@ SIT Campus
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;As I stand here on the cusp of graduating, gazing upon the halls and pathways that have become my home for the past four years, a swirl of emotions engulfs me. My heart feels heavy with this melancholy as I roam around this campus for the final time. Every nook and corner of this campus holds a special place in my heart. Every memory, every laugh, every tear has been etched into these walls. And now, as I take my final steps through these corridors, I can feel a sense of separation looming over me. It’s hard to let go of something that has been a part of your life for so long.&lt;/p&gt;
-&lt;p&gt;I walk past the classrooms where we were always late. The same classrooms where we listened to lectures with half attention, where we struggled to keep our eyes open during the post-lunch sessions, and where we made friends. As I stand at the back of the room and look at the empty seats, I can hear the echo of our conversations. The labs are now a source of nostalgia. The long hours spent with our lab partners, trying to make sense of the experiments, the fear of lab tests, the laughter and the frustration - all of it comes flooding back. As I walk past these memories, I feel a sense of loss. I am leaving behind a part of myself.&lt;/p&gt;
+&lt;p&gt;As I walk past the classrooms where we were always late, a pang of nostalgia engulfs me. The same classrooms where we listened to lectures with half attention, where we struggled to keep our eyes open during the post-lunch sessions, and where we made friends. As I stand at the back of the room and look at the empty seats, I can hear the echo of our conversations. The labs are now a source of nostalgia. The long hours spent with our lab partners, trying to make sense of the experiments, the fear of lab tests, the laughter and the frustration - all of it comes flooding back. As I walk past these memories, I feel a sense of loss. I am leaving behind a part of myself.&lt;/p&gt;
 &lt;p&gt;It feels like only yesterday that I was a wide-eyed fresher, stepping onto campus for the first time. I was in my mind a tech hero, filled with adrenaline prepared to win and rule. As I stepped into the world of unknown and grown-ups, I realized I had a lot to learn. I was a small fish in a big lake, and I had to learn to swim. I was overwhelmed by the sheer number of people, the hustle and bustle of the campus, and the endless possibilities that lay ahead of me. I remember the days I used to walk around with an ID card hanging. I remember the time we used to chill in some corner bragging about how we are going to change the world upon graduating. I remember hopping on the evening bus to go out to the nearby markets with my friends. We went to eat and buy stuff, while we’d discuss the everyday nuances of our college lives. We used to participate in events, give out interviews for clubs and hang out late with seniors.&lt;/p&gt;
 &lt;p&gt;I yearn to go back to the first year and walk through the gate again. I long to don those ID cards once again and stand with my friends at T-Square as we reminisce about our first-year experiences. I want to get asked to demonstrate riding bikes, ask a senior’s name in the proper format given, and pry on our classmates and get their numbers for the seniors. I wish I could attend classes again, get sent outside for disturbing, run in sweaty formals, enter the chilled CS labs, and sit there staring blankly at the screens. Looking back, I can’t help but smile at the memories.&lt;/p&gt;
 &lt;figure class=&quot;skylab&quot;&gt;

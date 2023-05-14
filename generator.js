@@ -108,6 +108,8 @@ const processIndexFile = async(filename, template, outPath) => {
 const main = () => {
     const srcPath = path.resolve('content')
     const outPath = path.resolve('blog')
+    const dir = path.resolve('blog')
+    fs.rmSync(dir, { recursive: true, force: true });
     const indexoutPath = path.resolve('')
     const blogtemplate = fs.readFileSync('./templates/initial/blogtemplate.html', 'utf8')
     const indextemplate = fs.readFileSync('./templates/initial/indextemplate.html', 'utf8')
