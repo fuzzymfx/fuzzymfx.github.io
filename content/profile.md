@@ -1,8 +1,8 @@
 ---
 author: Anubhab patnaik
-title: My college essay 
+title: "Profile: Anubhab Patnaik"
 date: "2023-05-08"
-description: "This is the college essay that got me into the [UNI]. I am sharing this to help others write their essays."
+description: "A brief introduction about me."
 tags: ["CSE", "US", "masters"]
 ShowBreadCrumbs: true 
 ---
@@ -14,4 +14,4 @@ Aside from my academic pursuits, I am passionate about utilizing technology to c
 
 In addition to my academic endeavours, I have a passion for music, photography, and graphic design. I am learning to play the guitar, with a keen interest in Indian Bollywood music. I find that music feeds my soul and brings balance to my life, giving it a greater sense of purpose. I enjoy reading and watching science fiction, thrillers, mysteries, and fantasy thrillers. Additionally, I attend seminars on space exploration, life in space, and theoretical and quantum physics. I also actively participate in debates and Model United Nations conferences, where I have been recognized as the best delegate multiple times. I love to write and maintain a blog.
 
-I am extremely ambitious, and I am motivated to pursue a Master’s Degree in Computer Science at the esteemed [UNI]. With my sights set on new horizons, I am excited to see where life takes me and to see what the future holds. My academic background, professional experience, and passion for this field make me a strong candidate for admission, and I am excited to contribute to the community of scholars at [UNI]. Here's my profile.
+I am extremely ambitious, and I am motivated to pursue Computer Science. With my sights set on new horizons, I am excited to see where life takes me and to see what the future holds.
