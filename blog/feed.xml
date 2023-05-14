@@ -4,63 +4,10 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 May 2023 21:34:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 May 2023 21:38:45 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[My college essay | Anubhab's blogs ]]></title>
-            <description><![CDATA[This is the college essay that got me into the [UNI]. I am sharing this to help others write their essays.]]></description>
-            <link>https://anubhavp.dev/blog/college-essay.html</link>
-            <guid isPermaLink="true">https://anubhavp.dev/blog/college-essay.html</guid>
-            <dc:creator><![CDATA[Anubhab patnaik]]></dc:creator>
-            <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
-            <content:encoded>
-    &lt;div&gt;
-        &lt;div class=&quot;f6&quot;&gt;
-            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
-                &lt;nav&gt;
-                    &lt;div class=&quot;mb2 dib&quot;&gt;
-                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
-                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt; 
-                    &lt;/div&gt;
-                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
-                &lt;/nav&gt;
-                &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
-                    My college essay 
-                &lt;/h2&gt;
-                &lt;div&gt;
-                    &lt;p&gt;
-                       This is the college essay that got me into the [UNI]. I am sharing this to help others write their essays. 
-                    &lt;/p&gt;
-                &lt;/div&gt;
-                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab patnaik
-                &lt;/h4&gt;
-            &lt;/header&gt;
-            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
-                &lt;ul class=&quot;ph0&quot; style=&quot; 
-                list-style: none;
-                    &quot;&gt;
-                    &lt;li class=&quot;pb3&quot;&gt;
-                        2023-05-08
-                    &lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;div class=&quot;content custom&quot;&gt;
-                &lt;p&gt;As I sit in front of my computer, typing away at lines of code, I am wooed by the sheer potential of computer science. As a child, I was fascinated by the art of engineering and its ability to solve complex problems and make our lives easier. I remember spending countless hours fidgeting with electronic devices and tinkering with computers, trying to understand how they worked. From launching satellites and rovers on other planets to developing algorithms that can predict the future, the possibilities in this field are endless. As an undergraduate student studying computer science, I am privileged to have discovered my passion for it and I am thrilled by the prospect of contributing to this ever-evolving and exciting field in the future.&lt;/p&gt;
-&lt;p&gt;During my undergraduate studies, I gained extensive experience building web, mobile, machine learning, and command-line applications. Initially, I was more interested in exploratory data analysis and machine learning, creating projects such as Movie Recommendation and Movie Rating Prediction systems, utilizing algorithms like Gradient Descent, logistic regression, and SVMs. As my education progressed, my interests shifted towards web and mobile development. I built mobile and web applications using technologies such as Go, ReactJs, React Native, and Firebase, among others, as well as cloud technologies like AWS and GCP among others. My GitHub contains a lot of projects, including a static site generator built using NodeJs, a website in React to make education more accessible, a torrent client, a blog application using Rust, and much more.&lt;/p&gt;
-&lt;p&gt;Aside from my academic pursuits, I am passionate about utilizing technology to create a positive impact within my community and I have actively sought out opportunities to employ my knowledge for the betterment of others. Throughout my undergraduate studies, I co-founded the first official coding club on campus, SWITCH, where I served as the joint secretary. Our primary objective was to establish a coding community for students, offering various workshops, hackathons, and coding competitions. In addition, I built a FOSS community called cbrtl, a close-knit group of programmers and open-source enthusiasts who enjoy working on fun projects together and building a community. My passion for mentoring and community-building led me to be appointed as the President, Student Chairperson of the prestigious IEEE Students’ Chapter. I also served as an avid mentor in other tech communities, such as UnStop.&lt;/p&gt;
-&lt;p&gt;In addition to my academic endeavours, I have a passion for music, photography, and graphic design. I am learning to play the guitar, with a keen interest in Indian Bollywood music. I find that music feeds my soul and brings balance to my life, giving it a greater sense of purpose. I enjoy reading and watching science fiction, thrillers, mysteries, and fantasy thrillers. Additionally, I attend seminars on space exploration, life in space, and theoretical and quantum physics. I also actively participate in debates and Model United Nations conferences, where I have been recognized as the best delegate multiple times. I love to write and maintain a blog.&lt;/p&gt;
-&lt;p&gt;I am extremely ambitious, and I am motivated to pursue a Master’s Degree in Computer Science at the esteemed [UNI]. With my sights set on new horizons, I am excited to see where life takes me and to see what the future holds. My academic background, professional experience, and passion for this field make me a strong candidate for admission, and I am excited to contribute to the community of scholars at [UNI]. Here’s my profile.&lt;/p&gt;
-
-                &lt;/div&gt;
-
-            &lt;/section&gt;
-        &lt;/div&gt;
-
-
-&lt;/div&gt;</content:encoded>
-        </item>
         <item>
             <title><![CDATA[Why is Web3 a sham? | Anubhab's blogs ]]></title>
             <description><![CDATA[A short rant on the state of Web3]]></description>
@@ -444,6 +391,59 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;h3 id=&quot;improving-the-current-infrastructure&quot; tabindex=&quot;-1&quot;&gt;Improving the current infrastructure&lt;/h3&gt;
 &lt;p&gt;The approaches may be justified once some of the important issues are addressed. Other than the mentioned problems, a lot of other factors need to pitch in to improve and make the platform more a feasible good product to be sold. The product being built is excellent, no doubt. The deep learning models in the ACB mechanism, the tech being used, the next generation Polkadot blockchains which are much, much faster (1000 transactions per second as compared to 7-10 transactions in traditional blockchain networks) and allow a huge no. of queries in a much faster time, the faster and more efficient transaction mechanisms, interoperability, the economic scalability, user-driven governance, the forkless upgrades, and the claimed security and transparency, are a step in the right direction, but there are grave issues those still need to be discussed before the product is introduced and launched.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ref: &lt;a href=&quot;https://sovereignwallet-network.github.io/whitepaper/MetaMUI-Blockchain-White-Paper.pdf&quot;&gt;Whitepaper&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+                &lt;/div&gt;
+
+            &lt;/section&gt;
+        &lt;/div&gt;
+
+
+&lt;/div&gt;</content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Profile: Anubhab Patnaik | Anubhab's blogs ]]></title>
+            <description><![CDATA[A brief introduction about me.]]></description>
+            <link>https://anubhavp.dev/blog/profile.html</link>
+            <guid isPermaLink="true">https://anubhavp.dev/blog/profile.html</guid>
+            <dc:creator><![CDATA[Anubhab patnaik]]></dc:creator>
+            <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+            <content:encoded>
+    &lt;div&gt;
+        &lt;div class=&quot;f6&quot;&gt;
+            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
+                &lt;nav&gt;
+                    &lt;div class=&quot;mb2 dib&quot;&gt;
+                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
+                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt; 
+                    &lt;/div&gt;
+                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
+                &lt;/nav&gt;
+                &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
+                    Profile: Anubhab Patnaik 
+                &lt;/h2&gt;
+                &lt;div&gt;
+                    &lt;p&gt;
+                       A brief introduction about me. 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
+                    Anubhab patnaik
+                &lt;/h4&gt;
+            &lt;/header&gt;
+            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
+                &lt;ul class=&quot;ph0&quot; style=&quot; 
+                list-style: none;
+                    &quot;&gt;
+                    &lt;li class=&quot;pb3&quot;&gt;
+                        2023-05-08
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;div class=&quot;content custom&quot;&gt;
+                &lt;p&gt;As I sit in front of my computer, typing away at lines of code, I am wooed by the sheer potential of computer science. As a child, I was fascinated by the art of engineering and its ability to solve complex problems and make our lives easier. I remember spending countless hours fidgeting with electronic devices and tinkering with computers, trying to understand how they worked. From launching satellites and rovers on other planets to developing algorithms that can predict the future, the possibilities in this field are endless. As an undergraduate student studying computer science, I am privileged to have discovered my passion for it and I am thrilled by the prospect of contributing to this ever-evolving and exciting field in the future.&lt;/p&gt;
+&lt;p&gt;During my undergraduate studies, I gained extensive experience building web, mobile, machine learning, and command-line applications. Initially, I was more interested in exploratory data analysis and machine learning, creating projects such as Movie Recommendation and Movie Rating Prediction systems, utilizing algorithms like Gradient Descent, logistic regression, and SVMs. As my education progressed, my interests shifted towards web and mobile development. I built mobile and web applications using technologies such as Go, ReactJs, React Native, and Firebase, among others, as well as cloud technologies like AWS and GCP among others. My GitHub contains a lot of projects, including a static site generator built using NodeJs, a website in React to make education more accessible, a torrent client, a blog application using Rust, and much more.&lt;/p&gt;
+&lt;p&gt;Aside from my academic pursuits, I am passionate about utilizing technology to create a positive impact within my community and I have actively sought out opportunities to employ my knowledge for the betterment of others. Throughout my undergraduate studies, I co-founded the first official coding club on campus, SWITCH, where I served as the joint secretary. Our primary objective was to establish a coding community for students, offering various workshops, hackathons, and coding competitions. In addition, I built a FOSS community called cbrtl, a close-knit group of programmers and open-source enthusiasts who enjoy working on fun projects together and building a community. My passion for mentoring and community-building led me to be appointed as the President, Student Chairperson of the prestigious IEEE Students’ Chapter. I also served as an avid mentor in other tech communities, such as UnStop.&lt;/p&gt;
+&lt;p&gt;In addition to my academic endeavours, I have a passion for music, photography, and graphic design. I am learning to play the guitar, with a keen interest in Indian Bollywood music. I find that music feeds my soul and brings balance to my life, giving it a greater sense of purpose. I enjoy reading and watching science fiction, thrillers, mysteries, and fantasy thrillers. Additionally, I attend seminars on space exploration, life in space, and theoretical and quantum physics. I also actively participate in debates and Model United Nations conferences, where I have been recognized as the best delegate multiple times. I love to write and maintain a blog.&lt;/p&gt;
+&lt;p&gt;I am extremely ambitious, and I am motivated to pursue Computer Science. With my sights set on new horizons, I am excited to see where life takes me and to see what the future holds.&lt;/p&gt;
 
                 &lt;/div&gt;
 
