@@ -18,7 +18,8 @@
     "type": "module",
     "scripts": {
         "devgenerate": "nodemon -e js,md,html --ignore dist/ ./generator.js",
-        "generate": "node ./generator.js && node ./rss-generator.js"
+        "generate": "node ./generator.js && node ./rss-generator.js",
+        "res": "pdflatex ./assets/resume.tex"
     },
     "bin": {
         "zuzussg": "./generator.js"
