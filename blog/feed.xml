@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 May 2023 13:58:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 May 2023 14:06:56 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -1080,6 +1080,11 @@ Goodbye, SIT ❤️
                 &lt;div class=&quot;content custom&quot;&gt;
                 &lt;h2 id=&quot;test&quot; tabindex=&quot;-1&quot;&gt;Test&lt;/h2&gt;
 &lt;p&gt;This is a test page.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;() =&amp;gt; {
+  &lt;span class=&quot;hljs-variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;log&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;);
+  &lt;span class=&quot;hljs-variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;hljs-title function_&quot;&gt;log&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;This is the second test&quot;&lt;/span&gt;);
+}
+&lt;/code&gt;&lt;/pre&gt;
 
                 &lt;/div&gt;
 
