@@ -36,7 +36,7 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v2
       with:
-        root_file: resume.tex
+        root_file: ./templates/resume/resume.tex
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
