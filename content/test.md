@@ -10,3 +10,10 @@ ShowBreadCrumbs: true
 ## Test
 
 This is a test page.
+
+```js
+() => {
+  console.log("Hello World");
+  console.log("This is the second test");
+}
+```
