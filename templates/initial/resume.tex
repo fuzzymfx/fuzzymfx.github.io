@@ -1,11 +1,13 @@
 %-------------------------
 % Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
+% Author: Anubhab Patnaik
+% Based off of: https://github.com/sb2nov/resume & https://github.com/jakegut/resume
+% License: MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
+\usepackage{fontawesome5}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -18,6 +20,19 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -48,39 +63,39 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
+\newcommand{\resumeItem}[1]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    {#1 \vspace{-2pt}}
   }
 }
 
-% Just in case someone needs a heading that does not need to be in a list
-\newcommand{\resumeHeading}[4]{
-    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
-}
-
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
+    \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textit{\small #2} \\
+    \end{tabular*}\vspace{-1 pt}
+}
 
-\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -93,8 +108,11 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : \href{tel:+11234567890}{+1-123-456-7890} \\
+  \textbf{\href{https://anubhavp.dev/}{\Large Anubhab Patnaik}}\\
+  \small \href{mailto:anubhabr50@gmail.com}{\underline{anubhabr50@gmail.com}} $|$ 
+    \href{https://anubhavp.dev/}{\underline{anubhavp.dev}} $|$
+    \href{https://linkedin.com/in/anubhabpatnaik0530}{\underline{linkedin.com/in/anubhabpatnaik0530}} $|$
+    \href{https://github.com/fuzzymfx}{\underline{github.com/fuzzymfx}} $|$
 \end{tabular*}
 
 
@@ -102,11 +120,8 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
-    \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+      {Silicon Institute of Technology}{Bhubaneswar, India}
+      {Bachelor of Technology in Computer Science and Engineering;  GPA:8.85/10.0}{July 2019 -- June 2023}
   \resumeSubHeadingListEnd
 
 
@@ -115,13 +130,18 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
+      {Squbix Digital}{Bhubaneswar, IN}
+      {Software Developer}{June 2022 - Jan 2023}
       \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+        \resumeItem
+          {Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline
+          storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.}
+        \resumeItem
+          {Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the
+          JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.}
+        \resumeItem
+          {Modified the existing DID pallet using rust \& substrate to store id information in the blockchain with additional unit tests.
+          Collaborated on the wallet transfer PWA to cater to the need of existing users of the older blockchain.}
       \resumeItemListEnd
       
 % --------Multiple Positions Heading------------
@@ -135,76 +155,94 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+      {Ebibil Technologies}{WFH, IN}
+      {MLOps Frontend Engineer}{ July 2021 - Oct 2021}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+        \resumeItem
+          {Collaborated on the Django web app to integrate with ML models for a smart parking system to identify \& recognize the license
+          plate using Python and OpenCV for the ANPR system with a 67\% accuracy}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {Triluxo Education}{WFH, IN}
+      {Python Developer}{July 2021 - Oct 2021}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem
+          {Tutored students on the basics of computer Science \& programming using Python.}
+        \resumeItem
+          {Built a Django back-end for a web application used by students to build apps}
       \resumeItemListEnd
-
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
+%
+% --------TECHINCAL SKILLS ------------
+
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\textbf{Programming Languages}}
+      {C/C++, Python, JavaScript/TypeScript, Go, PHP, Rust, SQL}
+    \resumeSubItem{\textbf{Libraries/ Frameworks}}
+      {Numpy, Pandas, Sk-Learn, Django, MERN, React Native, Flutter, Substrate }
+    \resumeSubItem{\textbf{Developer Tools \& Platforms}}
+      {Git, Bash, GitHub, Docker, AWS, Firebase, Lighthouse, Analytics}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeProjectHeading
+    {\href{https://anubhavp.dev/blog/qtree.html}{\textbf{QTREE} - \faIcon{link}}}{JavaScript, Canvas, HTML}
+    \resumeSubItem
+      {Inspired by {\href{https://github.com/vogievetsky/KoalasToTheMax}{ \underline{KoalasToTheMax}}}, QTree is a short live demonstration of image compression and decompression using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants. }
+    \resumeProjectHeading
+    {\href{https://github.com/fuzzymfx/w3bchat-dapp}{\textbf{WEBCHAT} - \faIcon{link}}}{GunJS, Svelte, Rust, Tokio, Substrate, React, Firebase, gh-actions}
+    \resumeSubItem
+      {A decentralized chat app built in Rust \& Svelte for super fast performance and excellent memory management. }
+      \resumeProjectHeading
+    {\href{https://github.com/fuzzymfx/bee}{{\textbf{BEE} - \faIcon{link} }}}{Pandas, Sklearn, NLP, LP, BitTorrent}
+    \resumeSubItem
+      {A custom BitTorrent client to download movies with an \textbf{item-based collaborative movie recommendation system} based on user ratings and the no. of ratings \& \textbf{a rating prediction system} to classify movie reviews as good/bad.}
+      \resumeProjectHeading
+    {\href{https://github.com/fuzzymfx/zuzu}{\textbf{ZUZU} - \faIcon{link}}}{NodeJs, Django, React, SQLite3, AWS-EC2}
+    \resumeSubItem
+      {A is a static site generator with RSS \& pdf generators with search bar \& custom theme setting.}
+      \resumeProjectHeading
+    {\href{https://github.com/fuzzymfx/resoc}{\textbf{RESOC} - \faIcon{link} }}{React, Bootstrap, Firebase, Cloud Firestore}
+    \resumeSubItem
+      {A FOSS social platform for accessing free academic resources with task management, a chat section, and an open contributions page with a growing user base of 2000 \& more than 4000 reads and 200 writes}
   \resumeSubHeadingListEnd
+%--------------------------------------
 
 %
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+% --------VOLUNTEER EXPERIENCE ------------
 
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+    \resumeSubItem
+      {Co-founder - \underline{\href{https://cbrtl.github.io}{cbrtl}}: A FOSS platform for programmers who like to craft fun projects together. \textbf{2022}\\}
+    \resumeSubItem
+      {Co-founder \& Joint Secretary, SWITCH, the first official coding club of the College. \textbf{2021}.\\}
+    \resumeSubItem
+      {President (Chairperson) - \textbf{2022-23} of the prestigious IEEE Students’ Chapter, Silicon Institute of Technology.\\}
+  \resumeSubHeadingListEnd
 
 %-------------------------------------------
+%
+
+% --------HONORS \& AWARDS ------------
+
+\section{HONORS \& AWARDS}
+  \resumeSubHeadingListStart
+    \resumeSubItem
+      {Semi-Finalist: Binance 2022, Nirman 2022 \& ED Cell -Ideathon 2022 }
+    \resumeSubItem
+      {Best Delegate: XIMUN 23 LHSMUN '20. High Commendation-I SITMUN(2020 \& 2021). }
+    \resumeSubItem
+      {Contingent Leader: Mood Indigo 2023, IIT Bombay}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+
 \end{document}

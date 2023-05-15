@@ -19,7 +19,7 @@
     "scripts": {
         "devgenerate": "nodemon -e js,md,html --ignore dist/ ./generator.js",
         "generate": "node ./generator.js && node ./rss-generator.js",
-        "res": "pdflatex ./assets/resume.tex"
+        "res": "pdflatex ./templates/initial/resume.tex"
     },
     "bin": {
         "zuzussg": "./generator.js"
