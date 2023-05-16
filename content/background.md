@@ -20,9 +20,9 @@ title: background
 
 ### Courses
 
-- Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
+- Python MPC - Guvi 2020 - [🔗](https://www.guvi.in/verify-certificate?id=679711o0122cwk0L2A )
 - Machine Learning 101 - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=32J12d6T5mlsu464Y6&course=introduction-to-ml)
-- Python MPC - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=679711o0122cwk0L2A )
+- Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
 - Linux for Cloud & DevOps Engineers - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-43d4c49a-155a-4b08-8524-ed7cae15e55e/)
 - Web Development using Python & Django - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-57717fcc-055f-4094-80e5-ead8e1e17e22/)
 - MERN Stack - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-1e62205e-604a-403b-86c3-c4da1a60b22e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email)
