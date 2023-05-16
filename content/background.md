@@ -40,6 +40,7 @@ title: background
 - Arduino - Robothlon - IIT Delhi 2017 - [🔗](https://drive.google.com/file/d/1l2OJHdRoMyoC82yqap_zMMCxcmC328Qz/view?usp=sharing)
 - Ethical Hacking - Robothlon - IIT Delhi 2017 - [🔗](https://drive.google.com/file/d/1l2OJHdRoMyoC82yqap_zMMCxcmC328Qz/view?usp=sharing)
 - TEDxSITB - #HalfEmptyHalfFilled - SIT 2019 - [🔗](https://drive.google.com/file/d/1gR4mUn0_gmW-SlzKR3x3xHLJiC_FHauu/view?usp=sharing)
+- Photographer/ Graphic Designer - SIT: Media Cell/ Photography Club 2020 - [🔗](https://drive.google.com/file/d/1gR4mUn0_gmW-SlzKR3x3xHLJiC_FHauu/view?usp=sharing)
 - High Commendation I ( Best Del ) - SITMUN 2020 - [🔗](https://drive.google.com/file/d/1nbwySBjw8uUQH9bWY_vR0SeXt8x4B54M/view?usp=sharing)
 - High Commendation I - SITMUN 2021 - [🔗](https://drive.google.com/file/d/1RI8fXtCTYrlYlX-dnGvfQQ76CHx0AEaq/view?usp=sharing)
 - Co-founder & Joint Secretary - SWITCH 2021-22 - [🔗](https://drive.google.com/file/d/1Zub7ui2WCRYgN7tM0G8p-dbeFLirGR-d/view?usp=sharing)
