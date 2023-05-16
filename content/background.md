@@ -18,6 +18,17 @@ title: background
 - Software Developer - Squbix Digital 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
 - Co-founder - CBRTL 2022 - [🔗](https://cbrtl.github.io/)
 
+### Courses
+
+- Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
+- Machine Learning 101 - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=32J12d6T5mlsu464Y6&course=introduction-to-ml)
+- Python MPC - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=679711o0122cwk0L2A )
+- Linux for Cloud & DevOps Engineers - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-43d4c49a-155a-4b08-8524-ed7cae15e55e/)
+- Web Development using Python & Django - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-57717fcc-055f-4094-80e5-ead8e1e17e22/)
+- MERN Stack - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-1e62205e-604a-403b-86c3-c4da1a60b22e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email)
+- Modern Javascript ES6 for ReactJs - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-08f55382-07f4-4b97-93a8-da96e5c59d2e/)
+- Container Orchestrations with Docker Swarm - Udemy 2022 - [🔗]()
+
 ### Activities
 
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
@@ -32,10 +43,6 @@ title: background
 - High Commendation I ( Best Del ) - SITMUN 2020 - [🔗](https://drive.google.com/file/d/1nbwySBjw8uUQH9bWY_vR0SeXt8x4B54M/view?usp=sharing)
 - High Commendation I - SITMUN 2021 - [🔗](https://drive.google.com/file/d/1RI8fXtCTYrlYlX-dnGvfQQ76CHx0AEaq/view?usp=sharing)
 - Co-founder & Joint Secretary - SWITCH 2021-22 - [🔗](https://drive.google.com/file/d/1Zub7ui2WCRYgN7tM0G8p-dbeFLirGR-d/view?usp=sharing)
-- Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
-- Machine Learning 101 - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=32J12d6T5mlsu464Y6&course=introduction-to-ml)
-- Python MPC - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=679711o0122cwk0L2A )
-- Linux for Cloud & DevOps Engineers - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-43d4c49a-155a-4b08-8524-ed7cae15e55e/)
 - President, Chairperson IEEE Students' Branch - SIT 2022-23 - [🔗]()
 - Ideate Nirman - SIT 2022 - [🔗](https://drive.google.com/file/d/1i--TyXYDPxMN5IbokTzFoTGE4K-rnpXM/view?usp=share_link)
 - Why Rust - Squbix Digital 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_i-hosted-a-tech-talk-last-week-and-it-went-activity-6987708219385122816-aq9z?utm_source=share&utm_medium=member_desktop)
