@@ -44,7 +44,7 @@ title: background
 - High Commendation I ( Best Del ) - SITMUN 2020 - [🔗](https://drive.google.com/file/d/1nbwySBjw8uUQH9bWY_vR0SeXt8x4B54M/view?usp=sharing)
 - High Commendation I - SITMUN 2021 - [🔗](https://drive.google.com/file/d/1RI8fXtCTYrlYlX-dnGvfQQ76CHx0AEaq/view?usp=sharing)
 - Co-founder & Joint Secretary - SWITCH 2021-22 - [🔗](https://drive.google.com/file/d/1Zub7ui2WCRYgN7tM0G8p-dbeFLirGR-d/view?usp=sharing)
-- President, Chairperson IEEE Students' Branch *STB04531* - SIT 2022-23 - [🔗](https://www.instagram.com/ieeesitbbsr/)
+- President, Chairperson IEEE Students' Branch *STB04531* - SIT 2022-23 - [🔗](https://drive.google.com/file/d/1tGYRWLyCbovR9_ufuW2y-mqEUkitOGzE/view?usp=share_link)
 - Ideate Nirman - SIT 2022 - [🔗](https://drive.google.com/file/d/1i--TyXYDPxMN5IbokTzFoTGE4K-rnpXM/view?usp=share_link)
 - Why Rust - Squbix Digital 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_i-hosted-a-tech-talk-last-week-and-it-went-activity-6987708219385122816-aq9z?utm_source=share&utm_medium=member_desktop)
 - Binance Ideathon - #BlockchainforGood 2022 - [🔗](https://drive.google.com/file/d/1IcDC_7L4bw-PPsLsNhH9cS2ezDynDAMB/view?usp=share_🔗)
