@@ -37,9 +37,9 @@ Dev:
 
 - [BitTorrent client]( https://github.com/fuzzymfx/bittorrent-client)
   - ~~Implement magnet link parsing using `magnet-uri`~~
-  - ~~Attempt torrent files and link using `webttorrent client`~~
+  - ~~Attempt downloading torrent files and link using `webttorrent client`~~
   - Write bencode parser in typescript
-  - Built a client to download files form the decoded bencode file
+  - Build a tcp client to download files form the decoded bencode file
 - Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
 - [Space Impact](https://en.wikipedia.org/wiki/Space_Impact)
 
