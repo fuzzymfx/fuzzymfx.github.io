@@ -38,10 +38,13 @@ Dev:
 - [BitTorrent client]( https://github.com/fuzzymfx/bittorrent-client)
   - ~~Implement magnet link parsing using `magnet-uri`~~
   - ~~Attempt downloading torrent files and link using `webttorrent client`~~
-  - Write bencode parser in typescript
-  - Build a tcp client to download files form the decoded bencode file
-- Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
+  - ~~Write bencode parser in typescript~~
+  - Build a tcp client to download files form the `trackers array` of the decoded bencode file
+  - Combine the downloads and merge them to build the original file
 - [Space Impact](https://en.wikipedia.org/wiki/Space_Impact)
+  - Research game development
+  - Research LÖVE & Lua
+- Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
 
 Code:
 
