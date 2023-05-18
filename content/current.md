@@ -35,7 +35,7 @@ Meanwhile, I am also exploring esoteric programming languages and will be workin
 
 Dev:
 
-- [BitTorrent client]( https://github.com/fuzzymfx/bittorrent-client)
+- [BitTorrent client]( https://github.com/fuzzymfx/bee)
   - ~~Implement magnet link parsing using `magnet-uri`~~
   - ~~Attempt downloading torrent files and link using `webttorrent client`~~
   - ~~Write bencode parser in typescript~~
