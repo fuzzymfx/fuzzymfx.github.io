@@ -5,7 +5,7 @@ title: cv
 
 ### Educational Background
 
-- B.Tech Silicon Institute of Technology, Bhubaneswar - 2023 - [🔗]()
+- B.Tech Silicon Institute of Technology, Bhubaneswar - 2023 - [🔗](/assets/docs/190310030.pdf)
 - 12th FIITJEE Junior College, Hyderabad - 2018  - [🔗](https://drive.google.com/file/d/1GYaQYoUpT1h76NqwHfml-aByx4YrshfK/view?usp=sharing)
 - 10th DAV Public School, Jamshedpur - 2016 - [🔗](https://drive.google.com/file/d/12Nwsc_b1iR7ZO70Oh-c7T9ImnDcg_GL4/view?usp=sharing)
 
