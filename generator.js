@@ -126,7 +126,7 @@ const main = () => {
             else processIndexFile(filename, indextemplate, indexoutPath);
         }
         else if(filename.includes('current.md')) processIndexFile(filename, currenttemplate, indexoutPath);
-        else if (filename.includes('background.md')) processIndexFile(filename, currenttemplate, indexoutPath);
+        else if (filename.includes('cv.md')) processIndexFile(filename, currenttemplate, indexoutPath);
         else if(months.some(el => filename.includes(el))) processBlogFile(filename, currenttemplate, outPath);
         else processBlogFile(filename, blogtemplate, outPath)
     })

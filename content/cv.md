@@ -1,6 +1,7 @@
 ---
-title: background
+title: cv
 ---
+[Resume](/resume.pdf)
 
 ### Educational Background
 
@@ -11,12 +12,31 @@ title: background
 ### Work Experience
 
 - Co-founder - CBRTL 2022 - [🔗](https://cbrtl.github.io/)
+  - Built an FOSS (Free and Open Source Software) community to promote open source culture in the college.
+  - Organized events and podcasts to instill a culture of working, brainstorming and building together in the college.
+
 - Software Developer - Squbix Digital 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
+  - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
+  - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
+  - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the need of existing users on the older blockchain.
 - Freelance Software Developer -Afixi Technologies 2022 - [🔗]()
+  - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a python script to automate the uploading of music from producer's S3 bucket & automated uploading of music on YouTube.
+
 - MLOps & React Internship - Ebibil Technologies 2021 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
+  - Collaborated on the Django web app to integrate with ML models for a smart parking system.
+  - Implemented a PWA using react for the admin panel that manages the parking system.
+  - Contributed to ML models in Python to build an ANPR system to detect the license plate with a 67\% accuracy
+
 - Python Tutor - Triluxo 2021 - [🔗](https://drive.google.com/file/d/1QtlOYWOXRhybfRIgOV-px3bPdye2M_cW/view?usp=sharing)
+  - Tutored students on the basics of computer Science, the web \& programming using Python.
+  - Built a Django back-end for a web application used by students to build apps
+
 - IOT - Summer Internship 2021 - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
+  - Built an ideation of a smart soil monitor system using  NodeMCU, and Firebase, and  sensors.
+  - Built an ideation of a home-automation system using a relay, NodeMCU, wifi, and mobile app.
+
 - Cybersecurity - Summer Internship 2020 - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
+  - Worked with live data to create a ransomware report and a phishing report.
 
 ### Courses
 
