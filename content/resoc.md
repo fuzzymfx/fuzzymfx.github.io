@@ -36,14 +36,14 @@ As we continue to develop RESOC, our goal is to create a platform that feels lik
 
 We don't charge you anything for the notes, but you could always consider buying us pizza! ;)
 
-	- With love and pizza dreams, TeamSoc
+ - With love and pizza dreams, TeamSoc
 
 Check out the page now!! [RESOC](https://notes-sit.live/)
 
 ### Update
 
 <figure class="resoc">
-<img src ="/assets/img/resoc/resoc-traffic.jpeg" class="h-75 w-75">
+<img alt="analytics" src ="/assets/img/resoc/resoc-traffic.jpeg" class="h-75 w-75">
 <figcaption>
 RESOC Traffic during exam time!
 </figcaption>
