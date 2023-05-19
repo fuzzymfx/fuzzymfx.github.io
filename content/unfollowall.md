@@ -1,5 +1,5 @@
 ---
-author: Anubhab patnaik
+author: Anubhab Patnaik
 title: "Unfollow all: A LinkedIn Script"
 date: "2023-04-29"
 description: "A linkedin script to remove all your followings :D"
