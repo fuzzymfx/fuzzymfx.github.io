@@ -52,17 +52,10 @@ title: cv
   - Old Blog - [🔗](https://anubhavp.dev/oldblog/)
   - Current Blog - [🔗](https://anubhavp.dev/blog/)
   - Built a multi client blog application using Django and zuzu and hosted it on AWS EC2. The frontend of the application was built using React Hooks and Bootstrap.
-- [CORS Proxy](https://github.com/fuzzymfx/cors-proxy) - A CORS proxy server written in NodeJs.
-  - \[Node, Express, CORS, gh-actions]
-  - Built a CORS proxy using NodeJs and Express and used gh-actions to automate the deployment of the application.
-- [Zygon- SIT 2023](https://github.com/fuzzymfx/zygon-sit-2023) - Contributed to the development of the SIT 2023 website.
-- [LC200](https://github.com/fuzzymfx/LC-200) - A curated list of 200+ resources for data structures and algorithms.
 - [Qtree](https://github.com/fuzzymfx/qd-compression) - Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants.
   - \[NodeJs, Quadtrees, Canvas- HTML5]
   - Built a web application using NodeJs and Canvas to compress and decompress images using Quadtrees.
   - Live demo - [🔗](https://anubhavp.dev/blog/qtree/)
--[DSA 450](https://github.com/fuzzymfx/DSA-450) - A curated list of 450+ questions for data structures and algorithms by [Love Babbar](https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw).
-- [SDE Sheet](https://github.com/fuzzymfx/SDE-sheet) - A curated list of questions for data structures and algorithms by [Striver](https://www.youtube.com/channel/UCJskGeByzRRSvmOyZOz61ig).
 - [Explored](https://github.com/fuzzymfx/explored) - The Globe from Github's homepage implemented in ThreeJS with beautiful shading.
   - \[ThreeJS, WebGL, GLSL, JavaScript]
   - Demonstrated a web application using ThreeJS and WebGL to render a globe with beautiful shading.
@@ -71,8 +64,6 @@ title: cv
 - [W3Chat](https://github.com/fuzzymfx/w3bchat-dapp) - A decentralized chat application that uses a graph DB to demonstrate the concept of a decentralized chat application.
   - \[Svelte, CSS, GraphDB- GUNJS NodeJs]
   - Live demo - [🔗](https://anubhavp.dev/w3bchat-dapp/)
-- [SEO](https://github.com/fuzzymfx/chrome-seo-extension) - A chrome extension to check the SEO of a website.
-  - \[JavaScript, Chrome Extension]
 - [Nice Dear](https://github.com/fuzzymfx/nicedear) - A library that generates random avatars. *Obvious dicebear rip-off*.
   - \[TypeScript, Sharp, Util, Canvas- HTML5]
 - [Rokio](https://github.com/fuzzymfx/rust-tokio-chat-server) - A multi client chat server written in Rust using Tokio.
@@ -84,6 +75,10 @@ title: cv
   - Used custom css from open-source projects to style the app.
   - Added a custom ML model to predict the marks secured by the student.
   - Created a venv in python and installed the required libraries and called it using PHP.
+  - [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using Linear Regression and Gradient Descent.
+  - \[Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn]
+  - Used the Scikit-learn library to create a Linear Regression model.
+  - Used Gradient Descent to optimize the model.
 - [Depression Detector](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets) - Created a TF/IDF classifier - sentiment analysis model to detect depression in tweets.
   - \[Python, NLTK, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn]
   - Used the NLTK library to preprocess the tweets.
@@ -110,15 +105,6 @@ title: cv
   - \[Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn]
   - Classifying MNIST dataset using CNN and implementing using Keras and max pooling dropout technique
   - Created a separate MNIST digit classifier using KNN - [🔗](https://github.com/fuzzymfx/Classifying-mnist-digit-dataset)
-- [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using Linear Regression and Gradient Descent.
-  - \[Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn]
-  - Used the Scikit-learn library to create a Linear Regression model.
-  - Used Gradient Descent to optimize the model.
-- [Face Recognition](https://github.com/fuzzymfx/Face-Recognition) - A face recognition system using OpenCV and Haar Cascades.
-  - \[Python, OpenCV, Haar Cascades]
-  - Used Harcasscade to detect faces using the default camera
-  - Caputed 10th frame to save the data
-  - Saved the data in a numpy array and used knn to recognize a face
 - [Bird Migration Analysis](https://github.com/fuzzymfx/Bird-Migration-data-analysis) - A data analysis project to analyze the migration of birds.
   - \[Matplotlib, Pandas, Numpy, Cartopy, Shapely]
   - The data for this case study comes from the LifeWatch INBO project
