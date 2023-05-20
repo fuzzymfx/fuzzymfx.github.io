@@ -4,7 +4,7 @@ title: "current"
 
 ##### April, 2023
 
-I recently visited Bangalore and met with my friends; to explore and pursue a new idea. We had a great time and I am looking forward to meeting them again. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, which is to work with one of the top tech companies and work on projects that I am really passionate about. While I go and hunt for jobs, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am really excited about it.
+I recently visited Bangalore and met with my friends; to explore and pursue a new idea. We had a great time and I am looking forward to meeting them again. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, which is to work with one of the top tech companies and work on projects that I am passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am excited about it.
 
 I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop): Getting into the rhythm of version control with Git & GitHub with UnStop Chapter of Sit, BBS and it was a huge success. We are planning to host a more advanced session on Git and GitHub shortly. There's also a web development workshop coming up.
 
@@ -37,14 +37,18 @@ Dev:
 
 - [BitTorrent client]( https://github.com/fuzzymfx/bee)
   - ~~Implement magnet link parsing using `magnet-uri`~~
-  - ~~Attempt downloading torrent files and link using `webttorrent client`~~
+  - ~~Attempt downloading torrent files and links using `webttorrent client`~~
   - ~~Write bencode parser in typescript~~
-  - Build a tcp client to download files form the `trackers array` of the decoded bencode file
+  - Build a TCP client to download files from the `trackers array` of the decoded bencode file
   - Combine the downloads and merge them to build the original file
 - [Space Impact](https://en.wikipedia.org/wiki/Space_Impact)
   - Research game development
   - Research LÖVE & Lua
 - Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
+- ~~[Portfolio Website](https://smrutidash.com)~~
+  - ~~Get Smruti a domain (smrutidash.com)~~
+  - ~~Search for open-source portfolios with interactive and animated CSS with a lot of design specifications~~
+  - ~~Fork the site and edit it.~~
 
 Code:
 
