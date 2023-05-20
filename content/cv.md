@@ -35,16 +35,16 @@ title: cv
 
 ### Projects
 
-- [Bee](https://github.com/fuzzymfx/b) - A tiny bit torrent client written in TypeScript. Built to work with the movie recommendation system and the movie rating prediction system.
+- [Bee](https://github.com/fuzzymfx/b) - A **tiny bit torrent client** written in TypeScript. Built to work with the movie recommendation system and the movie rating prediction system.
   - \[TypeScript, Web Sockets, NodeJs]
   - Wrote a bencode parser to parse torrent and magnet files
   - Wrote a custom tcp client to iterate over peers and download the file and a custom http client to download the torrent file
   - Used the web worker API to run the client in a separate thread
-- [RESOC](https://github.com/fuzzymfx/resoc) - A FOSS social platform for accessing free academic resources with task management, a chat section, and an open contributions page with a growing user base of 2000 & more than 4000 reads and 200 writes.
+- [RESOC](https://github.com/fuzzymfx/resoc) - A FOSS **social platform** for accessing free academic resources with task management, a chat section, and an open contributions page with a growing user base of 2000 & more than 4000 reads and 200 writes.
   - \[React, React-Bootstrap, Firebase, Cloud Firestore, emailjs, firebase-hosting, gh-actions]
   - Built a task management system with a chat section using React, React-Bootstrap, and Firebase.
   - Hosted static notes in the cloud using Firebase Storage and Cloud Firestore.
-- [zuzu](https://github.com/fuzzymfx/zuzu) - A static site generator written in JavaScript.
+- [zuzu](https://github.com/fuzzymfx/zuzu) - A **static site generator** written in JavaScript.
   - \[Node, Django REST, Bootstrap, React Hooks, SQLite3, AWS EC2, gh-actions, MarkdownIt, Glob, Gray-matter]
   - Built a static site generator using NodeJs.
   - Used gh-actions to automate the deployment of the application.
@@ -52,60 +52,59 @@ title: cv
   - Old Blog - [🔗](https://anubhavp.dev/oldblog/)
   - Current Blog - [🔗](https://anubhavp.dev/blog/)
   - Built a multi client blog application using Django and zuzu and hosted it on AWS EC2. The frontend of the application was built using React Hooks and Bootstrap.
-- [Qtree](https://github.com/fuzzymfx/qd-compression) - Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants.
+- [Qtree](https://github.com/fuzzymfx/qd-compression) - Inspired by KoalasToTheMax, QTree is a short live demonstration of **image compression and decompression** using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants.
   - \[NodeJs, Quadtrees, Canvas- HTML5]
   - Built a web application using NodeJs and Canvas to compress and decompress images using Quadtrees.
   - Live demo - [🔗](https://anubhavp.dev/blog/qtree/)
-- [Explored](https://github.com/fuzzymfx/explored) - The Globe from Github's homepage implemented in ThreeJS with beautiful shading.
+- [Explored](https://github.com/fuzzymfx/explored) - **The Globe** from Github's homepage implemented in **ThreeJS** with beautiful shading.
   - \[ThreeJS, WebGL, GLSL, JavaScript]
   - Demonstrated a web application using ThreeJS and WebGL to render a globe with beautiful shading.
   - Marked the location of the places visited on the globe, and showed the trips carried out.
   - Live demo - [🔗](https://anubhavp.dev/explored/)
-- [W3Chat](https://github.com/fuzzymfx/w3bchat-dapp) - A decentralized chat application that uses a graph DB to demonstrate the concept of a decentralized chat application.
+- [W3Chat](https://github.com/fuzzymfx/w3bchat-dapp) - A **decentralized chat application** that uses a graph DB to demonstrate the concept of a decentralized chat application.
   - \[Svelte, CSS, GraphDB- GUNJS NodeJs]
   - Live demo - [🔗](https://anubhavp.dev/w3bchat-dapp/)
-- [Nice Dear](https://github.com/fuzzymfx/nicedear) - A library that generates random avatars. *Obvious dicebear rip-off*.
+- [Nice Dear](https://github.com/fuzzymfx/nicedear) - A library that *generates random avatars*. *Dicebear rip-off !*.
   - \[TypeScript, Sharp, Util, Canvas- HTML5]
-- [Rokio](https://github.com/fuzzymfx/rust-tokio-chat-server) - A multi client chat server written in Rust using Tokio.
+- [Rokio](https://github.com/fuzzymfx/rust-tokio-chat-server) - A **multi client chat server** written in Rust using Tokio.
   - \[Rust, Tokio]
-- [IWT](https://github.com/fuzzymfx/iwtserver) - A goup college project based on MERN Stack.
+- [IWT](https://github.com/fuzzymfx/iwtserver) - A goup college project based on **MERN** Stack.
   - \[MongoDB, Express, React, NodeJs]
   - Built the entire app from scratch using HTML CSS and PHP.
   - Live demo - [🔗](https://anubhavp.dev/IWT_project/)
   - Used custom css from open-source projects to style the app.
   - Added a custom ML model to predict the marks secured by the student.
   - Created a venv in python and installed the required libraries and called it using PHP.
-  - [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using Linear Regression and Gradient Descent.
+  - [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using **Linear Regression** and **Gradient Descent**.
   - \[Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn]
   - Used the Scikit-learn library to create a Linear Regression model.
   - Used Gradient Descent to optimize the model.
-- [Depression Detector](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets) - Created a TF/IDF classifier - sentiment analysis model to detect depression in tweets.
+- [Depression Detector](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets) - Created a **TF/IDF classifier** - sentiment analysis model to detect depression in tweets.
   - \[Python, NLTK, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn]
   - Used the NLTK library to preprocess the tweets.
   - Used the Scikit-learn library to create a TF/IDF classifier.
-- [Taskapp](https://github.com/fuzzymfx/go-react-taskapp) - A task management system with a chat section.
+- [Taskapp](https://github.com/fuzzymfx/go-react-taskapp) - A **task** management system with.
   - \[Go, React, React-Bootstrap, Firebase]
   - Built a task management system with using React, React-Bootstrap, and Go.
   - Hosted the project on AWS EC2
   - The react app - [🔗](https://github.com/fuzzymfx/react-frontend-blogapp)
-- [Fitness Videoplayer](https://github.com/fuzzymfx/fitness-videoplayer) - A flutter application to monitor fitness and exercise workouts.
+- [Fitness Videoplayer](https://github.com/fuzzymfx/fitness-videoplayer) - A **flutter application** to monitor fitness and exercise workouts.
   - \[Flutter, Dart]
-- [Movie Rating Prediction](https://github.com/fuzzymfx/Movie-rating-prediction)
+- [Movie Rating Prediction](https://github.com/fuzzymfx/Movie-rating-prediction) - Predicting the rating of a movie based on the review using **Naive Bayes**.
   - \[Python, NLTK, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn]
   - Used the bag of words model to make a NLP Pipeline. Implemented stopwords removal and stemming to clean the data.
   - Used Laplace smoothing to solve the problem of zero probability and further enhance the model.
   - Used the Scikit-learn library to create a Multinomial Naive Bayes classifier.
-- [Movie Recommendation System](https://github.com/fuzzymfx/Movie-recommendation)
+- [Movie Recommendation System](https://github.com/fuzzymfx/Movie-recommendation) - An item based collaborative based recommendation system
   - \[Python, Pandas, Numpy, Matplotlib, Seaborn]
-  - Created a item based collaborative based recommendation system using ML
   - Used movie rating 100k dataset
   - Used Pandas to load and analyze the data frame
   - Used pandas correlation matrix to find the relation between ratings of the movie and recommend a movie with similar ratings
-- [Digit Recognizer](https://github.com/fuzzymfx/HandwrittenDigitClassification)
+- [Digit Recognizer](https://github.com/fuzzymfx/HandwrittenDigitClassification) - Classifying handrwritten digits & MNIST dataset using **CNN** and **KNN**.
   - \[Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn]
   - Classifying MNIST dataset using CNN and implementing using Keras and max pooling dropout technique
   - Created a separate MNIST digit classifier using KNN - [🔗](https://github.com/fuzzymfx/Classifying-mnist-digit-dataset)
-- [Bird Migration Analysis](https://github.com/fuzzymfx/Bird-Migration-data-analysis) - A data analysis project to analyze the migration of birds.
+- [Bird Migration Analysis](https://github.com/fuzzymfx/Bird-Migration-data-analysis) - A **data analysis** project to analyze the migration of birds.
   - \[Matplotlib, Pandas, Numpy, Cartopy, Shapely]
   - The data for this case study comes from the LifeWatch INBO project
   - Used the Cartopy library to plot the data on a map.
