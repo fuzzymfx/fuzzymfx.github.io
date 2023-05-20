@@ -30,7 +30,7 @@ title: cv
 - IOT - **Summer Internship** 2021 - *Karkhana Makerspace* - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
   - Built an ideation of a smart soil monitor system using  NodeMCU, and Firebase, and  sensors.
   - Built an ideation of a home-automation system using a relay, NodeMCU, wifi, and mobile app.
-- Cybersecurity - **Summer Internship** 2020 - *Cyberview* - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
+- Cybersecurity - **Summer Internship** 2020 - *Cybervie* - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
   - Worked with live data to create a ransomware report and a phishing report.
 
 ### Projects
@@ -61,15 +61,15 @@ title: cv
   - Demonstrated a web application using ThreeJS and WebGL to render a globe with beautiful shading.
   - Marked the location of the places visited on the globe, and showed the trips carried out.
   - Live demo - [🔗](https://anubhavp.dev/explored/)
-- [W3Chat](https://github.com/fuzzymfx/w3bchat-dapp) - A **decentralized chat application** that uses a graph DB to demonstrate the concept of a decentralized chat application.
+- [W3bChat](https://github.com/fuzzymfx/w3bchat-dapp) - A **decentralized chat application** that uses a graph DB to demonstrate the concept of a decentralized chat application.
   - \[Svelte, CSS, GraphDB- GUNJS NodeJs]
-  - Live demo - [🔗](https://anubhavp.dev/w3bchat-dapp/)
-- [Nice Dear](https://github.com/fuzzymfx/nicedear) - A library that *generates random avatars*. *Dicebear rip-off !*.
+  - Live demo - [🔗](https://w3bchat-fadfa.web.app/)
+- [Nice Dear](https://github.com/fuzzymfx/nicedear) - A library that *generates random avatars*. *Dicebear rip-off !*
   - \[TypeScript, Sharp, Util, Canvas- HTML5]
 - [Rokio](https://github.com/fuzzymfx/rust-tokio-chat-server) - A **multi client chat server** written in Rust using Tokio.
   - \[Rust, Tokio]
 - [IWT](https://github.com/fuzzymfx/iwtserver) - A goup college project based on **MERN** Stack.
-  - \[MongoDB, Express, React, NodeJs]
+  - \[MongoDB, Express, React, NodeJs, Php]
   - Built the entire app from scratch using HTML CSS and PHP.
   - Live demo - [🔗](https://anubhavp.dev/IWT_project/)
   - Used custom css from open-source projects to style the app.
