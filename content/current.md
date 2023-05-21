@@ -33,6 +33,8 @@ Lately, I've been working on a custom bit-torrent client to download files and m
 
 Meanwhile, I am also exploring esoteric programming languages and will be working on a brainfuck interpreter.
 
+With a few days left in Bhubaneswar, I decided to gift [Smruti](https://smrutidash.com) a domain(smrutidash.com) and build her portfolio website which she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website build using HTML, Locomotive Scroll, gsap, and SCSS.
+
 Dev:
 
 - [BitTorrent client]( https://github.com/fuzzymfx/bee)
