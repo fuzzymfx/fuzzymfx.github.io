@@ -1,7 +1,9 @@
----
 title: cv
 ---
+
 [Resume](/resume.pdf)
+
+---
 
 ### Educational Background
 
@@ -18,7 +20,7 @@ title: cv
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
   - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
   - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the need of existing users on the older blockchain.
-- **Freelance Software Developer** -*Afixi Technologies* 2022 - [🔗]()
+- **Freelance Software Developer** - *Afixi Technologies* 2022 - [🔗]()
   - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a python script to automate the uploading of music from producer's S3 bucket & automated uploading of music on YouTube.
 - **MLOps** & **React Internship** - *Ebibil Technologies* 2021 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
   - Collaborated on the Django web app to integrate with ML models for a smart parking system.
@@ -89,7 +91,9 @@ title: cv
   - Hosted the project on AWS EC2
   - The react app - [🔗](https://github.com/fuzzymfx/react-frontend-blogapp)
 - [Fitness Videoplayer](https://github.com/fuzzymfx/fitness-videoplayer) - A **flutter application** to monitor fitness and exercise workouts.
-  - \[Flutter, Dart]
+  - \[Flutter, Dart, Go]
+  - Built a flutter application to monitor fitness and exercise workouts.
+  - Added login/ sign up features, and implemeented the APIs using Go.
 - [Movie Rating Prediction](https://github.com/fuzzymfx/Movie-rating-prediction) - Predicting the rating of a movie based on the review using **Naive Bayes**.
   - \[Python, NLTK, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn]
   - Used the bag of words model to make a NLP Pipeline. Implemented stopwords removal and stemming to clean the data.
