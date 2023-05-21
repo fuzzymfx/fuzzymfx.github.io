@@ -29,10 +29,10 @@ title: cv
 - **Python Tutor** - *Triluxo* 2021 - [🔗](https://drive.google.com/file/d/1QtlOYWOXRhybfRIgOV-px3bPdye2M_cW/view?usp=sharing)
   - Tutored students on the basics of computer Science, the web \& programming using Python.
   - Built a Django back-end for a web application used by students to build apps using Python.
-- IOT - **Summer Internship** 2021 - *Karkhana Makerspace* - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
+- **IOT - Summer Internship** 2021 - *Karkhana Makerspace* - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
   - Built an ideation of a smart soil monitor system using  NodeMCU, and Firebase, and  sensors.
   - Built an ideation of a home-automation system using a relay, NodeMCU, wifi, and mobile app.
-- Cybersecurity - **Summer Internship** 2020 - *Cybervie* - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
+- **Cybersecurity - Summer Internship** 2020 - *Cybervie* - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
   - Worked with live data to create a ransomware report and a phishing report.
 
 ### Projects
