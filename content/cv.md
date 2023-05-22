@@ -4,13 +4,13 @@ title: cv
 
 [Resume](/resume.pdf)
 
----
-
 ### Educational Background
 
 - B.Tech Silicon Institute of Technology, Bhubaneswar - 2023 - [🔗](/assets/docs/190310030.pdf)
 - 12th FIITJEE Junior College, Hyderabad - 2018  - [🔗](https://drive.google.com/file/d/1GYaQYoUpT1h76NqwHfml-aByx4YrshfK/view?usp=sharing)
 - 10th DAV Public School, Jamshedpur - 2016 - [🔗](https://drive.google.com/file/d/12Nwsc_b1iR7ZO70Oh-c7T9ImnDcg_GL4/view?usp=sharing)
+
+---
 
 ### Work Experience
 
@@ -35,6 +35,8 @@ title: cv
   - Built an ideation of a home-automation system using a relay, NodeMCU, wifi, and mobile app.
 - **Cybersecurity - Summer Internship** 2020 - *Cybervie* - [🔗](https://drive.google.com/file/d/1a68XtgS5uDUxSsAYS933G-HfGM07kGUK/view?usp=sharing)
   - Worked with live data to create a ransomware report and a phishing report.
+
+---
 
 ### Projects
 
@@ -114,6 +116,8 @@ title: cv
   - The data for this case study comes from the LifeWatch INBO project
   - Used the Cartopy library to plot the data on a map.
 
+---
+
 ### Courses
 
 - Container Orchestrations with Docker Swarm - Udemy 2023 - [🔗]()
@@ -124,6 +128,8 @@ title: cv
 - Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
 - Machine Learning 101 - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=32J12d6T5mlsu464Y6&course=introduction-to-ml)
 - Python MPC - Guvi 2020 - [🔗](https://www.guvi.in/verify-certificate?id=679711o0122cwk0L2A )
+
+---
 
 ### Activities
 
