@@ -112,6 +112,17 @@ title: "cv - Anubhab Patnaik"
   - \[*Matplotlib, Pandas, Numpy, Cartopy, Shapely*]
   - The data for this case study comes from the LifeWatch INBO project
   - Used the Cartopy library to plot the data on a map.
+- [Smart Home Automation System](https://github.com/fuzzymfx/HomeAuto) - Theoretical implementation of a **smart home automation system** in IOT Summer Internship.
+  - \[*NodeMCU, Relays, NodeRed, EC2, HiveMQ, Arduino IDE*]
+  - Used NodeMCU to control the relays and connected it to the cloud using HiveMQ.
+  - Used NodeRed to create a dashboard to control the relays.
+  - Used EC2 to host the NodeRed server.
+- [Industrial Contamination Detection](https://github.com/fuzzymfx/IndustrialContaminationMonitor) - A theoretical **IOT** project to detect contamination in the soil in irrigation and agriculture.
+  - \[**]
+  - Final Group Project for IOT Summer Internship.
+- [Ransomware Detection](https://docs.google.com/document/d/1MsFnXgt9E5oEyg8YnkDnDNy9T5AQooNEAHOjphvHVyE/edit?usp=sharing) - A **ransomware detection** demonstration on *WannaCry*.
+  - \[*VmWare, Windows 10*]
+  - Used a virtual machine to demonstrate the attack.
 
 ---
 
