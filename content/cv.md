@@ -1,5 +1,5 @@
 ---
-title: cv
+title: "cv - Anubhab Patnaik"
 ---
 
 [Resume](/resume.pdf)
