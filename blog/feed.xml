@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 May 2023 05:35:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 May 2023 11:44:40 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -1134,6 +1134,18 @@ Goodbye, SIT ❤️
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;190310030 Signing Off&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;p&gt;Here are some glimpses of my journey over the past four odd years:&lt;/p&gt;
+&lt;figure class=&quot;skylab&quot;&gt;
+ &lt;video controls=&quot;&quot; style=&quot; width: 50%; height: 50%; &quot;&gt;
+ &lt;source src=&quot;/assets/img/teasquared/siliconvibes.mp4&quot; type=&quot;video/mp4&quot;&gt;
+ Your browser does not support the video tag.
+ &lt;/video&gt;
+ &lt;figcaption&gt;
+ Silicon Vibes
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
 
                     &lt;hr&gt;
                     &lt;div class=&quot;footer&quot;&gt;
