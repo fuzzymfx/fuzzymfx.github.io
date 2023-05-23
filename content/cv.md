@@ -14,9 +14,6 @@ title: cv
 
 ### Work Experience
 
-- **Co-founder** - *CBRTL* 2022 - [🔗](https://cbrtl.github.io/)
-  - Built a FOSS (Free and Open Source Software) community to promote open source culture in the college.
-  - Organized events and podcasts to instill a culture of working, brainstorming and building together in the college.
 - **Software Developer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
   - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
@@ -138,13 +135,15 @@ title: cv
 - Best Delegate - XIMUN 2023 - [🔗](https://drive.google.com/file/d/1vTZl3K2kRTJgDgFr3lN5mxSaz7pnwvc2/view?usp=sharing)
 - Contigent Leader - IIT Bombay 2023 - [🔗](https://drive.google.com/file/d/1NMJChzaUcKUKqYJJW3EEGX2WogZyVPJh/view?usp=sharing)
 - Binance Ideathon - #BlockchainforGood 2022 - [🔗](https://drive.google.com/file/d/1IcDC_7L4bw-PPsLsNhH9cS2ezDynDAMB/view?usp=share_🔗)
+- Co-founder CBRTL - 2022 - [🔗](https://cbrtl.github.io)
 - Why Rust - Squbix Digital 2022 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_i-hosted-a-tech-talk-last-week-and-it-went-activity-6987708219385122816-aq9z?utm_source=share&utm_medium=member_desktop)
 - Ideate Nirman - SIT 2022 - [🔗](https://drive.google.com/file/d/1i--TyXYDPxMN5IbokTzFoTGE4K-rnpXM/view?usp=share_link)
 - President, Chairperson IEEE Students' Branch *STB04531* - SIT 2022-23 - [🔗](https://drive.google.com/file/d/1tGYRWLyCbovR9_ufuW2y-mqEUkitOGzE/view?usp=share_link)
 - Co-founder & Joint Secretary - SWITCH 2021-22 - [🔗](https://drive.google.com/file/d/1Zub7ui2WCRYgN7tM0G8p-dbeFLirGR-d/view?usp=sharing)
 - High Commendation I - SITMUN 2021 - [🔗](https://drive.google.com/file/d/1RI8fXtCTYrlYlX-dnGvfQQ76CHx0AEaq/view?usp=sharing)
 - High Commendation I ( Best Del ) - SITMUN 2020 - [🔗](https://drive.google.com/file/d/1nbwySBjw8uUQH9bWY_vR0SeXt8x4B54M/view?usp=sharing)
-- Photographer/ Graphic Designer - SIT: Media Cell/ Photography Club 2020 - 2021 [🔗](https://www.instagram.com/silicontech_bbs/)
+- Photographer/ Graphic Designer - SIT: Media Cell - 2020 [🔗](https://www.instagram.com/silicontech_bbs/)
+- Photographer - Silicon Photography Club 2019 - [🔗](https://www.instagram.com/spc_sitb/)
 - TEDxSITB - #HalfEmptyHalfFilled - SIT 2019 - [🔗](https://drive.google.com/file/d/1gR4mUn0_gmW-SlzKR3x3xHLJiC_FHauu/view?usp=sharing)
 - Ethical Hacking - Robothlon - IIT Delhi 2017 - [🔗](https://drive.google.com/file/d/1l2OJHdRoMyoC82yqap_zMMCxcmC328Qz/view?usp=sharing)
 - Arduino - Robothlon - IIT Delhi 2017 - [🔗](https://drive.google.com/file/d/1l2OJHdRoMyoC82yqap_zMMCxcmC328Qz/view?usp=sharing)
