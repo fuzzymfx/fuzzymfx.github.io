@@ -19,21 +19,22 @@ Books:
   - The dark forest
   - Death's end
 - My Gita
-- ~~A brief history of time~~
 - The Hitchhiker's Guide to the Galaxy
 
 Binge:
 
 - ~~Superstore~~
 - Cont. Peaky Blinders
-- ~~Cont. Umbrella Academy~~
+- Cont. Umbrella Academy
 - ~~Lockwood & Co.~~
+- Kim Convenience Store
+- Atypical
 
 Lately, I've been working on a custom bit-torrent client to download files and movies based on recommendations from my [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation) and a [movie rating prediction system](https://github.com/fuzzymfx/Movie-rating-prediction). I'm planning to port it to Rust later.
 
 Meanwhile, I am also exploring esoteric programming languages and will be working on a brainfuck interpreter.
 
-With a few days left in Bhubaneswar, I decided to gift [Smruti](https://smrutidash.com) a domain(smrutidash.com) and build her portfolio website which she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website build using HTML, Locomotive Scroll, gsap, and SCSS.
+With a few days left in Bhubaneswar, I decided to gift [Smruti](https://smrutidash.com) a domain( smrutidash.com ) and build her portfolio website which she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website build using HTML, Locomotive Scroll, gsap, and SCSS.
 
 Dev:
 
@@ -41,8 +42,7 @@ Dev:
   - ~~Implement magnet link parsing using `magnet-uri`~~
   - ~~Attempt downloading torrent files and links using `webttorrent client`~~
   - ~~Write bencode parser in typescript~~
-  - Build a TCP client to download files from the `trackers array` of the decoded bencode file
-  - Combine the downloads and merge them to build the original file
+  - Build a TCP client to download files from the `trackers array` of the decoded bencode file. Combine the downloads and merge them to build the original file
 - [Space Impact](https://en.wikipedia.org/wiki/Space_Impact)
   - Research game development
   - Research LÖVE & Lua
