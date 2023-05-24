@@ -4,108 +4,10 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 May 2023 23:32:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 May 2023 06:48:22 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[Looping Delight: Unraveling the Magic of the Event Loop | Anubhab's blogs ]]></title>
-            <description><![CDATA[Journey into JavaScript's Asynchronous Universe: A deep dive into the working of the event loop in JavaScript.]]></description>
-            <link>https://anubhavp.dev/blog/eventloop.html</link>
-            <guid isPermaLink="true">https://anubhavp.dev/blog/eventloop.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
-            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
-            <content:encoded>
-    &lt;div&gt;
-        &lt;div class=&quot;f6&quot;&gt;
-            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
-                &lt;nav&gt;
-                    &lt;div class=&quot;mb2 dib&quot;&gt;
-                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
-                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt;
-                    &lt;/div&gt;
-                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
-                &lt;/nav&gt;
-                &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
-                    Looping Delight: Unraveling the Magic of the Event Loop
-                &lt;/h2&gt;
-                &lt;div&gt;
-                    &lt;p&gt;
-                        Journey into JavaScript&apos;s Asynchronous Universe: A deep dive into the working of the event loop in JavaScript.
-                    &lt;/p&gt;
-                &lt;/div&gt;
-                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
-                &lt;/h4&gt;
-            &lt;/header&gt;
-            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
-                &lt;ul class=&quot;ph0&quot; style=&quot;list-style: none;&quot;&gt;
-                    &lt;li class=&quot;pb3&quot;&gt;
-                        2023-05-19
-                    &lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;div class=&quot;content custom&quot;&gt;
-                    &lt;p&gt;&lt;em&gt;“JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.”&lt;/em&gt; - MDN&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#languages-and-their-intricasies&quot;&gt;Languages and their intricasies&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#setting-the-stage-the-working-of-languages&quot;&gt;Setting the stage: The working of languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#javascript-the-odd-one-out&quot;&gt;JavaScript: The odd one out&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#asynchronous-programming&quot;&gt;Asynchronous Programming&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#event-driven-programming-and-callbacks&quot;&gt;Event-driven programming and callbacks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#the-event-loop-mechanics&quot;&gt;The Event Loop Mechanics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#the-event-driven-architecture&quot;&gt;The event-driven architecture&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#the-call-stack&quot;&gt;The call stack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#the-event-queue&quot;&gt;The event queue&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#the-event-loop-interplay&quot;&gt;The event loop interplay&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#promises-asyncawait-and-their-relationship-with-the-event-loop&quot;&gt;Promises, async/await, and their relationship with the event loop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#event-loop-variations-and-implementations&quot;&gt;Event Loop Variations and Implementations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#single-threaded-non-blocking-magic&quot;&gt;Single-Threaded, Non-Blocking Magic&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#javascripts-single-threaded-nature&quot;&gt;JavaScript’s single-threaded nature&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#non-blocking-io-operations-and-performance-benefits&quot;&gt;Non-blocking I/O operations and performance benefits&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;languages-and-their-intricasies&quot; tabindex=&quot;-1&quot;&gt;Languages and their intricasies&lt;/h2&gt;
-&lt;h3 id=&quot;setting-the-stage-the-working-of-languages&quot; tabindex=&quot;-1&quot;&gt;Setting the stage: The working of languages&lt;/h3&gt;
-&lt;p&gt;Programming languages are a set of instructions that are executed by a computer. These instructions are written in a human-readable format and are converted into machine code by a compiler or an interpreter. The machine code is then executed by the computer. The compiler or the interpreter is responsible for converting the human-readable code into machine code. The compiler converts the code into machine code before the execution of the program. The interpreter converts the code into machine code during the execution of the program.&lt;/p&gt;
-&lt;h3 id=&quot;javascript-the-odd-one-out&quot; tabindex=&quot;-1&quot;&gt;JavaScript: The odd one out&lt;/h3&gt;
-&lt;p&gt;JavaScript is a high-level, interpreted programming language. It is a single-threaded, non-blocking, asynchronous, concurrent language. It is the only language that is executed on the client-side.&lt;/p&gt;
-&lt;h2 id=&quot;asynchronous-programming&quot; tabindex=&quot;-1&quot;&gt;Asynchronous Programming&lt;/h2&gt;
-&lt;h3 id=&quot;event-driven-programming-and-callbacks&quot; tabindex=&quot;-1&quot;&gt;Event-driven programming and callbacks&lt;/h3&gt;
-&lt;h3 id=&quot;the-event-loop-mechanics&quot; tabindex=&quot;-1&quot;&gt;The Event Loop Mechanics&lt;/h3&gt;
-&lt;h3 id=&quot;the-event-driven-architecture&quot; tabindex=&quot;-1&quot;&gt;The event-driven architecture&lt;/h3&gt;
-&lt;h4 id=&quot;the-call-stack&quot; tabindex=&quot;-1&quot;&gt;The call stack&lt;/h4&gt;
-&lt;h4 id=&quot;the-event-queue&quot; tabindex=&quot;-1&quot;&gt;The event queue&lt;/h4&gt;
-&lt;h4 id=&quot;the-event-loop-interplay&quot; tabindex=&quot;-1&quot;&gt;The event loop interplay&lt;/h4&gt;
-&lt;h3 id=&quot;promises-asyncawait-and-their-relationship-with-the-event-loop&quot; tabindex=&quot;-1&quot;&gt;Promises, async/await, and their relationship with the event loop&lt;/h3&gt;
-&lt;h3 id=&quot;event-loop-variations-and-implementations&quot; tabindex=&quot;-1&quot;&gt;Event Loop Variations and Implementations&lt;/h3&gt;
-&lt;h2 id=&quot;single-threaded-non-blocking-magic&quot; tabindex=&quot;-1&quot;&gt;Single-Threaded, Non-Blocking Magic&lt;/h2&gt;
-&lt;h3 id=&quot;javascripts-single-threaded-nature&quot; tabindex=&quot;-1&quot;&gt;JavaScript’s single-threaded nature&lt;/h3&gt;
-&lt;h3 id=&quot;non-blocking-io-operations-and-performance-benefits&quot; tabindex=&quot;-1&quot;&gt;Non-blocking I/O operations and performance benefits&lt;/h3&gt;
-&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion&lt;/h2&gt;
-
-                    &lt;hr&gt;
-                    &lt;div class=&quot;footer&quot;&gt;
-                        Suggestions or corrections? &lt;a href=&quot;mailto:anubhabr50@gmail.com&quot;&gt;Send me a message&lt;/a&gt;.
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/section&gt;
-        &lt;/div&gt;
-
-
-&lt;/div&gt;</content:encoded>
-        </item>
         <item>
             <title><![CDATA[Why is Web3 a sham? | Anubhab's blogs ]]></title>
             <description><![CDATA[A short rant on the state of Web3]]></description>
