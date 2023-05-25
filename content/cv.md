@@ -1,9 +1,6 @@
 ---
 title: "cv - Anubhab Patnaik"
 ---
-
-[Resume](/resume.pdf)
-
 ### Educational Background
 
 - B.Tech Silicon Institute of Technology, Bhubaneswar, 8.85 CGPA - 2023 - [🔗](/assets/docs/190310030.pdf)
@@ -165,3 +162,5 @@ title: "cv - Anubhab Patnaik"
 - Robotics - WAC| 2017 - IIIT Hyderabad - [🔗](https://drive.google.com/file/d/1ah39XzFJcXEOMKJ7zhf-lxNRsVo_FoZJ/view?usp=sharing)
 - DBMUN 2015 - [🔗](https://drive.google.com/file/d/1Q_VKZvBaNKGkLvXJB_O2Tz9zrWRWqpxW/view?usp=sharing)
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
+
+[You can find my Resume Here](/resume.pdf)
