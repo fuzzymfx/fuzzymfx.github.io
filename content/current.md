@@ -4,13 +4,15 @@ title: "current"
 
 ##### April, 2023
 
-I recently visited Bangalore and met with my friends; to explore and pursue a new idea. We had a great time and I am looking forward to meeting them again. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, which is to work with one of the top tech companies and work on projects that I am passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid and we have still a lot of figuring out to do, but I am excited about it.
+I got an internship at [StackIt](https://nowstackit.com) and will be working as a Software Engineer Intern. *At StackIt, we wish to take Spreadsheets into a new era. We are building the next-generation spreadsheet automation platform that will empower 1 billion+ business users to use spreadsheets as their business OS. StackIt is a Google Sheets Editor Plugin. Business teams can rely on StackIt to pull data from popular SaaS tools & internal databases like Chargebee, PostgreSQL, MySQL, etc regularly on spreadsheets. They can further analyze and build workflows & dashboards on top of it using StackIt.* - [StackIt](https://nowstackit.com). Thus, will be moving to Bangalore for the next couple of months. I may be **off the grid for a while** but will be back soon. Excited and looking forward to working with the team at StackIt in Bangalore.
+
+I recently visited Bangalore in May and met with my friends; to explore and pursue a new idea. We had a great time, and I look forward to meeting them again. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, to work with one of the top tech companies and work on projects I am passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid, and we have a lot of figuring out to do, but I am excited about it.
 
 I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop): Getting into the rhythm of version control with Git & GitHub with UnStop Chapter of Sit, BBS and it was a huge success. We are planning to host a more advanced session on Git and GitHub shortly. There's also a web development workshop coming up.
 
-Meanwhile, at IEEE, we arranged a talk show with Ramneek Kalra that focused on getting to know IEEE and its benefits. The IEEE Students Chapter is an organization dedicated to promoting knowledge and understanding of engineering. It organization is run by students and offers a variety of benefits, including networking opportunities, access to cutting-edge research, and professional development resources.
+Meanwhile, at IEEE, we arranged a talk show with Ramneek Kalra that focused on getting to know IEEE and its benefits. The IEEE Students Chapter is dedicated to promoting knowledge and understanding of engineering. It is run by students and offers a variety of benefits, including networking opportunities, access to cutting-edge research, and professional development resources.
 
-I am looking to write blogs/papers on 'String Theory' soon. I have always been intrigued by the theory and couldn't get my head to wrap around it. However, now that my college years are coming to an end, I plan to dedicate my time to writing about it. Another topic that I wanted to work on is 'Natural Language Models'. I intend to delve deeper into exploring how exactly natural language models work, the neural networks behind them, and some of the most popular models based on transformer architecture, like BERT, and GPT-3. You're always welcome to reach out to me if you want to collaborate on any of these topics.
+I am looking to write blogs/papers on 'String Theory' soon. I have always been intrigued by the theory and couldn't get my head to wrap around it. However, now that my college years are ending, I plan to dedicate my time to writing about it. Another topic that I wanted to work on is 'Natural Language Models'. I intend to delve deeper into exploring how exactly natural language models work, the neural networks behind them, and some of the most popular models based on transformer architecture, like BERT, and GPT-3. You're always welcome to reach out if you want to collaborate on any of these topics.
 
 Books:
 
@@ -32,9 +34,9 @@ Binge:
 
 Lately, I've been working on a custom bit-torrent client to download files and movies based on recommendations from my [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation) and a [movie rating prediction system](https://github.com/fuzzymfx/Movie-rating-prediction). I'm planning to port it to Rust later.
 
-Meanwhile, I am also exploring esoteric programming languages and will be working on a brainfuck interpreter.
+Meanwhile, I am also exploring esoteric programming languages and will work on a brainfuck interpreter.
 
-With a few days left in Bhubaneswar, I decided to gift [Smruti](https://smrutidash.com) a domain( smrutidash.com ) and help build her portfolio which she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website built using HTML, Locomotive Scroll, gsap, and SCSS. You can visit [this list](https://github.com/stars/fuzzymfx/lists/inspiration) to look at other inspirations that I had in my mind.
+With a few days left in Bhubaneswar, I decided to gift [Smruti](https://smrutidash.com) a domain( smrutidash.com ) and build her portfolio website that she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website built using HTML, Locomotive Scroll, gsap, and SCSS.
 
 Dev:
 
