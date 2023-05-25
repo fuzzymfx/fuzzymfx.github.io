@@ -63,6 +63,8 @@ Dev:
   - ~~Search for open-source portfolios with interactive and animated CSS with a lot of design specifications~~
   - ~~Fork the site and edit it.~~
 
+~~When not coding up a storm, I work with FOSS communities: I conduct workshops, hackathons, and coding competitions. I maintain [cbrtl](https://cbrtl.github.io), a fun open-source platform for students to showcase their work.~~ [My college life is over ;(](/blog/teasquared.html). I am a corporate slave now :|, looking for a job in software engineering and development.
+
 Code:
 
 - LC200: [Siddhesh Sutar's 200 questions to crack Google](https://medium.com/@siddhism/how-i-prepared-for-google-0-leetcode-questions-to-200-questions-e37690ebce85)
