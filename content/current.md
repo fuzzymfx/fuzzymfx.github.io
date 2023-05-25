@@ -4,7 +4,8 @@ title: "current"
 
 ##### April, 2023
 
-I got an internship at [StackIt](https://nowstackit.com) and will be working as a Software Engineer Intern. *At StackIt, we wish to take Spreadsheets into a new era. We are building the next-generation spreadsheet automation platform that will empower 1 billion+ business users to use spreadsheets as their business OS. StackIt is a Google Sheets Editor Plugin. Business teams can rely on StackIt to pull data from popular SaaS tools & internal databases like Chargebee, PostgreSQL, MySQL, etc regularly on spreadsheets. They can further analyze and build workflows & dashboards on top of it using StackIt.* - [StackIt](https://nowstackit.com). Thus, will be moving to Bangalore for the next couple of months. I may be **off the grid for a while** but will be back soon. Excited and looking forward to working with the team at StackIt in Bangalore.
+I got an internship at [StackIt](https://nowstackit.com) and will be working as a Software Engineer Intern.  
+*"At StackIt, we wish to take Spreadsheets into a new era. We are building the next-generation spreadsheet automation platform that will empower 1 billion+ business users to use spreadsheets as their business OS. StackIt is a Google Sheets Editor Plugin. Business teams can rely on StackIt to pull data from popular SaaS tools & internal databases like Chargebee, PostgreSQL, MySQL, etc regularly on spreadsheets. They can further analyze and build workflows & dashboards on top of it using StackIt."* - [StackIt](https://nowstackit.com). Thus, will be moving to Bangalore for the next couple of months. I may be **off the grid for a while** but will be back soon. Excited and looking forward to working with the team at StackIt in Bangalore.
 
 I recently visited Bangalore in May and met with my friends; to explore and pursue a new idea. We had a great time, and I look forward to meeting them again. I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, to work with one of the top tech companies and work on projects I am passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid, and we have a lot of figuring out to do, but I am excited about it.
 
@@ -12,7 +13,7 @@ I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik05
 
 Meanwhile, at IEEE, we arranged a talk show with Ramneek Kalra that focused on getting to know IEEE and its benefits. The IEEE Students Chapter is dedicated to promoting knowledge and understanding of engineering. It is run by students and offers a variety of benefits, including networking opportunities, access to cutting-edge research, and professional development resources.
 
-I am looking to write blogs/papers on 'String Theory' soon. I have always been intrigued by the theory and couldn't get my head to wrap around it. However, now that my college years are ending, I plan to dedicate my time to writing about it. Another topic that I wanted to work on is 'Natural Language Models'. I intend to delve deeper into exploring how exactly natural language models work, the neural networks behind them, and some of the most popular models based on transformer architecture, like BERT, and GPT-3. You're always welcome to reach out if you want to collaborate on any of these topics.
+I am still lookig to write papers on String Theory and LLMs. Haven't gotten around to it yet.
 
 Books:
 
