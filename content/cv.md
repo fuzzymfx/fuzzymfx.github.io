@@ -163,4 +163,4 @@ title: "cv - Anubhab Patnaik"
 - DBMUN 2015 - [🔗](https://drive.google.com/file/d/1Q_VKZvBaNKGkLvXJB_O2Tz9zrWRWqpxW/view?usp=sharing)
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
 
-[You can find my Resume Here](/resume.pdf)
+[Find my Resume Here](/resume.pdf)
