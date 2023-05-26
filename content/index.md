@@ -6,7 +6,7 @@ Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, sc
 
 I work with whatever piques my interest. I used to dabble in ML and now work with web, mobile, and CMD applications. Currently, I am preparing for job interviews, and I polish my coding skills on [Leetcode](https://leetcode.com/anubhabr50). I've also been working on a [bit-torrent client](https://github.com/fuzzymfx/b) to download files, written in TypeScript. I plan on porting it to Rust. Meanwhile, I am also exploring esoteric programming languages and will work on a brainfuck interpreter soon. This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using [zuzu](https://github.com/fuzzymfx/zuzu), a custom SSG. [Here's more on what I am up to these days](/current.html).
 
-[My college life is over ;(](/blog/teasquared.html). I am excited to join [StackIt](https://stackit.com) as a full-stack software intern. I work with web applications and software pipelines.
+[My college life is over ;(](/blog/teasquared.html). I am excited to join [StackIt](https://stackit.com) as a full-stack software engineer intern. I intend to work with web applications and deployment pipelines.
 
 Besides, I love listening to music, watching sci-fi, sitcoms, fantasy and thriller, and reading books. I have recently started playing the guitar and have been reading the [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) by Liu Cixin. I love to travel and [click a lot of photos](https://instagram.com/anubhavclicks). I attend seminars on space exploration, life in space, and physics.
 
