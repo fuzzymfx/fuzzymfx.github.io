@@ -11,6 +11,9 @@ title: "cv - Anubhab Patnaik"
 
 ### Work Experience
 
+- **Full-stack Software Engineer Intern** - *StackIt* Current - [🔗](https://nowstackit.com)
+  - [Building StackIt](https://www.nowstackit.com/about-us)
+- **Co-Founder** - *CBRTL* Current - [🔗](https://cbrtl.github.io)
 - **Software Developer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
   - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
