@@ -56,4 +56,12 @@ Code:
 - Striver's [SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - 450 DSA: [Love Babbar's DSA sheet](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
 
+With the end of the semester approaching, I am looking forward to a much-needed break. However, this impending respite also brings with it the realization that my time in college, particularly with my friends, is dwindling. In a blink, my mind races back to those initial days, when I struggled to find the right words when a senior asked us to introduce ourselves. Those moments, in retrospect, were the extent of my worries back then!
+
+Today, the landscape of my concerns has transformed exponentially. Each morning, as I wake up and each night, as I lay down, a whirlwind of thoughts engulfs my mind. I become aware that there is an overwhelming number of challenges and dilemmas that I may never fully resolve.
+
+Now, standing at the crossroads between the present and the future, I'm confronted with the weight of responsibilities and uncertainties. The path to adulthood feels daunting, and the magnitude of the challenges can be overwhelming.
+
+As the days of college slip away, I'm determined to make the most of the time I have left. I cherish the friendships I've formed and know that they may change but will always hold a special place in my heart.
+
 Furthermore, as I gear up to graduate this year, I am actively scouring the web for compelling summer internship opportunities.
