@@ -2,7 +2,7 @@
 title: "january23"
 ---
 
-##### January, 2023
+##### January - March, 2023
 
 Like all good things, my time as [a full-stack engineer](https://github.com/anubhab-patnaik) at [Squbix Digital](https://squbix.in) had to come to an end. I'm grateful for the opportunity. I was tasked with building web and mobile apps to integrate with the blockchain. I got to work with TypeScript, NodeJs, ReactJs, React Native, Substrate, and Rust and got to learn a ton of new things. I got to work with Web3 technologies; cryptocurrencies, decentralized applications, blockchains, and NFTs. I was responsible for refactoring React-Native applications with better UI and implementing offline storage, push notifications, and was tasked with building an internal ERP system to monitor the attendance and tasks of employees. I also built and backend APIs using NodeJs and ExpressJs. I got to tinker with the existing NodeJs code and configured optional parameters to switch between different blockchains, and also refactored the JS-based SDK to TypeScript. We also had to build a Chrome extension, and a PWA for wallet -to- wallet transactions and used mocha for unit testing. In the Polkadtot chain, I modified the existing DID pallet using rust and substrate to store identity information in the blockchain with additional unit tests.
 

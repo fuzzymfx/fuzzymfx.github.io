@@ -1,6 +1,9 @@
 ---
 title: "cv - Anubhab Patnaik"
 ---
+<script type="module" src="/assets/js/cv/index.js" ></script>
+*Last Updated: <span class="datetime" id="datetime"></span>*
+
 ### Educational Background
 
 - B.Tech Silicon Institute of Technology, Bhubaneswar, 8.85 CGPA - 2023 - [🔗](/assets/docs/190310030.pdf)
