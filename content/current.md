@@ -2,7 +2,7 @@
 title: "current"
 ---
 
-##### April, 2023
+##### April - current, 2023
 
 I got an internship at [StackIt](https://nowstackit.com) and will be working as a Software Engineer Intern.  
 
