@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jun 2023 08:00:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jun 2023 17:09:44 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -13,7 +13,7 @@
             <description><![CDATA[A short rant on the state of Web3]]></description>
             <link>https://anubhavp.dev/blog/infeasibleWeb3.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/infeasibleWeb3.html</guid>
-            <dc:creator><![CDATA[Srijan Paul]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Wed, 19 Jan 2022 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -35,7 +35,7 @@
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Srijan Paul
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -45,7 +45,8 @@
                     &lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
-                    &lt;p&gt;During my short stint as a blockchain developer, I’ve learned a lot and have met amazing people.
+                    &lt;p&gt;&lt;strong&gt;Srijan Paul&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my short stint as a blockchain developer, I’ve learned a lot and have met amazing people.
 While I acknowledge the skill and reverence of some developers in this domain,
 I still remain uncharmed by the zeal of web3.&lt;/p&gt;
 &lt;p&gt;If you’re a blockchain enthusiast reading this, know that I understand where you stand.
@@ -211,11 +212,61 @@ However the world today is in a frenzy to use it in all the places where it does
 &lt;/div&gt;</content:encoded>
         </item>
         <item>
+            <title><![CDATA[Bangalore Chronicles: The slave city | Anubhab's blogs ]]></title>
+            <description><![CDATA[A futile attempt to survive in Bangalore's Urban Jungle]]></description>
+            <link>https://anubhavp.dev/blog/lifeinametro.html</link>
+            <guid isPermaLink="true">https://anubhavp.dev/blog/lifeinametro.html</guid>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
+            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+            <content:encoded>
+    &lt;div&gt;
+        &lt;div class=&quot;f6&quot;&gt;
+            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
+                &lt;nav&gt;
+                    &lt;div class=&quot;mb2 dib&quot;&gt;
+                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
+                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
+                &lt;/nav&gt;
+                &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
+                    Bangalore Chronicles: The slave city
+                &lt;/h2&gt;
+                &lt;div&gt;
+                    &lt;p&gt;
+                        A futile attempt to survive in Bangalore&apos;s Urban Jungle
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
+                    &lt;!-- AUTHOR --&gt;
+                &lt;/h4&gt;
+            &lt;/header&gt;
+            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
+                &lt;ul class=&quot;ph0&quot; style=&quot;list-style: none;&quot;&gt;
+                    &lt;li class=&quot;pb3&quot;&gt;
+                        2023-06-07
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;div class=&quot;content custom&quot;&gt;
+                    &lt;p&gt;Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare.&lt;/p&gt;
+
+                    &lt;hr&gt;
+                    &lt;div class=&quot;footer&quot;&gt;
+                        Suggestions or corrections? &lt;a href=&quot;mailto:anubhabr50@gmail.com&quot;&gt;Send me a message&lt;/a&gt;.
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/section&gt;
+        &lt;/div&gt;
+
+
+&lt;/div&gt;</content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Decentralization in MetaMUI Wallet: A Case Study | Anubhab's blogs ]]></title>
             <description><![CDATA[A case study on how MetaMUI wallet claims to be decentralized and how it actully works.]]></description>
             <link>https://anubhavp.dev/blog/metamuiwallet.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/metamuiwallet.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -237,7 +288,7 @@ However the world today is in a frenzy to use it in all the places where it does
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -407,7 +458,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
             <description><![CDATA[A brief introduction about me.]]></description>
             <link>https://anubhavp.dev/blog/profile.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/profile.html</guid>
-            <dc:creator><![CDATA[Anubhab patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -429,7 +480,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -461,7 +512,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
             <description><![CDATA[Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees that partition a two-dimensional image by recursively subdividing it into four quadrants.]]></description>
             <link>https://anubhavp.dev/blog/qtree.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/qtree.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Tue, 14 Feb 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -483,7 +534,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -700,7 +751,7 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
             <description><![CDATA[RESOC is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free.]]></description>
             <link>https://anubhavp.dev/blog/resoc.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/resoc.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -722,7 +773,7 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -779,7 +830,7 @@ RESOC Traffic during exam time!
             <description><![CDATA[Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++ but with emphasis on code safety]]></description>
             <link>https://anubhavp.dev/blog/rust.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/rust.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -801,7 +852,7 @@ RESOC Traffic during exam time!
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -970,7 +1021,7 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
             <description><![CDATA[A goodbye to the best four years of my life: an ode to my alma mater.]]></description>
             <link>https://anubhavp.dev/blog/teasquared.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/teasquared.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -992,7 +1043,7 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -1066,7 +1117,7 @@ Here are some glimpses of my journey over the past four-odd years:
             <description><![CDATA[A linkedin script to remove all your followings :D]]></description>
             <link>https://anubhavp.dev/blog/unfollowall.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/unfollowall.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -1088,7 +1139,7 @@ Here are some glimpses of my journey over the past four-odd years:
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
@@ -1147,7 +1198,7 @@ Here are some glimpses of my journey over the past four-odd years:
             <description><![CDATA[Zuzu is a static site generator that converts all your markdown files into static htmls pages. It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets.]]></description>
             <link>https://anubhavp.dev/blog/zuzu.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/zuzu.html</guid>
-            <dc:creator><![CDATA[Anubhab Patnaik]]></dc:creator>
+            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
             <pubDate>Sun, 29 May 2022 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
@@ -1169,7 +1220,7 @@ Here are some glimpses of my journey over the past four-odd years:
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    Anubhab Patnaik
+                    &lt;!-- AUTHOR --&gt;
                 &lt;/h4&gt;
             &lt;/header&gt;
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;

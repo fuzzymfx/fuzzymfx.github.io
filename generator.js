@@ -46,7 +46,7 @@ const templatize = (template, { date, title, content, author, description }) =>
     .replace(/<!-- PUBLISH_DATE -->/g, date)
     .replace(/<!-- TITLE -->/g, title)
     .replace(/<!-- CONTENT -->/g, content)
-    .replace(/<!-- AUTHOR -->/g, author)
+    // .replace(/<!-- AUTHOR -->/g, author)
     .replace(/<!-- DESCRIPTION -->/g, description)
 
 const indextemplatize = (template, { title, content}) =>

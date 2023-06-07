@@ -4,7 +4,9 @@ title: "current"
 
 ##### April - current, 2023
 
-I got an internship at [StackIt](https://nowstackit.com) and will be working as a Software Engineer Intern.  
+Moving to Bangalore has been tough. The sheer number of people and the traffic is overwhelming. I have been trying to get used to the city, and it's been a month since I moved here, and [here's what it's like](/blog/lifeinametro.html).
+
+I got an internship at [StackIt](https://nowstackit.com) and will be working as a Software Engineer Intern. I intend to work with web applications, and set up CI/CD and data pipelines.
 
 *"At StackIt, we wish to take Spreadsheets into a new era. We are building the next-generation spreadsheet automation platform that will empower 1 billion+ business users to use spreadsheets as their business OS. StackIt is a Google Sheets Editor Plugin. Business teams can rely on StackIt to pull data from popular SaaS tools & internal databases like Chargebee, PostgreSQL, MySQL, etc regularly on spreadsheets. They can further analyze and build workflows & dashboards on top of it using StackIt."* - [StackIt](https://nowstackit.com).
 

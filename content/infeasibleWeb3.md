@@ -7,6 +7,7 @@ tags: ["project", "crypto", "web3"]
 ShowBreadCrumbs: true 
 ---
 
+**Srijan Paul**  
 
 During my short stint as a blockchain developer, I've learned a lot and have met amazing people.
 While I acknowledge the skill and reverence of some developers in this domain,
@@ -35,7 +36,7 @@ This post is my attempt at shedding some light on the problems that I'm aware of
 - [Engineering](#engineering)
   - [NFTs CAN be altered.](#nfts-can-be-altered)
   - [Web3 is not technically feasible.](#web3-is-not-technically-feasible)
-	
+
 ## Social
 
 ### The majority of crypto is shady, even for artists

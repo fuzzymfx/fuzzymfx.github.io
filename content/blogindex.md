@@ -2,7 +2,7 @@
 title: Anubhab's Blog
 ---
 
-<!-- <li class="flex justify-between pb3"><a href="./eventloop.html" class="link">Looping Delight: Unraveling the Magic of the Event Loop</a><span class="date gray">19-05-2023</span> </li> -->
+<li class="flex justify-between pb3"><a href="./lifeinametro.html" class="link">The Slave City</a><span class="date gray">08-06-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./teasquared.html" class="link">Teasquared: Adieu, Siliconites</a><span class="date gray">15-05-2023</span> </li>
 
