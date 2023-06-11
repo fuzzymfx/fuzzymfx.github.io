@@ -13,13 +13,13 @@ Gone are the days of wrestling with complex SQL queries or feeling the pressure 
 
 Imagine the time and energy you'll save by eliminating the need to hire Data Engineers. StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.
 
-**Here is the [Tech](/blog/stackit.tech.html) behind the legenday StackIt.**
-
-- [Automation](#automation)
-- [Integrations](#integrations)
-- [Data Vizualization - Sorting & Filters](#data-vizualization-sorting-filters)
-- [NLQ( *Coming Soon*)](#natural-language-query-coming-soon)
-- [Joins( *Coming Soon* )](#joins-coming-soon)
+**Here is the [Tech](/blog/stackit.tech.html) behind the legenday StackIt.**  
+- Features
+  - [Automation](#automation)
+  - [Integrations](#integrations)
+  - [Data Vizualization - Sorting & Filters](#data-vizualization-sorting-filters)
+  - [NLQ( *Coming Soon*)](#natural-language-query-coming-soon)
+  - [Joins( *Coming Soon* )](#joins-coming-soon)
 - [Pricing](#pricing)
 - [What's next?](#whats-next)
 
