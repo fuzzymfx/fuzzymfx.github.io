@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jun 2023 11:44:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jun 2023 11:47:47 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -1133,8 +1133,8 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
 &lt;/div&gt;</content:encoded>
         </item>
         <item>
-            <title><![CDATA[StackIt: Spreadsheet Automation on Steroids | Anubhab's blogs ]]></title>
-            <description><![CDATA[The best B2B SaaS tools for your venture]]></description>
+            <title><![CDATA[StackIt-tech | Anubhab's blogs ]]></title>
+            <description><![CDATA[The tech behind the spreadsheet monster.]]></description>
             <link>https://anubhavp.dev/blog/stackit.tech.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/stackit.tech.html</guid>
             <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
@@ -1151,11 +1151,11 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
                     &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
                 &lt;/nav&gt;
                 &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
-                    StackIt: Spreadsheet Automation on Steroids
+                    StackIt-tech
                 &lt;/h2&gt;
                 &lt;div&gt;
                     &lt;p&gt;
-                        The best B2B SaaS tools for your venture
+                        The tech behind the spreadsheet monster.
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
