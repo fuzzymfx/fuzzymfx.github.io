@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jun 2023 11:47:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jun 2023 11:52:43 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -497,11 +497,15 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;p&gt;Imagine the time and energy you’ll save by eliminating the need to hire Data Engineers. StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Here is the &lt;a href=&quot;/blog/stackit.tech.html&quot;&gt;Tech&lt;/a&gt; behind the legenday StackIt.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Features
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#automation&quot;&gt;Automation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#integrations&quot;&gt;Integrations&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#data-vizualization-sorting-filters&quot;&gt;Data Vizualization - Sorting &amp;amp; Filters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#natural-language-query-coming-soon&quot;&gt;NLQ( &lt;em&gt;Coming Soon&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#joins-coming-soon&quot;&gt;Joins( &lt;em&gt;Coming Soon&lt;/em&gt; )&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#whats-next&quot;&gt;What’s next?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
