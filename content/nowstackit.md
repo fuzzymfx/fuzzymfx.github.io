@@ -18,8 +18,8 @@ Imagine the time and energy you'll save by eliminating the need to hire Data Eng
 - [Automation](#automation)
 - [Integrations](#integrations)
 - [Data Vizualization - Sorting & Filters](#data-vizualization-sorting-filters)
-- [NLQ( *Coming Soon*)](#natural-language-query-coming-soon)
-- [Joins( *Coming Soon* )](#joins-coming-soon)
+- [NLQ (*Coming Soon*)](#natural-language-query-coming-soon)
+- [Joins (*Coming Soon*)](#joins-coming-soon)
 - [Pricing](#pricing)
 - [What's next?](#whats-next)
 
