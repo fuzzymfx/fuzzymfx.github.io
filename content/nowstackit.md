@@ -13,13 +13,13 @@ Gone are the days of wrestling with complex SQL queries or feeling the pressure 
 
 Imagine the time and energy you'll save by eliminating the need to hire Data Engineers. StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.
 
-**Here is the [Tech](/blog/stackit.tech.html) behind the legenday StackIt.**  
-- Features
-  - [Automation](#automation)
-  - [Integrations](#integrations)
-  - [Data Vizualization - Sorting & Filters](#data-vizualization-sorting-filters)
-  - [NLQ( *Coming Soon*)](#natural-language-query-coming-soon)
-  - [Joins( *Coming Soon* )](#joins-coming-soon)
+[Here is the Tech](/blog/stackit.tech.html) behind the legenday StackIt.
+
+- [Automation](#automation)
+- [Integrations](#integrations)
+- [Data Vizualization - Sorting & Filters](#data-vizualization-sorting-filters)
+- [NLQ( *Coming Soon*)](#natural-language-query-coming-soon)
+- [Joins( *Coming Soon* )](#joins-coming-soon)
 - [Pricing](#pricing)
 - [What's next?](#whats-next)
 
@@ -27,7 +27,7 @@ Imagine the time and energy you'll save by eliminating the need to hire Data Eng
 
 Say hello to our automation feature that lets you sit back, relax, and watch the magic happen! With StackIt, you can automate the import of data from your trusted data sources straight into your Google Sheets. We're all about saving you time and effort, so we give you the power to set up `schedules` that fit your data-importing groove. Want to import data `daily` to keep your Sheets up-to-date? No problemo! Need it `hourly` to satisfy your data-hungry soul? We've got you covered! Or perhaps a `weekly` import is more your style? You got it!
 
-StackIt also allows you to set up *alerts* to notify you when a specific event occurs. Set up alerts to get notified when specific events occur, like a new customer being added to your database. It's like having your own data detective on the case, making sure you never miss a beat.
+StackIt also allows you to set up `alerts` to notify you when a specific event occurs, like a new customer being added to your database. It's like having your own data detective on the case, making sure you never miss a beat.
 
 So go ahead, kick back, and let StackIt do the heavy lifting for you. Automate your data imports with schedules that suit your needs and get those handy alerts to stay on top of important data events. It's time to embrace the data automation revolution!
 
@@ -41,13 +41,13 @@ StackIt is the ultimate data source whisperer! We've got a growing list of data 
 - MySQL (Coming Soon): The classic and beloved database friend, soon to join the StackIt party.
 - Razorpay (Coming Soon): Prepare for a payment gateway dance-off with our upcoming integration.
 
-Connecting to these data sources is a breeze. Just whip out your credentials, let us know which source tickles your fancy, and StackIt will work its magic. We take care of the nitty-gritty, so you can focus on the exciting part—getting your data imported hassle-free.
+Connecting to these data sources is a breeze. Just whip out your credentials, let us know which source you fancy, and StackIt will work its magic. We take care of the nitty-gritty, so you can focus on the exciting part: getting your data imported hassle-free.
 
 We're constantly adding new pals to our list, so stay tuned for more amazing integrations shortly. We're determined to be the superhero of data importing, rescuing you from the clutches of complicated connections and saving you time and effort.
 
 ### Data Vizualization - Sorting & Filters
 
-StackIt believes in giving you the power to be a data ninja, slicing and dicing your way to data greatness! With our awesome filtering feature, you can wave your virtual wand and import only the data that truly matters to you.
+StackIt believes in giving you the power to be a data ninja, slicing and dicing your way to data greatness! With our awesome filtering features, you can wave your virtual wand and import only the data that truly matters to you.
 
 Before you even hit that "import" button, StackIt treats you to a sneak peek of your data in the `preview section`. It's like taking a peek into a treasure chest before deciding which gems to bring into your Google Sheets. In this preview section, you can `sort` and `filter` your data to your heart's content.
 
@@ -59,23 +59,23 @@ Our **`date-filter` is live now**. It's like having your own time-travelling DeL
 
 With StackIt, you don't need to be fluent in "geek-speak" or SQL wizardry to get the answers you seek from your data. We've made it super easy and friendly by allowing you to query your data using natural language. StackIt, with our trusty sidekick, `LookupAi`, employs the power of Natural Language Processing. That's right, we've given StackIt a big brain that can understand your questions and provide you with the exact answers you need.
 
-Imagine asking StackIt, "Hey, how many awesome customers have subscribed to my mind-blowing service?" And voila! StackIt will magically deliver the answer right to your fingertips. StackIt understands your questions, just like a helpful friend would! You can ask specific questions like, "How many customers have subscribed to my service in the last 30 days?" or get a broader overview with a question like, "Tell me the total count of super happy customers."
+Imagine asking StackIt, "Hey, how many awesome customers have subscribed to my mind-blowing service?" StackIt will magically deliver the answer right to your fingertips. StackIt understands your questions, just like a helpful friend would! You can ask specific questions like, "How many customers have subscribed to my service in the last 30 days?" or get a broader overview with a question like, "Tell me the total count of super happy customers."
 
 ### Joins *(Coming Soon)*
 
-StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet.It's like having a data party, and everyone's invited!
+StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet. It's like having a data party, and everyone's invited!
 
-Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data. It's like having a magical data wand that effortlessly brings disparate data sources together, creating a symphony of insights.
+Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data.
 
 ## Pricing
 
-Let's start with our generous free plan. It's perfect for those just getting started or with lighter data import requirements. With our free plan, you can import up to 1000 rows of data per month, connect with up to 3 data sources, and schedule your imports to run weekly. It's a great way to dip your toes into the world of automated data importing, without spending a penny.
+Let's start with our generous **free plan**. It's perfect for those just getting started or with lighter data import requirements. With our free plan, you can import up to 1000 rows of data per month, connect with up to 3 data sources, and schedule your imports to run weekly. It's a great way to dip your toes into the world of automated data importing, without spending a penny.
 
-For those hungry for more power and capabilities, our paid plans are ready to supercharge your data game. Our basic plan, priced at just $30 per month, opens up a whole new level of possibilities. With this plan, you can import up to 200,000 rows of data per month, connect with up to 10 data sources, and schedule your imports to run at the frequency that suits your needs—whether it's hourly, daily, or weekly. It's the ideal plan for scaling up your data operations without breaking the bank.
+For those hungry for more power and capabilities, our paid plans are ready to supercharge your data game. Our **basic plan**, priced at just `$30 per month`, opens up a whole new level of possibilities. With this plan, you can import up to 200,000 rows of data per month, connect with up to 10 data sources, and schedule your imports to run at the frequency that suits your needs—whether it's hourly, daily, or weekly. It's the ideal plan for scaling up your data operations without breaking the bank.
 
-But wait, there's more! Our pro plan, available at $40 per month, takes data importing to the next level. With unlimited data importing, you can import as much data as your heart desires. Plus, you can connect with an unlimited number of data sources, ensuring you have all your data streams in one place. And just like the basic plan, you have the flexibility to schedule your imports to run hourly, daily, or weekly, so you stay in control of your data flow.
+But wait, there's more! Our **pro plan**, available at `$40 per month`, takes data importing to the next level. With unlimited data importing, you can import as much data as your heart desires. Plus, you can connect with an unlimited number of data sources, ensuring you have all your data streams in one place. And just like the basic plan, you have the flexibility to schedule your imports to run hourly, daily, or weekly, so you stay in control of your data flow.
 
-To make your decision even easier, we offer a 30-day free trial of our paid plans. That's right—test out our premium features, experience the power of StackIt firsthand, and see how it revolutionizes your data importing. No commitments, no strings attached—just pure data-importing bliss.
+To make your decision even easier, we offer a `30-day free trial` of our paid plans. That's right—test out our premium features, experience the power of StackIt firsthand, and see how it revolutionizes your data importing. No commitments, no strings attached—just pure data-importing bliss.
 
 At StackIt, we're committed to empowering you with an intuitive, feature-rich solution at a price that works for you. So choose the plan that suits your needs, unleash the potential of automated data importing, and watch your productivity soar!
 
