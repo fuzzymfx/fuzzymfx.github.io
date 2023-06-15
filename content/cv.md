@@ -15,8 +15,13 @@ title: "cv - Anubhab Patnaik"
 ### Work Experience
 
 - **Full-stack Software Engineer Intern** - *StackIt* Current - [🔗](https://nowstackit.com)
-  - [Building StackIt](https://www.nowstackit.com/about-us)
-  - Built a chrome extension to work with the StakIt Google extension to import CSVs to Google Sheets.
+  - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
+  - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
+  - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
+  - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
+  - Creating mulitple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
+- **Full-stack Software Developer** - *Assymetri* Current - [🔗](https://www.linkedin.com/company/asymmetri/)
+  - Building a dynamic PDF generator using React and NodeJs. Implemented a custom PDF viewer using react-pdf and react-pdf-highlighter.
 - **Co-Founder** - *CBRTL* Current - [🔗](https://cbrtl.github.io)
 - **Software Developer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
