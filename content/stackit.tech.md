@@ -12,7 +12,7 @@ StackIt empowers you to automate the data importing process into your spreadshee
   - [Infrastructure](#infrastructure)
     - [The Plugin](#the-plugin)
     - [The Backend](#the-backend)
-    - [The VPC & Data Pipelines](#the-vpc-data-pipelines)
+    - [Data Pipelines](#data-pipelines)
 
 ## How does it work?
 
@@ -41,7 +41,7 @@ The infrastructure of the entire StackIt is divided into three parts:-
 
 1. Plugin
 2. The Backend
-3. The Database/ Data Pipeline
+3. Data Pipelines
 
 #### The Plugin
 
@@ -103,4 +103,34 @@ The AppScript code is deployed as a workspace add-on, the one that you see in th
 
 #### The Backend
 
-#### The VPC & Data Pipelines
+The StackIt backend is built using NodeJs and ExpressJs. It is deployed on the Google Cloud Platform. The backend is responsible for handling the API calls from the plugin and communicating with the data aggregators.
+
+The entire backend is divided into three section:-
+
+1. The Backend
+2. The Kafka Server
+3. MongoDB
+
+The process of importing data from the data sources is divided into two roadways:-
+
+1. The plugin sends a request to the backend to import data from a particular data source.
+
+2. The backend then sends a request to the data aggregator to fetch the data and stores the data temporarily in **Kafka**. It store the master data in **MongoDB**, and returns the data to the plugin.
+
+The main backend can be thought of as a collection of microservices. Each microservice is responsible for handling a particular set of APIs. The backend is divided into five microservices:-
+
+1. **ASTRA** - This is the identity management API. It is responsible for creating and managing users and their credentials.
+
+2. **APOLLO** - This is the configuration management API. It is responsible for creating, storing and managing the configurations of the users.
+
+3. **NEXUS** - This is the connection service API. It is responsible for creating and managing connections with the data aggregators.
+
+4. **CHRONA** - This is the schedule management API. It is responsible for creating and managing schedules for the data import.
+
+5. **ZEUS** - This is the master data management API. It stores the main data in **MongoDB**.
+
+The backend server is connected to the internet via a NAT Gateway. The NAT Gateway is a network component that allows the backend server to connect to the internet without exposing the server to the internet.
+
+Data flows in through a reverse proxy. The reverse proxy is a server that sits in front of the server and forwards client requests to the server. It also caches the responses from the server and sends them back to the client without having to forward the request to the server. This reduces the load and improves the performance.
+
+White-listing is a security mechanism that allows you to create a list of trusted IP addresses or IP ranges from which your users can access your backend server. The server is white-listed to only allow requests from the reverse proxy.

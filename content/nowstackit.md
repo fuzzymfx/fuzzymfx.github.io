@@ -37,6 +37,7 @@ StackIt is the ultimate data source whisperer! We've got a growing list of data 
 
 - Chargebee: The cool kid on the subscription block.
 - PostgreSQL: The reliable friend who knows their way around databases.
+- Hubspot: The marketing guru who knows how to get your brand out there.
 - Stripe (Coming Soon): Get ready to stripe up your data importing game!
 - MySQL (Coming Soon): The classic and beloved database friend, soon to join the StackIt party.
 - Razorpay (Coming Soon): Prepare for a payment gateway dance-off with our upcoming integration.
