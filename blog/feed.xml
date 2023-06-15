@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jun 2023 20:21:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jun 2023 20:46:57 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -514,6 +514,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;ul&gt;
 &lt;li&gt;Chargebee: The cool kid on the subscription block.&lt;/li&gt;
 &lt;li&gt;PostgreSQL: The reliable friend who knows their way around databases.&lt;/li&gt;
+&lt;li&gt;Hubspot: The marketing guru who knows how to get your brand out there.&lt;/li&gt;
 &lt;li&gt;Stripe (Coming Soon): Get ready to stripe up your data importing game!&lt;/li&gt;
 &lt;li&gt;MySQL (Coming Soon): The classic and beloved database friend, soon to join the StackIt party.&lt;/li&gt;
 &lt;li&gt;Razorpay (Coming Soon): Prepare for a payment gateway dance-off with our upcoming integration.&lt;/li&gt;
@@ -1177,7 +1178,7 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#the-plugin&quot;&gt;The Plugin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#the-backend&quot;&gt;The Backend&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#the-vpc-data-pipelines&quot;&gt;The VPC &amp;amp; Data Pipelines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#data-pipelines&quot;&gt;Data Pipelines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1201,7 +1202,7 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Plugin&lt;/li&gt;
 &lt;li&gt;The Backend&lt;/li&gt;
-&lt;li&gt;The Database/ Data Pipeline&lt;/li&gt;
+&lt;li&gt;Data Pipelines&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;the-plugin&quot; tabindex=&quot;-1&quot;&gt;The Plugin&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;The Plugin&lt;/strong&gt; is built using ReactJs, AppScript(Google’s version of JavaScript) and Network APIs. The code is structured into three segments:-&lt;/p&gt;
@@ -1251,7 +1252,43 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The AppScript code is deployed as a workspace add-on, the one that you see in the Google Sheets.&lt;/p&gt;
 &lt;h4 id=&quot;the-backend&quot; tabindex=&quot;-1&quot;&gt;The Backend&lt;/h4&gt;
-&lt;h4 id=&quot;the-vpc-data-pipelines&quot; tabindex=&quot;-1&quot;&gt;The VPC &amp;amp; Data Pipelines&lt;/h4&gt;
+&lt;p&gt;The StackIt backend is built using NodeJs and ExpressJs. It is deployed on the Google Cloud Platform. The backend is responsible for handling the API calls from the plugin and communicating with the data aggregators.&lt;/p&gt;
+&lt;p&gt;The entire backend is divided into three section:-&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The Backend&lt;/li&gt;
+&lt;li&gt;The Kafka Server&lt;/li&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The process of importing data from the data sources is divided into two roadways:-&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The plugin sends a request to the backend to import data from a particular data source.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The backend then sends a request to the data aggregator to fetch the data and stores the data temporarily in &lt;strong&gt;Kafka&lt;/strong&gt;. It store the master data in &lt;strong&gt;MongoDB&lt;/strong&gt;, and returns the data to the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The main backend can be thought of as a collection of microservices. Each microservice is responsible for handling a particular set of APIs. The backend is divided into five microservices:-&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ASTRA&lt;/strong&gt; - This is the identity management API. It is responsible for creating and managing users and their credentials.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;APOLLO&lt;/strong&gt; - This is the configuration management API. It is responsible for creating, storing and managing the configurations of the users.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NEXUS&lt;/strong&gt; - This is the connection service API. It is responsible for creating and managing connections with the data aggregators.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CHRONA&lt;/strong&gt; - This is the schedule management API. It is responsible for creating and managing schedules for the data import.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ZEUS&lt;/strong&gt; - This is the master data management API. It stores the main data in &lt;strong&gt;MongoDB&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The backend server is connected to the internet via a NAT Gateway. The NAT Gateway is a network component that allows the backend server to connect to the internet without exposing the server to the internet.&lt;/p&gt;
+&lt;p&gt;Data flows in through a reverse proxy. The reverse proxy is a server that sits in front of the server and forwards client requests to the server. It also caches the responses from the server and sends them back to the client without having to forward the request to the server. This reduces the load and improves the performance.&lt;/p&gt;
+&lt;p&gt;White-listing is a security mechanism that allows you to create a list of trusted IP addresses or IP ranges from which your users can access your backend server. The server is white-listed to only allow requests from the reverse proxy.&lt;/p&gt;
 
                     &lt;hr&gt;
                     &lt;div class=&quot;footer&quot;&gt;

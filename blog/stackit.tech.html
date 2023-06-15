@@ -59,7 +59,7 @@
 <ul>
 <li><a href="#the-plugin">The Plugin</a></li>
 <li><a href="#the-backend">The Backend</a></li>
-<li><a href="#the-vpc-data-pipelines">The VPC &amp; Data Pipelines</a></li>
+<li><a href="#data-pipelines">Data Pipelines</a></li>
 </ul>
 </li>
 </ul>
@@ -83,7 +83,7 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee</p>
 <ol>
 <li>Plugin</li>
 <li>The Backend</li>
-<li>The Database/ Data Pipeline</li>
+<li>Data Pipelines</li>
 </ol>
 <h4 id="the-plugin" tabindex="-1">The Plugin</h4>
 <p><strong>The Plugin</strong> is built using ReactJs, AppScript(Google’s version of JavaScript) and Network APIs. The code is structured into three segments:-</p>
@@ -133,7 +133,43 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee</p>
 </code></pre>
 <p>The AppScript code is deployed as a workspace add-on, the one that you see in the Google Sheets.</p>
 <h4 id="the-backend" tabindex="-1">The Backend</h4>
-<h4 id="the-vpc-data-pipelines" tabindex="-1">The VPC &amp; Data Pipelines</h4>
+<p>The StackIt backend is built using NodeJs and ExpressJs. It is deployed on the Google Cloud Platform. The backend is responsible for handling the API calls from the plugin and communicating with the data aggregators.</p>
+<p>The entire backend is divided into three section:-</p>
+<ol>
+<li>The Backend</li>
+<li>The Kafka Server</li>
+<li>MongoDB</li>
+</ol>
+<p>The process of importing data from the data sources is divided into two roadways:-</p>
+<ol>
+<li>
+<p>The plugin sends a request to the backend to import data from a particular data source.</p>
+</li>
+<li>
+<p>The backend then sends a request to the data aggregator to fetch the data and stores the data temporarily in <strong>Kafka</strong>. It store the master data in <strong>MongoDB</strong>, and returns the data to the plugin.</p>
+</li>
+</ol>
+<p>The main backend can be thought of as a collection of microservices. Each microservice is responsible for handling a particular set of APIs. The backend is divided into five microservices:-</p>
+<ol>
+<li>
+<p><strong>ASTRA</strong> - This is the identity management API. It is responsible for creating and managing users and their credentials.</p>
+</li>
+<li>
+<p><strong>APOLLO</strong> - This is the configuration management API. It is responsible for creating, storing and managing the configurations of the users.</p>
+</li>
+<li>
+<p><strong>NEXUS</strong> - This is the connection service API. It is responsible for creating and managing connections with the data aggregators.</p>
+</li>
+<li>
+<p><strong>CHRONA</strong> - This is the schedule management API. It is responsible for creating and managing schedules for the data import.</p>
+</li>
+<li>
+<p><strong>ZEUS</strong> - This is the master data management API. It stores the main data in <strong>MongoDB</strong>.</p>
+</li>
+</ol>
+<p>The backend server is connected to the internet via a NAT Gateway. The NAT Gateway is a network component that allows the backend server to connect to the internet without exposing the server to the internet.</p>
+<p>Data flows in through a reverse proxy. The reverse proxy is a server that sits in front of the server and forwards client requests to the server. It also caches the responses from the server and sends them back to the client without having to forward the request to the server. This reduces the load and improves the performance.</p>
+<p>White-listing is a security mechanism that allows you to create a list of trusted IP addresses or IP ranges from which your users can access your backend server. The server is white-listed to only allow requests from the reverse proxy.</p>
 
                     <hr />
                     <div class="footer">
