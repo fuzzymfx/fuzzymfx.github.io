@@ -115,7 +115,7 @@ The process of importing data from the data sources is divided into two roadways
 
 1. The plugin sends a request to the backend to import data from a particular data source.
 
-2. The backend then sends a request to the data aggregator to fetch the data and stores the data temporarily in **Kafka**. It store the master data in **MongoDB**, and returns the data to the plugin.
+2. The backend then sends a request to the data aggregator to fetch the data, stores it temporarily in `Kafka`, and sends a response to the plugin.
 
 The main backend can be thought of as a collection of microservices. Each microservice is responsible for handling a particular set of APIs. The backend is divided into five microservices:-
 
@@ -129,8 +129,25 @@ The main backend can be thought of as a collection of microservices. Each micros
 
 5. **ZEUS** - This is the master data management API. It stores the main data in **MongoDB**.
 
+The server is not directly connected to the internet. We use a `reverse proxy` and a `NAT gateway` to connect the server to the internet. The server is white-listed to only allow requests from the reverse proxy.
+
+<figure>
+  <img src="/assets/img/stackit/backend.png" alt="StackIt" style="width:100%">
+  <figcaption>StackIt- Backend</figcaption>
+</figure>
+
+**Outbound Requests** -
+
 The backend server is connected to the internet via a NAT Gateway. The NAT Gateway is a network component that allows the backend server to connect to the internet without exposing the server to the internet.
+
+**Inbound Requests** -
 
 Data flows in through a reverse proxy. The reverse proxy is a server that sits in front of the server and forwards client requests to the server. It also caches the responses from the server and sends them back to the client without having to forward the request to the server. This reduces the load and improves the performance.
 
 White-listing is a security mechanism that allows you to create a list of trusted IP addresses or IP ranges from which your users can access your backend server. The server is white-listed to only allow requests from the reverse proxy.
+
+The master data in stored in **MongoDB**
+
+#### Data Pipelines
+
+The data pipelines are built using `python`, and `Apache Kafka`. Kafka is a distributed streaming platform that is used to build real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, and extremely fast. **It is used to store the data temporarily before it is imported into the Google Sheets**.
