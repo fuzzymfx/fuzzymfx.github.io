@@ -28,7 +28,7 @@ Binge:
 
 I am modifying zuzu to port my [blog](https://anubhavp.dev/paperblog) (written in Hugo) to [zuzu](https://anubhavp.dev/zuzu). This entire site and the blog are now built using zuzu. Zuzu is a custom static site generator written in JavaScript. It includes static files compilation, dynamic search, and a rss feed generator. You can find the source code [here](https://github.com/fuzzymfx/zuzu). Currently it is in a very early stage of development, and it is designed to work like a basic static site generator. But it can be modified to cater to your need easily.
 
-March had mid-semester exams in stock for me. I thought I wouldn't pull through and fail miserably. (Chill. That didn't happen xD). But as I geared towards preparing for the exams, desperateley trying to collect notes, a sense of responsibility dawned upon me. [Smruti](https://www.linkedin.com/in/smruti-dash-1210/) reminded me that we were supposed to build the half-baked project together that makes notes and academic materials accessible for free and I started on the first day of my exam and completed [Resoc](https://notes-sit.live/) on the last day of the exam. (Funny how I managed to find a way not to study enough xD). You can read more about it [here](https://anubhavp.dev/blog/resoc.html). We acquired a user base of 96 with an avg engagement time of 3m14s and more than 2980 reads within a week of launch! We are looking for active contributors interested in contributing their notes.
+March had mid-semester exams in stock for me. I thought I wouldn't pull through and fail miserably. (Chill. That didn't happen xD). But as I geared towards preparing for the exams, desperateley trying to collect notes, a sense of responsibility dawned upon me. [Smruti](https://www.linkedin.com/in/smruti-dash-1210/) reminded me that we were supposed to build the half-baked project together that makes notes and academic materials accessible for free and I started on the first day of my exam and completed [Resoc](https://resoc.in/) on the last day of the exam. (Funny how I managed to find a way not to study enough xD). You can read more about it [here](https://anubhavp.dev/blog/resoc.html). We acquired a user base of 96 with an avg engagement time of 3m14s and more than 2980 reads within a week of launch! We are looking for active contributors interested in contributing their notes.
 
 Dev:
 
@@ -36,7 +36,7 @@ Dev:
   - ~~Implement feat. rss, search, toml config~~
   - ~~Improve templating~~
   - ~~Port '/blog' to zuzu~~
-- ~~[Notes-SIT V2 of resoc with improved UI and features:](https://notes-sit.live/)~~
+- ~~[Notes-SIT V2 of resoc with improved UI and features:](https://resoc.in/)~~
   - ~~Design and implement a better UI for the non-essential components, and implement a unifrom design lanaguage for the site~~
   - ~~Automate deployment using firebase and github~~
   - ~~Improve task management, and add chat features~~
