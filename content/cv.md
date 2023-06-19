@@ -44,6 +44,10 @@ title: "cv - Anubhab Patnaik"
 
 ---
 
+### Research
+
+- Generative AI: LLMs, GANs, VAEs, Transformers, and more. Looking into the applications of ChatGPT4, fine tuning GPT3, using embeddings, exploring the use of transformers, exporing LLaMA and other LLMs, and more.
+
 ### Projects
 
 - [Bee](https://github.com/fuzzymfx/b) - A **tiny bit torrent client** written in TypeScript. Built to work with the movie recommendation system and the movie rating prediction system.
