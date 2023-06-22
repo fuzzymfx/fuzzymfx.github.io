@@ -2,7 +2,9 @@
 title: "current"
 ---
 
-##### April - current, 2023
+##### Current, 2023
+
+--- **June** ---
 
 Moving to Bangalore has been tough. The sheer number of people and the traffic is overwhelming. Coming from a place where I had my own room, spent a ton of time with my friends, and had a lot of time to myself, it's been a bit of a challenge to settle down here. I have been trying to get used to the city, and it's been almost a month since I moved here, and [here's what it's like](/blog/lifeinametro.html).
 
@@ -12,13 +14,17 @@ I have been actively engaged in client-side development using React and Google A
 
 I am looking out for side work and got part-time work as a full-stack developer at Assymetri. I am working on a project that renders PDFs based on the user input. To accomplish this, I am working with React, Vite, Next.js, and Firebase as the technology stack. While I'm considering Bootstrap for the UI, I haven't finalized the decision just yet.
 
+--- **May** ---
+
 I got an internship at [StackIt](https://nowstackit.com). I intend to work with web applications and set up CI/CD and data pipelines.
 
 *"At StackIt, we wish to take Spreadsheets into a new era. We are building the next-generation spreadsheet automation platform that will empower 1 billion+ business users to use spreadsheets as their business OS. StackIt is a Google Sheets Editor Plugin. Business teams can rely on StackIt to pull data from popular SaaS tools & internal databases like Chargebee, PostgreSQL, MySQL, etc regularly on spreadsheets. They can further analyze and build workflows & dashboards on top of it using StackIt."* - [StackIt](https://nowstackit.com).
 
 Thus, will be moving to Bangalore for the next couple of months. I may be **off the grid for a while** but will be back soon. Excited and looking forward to working with the team at StackIt in Bangalore.
 
-I recently visited Bangalore in May and met with my friends; to explore and pursue a new idea. We had a great time, and I look forward to meeting them again. New Idea: I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, to work with one of the top tech companies and work on projects I am passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid, and we have a lot of figuring out to do, but I am excited about it.
+I recently visited Bangalore and met with my friends; to explore and pursue a new idea. We had a great time, and I look forward to meeting them again. New Idea: I have planned something exciting for me to hop onto once my college gets over. My primary priority remains the same, to work with one of the top tech companies and work on projects I am passionate about. While I go and hunt, [Srijan](https://injuly.in) and I have planned to start something of our own! The egg has just been laid, and we have a lot of figuring out to do, but I am excited about it.
+
+--- **April** ---
 
 I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop): Getting into the rhythm of version control with Git & GitHub, with the UnStop Chapter of SIT, BBS and it was a huge success. We are planning to host a more advanced session on Git and GitHub shortly. There's also a web development workshop coming up.
 
