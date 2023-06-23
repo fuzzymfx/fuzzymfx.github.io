@@ -30,6 +30,8 @@ I hosted a session, [Git Groove](https://www.linkedin.com/posts/anubhabpatnaik05
 
 Meanwhile, at IEEE, we arranged a talk show with Ramneek Kalra that focused on getting to know IEEE and its benefits. The IEEE Students Chapter is dedicated to promoting knowledge and understanding of engineering. It is run by students and offers a variety of benefits, including networking opportunities, access to cutting-edge research, and professional development resources.
 
+---
+
 I am still looking to write papers on String Theory and LLMs. Haven't gotten around to it yet.
 
 Books:
