@@ -20,7 +20,7 @@ title: "cv - Anubhab Patnaik"
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
   - Creating mulitple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
-- **Full-stack Software Developer** - *Assymetri* Current - [🔗](https://www.linkedin.com/company/asymmetri/)
+- **Full-stack Software Developer** - *Asymmetri* Current - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Building a dynamic PDF generator using React and NodeJs. Implemented a custom PDF viewer using react-pdf and react-pdf-highlighter.
 - **Co-Founder** - *CBRTL* Current - [🔗](https://cbrtl.github.io)
 - **Software Developer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)

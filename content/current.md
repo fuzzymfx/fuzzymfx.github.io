@@ -12,7 +12,7 @@ While adapting to this new environment, at StackIt things have been going great.
 
 I have been actively engaged in client-side development using React and Google App Script while waiting for the setup of the development environment. The backend is written in NodeJs and [here's more on how StackIt operates](/blog/stackit.tech.html). Though I have been enjoying working with React, the client-side development env is wrecked, and it takes a lot of time; To render changes I always need to do a test deployment. The code is written by someone before me, and it's challenging to understand the workflow, and I have been trying to get a hang of it since I joined. I have already shipped a few features and bug fixes, and I am looking forward to working on the backend.
 
-I am looking out for side work and got part-time work as a full-stack developer at Assymetri. I am working on a project that renders PDFs based on the user input. To accomplish this, I am working with React, Vite, Next.js, and Firebase as the technology stack. While I'm considering Bootstrap for the UI, I haven't finalized the decision just yet.
+I am looking out for side work and got part-time work as a full-stack developer at Asymmetri. I am working on a project that renders PDFs based on the user input. To accomplish this, I am working with React, Vite, Next.js, and Firebase as the technology stack. While I'm considering Bootstrap for the UI, I haven't finalized the decision just yet.
 
 --- **May** ---
 
