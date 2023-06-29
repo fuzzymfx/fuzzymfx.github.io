@@ -21,7 +21,8 @@ title: "cv - Anubhab Patnaik"
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
   - Creating mulitple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
 - **Full-stack Software Developer** - *Asymmetri* Current - [🔗](https://www.linkedin.com/company/asymmetri/)
-  - Building a dynamic PDF generator using React and NodeJs. Implemented a custom PDF viewer using react-pdf and react-pdf-highlighter.
+  - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
+  - Building a custom PDF viewer using Firebase SDk. Used Cloud Firestore as the database.
 - **Co-Founder** - *CBRTL* Current - [🔗](https://cbrtl.github.io)
 - **Software Developer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
@@ -46,7 +47,7 @@ title: "cv - Anubhab Patnaik"
 
 ### Research
 
-- Generative AI: LLMs, GANs, VAEs, Transformers, and more. Looking into the applications of ChatGPT4, fine tuning GPT3, using embeddings, exploring the use of transformers, exporing LLaMA and other LLMs, and more.
+- Generative AI: LLMs, GANs, VAEs, Transformers, and more. Looking into the applications of ChatGPT4, fine tuning GPT3, using embeddings, exploring the use of transformers, exporing LLaMA and other LLMs, and more. Working on Vertex AI, PaLM, text-bison@001, chat-bison@001, textembedding-gecko@001 and other Vertex AI projects.
 
 ### Projects
 
@@ -157,6 +158,8 @@ title: "cv - Anubhab Patnaik"
 
 ### Activities
 
+- Chargebee - Finanace Leader Roundtable, 2023
+- Google IO/Connect, 2023
 - Git Groove - UnStop 2023 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop)
 - Web Developer/ Mentor- Zygon Organizing Committee 2023 - [🔗](https://drive.google.com/file/d/1Xqf9fN3ABCQli4tqEc39RKe3iXkqf-sx/view?usp=share_link)
 - Best Delegate - XIMUN 2023 - [🔗](https://drive.google.com/file/d/1vTZl3K2kRTJgDgFr3lN5mxSaz7pnwvc2/view?usp=sharing)

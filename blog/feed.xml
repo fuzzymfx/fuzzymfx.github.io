@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Jun 2023 04:50:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jun 2023 11:19:56 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -495,7 +495,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;p&gt;With StackIt, we’re on a mission to simplify and streamline the process of importing data from a wide array of aggregators and databases. Whether you’re rocking the subscription game with Chargebee, paving the way for e-commerce success with Stripe and Shopify, or diving deep into the data wonders of PostgreSQL and MySQL, StackIt has got your back.&lt;/p&gt;
 &lt;p&gt;Gone are the days of wrestling with complex SQL queries or feeling the pressure to hire data engineers or invest in expensive BI tools. StackIt swoops in to save the day, empowering you to automate the data-importing process into your beloved spreadsheets. Our no-code approach ensures that even the spreadsheet aficionados among us can effortlessly create connections with various data sources and import the data that truly matters.&lt;/p&gt;
 &lt;p&gt;Imagine the time and energy you’ll save by eliminating the need to hire Data Engineers. StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/blog/stackit.tech.html&quot;&gt;Here is the Tech&lt;/a&gt; behind the legenday StackIt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/stackit.tech.html&quot;&gt;Here is the Tech&lt;/a&gt; behind StackIt.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#automation&quot;&gt;Automation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#integrations&quot;&gt;Integrations&lt;/a&gt;&lt;/li&gt;
@@ -508,7 +508,6 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;h3 id=&quot;automation&quot; tabindex=&quot;-1&quot;&gt;Automation&lt;/h3&gt;
 &lt;p&gt;Say hello to our automation feature that lets you sit back, relax, and watch the magic happen! With StackIt, you can automate the import of data from your trusted data sources straight into your Google Sheets. We’re all about saving you time and effort, so we give you the power to set up &lt;code&gt;schedules&lt;/code&gt; that fit your data-importing groove. Want to import data &lt;code&gt;daily&lt;/code&gt; to keep your Sheets up-to-date? No problemo! Need it &lt;code&gt;hourly&lt;/code&gt; to satisfy your data-hungry soul? We’ve got you covered! Or perhaps a &lt;code&gt;weekly&lt;/code&gt; import is more your style? You got it!&lt;/p&gt;
 &lt;p&gt;StackIt also allows you to set up &lt;code&gt;alerts&lt;/code&gt; to notify you when a specific event occurs, like a new customer being added to your database. It’s like having your own data detective on the case, making sure you never miss a beat.&lt;/p&gt;
-&lt;p&gt;So go ahead, kick back, and let StackIt do the heavy lifting for you. Automate your data imports with schedules that suit your needs and get those handy alerts to stay on top of important data events. It’s time to embrace the data automation revolution!&lt;/p&gt;
 &lt;h3 id=&quot;integrations&quot; tabindex=&quot;-1&quot;&gt;Integrations&lt;/h3&gt;
 &lt;p&gt;StackIt is the ultimate data source whisperer! We’ve got a growing list of data sources that we play nice with, and we’re always expanding our repertoire. Currently, we’re bosom buddies with:&lt;/p&gt;
 &lt;ul&gt;
@@ -520,43 +519,23 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;li&gt;Razorpay (Coming Soon): Prepare for a payment gateway dance-off with our upcoming integration.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Connecting to these data sources is a breeze. Just whip out your credentials, let us know which source you fancy, and StackIt will work its magic. We take care of the nitty-gritty, so you can focus on the exciting part: getting your data imported hassle-free.&lt;/p&gt;
-&lt;p&gt;We’re constantly adding new pals to our list, so stay tuned for more amazing integrations shortly. We’re determined to be the superhero of data importing, rescuing you from the clutches of complicated connections and saving you time and effort.&lt;/p&gt;
 &lt;h3 id=&quot;data-vizualization-sorting-filters&quot; tabindex=&quot;-1&quot;&gt;Data Vizualization - Sorting &amp;amp; Filters&lt;/h3&gt;
 &lt;p&gt;StackIt believes in giving you the power to be a data ninja, slicing and dicing your way to data greatness! With our awesome filtering features, you can wave your virtual wand and import only the data that truly matters to you.&lt;/p&gt;
 &lt;p&gt;Before you even hit that “import” button, StackIt treats you to a sneak peek of your data in the &lt;code&gt;preview section&lt;/code&gt;. It’s like taking a peek into a treasure chest before deciding which gems to bring into your Google Sheets. In this preview section, you can &lt;code&gt;sort&lt;/code&gt; and &lt;code&gt;filter&lt;/code&gt; your data to your heart’s content.&lt;/p&gt;
 &lt;p&gt;We’ve got a filter arsenal that would make a coffee connoisseur proud. Need to import data only from customers who have subscribed to your service? No problemo! Just unleash the mighty &lt;code&gt;subscription_status&lt;/code&gt; filter, and voila! The non-subscribers vanish, and you’re left with the cream of the crop.&lt;/p&gt;
-&lt;p&gt;Our &lt;strong&gt;&lt;code&gt;date-filter&lt;/code&gt; is live now&lt;/strong&gt;. It’s like having your own time-travelling DeLorean, but without the need for flux capacitors. With the date filter, you can select the exact moment in time from which you want to start importing your data. Whether it’s the dawn of a new year or the precise second you said, “Let the data import begin!”—the choice is yours.&lt;/p&gt;
 &lt;h3 id=&quot;natural-language-query-coming-soon&quot; tabindex=&quot;-1&quot;&gt;Natural Language Query &lt;em&gt;(Coming Soon)&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;With StackIt, you don’t need to be fluent in “geek-speak” or SQL wizardry to get the answers you seek from your data. We’ve made it super easy and friendly by allowing you to query your data using natural language. StackIt, with our trusty sidekick, &lt;code&gt;LookupAi&lt;/code&gt;, employs the power of Natural Language Processing. That’s right, we’ve given StackIt a big brain that can understand your questions and provide you with the exact answers you need.&lt;/p&gt;
 &lt;p&gt;Imagine asking StackIt, “Hey, how many awesome customers have subscribed to my mind-blowing service?” StackIt will magically deliver the answer right to your fingertips. StackIt understands your questions, just like a helpful friend would! You can ask specific questions like, “How many customers have subscribed to my service in the last 30 days?” or get a broader overview with a question like, “Tell me the total count of super happy customers.”&lt;/p&gt;
 &lt;h3 id=&quot;joins-coming-soon&quot; tabindex=&quot;-1&quot;&gt;Joins &lt;em&gt;(Coming Soon)&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet. It’s like having a data party, and everyone’s invited!&lt;/p&gt;
-&lt;p&gt;Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data.&lt;/p&gt;
+&lt;p&gt;StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet. It’s like having a data party, and everyone’s invited! Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data.&lt;/p&gt;
 &lt;h2 id=&quot;pricing&quot; tabindex=&quot;-1&quot;&gt;Pricing&lt;/h2&gt;
 &lt;p&gt;Let’s start with our generous &lt;strong&gt;free plan&lt;/strong&gt;. It’s perfect for those just getting started or with lighter data import requirements. With our free plan, you can import up to 1000 rows of data per month, connect with up to 3 data sources, and schedule your imports to run weekly. It’s a great way to dip your toes into the world of automated data importing, without spending a penny.&lt;/p&gt;
 &lt;p&gt;For those hungry for more power and capabilities, our paid plans are ready to supercharge your data game. Our &lt;strong&gt;basic plan&lt;/strong&gt;, priced at just &lt;code&gt;$30 per month&lt;/code&gt;, opens up a whole new level of possibilities. With this plan, you can import up to 200,000 rows of data per month, connect with up to 10 data sources, and schedule your imports to run at the frequency that suits your needs—whether it’s hourly, daily, or weekly. It’s the ideal plan for scaling up your data operations without breaking the bank.&lt;/p&gt;
 &lt;p&gt;But wait, there’s more! Our &lt;strong&gt;pro plan&lt;/strong&gt;, available at &lt;code&gt;$40 per month&lt;/code&gt;, takes data importing to the next level. With unlimited data importing, you can import as much data as your heart desires. Plus, you can connect with an unlimited number of data sources, ensuring you have all your data streams in one place. And just like the basic plan, you have the flexibility to schedule your imports to run hourly, daily, or weekly, so you stay in control of your data flow.&lt;/p&gt;
 &lt;p&gt;To make your decision even easier, we offer a &lt;code&gt;30-day free trial&lt;/code&gt; of our paid plans. That’s right—test out our premium features, experience the power of StackIt firsthand, and see how it revolutionizes your data importing. No commitments, no strings attached—just pure data-importing bliss.&lt;/p&gt;
-&lt;p&gt;At StackIt, we’re committed to empowering you with an intuitive, feature-rich solution at a price that works for you. So choose the plan that suits your needs, unleash the potential of automated data importing, and watch your productivity soar!&lt;/p&gt;
 &lt;h2 id=&quot;whats-next&quot; tabindex=&quot;-1&quot;&gt;What’s next?&lt;/h2&gt;
-&lt;p&gt;StackIt is about to blow your mind with some exciting upcoming features! We’re constantly innovating to make your data-importing experience even better. Here’s a sneak peek at what’s in the pipeline:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Joins: Get ready to join the data party! Our upcoming joins feature will allow you to effortlessly combine data from multiple sources into a single Google Sheet. It’s like throwing a data mixer where all your sources can mingle and create new insights together.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Natural Language Query: Say goodbye to complicated queries and hello to simplicity! Our natural language query feature will enable you to ask questions about your data using everyday language. Want to know how many customers have subscribed to your service? Just ask StackIt, and it will provide the answer in a jiffy.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MongoDB: NoSQL enthusiasts, rejoice! StackIt is diving headfirst into the MongoDB world. Get ready to connect with your MongoDB databases and import data seamlessly into your spreadsheets.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Razorpay: It’s time for a payment gateway dance-off! Our upcoming integration with Razorpay will allow you to import and analyze payment data effortlessly. StackIt and Razorpay are ready to tango together to streamline your payment analytics.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We’re passionate about creating a tool that truly meets your needs, so we encourage you to try out StackIt, explore its features, and let us know what else you’d like to see. Your feedback is invaluable as we continue to evolve and enhance our product.&lt;/p&gt;
-&lt;p&gt;Consider supporting us by visiting our &lt;a href=&quot;https://www.linkedin.com/company/nowstackit/&quot;&gt;LinkedIn page&lt;/a&gt; and sharing your love for StackIt. We appreciate your support and are thrilled to have you as part of our community.&lt;/p&gt;
-&lt;p&gt;So buckle up and get ready for the data-importing journey of a lifetime with StackIt. We’re here to empower you and revolutionize the way you work with data. Let’s make importing data into spreadsheets a breeze!&lt;/p&gt;
+&lt;p&gt;We’re constantly adding new pals to our list, so stay tuned for more amazing integrations shortly. We’re determined to be the superhero of data importing, rescuing you from the clutches of complicated connections and saving you time and effort. So buckle up and get ready for the data-importing journey of a lifetime with StackIt. We’re here to empower you and revolutionize the way you work with data. Let’s make importing data into spreadsheets a breeze!&lt;/p&gt;
+&lt;p&gt;We’re passionate about creating a tool that truly meets your needs, so we encourage you to try out StackIt, explore its features, and let us know what else you’d like to see. Your feedback is invaluable as we continue to evolve and enhance our product. Consider supporting us by visiting our &lt;a href=&quot;https://www.linkedin.com/company/nowstackit/&quot;&gt;LinkedIn page&lt;/a&gt; and sharing your love for StackIt. We appreciate your support and are thrilled to have you as part of our community.&lt;/p&gt;
 &lt;p&gt;Remember, StackIt has got your back, and together, we’ll conquer the data universe, one source at a time.&lt;/p&gt;
 
                     &lt;hr&gt;

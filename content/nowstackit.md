@@ -13,7 +13,7 @@ Gone are the days of wrestling with complex SQL queries or feeling the pressure 
 
 Imagine the time and energy you'll save by eliminating the need to hire Data Engineers. StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.
 
-[Here is the Tech](/blog/stackit.tech.html) behind the legenday StackIt.
+[Here is the Tech](/blog/stackit.tech.html) behind StackIt.
 
 - [Automation](#automation)
 - [Integrations](#integrations)
@@ -29,8 +29,6 @@ Say hello to our automation feature that lets you sit back, relax, and watch the
 
 StackIt also allows you to set up `alerts` to notify you when a specific event occurs, like a new customer being added to your database. It's like having your own data detective on the case, making sure you never miss a beat.
 
-So go ahead, kick back, and let StackIt do the heavy lifting for you. Automate your data imports with schedules that suit your needs and get those handy alerts to stay on top of important data events. It's time to embrace the data automation revolution!
-
 ### Integrations
 
 StackIt is the ultimate data source whisperer! We've got a growing list of data sources that we play nice with, and we're always expanding our repertoire. Currently, we're bosom buddies with:
@@ -44,8 +42,6 @@ StackIt is the ultimate data source whisperer! We've got a growing list of data 
 
 Connecting to these data sources is a breeze. Just whip out your credentials, let us know which source you fancy, and StackIt will work its magic. We take care of the nitty-gritty, so you can focus on the exciting part: getting your data imported hassle-free.
 
-We're constantly adding new pals to our list, so stay tuned for more amazing integrations shortly. We're determined to be the superhero of data importing, rescuing you from the clutches of complicated connections and saving you time and effort.
-
 ### Data Vizualization - Sorting & Filters
 
 StackIt believes in giving you the power to be a data ninja, slicing and dicing your way to data greatness! With our awesome filtering features, you can wave your virtual wand and import only the data that truly matters to you.
@@ -53,8 +49,6 @@ StackIt believes in giving you the power to be a data ninja, slicing and dicing 
 Before you even hit that "import" button, StackIt treats you to a sneak peek of your data in the `preview section`. It's like taking a peek into a treasure chest before deciding which gems to bring into your Google Sheets. In this preview section, you can `sort` and `filter` your data to your heart's content.
 
 We've got a filter arsenal that would make a coffee connoisseur proud. Need to import data only from customers who have subscribed to your service? No problemo! Just unleash the mighty `subscription_status` filter, and voila! The non-subscribers vanish, and you're left with the cream of the crop.
-
-Our **`date-filter` is live now**. It's like having your own time-travelling DeLorean, but without the need for flux capacitors. With the date filter, you can select the exact moment in time from which you want to start importing your data. Whether it's the dawn of a new year or the precise second you said, "Let the data import begin!"—the choice is yours.
 
 ### Natural Language Query *(Coming Soon)*
 
@@ -64,9 +58,7 @@ Imagine asking StackIt, "Hey, how many awesome customers have subscribed to my m
 
 ### Joins *(Coming Soon)*
 
-StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet. It's like having a data party, and everyone's invited!
-
-Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data.
+StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet. It's like having a data party, and everyone's invited! Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data.
 
 ## Pricing
 
@@ -78,24 +70,10 @@ But wait, there's more! Our **pro plan**, available at `$40 per month`, takes da
 
 To make your decision even easier, we offer a `30-day free trial` of our paid plans. That's right—test out our premium features, experience the power of StackIt firsthand, and see how it revolutionizes your data importing. No commitments, no strings attached—just pure data-importing bliss.
 
-At StackIt, we're committed to empowering you with an intuitive, feature-rich solution at a price that works for you. So choose the plan that suits your needs, unleash the potential of automated data importing, and watch your productivity soar!
-
 ## What's next?
 
-StackIt is about to blow your mind with some exciting upcoming features! We're constantly innovating to make your data-importing experience even better. Here's a sneak peek at what's in the pipeline:
+We're constantly adding new pals to our list, so stay tuned for more amazing integrations shortly. We're determined to be the superhero of data importing, rescuing you from the clutches of complicated connections and saving you time and effort. So buckle up and get ready for the data-importing journey of a lifetime with StackIt. We're here to empower you and revolutionize the way you work with data. Let's make importing data into spreadsheets a breeze!
 
-- Joins: Get ready to join the data party! Our upcoming joins feature will allow you to effortlessly combine data from multiple sources into a single Google Sheet. It's like throwing a data mixer where all your sources can mingle and create new insights together.
-
-- Natural Language Query: Say goodbye to complicated queries and hello to simplicity! Our natural language query feature will enable you to ask questions about your data using everyday language. Want to know how many customers have subscribed to your service? Just ask StackIt, and it will provide the answer in a jiffy.
-
-- MongoDB: NoSQL enthusiasts, rejoice! StackIt is diving headfirst into the MongoDB world. Get ready to connect with your MongoDB databases and import data seamlessly into your spreadsheets.
-
-- Razorpay: It's time for a payment gateway dance-off! Our upcoming integration with Razorpay will allow you to import and analyze payment data effortlessly. StackIt and Razorpay are ready to tango together to streamline your payment analytics.
-
-We're passionate about creating a tool that truly meets your needs, so we encourage you to try out StackIt, explore its features, and let us know what else you'd like to see. Your feedback is invaluable as we continue to evolve and enhance our product.
-
-Consider supporting us by visiting our [LinkedIn page](https://www.linkedin.com/company/nowstackit/) and sharing your love for StackIt. We appreciate your support and are thrilled to have you as part of our community.
-
-So buckle up and get ready for the data-importing journey of a lifetime with StackIt. We're here to empower you and revolutionize the way you work with data. Let's make importing data into spreadsheets a breeze!
+We're passionate about creating a tool that truly meets your needs, so we encourage you to try out StackIt, explore its features, and let us know what else you'd like to see. Your feedback is invaluable as we continue to evolve and enhance our product. Consider supporting us by visiting our [LinkedIn page](https://www.linkedin.com/company/nowstackit/) and sharing your love for StackIt. We appreciate your support and are thrilled to have you as part of our community.
 
 Remember, StackIt has got your back, and together, we'll conquer the data universe, one source at a time.
