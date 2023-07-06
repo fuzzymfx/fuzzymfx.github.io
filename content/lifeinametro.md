@@ -1,12 +1,32 @@
 ---
 author: Anubhab Patnaik
 title: "Bangalore Chronicles: The slave city"
-date: "2023-06-07"
+date: "2023-07-01"
 description: A futile attempt to survive in Bangalore's Urban Jungle
 tags: ["life", "metro", "bangalore"]
 ShowBreadCrumbs: true 
 ---
 
-Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare.
+Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare. The house rent in most of the communities makes you go bonkers. Surviving in this urban jungle is a challenge. Bangalore is referred to as the "Valley" in India. It encompasses a lot of people from all over India, some of who have migrated from their respective homes and brought their lives to work and settle in Bangalore.
 
-(To be continued)
+I moved to Bangalore in June. My living schematics changed drastically. I used to wake up at a random time that I found suitable, always went out for breakfast and spent a ton of time with my friends. The routine of waking up punctually, heading to the office, toiling away until late hours, and returning home solely to sleep has become the new norm.
+
+When I arrived in this city in June, I found myself in a predicament. With no place to call my own, I lived temporarily with my cousin who resided in Electronic City. I picked up my luggage from the airport and went to Electronic City. After spending a week there, I moved to a hostel called Zylo Stays in Koramangala. Drawn to its lively atmosphere and the promise of new connections, I eagerly settled into this temporary home, embracing the camaraderie of fellow inhabitants who shared a similar zest for exploration.
+
+Living in the hostel was an experience filled with vibrant conversations, shared laughter, and a melting pot of diverse cultures and backgrounds. However, the reality of sharing a small and cramped room with three other people soon became apparent. Despite the hostel's overall appeal, I faced a challenge with my roommates, who seemed unaware of personal boundaries. As someone sensitive to noise and a light sleeper, it became increasingly difficult for me to get a good night's sleep when they would enter the room late at night, turn on the lights, make noise, and leave the door open. It was a struggle to find the rest and tranquillity I needed amidst such disruptions. Consequently, my desire for a place where I could have privacy and create my own haven grew stronger.
+
+I lived there for a month and got a place of my own thereafter. I got a place in Koramangala, the posh area of Bangalore. Koramangala boasts the highest rents in the city. It is also renowned as a thriving startup hub, attracting entrepreneurs and professionals from various industries.
+
+Living in Koramangala has its perks, especially when it comes to social life. The area is teeming with a wide array of food joints, pubs, and restaurants, offering an abundance of options for dining and entertainment. Whether you're in the mood for a casual night out with friends or a lively party, Koramangala has something for everyone. The vibrant atmosphere and bustling nightlife make it an ideal place to unwind and enjoy oneself to the fullest. Whether you're a food enthusiast, a partygoer, or someone seeking a dynamic social scene, Koramangala has it all.
+
+Living alone in Bangalore has brought forth a new set of responsibilities. I find myself cooking my own meals, taking care of laundry, and maintaining cleanliness in my house. Alongside these daily tasks, I must also manage my finances, paying bills and ensuring that I have enough left after covering rent, travel expenses, and food. Unfortunately, these costs often leave me with limited disposable income.
+
+The daily commute in Bangalore is nothing short of exhausting. The city's notorious traffic poses a constant challenge, especially since I have yet to acquire my own vehicle. Relying on ride-hailing services like Uber has become a necessary but often expensive part of my routine. As I strive to navigate the urban jungle, the commute takes a toll on my energy and adds an extra layer of stress to my daily life.
+
+Furthermore, the burden of household chores and managing finances leaves little time for other activities. In an attempt to alleviate some of these responsibilities, I am in the process of seeking a maid and a cook. Finding individuals who provide their services at reasonable prices is a priority, as it would help alleviate some of the workload and allow me to focus on other aspects of my life.
+
+However, amidst the undeniable vibrancy and opportunities that Bangalore offers, there is no denying the inherent challenges it presents. The dense population and the constant hum of activity can be overwhelming, often leaving one yearning for moments of tranquillity amidst the chaos.
+
+Yet, despite the hardships, Bangalore is a city that continues to captivate and inspire. Its diversity and cosmopolitan nature allow for a vibrant fusion of cultures, traditions, and ideas. It offers a plethora of opportunities for personal and professional growth, fostering an environment where dreams can be pursued and ambitions can be realized.
+
+While surviving in this urban jungle may require resilience and adaptability, it is precisely the challenges and the dynamic nature of Bangalore that make it an intriguing and captivating place to call home. The journey of navigating through its busy streets, forging new connections, and immersing oneself in the tapestry of experiences that this city has to offer is a testament to the indomitable spirit of those who choose to embrace its urban allure. Bangalore may be a whirlwind of activity, but I am hopeful that with time, I will carve out a niche for myself and discover the hidden gems this city has to offer.

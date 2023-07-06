@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Jun 2023 11:23:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Jul 2023 08:08:40 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -217,7 +217,7 @@ However the world today is in a frenzy to use it in all the places where it does
             <link>https://anubhavp.dev/blog/lifeinametro.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/lifeinametro.html</guid>
             <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
-            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
             <content:encoded>
     &lt;div&gt;
         &lt;div class=&quot;f6&quot;&gt;
@@ -244,12 +244,19 @@ However the world today is in a frenzy to use it in all the places where it does
             &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
                 &lt;ul class=&quot;ph0&quot; style=&quot;list-style: none;&quot;&gt;
                     &lt;li class=&quot;pb3&quot;&gt;
-                        2023-06-07
+                        2023-07-01
                     &lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
-                    &lt;p&gt;Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare.&lt;/p&gt;
-&lt;p&gt;(To be continued)&lt;/p&gt;
+                    &lt;p&gt;Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare. The house rent in most of the communities makes you go bonkers. Surviving in this urban jungle is a challenge.&lt;/p&gt;
+&lt;p&gt;I moved to Bangalore in the month of June. My living schematics changed drastically. I used to wake up at any random time that I found suitable, always went out for breakfast and spent a ton of time with my friends. The routine of waking up punctually, heading to the office, toiling away until late hours, and returning home solely to sleep has become the new norm.&lt;/p&gt;
+&lt;p&gt;When I initially arrived in this city back in June, I found myself in a predicament. With no place to call my own, I lived temporarily with my cousin who resided in Electronic City. I picked up my luggage from the airport, and went to Electronic City. After spending a week there, I moved to a hostel called Zylo Stays in Koramangala. Drawn to its lively atmosphere and the promise of new connections, I eagerly settled into this temporary home, embracing the camaraderie of fellow inhabitants who shared a similar zest for exploration.&lt;/p&gt;
+&lt;p&gt;Living in the hostel was an experience filled with vibrant conversations, shared laughter, and a melting pot of diverse cultures and backgrounds. However, the reality of sharing a small and cramped room with three other people soon became apparent. Despite the hostel’s overall appeal, I faced a challenge with my roommates, who seemed unaware of personal boundaries. As someone who is sensitive to noise and a light sleeper, it became increasingly difficult for me to get a good night’s sleep when they would enter the room late at night, turn on the lights, make noise, and leave the door open. It was a struggle to find the rest and tranquility I needed amidst such disruptions. Consequently, my desire for a place where I could have privacy and create my own haven grew stronger.&lt;/p&gt;
+&lt;p&gt;I lived there for a month and got a place of my own thereafter. I got a place in Koramangala, the posh area of Bangalore. Koramangala boasts the highest rents in the city. It is also renowned as a thriving startup hub, attracting entrepreneurs and professionals from various industries.&lt;/p&gt;
+&lt;p&gt;Living in Koramangala has its perks, especially when it comes to social life. The area is teeming with a wide array of food joints, pubs, and restaurants, offering an abundance of options for dining and entertainment. Whether you’re in the mood for a casual night out with friends or a lively party, Koramangala has something for everyone. The vibrant atmosphere and bustling nightlife make it an ideal place to unwind and enjoy oneself to the fullest. Whether you’re a food enthusiast, a partygoer, or someone seeking a dynamic social scene, Koramangala has it all.&lt;/p&gt;
+&lt;p&gt;I cook my own food, wash my own clothes and clean my own house. I have to pay my own bills and manage my own finances.
+(To be continued)&lt;/p&gt;
+&lt;p&gt;Despite the challenges I face in adapting to this new environment, I remain resilient. I am determined to navigate through the urban jungle and find my place within it. Bangalore may be a whirlwind of activity, but I am hopeful that with time, I will carve out a niche for myself and discover the hidden gems this city has to offer.&lt;/p&gt;
 
                     &lt;hr&gt;
                     &lt;div class=&quot;footer&quot;&gt;
@@ -491,10 +498,8 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
                     &lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;div class=&quot;content custom&quot;&gt;
-                    &lt;p&gt;Introducing StackIt, the no-code automation tool that’s about to revolutionize your spreadsheet game! As you embark on your StackIt journey, get ready to unlock a world of seamless data importing like never before.&lt;/p&gt;
-&lt;p&gt;With StackIt, we’re on a mission to simplify and streamline the process of importing data from a wide array of aggregators and databases. Whether you’re rocking the subscription game with Chargebee, paving the way for e-commerce success with Stripe and Shopify, or diving deep into the data wonders of PostgreSQL and MySQL, StackIt has got your back.&lt;/p&gt;
-&lt;p&gt;Gone are the days of wrestling with complex SQL queries or feeling the pressure to hire data engineers or invest in expensive BI tools. StackIt swoops in to save the day, empowering you to automate the data-importing process into your beloved spreadsheets. Our no-code approach ensures that even the spreadsheet aficionados among us can effortlessly create connections with various data sources and import the data that truly matters.&lt;/p&gt;
-&lt;p&gt;Imagine the time and energy you’ll save by eliminating the need to hire Data Engineers. StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.&lt;/p&gt;
+                    &lt;p&gt;StackIt, the no-code automation tool is about to revolutionize your spreadsheet game. With StackIt, we’re on a mission to simplify and streamline the process of importing data from a wide array of aggregators and databases. Whether you’re rocking the subscription game with Chargebee, paving the way for e-commerce success with Stripe and Shopify, or diving deep into the data wonders of PostgreSQL and MySQL, StackIt has got your back.&lt;/p&gt;
+&lt;p&gt;StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/blog/stackit.tech.html&quot;&gt;Here is the Tech&lt;/a&gt; behind StackIt.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#automation&quot;&gt;Automation&lt;/a&gt;&lt;/li&gt;
