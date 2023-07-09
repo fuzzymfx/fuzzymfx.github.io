@@ -6,7 +6,7 @@ title: "current"
 
 --- **July** ---
 
-Settling down in Bangalore and looking forward to a new, competitive and exciting software engineering life here. Hope to succeed!
+[Settling down in Bangalore](/blog/lifeinametro.html) and looking forward to a new, competitive and exciting software engineering life here. Hope to succeed!
 
 I am still looking to write papers on String Theory and LLMs. Haven't gotten around to it yet.
 
