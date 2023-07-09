@@ -2,19 +2,19 @@
 author: Anubhab Patnaik
 title: 'zuzu: A Static Site Generator (SSG)'
 date: "2022-05-29"
-description: "Zuzu is a static site generator that converts all your markdown files into static htmls pages. It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets."
+description: "Zuzu is a static site generator that converts all your markdown files into static html pages. It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets."
 tags: ["project, markdown, javascript, html, css"]
 ShowBreadCrumbs: true 
 ---
-Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code!  
+Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code ;)
 
 - [How does it work?](#how-does-it-work)
-  * [1. Create a markdown file](#1-create-a-markdown-file)
-  * [2. Run the generator and find your blog](#2-run-the-generator-and-find-your-blog)
+  - [1. Create a markdown file](#1-create-a-markdown-file)
+  - [2. Run the generator and find your blog](#2-run-the-generator-and-find-your-blog)
 - [The Static Site Generator](#the-static-site-generator)
-  * [1. Libraries used](#1-libraries-used)
-  * [2. Workflow](#2-workflow)
-  * [3. Generator Code](#3-generator-code)
+  - [1. Libraries used](#1-libraries-used)
+  - [2. Workflow](#2-workflow)
+  - [3. Generator Code](#3-generator-code)
   
 ## How does it work?
 
@@ -85,8 +85,7 @@ Into an object like this:
     }
     }
 
- It then extracts the front matter and stores it in `data`. It then stores the content in `content` and returns the `filename` to the `main()` function. It then repeats the process for all the files in the directory. 
-
+ It then extracts the front matter and stores it in `data`. It then stores the content in `content` and returns the `filename` to the `main()` function. It then repeats the process for all the files in the directory.
 
 3. The `main()` function then takes in one `filename` at a time and then parses it through `markdownit( ,{markdownitanchor})`. `markdownit` parses the file and converts the markdown content into HTML files. It then creates an `html` file and writes the parsed content into it. It then saves the `html` file in the `docs` folder. This process repeats for all the files in the directory.
 
@@ -94,7 +93,7 @@ Into an object like this:
 
 ### 3. Generator Code
 
-This is version 1 of zuzu. The current version is version 3. The code for version 3 is in the [Github Repo](https://github.com/fuzzymfx/zuzu). This gives you a basic idea of how the generator works. 
+This is version 1 of zuzu. The current version is version 3. The code for version 3 is in the [Github Repo](https://github.com/fuzzymfx/zuzu). This gives you a basic idea of how the generator works.
 
 ```js
 

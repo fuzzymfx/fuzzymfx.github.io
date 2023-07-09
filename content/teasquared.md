@@ -50,18 +50,3 @@ Goodbye, SIT ❤️
 </figure>
 
 `190310030 Signing Off`
-
-<!-- ---
-
-Here are some glimpses of my journey over the past four-odd years:
-
-<figure class="skylab">
- <video controls style=" width: 50%; height: 50%; ">
- <source src="/assets/img/teasquared/siliconvibes.mp4" type="video/mp4">
- Your browser does not support the video tag.
- </video>
- <figcaption>
- Silicon Vibes
- </figcaption>
-</figure> -->
-  

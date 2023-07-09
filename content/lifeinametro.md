@@ -6,8 +6,22 @@ description: A futile attempt to survive in Bangalore's Urban Jungle
 tags: ["life", "metro", "bangalore"]
 ShowBreadCrumbs: true 
 ---
-
+<style>
+ .skylab {
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ }
+</style>
 Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare. The house rent in most of the communities makes you go bonkers. Surviving in this urban jungle is a challenge. Bangalore, often referred to as the "Valley" in India, attracts a diverse mix of people and cultures from all across the country who have migrated here to work and settle down.
+
+<!-- <figure class="skylab">
+<img alt='cbrtl' src ="/assets/img/lifeinametro/1.jpeg" class='h-50 w-50' >
+<figcaption>
+Indiranagar, Bangalore
+</figcaption>
+</figure> -->
 
 The city's nickname, aptly represents the amalgamation of individuals, families, and cultures that coexist within its boundaries. Bangalore serves as a vibrant hub, bringing together people from various regions of India, each contributing their own unique perspectives and traditions.
 
@@ -17,11 +31,25 @@ I moved to Bangalore in June, and my living schematics changed drastically. I us
 
 When I arrived in this city, I found myself in quite a predicament. Laden with three large suitcases, a backpack, a few small disposable bags, and with no place to call my own, I went to stay temporarily with my cousin who resided in Electronic City. EC is thirteen kilometres away from Koramangala, where my office is situated. However, the daily commute between the two areas proved to be a headache due to the notorious traffic. It took me approximately 40 minutes to an hour each day to reach Koramangala, taking into account the traffic schedule and office timings.
 
+<figure class="skylab">
+<img alt='zylo' src ="/assets/img/lifeinametro/3.jpeg" class='h-50 w-50' >
+<figcaption>
+Koramanagala 6th Block, Bangalore
+</figcaption>
+</figure>
+
 Considering the exhausting daily commute and the need to be closer to my workplace, I decided to pack up my bags. After spending a week there, I sought refuge at a hostel called Zylo Stays in Koramangala. Drawn to its lively atmosphere and the promise of new connections, I eagerly settled into this temporary home, embracing the camaraderie of fellow inhabitants who shared a similar zest for exploration.
 
 Living in the hostel was an experience filled with vibrant conversations and a melting pot of diverse cultures and backgrounds. However, the reality of sharing a small and cramped room with three other people soon became apparent. Despite the hostel's overall appeal, I faced a challenge with my roommates, who seemed unaware of personal boundaries. As someone sensitive to noise and a light sleeper, it became increasingly difficult for me to get a good night's sleep when they would enter the room late at night, turn on the lights, make noise, and leave the door open. It was a struggle to find the rest I needed amidst such disruptions. Consequently, my desire for a place where I could have privacy and create my own haven grew stronger. I lived there for a month and got a place of my own, in Koramangala, thereafter.
 
 Koramangala boasts the highest rents in the city. It is also renowned as a thriving startup hub, attracting entrepreneurs and professionals from various industries. Living in Koramangala has its perks, especially when it comes to social life. The area is teeming with a wide array of food joints, pubs, and restaurants, offering an abundance of options for dining and entertainment. Whether you're in the mood for a casual night out with friends or a lively party, Koramangala has something for everyone. The vibrant atmosphere and bustling nightlife make it an ideal place to unwind and enjoy oneself to the fullest.
+
+<figure class="skylab">
+<img alt='kora' src ="/assets/img/lifeinametro/2.jpeg" class='h-50 w-50' >
+<figcaption>
+Koramanagala, Bangalore
+</figcaption>
+</figure>
 
 Moving here has brought forth a new set of responsibilities. I find myself cooking my own meals, taking care of laundry, and maintaining cleanliness in my house. Alongside these daily tasks, I also manage my finances, paying bills and ensure that I have enough left after covering rent, travel expenses, and food. Unfortunately, these costs often leave me with limited disposable income.
 
@@ -34,3 +62,10 @@ Amidst the undeniable vibrancy and opportunities that Bangalore offers, there is
 Yet, despite the hardships, Bangalore is a city that continues to captivate and inspire. Its diversity and cosmopolitan nature allow for a vibrant fusion of cultures, traditions, and ideas. It offers a plethora of opportunities for personal and professional growth, fostering an environment where dreams can be pursued and ambitions can be realized.
 
 While surviving in this urban jungle may require resilience and adaptability, it is precisely the challenges and the dynamic nature of Bangalore that make it an intriguing and captivating place to call home. The journey of navigating through its busy streets, forging new connections, and immersing oneself in the tapestry of experiences that this city has to offer is a testament to the indomitable spirit of those who choose to embrace its urban allure. Bangalore may be a whirlwind of activity, but I am hopeful that with time, I will carve out a niche for myself and discover the hidden gems this city has to offer.
+
+<figure class="skylab">
+<img alt='home' src ="/assets/img/lifeinametro/4.jpeg" class='h-50 w-50' >
+<figcaption>
+Looking forward...
+</figcaption>
+</figure>
