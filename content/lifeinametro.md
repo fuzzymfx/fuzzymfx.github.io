@@ -23,13 +23,13 @@ Indiranagar, Bangalore
 </figcaption>
 </figure> -->
 
-The city's nickname, aptly represents the amalgamation of individuals, families, and cultures that coexist within its boundaries. Bangalore serves as a vibrant hub, bringing together people from various regions of India, each contributing their own unique perspectives and traditions.
+The city's nickname aptly represents the amalgamation of individuals, families, and cultures that coexist within its boundaries. Bangalore serves as a vibrant hub, bringing together people from various regions of India, each contributing their own unique perspectives and traditions.
 
 However, amidst the charm of diversity, Bangalore poses its own set of challenges. The fast-paced lifestyle and the sheer volume of inhabitants can be overwhelming. Finding affordable housing in desirable neighbourhoods can be a struggle, placing financial strain on many residents.
 
 I moved to Bangalore in June, and my living schematics changed drastically. I used to wake up at any time that I found suitable, mostly went out for breakfast, have fun at lunch and spent a ton of time with my friends. Now, the routine of waking up punctually, heading to the office, toiling away until late hours, and returning home solely to sleep has become the new norm.
 
-When I arrived in this city, I found myself in quite a predicament. Laden with three large suitcases, a backpack, a few small disposable bags, and with no place to call my own, I went to stay temporarily with my cousin who resided in Electronic City. EC is thirteen kilometres away from Koramangala, where my office is situated. However, the daily commute between the two areas proved to be a headache due to the notorious traffic. It took me approximately 40 minutes to an hour each day to reach Koramangala, taking into account the traffic schedule and office timings.
+When I arrived in this city, I found myself in quite a predicament. Laden with three large suitcases, and a backpack, a few small disposable bags, and with no place to call my own, I went to stay temporarily with my cousin who resided in Electronic City. EC is thirteen kilometres away from Koramangala, where my office is situated. However, the daily commute between the two areas proved to be a headache due to the notorious traffic. It took me approximately 40 minutes to an hour each day to reach Koramangala, taking into account the traffic schedule and office timings.
 
 <figure class="skylab">
 <img alt='zylo' src ="/assets/img/lifeinametro/3.jpeg" class='h-50 w-50' >
@@ -51,9 +51,9 @@ Koramanagala, Bangalore
 </figcaption>
 </figure>
 
-Moving here has brought forth a new set of responsibilities. I find myself cooking my own meals, taking care of laundry, and maintaining cleanliness in my house. Alongside these daily tasks, I also manage my finances, paying bills and ensure that I have enough left after covering rent, travel expenses, and food. Unfortunately, these costs often leave me with limited disposable income.
+Moving here has brought forth a new set of responsibilities. I find myself cooking my own meals, taking care of laundry, and maintaining cleanliness in my house. Alongside these daily tasks, I also manage my finances, pay bills and ensure that I have enough left after covering rent, travel expenses, and food. Unfortunately, these costs often leave me with limited disposable income.
 
-The daily commute in Bangalore is nothing short of exhausting. The city's notorious traffic poses a constant challenge, especially since I have yet to acquire my own vehicle. Relying on ride-hailing services like Uber, Namma-Yatri, Ola has become a necessary but often expensive part of my routine. As I strive to navigate the urban jungle, the commute takes a toll on my energy and adds an extra layer of stress to my daily life.
+The daily commute in Bangalore is nothing short of exhausting. The city's notorious traffic poses a constant challenge, especially since I have yet to acquire my own vehicle. Relying on ride-hailing services like Uber, Namma-Yatri, and Ola has become a necessary but often expensive part of my routine. As I strive to navigate the urban jungle, the commute takes a toll on my energy and adds an extra layer of stress to my daily life.
 
 Furthermore, the burden of household chores and managing finances leaves little time for other activities. In an attempt to alleviate some of these responsibilities, I am in the process of seeking a maid and a cook. Finding individuals who provide their services at reasonable prices is a priority, as it would allow me to focus on other aspects of my life.
 
