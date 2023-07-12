@@ -1,7 +1,7 @@
 ---
 author: Anubhab Patnaik
 title: "Bangalore Chronicles: The slave city"
-date: "2023-07-01"
+date: "2023-07-08"
 description: A futile attempt to survive in Bangalore's Urban Jungle
 tags: ["life", "metro", "bangalore"]
 ShowBreadCrumbs: true 
