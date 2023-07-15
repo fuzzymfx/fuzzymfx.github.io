@@ -29,7 +29,7 @@ However, amidst the charm of diversity, Bangalore poses its own set of challenge
 
 I moved to Bangalore in June, and my living schematics changed drastically. I used to wake up at any time that I found suitable, mostly went out for breakfast, have fun at lunch and spent a ton of time with my friends. Now, the routine of waking up punctually, heading to the office, toiling away until late hours, and returning home solely to sleep has become the new norm.
 
-When I arrived in this city, I found myself in quite a predicament. Laden with three large suitcases, and a backpack, a few small disposable bags, and with no place to call my own, I went to stay temporarily with my cousin who resided in Electronic City. EC is thirteen kilometres away from Koramangala, where my office is situated. However, the daily commute between the two areas proved to be a headache due to the notorious traffic. It took me approximately 40 minutes to an hour each day to reach Koramangala, taking into account the traffic schedule and office timings.
+When I arrived in this city, I found myself in quite a predicament. Laden with three large suitcases, and a backpack, a few small disposable bags, and with no place to call my own, I went to stay temporarily with my cousin who resided thirteen kilometers away from Koramangala, my office, in Electronic City. However, the daily commute between the two areas proved to be a headache due to the notorious traffic. It took me approximately 40 minutes to an hour each day to reach Koramangala, taking into account the traffic schedule and office timings.
 
 <figure class="skylab">
 <img alt='zylo' src ="/assets/img/lifeinametro/3.jpeg" class='h-50 w-50' >
