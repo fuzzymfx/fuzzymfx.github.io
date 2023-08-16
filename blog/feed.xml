@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Jul 2023 12:49:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Aug 2023 13:10:36 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -531,7 +531,6 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
                 &lt;div class=&quot;content custom&quot;&gt;
                     &lt;p&gt;StackIt, the no-code automation tool is about to revolutionize your spreadsheet game. With StackIt, we’re on a mission to simplify and streamline the process of importing data from a wide array of aggregators and databases. Whether you’re rocking the subscription game with Chargebee, paving the way for e-commerce success with Stripe and Shopify, or diving deep into the data wonders of PostgreSQL and MySQL, StackIt has got your back.&lt;/p&gt;
 &lt;p&gt;StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/blog/stackit.tech.html&quot;&gt;Here is the Tech&lt;/a&gt; behind StackIt.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#automation&quot;&gt;Automation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#integrations&quot;&gt;Integrations&lt;/a&gt;&lt;/li&gt;
