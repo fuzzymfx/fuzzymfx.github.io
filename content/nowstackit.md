@@ -9,8 +9,6 @@ StackIt, the no-code automation tool is about to revolutionize your spreadsheet 
 
 StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.
 
-[Here is the Tech](/blog/stackit.tech.html) behind StackIt.
-
 - [Automation](#automation)
 - [Integrations](#integrations)
 - [Data Vizualization - Sorting & Filters](#data-vizualization-sorting-filters)
