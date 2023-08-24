@@ -27,6 +27,16 @@ Books:
 - My Gita
 - The Hitchhiker's Guide to the Galaxy
 
+Shows:
+
+*A bit tired with all the foreign shows. Wanted to explore some Indian shows.*
+
+- Guns and Gulabs
+- Ozark
+- Class ( Wanted to see how terrible this show actually is)
+- Scoop
+- Made in Heaven
+
 Dev:
 
 - Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
