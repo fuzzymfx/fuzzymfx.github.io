@@ -16,6 +16,18 @@ Whilst I want to go back to my home, I also love the hustle and bustle of the ci
 
 I am still looking to write papers on String Theory and LLMs. Haven't gotten around to it yet.
 
+Dev:
+
+My current endeavours encompass a broad spectrum of technical challenges and innovations, ranging from plugin development and deployment optimization to AI-driven solutions that promise to transform the way we interact with data.
+
+Engaged with [StackIt](https://nowstackit.com), I am working with Google AppScript, React, and Nodejs to build the StackIt Plugin. Our primary focus is on seamlessly integrating a payment infrastructure into the plugin.
+
+Dealing with Google AppScript has proven somewhat challenging. The documentation is not that great and the community is not active. Meanwhile, within the cloud platform, our objective is to establish a clear demarcation between production, pre-production, and development environments for our plugin. We use Docker to create containers for each of these environments. Our current hurdle revolves around mapping multiple host ports to corresponding container ports, further complicated by our SSL certificate setup.
+
+To streamline the Node.js and Docker deployment process, I've been experimenting with bash scripts, aiming to automate these tasks efficiently. For the React Project, I've successfully established a Continuous Deployment (CD) pipeline, facilitating deployments into the Google AppScript environment through Clasp. All of this is being built leveraging Github Actions.
+
+While working on the AI vertical of StackIt, planning to invest time to understand the prompt engineering behind the entire infrastructure of Lookup AI.  Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
+
 Books:
 
 *Didn't get a lot of time the past month, thus trying to complete the backlogs.*
@@ -31,21 +43,11 @@ Shows:
 
 *A bit tired with all the foreign shows. Wanted to explore some Indian shows.*
 
-- Guns and Gulabs
+- ~~Guns and Gulabs~~
 - Ozark
-- Class ( Wanted to see how terrible this show actually is)
+- ~~Class ( Wanted to see how terrible this show actually is)~~
 - Scoop
-- Made in Heaven
-
-Dev:
-
-- Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
-
-Code:
-
-- LC200: [Siddhesh Sutar's 200 questions to crack Google](https://medium.com/@siddhism/how-i-prepared-for-google-0-leetcode-questions-to-200-questions-e37690ebce85)
-- Striver's [SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-- 450 DSA: [Love Babbar's DSA sheet](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
+- ~~Made in Heaven~~
 
 Older posts:
 
