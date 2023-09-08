@@ -16,13 +16,6 @@ ShowBreadCrumbs: true
 </style>
 Moving to Bangalore has been tough on me. The city is extremely busy and noisy. The traffic is a nightmare. The house rent in most of the communities makes you go bonkers. Surviving in this urban jungle is a challenge. Bangalore, often referred to as the "Valley" in India, attracts a diverse mix of people and cultures from all across the country who have migrated here to work and settle down.
 
-<!-- <figure class="skylab">
-<img alt='cbrtl' src ="/assets/img/lifeinametro/1.jpeg" class='h-50 w-50' >
-<figcaption>
-Indiranagar, Bangalore
-</figcaption>
-</figure> -->
-
 The city's nickname aptly represents the amalgamation of individuals, families, and cultures that coexist within its boundaries. Bangalore serves as a vibrant hub, bringing together people from various regions of India, each contributing their own unique perspectives and traditions.
 
 However, amidst the charm of diversity, Bangalore poses its own set of challenges. The fast-paced lifestyle and the sheer volume of inhabitants can be overwhelming. Finding affordable housing in desirable neighbourhoods can be a struggle, placing financial strain on many residents.
@@ -51,7 +44,7 @@ Koramanagala, Bangalore
 </figcaption>
 </figure>
 
-Moving here has brought forth a new set of responsibilities. I find myself cooking my own meals, taking care of laundry, and maintaining cleanliness in my house. Alongside these daily tasks, I also manage my finances, pay bills and ensure that I have enough left after covering rent, travel expenses, and food. Unfortunately, these costs often leave me with limited disposable income.
+Banglore speaks money. Everywhere I go, I find myself deciding to earn more and more money possible. Moving here has brought forth a new set of responsibilities. I find myself cooking my own meals, taking care of laundry, and maintaining cleanliness in my house. Alongside these daily tasks, I also manage my finances, pay bills and ensure that I have enough left after covering rent, travel expenses, and food. Unfortunately, these costs often leave me with limited disposable income.
 
 The daily commute in Bangalore is nothing short of exhausting. The city's notorious traffic poses a constant challenge, especially since I have yet to acquire my own vehicle. Relying on ride-hailing services like Uber, Namma-Yatri, and Ola has become a necessary but often expensive part of my routine. As I strive to navigate the urban jungle, the commute takes a toll on my energy and adds an extra layer of stress to my daily life.
 
