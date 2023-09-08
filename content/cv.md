@@ -14,20 +14,20 @@ title: "cv - Anubhab Patnaik"
 
 ### Work Experience
 
-- **Full-stack Software Engineer Intern** - *StackIt* Current - [🔗](https://nowstackit.com)
+- **Founding Engineer/SDE-1** - *StackIt* Current - [🔗](https://nowstackit.com)
   - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
   - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
   - Creating mulitple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
-- **Full-stack Software Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
+- **Full-stack Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
   - Building a custom PDF viewer using Firebase SDk. Used Cloud Firestore as the database.
-- **Software Developer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
+- **Full Stack Engineer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
   - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
   - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the need of existing users on the older blockchain.
-- **Freelance Software Developer** - *Afixi Technologies* 2022 - [🔗]()
+- **Freelance Software Developer** - *Afixi Technologies* 2022 - [🔗](https://drive.google.com/file/d/1rWImLNao3abkQF313Jb8gT5Ybq8aNQeA/view?usp=sharing)
   - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a Python script to automate the uploading of music from the producer’s S3 bucket & automated the uploading of music on YouTube.
 - **MLOps** & **React Internship** - *Ebibil Technologies* 2021 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
   - Collaborated on the Django web app to integrate with ML models for a smart parking system.
