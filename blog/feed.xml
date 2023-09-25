@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 10 Sep 2023 07:31:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Sep 2023 13:01:33 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -474,98 +474,6 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;h3 id=&quot;improving-the-current-infrastructure&quot; tabindex=&quot;-1&quot;&gt;Improving the current infrastructure&lt;/h3&gt;
 &lt;p&gt;The approaches may be justified once some of the important issues are addressed. Other than the mentioned problems, a lot of other factors need to make sense in order to improve and make the platform more a feasible good product to be sold. The product being built is excellent, no doubt. The deep learning models in the ACB mechanism, the tech being used, the next generation Polkadot blockchains which are much, much faster (1000 transactions per second as compared to 7-10 transactions in traditional blockchain networks) and allow a huge no. of queries in a much faster time, the faster and more efficient transaction mechanisms, interoperability, the economic scalability, user-driven governance, the forkless upgrades, and the claimed security and transparency, are a step in the right direction, but there are grave issues those still need to be addressed before the product is introduced and launched.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ref: &lt;a href=&quot;https://sovereignwallet-network.github.io/whitepaper/MetaMUI-Blockchain-White-Paper.pdf&quot;&gt;Whitepaper&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-                    &lt;hr&gt;
-                    &lt;div class=&quot;footer&quot;&gt;
-                        Suggestions or corrections? &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/section&gt;
-        &lt;/div&gt;
-
-
-&lt;/div&gt;</content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[StackIt: Spreadsheet Automation on Steroids | Anubhab's blogs ]]></title>
-            <description><![CDATA[The best B2B SaaS tools for your venture]]></description>
-            <link>https://anubhavp.dev/blog/nowstackit.html</link>
-            <guid isPermaLink="true">https://anubhavp.dev/blog/nowstackit.html</guid>
-            <dc:creator><![CDATA[<!-- AUTHOR -->]]></dc:creator>
-            <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
-            <content:encoded>
-    &lt;div&gt;
-        &lt;div class=&quot;f6&quot;&gt;
-            &lt;header id=&quot;header&quot; class=&quot;measure-wide center mt6 mb4&quot;&gt;
-                &lt;nav&gt;
-                    &lt;div class=&quot;mb2 dib&quot;&gt;
-                        &lt;a href=&quot;/blog&quot; title=&quot;blog&quot; class=&quot;gray link active&quot;&gt;blog&lt;/a&gt; .
-                        &lt;a href=&quot;/&quot; title=&quot;about&quot; class=&quot;gray link &quot;&gt;anubhab&lt;/a&gt;
-                    &lt;/div&gt;
-                    &lt;div&gt;&lt;a href=&quot;/blog/feed.xml&quot; title=&quot;anubhab&quot; class=&quot;rss gray link&quot;&gt;/rss&lt;/a&gt;&lt;/div&gt;
-                &lt;/nav&gt;
-                &lt;h2 class=&quot;f2 lh-title mb2 mt-2&quot;&gt;
-                    StackIt: Spreadsheet Automation on Steroids
-                &lt;/h2&gt;
-                &lt;div&gt;
-                    &lt;p&gt;
-                        The best B2B SaaS tools for your venture
-                    &lt;/p&gt;
-                &lt;/div&gt;
-                &lt;h4 class=&quot;f4 lh-title gray&quot;&gt;
-                    &lt;!-- AUTHOR --&gt;
-                &lt;/h4&gt;
-            &lt;/header&gt;
-            &lt;section id=&quot;main&quot; class=&quot;page-post gray mb6 lh-copy&quot;&gt;
-                &lt;ul class=&quot;ph0&quot; style=&quot;list-style: none;&quot;&gt;
-                    &lt;li class=&quot;pb3&quot;&gt;
-                        2023-06-11
-                    &lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;div class=&quot;content custom&quot;&gt;
-                    &lt;p&gt;StackIt, the no-code automation tool is about to revolutionize your spreadsheet game. With StackIt, we’re on a mission to simplify and streamline the process of importing data from a wide array of aggregators and databases. Whether you’re rocking the subscription game with Chargebee, paving the way for e-commerce success with Stripe and Shopify, or diving deep into the data wonders of PostgreSQL and MySQL, StackIt has got your back.&lt;/p&gt;
-&lt;p&gt;StackIt takes care of the technical complexities so that you can focus on what you do best; analyzing, visualizing, and extracting insights from your data without breaking a sweat.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#automation&quot;&gt;Automation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#integrations&quot;&gt;Integrations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#data-vizualization-sorting-filters&quot;&gt;Data Vizualization - Sorting &amp;amp; Filters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#natural-language-query-coming-soon&quot;&gt;NLQ (&lt;em&gt;Coming Soon&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#joins-coming-soon&quot;&gt;Joins (&lt;em&gt;Coming Soon&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#whats-next&quot;&gt;What’s next?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;automation&quot; tabindex=&quot;-1&quot;&gt;Automation&lt;/h3&gt;
-&lt;p&gt;Say hello to our automation feature that lets you sit back, relax, and watch the magic happen! With StackIt, you can automate the import of data from your trusted data sources straight into your Google Sheets. We’re all about saving you time and effort, so we give you the power to set up &lt;code&gt;schedules&lt;/code&gt; that fit your data-importing groove. Want to import data &lt;code&gt;daily&lt;/code&gt; to keep your Sheets up-to-date? No problemo! Need it &lt;code&gt;hourly&lt;/code&gt; to satisfy your data-hungry soul? We’ve got you covered! Or perhaps a &lt;code&gt;weekly&lt;/code&gt; import is more your style? You got it!&lt;/p&gt;
-&lt;p&gt;StackIt also allows you to set up &lt;code&gt;alerts&lt;/code&gt; to notify you when a specific event occurs, like a new customer being added to your database. It’s like having your own data detective on the case, making sure you never miss a beat.&lt;/p&gt;
-&lt;h3 id=&quot;integrations&quot; tabindex=&quot;-1&quot;&gt;Integrations&lt;/h3&gt;
-&lt;p&gt;StackIt is the ultimate data source whisperer! We’ve got a growing list of data sources that we play nice with, and we’re always expanding our repertoire. Currently, we’re bosom buddies with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chargebee: The cool kid on the subscription block.&lt;/li&gt;
-&lt;li&gt;PostgreSQL: The reliable friend who knows their way around databases.&lt;/li&gt;
-&lt;li&gt;Hubspot: The marketing guru who knows how to get your brand out there.&lt;/li&gt;
-&lt;li&gt;Stripe (Coming Soon): Get ready to stripe up your data importing game!&lt;/li&gt;
-&lt;li&gt;MySQL (Coming Soon): The classic and beloved database friend, soon to join the StackIt party.&lt;/li&gt;
-&lt;li&gt;Razorpay (Coming Soon): Prepare for a payment gateway dance-off with our upcoming integration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Connecting to these data sources is a breeze. Just whip out your credentials, let us know which source you fancy, and StackIt will work its magic. We take care of the nitty-gritty, so you can focus on the exciting part: getting your data imported hassle-free.&lt;/p&gt;
-&lt;h3 id=&quot;data-vizualization-sorting-filters&quot; tabindex=&quot;-1&quot;&gt;Data Vizualization - Sorting &amp;amp; Filters&lt;/h3&gt;
-&lt;p&gt;StackIt believes in giving you the power to be a data ninja, slicing and dicing your way to data greatness! With our awesome filtering features, you can wave your virtual wand and import only the data that truly matters to you.&lt;/p&gt;
-&lt;p&gt;Before you even hit that “import” button, StackIt treats you to a sneak peek of your data in the &lt;code&gt;preview section&lt;/code&gt;. It’s like taking a peek into a treasure chest before deciding which gems to bring into your Google Sheets. In this preview section, you can &lt;code&gt;sort&lt;/code&gt; and &lt;code&gt;filter&lt;/code&gt; your data to your heart’s content.&lt;/p&gt;
-&lt;p&gt;We’ve got a filter arsenal that would make a coffee connoisseur proud. Need to import data only from customers who have subscribed to your service? No problemo! Just unleash the mighty &lt;code&gt;subscription_status&lt;/code&gt; filter, and voila! The non-subscribers vanish, and you’re left with the cream of the crop.&lt;/p&gt;
-&lt;h3 id=&quot;natural-language-query-coming-soon&quot; tabindex=&quot;-1&quot;&gt;Natural Language Query &lt;em&gt;(Coming Soon)&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;With StackIt, you don’t need to be fluent in “geek-speak” or SQL wizardry to get the answers you seek from your data. We’ve made it super easy and friendly by allowing you to query your data using natural language. StackIt, with our trusty sidekick, &lt;code&gt;LookupAi&lt;/code&gt;, employs the power of Natural Language Processing. That’s right, we’ve given StackIt a big brain that can understand your questions and provide you with the exact answers you need.&lt;/p&gt;
-&lt;p&gt;Imagine asking StackIt, “Hey, how many awesome customers have subscribed to my mind-blowing service?” StackIt will magically deliver the answer right to your fingertips. StackIt understands your questions, just like a helpful friend would! You can ask specific questions like, “How many customers have subscribed to my service in the last 30 days?” or get a broader overview with a question like, “Tell me the total count of super happy customers.”&lt;/p&gt;
-&lt;h3 id=&quot;joins-coming-soon&quot; tabindex=&quot;-1&quot;&gt;Joins &lt;em&gt;(Coming Soon)&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;StackIt is all about making your data-importing experience as smooth as possible. Our upcoming joins feature will allow you to seamlessly combine data from multiple sources into a single Google Sheet. It’s like having a data party, and everyone’s invited! Bring in data from Chargebee, PostgreSQL, Stripe, and more, and let them mingle and share their insights in one centralized space. No more flipping back and forth between different spreadsheets or struggling to manually merge data.&lt;/p&gt;
-&lt;h2 id=&quot;pricing&quot; tabindex=&quot;-1&quot;&gt;Pricing&lt;/h2&gt;
-&lt;p&gt;Let’s start with our generous &lt;strong&gt;free plan&lt;/strong&gt;. It’s perfect for those just getting started or with lighter data import requirements. With our free plan, you can import up to 1000 rows of data per month, connect with up to 3 data sources, and schedule your imports to run weekly. It’s a great way to dip your toes into the world of automated data importing, without spending a penny.&lt;/p&gt;
-&lt;p&gt;For those hungry for more power and capabilities, our paid plans are ready to supercharge your data game. Our &lt;strong&gt;basic plan&lt;/strong&gt;, priced at just &lt;code&gt;$30 per month&lt;/code&gt;, opens up a whole new level of possibilities. With this plan, you can import up to 200,000 rows of data per month, connect with up to 10 data sources, and schedule your imports to run at the frequency that suits your needs—whether it’s hourly, daily, or weekly. It’s the ideal plan for scaling up your data operations without breaking the bank.&lt;/p&gt;
-&lt;p&gt;But wait, there’s more! Our &lt;strong&gt;pro plan&lt;/strong&gt;, available at &lt;code&gt;$40 per month&lt;/code&gt;, takes data importing to the next level. With unlimited data importing, you can import as much data as your heart desires. Plus, you can connect with an unlimited number of data sources, ensuring you have all your data streams in one place. And just like the basic plan, you have the flexibility to schedule your imports to run hourly, daily, or weekly, so you stay in control of your data flow.&lt;/p&gt;
-&lt;p&gt;To make your decision even easier, we offer a &lt;code&gt;30-day free trial&lt;/code&gt; of our paid plans. That’s right—test out our premium features, experience the power of StackIt firsthand, and see how it revolutionizes your data importing. No commitments, no strings attached—just pure data-importing bliss.&lt;/p&gt;
-&lt;h2 id=&quot;whats-next&quot; tabindex=&quot;-1&quot;&gt;What’s next?&lt;/h2&gt;
-&lt;p&gt;We’re constantly adding new pals to our list, so stay tuned for more amazing integrations shortly. We’re determined to be the superhero of data importing, rescuing you from the clutches of complicated connections and saving you time and effort. So buckle up and get ready for the data-importing journey of a lifetime with StackIt. We’re here to empower you and revolutionize the way you work with data. Let’s make importing data into spreadsheets a breeze!&lt;/p&gt;
-&lt;p&gt;We’re passionate about creating a tool that truly meets your needs, so we encourage you to try out StackIt, explore its features, and let us know what else you’d like to see. Your feedback is invaluable as we continue to evolve and enhance our product. Consider supporting us by visiting our &lt;a href=&quot;https://www.linkedin.com/company/nowstackit/&quot;&gt;LinkedIn page&lt;/a&gt; and sharing your love for StackIt. We appreciate your support and are thrilled to have you as part of our community.&lt;/p&gt;
-&lt;p&gt;Remember, StackIt has got your back, and together, we’ll conquer the data universe, one source at a time.&lt;/p&gt;
 
                     &lt;hr&gt;
                     &lt;div class=&quot;footer&quot;&gt;

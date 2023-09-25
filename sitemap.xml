@@ -1,46 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://anubhavp.dev/blog/qtree.html/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://anubhavp.dev/blog/metamuiwallet.html/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://anubhavp.dev/blog/rust.html/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://anubhavp.dev/blog/zuzu.html/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://anubhavp.dev/blog/infeasibleWeb3.html/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://anubhavp.dev/blog/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://anubhavp.dev/</loc>
-    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
+  
+            <url>
+                <loc>https://anubhavp.dev/blog/infeasibleWeb3.html</loc>
+                <lastmod>2023-09-25T13:01:32.702Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/lifeinametro.html</loc>
+                <lastmod>2023-09-25T13:01:32.704Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/metamuiwallet.html</loc>
+                <lastmod>2023-09-25T13:01:32.707Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/profile.html</loc>
+                <lastmod>2023-09-25T13:01:32.707Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/qtree.html</loc>
+                <lastmod>2023-09-25T13:01:32.719Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/resoc.html</loc>
+                <lastmod>2023-09-25T13:01:32.720Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/rust.html</loc>
+                <lastmod>2023-09-25T13:01:32.730Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/stackit.tech.html</loc>
+                <lastmod>2023-09-25T13:01:32.732Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/teasquared.html</loc>
+                <lastmod>2023-09-25T13:01:32.733Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/unfollowall.html</loc>
+                <lastmod>2023-09-25T13:01:32.734Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
+
+            <url>
+                <loc>https://anubhavp.dev/blog/zuzu.html</loc>
+                <lastmod>2023-09-25T13:01:32.738Z</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            </url>
+        
 </urlset>
