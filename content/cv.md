@@ -20,6 +20,7 @@ title: "cv - Anubhab Patnaik"
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
   - Creating mulitple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
+  - Building natural language to SQL engines using LangChain, prompt engineering, GPT-3.5-turbo & GPT-4.
 - **Full-stack Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
   - Building a custom PDF viewer using Firebase SDk. Used Cloud Firestore as the database.
