@@ -37,6 +37,7 @@ async function generateXmls() {
     const blogFiles = await fs.readdir(directoryPath);
 
     for (let file of blogFiles) {
+      console.log(file);
       const filePath = path.join(directoryPath, file);
       if (path.extname(filePath) === ".html" && file !== "index.html") {
         const url = `https://anubhavp.dev/blog/${file}`;
@@ -44,16 +45,26 @@ async function generateXmls() {
 
         const dom = new JSDOM(html);
         const title = dom.window.document.querySelector("title").textContent;
-        const date = dom.window.document
-          .querySelector('meta[name="publish-date"]')
-          .getAttribute("content");
-        const author = dom.window.document
-          .querySelector('meta[name="author"]')
-          .getAttribute("content");
-        const description = dom.window.document
-          .querySelector('meta[name="description"]')
-          .getAttribute("content");
-        const body = dom.window.document.querySelector("body").innerHTML;
+
+        const dateElement = dom.window.document.querySelector(
+          'meta[name="publish-date"]'
+        );
+        const authorElement = dom.window.document.querySelector(
+          'meta[name="author"]'
+        );
+        const descriptionElement = dom.window.document.querySelector(
+          'meta[name="description"]'
+        );
+        const bodyElement = dom.window.document.querySelector("body");
+
+        const date = dateElement ? dateElement.getAttribute("content") : "";
+        const author = authorElement
+          ? authorElement.getAttribute("content")
+          : "";
+        const description = descriptionElement
+          ? descriptionElement.getAttribute("content")
+          : "";
+        const body = bodyElement ? bodyElement.innerHTML : "";
 
         const item = {
           title,
