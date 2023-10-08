@@ -30,21 +30,6 @@ const feed = new rss({
 });
 
 // Parse HTML files in directory
-const months = [
-  "index",
-  "january",
-  "february",
-  "march",
-  "april",
-  "may",
-  "june",
-  "july",
-  "august",
-  "september",
-  "october",
-  "november",
-  "december",
-];
 
 async function generateXmls() {
   try {
@@ -53,10 +38,7 @@ async function generateXmls() {
 
     for (let file of blogFiles) {
       const filePath = path.join(directoryPath, file);
-      if (
-        path.extname(filePath) === ".html" &&
-        !months.some((el) => filePath.includes(el))
-      ) {
+      if (path.extname(filePath) === ".html" && file !== "index.html") {
         const url = `https://anubhavp.dev/blog/${file}`;
         const html = await fs.readFile(filePath, "utf-8");
 
@@ -96,10 +78,7 @@ async function generateXmls() {
 
     for (let file of blogFiles) {
       const filePath = path.join(directoryPath, file);
-      if (
-        path.extname(filePath) === ".html" &&
-        !months.some((el) => filePath.includes(el))
-      ) {
+      if (path.extname(filePath) === ".html" && file !== "index.html") {
         const url = `https://anubhavp.dev/blog/${file}`;
         const stat = await fs.stat(filePath);
         const lastmod = new Date(stat.mtime).toISOString();
