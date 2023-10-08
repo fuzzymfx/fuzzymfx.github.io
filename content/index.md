@@ -7,7 +7,7 @@ Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, sc
 
 I work with whatever piques my interest. I used to dabble in ML and now work with web, mobile, and CMD applications. I am building an early-stage start-up [StackIt](https://nowstackit.com) as the founding engineer.
 
-Recently, I was working on a [bit-torrent client](https://github.com/fuzzymfx/b) to download files, in TypeScript, but got extremely busy with building StackIt. Meanwhile, I am exploring esoteric programming languages and looking into the brainfuck interpreter. I wanted to learn more about LÖVE & Lua to learn more about tactical FPS/ open-world games. This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using [zuzu](https://github.com/fuzzymfx/zuzu), a custom SSG. [Here's more on what I am up to](/current.html).
+Recently, I was working on a [bit-torrent client](https://github.com/fuzzymfx/b) to download files, in TypeScript, but got extremely busy with building StackIt. Meanwhile, I am exploring esoteric programming languages and looking into the brainfuck interpreter. I wanted to learn more about building tactical FPS/ open-world games. This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using [zuzu](https://github.com/fuzzymfx/zuzu), a custom SSG. [Here's more on what I am up to](/current.html).
 
 Besides, I love music, sci-fi, sitcoms, fantasy and thriller. I have recently started playing the guitar and have been reading the [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) by Liu Cixin. I love travelling and [photography](https://instagram.com/anubhavclicks), seminars on space exploration and tech.
 
