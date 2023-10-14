@@ -6,7 +6,7 @@ title: Anubhab's Blog
 
 <li class="flex justify-between pb3"><a href="./lifeinametro.html" class="link">The Slave City</a><span class="date gray">08-07-2023</span> </li>
 
-<li class="flex justify-between pb3"><a href="./april23.html" class="link">Update: June 2023</a><span class="date gray">08-04-2023</span> </li>
+<li class="flex justify-between pb3"><a href="./april23.html" class="link">Update: June 2023</a><span class="date gray">08-07-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./nowstackit.html" class="link">StackIt: Spreadsheet automation on steroids</a><span class="date gray">11-06-2023</span> </li>
 
