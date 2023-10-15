@@ -37,7 +37,6 @@ async function generateXmls() {
     const blogFiles = await fs.readdir(directoryPath);
 
     for (let file of blogFiles) {
-      console.log(file);
       const filePath = path.join(directoryPath, file);
       if (path.extname(filePath) === ".html" && file !== "index.html") {
         const url = `https://anubhavp.dev/blog/${file}`;
