@@ -121,6 +121,8 @@ const main = () => {
   );
   const filenames = glob.sync(srcPath + "/**/*.md");
 
+  const expiredFiles = ["profile"];
+
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir);
 
@@ -149,7 +151,8 @@ const main = () => {
       processIndexFile(filename, currenttemplate, indexoutPath);
     else if (months.some((el) => filename.includes(el)))
       processBlogFile(filename, currenttemplate, outPath);
-    else processBlogFile(filename, blogtemplate, outPath);
+    else if (!expiredFiles.some((el) => filename.includes(el)))
+      processBlogFile(filename, blogtemplate, outPath);
   });
 };
 
