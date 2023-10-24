@@ -200,6 +200,16 @@ blockquote {
 	font-style: italic;
 }
 
+.custom-tags {
+	color: #777 !important;
+	font-family: Inconsolata, monospace !important;
+	border-radius: 2px;
+	padding: .2rem .3rem;
+	background-color: var(--lightgray);
+	font-size: .875em;
+	word-wrap: break-word;
+}
+
 @media only screen and (max-width: 768px) {
 	html {
 		margin-left: 1rem;
