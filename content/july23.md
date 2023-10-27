@@ -51,11 +51,6 @@ Shows:
 
 - ~~Guns and Gulabs~~
 - ~~Made in Heaven~~
-- Scoop
-- Black Mirror (*rewatch*)
-- Silicon Valley (*rewatch*)
-- Tom Clancy's Jack Ryan
-- Ozark
 
 Older posts:
 

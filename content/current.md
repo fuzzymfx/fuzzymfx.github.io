@@ -38,6 +38,42 @@ Coming back home, I met my parents, Swayam and Khusi. Khusi had flown in from Du
 
 --- **Marhaba, Dubai** ---
 
+Dubai proved to be a surreal experience, marking my first international trip outside of India. As I boarded the flight, the first thing that caught my attention was the extended flight time. Our journey spanned 4 hours and 15 minutes from Bhubaneswar to Dubai International Airport.
+
+Initially, I grappled with homesickness and longed to go back to Bangalore. However, after a few days, I gradually acclimated to the city, and my initial reservations gave way to enjoyment. I was amazed by cleanliness of the city. The roads were clean, and the people were disciplined. The architecture was magnificent. Dubai is a giant city inside a desert. The city is filled with skyscrapers, and the roads are wide. Moreover, the diversity of its population was striking, with people hailing from all corners of the globe, making Dubai a true global metropolis.
+
+**To be continued...**
+
+Dev:
+
+At StackIt, we have decided to have a demo pitched each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
+
+Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a command-line bit-torrent client to download torrents written in Rust. I am planning to rewrite the entire codebase in Rust. Currently, I am writing in TypeScript.
+
+Research:
+
+I am diving deeper into the world of AI, prompt engineering and fine-tuning LLMs to convert natural language to SQL queries. The need for this arose when we built an NL2SQL generator at StackIt, and it proved not to be entirely successful. The model was not able to generate SQL queries for complex questions. Thus, I am trying to understand the prompt engineering behind the entire infrastructure of Lookup AI. Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
+
+Books:
+
+*I promise to read books this time :P*
+
+- Remembrance of Earth's Past: The Trilogy
+	- ~~The three body problem~~
+	- The dark forest
+	- Death's end
+
+Shows:
+
+- Kaala Paani
+- One Piece
+- Atypical
+- Scoop
+- Black Mirror (*rewatch*)
+- Silicon Valley (*rewatch*)
+- The Mentalist (*rewatch*)
+- Tom Clancy's Jack Ryan
+- Ozark
 
 Older posts:
 
