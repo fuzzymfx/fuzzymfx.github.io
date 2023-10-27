@@ -56,7 +56,7 @@ Lately, I've been working on a custom bit-torrent client to download files and m
 
 Meanwhile, I am also exploring esoteric programming languages and will work on a brainfuck interpreter.
 
-With a few days left in Bhubaneswar, I decided to gift [Smruti](https://smrutidash.com) a domain( smrutidash.com ) and build her portfolio website that she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website built using HTML, Locomotive Scroll, gsap, and SCSS.
+With a few days left in Bhubaneswar, I decided to gift [Khusi](https://smrutidash.com) a domain( smrutidash.com ) and build her portfolio website that she had been trying to build for a couple of months now. I got the domain from Porkbun and looked for open-source portfolios until I stumbled upon [this one](https://seyi.dev/); a simple portfolio website built using HTML, Locomotive Scroll, gsap, and SCSS.
 
 Dev:
 
@@ -75,7 +75,7 @@ Dev:
   - Research LÖVE & Lua
 - Research: [Brainfuck Interpreter](https://en.wikipedia.org/wiki/Brainfuck)
 - ~~[Portfolio Website](https://smrutidash.com)~~
-  - ~~Get Smruti a domain (smrutidash.com)~~
+  - ~~Get Khusi a domain (smrutidash.com)~~
   - ~~Search for open-source portfolios with interactive and animated CSS with a lot of design specifications~~
   - ~~Fork the site and edit it.~~
 
