@@ -99,9 +99,11 @@ Apartment
 </figure>
 </div>
 
-Khusi and I visited the Mall of Emirates. We roamed around the place, realizing that we were too poor to be looking at any of the retail outlets XD. We explored various shops, eateries and fancy dessert shops. I bought her a cap and a pillow. We got groceries for the week.
+Khusi and I visited the Mall of Emirates. We roamed around the place, realizing that we were too poor to be looking at any of the retail outlets XD. We explored various shops, eateries and fancy dessert shops. I bought her a cap and a pillow. We got groceries for the week. 
 
-The following day, our adventure led us to the iconic Dubai Mall, along with a visit to the Burj Khalifa. I had to get an Apple watch for a junior colleague of mine. We roamed around in the streets, exploring Dubai until late at night.
+Khusi introduced me to the places nearby. I decided to get a haircut done, and made friends with the barber who belonged from Kerala. He told me about his life in Dubai and how he was planning to go back to Kerala. I told him about my life in Bangalore. We both chatted about regional languages and I paid him 40 AED for the haircut. He turned to be a movie buff and asked if I had watched *Leo* yet. Leo stars *Vijay*, his favourite actor and I promised him that I would watch it.
+
+The following day, our adventure led us to the iconic Dubai Mall, along with a visit to the Burj Khalifa. I had to get an Apple watch for a junior colleague of mine. We explored eateries and had dinner in the mall. I visited the Apple Store and urged Khusi to get me something but she refused. After a ton of shopping, we went out and roamed around in the streets, exploring Dubai until late at night. I realized that Dubai is a city that never sleeps, and somehow all the cab drivers here are either from India or Pakistan. The streets were bustling with people, and the city was alive with activity. We had dinner at a restaurant and then went back to our apartment. 
 
 <figure class="dubai">
 <img alt= 'burjkhalifa'  src ="/assets/img/oct/burj-khalifa.jpeg" class="h-75 w-50">
@@ -111,11 +113,11 @@ The following day, our adventure led us to the iconic Dubai Mall, along with a v
 </figcaption>
 </figure>
 
-Over the next few days, we explored Bur Dubai with our friends, often referred to as the "Little India" in Dubai, known for its extensive collection of electronic shops. We also visited a gold market in Dubai, because gold is cheaper in Dubai than in India. I bought *Marshall Kilburn II*: an amazing speaker. The five of us went ahead and had dinner beside a lake, where we reminisced about our college days and then explored a chocolate shop to get souvenirs for our friends in India.
+Over the next few days, we explored Bur Dubai with our friends, often referred to as the "Little India" in Dubai, known for its extensive collection of electronic shops. We also visited a gold market in Dubai, because gold is cheaper in Dubai than in India. We immediately brought out our inner Indian, put on a bright face, ready to bargain for the product to death. I bought *Marshall Kilburn II*: an amazing speaker. The five of us went ahead and had dinner beside a lake, where we reminisced about our college days and then explored a chocolate shop to get souvenirs for our friends in India.
 
-After six days of extensive exploration, we decided to take a breather on a Saturday morning and went swimming in the apartment's swimming pool with our friends. That evening, we set out to visit the Palm Jumeirah, an opulent and magnificent hotel in Dubai known for its attractive theme parks and immersive experiences. We had dinner there and witnessed a live band perform. We then went ahead to explore an Indian Pub, *Havelli*. It was loud and typical. Havelli reminded me of home and we had our dinner there.
+After six days of extensive exploration, we decided to take a breather on a Saturday morning and went swimming in the apartment's swimming pool with our friends. That evening, we set out to visit the Palm Jumeirah, an opulent and magnificent hotel in Dubai known for its attractive theme parks and immersive experiences. We had dinner there and witnessed a live band perform. We then went ahead to explore an Indian Pub, *Havelli*. It was loud and typical. Havelli reminded me of home and we had our dinner there. Khusi danced and made friends with strangers. Our card bills soared high, and we decided to head back to our apartment.
 
-My scheduled departure back to India was set for Sunday, the 22nd. On that morning, we made our way to Kite Beach. I was in awe at how clean the beaches were. Having lived my life in Bhubaneswar, close to Puri, an iconic beach in India, I couldn't believe how amazing this place was as compared to Puri, where tourists have made it a dustbin of all sorts. 
+My scheduled departure back to India was set for Sunday, the 22nd. On that morning, we made our way to Kite Beach. I was in awe at how clean the beaches were. Having lived my life in Bhubaneswar, close to Puri, an iconic beach in India, I couldn't believe how amazing this place was as compared to Puri, where tourists have made it a dustbin of all sorts. We had breakfast at a cafe and then went ahead to explore the beach. The beach was filled with people wearing fancy clothes, and the place was filled with people from all over the world.
 
 <figure class="dubai">
 <img alt= 'beach'  src ="/assets/img/oct/beach-2.jpeg" class="h-75 w-75">
@@ -126,7 +128,7 @@ Kite Beach
 </figcaption>
 </figure>
 
-Before bidding adieu to this captivating city, we indulged in ice cream and mocktails, chatted a lot about how things were going on in our lives, and bought *Oud* perfumes and left for the airport. With fond memories in our hearts, we made our way to the airport for my return journey to India.
+Before bidding adieu to this captivating city, we indulged in ice cream and mocktails, chatted a lot about how things were going on in our lives. We roamed in the beach, scouting for hats and subglasses and bought *Oud* perfumes. While our feet sank into the soft sand, we delved into discussions about life in different countries, and argued about which is better. We knew in our hearts that all we want is to reside in the same place. With fond memories in our hearts, perhaps some flaky promises and a heavy heart, we made our way to the airport embarking on my return journey to India.
 
 
 ---
