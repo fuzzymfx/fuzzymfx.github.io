@@ -3,16 +3,16 @@ title: Anubhab's Blog
 ---
 <span class="custom-tags">#life</span>
 
-<li class="flex justify-between pb3"><a href="./july23.html" class="link">Update: September 2023</a><span class="date gray">30-09-2023</span> </li>
+<li class="flex justify-between pb3"><a href="./july23.html" class="link">Update: June 2023</a><span class="date gray">30-09-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./lifeinametro.html" class="link">The Slave City</a><span class="date gray">08-07-2023</span> </li>
 
-<li class="flex justify-between pb3"><a href="./april23.html" class="link">Update: June 2023</a><span class="date gray">08-07-2023</span> </li>
+<li class="flex justify-between pb3"><a href="./april23.html" class="link">Update: April 2023</a><span class="date gray">08-07-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./teasquared.html" class="link">Teasquared: Adieu, Siliconites</a><span class="date gray">15-05-2023</span> </li>
 
 
-<li class="flex justify-between pb3"><a href="./january23.html" class="link">Update: March 2023</a><span class="date gray">08-04-2023</span> </li>
+<li class="flex justify-between pb3"><a href="./january23.html" class="link">Update: January 2023</a><span class="date gray">08-04-2023</span> </li>
 
 
 <br>
