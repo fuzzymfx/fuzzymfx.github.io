@@ -24,7 +24,7 @@ October began with a bang. I had a lot of trips planned out. Khusi had just come
 I left from BLR to DEL via train and stayed with Mukul's sister for a day. Despite our tight schedule, we managed to explore, *Purani Dilli* for a day before Haridwar. Our day was filled with visits to iconic landmarks, including the magnificent Jama Masjid and the historic Red Fort. And obviously, we explored the amazing culinary places that I had bookmarked earlier and had multiple feasts there. 
 
 <figure class="dubai">
-<img alt= 'puranidilli'  src ="/assets/img/oct/purani-dilli.jpeg" class="h-50 w-50">
+<img alt= 'puranidilli'  src ="/assets/img/oct/purani-dilli.jpeg" class="h-75 w-575">
 <figcaption>
 <a href="https://www.instagram.com/p/CytDfh0PFAw/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"
 >Purani Dilli</a>
@@ -59,7 +59,7 @@ The following day, we embarked on our journey to Haridwar, which took us 6 hours
 After reaching Haridwar, we stowed our belongings in a room booked by Hemant. That evening, we roamed the enchanting streets, particularly around the ghats. It was a magical experience. As we explored the bustling markets of Haridwar, we indulged in a variety of food, finally catering to our appetites after being starved for 3 days. Hritik decided to bathe in the *Holy Ganga* and I joined him and dipped my feet in the sacred water. We also visited several temples, walking down memory lane, and reminiscing about our childhood days. We explored old paintings on the walls, discussing mythology and the stories behind them. We visited the *Har ki Pauri* ghat, where we witnessed the *Ganga Aarti*. The entire experience was surreal.
 
 <figure class="dubai">
-<img alt= 'ghat'  src ="/assets/img/oct/ghat.jpeg" class="h-50 w-50">
+<img alt= 'ghat'  src ="/assets/img/oct/ghat.jpeg" class="h-75 w-75">
 <figcaption>
 <a href="https://www.instagram.com/p/CytDNnKvQfr/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
 Ganga Ghat
@@ -135,7 +135,7 @@ Before bidding adieu to this captivating city, we indulged in ice cream and mock
 
 Dev:
 
-At StackIt, we have decided to have a demo pitched each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
+At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
 
 Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a command-line bit-torrent client to download torrents written in Rust. I am planning to rewrite the entire codebase in Rust. Currently, I am writing in TypeScript.
 
