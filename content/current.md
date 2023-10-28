@@ -21,7 +21,7 @@ October began with a bang. I had a lot of trips planned out. Khusi had just come
 
 --- **A trek to Kedarnath** ---
 
-I left from BLR to DEL via train and stayed with Mukul's sister for a day. Despite our tight schedule, we managed to explore, *Purani Dilli* for a day before Haridwar. Our day was filled with visits to iconic landmarks, including the magnificent Jama Masjid and the historic Red Fort. And obviously, we explored the amazing culinary places that I had bookmarked earlier and had multiple feasts there. 
+I left from BLR to DEL via train and stayed with Mukul's sister for a day. Despite our tight schedule we managed to explore *Purani Dilli* for a day before Haridwar. Our day was filled with visits to iconic landmarks, including the magnificent Jama Masjid and the historic Red Fort. And obviously, we explored the amazing culinary places that I had bookmarked earlier and had multiple feasts there.
 
 <figure class="dubai">
 <img alt= 'puranidilli'  src ="/assets/img/oct/purani-dilli.jpeg" class="h-75 w-75">
@@ -31,9 +31,9 @@ I left from BLR to DEL via train and stayed with Mukul's sister for a day. Despi
 </figcaption>
 </figure>
 
-We left for Haridwar at midnight and reached there at the break of dawn, around 4 in the morning. We scoured for cabs and found a cheap one right in front of the railway station, and went straight to Sonprayag. En route to our destination, we had the privilege of visiting numerous river confluences, each referred to as a "Prayag." The *Ganges* is formed at a place called *Devprayag*. From Sonprayag, we went to Gaurikund, the starting point of the trek to Kedarnath. It took us 12 odd hours to reach Gaurikund and we were exhausted. Sensibly, we decided to rest and begin the trek the next day. 
+We left for Haridwar at midnight and reached there at the break of dawn, around 4 in the morning. We scoured for cabs and found a cheap one right in front of the railway station, and went straight to Sonprayag. En route to our destination, we had the privilege of visiting numerous river confluences, each referred to as a "Prayag." The *Ganges* is formed at a place called *Devprayag*. From Sonprayag, we went to Gaurikund, the starting point of the trek to Kedarnath. During the journey, we discussed about our lives and how we had changed over the years. We talked about what each of us plans to do in the future, and how our lives had changed since we had graduated from high school. It took us 12 odd hours to reach Gaurikund and we were exhausted. Sensibly, we decided to rest and begin the trek the next day. 
 
-Woke up early the next day, freshened up, and prepared for the trek. Hemant and Mukul, exuding enthusiasm, pretty excited and looking all tough, shouldered their backpacks and set out for the trek's starting point. I was a bit sceptical of my skills. I pretty much knew I wouldn't be able to complete the entire trek. The 22-kilometer, steep journey seemed daunting. Hritik freshened up as well, and we all went ahead to start the trek. Mukul and Hemant were ahead of us. They didn't wait for me as I was slowing down everyone. Hritik walked with me and tried to push me to cover as much as I could and not take frequent breaks. Carrying a few extra kilos, I found it extremely cumbersome to trek. I had to pause every 100-200 meters, mustering every ounce of courage and strength to continue.
+Woke up early the next day, freshened up, and prepared for the trek. Hemant and Mukul, exuding enthusiasm, pretty excited and looking all tough, shouldered their backpacks and set out for the trek's starting point. I was a bit sceptical of my skills. I pretty much knew I wouldn't be able to complete the entire trek on foot. The 22-kilometer, steep journey seemed daunting. Hritik freshened up as well, and we all went ahead to start the trek. Mukul and Hemant were ahead of us. They didn't wait for me as I was slowing down everyone. Hritik walked with me and tried to push me to cover as much as I could and advised me not to take frequent breaks. Carrying a few extra kilos, I found it extremely cumbersome to trek. I had to pause every 100-200 meters, mustering every ounce of courage and strength to continue.
 
 Somehow, I managed to trek for six and a half km. Hritik, Mukul and Hemant urged me to trek on a mule. The route offered mule transportation for those who found it challenging to ascend on foot. Initially, I was equally excited as the rest and didn't want to succumb and get on a mule. However, after enduring the gruelling climb of the first 6 kilometres, and considering the unanimous request from my friends, I realized that it would be unfair of me to hold back the group.
 
@@ -54,7 +54,7 @@ The following morning, we awoke from our snug sleeping bags and prepared to visi
 
 We went inside the temple, and the atmosphere was serene. After returning to the campsite, we collected our belongings and I found out that my power bank had been stolen. With a heavy heart, we started our descent. We reached the campsite, and we were all tired. We had our dinner and slept.
 
-The following day, we embarked on our journey to Haridwar, which took us 6 hours to reach Sonprayag. The return journey was beautiful. having successfully completed the trek, we were all in high spirits. We reminisced about our childhood days and the memories we had made. We were all happy and content. Hritik told us how hard the breakup was on him. While me and Mukul made fun of him. Hemant told us that he got a quarter where he later found out that someone had died and switched places. Now, he had to live with his brother while he awaited a new quarter. Somehow six hours passed, and we reached Haridwar.
+The following day, we embarked on our journey to Haridwar, which took us 6 hours to reach Sonprayag. The return journey was beautiful. having successfully completed the trek, we were all in high spirits. We reminisced about our childhood days and the memories we had made. We were all happy and content. Hritik told us how hard his breakup was on him, while me and Mukul made fun of him. Hemant told us that he got a quarter where he later found out that someone had died and decided to switch places. Now, he had to live with his brother while he awaited a new quarter. Somehow six hours passed, and we reached Haridwar.
 
 After reaching Haridwar, we stowed our belongings in a room booked by Hemant. That evening, we roamed the enchanting streets, particularly around the ghats. It was a magical experience. As we explored the bustling markets of Haridwar, we indulged in a variety of food, finally catering to our appetites after being starved for 3 days. Hritik decided to bathe in the *Holy Ganga* and I joined him and dipped my feet in the sacred water. We also visited several temples, walking down memory lane, and reminiscing about our childhood days. We explored old paintings on the walls, discussing mythology and the stories behind them. We visited the *Har ki Pauri* ghat, where we witnessed the *Ganga Aarti*. The entire experience was surreal.
 
@@ -68,11 +68,11 @@ Ganga Ghat
 </figure>
 
 
-We had a train to catch at 11:30 p.m. We reached the station at 11:15 p.m. and then boarded the train. At 12, we left for Delhi. 
+We had a train to catch at 11:45 p.m., and at 12, we left for Delhi. 
 
-At that point, my journey took a different direction. While the rest of my friends remained in Haridwar, I boarded a train headed for Bhubaneswar, concluding this unforgettable adventure with memories that would last a lifetime.
+At that point, my journey took a different direction. While the rest of my friends remained in Delhi, I boarded a flight headed for Bhubaneswar, concluding this unforgettable adventure with memories that would last a lifetime.
 
-Coming back home, I met my parents, Swayam and Khusi. Khusi had flown in from Dubai for the fall break, and we had decided to go visit Dubai together. The day after that, both Khusi and I embarked on our journey to Dubai, ready for the adventures and experiences that awaited us in this vibrant city.
+Coming back home, I met my parents, Swayam and Khusi. Khusi had flown in from Dubai for her fall break, and we had decided to go visit Dubai together. The day after that, both Khusi and I embarked on our journey to Dubai, ready for the adventures and experiences that awaited us in this vibrant city.
 
 --- **Marhaba, Dubai** ---
 
@@ -80,7 +80,7 @@ Dubai proved to be a surreal experience, marking my first international trip out
 
 Initially, I grappled with homesickness and longed to go back to Bangalore. However, after a few days, I gradually acclimated to the city, and my initial reservations gave way to enjoyment. I was amazed by the cleanliness of the city. The roads were clean, and the people were disciplined. The architecture was magnificent. Dubai is a giant city inside a desert. The city is filled with skyscrapers, and the roads are wide. Moreover, the diversity of its population was striking, with people hailing from all corners of the globe, making Dubai a truly global metropolis.
 
-During our stay in Dubai, we rented out an apartment near where Khusi lives, for our accommodation. Each morning, as Khusi headed to her office, I would set up my daily standup calls and tackle the day's tasks and responsibilities. We both would try to finish off our work by pre-evening and would hop on the bus and travel towards the metro.
+During our stay in Dubai, we rented out an apartment near where Khusi lives, for our accommodation. Each morning, as Khusi headed to her office, I would set up my daily standup calls and tackle the day's tasks and responsibilities. We both would try to finish off our work by pre-evening and would hop on the bus and travel towards the metro to explore the city.
 
 <div class="dubai-group">
 
@@ -101,7 +101,7 @@ Apartment
 
 Khusi and I visited the Mall of Emirates. We roamed around the place, realizing that we were too poor to be looking at any of the retail outlets XD. We explored various shops, eateries and fancy dessert shops. I bought her a cap and a pillow. We got groceries for the week. 
 
-Khusi introduced me to the places nearby. I decided to get a haircut done and made friends with the barber who belonged from Kerala. He told me about his life in Dubai and how he was planning to go back to Kerala. I told him about my life in Bangalore. We both chatted about regional languages and I paid him 40 AED for the haircut. He turned out to be a movie buff and asked if I had watched *Leo* yet. Leo stars *Vijay*, his favourite actor and I promised him that I would watch it.
+She alspo introduced me to the places nearby. I decided to get a haircut done and made friends with the barber who belonged from Kerala. He told me about his life in Dubai and how he was planning to go back to Kerala. I told him about my life in Bangalore. We both chatted about regional languages and I paid him 40 AED for the haircut. He turned out to be a movie buff and asked if I had watched *Leo* yet. Leo stars *Vijay*, his favourite actor and I promised him that I would watch it.
 
 The following day, our adventure led us to the iconic Dubai Mall, along with a visit to the Burj Khalifa. I had to get an Apple watch for a junior colleague of mine. We explored eateries and had dinner in the mall. I visited the Apple Store and urged Khusi to get me something but she refused. After a ton of shopping, we went out and roamed around in the streets, exploring Dubai until late at night. I realized that Dubai is a city that never sleeps, and somehow all the cab drivers here are either from India or Pakistan. The streets were bustling with people, and the city was alive with activity. We had dinner at a restaurant and then went back to our apartment. 
 
@@ -113,7 +113,7 @@ The following day, our adventure led us to the iconic Dubai Mall, along with a v
 </figcaption>
 </figure>
 
-Over the next few days, we explored Bur Dubai with our friends, often referred to as the "Little India" in Dubai, known for its extensive collection of electronic shops. We also visited a gold market in Dubai, because gold is cheaper in Dubai than in India. We immediately brought out our inner Indian, put on a bright face, ready to bargain for the product to death. I bought *Marshall Kilburn II*: an amazing speaker. The five of us went ahead and had dinner beside a lake, where we reminisced about our college days and then explored a chocolate shop to get souvenirs for our friends in India.
+Over the next few days, we explored Bur Dubai with our friends, often referred to as the "Little India" in Dubai, known for its extensive collection of electronic shops. We also visited a gold market in Dubai, because gold is cheaper in Dubai than in India. We immediately brought out our inner Indian, put on a bright face, ready to bargain for the things that we wished to buy to death. I bought *Marshall Kilburn II*: an amazing speaker. The five of us went ahead and had dinner beside a lake, where we reminisced about our college days and then explored a chocolate shop to get souvenirs for our friends in India.
 
 After six days of extensive exploration, we decided to take a breather on a Saturday morning and went swimming in the apartment's swimming pool with our friends. That evening, we set out to visit the Palm Jumeirah, an opulent and magnificent hotel in Dubai known for its attractive theme parks and immersive experiences. We had dinner there and witnessed a live band perform. We then went ahead to explore an Indian Pub, *Havelli*. It was loud and typical. Havelli reminded me of home and we had our dinner there. Khusi danced and made friends with strangers. Our card bills soared high, and we decided to head back to our apartment.
 
