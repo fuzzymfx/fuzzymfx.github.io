@@ -24,7 +24,7 @@ October began with a bang. I had a lot of trips planned out. Khusi had just come
 I left from BLR to DEL via train and stayed with Mukul's sister for a day. Despite our tight schedule, we managed to explore, *Purani Dilli* for a day before Haridwar. Our day was filled with visits to iconic landmarks, including the magnificent Jama Masjid and the historic Red Fort. And obviously, we explored the amazing culinary places that I had bookmarked earlier and had multiple feasts there. 
 
 <figure class="dubai">
-<img alt= 'puranidilli'  src ="/assets/img/oct/purani-dilli.jpeg" class="h-75 w-575">
+<img alt= 'puranidilli'  src ="/assets/img/oct/purani-dilli.jpeg" class="h-75 w-75">
 <figcaption>
 <a href="https://www.instagram.com/p/CytDfh0PFAw/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"
 >Purani Dilli</a>
