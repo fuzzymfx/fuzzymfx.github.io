@@ -48,7 +48,7 @@ Gangotri Range
 </figcaption>
 </figure>
 
-I came to the tent after having witnessed the magnificent sunset that I saw up on the hill. All of us were tired and exhausted, and we went to sleep quickly and just woke up for dinner. During the night, the temperatures plummeted to a bone-chilling -3 degrees Celsius.
+I came to the tent after having witnessed the magnificent sunset that I saw up on the hill. All of us were exhausted, and we went to sleep quickly and just woke up for dinner. During the night, the temperatures plummeted to a bone-chilling -3 degrees Celsius.
 
 The following morning, we awoke from our snug sleeping bags and prepared to visit the temple, our spirits undeterred by the challenging conditions. We went near the temple, and the view was breathtaking. The temple was surrounded by snow-capped mountains, and the sun was shining brightly. We were all in awe of the beauty of the place. Hritik decided to buy gifts for his family and friends. We went ahead and bought some stuff for our families as well. After the shopping, we went ahead and stood in the queue for the temple. The queue was long, and it took us 3 hours to reach the temple. We heard that Mukesh Ambani had come to visit the place and the temple was closed for 3 tedious hours. Standing there for three hours, I eavesdropped on the conversations of the people around me. My mind got busy travelling to various places in various stories, exploring multiple characters and their view of rights and wrongs. I was lost in my own world until I heard the temple bells ringing.
 
@@ -101,7 +101,7 @@ Apartment
 
 Khusi and I visited the Mall of Emirates. We roamed around the place, realizing that we were too poor to be looking at any of the retail outlets XD. We explored various shops, eateries and fancy dessert shops. I bought her a cap and a pillow. We got groceries for the week. 
 
-Khusi introduced me to the places nearby. I decided to get a haircut done, and made friends with the barber who belonged from Kerala. He told me about his life in Dubai and how he was planning to go back to Kerala. I told him about my life in Bangalore. We both chatted about regional languages and I paid him 40 AED for the haircut. He turned to be a movie buff and asked if I had watched *Leo* yet. Leo stars *Vijay*, his favourite actor and I promised him that I would watch it.
+Khusi introduced me to the places nearby. I decided to get a haircut done and made friends with the barber who belonged from Kerala. He told me about his life in Dubai and how he was planning to go back to Kerala. I told him about my life in Bangalore. We both chatted about regional languages and I paid him 40 AED for the haircut. He turned out to be a movie buff and asked if I had watched *Leo* yet. Leo stars *Vijay*, his favourite actor and I promised him that I would watch it.
 
 The following day, our adventure led us to the iconic Dubai Mall, along with a visit to the Burj Khalifa. I had to get an Apple watch for a junior colleague of mine. We explored eateries and had dinner in the mall. I visited the Apple Store and urged Khusi to get me something but she refused. After a ton of shopping, we went out and roamed around in the streets, exploring Dubai until late at night. I realized that Dubai is a city that never sleeps, and somehow all the cab drivers here are either from India or Pakistan. The streets were bustling with people, and the city was alive with activity. We had dinner at a restaurant and then went back to our apartment. 
 
@@ -128,14 +128,14 @@ Kite Beach
 </figcaption>
 </figure>
 
-Before bidding adieu to this captivating city, we indulged in ice cream and mocktails, chatted a lot about how things were going on in our lives. We roamed in the beach, scouting for hats and subglasses and bought *Oud* perfumes. While our feet sank into the soft sand, we delved into discussions about life in different countries, and argued about which is better. We knew in our hearts that all we want is to reside in the same place. With fond memories in our hearts, perhaps some flaky promises and a heavy heart, we made our way to the airport embarking on my return journey to India.
+Before bidding adieu to this captivating city, we indulged in ice cream and mocktails and chatted a lot about how things were going on in our lives. We roamed on the beach, scouting for hats and sunglasses and bought *Oud* perfumes. While our feet sank into the soft sand, we delved into discussions about life in different countries and argued about which was better. We knew in our hearts that all we wanted was to reside in the same place. With fond memories in our hearts, perhaps some flaky promises and a heavy heart, we made our way to the airport embarking on my return journey to India.
 
 
 ---
 
 Dev:
 
-At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
+At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [Dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
 
 Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a command-line bit-torrent client to download torrents written in Rust. I am planning to rewrite the entire codebase in Rust. Currently, I am writing in TypeScript.
 
@@ -148,7 +148,7 @@ Books:
 *I promise to read books this time :P*
 
 - Remembrance of Earth's Past: The Trilogy
-	- ~~The three body problem~~
+	- ~~The three-body problem~~
 	- The dark forest
 	- Death's end
 
