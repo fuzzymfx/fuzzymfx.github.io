@@ -17,7 +17,19 @@ title: "current"
 
 ##### Current, 2023
 
+I am looking to upgrade my entire desk setup. I realized I am spending more time on my desk writing blogs and coding. To that end, I'm looking to invest in a mechanical keyboard, an ergonomic mouse, a comfortable chair, and a new monitor.
+
+In the past, I had been using an HP-GK320 wired keyboard with Cherry MX Blue switches, which was cheap and provided an okayish experience. The Lenovo Legion gaming mouse also served well. I've been eyeing a mechanical keyboard, the Ducky One 2 SF for a while, and I'm eager to experience the tactile and audible feedback they provide. I am also planning to decide on an ergonomic mouse. The Logitech MX Master 3S looks attractive but I haven't settled on anything yet.
+
+I was using the Acer Ed320QR monitor, which was a 32" curved monitor with a 144Hz refresh rate. However, I found the monitor to be lacking in terms of colour accuracy and resolution. I have upgraded to the LG Ultragear 32" since it supports WQHD @165Hz, has HDR10, is 99% sRGB accurate and colour calibrated.
+
+I had gotten a cheap chair from the local market, which was initially comfortable until it broke. I tried fixing it, but it is comfortable anymore and is still somewhat faulty. I am planning to get a new chair, and I am looking at the Green Soul Zodiac Pro Series chair.
+
 October began with a bang. I had a lot of trips planned out. Khusi had just come back from Dubai, and while returning we planned to go on a trip to Dubai together! Meanwhile, my childhood friends and I had a week-long trek planned to Kedarnath, UK. Four of us, Mukul, Hritik, Hemant, and I were going to meet in Delhi and then head to Haridwar.
+
+---
+
+Trips:
 
 --- **A trek to Kedarnath** ---
 
