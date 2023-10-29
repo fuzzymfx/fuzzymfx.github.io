@@ -1,39 +1,24 @@
-const skillsContent = document.getElementsByClassName('skills__content')
-const skillsHeader = document.querySelectorAll('.skills__header')
-
-function toggleSkills() {
-    const itemClass = this.parentNode.className
-
-    for (i = 0; i < skillsContent.length; i++) {
-        skillsContent[i].className = 'skills__content skills__close'
-    }
-
-    if (itemClass === 'skills__content skills__close') {
-        this.parentNode.className = 'skills__content skills__open'
-    }
+function updateThemeBasedOnPreference(mediaQueryList) {
+  if (mediaQueryList.matches) {
+    document
+      .querySelector('link[rel="icon"]')
+      .setAttribute("href", "/favicon-dark.ico");
+    document
+      .querySelector('link[rel="manifest"]')
+      .setAttribute("href", "/manifest-dark.json");
+  } else {
+    document
+      .querySelector('link[rel="icon"]')
+      .setAttribute("href", "/favicon.ico");
+    document
+      .querySelector('link[rel="manifest"]')
+      .setAttribute("href", "/manifest.json");
+  }
 }
 
-skillsHeader.forEach((el) => {
-    el.addEventListener('click', toggleSkills)
-})
-
-/* ==================== QUALIFICATION TABS ==================== */
-const tabs = document.querySelectorAll('[data-target]')
-const tabContents = document.querySelectorAll('[data-content]')
-
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        const target = document.querySelector(tab.dataset.target)
-
-        tabContents.forEach(tabContent => {
-            tabContent.classList.remove('qualification__active')
-        })
-
-        target.classList.add('qualification__active')
-
-        tabs.forEach(tab => {
-            tab.classList.remove('qualification__active')
-        })
-        tab.classList.add('qualification__active')
-    })
-})
+// On page load
+document.addEventListener("DOMContentLoaded", function () {
+  const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
+  updateThemeBasedOnPreference(mediaQueryList);
+  mediaQueryList.addListener(updateThemeBasedOnPreference);
+});
