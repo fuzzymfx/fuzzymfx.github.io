@@ -1,5 +1,8 @@
 ---
+author: Anubhab Patnaik
 title: "april23"
+date: "2023-07-08"
+description: "A monthly update on my life and work."
 ---
 
 ##### April- June, 2023

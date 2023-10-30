@@ -103,20 +103,21 @@ const main = () => {
   const outPath = path.resolve("blog");
   const dir = path.resolve("blog");
   const indexoutPath = path.resolve("");
-  const blogtemplate = fs.readFileSync(
-    "./templates/initial/blogtemplate.html",
-    "utf8"
-  );
+  const blogtemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
   const indextemplate = fs.readFileSync(
-    "./templates/initial/indextemplate.html",
+    "./templates/initial/index.html",
     "utf8"
   );
   const currenttemplate = fs.readFileSync(
-    "./templates/initial/currenttemplate.html",
+    "./templates/initial/current.html",
     "utf8"
   );
   const blogindextemplate = fs.readFileSync(
-    "./templates/initial/blogindextemplate.html",
+    "./templates/initial/blogindex.html",
+    "utf8"
+  );
+  const defaultemplate = fs.readFileSync(
+    "./templates/initial/default.html",
     "utf8"
   );
   const filenames = glob.sync(srcPath + "/**/*.md");
@@ -127,20 +128,20 @@ const main = () => {
   fs.mkdirSync(dir);
 
   filenames.forEach((filename) => {
-    const months = [
-      "january",
-      "february",
-      "march",
-      "april",
-      "may",
-      "june",
-      "july",
-      "august",
-      "september",
-      "october",
-      "november",
-      "december",
-    ];
+    // const months = [
+    //   "january",
+    //   "february",
+    //   "march",
+    //   "april",
+    //   "may",
+    //   "june",
+    //   "july",
+    //   "august",
+    //   "september",
+    //   "october",
+    //   "november",
+    //   "december",
+    // ];
     if (filename.includes("index.md")) {
       if (filename.includes("blogindex.md"))
         processIndexFile(filename, blogindextemplate, outPath);
@@ -148,9 +149,9 @@ const main = () => {
     } else if (filename.includes("current.md"))
       processIndexFile(filename, currenttemplate, indexoutPath);
     else if (filename.includes("cv.md"))
-      processIndexFile(filename, currenttemplate, indexoutPath);
-    else if (months.some((el) => filename.includes(el)))
-      processBlogFile(filename, currenttemplate, outPath);
+      processIndexFile(filename, defaultemplate, indexoutPath);
+    // else if (months.some((el) => filename.includes(el)))
+    //   processBlogFile(filename, currenttemplate, outPath);
     else if (!expiredFiles.some((el) => filename.includes(el)))
       processBlogFile(filename, blogtemplate, outPath);
   });

@@ -17,13 +17,45 @@ title: "current"
 
 ##### Current, 2023
 
-I am looking to upgrade my entire desk setup. I realized I am spending more time on my desk writing blogs and coding. To that end, I'm looking to invest in a mechanical keyboard, an ergonomic mouse, a comfortable chair, and a new monitor.
+I am looking to upgrade my entire desk setup. I realized I am spending more time on my desk writing blogs and coding, thus I'm looking to invest in a mechanical keyboard, an ergonomic mouse, a comfortable chair, and a new monitor.
 
-In the past, I had been using an HP-GK320 wired keyboard with Cherry MX Blue switches, which was cheap and provided an okayish experience. The Lenovo Legion gaming mouse also served well. I've been eyeing a mechanical keyboard, the Ducky One 2 SF for a while, and I'm eager to experience the tactile and audible feedback they provide. I am also planning to decide on an ergonomic mouse. The Logitech MX Master 3S looks attractive but I haven't settled on anything yet.
+In the past, I had been using an HP-GK320 wired keyboard with Blue switches, which was cheap and provided an okayish experience. The Lenovo Legion gaming mouse also served well. I've been eyeing a mechanical keyboard, the Ducky One 2 SF for a while, and I'm eager to experience the tactile and audible feedback they provide. I am also planning to decide on an ergonomic mouse. The Logitech MX Master 3S looks attractive but I haven't settled on anything yet.
 
 I was using the Acer Ed320QR monitor, which was a 32" curved monitor with a 144Hz refresh rate. However, I found the monitor to be lacking in terms of colour accuracy and resolution. I have upgraded to the LG Ultragear 32" since it supports WQHD @165Hz, has HDR10, is 99% sRGB accurate and colour calibrated.
 
 I had gotten a cheap chair from the local market, which was initially comfortable until it broke. I tried fixing it, but it is comfortable anymore and is still somewhat faulty. I am planning to get a new chair, and I am looking at the Green Soul Zodiac Pro Series chair.
+
+
+Dev:
+
+At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [Dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
+
+Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a command-line bit-torrent client to download torrents written in Rust. I am looking to explore esoteric programming languages and look into the brainfuck interpreter. Curious about game dev, I am also looking to get my hands dirty with tactical FPS/ open-world games.
+
+Research:
+
+I am diving deeper into the world of AI, prompt engineering and fine-tuning LLMs to convert natural language to SQL queries. The need for this arose when we built an NL2SQL generator at StackIt, and it proved not to be entirely successful. The model was not able to generate SQL queries for complex questions. Thus, I am trying to understand the prompt engineering behind the entire infrastructure of Lookup AI. Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
+
+Books:
+
+*I promise to read books this time :P*
+
+- Remembrance of Earth's Past: The Trilogy
+	- ~~The three-body problem~~
+	- The dark forest
+	- Death's end
+
+Shows:
+
+- Kaala Paani
+- One Piece
+- Atypical
+- Scoop
+- Black Mirror (*rewatch*)
+- Silicon Valley (*rewatch*)
+- The Mentalist (*rewatch*)
+- Tom Clancy's Jack Ryan
+- Ozark
 
 October began with a bang. I had a lot of trips planned out. Khusi had just come back from Dubai, and while returning we planned to go on a trip to Dubai together! Meanwhile, my childhood friends and I had a week-long trek planned to Kedarnath, UK. Four of us, Mukul, Hritik, Hemant, and I were going to meet in Delhi and then head to Haridwar.
 
@@ -144,37 +176,6 @@ Before bidding adieu to this captivating city, we indulged in ice cream and mock
 
 
 ---
-
-Dev:
-
-At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [Dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
-
-Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a command-line bit-torrent client to download torrents written in Rust. I am planning to rewrite the entire codebase in Rust. Currently, I am writing in TypeScript.
-
-Research:
-
-I am diving deeper into the world of AI, prompt engineering and fine-tuning LLMs to convert natural language to SQL queries. The need for this arose when we built an NL2SQL generator at StackIt, and it proved not to be entirely successful. The model was not able to generate SQL queries for complex questions. Thus, I am trying to understand the prompt engineering behind the entire infrastructure of Lookup AI. Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
-
-Books:
-
-*I promise to read books this time :P*
-
-- Remembrance of Earth's Past: The Trilogy
-	- ~~The three-body problem~~
-	- The dark forest
-	- Death's end
-
-Shows:
-
-- Kaala Paani
-- One Piece
-- Atypical
-- Scoop
-- Black Mirror (*rewatch*)
-- Silicon Valley (*rewatch*)
-- The Mentalist (*rewatch*)
-- Tom Clancy's Jack Ryan
-- Ozark
 
 Older posts:
 
