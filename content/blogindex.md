@@ -1,6 +1,8 @@
 ---
-title: Anubhab's Blog
+title: Blog
 ---
+[Reading List](../reading.html)
+
 <span class="custom-tags">#life</span>
 
 <li class="flex justify-between pb3"><a href="./july23.html" class="link">Update: June 2023</a><span class="date gray">30-09-2023</span> </li>
@@ -35,7 +37,3 @@ title: Anubhab's Blog
 
 <li class="flex justify-between pb3"><a href="./infeasibleWeb3.html" class="link">web3: A sham </a><span class="date gray">19-01-2022</span>
 </li>
-
-<span class="custom-tags">#reading</span>
-
-<li class="flex justify-between pb3"><span>Rememberance of Earth's Past</span><span class="date gray">★★★★</span> </li>

@@ -1,5 +1,5 @@
 ---
-title: "current"
+title: "Current shenanigans"
 ---
 <style>
  .dubai {

@@ -152,6 +152,8 @@ const main = () => {
       processIndexFile(filename, defaultemplate, indexoutPath);
     // else if (months.some((el) => filename.includes(el)))
     //   processBlogFile(filename, currenttemplate, outPath);
+    else if (filename.includes("reading.md"))
+      processIndexFile(filename, defaultemplate, indexoutPath);
     else if (!expiredFiles.some((el) => filename.includes(el)))
       processBlogFile(filename, blogtemplate, outPath);
   });
