@@ -6,7 +6,7 @@ title: Anubhab Patnaik
 
 Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. Currently, I live in Bangalore, IN, building [StackIt](https://nowstackit.com) as the founding engineer. This is a space where I publish my musings. I write about tech and my life. [Here's my journey](/cv.html).
 
-I am working on a pet project, [Dough](https://github.com/fuzzymfx/dough): a rich, modular, and customisable content generator, crafted in Rust. I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back. Meanwhile, I am also exploring esoteric programming languages and the brainfuck interpreter.
+I am working on a pet project, [Dough](https://github.com/fuzzymfx/dough): a rich, modular, and customisable content generator, crafted in Rust. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back. Meanwhile, I am also exploring esoteric programming languages and the brainfuck interpreter.
 
 Living in BLR has its toll. The weather and the thriving tech scene in this city are undoubtedly appealing, but the over-population and traffic can be overwhelming. Trying to strike a balance between spending time in the office and doing things that I am more passionate about is a constant pain point.
 
