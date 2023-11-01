@@ -16,26 +16,26 @@ title: "cv - Anubhab Patnaik"
 
 - **Founding Engineer/SDE-1** - *StackIt* Current - [🔗](https://nowstackit.com)
   - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
-  - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
+  - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
-  - Creating mulitple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
+  - Creating multiple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
   - Building natural language to SQL engines using LangChain, prompt engineering, GPT-3.5-turbo & GPT-4.
 - **Full-stack Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
-  - Building a custom PDF viewer using Firebase SDk. Used Cloud Firestore as the database.
+  - Building a custom PDF viewer using Firebase SDK. Used Cloud Firestore as the database.
 - **Full Stack Engineer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
   - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
-  - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the need of existing users on the older blockchain.
+  - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the needs of existing users on the older blockchain.
 - **Freelance Software Developer** - *Afixi Technologies* 2022 - [🔗](https://drive.google.com/file/d/1rWImLNao3abkQF313Jb8gT5Ybq8aNQeA/view?usp=sharing)
-  - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a Python script to automate the uploading of music from the producer’s S3 bucket & automated the uploading of music on YouTube.
+  - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a Python script to automate the uploading of music from the producer’s S3 bucket and automated the uploading of music on YouTube.
 - **MLOps** & **React Internship** - *Ebibil Technologies* 2021 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
   - Collaborated on the Django web app to integrate with ML models for a smart parking system.
   - Implemented a PWA using React for the admin panel that manages the parking system.
   - Contributed to ML models in Python to build an ANPR system to detect the license plate with 67\% accuracy.
 - **Python Tutor** - *Triluxo* 2021 - [🔗](https://drive.google.com/file/d/1QtlOYWOXRhybfRIgOV-px3bPdye2M_cW/view?usp=sharing)
-  - Tutored students on the basics of Computer Science, the web \& programming using Python.
+  - Tutored students on the basics of Computer Science, the web and programming using Python.
   - Built a Django back-end for a web application used by students to build apps using Python.
 - **IoT - Summer Internship** 2021 - *Karkhana Makerspace* - [🔗](https://drive.google.com/file/d/18hbsEls6Ti3vFM64GCmf8Y-hIz08NHAA/view?usp=sharing)
   - Built ideation of a smart soil monitor system using  NodeMCU, Firebase, and  sensors.
@@ -47,7 +47,7 @@ title: "cv - Anubhab Patnaik"
 
 ### Research
 
-- Generative AI: LLMs, GANs, VAEs, Transformers, and more. Looking into the applications of ChatGPT4, fine tuning GPT3, using embeddings, exploring the use of transformers, exporing LLaMA and other LLMs, and more. Working on Vertex AI, PaLM, text-bison@001, chat-bison@001, textembedding-gecko@001 and other Vertex AI projects.
+- Generative AI: LLMs, GANs, VAEs, Transformers, and more. Looking into the applications of ChatGPT4, fine-tuning GPT3, using embeddings, exploring the use of transformers, exploring LLaMA and other LLMs, and more. Working on Vertex AI, PaLM, text-bison@001, chat-bison@001, textembedding-gecko@001 and other Vertex AI projects.
 
 ### Projects
 
@@ -56,7 +56,7 @@ title: "cv - Anubhab Patnaik"
   - Wrote a bencode parser to parse torrent and magnet files
   - Wrote a custom TCP client to iterate over peers and download the file and a custom HTTP client to download the torrent file
   - Used the web worker API to run the client in a separate thread
-- [RESOC](https://github.com/fuzzymfx/resoc) - A FOSS **social platform** for accessing free academic resources with task management, a chat section, and an open contributions page with a growing user base of 2000 & more than 4000 reads and 200 writes.
+- [RESOC](https://github.com/fuzzymfx/resoc) - A FOSS **social platform** for accessing free academic resources with task management, a chat section, and an open contributions page with a growing user base of 2000, more than 4000 reads, and 200 writes.
   - \[*React, React-Bootstrap, Firebase, Cloud Firestore, emailjs, firebase-hosting, gh-actions*] *- 2022-23*
   - Built a task management system with a chat section using React, React-Bootstrap, and Firebase.
   - Hosted static notes in the cloud using Firebase Storage and Cloud Firestore.
@@ -68,7 +68,7 @@ title: "cv - Anubhab Patnaik"
   - Old Blog - [🔗](https://anubhavp.dev/oldblog/)
   - Current Blog - [🔗](https://anubhavp.dev/blog/)
   - Hugo Blog - [🔗](https://anubhavp.dev/paperblog/)
-  - Built a multi client blog application using Django and zuzu and hosted it on AWS EC2. The front end of the application was built using React & Bootstrap.
+  - Built a multi-client blog application using Django and zuzu and hosted it on AWS EC2. The front end of the application was built using React and Bootstrap.
 - [Qtree](https://github.com/fuzzymfx/qd-compression) - Inspired by KoalasToTheMax, QTree is a short live demonstration of **image compression and decompression** using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants.
   - \[*NodeJs, Quadtrees, Canvas- HTML5*] *- 2023*
   - Built a web application using NodeJs and Canvas to compress and decompress images using Quadtrees.
@@ -91,7 +91,7 @@ title: "cv - Anubhab Patnaik"
   - Live demo - [🔗](https://anubhavp.dev/IWT_project/)
   - Used custom css from open-source projects to style the app.
   - Added a custom ML model to predict the marks secured by the student.
-  - Created a venv in Python and installed the required libraries and called it using PHP.
+  - Created a venv in Python and installed the required libraries, and called it using PHP.
   - [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using **Linear Regression** and **Gradient Descent**.
   - \[*Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn*] *- 2021*
   - Used the Scikit-learn library to create a Linear Regression model.
@@ -116,12 +116,12 @@ title: "cv - Anubhab Patnaik"
   - Used the bag of words model to make an NLP Pipeline. Implemented stopwords removal and stemming to clean the data.
   - Used Laplace smoothing to solve the problem of zero probability and further enhance the model.
   - Used the Scikit-learn library to create a Multinomial Naive Bayes classifier.
-- [Movie Recommendation System](https://github.com/fuzzymfx/Movie-recommendation) - An item based collaborative based recommendation system
+- [Movie Recommendation System](https://github.com/fuzzymfx/Movie-recommendation) - An item-based collaborative recommendation system
   - \[*Python, Pandas, Numpy, Matplotlib, Seaborn*] *- 2021*
   - Used movie rating 100k dataset
   - Used Pandas to load and analyze the data frame
   - Used pandas correlation matrix to find the relation between ratings of the movie and recommend a movie with similar ratings
-- [Digit Recognizer](https://github.com/fuzzymfx/HandwrittenDigitClassification) - Classifying handwritten digits & MNIST dataset using **CNN** and **KNN**.
+- [Digit Recognizer](https://github.com/fuzzymfx/HandwrittenDigitClassification) - Classifying handwritten digits and MNIST dataset using **CNN** and **KNN**.
   - \[*Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn*] *- 2021*
   - Classifying MNIST dataset using CNN and implementing using Keras and max pooling dropout technique
   - Created a separate MNIST digit classifier using KNN - [🔗](https://github.com/fuzzymfx/Classifying-mnist-digit-dataset)
@@ -158,7 +158,7 @@ title: "cv - Anubhab Patnaik"
 
 ### Activities
 
-- Chargebee - Finanace Leader Roundtable, 2023
+- Chargebee - Finance Leader Roundtable, 2023
 - Google IO/Connect, 2023
 - Git Groove - UnStop 2023 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop)
 - Web Developer/ Mentor- Zygon Organizing Committee 2023 - [🔗](https://drive.google.com/file/d/1Xqf9fN3ABCQli4tqEc39RKe3iXkqf-sx/view?usp=share_link)
