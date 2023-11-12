@@ -5,7 +5,7 @@ title: Blog
 
 <span class="custom-tags">#life</span>
 
-<li class="flex justify-between pb3"><a href="./july23.html" class="link">Update: June 2023</a><span class="date gray">30-09-2023</span> </li>
+<li class="flex justify-between pb3"><a href="./july23.html" class="link">Update: July 2023</a><span class="date gray">30-09-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./lifeinametro.html" class="link">The Slave City</a><span class="date gray">08-07-2023</span> </li>
 
