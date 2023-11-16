@@ -17,9 +17,42 @@ title: "Current shenanigans"
 
 ##### Current, 2023
 
+As November comes to an end, I look back at 2023. With only a month left, I am looking for my resolutions for this year and wondering if I even came close to starting them. I am looking at the decisions that I took in these past eleven months and wondering how much I progressed.
+
+This year, I
+
+- Graduated College
+- Got a Job/ started my entrepreneurial journey
+- Moved to Bangalore; started living alone
+- Somehow managed to make money, and send some back home; started paying my bills
+- Started paying taxes
+
+
+By the end of this year, I want to have 
+
+- started investing and saving
+- built more projects
+- read more 
+- write more
+- consume more information
+- become more fit than I was in January
+- make some vague plan about my future for the next 3 odd years
+
+Before beginning 2024, I want to have grown to look back at 2023 and be proud of myself; thus, I will be working on myself for the next month. 
+
+The festive season in Nov is always a busy time for us Indians. It brings forth long weekends, leaves, and holidays. Corporate folks save up leaves and vacation days to go back home and cherish the season with friends and family. I went back home for this Diwali. We had a Puja at home, and I met my extended family. It was a weekend of fun and a break from my work life. I got chocolates for Sneha and got her a neck pillow. Both my sisters had their birthday at the beginning of November, and I had to get each of them gifts. 
+
+Returning back from home is always a challenge. The dreaded steps that I take on mornings when I know I have a flight to catch are the worst. This time too, I did not want to return and with each breath that I took, I wished somehow magically I wouldn't have to leave my home, and yet I would be employed and earning a living. I had to leave, and with a heavy heart I mustered all courage inside me, and I did. Rio never gets why I have to leave. He is always by my side whenever I am in my home and tries his best to not let me leave my room. There are things that humans do that dogs do not understand, like leaving. I wish I could explain to him that I have to leave, and I will be back soon. While he knows that I will be back someday, he still makes those puppy eyes, unable to speak up or do anything, just looks at me leave.
+
+The following week was a stressful one. At Stackit, I had a lot of pending tasks on the backlog. While back at home I had to prepare for an important test. The highlight of the week was watching India go into finals in the ICC Men's Cricket World Cup. Even though, I am not a sports fan, looking at my country at the top of the leaderboard, undefeated, making its way to win the finals made me proud.
+
+October began with a bang. I had a lot of trips planned out. Khusi had just come back from Dubai, and while returning we planned to go on a trip to Dubai together! Meanwhile, my childhood friends and I had a week-long trek planned to Kedarnath, UK. Four of us, Mukul, Hritik, Hemant, and I were going to meet in Delhi and then head to Haridwar. Read more about the trip [here](#trip).
+
+Tech:
+
 I am looking to upgrade my entire desk setup. I realized I am spending more time on my desk writing blogs and coding, thus I'm looking to invest in a mechanical keyboard, an ergonomic mouse, a comfortable chair, and a new monitor.
 
-In the past, I had been using an HP-GK320 wired keyboard with Blue switches, which was cheap and provided an okayish experience. The Lenovo Legion gaming mouse also served well. I've been eyeing a mechanical keyboard, the Ducky One 2 SF for a while, and I'm eager to experience the tactile and audible feedback they provide. I am also planning to decide on an ergonomic mouse. The Logitech MX Master 3S looks attractive but I haven't settled on anything yet.
+I have been using an HP-GK320 wired keyboard with Blue switches for a long time, which is cheap and provides an okayish experience. The Lenovo Legion gaming mouse also serves well. I've been eyeing a mechanical keyboard, the Ducky One 2 SF for a while, and I'm eager to experience the tactile and audible feedback they provide. I am also planning to decide on an ergonomic mouse. The Logitech MX Master 3S looks attractive but I haven't settled on anything yet.
 
 I was using the Acer Ed320QR monitor, which was a 32" curved monitor with a 144Hz refresh rate. However, I found the monitor to be lacking in terms of colour accuracy and resolution. I have upgraded to the LG Ultragear 32" since it supports WQHD @165Hz, has HDR10, is 99% sRGB accurate and colour calibrated.
 
@@ -27,6 +60,10 @@ I had gotten a cheap chair from the local market, which was initially comfortabl
 
 
 Dev:
+
+I am planning to polish up my Data Structures and Algorithms, and my profile. Looking at the current market it is evident that only the skilled ones make it to the top. 
+
+I am currently working on building a Nl2SQL engine for StackIt. A platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process. The tech behind this would invlove vectorizing SQL schemas and using a multi-query engine to find the appropriate schema-embedding section to send to the LLM to generate SQL queries.
 
 At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [Dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
 
@@ -49,7 +86,7 @@ Shows:
 
 - Kaala Paani
 - One Piece
-- Atypical
+- ~~Atypical~~
 - Scoop
 - Black Mirror (*rewatch*)
 - Silicon Valley (*rewatch*)
@@ -57,11 +94,13 @@ Shows:
 - Tom Clancy's Jack Ryan
 - Ozark
 
-October began with a bang. I had a lot of trips planned out. Khusi had just come back from Dubai, and while returning we planned to go on a trip to Dubai together! Meanwhile, my childhood friends and I had a week-long trek planned to Kedarnath, UK. Four of us, Mukul, Hritik, Hemant, and I were going to meet in Delhi and then head to Haridwar.
+Games:
+
+- God of War
 
 ---
 
-Trips:
+###### Trip:
 
 --- **A trek to Kedarnath** ---
 
@@ -157,7 +196,7 @@ The following day, our adventure led us to the iconic Dubai Mall, along with a v
 </figcaption>
 </figure>
 
-Over the next few days, we explored Bur Dubai with our friends, often also known as the "Little India" in Dubai, known for its extensive collection of electronic shops. We also visited a gold market, because gold is cheaper in Dubai than in India. We immediately brought out our inner Indian, put on a bright face, and prepared to bargain the hell out for the things that we wished to buy to death. I got the *Marshall Kilburn II*: an amazing speaker. The five of us went ahead and had dinner beside a lake, where we reminisced about our college days and then explored a chocolate shop to get souvenirs for our friends in India.
+Over the next few days, we explored Bur Dubai with our friends, often also known as the "Little India" in Dubai, known for its extensive collection of electronic shops. We also visited a gold market, because gold is cheaper in Dubai than in India. We immediately brought out our inner Indian, put on a bright face, and prepared to bargain the hell out for the things that we wished to buy to death. I got *Marshall Kilburn II*: an amazing speaker. The five of us went ahead and had dinner beside a lake, where we reminisced about our college days and then explored a chocolate shop to get souvenirs for our friends in India.
 
 After six days of extensive exploration, we decided to have a breather on a Saturday morning and went swimming in the apartment's swimming pool with our friends. That evening, we set out to visit the Palm Jumeirah, an opulent and magnificent hotel in Dubai known for its attractive theme parks and immersive experiences. We had dinner there and witnessed a live band perform. We then went ahead to explore an Indian Pub, *Havelli*. It was loud and typical. Havelli reminded me of home, where we had our dinner. Khusi danced and made friends with strangers. Our card bills soared high, and we decided to head back to our apartment.
 
