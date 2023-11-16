@@ -17,7 +17,7 @@
     },
     "type": "module",
     "scripts": {
-        "devgenerate": "nodemon -e js,md,html --ignore dist/ ./generator.js",
+        "devgenerate": "npx nodemon -e js,md --ignore dist/ ./generator.js",
         "generate": "node ./generator.js && node ./rss-generator.js",
         "res": "pdflatex ./templates/initial/resume.tex"
     },
