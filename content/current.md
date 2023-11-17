@@ -17,26 +17,24 @@ title: "Current shenanigans"
 
 ##### Current, 2023
 
-As November comes to an end, I look back at 2023. With only a month left, I am looking for my resolutions for this year and wondering if I even came close to starting them. I am looking at the decisions that I took in these past eleven months and wondering how much I progressed.
+As November comes to an end, I look back at 2023; with only a month left, I am looking at my resolutions for this year and wondering if I even came close to starting them. I am looking at the decisions that I took in these past eleven months and wondering how much I progressed.
 
 This year, I
 
 - Graduated College
 - Got a Job/ started my entrepreneurial journey
-- Moved to Bangalore; started living alone
+- Moved to Bangalore; started living away from home
 - Somehow managed to make money, and send some back home; started paying my bills
 - Started paying taxes
 
 
 By the end of this year, I want to have 
 
-- started investing and saving
 - built more projects
 - read more 
 - write more
-- consume more information
 - become more fit than I was in January
-- make some vague plan about my future for the next 3 odd years
+- a solid plan for the next two-three years
 
 Before beginning 2024, I want to have grown to look back at 2023 and be proud of myself; thus, I will be working on myself for the next month. 
 
