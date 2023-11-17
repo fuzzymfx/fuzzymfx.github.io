@@ -1,8 +1,9 @@
 ---
 title: "cv - Anubhab Patnaik"
+description: "CV- portfolio: An extensive list of my projects and skills"
 ---
 <script type="module" src="/assets/js/cv/index.js" ></script>
-*Last Updated: <span class="datetime" id="datetime"></span>*
+<span class="update-date-time"></span>
 
 ### Educational Background
 
@@ -185,4 +186,5 @@ title: "cv - Anubhab Patnaik"
 - DBMUN 2015 - [🔗](https://drive.google.com/file/d/1Q_VKZvBaNKGkLvXJB_O2Tz9zrWRWqpxW/view?usp=sharing)
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
 
-[Find my Resume Here](/resume.pdf)
+[Find my Resume Here](https://anubhavp.dev/resume.pdf)
+<span class="download-cv"></span>

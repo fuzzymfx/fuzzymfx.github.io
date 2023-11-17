@@ -1,5 +1,6 @@
 ---
 title: Reading List
+description: "A list of books I have read, and my thoughts on them"
 ---
 
 ### Reading List

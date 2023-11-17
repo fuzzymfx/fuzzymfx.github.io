@@ -1,8 +1,8 @@
 ---
 author: Anubhab Patnaik
-title: "july23"
+title: "Monthly Updates"
 date: "2023-09-30"
-description: "A monthly update on my life and work."
+description: "A tri-monthly update on my life and work."
 ---
 
 ##### July - September, 2023

@@ -1,8 +1,8 @@
 ---
 author: Anubhab Patnaik
-title: "january23"
+title: "Monthly Updates"
 date: "2023-04-08"
-description: "A monthly update on my life and work."
+description: "A tri-monthly update on my life and work."
 ---
 
 ##### January - March, 2023

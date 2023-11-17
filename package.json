@@ -10,14 +10,14 @@
         "jsdom": "^22.0.0",
         "markdown-it": "^13.0.1",
         "markdown-it-anchor": "^8.6.4",
-        "md-to-pdf": "^5.1.0",
+        "md-to-pdf": "^5.2.4",
         "mkdirp": "^1.0.4",
         "rss": "^1.2.2",
         "string": "^3.3.3"
     },
     "type": "module",
     "scripts": {
-        "devgenerate": "npx nodemon -e js,md --ignore dist/ ./generator.js",
+        "dev": "npx nodemon -e js,md --ignore dist/ ./generator.js",
         "generate": "node ./generator.js && node ./rss-generator.js",
         "res": "pdflatex ./templates/initial/resume.tex"
     },
@@ -25,5 +25,9 @@
         "zuzussg": "./generator.js"
     },
     "author": "Anubhab Patnaik",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "@types/glob": "^8.1.0",
+        "@types/mkdirp": "^2.0.0"
+    }
 }

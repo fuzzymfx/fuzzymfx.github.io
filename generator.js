@@ -9,6 +9,7 @@ import hljs from "highlight.js";
 import MarkdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import string from "string";
+import { mdToPdf } from "md-to-pdf";
 
 const slugify = (s) => string(s).slugify().toString();
 
@@ -50,6 +51,12 @@ const indextemplatize = (template, { title, content }) =>
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- TITLE -->/g, title);
 
+const defaulttempletize = (template, { title, content, desc }) =>
+  template
+    .replace(/<!-- CONTENT -->/g, content)
+    .replace(/<!-- TITLE -->/g, title)
+    .replace(/<!-- DESCRIPTION -->/g, desc);
+
 const saveFile = (filename, contents) => {
   const dir = path.dirname(filename);
   mkdirp.sync(dir);
@@ -74,7 +81,6 @@ const getOutputPdfname = (filename, outPath) => {
 const processBlogFile = async (filename, template, outPath) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
-  const outpdfname = getOutputPdfname(filename, outPath);
 
   const templatized = templatize(template, {
     date: file.data.date,
@@ -83,10 +89,43 @@ const processBlogFile = async (filename, template, outPath) => {
     author: file.data.author,
     description: file.data.description,
   });
-  // await mdToPdf({ path:filename }, { dest: outpdfname }) ;
   saveFile(outfilename, templatized);
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
 };
+
+const processDefaultFile = async (
+  filename,
+  template,
+  outPath,
+  generatePdf = false
+) => {
+  const file = readFile(filename);
+  const outfilename = getOutputFilename(filename, outPath);
+
+  const templatized = defaulttempletize(template, {
+    title: file.data.title,
+    content: file.html,
+    description: file.data.description,
+  });
+  if (generatePdf) {
+    const outpdfname = getOutputPdfname(filename, outPath);
+    mdToPdf({ path: filename }, { dest: outpdfname });
+  }
+  saveFile(outfilename, templatized);
+  console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
+};
+
+const processCurrentFile = async (filename, template, outPath) => {
+  const file = readFile(filename);
+  const outfilename = getOutputFilename(filename, outPath);
+  const templatized = indextemplatize(template, {
+    content: file.html,
+    title: file.data.title,
+  });
+  saveFile(outfilename, templatized);
+  console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
+};
+
 const processIndexFile = async (filename, template, outPath) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
@@ -127,35 +166,35 @@ const main = () => {
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir);
 
+  const templateMap = {
+    blog: blogtemplate,
+    index: indextemplate,
+    current: currenttemplate,
+    blogindex: blogindextemplate,
+    default: defaultemplate,
+  };
+
   filenames.forEach((filename) => {
-    // const months = [
-    //   "january",
-    //   "february",
-    //   "march",
-    //   "april",
-    //   "may",
-    //   "june",
-    //   "july",
-    //   "august",
-    //   "september",
-    //   "october",
-    //   "november",
-    //   "december",
-    // ];
-    if (filename.includes("index.md")) {
-      if (filename.includes("blogindex.md"))
-        processIndexFile(filename, blogindextemplate, outPath);
-      else processIndexFile(filename, indextemplate, indexoutPath);
-    } else if (filename.includes("current.md"))
-      processIndexFile(filename, currenttemplate, indexoutPath);
-    else if (filename.includes("cv.md"))
-      processIndexFile(filename, defaultemplate, indexoutPath);
-    // else if (months.some((el) => filename.includes(el)))
-    //   processBlogFile(filename, currenttemplate, outPath);
-    else if (filename.includes("reading.md"))
-      processIndexFile(filename, defaultemplate, indexoutPath);
-    else if (!expiredFiles.some((el) => filename.includes(el)))
-      processBlogFile(filename, blogtemplate, outPath);
+    switch (filename.split("/").slice(-1)[0]) {
+      case "index.md":
+        processIndexFile(filename, templateMap.index, indexoutPath);
+        break;
+      case "current.md":
+        processCurrentFile(filename, templateMap.current, indexoutPath);
+        break;
+      case "blogindex.md":
+        processIndexFile(filename, templateMap.blogindex, outPath);
+        break;
+      case "cv.md":
+        processDefaultFile(filename, templateMap.default, indexoutPath, true);
+        break;
+      case "reading.md":
+        processDefaultFile(filename, templateMap.default, indexoutPath);
+        break;
+      default:
+        if (!expiredFiles.some((el) => filename.includes(el)))
+          processBlogFile(filename, templateMap.blog, outPath);
+    }
   });
 };
 
