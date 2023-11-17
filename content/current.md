@@ -31,10 +31,9 @@ This year, I
 By the end of this year, I want to have 
 
 - built more projects
-- read more 
-- write more
+- read and written more 
 - become more fit than I was in January
-- a solid plan for the next two-three years
+- built a solid plan for the next two-three years
 
 Before beginning 2024, I want to have grown to look back at 2023 and be proud of myself; thus, I will be working on myself for the next month. 
 
