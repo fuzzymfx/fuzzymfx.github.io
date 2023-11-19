@@ -21,7 +21,8 @@ description: "CV- portfolio: An extensive list of my projects and skills"
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
   - Creating multiple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
-  - Building natural language to SQL engines using LangChain, prompt engineering, GPT-3.5-turbo & GPT-4.
+  - Built an advanced custom scheduling and logging using service using React, Node, and Python, to store user data periodically.
+  - Building natural language to SQL engines using LangChain, vector-embeddings - Llama-index prompt engineering, GPT-3.5-turbo & GPT-4.
 - **Full-stack Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
   - Building a custom PDF viewer using Firebase SDK. Used Cloud Firestore as the database.
@@ -52,6 +53,11 @@ description: "CV- portfolio: An extensive list of my projects and skills"
 
 ### Projects
 
+- [Dough](https://github.com/fuzzymfx/dough) - A **cli presentation tool** written in Rust. 
+  - \[*TypeScript, Web Sockets, NodeJs*] *- 2023*
+  - Built the commnad line args parser using the clap library.
+  - Parsed markdown files using the pulldown-cmark library and rendered them using the termion library.
+  - Customized the terminal using the termion library. Adding syntax highlighting, custom syntax, design, and animations.
 - [Bee](https://github.com/fuzzymfx/b) - A **tiny bit torrent client** written in TypeScript. Built to work with the movie recommendation system and the movie rating prediction system.
   - \[*TypeScript, Web Sockets, NodeJs*] *- 2023*
   - Wrote a bencode parser to parse torrent and magnet files
@@ -158,7 +164,9 @@ description: "CV- portfolio: An extensive list of my projects and skills"
 ---
 
 ### Activities
-
+- Luma - Magic Ball: Then AI Reveal - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
+- Luma - Magic Ball: OpenAI Dev Day - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
+- Luma - Magic Ball: The Reveal - 2023 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_the-reveal-by-magic-ball-activity-7100826884778717184-JkVu?utm_source=share&utm_medium=member_desktop)    
 - Chargebee - Finance Leader Roundtable, 2023
 - Google IO/Connect, 2023
 - Git Groove - UnStop 2023 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_git-groove-getting-into-the-rhythm-of-version-activity-7050527332519862272-jniz?utm_source=share&utm_medium=member_desktop)
