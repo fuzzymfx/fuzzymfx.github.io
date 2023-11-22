@@ -22,7 +22,7 @@ description: "CV- portfolio: An extensive list of my projects and skills"
   - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
   - Creating multiple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
   - Built an advanced custom scheduling and logging using service using React, Node, and Python, to store user data periodically.
-  - Building natural language to SQL engines using LangChain, vector-embeddings - Llama-index prompt engineering, GPT-3.5-turbo & GPT-4.
+  - Building natural language to SQL engines using LangChain, vector-embeddings - Llama-index prompt engineering, GPT-3.5-turbo & GPT-4-1106-preview.
 - **Full-stack Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
   - Building a custom PDF viewer using Firebase SDK. Used Cloud Firestore as the database.
@@ -54,7 +54,7 @@ description: "CV- portfolio: An extensive list of my projects and skills"
 ### Projects
 
 - [Dough](https://github.com/fuzzymfx/dough) - A **cli presentation tool** written in Rust. 
-  - \[*TypeScript, Web Sockets, NodeJs*] *- 2023*
+  - \[*Rust, Termion, Clap*] *- 2023*
   - Built the commnad line args parser using the clap library.
   - Parsed markdown files using the pulldown-cmark library and rendered them using the termion library.
   - Customized the terminal using the termion library. Adding syntax highlighting, custom syntax, design, and animations.

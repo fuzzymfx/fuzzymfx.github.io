@@ -17,7 +17,9 @@ title: "Current shenanigans"
 
 ##### Current, 2023
 
-As November comes to an end, I look back at 2023; with only a month left, I am looking at my resolutions for this year and wondering if I even came close to starting them. I am looking at the decisions that I took in these past eleven months and wondering how much I progressed.
+December brings forth a lot of major life changes.
+
+As November came to an end; with merely a month left, I looked at my resolutions for this year and wondered if I even came close to starting them. Contemplating on the decisions that I took in these past eleven months, I pondered on how much I had progressed.
 
 This year, I
 
@@ -37,9 +39,9 @@ By the end of this year, I want to have
 
 Before beginning 2024, I want to have grown to look back at 2023 and be proud of myself; thus, I will be working on myself for the next month. 
 
-The festive season in Nov is always a busy time for us Indians. It brings forth long weekends, leaves, and holidays. Corporate folks save up leaves and vacation days to go back home and cherish the season with friends and family. I went back home for this Diwali. We had a Puja at home, and I met my extended family. It was a weekend of fun and a break from my work life. I got chocolates for Sneha and got her a neck pillow. Both my sisters had their birthday at the beginning of November, and I had to get each of them gifts. 
+The festive season in Nov is always a busy time for us Indians. It brings forth long weekends, leaves, and holidays. Corporate folks save up leaves and vacation days to go back home and cherish the season with friends and family. I, too, went back home for this Diwali. We had a Puja at home, and I met my extended family. It was a weekend of fun and a break from my work life. I got chocolates for Sneha and got her a neck pillow. Both my sisters had their birthday at the beginning of November, and I had to get each of them gifts. 
 
-Returning back from home is always a challenge. The dreaded steps that I take on mornings when I know I have a flight to catch are the worst. This time too, I did not want to return and with each breath that I took, I wished somehow magically I wouldn't have to leave my home, and yet I would be employed and earning a living. I had to leave, and with a heavy heart I mustered all courage inside me, and I did. Rio never gets why I have to leave. He is always by my side whenever I am in my home and tries his best to not let me leave my room. There are things that humans do that dogs do not understand, like leaving. I wish I could explain to him that I have to leave, and I will be back soon. While he knows that I will be back someday, he still makes those puppy eyes, unable to speak up or do anything, just looks at me leave.
+Returning back from home is always a challenge. The dreaded steps that I take on mornings when I know I have a flight to catch are the worst. This time too, I did not want to return and with each breath that I took, I wished somehow magically I wouldn't have to leave my home, and yet I would be employed and earning a living. I had to leave, and with a heavy heart I mustered all courage inside me, and I did. Rio never gets why I have to leave. He is always by my side whenever I am in my home and tries his best to not let me leave my room. There are things that humans do that dogs do not understand, like leaving. I wish I could explain to him that I have to leave, and I will be back soon. While he knows that I will be back someday, he still makes those puppy eyes, unable to speak up or do anything, just looks at me leave. If only I could explain that leaving is a transient inevitability!
 
 The following week was a stressful one. At Stackit, I had a lot of pending tasks on the backlog. While back at home I had to prepare for an important test. The highlight of the week was watching India go into finals in the ICC Men's Cricket World Cup. Even though I am not a sports fan, looking at my country at the top of the leaderboard, undefeated, making its way to win the finals made me proud.
 
@@ -60,7 +62,7 @@ Dev:
 
 I am planning to polish up my Data Structures and Algorithms, and my profile. Looking at the current market it is evident that only the skilled ones make it to the top. 
 
-I am currently working on building a Nl2SQL engine for StackIt. A platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process. The tech behind this would invlove vectorizing SQL schemas and using a multi-query engine to find the appropriate schema-embedding section to send to the LLM to generate SQL queries.
+I am currently working on building an Nl2SQL engine for StackIt. A platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process. The tech behind this would involve vectorizing SQL schemas and using a multi-query engine to find the appropriate schema-embedding section to send to the LLM to generate SQL queries.
 
 At StackIt, we have decided to have a `demo pitch round` each Saturday. We make presentations to show what we've built in the entire week. Inspired by this, a zeal to build my own presentation came rushing. Thus, I started [Dough](https://github.com/fuzzymfx/dough): a rich, modular, command-line tool to generate presentations written in Rust. 
 
@@ -68,11 +70,11 @@ Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a
 
 Research:
 
-I am diving deeper into the world of AI, prompt engineering and fine-tuning LLMs to convert natural language to SQL queries. The need for this arose when we built an NL2SQL generator at StackIt, and it proved not to be entirely successful. The model was not able to generate SQL queries for complex questions. Thus, I am trying to understand the prompt engineering behind the entire infrastructure of Lookup AI. Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
+I am diving deeper into the world of AI, prompt engineering and fine-tuning LLMs to convert natural language to SQL queries. The impetus for this exploration stemmed from the shortcomings of an NL2SQL generator at StackIt, prompting a quest for a robust platform automating SQL generation from natural language queries. The model was not able to generate SQL queries for complex questions. Thus, I am trying to understand the prompt engineering behind the entire infrastructure of Lookup AI. Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
 
 Books:
 
-*I promise to read books this time :P*
+Amidst these pursuits, I **vow** to finally delve into literary realms with the "Remembrance of Earth's Past" trilogy and indulge in a plethora of shows and games to diversify my experiences :p
 
 - Remembrance of Earth's Past: The Trilogy
 	- ~~The three-body problem~~
