@@ -4,7 +4,7 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Nov 2023 20:53:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Nov 2023 20:56:41 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
@@ -48,8 +48,9 @@
               2023-07-08
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;h5 id=&quot;april-june-2023&quot; tabindex=&quot;-1&quot;&gt;April- June, 2023&lt;/h5&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;h5 id=&quot;april-june-2023&quot; tabindex=&quot;-1&quot;&gt;April- June, 2023&lt;/h5&gt;
 &lt;p&gt;— &lt;strong&gt;June&lt;/strong&gt; —&lt;/p&gt;
 &lt;p&gt;Moving to Bangalore has been tough. The sheer number of people and the traffic is overwhelming. Coming from a place where I had my own room, spent a ton of time with my friends, and had a lot of time to myself, it’s been a bit of a challenge to settle down here. I have been trying to get used to the city, and it’s been almost a month since I moved here, and &lt;a href=&quot;/blog/lifeinametro.html&quot;&gt;here’s what it’s like&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;While adapting to this new environment, at StackIt things have been going great. The product is in a very early stage, so the sheer amount of effort that goes into building the product is immense. The workload is a lot, and it’s difficult to figure out where time passes by. Looking back, I see that it’s already July, and it feels as if I had just joined a few days back!&lt;/p&gt;
@@ -135,12 +136,13 @@
 &lt;p&gt;Older posts:&lt;/p&gt;
 &lt;h5 id=&quot;january-2023&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;/blog/january23.html&quot;&gt;January, 2023&lt;/a&gt;&lt;/h5&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -189,8 +191,9 @@
               2023-10-23
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;style&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;style&gt;
  .dubai {
  justify-content: center;
  align-items: center;
@@ -278,12 +281,13 @@ Kite Beach
 &lt;/figure&gt;
 &lt;p&gt;Before bidding adieu to this captivating city, we indulged in ice cream and mocktails and chatted a lot about how things were going on in our lives. We roamed on the beach, scouting for hats and sunglasses and bought &lt;em&gt;Oud&lt;/em&gt; perfumes. While our feet sank into the soft sand, we delved into discussions about life in different countries and argued about which was better. We knew in our hearts that all we wanted was to reside in the same place. With fond memories in our hearts, perhaps some flaky promises and a heavy heart, we made our way to the airport embarking on my return journey to India.&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -332,8 +336,9 @@ Kite Beach
               2022-01-19
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;Srijan Paul&lt;/strong&gt;&lt;/p&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;p&gt;&lt;strong&gt;Srijan Paul&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;During my short stint as a blockchain developer, I’ve learned a lot and have met amazing people.
 While I acknowledge the skill and reverence of some developers in this domain,
 I still remain uncharmed by the zeal of web3.&lt;/p&gt;
@@ -488,12 +493,13 @@ A classic “rich get richer” scheme.&lt;/p&gt;
 It &lt;strong&gt;might&lt;/strong&gt; be used for problems such as food contamination tracing, and verifying ownership of legal documents.
 However the world today is in a frenzy to use it in all the places where it doesn’t belong.&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -542,8 +548,9 @@ However the world today is in a frenzy to use it in all the places where it does
               2023-04-08
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;h5 id=&quot;january-march-2023&quot; tabindex=&quot;-1&quot;&gt;January - March, 2023&lt;/h5&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;h5 id=&quot;january-march-2023&quot; tabindex=&quot;-1&quot;&gt;January - March, 2023&lt;/h5&gt;
 &lt;p&gt;Like all good things, my time as &lt;a href=&quot;https://github.com/anubhab-patnaik&quot;&gt;a full-stack engineer&lt;/a&gt; at &lt;a href=&quot;https://squbix.in&quot;&gt;Squbix Digital&lt;/a&gt; had to come to an end. I’m grateful for the opportunity. I was tasked with building web and mobile apps to integrate with the blockchain. I got to work with TypeScript, NodeJs, ReactJs, React Native, Substrate, and Rust and got to learn a ton of new things. I got to work with Web3 technologies; cryptocurrencies, decentralized applications, blockchains, and NFTs. I was responsible for refactoring React-Native applications with better UI and implementing offline storage, push notifications, and was tasked with building an internal ERP system to monitor the attendance and tasks of employees. I also built and backend APIs using NodeJs and ExpressJs. I got to tinker with the existing NodeJs code and configured optional parameters to switch between different blockchains, and also refactored the JS-based SDK to TypeScript. We also had to build a Chrome extension, and a PWA for wallet -to- wallet transactions and used mocha for unit testing. In the Polkadtot chain, I modified the existing DID pallet using rust and substrate to store identity information in the blockchain with additional unit tests.&lt;/p&gt;
 &lt;p&gt;I embarked on an exhilarating trip to two of India’s most bustling cities, Mumbai and New Delhi. The highlight of my visit was undoubtedly attending Mood Indigo 2023, the annual cultural extravaganza hosted by IIT Bombay. The experience left me in awe! I was also the Contigent Leader of my college and also got a &lt;a href=&quot;https://drive.google.com/file/d/1NMJChzaUcKUKqYJJW3EEGX2WogZyVPJh/view?usp=sharing&quot;&gt;certificate&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I participated in the XIMUN 2023, the annual Model United Nations conference hosted by XIM University, with my go-to co-delegate, &lt;a href=&quot;https://www.linkedin.com/in/avinashprasad-2001/&quot;&gt;Avinash&lt;/a&gt;. I am thrilled to have bagged the &lt;a href=&quot;https://drive.google.com/file/d/1vTZl3K2kRTJgDgFr3lN5mxSaz7pnwvc2/view?usp=share_link&quot;&gt;Best Delegate&lt;/a&gt; award at the conference. Our team represented Pakistan in the Disarmament and International Security Committee (DISEC). We decided to go with Pakistan because representing any other nation or a P5/ NATO nation is relatively more straightforward because there are lesser fingers pointed at you and Pakistan presented a unique challenge due to its reputation for alleged notorious activities. Overall, it was a satisfying victory, and I am grateful for the opportunity to have participated.&lt;/p&gt;
@@ -608,12 +615,13 @@ However the world today is in a frenzy to use it in all the places where it does
 &lt;p&gt;As the days of college slip away, I’m determined to make the most of the time I have left. I cherish the friendships I’ve formed and know that they may change but will always hold a special place in my heart.&lt;/p&gt;
 &lt;p&gt;Furthermore, as I gear up to graduate this year, I am actively scouring the web for compelling summer internship opportunities.&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -662,8 +670,9 @@ However the world today is in a frenzy to use it in all the places where it does
               2023-09-30
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;h5 id=&quot;july-september-2023&quot; tabindex=&quot;-1&quot;&gt;July - September, 2023&lt;/h5&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;h5 id=&quot;july-september-2023&quot; tabindex=&quot;-1&quot;&gt;July - September, 2023&lt;/h5&gt;
 &lt;p&gt;&lt;a href=&quot;/blog/lifeinametro.html&quot;&gt;Settling down in Bangalore&lt;/a&gt; and looking forward to a new, competitive and exciting software engineering life here. The new house is lovely and living with my best friends solves more problems than I anticipated. I am trying to make out time of my schedule to play the guitar more, write more, work on my projects, and also polish up my data structures and algorithms as well. For a good part of my adulthood, I tried to avoid investments and always had my dad take care of them. Now, I have decided to learn more about stocks, investments and the pile of cash surrounding it. I aspire to be physically fit, but my appetite for junk food has spread like wildfire. I am trying to get into a routine and lose a considerable amount of weight before hitting the gym.&lt;/p&gt;
 &lt;p&gt;The past few months have been a whirlwind of new experiences for me. Navigating a new city, a fresh job, and an unfamiliar way of life has certainly kept me on my toes. I have been trying to get a hang of the new city, the new job and the new life. I got to attend a lot of networking events in Bangalore. At StackIt, we meet a lot of startups and enterprises and try to see if our product solves their problem. We went to Chargebee’s Finance and Ops conference, Google IO Connect, and The Magic Ball event.  Each of these experiences provided valuable insights into the industry landscape and allowed us to make meaningful connections. Moreover, our recent involvement in YC’s Startup School, focusing specifically on the AI domain, proved to be a significant milestone. This platform served as the launch pad for our AI vertical, marking a successful endeavour in this direction.&lt;/p&gt;
 &lt;p&gt;However, life threw me a curveball when I fell ill just last month. The diagnosis was a combination of dengue and a stomach ulcer, which necessitated a week-long hiatus to recover back home. My return to Bangalore revealed a turbulent living situation. I had to shift from where I was staying since the rent and overall expenses of the place shot up. There were a lot of unknowns and a ton of expenses that kept on piling up. My roommates did not inform me earlier about this and as soon as I paid the deposit,  I was confronted with a daunting list of a shitload of bills that I needed to clear. As I refused to pay, they asked me to find a replacement, or else I would not get back the deposit.&lt;/p&gt;
@@ -702,12 +711,13 @@ However the world today is in a frenzy to use it in all the places where it does
 &lt;h5 id=&quot;april-2023&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;/blog/april23.html&quot;&gt;April, 2023&lt;/a&gt;&lt;/h5&gt;
 &lt;h5 id=&quot;january-2023&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;/blog/january23.html&quot;&gt;January, 2023&lt;/a&gt;&lt;/h5&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -756,8 +766,9 @@ However the world today is in a frenzy to use it in all the places where it does
               2023-07-08
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;style&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;style&gt;
  .skylab {
  justify-content: center;
  align-items: center;
@@ -798,12 +809,13 @@ Looking forward...
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -852,8 +864,9 @@ Looking forward...
               2022-08-31
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;p&gt;I am working with &lt;a href=&quot;https://squbix.com/&quot;&gt;Squbix Digital&lt;/a&gt; to build a decentralized, secure and scalable solution using blockchain technology for &lt;a href=&quot;https://swnglobal.com/&quot;&gt;Sovereign Wallet&lt;/a&gt;. The solution is to build a platform to exchange digital assets such as cryptocurrencies and digital currencies across a country/ organization and a cross-border payments system. Here is the &lt;a href=&quot;https://sovereignwallet-network.github.io/whitepaper/MetaMUI-Blockchain-White-Paper.pdf&quot;&gt;metamui whitepaper&lt;/a&gt; and here are some of the things that I couldn’t digest well.&lt;/p&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;p&gt;I am working with &lt;a href=&quot;https://squbix.com/&quot;&gt;Squbix Digital&lt;/a&gt; to build a decentralized, secure and scalable solution using blockchain technology for &lt;a href=&quot;https://swnglobal.com/&quot;&gt;Sovereign Wallet&lt;/a&gt;. The solution is to build a platform to exchange digital assets such as cryptocurrencies and digital currencies across a country/ organization and a cross-border payments system. Here is the &lt;a href=&quot;https://sovereignwallet-network.github.io/whitepaper/MetaMUI-Blockchain-White-Paper.pdf&quot;&gt;metamui whitepaper&lt;/a&gt; and here are some of the things that I couldn’t digest well.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#metablockchain-core&quot;&gt;Metablockchain-core&lt;/a&gt;
 &lt;ul&gt;
@@ -991,12 +1004,13 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 &lt;p&gt;The approaches may be justified once some of the important issues are addressed. Other than the mentioned problems, a lot of other factors need to make sense in order to improve and make the platform more a feasible good product to be sold. The product being built is excellent, no doubt. The deep learning models in the ACB mechanism, the tech being used, the next generation Polkadot blockchains which are much, much faster (1000 transactions per second as compared to 7-10 transactions in traditional blockchain networks) and allow a huge no. of queries in a much faster time, the faster and more efficient transaction mechanisms, interoperability, the economic scalability, user-driven governance, the forkless upgrades, and the claimed security and transparency, are a step in the right direction, but there are grave issues those still need to be addressed before the product is introduced and launched.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ref: &lt;a href=&quot;https://sovereignwallet-network.github.io/whitepaper/MetaMUI-Blockchain-White-Paper.pdf&quot;&gt;Whitepaper&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1045,8 +1059,9 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
               2023-02-14
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;script type=&quot;module&quot; src=&quot;/assets/js/qtree/index.js&quot;&gt;&lt;/script&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;script type=&quot;module&quot; src=&quot;/assets/js/qtree/index.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;module&quot; src=&quot;/assets/js/qtree/qdtree.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;I stumbled upon &lt;a href=&quot;https://koalastothemax.com/&quot;&gt;KoalasToTheMax&lt;/a&gt; while reading a blog post about the most exciting web pages built for fun, and I was blown away. &lt;a href=&quot;https://injuly.in/&quot;&gt;Srijan&lt;/a&gt; explained how it works, and we were inspired to create something similar.&lt;/p&gt;
 &lt;p&gt;But first, let’s get into the basics of the data structures used in&amp;nbsp;our&amp;nbsp;project.&lt;/p&gt;
@@ -1237,12 +1252,13 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
 &lt;p&gt;If you want to explore more, check out the slider and the entire source code on &lt;a href=&quot;http://github.com/cbrtl/qd-compression&quot;&gt;GitHub&lt;/a&gt;. And don’t hesitate to ask us any questions or give suggestions. We’re always happy to&amp;nbsp;chat&amp;nbsp;on&amp;nbsp;GitHub!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ref: &lt;a href=&quot;https://en.wikipedia.org/wiki/Quadtree&quot;&gt;Wikipedia&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1291,8 +1307,9 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
               2023-03-17
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;style&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;style&gt;
  .resoc {
  justify-content: center;
  align-items: center;
@@ -1323,12 +1340,13 @@ RESOC Traffic during exam time!
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1377,8 +1395,9 @@ RESOC Traffic during exam time!
               2022-10-14
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;p&gt;Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++, but with emphasis on code safety, the lack of which is probably why C and C++ are painful to deal with. It accomplishes memory safety without using a dedicated garbage collector. Rust is also an ahead-of-time compiled language, which means that you can compile a rust program, give it to someone else, and they can run it even without having Rust installed. However, Rust has more than just memory safety on its side. High performance while processing large amounts of data, support for concurrent programming, and an effective compiler are other reasons why well-known software heavyweights such as Firefox, Dropbox, Cloudflare, and many web-3 startups and large corporations use Rust in production.&lt;/p&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;p&gt;Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++, but with emphasis on code safety, the lack of which is probably why C and C++ are painful to deal with. It accomplishes memory safety without using a dedicated garbage collector. Rust is also an ahead-of-time compiled language, which means that you can compile a rust program, give it to someone else, and they can run it even without having Rust installed. However, Rust has more than just memory safety on its side. High performance while processing large amounts of data, support for concurrent programming, and an effective compiler are other reasons why well-known software heavyweights such as Firefox, Dropbox, Cloudflare, and many web-3 startups and large corporations use Rust in production.&lt;/p&gt;
 &lt;p&gt;Some questions that may come to your mind are:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;If Rust is created to achieve performance similar to that offered by C++, then why not use C++ instead?&lt;/li&gt;
@@ -1521,12 +1540,13 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
 &lt;p&gt;Coming back to our questions that we were pondering upon earlier, now we get that compiled languages are preferred over interpreted languages as they are much faster and hence C++/ Go are preferred over Python/JavaScript. While C++ is extremely fast, it is also prone to memory leaks. Other languages such as Rust and Go offer better automatic memory management. Go implements a garbage collector which has a CPU usage overhead while Rust builds over RAII and implements borrow checking and ownership rules to ensure that memory is freed as soon as the object goes out of scope. Rust also provides a garbage collector that can be used to free memory when the object goes out of scope.&lt;/p&gt;
 &lt;p&gt;Will rust replace C++ anytime soon? &lt;strong&gt;No&lt;/strong&gt;. Rust is a relatively new language and is still in its early stages of development. It is not yet widely used in production, and there are still many features that are missing. However, it is gaining popularity and is being used in many large projects, such as Firefox and Servo. C++ has been widely used for decades and has a vast amount of &lt;em&gt;legacy code&lt;/em&gt;, making it difficult for Rust to replace it. C++ has a much larger community and ecosystem, with a wealth of libraries, tools, and resources, making it easier for developers to find help and resources. Rust’s tooling is still evolving and may not be as mature or widely used as C++.&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1575,8 +1595,9 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
               2023-06-11
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;p&gt;StackIt empowers you to automate the data importing process into your spreadsheets, making it more efficient and hassle-free. By eliminating the need for coding, StackIt enables users of all backgrounds to effortlessly create connections with various data sources and seamlessly import relevant data into their spreadsheets.&lt;/p&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;p&gt;StackIt empowers you to automate the data importing process into your spreadsheets, making it more efficient and hassle-free. By eliminating the need for coding, StackIt enables users of all backgrounds to effortlessly create connections with various data sources and seamlessly import relevant data into their spreadsheets.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#how-does-it-work&quot;&gt;How does it work?&lt;/a&gt;
 &lt;ul&gt;
@@ -1706,12 +1727,13 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee&lt;/p&gt;
 &lt;h4 id=&quot;data-pipelines&quot; tabindex=&quot;-1&quot;&gt;Data Pipelines&lt;/h4&gt;
 &lt;p&gt;The data pipelines are built using &lt;code&gt;python&lt;/code&gt;, and &lt;code&gt;Apache Kafka&lt;/code&gt;. Kafka is a distributed streaming platform that is used to build real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, and extremely fast. &lt;strong&gt;It is used to store the data temporarily before it is imported into the Google Sheets&lt;/strong&gt;.&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1760,8 +1782,9 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee&lt;/p&gt;
               2023-05-15
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;style&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;style&gt;
  .skylab {
  justify-content: center;
  align-items: center;
@@ -1796,12 +1819,13 @@ Goodbye, SIT ❤️
 &lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;190310030 Signing Off&lt;/code&gt;&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1850,8 +1874,9 @@ Goodbye, SIT ❤️
               2023-04-29
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;p&gt;Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Chill, I did not unfollow you; I didn’t run the script on my original account xD)&lt;/p&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;p&gt;Hey guys, with nothing much to do and while scrolling down aimlessly and looking at useless content on LinkedIn, I wrote a script to unfollow everyone on LinkedIn ( Chill, I did not unfollow you; I didn’t run the script on my original account xD)&lt;/p&gt;
 &lt;p&gt;To try this out, visit &lt;a href=&quot;https://www.linkedin.com/feed/followers/&quot;&gt;https://www.linkedin.com/feed/followers/&lt;/a&gt;, inspect the page, and copy and paste the following script into your console.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;(&lt;span class=&quot;hljs-function&quot;&gt;() =&amp;gt;&lt;/span&gt; {
  &lt;span class=&quot;hljs-keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;hljs-title function_&quot;&gt;unfollowAll&lt;/span&gt;(&lt;span class=&quot;hljs-params&quot;&gt;&lt;/span&gt;) {
@@ -1884,12 +1909,13 @@ Goodbye, SIT ❤️
 &lt;p&gt;One the button is clicked, the script waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds to update the list of followings before running the &lt;code&gt;runUnfollowAll&lt;/code&gt; function again. If there are no more followings left, the script stops.&lt;/p&gt;
 &lt;p&gt;Happy unfollowing! :D&lt;/p&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1938,8 +1964,9 @@ Goodbye, SIT ❤️
               2022-05-29
             &lt;/li&gt;
           &lt;/ul&gt;
-          &lt;div class=&quot;content custom&quot;&gt;
-            &lt;p&gt;Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code ;)&lt;/p&gt;
+          &lt;main&gt;
+            &lt;div class=&quot;content custom&quot;&gt;
+              &lt;p&gt;Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code ;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#how-does-it-work&quot;&gt;How does it work?&lt;/a&gt;
 &lt;ul&gt;
@@ -2116,12 +2143,13 @@ data: {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-            &lt;hr&gt;
-            &lt;div class=&quot;footer&quot;&gt;
-              Suggestions or corrections?
-              &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;hr&gt;
+              &lt;div class=&quot;footer&quot;&gt;
+                Suggestions or corrections?
+                &lt;a href=&quot;mailto:anubhabr50@gmail.com?subject=Here&apos;s%20a%20suggestion/feedback!&amp;amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...&quot;&gt;Send me a message&lt;/a&gt;.
+              &lt;/div&gt;
             &lt;/div&gt;
-          &lt;/div&gt;
+          &lt;/main&gt;
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
