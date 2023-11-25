@@ -14,6 +14,6 @@ I enjoy music and have recently taken up playing the guitar. I also have a pench
 
 Besides, I [attend events](https://anubhavp.dev/cv#activities) related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
 
-Find my GitHub [here](https://github.com/fuzzymfx) and drop me a hi at <anubhabr50@gmail.com>.
+[Find my GitHub here](https://github.com/fuzzymfx) and drop me a hi at <anubhabr50@gmail.com>.
 
-This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *34rem*, and the font used is *Avenir*. The source code is available [here](https://github.com/fuzzymfx/fuzzymfx.github.io).
+This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *34rem*, and the font used is *Avenir*. [The source code is available here](https://github.com/fuzzymfx/fuzzymfx.github.io).
