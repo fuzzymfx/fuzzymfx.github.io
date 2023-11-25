@@ -52,7 +52,7 @@ jobs:
       - name: Build
         run: npm run generate
       - name: Commit and Push Changes
-        run: git add . && git commit -m "Deploying latest commit" && git push origin main-v3
+        run: git add . && git commit -m "Deploying latest commit" --allow-empty && git push origin main-v3
       - name: Checkout
         #   uses: actions/checkout@v3
         # - name: Setup Pages
