@@ -1,4 +1,10 @@
+/**
+ * Updates the theme based on the user's preference.
+ * @param {MediaQueryList} mediaQueryList - The media query list object.
+ */
 function updateThemeBasedOnPreference(mediaQueryList) {
+  // Your code here
+}
   if (mediaQueryList.matches) {
     document
       .querySelector('link[rel="icon"]')
@@ -17,7 +23,7 @@ function updateThemeBasedOnPreference(mediaQueryList) {
 }
 
 // On page load
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
   updateThemeBasedOnPreference(mediaQueryList);
   mediaQueryList.addListener(updateThemeBasedOnPreference);
