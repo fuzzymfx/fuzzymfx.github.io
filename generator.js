@@ -11,26 +11,37 @@ import markdownItAnchor from "markdown-it-anchor";
 import string from "string";
 import { mdToPdf } from "md-to-pdf";
 
-// skipcq: JS-D1001
+/*
+ * Function: slugify
+ * Description: Converts a string into a slug, which is a URL-friendly version of a string.
+ * Parameters: s - The string to be converted into a slug.
+ * Returns: The slug version of the input string.
+ */
 const slugify = (s) => string(s).slugify().toString();
 
+// Initializing MarkdownIt with options
 const md = MarkdownIt({
-  html: true,
-  linkify: true,
-  typographer: true,
+  html: true, // Enable HTML tags in source
+  linkify: true, // Autoconvert URL-like text to links
+  typographer: true, // Enable some language-neutral replacement + quotes beautification
   highlight(str, language) {
+    // Highlight code blocks
     if (language && hljs.getLanguage(language)) {
       try {
-        return hljs.highlight(str, { language: language }).value;
+        return hljs.highlight(str, { language }).value;
       } catch (err) {
         console.log(err);
       }
     }
 
-    return null;
+    return null; // If no language is specified, return null
   },
-}).use(markdownItAnchor, { slugify });
-
+}).use(markdownItAnchor, { slugify }); // Use markdown-it-anchor plugin with slugify function
+/**
+ * Reads a file and returns its content, parsed and rendered as HTML.
+ * @param {string} filename - The filename to read.
+ * @returns {object} - The parsed file content, including the rendered HTML.
+ */
 const readFile = (filename) => {
   const rawFile = fs.readFileSync(filename, "utf8");
   const parsed = matter(rawFile);
@@ -39,47 +50,87 @@ const readFile = (filename) => {
   return { ...parsed, html };
 };
 
+/**
+ * Replaces placeholders in a template string with provided data.
+ * @param {string} template - The template string.
+ * @param {object} data - The data object containing date, title, content, author, and description.
+ * @returns {string} - The templated string with placeholders replaced by actual data.
+ */
 const templatize = (template, { date, title, content, author, description }) =>
   template
     .replace(/<!-- PUBLISH_DATE -->/g, date)
     .replace(/<!-- TITLE -->/g, title)
     .replace(/<!-- CONTENT -->/g, content)
-    // .replace(/<!-- AUTHOR -->/g, author)
     .replace(/<!-- DESCRIPTION -->/g, description);
 
+/**
+ * Replaces placeholders in an index page template string with provided data.
+ * @param {string} template - The template string.
+ * @param {object} data - The data object containing title and content.
+ * @returns {string} - The templated string with placeholders replaced by actual data.
+ */
 const indextemplatize = (template, { title, content }) =>
   template
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- TITLE -->/g, title);
 
+/**
+ * Replaces placeholders in a default page template string with provided data.
+ * @param {string} template - The template string.
+ * @param {object} data - The data object containing title, content, and description.
+ * @returns {string} - The templated string with placeholders replaced by actual data.
+ */
 const defaulttempletize = (template, { title, content, description }) =>
   template
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- TITLE -->/g, title)
     .replace(/<!-- DESCRIPTION -->/g, description);
 
+/**
+ * Saves a string to a file, creating the necessary directories if they don't exist.
+ * @param {string} filename - The filename to save.
+ * @param {string} contents - The contents to save.
+ */
 const saveFile = (filename, contents) => {
   const dir = path.dirname(filename);
   mkdirp.sync(dir);
   fs.writeFileSync(filename, contents);
 };
 
+/**
+ * Generates the output filename for a given input filename and output path.
+ * @param {string} filename - The filename to save.
+ * @param {string} outPath - The output path.
+ * @returns {string} - The output filename.
+ */
 const getOutputFilename = (filename, outPath) => {
   const basename = path.basename(filename);
   if (basename.includes("index.md")) return path.join(outPath, "index.html");
-  const newfilename = basename.substring(0, basename.length - 3) + ".html";
+  const newfilename = `${basename.slice(0, -3)}.html`;
   const outfile = path.join(outPath, newfilename);
   return outfile;
 };
 
+/**
+ * Generates the output PDF filename for a given input filename and output path.
+ * @param {string} filename - The filename to save.
+ * @param {string} outPath - The output path.
+ * @returns {string} - The output PDF filename.
+ */
 const getOutputPdfname = (filename, outPath) => {
   const basename = path.basename(filename);
-  const newfilename = basename.substring(0, basename.length - 3) + ".pdf";
+  const newfilename = `${basename.slice(0, -3)}.pdf`;
   const outfile = path.join(outPath, newfilename);
   return outfile;
 };
 
-const processBlogFile = async (filename, template, outPath) => {
+/**
+ * Processes a blog file: reads it, replaces placeholders in the template with actual data, and saves the result.
+ * @param {string} filename - The filename to process.
+ * @param {string} template - The template to use.
+ * @param {string} outPath - The output path.
+ */
+const processBlogFile = (filename, template, outPath) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
 
@@ -91,10 +142,19 @@ const processBlogFile = async (filename, template, outPath) => {
     description: file.data.description,
   });
   saveFile(outfilename, templatized);
+  //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
 };
 
-const processDefaultFile = async (
+/**
+ * Processes a default file: reads it, replaces placeholders in the template with actual data, and saves the result.
+ * Optionally generates a PDF version of the file.
+ * @param {string} filename - The filename to process.
+ * @param {string} template - The template to use.
+ * @param {string} outPath - The output path.
+ * @param {boolean} generatePdf - Whether to generate a PDF version of the file.
+ */
+const processDefaultFile = (
   filename,
   template,
   outPath,
@@ -113,10 +173,17 @@ const processDefaultFile = async (
     mdToPdf({ path: filename }, { dest: outpdfname });
   }
   saveFile(outfilename, templatized);
+  //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
 };
 
-const processCurrentFile = async (filename, template, outPath) => {
+/**
+ * Processes the current file: reads it, replaces placeholders in the template with actual data, and saves the result.
+ * @param {string} filename - The filename to process.
+ * @param {string} template - The template to use.
+ * @param {string} outPath - The output path.
+ */
+const processCurrentFile = (filename, template, outPath) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
   const templatized = indextemplatize(template, {
@@ -124,10 +191,19 @@ const processCurrentFile = async (filename, template, outPath) => {
     title: file.data.title,
   });
   saveFile(outfilename, templatized);
+  //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
 };
 
-const processIndexFile = async (filename, template, outPath) => {
+/**
+ * Processes the index file: reads it, replaces placeholders in the template with actual data, and saves the result.
+ * @param {string} filename - The filename to process.
+ * @param {string} template - The template to use.
+ * @param {string} outPath - The output path.
+ * @returns {string} - The output filename.
+ */
+
+const processIndexFile = (filename, template, outPath) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
   const templatized = indextemplatize(template, {
@@ -135,9 +211,12 @@ const processIndexFile = async (filename, template, outPath) => {
     title: file.data.title,
   });
   saveFile(outfilename, templatized);
+  //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
 };
-
+/**
+ * Main function that orchestrates the processing of all markdown files.
+ */
 const main = () => {
   const srcPath = path.resolve("content");
   const outPath = path.resolve("blog");
@@ -160,7 +239,7 @@ const main = () => {
     "./templates/initial/default.html",
     "utf8"
   );
-  const filenames = glob.sync(srcPath + "/**/*.md");
+  const filenames = glob.sync(`${srcPath}/**/*.md`);
 
   const expiredFiles = ["profile"];
 
