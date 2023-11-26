@@ -11,6 +11,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import string from "string";
 import { mdToPdf } from "md-to-pdf";
 
+// skipcq: JS-D1001
 const slugify = (s) => string(s).slugify().toString();
 
 const md = MarkdownIt({
@@ -51,11 +52,11 @@ const indextemplatize = (template, { title, content }) =>
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- TITLE -->/g, title);
 
-const defaulttempletize = (template, { title, content, desc }) =>
+const defaulttempletize = (template, { title, content, description }) =>
   template
     .replace(/<!-- CONTENT -->/g, content)
     .replace(/<!-- TITLE -->/g, title)
-    .replace(/<!-- DESCRIPTION -->/g, desc);
+    .replace(/<!-- DESCRIPTION -->/g, description);
 
 const saveFile = (filename, contents) => {
   const dir = path.dirname(filename);

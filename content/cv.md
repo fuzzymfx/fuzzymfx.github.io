@@ -1,6 +1,6 @@
 ---
 title: "cv - Anubhab Patnaik"
-description: "CV- portfolio: An extensive list of my projects and skills"
+description: "CV- profile: An extensive list of my projects and skills"
 ---
 <script type="module" src="/assets/js/cv/index.js" ></script>
 <span class="update-date-time"></span>
