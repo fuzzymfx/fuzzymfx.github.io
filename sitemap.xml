@@ -3,8 +3,16 @@
       xmlns:xhtml="http://www.w3.org/1999/xhtml">
       
               <url>
+                  <loc>https://anubhavp.dev/blog/23.html</loc>
+                  <lastmod>2023-11-28T18:54:12.973Z</lastmod>
+                  <changefreq>monthly</changefreq>
+                  <priority>0.5</priority>
+              </url>
+          
+
+              <url>
                   <loc>https://anubhavp.dev/blog/april23.html</loc>
-                  <lastmod>2023-11-28T18:07:20.688Z</lastmod>
+                  <lastmod>2023-11-28T18:54:12.985Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -12,7 +20,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/fall23.html</loc>
-                  <lastmod>2023-11-28T18:07:20.720Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.009Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -20,7 +28,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/infeasibleWeb3.html</loc>
-                  <lastmod>2023-11-28T18:07:20.728Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.013Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -28,7 +36,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/january23.html</loc>
-                  <lastmod>2023-11-28T18:07:20.728Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.017Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -36,7 +44,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/july23.html</loc>
-                  <lastmod>2023-11-28T18:07:20.732Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.017Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -44,7 +52,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/lifeinametro.html</loc>
-                  <lastmod>2023-11-28T18:07:20.732Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.021Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -52,7 +60,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/metamuiwallet.html</loc>
-                  <lastmod>2023-11-28T18:07:20.736Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.021Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -60,7 +68,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/onleaving.html</loc>
-                  <lastmod>2023-11-28T18:07:20.736Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.025Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -68,7 +76,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/qtree.html</loc>
-                  <lastmod>2023-11-28T18:07:20.760Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.045Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -76,7 +84,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/resoc.html</loc>
-                  <lastmod>2023-11-28T18:07:20.764Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.049Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -84,7 +92,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/rust.html</loc>
-                  <lastmod>2023-11-28T18:07:20.780Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.065Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -92,7 +100,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/stackit.tech.html</loc>
-                  <lastmod>2023-11-28T18:07:20.780Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.069Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -100,7 +108,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/teasquared.html</loc>
-                  <lastmod>2023-11-28T18:07:20.784Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.069Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -108,7 +116,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/unfollowall.html</loc>
-                  <lastmod>2023-11-28T18:07:20.784Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.073Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -116,7 +124,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/blog/zuzu.html</loc>
-                  <lastmod>2023-11-28T18:07:20.792Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.081Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -124,7 +132,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/404.html</loc>
-                  <lastmod>2023-11-28T18:07:05.648Z</lastmod>
+                  <lastmod>2023-11-28T18:53:59.013Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -132,7 +140,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/current.html</loc>
-                  <lastmod>2023-11-28T18:07:20.700Z</lastmod>
+                  <lastmod>2023-11-28T18:54:12.993Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -140,7 +148,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/cv.html</loc>
-                  <lastmod>2023-11-28T18:07:20.716Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.005Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
@@ -148,7 +156,7 @@
 
               <url>
                   <loc>https://anubhavp.dev/reading.html</loc>
-                  <lastmod>2023-11-28T18:07:20.760Z</lastmod>
+                  <lastmod>2023-11-28T18:54:13.045Z</lastmod>
                   <changefreq>monthly</changefreq>
                   <priority>0.5</priority>
               </url>
