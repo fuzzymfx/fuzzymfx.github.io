@@ -5,5 +5,15 @@ description: "A list of books I have read, and my thoughts on them"
 
 ### Reading List
 
-<li class="flex justify-between pb3"><span>The Three Body Problem</span><span class="date gray">★★★★</span> </li>
-<li class="flex justify-between pb3"><span>All the Light We Cannot See</span><span class="date gray"></span> </li>
+
+- [x] A brief history of time *- Stephen Hawking*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★
+- [x] The three body problem *- Cixin Liu* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
+- [ ] The dark forest *- Cixin Liu*
+- [ ] Death's end *- Cixin Liu*
+- [-] The hitchhiker's guide to the galaxy *- Douglas Adams*
+- [ ] The restaurant at the end of the universe *- Douglas Adams*
+- [-] Life, the universe and everything *- Douglas Adams*
+- [ ] So long, and thanks for all the fish *- Douglas Adams*
+- [ ] Mostly harmless *- Douglas Adams*
+- [ ] And another thing... *- Eoin Colfer*
+- [ ] All the light we cannot see *- Anthony Doerr*
