@@ -36,7 +36,7 @@ By the end of this year, I want to have
 
 Before beginning 2024, I want to have grown to look back at 2023 and be proud of myself; thus, I will be working on myself for the next month. 
 
-Leaving a job isn't an easy call. Leaving something that you've built with your own hands is a tough decision. I had to make that call. Amongst all this chaos, after possibly a hundred losses, I finally got to have a win. I had an adventure of a weekend. I attended a standup comedy show, and went to a mystery room with my friends, we went laser tagging, bowling, and had a blast of a dinner afterwards.
+Leaving a job isn't an easy call. Leaving something that you've built with your own hands is a tough decision. I had to make that call. Amongst all this chaos, after possibly a hundred disapointments, I finally got to have a win. I had an adventure of a weekend. I attended a standup comedy show, and went to a mystery room with my friends, we went laser tagging, bowling, and had a blast of a dinner afterwards.
 
 <figure class="image">
 <img alt='win' src ="/assets/img/oct/win.jpeg" class='h-25 w-25'>
