@@ -16,6 +16,15 @@ December brings forth a lot of major life changes. As with every good journey, t
 
 Now, I'm in transition, on the lookout for the next step in my career. The excitement and dread of embarking on a new professional journey is overwhelming. Meanwhile, I have uncovered a new pain point in the developer tooling market, and I'm working on a solution. I am planning to build something of my own.
 
+Leaving a job isn't an easy call. Leaving something that you've built with your own hands is a tough decision. I had to make that call. Amongst all this chaos, after possibly a hundred disapointments, I finally got to have a win. I had an adventure of a weekend. I attended a standup comedy show, and went to a mystery room with my friends, we went laser tagging, bowling, and had a blast of a dinner afterwards.
+
+<figure class="image">
+<img alt='win' src ="/assets/img/oct/win.jpeg" class='h-25 w-25'>
+<figcaption>
+Winning!
+</figcaption>
+</figure>
+
 As November came to an end; with merely a month left, I looked at my resolutions for this year and wondered if I even came close to starting them. Contemplating on the decisions that I took in these past eleven months, I pondered on how much I had progressed.
 
 This year, I
@@ -35,15 +44,6 @@ By the end of this year, I want to have
 - built a solid plan for the next two-three years
 
 Before beginning 2024, I want to have grown to look back at 2023 and be proud of myself; thus, I will be working on myself for the next month. 
-
-Leaving a job isn't an easy call. Leaving something that you've built with your own hands is a tough decision. I had to make that call. Amongst all this chaos, after possibly a hundred disapointments, I finally got to have a win. I had an adventure of a weekend. I attended a standup comedy show, and went to a mystery room with my friends, we went laser tagging, bowling, and had a blast of a dinner afterwards.
-
-<figure class="image">
-<img alt='win' src ="/assets/img/oct/win.jpeg" class='h-25 w-25'>
-<figcaption>
-Winning!
-</figcaption>
-</figure>
 
 The festive season in Nov is always a busy time for us Indians. It brings forth long weekends, leaves, and holidays. Corporate folks save up leaves and vacation days to go back home and cherish the season with friends and family. I, too, went back home for this Diwali. We had a Puja at home, and I met my extended family. It was a weekend of fun and a break from my work life. I got chocolates for Sneha and got her a neck pillow. Both my sisters had their birthday at the beginning of November, and I had to get each of them gifts. 
 
