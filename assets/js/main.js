@@ -24,6 +24,7 @@ function updateThemeBasedOnPreference(mediaQueryList) {
 document.addEventListener("DOMContentLoaded", () => {
   console.log("DOMContentLoaded");
   const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
+  console.log(mediaQueryList.matches);
   updateThemeBasedOnPreference(mediaQueryList);
   mediaQueryList.addListener(updateThemeBasedOnPreference);
 });
