@@ -220,20 +220,18 @@ const processIndexFile = (filename, template, outPath) => {
  * @param {string} src - The source folder.
  * @param {string} dest - The destination folder.
  **/
-
-const copyAssets = (src, dest) => {
+const copyAssets = (src, dest, depth = 0) => {
   const files = fs.readdirSync(src);
   files.forEach((file) => {
     if (file === ".DS_Store") {
       return;
     }
     const srcFile = path.join(src, file);
-    const destFile = fs.statSync(srcFile).isDirectory()
-      ? path.join(dest, "assets", file)
-      : path.join(dest, file);
+    const destFile =
+      depth === 0 ? path.join(dest, "assets", file) : path.join(dest, file);
     if (fs.statSync(srcFile).isDirectory()) {
       fs.mkdirSync(destFile, { recursive: true });
-      copyAssets(srcFile, destFile);
+      copyAssets(srcFile, destFile, depth + 1);
     } else {
       const contents = fs.readFileSync(srcFile);
       fs.writeFileSync(destFile, contents);
