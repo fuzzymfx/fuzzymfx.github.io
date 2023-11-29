@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "static site generating using javascript and markdown files",
     "main": "generator.js",
-    "dependencies": {
+    "devDependencies": {
+        "@types/glob": "^8.1.0",
+        "@types/mkdirp": "^2.0.0",
         "glob": "^7.1.6",
         "gray-matter": "^4.0.2",
         "highlight.js": "^11.5.1",
@@ -25,9 +27,5 @@
         "zuzussg": "./generator.js"
     },
     "author": "Anubhab Patnaik",
-    "license": "ISC",
-    "devDependencies": {
-        "@types/glob": "^8.1.0",
-        "@types/mkdirp": "^2.0.0"
-    }
+    "license": "ISC"
 }
