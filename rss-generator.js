@@ -36,7 +36,7 @@ async function generateXmls() {
     const directoryPath = path.resolve(".dist/blog");
     const blogFiles = await fs.readdir(directoryPath);
 
-    for (let file of blogFiles) {
+    for (const file of blogFiles) {
       const filePath = path.join(directoryPath, file);
       if (path.extname(filePath) === ".html" && file !== "index.html") {
         const url = `https://anubhavp.dev/blog/${file}`;
@@ -86,7 +86,7 @@ async function generateXmls() {
     const rootFiles = await fs.readdir(rootPath);
     const sitemapItems = [];
 
-    for (let file of blogFiles) {
+    for (const file of blogFiles) {
       const filePath = path.join(directoryPath, file);
       if (path.extname(filePath) === ".html" && file !== "index.html") {
         const url = `https://anubhavp.dev/blog/${file}`;
@@ -108,7 +108,7 @@ async function generateXmls() {
       }
     }
 
-    for (let file of rootFiles) {
+    for (const file of rootFiles) {
       const filePath = path.join(rootPath, file);
       if (file.endsWith(".html") && file !== "index.html") {
         const url = `https://anubhavp.dev/${file}`;

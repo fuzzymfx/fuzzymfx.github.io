@@ -270,8 +270,10 @@ const main = () => {
 
   const expiredFiles = ["stackit.tech"];
 
-  fs.rmSync(dir, { recursive: true, force: true });
-  fs.mkdirSync(dir);
+  if (fs.existsSync(dir)) {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(dir, { recursive: true });
 
   const templateMap = {
     blog: blogtemplate,
