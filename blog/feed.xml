@@ -4,12 +4,12 @@
         <description><![CDATA[Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff]]></description>
         <link>https://anubhavp.dev/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Nov 2023 21:38:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Nov 2023 02:53:55 GMT</lastBuildDate>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[Anubhab Patnaik]]></author>
         <atom:link href="https://anubhavp.dev/blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[23: A Rollercoaster  | Anubhab's blogs]]></title>
+            <title><![CDATA[23: A Rollercoaster ]]></title>
             <description><![CDATA[Ups and downs, highs and lows, peaks and valleys, the year 2023 was a rollercoaster ride.]]></description>
             <link>https://anubhavp.dev/blog/23.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/23.html</guid>
@@ -65,9 +65,9 @@
 &lt;li&gt;&lt;a href=&quot;#october-december-2023&quot;&gt;October - December, 2023&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5 id=&quot;january-march-2023&quot; tabindex=&quot;-1&quot;&gt;January - March, 2023&lt;/h5&gt;
-&lt;p&gt;My time as &lt;a href=&quot;https://github.com/anubhab-patnaik&quot;&gt;a full-stack engineer&lt;/a&gt; at &lt;a href=&quot;https://squbix.in&quot;&gt;Squbix Digital&lt;/a&gt; had to come to an end. I’m grateful for the opportunity. I was tasked with building web and mobile apps to integrate with the blockchain. I got to work with TypeScript, NodeJs, ReactJs, React Native, Substrate, and Rust and got to learn a ton of new things. I got to work with Web3 technologies; cryptocurrencies, decentralized applications, blockchains, and NFTs. I was responsible for refactoring React-Native applications with better UI and implementing offline storage, and push notifications, and was tasked with building an internal ERP system to monitor the attendance and tasks of employees. I also built backend APIs using NodeJs and ExpressJs. I got to tinker with the existing NodeJs code and configured optional parameters to switch between different blockchains and also refactored the JS-based SDK to TypeScript. We also had to build a Chrome extension, and a PWA for the wallet-to-wallet transactions and used Mocha for unit testing. In the Polkadtot chain, I modified the existing DID pallet using rust and substrate to store identity information in the blockchain with additional unit tests.&lt;/p&gt;
+&lt;p&gt;My time as &lt;a href=&quot;https://github.com/anubhab-patnaik&quot;&gt;a full-stack engineer&lt;/a&gt; at &lt;a href=&quot;https://squbix.in&quot;&gt;Squbix Digital&lt;/a&gt; had to come to an end. I’m grateful for the opportunity. I was tasked with building web and mobile apps to integrate with the spinal blockchain. I got to work with TypeScript, NodeJs, ReactJs, React Native, Substrate, and Rust and got to learn a ton of new things. I worked with Web3 technologies; cryptocurrencies, decentralized applications, blockchains, and NFTs. I was responsible for refactoring React-Native applications with better UI and implementing offline storage, and push notifications, and was tasked with building an internal ERP system to monitor the attendance and tasks of employees. This also involved building backend APIs using NodeJs and ExpressJs. I tinkered with the existing NodeJs code and configured optional parameters to switch between different blockchains and also refactored the JS-based SDK to TypeScript. We also had to build a Chrome extension, and a PWA for the wallet-to-wallet transactions and used Mocha for unit testing. In the Polkadtot chain, I modified the existing DID pallet using rust and substrate to store identity information in the blockchain with additional unit tests.&lt;/p&gt;
 &lt;p&gt;I embarked on an exhilarating trip to two of India’s most bustling cities, Mumbai and New Delhi. The highlight of my visit was undoubtedly attending Mood Indigo 2023, the annual cultural extravaganza hosted by IIT Bombay. The experience left me in awe! I was also the Contingent Leader of my college and also got a &lt;a href=&quot;https://drive.google.com/file/d/1NMJChzaUcKUKqYJJW3EEGX2WogZyVPJh/view?usp=sharing&quot;&gt;certificate&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I participated in the XIMUN 2023, the annual Model United Nations conference hosted by XIM University, with my go-to co-delegate, &lt;a href=&quot;https://www.linkedin.com/in/avinashprasad-2001/&quot;&gt;Avinash&lt;/a&gt;. I am thrilled to have bagged the &lt;a href=&quot;https://drive.google.com/file/d/1vTZl3K2kRTJgDgFr3lN5mxSaz7pnwvc2/view?usp=share_link&quot;&gt;Best Delegate&lt;/a&gt; award at the conference. Our team represented Pakistan in the Disarmament and International Security Committee (DISEC). We decided to go with Pakistan because representing any other nation or a P5/ NATO nation is relatively more straightforward because there are fewer fingers pointed at you and Pakistan presented a unique challenge due to its reputation for alleged notorious activities. Overall, it was a satisfying victory, and I am grateful for the opportunity to have participated.&lt;/p&gt;
+&lt;p&gt;I am thrilled to have bagged the &lt;a href=&quot;https://drive.google.com/file/d/1vTZl3K2kRTJgDgFr3lN5mxSaz7pnwvc2/view?usp=share_link&quot;&gt;Best Delegate&lt;/a&gt; award in the XIMUN 2023, the annual Model United Nations conference hosted by XIM University, with my go-to co-delegate, &lt;a href=&quot;https://www.linkedin.com/in/avinashprasad-2001/&quot;&gt;Avinash&lt;/a&gt;. Our team represented Pakistan in the Disarmament and International Security Committee (DISEC). We decided to go with Pakistan because representing any other nation or a P5/ NATO nation is relatively more straightforward because there are fewer fingers pointed at you and Pakistan presented a unique challenge due to its reputation for alleged notorious activities. Overall, it was a satisfying victory, and I am grateful for the opportunity to have participated.&lt;/p&gt;
 &lt;p&gt;I am looking to write blogs/papers on ‘String Theory’ soon. I have always been intrigued by the theory and couldn’t get my head to wrap around it. However, now that my college years are ending, I plan to dedicate my time to writing about it. Another topic that I wanted to work on is ‘Natural Language Models’. I intend to delve deeper into exploring how exactly natural language models work, the neural networks behind them, and some of the most popular models based on transformer architecture, like BERT, and GPT-3. You’re always welcome to reach out if you want to collaborate on any of these topics.&lt;/p&gt;
 &lt;p&gt;I am modifying zuzu to port my &lt;a href=&quot;https://anubhavp.dev/paperblog&quot;&gt;blog&lt;/a&gt; (written in Hugo) to &lt;a href=&quot;https://anubhavp.dev/zuzu&quot;&gt;zuzu&lt;/a&gt;. This entire site and the blog are now built using zuzu. Zuzu is a custom static site generator written in JavaScript. It includes static file compilation, dynamic search, and an RSS feed generator. You can find the source code &lt;a href=&quot;https://github.com/fuzzymfx/zuzu&quot;&gt;here&lt;/a&gt;. Currently, it is in a very early stage of development, and it is designed to work like a basic static site generator. But it can be modified to cater to your needs easily.&lt;/p&gt;
 &lt;p&gt;March had mid-semester exams in stock for me. I thought I wouldn’t pull through and fail miserably. (Chill. That didn’t happen xD). But as I geared towards preparing for the exams, desperately trying to collect notes, a sense of responsibility dawned upon me. &lt;a href=&quot;https://www.linkedin.com/in/smruti-dash-1210/&quot;&gt;khusi&lt;/a&gt; reminded me that we were supposed to build the half-baked project together that makes notes and academic materials accessible for free and I started on the first day of my exam and completed it &lt;a href=&quot;https://resoc.in/&quot;&gt;Resoc&lt;/a&gt; on the last day of the exam. (Funny how I managed to find a way not to study enough xD). You can read more about it &lt;a href=&quot;https://anubhavp.dev/blog/resoc.html&quot;&gt;here&lt;/a&gt;. We acquired a user base of 96 with an average engagement time of 3m14s and more than 2980 reads within a week of launch! We are looking for active contributors interested in contributing their notes.&lt;/p&gt;
@@ -90,14 +90,13 @@
 &lt;p&gt;Moving to Bangalore has been tough. The sheer number of people and the traffic is overwhelming. Coming from a place where I had my room, spent a ton of time with my friends, and had a lot of time to myself, it’s been a bit of a challenge to settle down here. I have been trying to get used to the city, and it’s been almost a month since I moved here, and &lt;a href=&quot;/blog/lifeinametro.html&quot;&gt;here’s what it’s like&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;While adapting to this new environment, at StackIt things have been going great. The product is in a very early stage, so the sheer amount of effort that goes into building the product is immense. The workload is a lot, and it’s difficult to figure out where time passes by. Looking back, I see that it’s already July, and it feels as if I had just joined a few days back!&lt;/p&gt;
 &lt;p&gt;I have been actively engaged in client-side development using React and Google App Script while waiting for the setup of the development environment. The backend is written in NodeJs and &lt;a href=&quot;/blog/stackit.tech.html&quot;&gt;here’s more on how StackIt operates&lt;/a&gt;. Though I have been enjoying working with React, the client-side development env is wrecked, and it takes a lot of time; To render changes I always need to do a test deployment. The code is written by someone before me, and it’s challenging to understand the workflow, I have been trying to get a hang of it since I joined. I have already shipped a few features and bug fixes, and I am looking forward to working on the backend.&lt;/p&gt;
-&lt;p&gt;I am looking out for side work and got part-time work as a full-stack developer at Asymmetri. I am working on a project that renders PDFs based on the user input. To accomplish this, I am working with React, Vite, Next.js, and Firebase as the technology stack. While I’m considering Bootstrap for the UI, I haven’t finalized the decision just yet.&lt;/p&gt;
+&lt;p&gt;I am looking out for side work and got a side gig as a full-stack developer at Asymmetri. I am working on a PDF generator. To accomplish this, I am working with React, Vite, Next.js, and Firebase as the technology stack. While I’m considering Bootstrap for the UI, I haven’t finalized the decision just yet.&lt;/p&gt;
 &lt;h5 id=&quot;july-september-2023&quot; tabindex=&quot;-1&quot;&gt;July - September, 2023&lt;/h5&gt;
 &lt;p&gt;The past few months have been a whirlwind of new experiences for me. Navigating a new city, a fresh job, and an unfamiliar way of life has certainly kept me on my toes. I have been trying to get a hang of the new city, the new job and the new life. I got to attend a lot of networking events in Bangalore. At StackIt, we meet a lot of startups and enterprises and try to see if our product solves their problem. We went to Chargebee’s Finance and Ops conference, Google IO Connect, and The Magic Ball event.  Each of these experiences provided valuable insights into the industry landscape and allowed us to make meaningful connections. Moreover, our recent involvement in YC’s Startup School, focusing specifically on the AI domain, proved to be a significant milestone. This platform served as the launch pad for our AI vertical, marking a successful endeavour in this direction.&lt;/p&gt;
 &lt;p&gt;However, life threw me a curveball when I fell ill just last month. The diagnosis was a combination of dengue and a stomach ulcer, which necessitated a week-long hiatus to recover back home. My return to Bangalore revealed a turbulent living situation. I had to shift from where I was staying since the rent and overall expenses of the place shot up. There were a lot of unknowns and a ton of expenses that kept on piling up. My roommates did not inform me earlier about this and as soon as I paid the deposit,  I was confronted with a daunting list of a shitload of bills that I needed to clear. As I refused to pay, they asked me to find a replacement, or else I would not get back the deposit.&lt;/p&gt;
 &lt;p&gt;Meanwhile, &lt;a href=&quot;https://injuly.in&quot;&gt;Srijan&lt;/a&gt; encountered his housing predicament. His landlord’s strict no-visitor policy left us with no option but to consider securing a place of our own. Amidst these challenges, my mother stepped in admirably, caring for me during my illness and remaining by my side upon my return to Bangalore. She stayed here for a month. Now, as she is gone I am in profound sadness. I feel extremely homesick and all I want to do is live with my family.&lt;/p&gt;
 &lt;p&gt;In between all this chaos, &lt;a href=&quot;https://smrutidash.com&quot;&gt;Khusi&lt;/a&gt; flew from Dubai to come to visit me in Bangalore. An entire weekend of fun and frolic ensued, as we explored the city and enjoyed each other’s company. It was a much-needed break from the stress of the past few weeks. Two days felt like what was a few hours, and I cherished every moment of it. She left on a Sunday night, and I was back to the grind. I felt extremely grateful to have my mother and Khusi by my side. I do not know how I would have managed without them. These are times when I just sit back and wonder how much life has given me and amongst a busy schedule, tough job, less money, and hundreds of whatnots, I have a thousand reasons to be grateful and happy.&lt;/p&gt;
 &lt;p&gt;Whilst I want to go back to my home, I also love the hustle and bustle of the city and want to build something here. This eternal dilemma is killing me. I am trying to find a balance between the two. Bangalore brings out hope, and discomfort, moulding and shaping me in different forms, challenging me while providing me with growth and success. On the other hand, my home is a place of comfort, love, and familiarity, and provides a sense of belonging.&lt;/p&gt;
-&lt;p&gt;This internal conflict is both frustrating and enriching, as it underscores the complexity of life’s decisions. Striking a harmonious balance between these seemingly divergent paths is now my quest, and I am optimistic that clarity will eventually grace my journey.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/blog/lifeinametro.html&quot;&gt;Settling down in Bangalore&lt;/a&gt; and looking forward to a new, competitive and exciting software engineering life here. The new house is lovely and living with my best friends solves more problems than I anticipated. I am trying to make out time of my schedule to play the guitar more, write more, work on my projects, and also polish up my data structures and algorithms as well. For a good part of my adulthood, I tried to avoid investments and always had my dad take care of them. Now, I have decided to learn more about stocks, investments and the pile of cash surrounding it. I aspire to be physically fit, but my appetite for junk food has spread like wildfire. I am trying to get into a routine and lose a considerable amount of weight before hitting the gym.&lt;/p&gt;
 &lt;p&gt;My current endeavours encompass a broad spectrum of technical challenges and innovations, ranging from plugin development and deployment optimization to AI-driven solutions that promise to transform the way we interact with data.&lt;/p&gt;
 &lt;p&gt;Engaged with &lt;a href=&quot;https://nowstackit.com&quot;&gt;StackIt&lt;/a&gt;, I am working with Google AppScript, React, and Nodejs to build the StackIt Plugin. Our primary focus is on seamlessly integrating a payment infrastructure into the plugin.&lt;/p&gt;
@@ -155,7 +154,7 @@ Winning!
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Monthly Updates | Anubhab's blogs]]></title>
+            <title><![CDATA[Monthly Updates]]></title>
             <description><![CDATA[A tri-monthly update on my life and work.]]></description>
             <link>https://anubhavp.dev/blog/april23.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/april23.html</guid>
@@ -298,7 +297,7 @@ Winning!
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Fall, 2023- Kedarnath & Dubai | Anubhab's blogs]]></title>
+            <title><![CDATA[Fall, 2023- Kedarnath & Dubai]]></title>
             <description><![CDATA[Two most glorious weeks of my life, unbothered by the world, one in the mountains, chasing the clouds, looking for Nirvana, and the other in the desert, chasing the sun, looking at greater heights.]]></description>
             <link>https://anubhavp.dev/blog/fall23.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/fall23.html</guid>
@@ -443,7 +442,7 @@ Kite Beach
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Why is Web3 a sham? | Anubhab's blogs]]></title>
+            <title><![CDATA[Why is Web3 a sham?]]></title>
             <description><![CDATA[A short rant on the state of Web3]]></description>
             <link>https://anubhavp.dev/blog/infeasibleWeb3.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/infeasibleWeb3.html</guid>
@@ -655,7 +654,7 @@ However the world today is in a frenzy to use it in all the places where it does
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Monthly Updates | Anubhab's blogs]]></title>
+            <title><![CDATA[Monthly Updates]]></title>
             <description><![CDATA[A tri-monthly update on my life and work.]]></description>
             <link>https://anubhavp.dev/blog/january23.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/january23.html</guid>
@@ -777,7 +776,7 @@ However the world today is in a frenzy to use it in all the places where it does
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Monthly Updates | Anubhab's blogs]]></title>
+            <title><![CDATA[Monthly Updates]]></title>
             <description><![CDATA[A tri-monthly update on my life and work.]]></description>
             <link>https://anubhavp.dev/blog/july23.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/july23.html</guid>
@@ -873,7 +872,7 @@ However the world today is in a frenzy to use it in all the places where it does
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Bangalore Chronicles: The slave city | Anubhab's blogs]]></title>
+            <title><![CDATA[Bangalore Chronicles: The slave city]]></title>
             <description><![CDATA[A futile attempt to survive in Bangalore's Urban Jungle]]></description>
             <link>https://anubhavp.dev/blog/lifeinametro.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/lifeinametro.html</guid>
@@ -971,7 +970,7 @@ Looking forward...
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Decentralization in MetaMUI Wallet: A Case Study | Anubhab's blogs]]></title>
+            <title><![CDATA[Decentralization in MetaMUI Wallet: A Case Study]]></title>
             <description><![CDATA[A case study on how MetaMUI wallet claims to be decentralized and how it actully works.]]></description>
             <link>https://anubhavp.dev/blog/metamuiwallet.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/metamuiwallet.html</guid>
@@ -1166,7 +1165,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[On Leaving | Anubhab's blogs]]></title>
+            <title><![CDATA[On Leaving]]></title>
             <description><![CDATA[Leaving the journey at StackIt]]></description>
             <link>https://anubhavp.dev/blog/onleaving.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/onleaving.html</guid>
@@ -1226,7 +1225,7 @@ possible through atomic swaps and multi-currency transfer is possible with an ex
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[QTree | Anubhab's blogs]]></title>
+            <title><![CDATA[QTree]]></title>
             <description><![CDATA[Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees that partition a two-dimensional image by recursively subdividing it into four quadrants.]]></description>
             <link>https://anubhavp.dev/blog/qtree.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/qtree.html</guid>
@@ -1474,7 +1473,7 @@ img.&lt;span class=&quot;hljs-property&quot;&gt;onload&lt;/span&gt; = &lt;span c
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[RESOC | Anubhab's blogs]]></title>
+            <title><![CDATA[RESOC]]></title>
             <description><![CDATA[RESOC is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free.]]></description>
             <link>https://anubhavp.dev/blog/resoc.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/resoc.html</guid>
@@ -1562,7 +1561,7 @@ RESOC Traffic during exam time!
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Rust: The next C++ ? | Anubhab's blogs]]></title>
+            <title><![CDATA[Rust: The next C++ ?]]></title>
             <description><![CDATA[Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++ but with emphasis on code safety]]></description>
             <link>https://anubhavp.dev/blog/rust.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/rust.html</guid>
@@ -1762,7 +1761,7 @@ Pointers are variables that store the &lt;strong&gt;address&lt;/strong&gt; of an
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[StackIt-tech | Anubhab's blogs]]></title>
+            <title><![CDATA[StackIt-tech]]></title>
             <description><![CDATA[The tech behind the spreadsheet monster.]]></description>
             <link>https://anubhavp.dev/blog/stackit.tech.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/stackit.tech.html</guid>
@@ -1949,7 +1948,7 @@ djdiasjidusahdusa8na9sduaun9d_test_chargebee&lt;/p&gt;
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Teasquared: The End of An Era | Anubhab's blogs]]></title>
+            <title><![CDATA[Teasquared: The End of An Era]]></title>
             <description><![CDATA[A goodbye to the best four years of my life: an ode to my alma mater.]]></description>
             <link>https://anubhavp.dev/blog/teasquared.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/teasquared.html</guid>
@@ -2041,7 +2040,7 @@ Goodbye, SIT ❤️
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[Unfollow all: A LinkedIn Script | Anubhab's blogs]]></title>
+            <title><![CDATA[Unfollow all: A LinkedIn Script]]></title>
             <description><![CDATA[A linkedin script to remove all your followings :D]]></description>
             <link>https://anubhavp.dev/blog/unfollowall.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/unfollowall.html</guid>
@@ -2131,7 +2130,7 @@ Goodbye, SIT ❤️
 </content:encoded>
         </item>
         <item>
-            <title><![CDATA[zuzu: A Static Site Generator (SSG) | Anubhab's blogs]]></title>
+            <title><![CDATA[zuzu: A Static Site Generator (SSG)]]></title>
             <description><![CDATA[Zuzu is a static site generator that converts all your markdown files into static html pages. It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets.]]></description>
             <link>https://anubhavp.dev/blog/zuzu.html</link>
             <guid isPermaLink="true">https://anubhavp.dev/blog/zuzu.html</guid>
