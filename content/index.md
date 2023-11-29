@@ -12,7 +12,7 @@ I am working on a pet project, [Dough](https://github.com/fuzzymfx/dough): a ric
 
 I enjoy music and have recently taken up playing the guitar. I also have a penchant for [adventuring and exploring places](https://anubhavp.dev/explored). Fond of *fiction*, I am trying to take time out to [read](https://anubhavp.dev/reading.html), and also [journal](https://anubhavp.dev/blog) more. Additionally, I have a [photography page](https://instagram.com/anubhavclicks). 
 
-Besides, I [attend events](https://anubhavp.dev/cv#activities) related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
+Besides, I attend events related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
 
 [Find my GitHub here](https://github.com/fuzzymfx) and drop me a hi at <anubhabr50@gmail.com>.
 
