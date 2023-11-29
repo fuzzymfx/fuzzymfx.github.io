@@ -228,7 +228,9 @@ const copyAssets = (src, dest, depth = 0) => {
     }
     const srcFile = path.join(src, file);
     const destFile =
-      depth === 0 ? path.join(dest, "assets", file) : path.join(dest, file);
+      depth === 0 && fs.statSync(srcFile).isDirectory()
+        ? path.join(dest, "assets", file)
+        : path.join(dest, file);
     if (fs.statSync(srcFile).isDirectory()) {
       fs.mkdirSync(destFile, { recursive: true });
       copyAssets(srcFile, destFile, depth + 1);
