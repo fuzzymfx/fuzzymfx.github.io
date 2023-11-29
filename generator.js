@@ -233,6 +233,10 @@ const copyAssets = (src, dest, depth = 0) => {
       fs.mkdirSync(destFile, { recursive: true });
       copyAssets(srcFile, destFile, depth + 1);
     } else {
+      const destDir = path.dirname(destFile);
+      if (!fs.existsSync(destDir)) {
+        fs.mkdirSync(destDir, { recursive: true });
+      }
       const contents = fs.readFileSync(srcFile);
       fs.writeFileSync(destFile, contents);
     }
