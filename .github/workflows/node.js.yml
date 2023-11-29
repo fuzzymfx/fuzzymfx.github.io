@@ -46,7 +46,7 @@ jobs:
       - name: Build
         run: npm run generate
       - name: Move resume.pdf to .dist folder
-        run: mkdir .dist && mv resume.pdf .dist/
+        run: mv resume.pdf .dist/
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
