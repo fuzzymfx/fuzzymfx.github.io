@@ -7,3 +7,4 @@ q.log
 resume.fls
 resume.fdb_latexmk
 .dist
+.DS_Store
