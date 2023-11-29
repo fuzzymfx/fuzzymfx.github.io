@@ -33,7 +33,7 @@ const feed = new rss({
 
 async function generateXmls() {
   try {
-    const directoryPath = path.resolve("blog");
+    const directoryPath = path.resolve(".dist/blog");
     const blogFiles = await fs.readdir(directoryPath);
 
     for (let file of blogFiles) {
@@ -78,11 +78,11 @@ async function generateXmls() {
     }
 
     const feedXML = feed.xml({ indent: true });
-    const feedPath = path.resolve("blog", "feed.xml");
+    const feedPath = path.resolve(".dist/blog", "feed.xml");
     await fs.writeFile(feedPath, feedXML); // Using await with promise-based writeFile
     console.log("RSS feed generated successfully.");
 
-    const rootPath = path.resolve("./");
+    const rootPath = path.resolve(".dist");
     const rootFiles = await fs.readdir(rootPath);
     const sitemapItems = [];
 
@@ -134,7 +134,7 @@ async function generateXmls() {
       xmlns:xhtml="http://www.w3.org/1999/xhtml">
       ${sitemapItems.join("\n")}
     </urlset>`;
-    const sitemapPath = path.resolve("./", "sitemap.xml");
+    const sitemapPath = path.resolve(".dist", "sitemap.xml");
     await fs.writeFile(sitemapPath, sitemapXML);
     console.log("Sitemap generated successfully.");
   } catch (err) {

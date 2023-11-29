@@ -63,9 +63,6 @@ I was using the Acer Ed320QR monitor, which was a 32" curved monitor with a 144H
 
 I had gotten a cheap chair from the local market, which was initially comfortable until it broke. I tried fixing it, but it is comfortable anymore and is still somewhat faulty. I am planning to get a new chair, and I am looking at the Green Soul Zodiac Pro Series chair.
 
-
-Dev:
-
 I am planning to polish up my Data Structures and Algorithms, and my profile. Looking at the current market it is evident that only the skilled ones make it to the top. 
 
 I am currently working on building an Nl2SQL engine for StackIt. A platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process. The tech behind this would involve vectorizing SQL schemas and using a multi-query engine to find the appropriate schema-embedding section to send to the LLM to generate SQL queries.
@@ -74,41 +71,11 @@ At StackIt, we have decided to have a `demo pitch round` each Saturday. We make 
 
 Meanwhile, I am planning to pick back up [Bee](https://github.com/fuzzymfx/b): a command-line bit-torrent client to download torrents written in Rust. I am looking to explore esoteric programming languages and look into the brainfuck interpreter. Curious about game dev, I am also looking to get my hands dirty with tactical FPS/ open-world games.
 
-Research:
-
 I am diving deeper into the world of AI, prompt engineering and fine-tuning LLMs to convert natural language to SQL queries. The impetus for this exploration stemmed from the shortcomings of an NL2SQL generator at StackIt, prompting a quest for a robust platform automating SQL generation from natural language queries. The model was not able to generate SQL queries for complex questions. Thus, I am trying to understand the prompt engineering behind the entire infrastructure of Lookup AI. Our strategic plan involves developing a platform that can effortlessly translate natural language queries into SQL, automating the entire data extraction and analysis process.
 
-Books:
-
-Amidst these pursuits, I **vow** to finally delve into literary realms with the "Remembrance of Earth's Past" trilogy and indulge in a plethora of shows and games to diversify my experiences :p
-
-- Remembrance of Earth's Past: The Trilogy
-	- ~~The three-body problem~~
-	- The dark forest
-	- Death's end
-
-Shows:
-
-- Kaala Paani
-- One Piece
-- ~~Atypical~~
-- Scoop
-- Black Mirror (*rewatch*)
-- Silicon Valley (*rewatch*)
-- The Mentalist (*rewatch*)
-- Tom Clancy's Jack Ryan
-- Ozark
-
-Games:
-
-- God of War
 
 A trip to Kedarnath, UK and Dubai, UAE- [Read more](/blog/fall23.html)
 
-Older posts:
+---
 
-##### [July,2023](/blog/july23.html)
-
-##### [April, 2023](/blog/april23.html)
-
-##### [January, 2023](/blog/january23.html)
+[This year, so far](/blog/23.html)

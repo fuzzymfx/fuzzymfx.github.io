@@ -51,8 +51,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run generate
-      - name: Commit and Push Changes
-        run: git add . && git commit -m "Deploying latest commit" --allow-empty && git push origin main-v3
+      # - name: Commit and Push Changes
+      #   run: git add . && git commit -m "Deploying latest commit" --allow-empty && git push origin main-v3
       - name: Checkout
         #   uses: actions/checkout@v3
         # - name: Setup Pages
@@ -60,7 +60,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./.dist
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

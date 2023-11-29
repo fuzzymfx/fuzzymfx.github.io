@@ -99,7 +99,7 @@ description: "CV- profile: An extensive list of my projects and skills"
   - Used custom css from open-source projects to style the app.
   - Added a custom ML model to predict the marks secured by the student.
   - Created a venv in Python and installed the required libraries, and called it using PHP.
-  - [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using **Linear Regression** and **Gradient Descent**.
+- [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using **Linear Regression** and **Gradient Descent**.
   - \[*Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn*] *- 2021*
   - Used the Scikit-learn library to create a Linear Regression model.
   - Used Gradient Descent to optimize the model.
@@ -194,6 +194,13 @@ description: "CV- profile: An extensive list of my projects and skills"
 - Robotics - WAC| 2017 - IIIT Hyderabad - [🔗](https://drive.google.com/file/d/1ah39XzFJcXEOMKJ7zhf-lxNRsVo_FoZJ/view?usp=sharing)
 - DBMUN 2015 - [🔗](https://drive.google.com/file/d/1Q_VKZvBaNKGkLvXJB_O2Tz9zrWRWqpxW/view?usp=sharing)
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
+
+### External Links : 
+- [Resume](/resume.pdf)
+- [LinkedIn](https://www.linkedin.com/in/anubhabpatnaik0530/)
+- [GitHub](https://github.com/fuzzymfx)
+- [LeetCode](https://leetcode.com/anubhabr50/)
+
 
 [Find my Resume Here](https://anubhavp.dev/resume.pdf)
 <span class="download-cv"></span>

@@ -214,14 +214,41 @@ const processIndexFile = (filename, template, outPath) => {
   //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
 };
+
+/**
+ * Copies assets from the assets folder to the output folder.
+ * @param {string} src - The source folder.
+ * @param {string} dest - The destination folder.
+ **/
+
+const copyAssets = (src, dest) => {
+  const files = fs.readdirSync(src);
+  files.forEach((file) => {
+    if (file === ".DS_Store") {
+      return;
+    }
+    const srcFile = path.join(src, file);
+    const destFile = path.join(dest, file);
+    if (fs.statSync(srcFile).isDirectory()) {
+      fs.mkdirSync(destFile, { recursive: true });
+      copyAssets(srcFile, destFile);
+    } else {
+      const contents = fs.readFileSync(srcFile);
+      fs.writeFileSync(destFile, contents);
+    }
+  });
+};
+
 /**
  * Main function that orchestrates the processing of all markdown files.
  */
 const main = () => {
   const srcPath = path.resolve("content");
-  const outPath = path.resolve("blog");
-  const dir = path.resolve("blog");
-  const indexoutPath = path.resolve("");
+  const outPath = path.resolve(".dist/blog");
+  const dir = path.resolve(".dist/blog");
+  const indexoutPath = path.resolve(".dist");
+  const assetsPath = path.resolve("assets");
+  const assetsOutPath = path.join(indexoutPath, "assets");
   const blogtemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
   const indextemplate = fs.readFileSync(
     "./templates/initial/index.html",
@@ -241,7 +268,7 @@ const main = () => {
   );
   const filenames = glob.sync(`${srcPath}/**/*.md`);
 
-  const expiredFiles = ["profile"];
+  const expiredFiles = ["stackit.tech"];
 
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir);
@@ -268,6 +295,7 @@ const main = () => {
       case "cv.md":
         processDefaultFile(filename, templateMap.default, indexoutPath, true);
         break;
+      case "journey.md":
       case "reading.md":
         processDefaultFile(filename, templateMap.default, indexoutPath);
         break;
@@ -276,6 +304,8 @@ const main = () => {
           processBlogFile(filename, templateMap.blog, outPath);
     }
   });
+
+  copyAssets(assetsPath, assetsOutPath);
 };
 
 main();
