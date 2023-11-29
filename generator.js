@@ -228,7 +228,9 @@ const copyAssets = (src, dest) => {
       return;
     }
     const srcFile = path.join(src, file);
-    const destFile = path.join(dest, file);
+    const destFile = fs.statSync(srcFile).isDirectory()
+      ? path.join(dest, "assets", file)
+      : path.join(dest, file);
     if (fs.statSync(srcFile).isDirectory()) {
       fs.mkdirSync(destFile, { recursive: true });
       copyAssets(srcFile, destFile);
@@ -248,7 +250,6 @@ const main = () => {
   const dir = path.resolve(".dist/blog");
   const indexoutPath = path.resolve(".dist");
   const assetsPath = path.resolve("assets");
-  const assetsOutPath = path.join(indexoutPath, "assets");
   const blogtemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
   const indextemplate = fs.readFileSync(
     "./templates/initial/index.html",
@@ -307,7 +308,7 @@ const main = () => {
     }
   });
 
-  copyAssets(assetsPath, assetsOutPath);
+  copyAssets(assetsPath, indexoutPath);
 };
 
 main();
