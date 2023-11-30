@@ -6,8 +6,8 @@ description: "A list of books I have read, and my thoughts on them"
 ### Reading List
 
 
-- [x] A brief history of time *- Stephen Hawking*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★
-- [x] The three body problem *- Cixin Liu* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
+- [x] A brief history of time *- Stephen Hawking*
+- [x] The three body problem *- Cixin Liu* 
 - [ ] The dark forest *- Cixin Liu*
 - [ ] Death's end *- Cixin Liu*
 - [-] The hitchhiker's guide to the galaxy *- Douglas Adams*
