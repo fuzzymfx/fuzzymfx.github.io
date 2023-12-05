@@ -202,5 +202,4 @@ description: "My journey so far"
 - [LeetCode](https://leetcode.com/anubhabr50/)
 
 
-[Find my Resume Here](https://anubhavp.dev/resume.pdf)
 <span class="download-cv"></span>

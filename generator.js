@@ -300,9 +300,9 @@ const main = () => {
         processIndexFile(filename, templateMap.blogindex, outPath);
         break;
       case "cv.md":
+      case "journey.md":
         processDefaultFile(filename, templateMap.default, indexoutPath, true);
         break;
-      case "journey.md":
       case "reading.md":
         processDefaultFile(filename, templateMap.default, indexoutPath);
         break;

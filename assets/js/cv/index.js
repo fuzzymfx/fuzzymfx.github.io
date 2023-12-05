@@ -33,7 +33,7 @@ dateTime.appendChild(italicizedDatetimeSpan);
 // Create the download button
 const downloadButton = document.createElement("a");
 downloadButton.textContent = " Download This Page";
-downloadButton.href = "/cv.pdf";
+downloadButton.href = "/journey.pdf";
 
 // Find the <div> element with class "content custom"
 const downloadCV = document.querySelector(".download-cv");
