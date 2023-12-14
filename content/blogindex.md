@@ -15,6 +15,8 @@ title: Blog
 
 <span class="custom-tags">#tech</span>
 
+<li class="flex justify-between pb3"><a href="./neak.html" class="link">Neak: A SQL generator using RAG pipelines</a><span class="date gray">10-12-2023</span> </li>
+
 <li class="flex justify-between pb3"><a href="./unfollowall.html" class="link">Unfollow all: A LinkedIn Script</a><span class="date gray">29-04-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./resoc.html" class="link">RESOC: The coolest academic platform</a><span class="date gray">27-03-2023</span>
