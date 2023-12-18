@@ -12,7 +12,7 @@ title: "Current shenanigans"
 
 ##### Current, 2023
 
-The rollercoaster of the year 2023 is coming to an end. I am glad to be back at home taking a break. Looking back, I am proud of myself for having come this far. This year has been a crucible of growth, and I am grateful for the opportunities that I have had. Life is not a fairy tale, and I have had my fair share of ups and downs. But, with enough grit, effort, and love, you can make it the kind of tale you want it to be. Be it a comedy, a tragedy, a thriller, or even a fairy tale, it is up to you to decide. 
+I am glad to be back at home taking a break. Looking back, I am proud of myself for having come this far. This year has been a crucible of growth, and I am grateful for the opportunities that I have had. Looking forward to an amazing 2024 and a great year ahead. Happy New Year🎉!
 
 December brought forth a lot of major life changes. As with every good journey, there comes an end. I've wrapped up my tenure at StackIt after six fulfilling months. December serves as the last month of my journey at StackIt. I've had a great time working at StackIt. This team is the most hard-working, and the most talented team that I have worked with. Leaving StackIt with a heavy heart full of gratitude and memories. Meanwhile, looking forward to the next step in my career.
 
