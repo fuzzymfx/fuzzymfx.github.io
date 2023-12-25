@@ -5,7 +5,7 @@ title: Blog
 
 <span class="custom-tags">#life</span>
 
-<li class="flex justify-between pb3"><a href="./23.html" class="link">The Rollercoaster: 2023</a><span class="date gray">01-12-2023</span> </li>
+<li class="flex justify-between pb3"><a href="./23.html" class="link">2023, so far...</a><span class="date gray">01-12-2023</span> </li>
 
 <li class="flex justify-between pb3"><a href="./fall23.html" class="link">Fall, 2023- Kedarnath & Dubai</a><span class="date gray">22-10-2023</span> </li>
 
