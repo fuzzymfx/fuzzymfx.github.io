@@ -12,8 +12,11 @@ Hey guys, with nothing much to do and while scrolling down aimlessly and looking
 
 To try this out, visit [https://www.linkedin.com/feed/followers/](https://www.linkedin.com/feed/followers/), inspect the page, and copy and paste the following script into your console.
 
+#### unfollow-script.js
+
 
 `unfollow-script.js`: This script unfollows all your followings on LinkedIn.
+
 ```js
 (() => {
  async function unfollowAll() {
@@ -40,6 +43,17 @@ To try this out, visit [https://www.linkedin.com/feed/followers/](https://www.li
  runUnfollowAll();
 })();
 ```
+
+The script scrolls down the `following` page and unfollows each `following`. It then scrolls down again and repeats the process until there are no more followings left.
+
+`buttons` is a list of all the follow buttons on the page. The script then iterates over the list, and selects the button that is a following button. The `0` value in `window.scrollTo(0, button.offsetTop - 260);` is used here to indicate that there is no need to scroll horizontally, i.e., the window should remain at its current horizontal position. `button.offsetTop` refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.
+
+One the button is clicked, the script waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds to update the list of followings before running the `runUnfollowAll` function again. If there are no more followings left, the script stops.
+
+Happy unfollowing! :D
+
+
+### stats-script.js
 
 `stats-script.js`: This script helps you figure out how many people out of your total connections you are following.
 ```js
@@ -97,17 +111,5 @@ const innerHTMLString = "Following"; // Change this to the inner HTML string you
 countAllElementsWithInnerHTML("artdeco-button__text", innerHTMLString);
 
 ```
-
-#### unfollow-script.js
-
-The script scrolls down the `following` page and unfollows each `following`. It then scrolls down again and repeats the process until there are no more followings left.
-
-`buttons` is a list of all the follow buttons on the page. The script then iterates over the list, and selects the button that is a following button. The `0` value in `window.scrollTo(0, button.offsetTop - 260);` is used here to indicate that there is no need to scroll horizontally, i.e., the window should remain at its current horizontal position. `button.offsetTop` refers to the distance of the button element from the top of its parent container. 260 is subtracted from the offsetTop value to ensure that the button is not covered by the LinkedIn navigation bar at the top of the page.
-
-One the button is clicked, the script waits for 100ms to ensure that the button is clicked and the unfollowing process is complete. The script then scrolls down to the bottom of the page and waits for 2 seconds to update the list of followings before running the `runUnfollowAll` function again. If there are no more followings left, the script stops.
-
-Happy unfollowing! :D
-
-### stats-script.js
 
 The script scrolls down the `following` page and counts the number of `following` buttons. It then scrolls down again and repeats the process until there are no more followings left.
