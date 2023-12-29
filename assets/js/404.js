@@ -7,6 +7,8 @@ function routeExpiredLinks(path) {
   switch (path) {
     case "/background":
     case "/background.html":
+    case "/cv":
+    case "/cv.html":
       window.location.href = "/journey.html";
       break;
     default:
