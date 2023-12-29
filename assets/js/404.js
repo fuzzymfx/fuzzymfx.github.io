@@ -4,7 +4,6 @@
  */
 
 function routeExpiredLinks(path) {
-  console.log(path);
   switch (path) {
     case "/background":
     case "/background.html":
