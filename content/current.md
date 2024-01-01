@@ -12,9 +12,35 @@ title: "Current shenanigans"
 
 ##### Current, 2024
 
-Happy new year, muchachos! I hope you had a good one. I will be starting a new career at RadiusAI as a Software Engineer. I am excited to work with the team and learn from them.
+Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am looking forward to working with the team and learning from them. I am excited to start the new year with a bang!
 
-Meanwhile, I am exploring esoteric programming languages, and I am having a blast. Will be updating this page with my progress with brainfuck. I am also planning to brush up advanced data structures and algos. I will be spending most of my time on Leetcode and will share my progress here.
+On a personal trajectory, Srijan and I have identified a pain point in the developer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon.
+
+I am exploring esoteric programming languages, and I am having a blast. Will be updating this page with my progress with brainfuck. 
+
+I am also planning to brush up on advanced data structures and algorithms. I will be spending most of my time on Leetcode and will share my progress here. Here is the list of topics that I am exploring:
+
+- Trees (Binary Trees, Binary Search Trees, AVL Trees, Red-Black Trees, etc.)
+- Heaps (Binary Heaps, Priority Queues)
+- Hash Tables
+- Graphs
+- Dynamic Programming
+
+Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
+
+Meanwhile, I am also working on Dough, and here's what's up with it:
+
+- ~~Rendering Engine~~
+- Templating Engine
+- Footer
+- Animations 
+- Alignment 
+- Syntax highlighting
+
+I plan to finish up with dough by the end of this month.
+
+I am also writing my implementation of an SQL generator, Neak. Read more about it [here](/blog/neak.html)
+
 ---
 
 [The past year](/blog/23.html)
