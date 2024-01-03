@@ -108,9 +108,9 @@ The code attempts to create a vector of data and then uses the vector to retriev
 
 The full code can be found here: [*Reference*](https://python.langchain.com/docs/expression_language/cookbook/retrieval)
 
-### Llama index
+### Llama Index
 
-Lang chain follows a similar RAG pipeline. In Llama Index, a query engine is a generic interface that allows you to ask questions about your data.
+Llama Index follows a similar RAG pipeline. In Llama Index, a query engine is a generic interface that allows you to ask questions about your data.
 
 A query engine takes in a natural language query and returns a rich response. It is most often (but not always) built on one or many indexes via retrievers. You can compose multiple query engines to achieve more advanced capability.
 
@@ -212,5 +212,3 @@ RAG pipelines are not perfect. Neak is a fine model, but not ready for productio
 While alternatives like Defog's SQLcoder, which operates locally using Huggingface's transformers, resolve data leakage concerns, their complex setup poses usability.
 
 Technically, the most apt way to generate SQL queries is using RAG pipelines with fine-tuned models. While this is a more challenging approach, it is also the most accurate and secure. Neak is merely a bleak attempt to solve this. It is a work in progress and requires a lot of refinement. in the future, I plan to follow an approach similar to fine-tuning open-source LLMs and then using them to generate SQL queries. 
-
-*P.S: The code is not available for public use yet. I am working on it.*
