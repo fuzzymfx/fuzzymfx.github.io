@@ -271,6 +271,12 @@ const main = () => {
     "./templates/initial/default.html",
     "utf8"
   );
+
+  const abouttemplate = fs.readFileSync(
+    "./templates/initial/about.html",
+    "utf8"
+  );
+
   const filenames = glob.sync(`${srcPath}/**/*.md`);
 
   const expiredFiles = ["stackit.tech"];
@@ -286,6 +292,7 @@ const main = () => {
     current: currenttemplate,
     blogindex: blogindextemplate,
     default: defaultemplate,
+    about: abouttemplate,
   };
 
   filenames.forEach((filename) => {
@@ -293,13 +300,15 @@ const main = () => {
       case "index.md":
         processIndexFile(filename, templateMap.index, indexoutPath);
         break;
+      case "about.md":
+        processIndexFile(filename, templateMap.about, indexoutPath);
+        break;
       case "current.md":
         processCurrentFile(filename, templateMap.current, indexoutPath);
         break;
       case "blogindex.md":
         processIndexFile(filename, templateMap.blogindex, outPath);
         break;
-      case "cv.md":
       case "journey.md":
         processDefaultFile(filename, templateMap.default, indexoutPath, true);
         break;

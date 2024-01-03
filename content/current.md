@@ -28,7 +28,7 @@ I am also planning to brush up on advanced data structures and algorithms. I wil
 
 Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
 
-Meanwhile, I am also working on Dough, and here's what's up with it:
+Coming onto Dough, and here's what's up with it:
 
 - ~~Rendering Engine~~
 - Templating Engine
@@ -37,9 +37,9 @@ Meanwhile, I am also working on Dough, and here's what's up with it:
 - Alignment 
 - Syntax highlighting
 
-I plan to finish up with dough by the end of this month.
+I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
 
-I am also writing my implementation of an SQL generator, Neak. Read more about it [here](/blog/neak.html)
+Here's my implementation of a SQL generator, [Neak](/blog/neak.html).
 
 ---
 

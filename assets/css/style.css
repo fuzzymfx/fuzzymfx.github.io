@@ -79,6 +79,16 @@ html {
 	padding: 1rem;
 }
 
+.index{
+	text-decoration: none !important;
+	background-color: transparent !important;
+}
+
+.index-logo{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
 
 /**
  * Chrome Scrollbar
