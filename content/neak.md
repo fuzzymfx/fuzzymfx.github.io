@@ -20,7 +20,7 @@ However, a challenge arises when we seek to safeguard our data from direct inter
         - [Llama index](#llama-index)
 - [Neak](#neak)
     - [Chunking](#chunking)
-    - [Prompt Engineering](#prompt-engineering)
+    - [Prompt Engineering](#prompt-engineering-1)
 - [What's next?](#whats-next)
 
 ## The Problem
@@ -193,10 +193,10 @@ Chunking only happens while initializing the engine. Once the chunking process i
 
 The generator converts the query into sub-queries, answers each query asynchronously and then combines the results to generate the final SQL query.
 
-A question like "How many active employees are there with age more than 45 and working in the education sector, and are eligible for a bonus?" is converted into sub-queries like:
-"how many active employees are there with age more than 45?"
-"how many active employees are there working in the education sector?"
-"how many active employees are there eligible for a bonus?"
+A question like "How many active employees are there with age more than 45 and working in the education sector, and are eligible for a bonus?" is converted into sub-queries like:  
+"how many active employees are there with age more than 45?"  
+"how many active employees are there working in the education sector?"  
+"how many active employees are there eligible for a bonus?"  
 
 The sub queries are then answered asynchronously and the results are combined to generate the final SQL query.
 
