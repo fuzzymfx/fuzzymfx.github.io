@@ -12,11 +12,11 @@ title: "Current shenanigans"
 
 ##### Current, 2024
 
-Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am looking forward to working with the team and learning from them.
+Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am pretty stoked :D
 
 Here's an improved version of Llama Index's querying engine used to generate SQL from Natural Language: [Neak](/blog/neak.html).
 
-On a personal trajectory, Srijan and I have identified a pain point in the developer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon.
+On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon.
 
 I am exploring esoteric programming languages, and I am having a blast. Will be updating this page with my progress with brainfuck. 
 
