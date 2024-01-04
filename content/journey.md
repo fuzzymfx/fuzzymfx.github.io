@@ -7,7 +7,7 @@ description: "My journey so far"
 
 ### Educational Background
 
-- B.Tech Silicon Institute of Technology, Bhubaneswar, 8.7 CGPA - 2023 - [🔗](/assets/docs/190310030.pdf)
+- B.Tech Silicon Institute of Technology, Bhubaneswar, 8.9 CGPA - 2023 - [🔗](/assets/docs/190310030.pdf)
 - 12th FIITJEE Junior College, Hyderabad, 83.5% - 2018  - [🔗](https://drive.google.com/file/d/1GYaQYoUpT1h76NqwHfml-aByx4YrshfK/view?usp=sharing)
 - 10th DAV Public School, Jamshedpur, 9.2 CGPA - 2016 - [🔗](https://drive.google.com/file/d/12Nwsc_b1iR7ZO70Oh-c7T9ImnDcg_GL4/view?usp=sharing)
 
@@ -15,7 +15,9 @@ description: "My journey so far"
 
 ### Work Experience
 
-- **Founding Engineer/SDE-1** - *StackIt* Current - [🔗](https://nowstackit.com)
+- **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
+  - Working on automating workflows using Prefect and Python.
+- **Founding Engineer/SDE-1** - *StackIt* 2023 - [🔗](https://nowstackit.com)
   - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
   - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.

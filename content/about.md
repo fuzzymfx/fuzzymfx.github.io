@@ -16,4 +16,4 @@ Find my GitHub [here](https://github.com/fuzzymfx) and drop me a hi at <anubhabr
 
 ---
 
-This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *42rem*, and the font used is *Avenir*. The source code of the site is [available here](https://github.com/fuzzymfx/fuzzymfx.github.io). Feel free to use [zuzu](https://github.com/fuzzymfx/zuzu) for your personal use.
+This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *38rem*, and the font used is *Avenir*. The source code of the site is [available here](https://github.com/fuzzymfx/fuzzymfx.github.io). Feel free to use [zuzu](https://github.com/fuzzymfx/zuzu) for your personal use.
