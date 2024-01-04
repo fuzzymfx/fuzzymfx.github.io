@@ -198,7 +198,7 @@ description: "My journey so far"
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
 
 ### External Links : 
-- [Resume](/resume.pdf)
+- [Resume](https://anubhavp.dev/resume.pdf)
 - [LinkedIn](https://www.linkedin.com/in/anubhabpatnaik0530/)
 - [GitHub](https://github.com/fuzzymfx)
 - [LeetCode](https://leetcode.com/anubhabr50/)
