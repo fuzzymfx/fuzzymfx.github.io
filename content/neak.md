@@ -60,7 +60,7 @@ Defog's SQLCoder is a state-of-the-art LLM for converting natural language quest
 
 SQLCoder is fine-tuned on a base StarCoder model. Defog was trained on more than 20,000 human-curated questions. These questions were based on 10 different schemas. None of the schemas in the training data were included in the evaluation framework. [Reference](https://github.com/defog-ai/sqlcoder)
 
-While these methods demonstrate effective performance, a notable drawback is their reliance on datasets to generate SQL queries. This poses a significant concern due to the potential **sensitivity of the dataset or schema**. Sharing this data with the AI layer could result in a breach of confidentiality, potentially compromising user privacy.
+Picture this: you need SQL queries for your database's data. Usually, an AI or LLM needs the dataset or context to generate these queries. But here's the catch – **sharing sensitive data with the AI** layer might not be safe. The data might be leaked, and the privacy of the users might be compromised. You would not want to share your data with the AI layer.
 
 ## RAG pipelines
 
@@ -133,19 +133,19 @@ Here, the essay is vectorized, and then the query engine is used to generate the
 
 An RAG (Retriever-Generator) pipeline comprises two core components: a retriever and a generator. In this setup, the retriever functions as a vector store, while the generator is typically an AI model, often an LLM. Their collaboration involves the retriever's task of extracting pertinent data from the vector store based on the question, followed by the generator's role in crafting the answer.
 
-Picture this: you need SQL queries for your database's data. Usually, an AI or LLM needs the dataset or context to generate these queries. But here's the catch – sharing sensitive data with the AI layer might not be safe. The data might be leaked, and the privacy of the users might be compromised. You would not want to share your data with the AI layer. Thus, you would want to use an RAQ pipeline to generate the SQL queries. However, RAG pipelines tend to be slow and are not as accurate as LLMs. The **process of storing the data** in a vector store and then retrieving the data from the vector store is time-consuming. After that, LMS tend to **hallucinate** a lot.
+Thus, you would want to use an *RAG pipeline* to generate the SQL queries instead of sharing sensitive data with the LLM layer. However, RAG pipelines tend to be **slow** and are not as accurate as **prompt engineering**. The **process of storing the data** in a vector store and then retrieving the data from the vector store is time-consuming. After that, LLMs tend to **hallucinate** a lot.
 
 ## Neak
 
-Neak builds up on the LlamaIndex query engine and tries to solve this. It tries to reduce the time taken to generate SQL queries using RAG pipelines and reduce the hallucinations.
+Neak builds up on the LlamaIndex query engine and tries to solve this performance issue. It tries to reduce the time taken to generate SQL queries using RAG pipelines and reduce the hallucinations.
 
 Neak achieves this by:
 - Improving the retriever
     - Chunking only the **schema** of the database and not the actual data.
-    - Setting the chunk size efficiently. A single chunk corresponds to a single table in the database. The chunk size is small enough to not leak any sensitive information. 
-    - Using an in-memory vector store to store the schema.
+    - Setting the chunk size efficiently. A **single chunk** corresponds to a **single table** in the database. The chunk size is small enough to not leak any sensitive information. 
+    - Using an **in-memory vector store** to store the schema.
 - Improving the generator
-    - Using a sub-querying engine to generate better prompts from the original query/ question.
+    - Using a **sub-querying engine** to generate better prompts from the original query/ question.
 
 
 ### Chunking
@@ -158,6 +158,7 @@ The chunks of the Postgres database may look something like this:
 {
     "public": {
         "departments": [
+            // chunk 1 in raw text
             {
                 "columnName": "department_id",
                 "dataType": "integer",
@@ -166,6 +167,7 @@ The chunks of the Postgres database may look something like this:
                 "udtName": "int4",
                 "udtSchema": "pg_catalog"
             },
+            // chunk 2 in raw text
             {
                 "columnName": "department_name",
                 "dataType": "character varying",
@@ -187,7 +189,7 @@ The chunks of the Postgres database may look something like this:
 ....
 ```
 
-Chunking only happens while initializing the engine. Once the chunking process is complete, the chunks are stored in an in-memory vector store. The vector store is then used to retrieve the data.
+The data is chunked only while initializing the engine. Once the chunking process is complete, the chunks are stored in an in-memory vector store. The vector store is then used to retrieve the data.
 
 ### Prompt Engineering
 
@@ -209,6 +211,6 @@ RAG pipelines are not perfect. Neak is a fine model, but not ready for productio
 - The time taken to retrieve the chunks has reduced, but the query generation is still slow. Although the sub-queries are generated asynchronously, the time taken to generate the final query is still high. The overall difference in time taken to generate the query is not significant.
 - there is no context stored. A chat-based approach may be better.
 
-While alternatives like Defog's SQLcoder, which operates locally using Huggingface's transformers, resolve data leakage concerns, their complex setup poses usability.
+While better alternatives like Defog's SQLcoder, which operates locally using Huggingface's transformers, resolve data leakage concerns, their complex setup poses usability. For an average person, setting up an AI model to run locally is not easy.
 
-Technically, the most apt way to generate SQL queries is using RAG pipelines with fine-tuned models. While this is a more challenging approach, it is also the most accurate and secure. Neak is merely a bleak attempt to solve this. It is a work in progress and requires a lot of refinement. in the future, I plan to follow an approach similar to fine-tuning open-source LLMs and then using them to generate SQL queries. 
+Technically, the most apt way to generate SQL queries is using **RAG pipelines** with **fine-tuned models**. While this is a more challenging approach, it is also the most accurate and secure. Neak is merely a bleak attempt to solve this. It is a work in progress and requires a lot of refinement. in the future, I plan to follow an approach similar to Defog's SQL coder: fine-tuning open-source LLMs and then using them to generate SQL queries using the Llama Index based Neak's approeach: a sub-querying engine. 
