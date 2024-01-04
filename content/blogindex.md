@@ -3,16 +3,6 @@ title: Blog
 ---
 [Reading List](../reading.html)
 
-<span class="custom-tags">#life</span>
-
-<li class="flex justify-between pb3"><a href="./23.html" class="link">2023, so far...</a><span class="date gray">01-12-2023</span> </li>
-
-<li class="flex justify-between pb3"><a href="./fall23.html" class="link">Fall, 2023- Kedarnath & Dubai</a><span class="date gray">22-10-2023</span> </li>
-
-<li class="flex justify-between pb3"><a href="./lifeinametro.html" class="link">The Slave City</a><span class="date gray">08-07-2023</span> </li>
-
-<li class="flex justify-between pb3"><a href="./teasquared.html" class="link">Teasquared: Adieu, Siliconites</a><span class="date gray">15-05-2023</span> </li>
-
 <span class="custom-tags">#tech</span>
 
 <li class="flex justify-between pb3"><a href="./neak.html" class="link">Neak: A SQL generator using RAG pipelines</a><span class="date gray">10-12-2023</span> </li>
@@ -35,3 +25,13 @@ title: Blog
 
 <li class="flex justify-between pb3"><a href="./infeasibleWeb3.html" class="link">web3: A sham </a><span class="date gray">19-01-2022</span>
 </li>
+
+<span class="custom-tags">#journals</span>
+
+<li class="flex justify-between pb3"><a href="./23.html" class="link">2023</a><span class="date gray">01-12-2023</span> </li>
+
+<li class="flex justify-between pb3"><a href="./fall23.html" class="link">Fall, 2023 - Kedarnath & Dubai</a><span class="date gray">22-10-2023</span> </li>
+
+<li class="flex justify-between pb3"><a href="./lifeinametro.html" class="link">The Slave City</a><span class="date gray">08-07-2023</span> </li>
+
+<li class="flex justify-between pb3"><a href="./teasquared.html" class="link">Teasquared: Adieu, Siliconites</a><span class="date gray">15-05-2023</span> </li>
