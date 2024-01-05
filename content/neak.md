@@ -52,7 +52,7 @@ sql_response = (
 sql_response.invoke({"question": "How many employees are there?"})
 
 ```
-The function uses the schema of the db to generate an SQL and then runs the query to get the result. This is part of a code section to generate SQL from plain text. The full code can be found here: [*Reference*](https://python.langchain.com/docs/expression_language/cookbook/sql_db)
+The function uses the schema of the db to generate an SQL query and then runs the query to get the result. This is part of a code section to generate SQL from plain text. The full code can be found here: [*Reference*](https://python.langchain.com/docs/expression_language/cookbook/sql_db)
 
 ### SQL Coder
 
