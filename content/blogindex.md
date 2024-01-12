@@ -1,7 +1,7 @@
 ---
 title: Blog
 ---
-[Reading List](../reading.html)
+[Reading](../reading.html)
 
 <span class="custom-tags">#tech</span>
 

@@ -16,7 +16,7 @@ Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalo
 
 Here's an improved version of Llama Index's sub-querying engine used to generate SQL from Natural Language: [Neak](/blog/neak.html).
 
-At RadiusAI, I am exploring Prefect and will be working on automating workflows in Python.
+At RadiusAI, I am exploring Prefect and will be working on automating workflows in Python. I am also involved in the team that is building auto-checkout terminals for retail stores. I am working on building the POS system for the terminals.
 
 On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon.
 
@@ -42,6 +42,8 @@ Coming onto Dough, and here's what's up with it:
 - Syntax highlighting
 
 I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
+
+Finances are tough. I found a couple of interesting investment opportunities, and am learning more on investments and diversification of my portfolio. Will be updating my journey through investments here.
 
 ---
 
