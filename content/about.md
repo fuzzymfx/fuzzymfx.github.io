@@ -6,13 +6,11 @@ title: Anubhab Patnaik
 
 Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I recently [left StackIt](https://www.linkedin.com/feed/update/urn:li:activity:7145664348022013952/), where I worked as the founding engineer. Right now, I am working at RadiusAI. This is a space where I publish my musings. I write about tech and my life. [Here's my journey](/journey.html).
 
-I am working on a pet project, [Dough](https://github.com/fuzzymfx/dough): a rich, modular, and customisable content generator, crafted in Rust. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back. Meanwhile, I am also exploring esoteric programming languages and the brainfuck interpreter.
-
 [Living in BLR](https://anubhavp.dev/blog/lifeinametro.html) has its toll. The weather and the thriving tech scene in this city are undoubtedly appealing, but the over-population and traffic can be overwhelming. Trying to strike a balance between spending time in the office and doing things that I am more passionate about is a constant pain point.
 
 I enjoy music and have recently taken up playing the guitar. I also have a penchant for [adventuring and exploring places](https://anubhavp.dev/explored). Fond of *fiction*, I am trying to take time out to [read](https://anubhavp.dev/reading.html) and [write](https://anubhavp.dev/blog) more. Additionally, I have a [photography page](https://instagram.com/anubhavclicks). Besides, I attend events related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
 
-Find my GitHub [here](https://github.com/fuzzymfx) and drop me a hi at <anubhabr50@gmail.com>.
+[<i class="fa-brands fa-github" style="color: #777;"></i>](https://github.com/fuzzymfx) \ [<i class="fa-solid fa-code" style="color: #777;"></i>](https://leetcode.com/anubhabr50/) \  [<i class="fa-brands fa-linkedin" style="color: #777;"></i>](https://www.linkedin.com/in/anubhabpatnaik/) \ [<i class="fa-brands fa-instagram" style="color: #777;"></i>](https://instagram.com/anubhavclicks) \ [<i class="fa-brands fa-twitter" style="color: #777;"></i>](https://twitter.com/fuzzymfx)
 
 ---
 

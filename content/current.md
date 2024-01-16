@@ -32,7 +32,7 @@ I am also planning to brush up on advanced data structures and algorithms. I wil
 
 Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
 
-Coming onto Dough, and here's what's up with it:
+Coming onto Dough: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
 - ~~Rendering Engine~~
 - Templating Engine
