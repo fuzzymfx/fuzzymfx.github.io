@@ -20,7 +20,7 @@ I moved to Bangalore in June, and my living schematics changed drastically. I us
 When I arrived in this city, I found myself in quite a predicament. Laden with three large suitcases, and a backpack, a few small disposable bags, and with no place to call my own, I went to stay temporarily with my cousin who resided thirteen kilometers away from Koramangala, my office, in Electronic City. However, the daily commute between the two areas proved to be a headache due to the notorious traffic. It took me approximately 40 minutes to an hour each day to reach Koramangala, taking into account the traffic schedule and office timings.
 
 <figure class="skylab">
-<img alt='zylo' src ="/assets/img/lifeinametro/3.jpeg" class='h-50 w-50' >
+<img alt='zylo' src ="https://anubhavp.dev/assets/img/lifeinametro/3.jpeg" class='h-50 w-50' >
 <figcaption>
 Koramanagala 6th Block, Bangalore
 </figcaption>
@@ -33,7 +33,7 @@ Living in the hostel was an experience filled with vibrant conversations and a m
 Koramangala boasts the highest rents in the city. It is also renowned as a thriving startup hub, attracting entrepreneurs and professionals from various industries. Living in Koramangala has its perks, especially when it comes to social life. The area is teeming with a wide array of food joints, pubs, and restaurants, offering an abundance of options for dining and entertainment. Whether you're in the mood for a casual night out with friends or a lively party, Koramangala has something for everyone. The vibrant atmosphere and bustling nightlife make it an ideal place to unwind and enjoy oneself to the fullest.
 
 <figure class="skylab">
-<img alt='kora' src ="/assets/img/lifeinametro/2.jpeg" class='h-50 w-50' >
+<img alt='kora' src ="https://anubhavp.dev/assets/img/lifeinametro/2.jpeg" class='h-50 w-50' >
 <figcaption>
 Koramanagala, Bangalore
 </figcaption>
@@ -52,7 +52,7 @@ Moving to Bangalore has been tough on me. The city is extremely busy and noisy. 
 Yet, despite the hardships, Bangalore is a city that continues to captivate and inspire. Its diversity and cosmopolitan nature allow for a vibrant fusion of cultures, traditions, and ideas. It offers a plethora of opportunities for personal and professional growth, fostering an environment where dreams can be pursued and ambitions can be realized. While surviving in this urban jungle may require resilience and adaptability, it is precisely the challenges and the dynamic nature of Bangalore that make it a captivating place to call home. Bangalore may be a whirlwind of activity, but I am hopeful that with time, I will carve out a niche for myself and discover the hidden gems this city has to offer.
 
 <figure class="skylab">
-<img alt='home' src ="/assets/img/lifeinametro/4.jpeg" class='h-50 w-50' >
+<img alt='home' src ="https://anubhavp.dev/assets/img/lifeinametro/4.jpeg" class='h-50 w-50' >
 <figcaption>
 Looking forward...
 </figcaption>

@@ -15,7 +15,7 @@ ShowBreadCrumbs: true
  }
  </style>
 <figure class="skylab">
-<img alt='campus' src ="/assets/img/teasquared/sit2.jpeg" >
+<img alt='campus' src ="https://anubhavp.dev/assets/img/teasquared/sit2.jpeg" >
 <figcaption>
 SIT Campus
 </figcaption>
@@ -30,7 +30,7 @@ It feels like only yesterday that I was a wide-eyed fresher, stepping onto campu
 I yearn to go back to the first year and walk through the gate again. I long to don those ID cards once again and stand with my friends at T-Square as we reminisce about our first-year experiences. I want to get asked to demonstrate riding bikes, ask a senior’s name in the proper format given, and pry on our classmates and get their numbers for the seniors. I wish I could attend classes again, get sent outside for disturbing, run in sweaty formals, enter the chilled CS labs, and sit there staring blankly at the screens. Looking back, I can't help but smile at the memories.
 
 <figure class="skylab">
-<img alt= 'skylab'  src ="/assets/img/teasquared/sit-6.jpeg" class="h-75 w-75">
+<img alt= 'skylab'  src ="https://anubhavp.dev/assets/img/teasquared/sit-6.jpeg" class="h-75 w-75">
 <figcaption>
 Skylab
 </figcaption>
@@ -43,7 +43,7 @@ As we bid farewell to each other, we make promises to stay in touch, meet, and g
 I am filled with bittersweet nostalgia as I reflect on the journey that led me here, the friends I have made, and the experiences I have had. As I pen these words, I want to express my deepest gratitude to my alma mater and everyone who has been a part of my journey. I can’t help but wonder about my choices and the roads I’ve taken during this journey. It has been a time of growth, discovery, and unforgettable memories. I bid adieu to this cherished chapter of my life and reflect on the moments that have made it unforgettable. My silicontites, I will cherish you for a lifetime. While it is bittersweet to say goodbye to this phase of my life, I eagerly look forward to embarking on a new chapter. With my sights set on new horizons, I am excited to see where life takes me and what the future holds.
 
 <figure class="skylab">
-<img alt='zygon' src ="/assets/img/teasquared/sit1.jpeg" >
+<img alt='zygon' src ="https://anubhavp.dev/assets/img/teasquared/sit1.jpeg" >
 <figcaption>
 Goodbye, SIT ❤️
 </figcaption>

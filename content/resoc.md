@@ -43,7 +43,7 @@ Check out the page now!! [RESOC](https://resoc.in/)
 ### Update
 
 <figure class="resoc">
-<img alt="analytics" src ="/assets/img/resoc/resoc-traffic.jpeg" class="h-75 w-75">
+<img alt="analytics" src ="https://anubhavp.dev/assets/img/resoc/resoc-traffic.jpeg" class="h-75 w-75">
 <figcaption>
 RESOC Traffic during exam time!
 </figcaption>
