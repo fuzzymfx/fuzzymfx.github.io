@@ -5,9 +5,8 @@ import { JSDOM } from "jsdom";
 
 // Set up RSS feed
 const feed = new rss({
-  title: "Anubhav's Blog",
-  description:
-    "Anubhab Patnaik's Blogs | Random chillpost on my daily drivers, chill outs & research stuff",
+  title: "fuzzymusings",
+  description: "A space for my two cents, musings, and insights.",
   feed_url: "https://anubhavp.dev/blog/feed.xml",
   site_url: "https://anubhavp.dev/blog",
   guid: "https://anubhavp.dev/blog",
@@ -44,7 +43,6 @@ async function generateXmls() {
 
         const dom = new JSDOM(html);
         const title = dom.window.document.querySelector("title").textContent;
-
         const dateElement = dom.window.document.querySelector(
           'meta[name="publish-date"]'
         );
@@ -54,7 +52,7 @@ async function generateXmls() {
         const descriptionElement = dom.window.document.querySelector(
           'meta[name="description"]'
         );
-        const bodyElement = dom.window.document.querySelector("body");
+        const bodyElement = dom.window.document.querySelector("main");
 
         const date = dateElement ? dateElement.getAttribute("content") : "";
         const author = authorElement
@@ -64,9 +62,11 @@ async function generateXmls() {
           ? descriptionElement.getAttribute("content")
           : "";
         const body = bodyElement ? bodyElement.innerHTML : "";
+        const subtitle = description;
 
         const item = {
           title,
+          subtitle,
           description,
           url,
           date,

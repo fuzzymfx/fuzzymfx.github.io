@@ -5,7 +5,8 @@ title: Blog
 
 <span class="custom-tags">#substack</span>
 
-<div id="substack-feed-embed"></div>
+<!-- <div id="substack-feed-embed"></div> -->
+Coming soon!
 
 <span class="custom-tags">#tech</span>
 
