@@ -3,6 +3,10 @@ title: Blog
 ---
 [Reading](../reading.html)
 
+<span class="custom-tags">#substack</span>
+
+<div id="substack-feed-embed"></div>
+
 <span class="custom-tags">#tech</span>
 
 <li class="flex justify-between pb3"><a href="./neak.html" class="link">Neak: A SQL generator</a><span class="date gray">10-12-2023</span> </li>
