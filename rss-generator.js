@@ -55,9 +55,10 @@ async function generateXmls() {
         const bodyElement = dom.window.document.querySelector("main");
 
         const date = dateElement ? dateElement.getAttribute("content") : "";
-        const author = authorElement
-          ? authorElement.getAttribute("content")
-          : "";
+        let author = authorElement ? authorElement.getAttribute("content") : "";
+
+        if (author === "<!-- AUTHOR -->") author = "fuzzymf";
+
         const description = descriptionElement
           ? descriptionElement.getAttribute("content")
           : "";
@@ -66,12 +67,11 @@ async function generateXmls() {
 
         const item = {
           title,
-          subtitle,
           description,
           url,
           date,
           author,
-          custom_elements: [{ "content:encoded": body }],
+          custom_elements: [{ "content:encoded": body }, { subtitle }],
         };
         feed.item(item);
       }
