@@ -43,7 +43,11 @@ Coming onto Dough: a rich, modular, and customisable content generator, crafted 
 
 I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
 
-Finances are tough. I found a couple of interesting investment opportunities, and am learning more on investments and diversification of my portfolio. Will be updating my journey through investments here.
+Finances are tough. I found a couple of interesting investment opportunities, and am learning more about investments and diversification of my portfolio. Will be updating my journey through investments here.
+
+Meanwhile, I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
+
+Feel free to [subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts.
 
 ---
 

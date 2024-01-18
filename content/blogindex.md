@@ -36,12 +36,6 @@ title: Blog
 
 <li class="flex justify-between pb3"><a href="./teasquared.html" class="link">Teasquared: Adieu, Siliconites</a><span class="date gray">15-05-2023</span> </li>
 
-<span class="custom-tags">#journaling</span> -->
-*Moving to [Substack](https://fuzzymf.substack.com/)*
+---
 
-<!-- <div id="substack-feed-embed"></div> -->
-
-Coming soon!  
-
-###### [Subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications :)
-
+[Subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts :)
