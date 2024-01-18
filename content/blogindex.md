@@ -3,11 +3,6 @@ title: Blog
 ---
 [Reading](../reading.html)
 
-<span class="custom-tags">#substack</span>
-
-<!-- <div id="substack-feed-embed"></div> -->
-Coming soon!
-
 <span class="custom-tags">#tech</span>
 
 <li class="flex justify-between pb3"><a href="./neak.html" class="link">Neak: A SQL generator</a><span class="date gray">10-12-2023</span> </li>
@@ -41,4 +36,12 @@ Coming soon!
 
 <li class="flex justify-between pb3"><a href="./teasquared.html" class="link">Teasquared: Adieu, Siliconites</a><span class="date gray">15-05-2023</span> </li>
 
-<!-- <iframe src="https://fuzzymf.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" scrolling="no"></iframe> -->
+<span class="custom-tags">#journaling</span> -->
+*Moving to [Substack](https://fuzzymf.substack.com/)*
+
+<!-- <div id="substack-feed-embed"></div> -->
+
+Coming soon!  
+
+###### [Subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications :)
+
