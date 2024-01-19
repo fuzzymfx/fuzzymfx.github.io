@@ -1,7 +1,7 @@
 ---
 title: Blog
 ---
-[Reading](../reading.html)
+[Pen, pages and pixels](../reading.html)
 
 <span class="custom-tags">#tech</span>
 

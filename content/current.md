@@ -12,25 +12,28 @@ title: "Current shenanigans"
 
 ##### Current, 2024
 
+[Here's what I am reading and writing these days](/reading.html)
+
 Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am pretty stoked :D
 
 Here's an improved version of Llama Index's sub-querying engine used to generate SQL from Natural Language: [Neak](/blog/neak.html).
 
 At RadiusAI, I am exploring Prefect and will be working on automating workflows in Python. I am also involved in the team that is building auto-checkout terminals for retail stores. I am working on building the POS system for the terminals.
 
-On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon.
+On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer/ consumer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon. I am primarily dedicated on working on this now. The codename for the project is *'Hoid'*. Hoid has a lot of moving parts. I am focused on the market research now. I believe that tech has become a commodity. There isn't anything that you cannot build using tech now. Money is in solving the right set of problems.
+
+To give a sneek into hoid, here are some of the things that I am working on:
+
+- content recommendation engine
+- search engine using vectors
+- content aggregation
+- bookmarks, and TL;DR
+
+I will be updating soon with more details.
 
 Meanwhile, I am exploring esoteric programming languages, and I am having a blast. Will be updating this page with my progress with brainfuck. 
 
-I am also planning to brush up on advanced data structures and algorithms. I will be spending most of my time on Leetcode and will share my progress here. Here is the list of topics that I am exploring:
-
-- Trees (Binary Trees, Binary Search Trees, AVL Trees, Red-Black Trees, etc.)
-- Heaps (Binary Heaps, Priority Queues)
-- Hash Tables
-- Graphs
-- Dynamic Programming
-
-Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
+I am also planning to brush up on advanced data structures and algorithms. I will be spending some time on Leetcode and will share my progress here. Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
 
 Coming onto Dough: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
@@ -47,7 +50,17 @@ Finances are tough. I found a couple of interesting investment opportunities, an
 
 Meanwhile, I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
 
-Feel free to [subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts.
+<div id="substack-feed-embed"></div>
+<script>
+  window.SubstackFeedWidget = {
+    substackUrl: "fuzzymf.substack.com",
+    posts: 3,
+    hidden: ["image"]
+  };
+</script>
+<script src="https://substackapi.com/embeds/feed.js" async></script>
+
+Feel free to check out whatever [else I have written](https://fuzzymf.substack.com) and [subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts.
 
 ---
 
