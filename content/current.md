@@ -37,11 +37,11 @@ I am also planning to brush up on advanced data structures and algorithms. I wil
 
 Coming onto Dough: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
-- ~~Rendering Engine~~
-- Templating Engine
+- Rendering Engine
+- ~~Templating Engine~~
 - Footer
-- Animations 
-- Alignment 
+- Animations
+- Alignment
 - Syntax highlighting
 
 I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
