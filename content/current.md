@@ -33,7 +33,7 @@ I will be updating soon with more details.
 
 Meanwhile, I am exploring esoteric programming languages, and I am having a blast. Will be updating this page with my progress with brainfuck. 
 
-I am also planning to brush up on advanced data structures and algorithms. I will be spending some time on Leetcode and will share my progress here. Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
+<!-- I am also planning to brush up on advanced data structures and algorithms. I will be spending some time on Leetcode and will share my progress here. Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/) -->
 
 Coming onto `Dough`: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
