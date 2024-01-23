@@ -39,9 +39,10 @@ Coming onto `Dough`: a rich, modular, and customisable content generator, crafte
 
 - Rendering Engine
   - Render common markdown syntaxes
-  - Add mechanism for custom colors and alignment
-  - Add a bounding box to fix the dimensions of the terminal display
-  - ~~Syntax highlighting~~
+    - The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless, and thus doesn't pertain any information about the previous element. My main focus is figuring out a way to implement this.
+  - ~~Color coding elements~~
+  - Custom colors and alignment
+  - Fixed bounding box dimenstion to standardize the console printing
 - Templating Engine
   - Optional conf file to specify colors for a template
 - Footer: Optional asupport for a footer
