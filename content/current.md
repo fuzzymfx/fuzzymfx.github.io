@@ -35,14 +35,16 @@ Meanwhile, I am exploring esoteric programming languages, and I am having a blas
 
 I am also planning to brush up on advanced data structures and algorithms. I will be spending some time on Leetcode and will share my progress here. Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/)
 
-Coming onto Dough: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
+Coming onto `Dough`: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
 - Rendering Engine
-- ~~Templating Engine~~
-- Footer
-- Animations
-- Alignment
-- Syntax highlighting
+  - Render common markdown syntaxes
+  - Add mechanism for custom colors and alignment
+  - Add a bounding box to fix the dimensions of the terminal display
+  - ~~Syntax highlighting~~
+- Templating Engine
+  - Optional conf file to specify colors for a template
+- Footer: Optional asupport for a footer
 
 I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
 
