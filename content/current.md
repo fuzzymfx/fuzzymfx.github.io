@@ -43,7 +43,7 @@ Coming onto `Dough`: a rich, modular, and customisable content generator, crafte
   - Fixed bounding box dimenstions to standardize the console printing
   - Render most common markdown syntaxes
     - The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless, and thus doesn't pertain any information about the previous element. My main focus is figuring out a way to implement this.
-- Templating Engine
+- ~~Templating Engine~~
   - ~~Optional conf file to specify colors for a template~~
 - ~~Improving accesibility, readability, and usability~~
 - *Footer: Optional support for a footer
