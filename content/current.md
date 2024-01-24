@@ -38,14 +38,15 @@ Meanwhile, I am exploring esoteric programming languages, and I am having a blas
 Coming onto `Dough`: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
 - Rendering Engine
-  - Render common markdown syntaxes
-    - The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless, and thus doesn't pertain any information about the previous element. My main focus is figuring out a way to implement this.
   - ~~Color coding elements~~
   - Custom alignment implementation
   - Fixed bounding box dimenstions to standardize the console printing
+  - Render most common markdown syntaxes
+    - The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless, and thus doesn't pertain any information about the previous element. My main focus is figuring out a way to implement this.
 - Templating Engine
-  - Optional conf file to specify colors for a template
-- Footer: Optional support for a footer
+  - ~~Optional conf file to specify colors for a template~~
+- ~~Improving accesibility, readability, and usability~~
+- *Footer: Optional support for a footer
 
 I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
 
