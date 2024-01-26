@@ -44,7 +44,6 @@ Coming onto `Dough`: a rich, modular, and customisable content generator, crafte
     - The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless, and thus doesn't pertain any information about the previous element. My main focus is figuring out a way to implement this.
   - Custom alignment implementation
   - ~~Custom scrolling mechanism for more granular control~~
-    - Fix re-rendering errors when manually scrolled
 
 - ~~Templating Engine~~
   - ~~Optional conf file to specify colors for a template~~
