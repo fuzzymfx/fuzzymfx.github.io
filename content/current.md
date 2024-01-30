@@ -33,8 +33,6 @@ I will be updating soon with more details.
 
 Meanwhile, I am exploring esoteric programming languages, and I am having a blast. Will be updating this page with my progress with brainfuck. 
 
-<!-- I am also planning to brush up on advanced data structures and algorithms. I will be spending some time on Leetcode and will share my progress here. Feel free to check out my leetcode profile [here](https://leetcode.com/anubhabr50/) -->
-
 Coming onto `Dough`: a rich, modular, and customisable content generator, crafted in Rust; here's what's up with it:
 
 - Rendering Engine
@@ -52,9 +50,9 @@ Coming onto `Dough`: a rich, modular, and customisable content generator, crafte
   - ~~Optional conf file to specify colors for a template~~
 - ~~Improving accesibility, readability, and usability~~
 
-I plan to finish up with dough by the end of this month. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
+Check out the entire [TODO list here](https://github.com/fuzzymfx/dough/blob/main/README.md#contributing). I will be picking up a few of the tasks from the list and will finish them off before handing this out to the community. The important ones, involving the rendering engine, nested syntax, multi-line syntax, etc. are still pending. I would want people to contribute to the ones pending, thus making this a more robust open-source project.
 
-Finances are tough. I found a couple of interesting investment opportunities, and am learning more about investments and diversification of my portfolio. Will be updating my journey through investments here.
+I plan to finish up with dough by the end of this January. Later, I will be reviving [Bee](https://github.com/fuzzymfx/b), a bit-torrent client I started working on a while back.
 
 Meanwhile, I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
 
