@@ -41,9 +41,10 @@ Coming onto `Dough`: a rich, modular, and customisable content generator, crafte
   - Render most common markdown syntaxes
     - The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless, and thus doesn't pertain any information about the previous element. My main focus is figuring out a way to implement this.
     - Improve the design of the rendering engine
-  - Custom alignment implementation
-    - Text alignment
+  - ~~Custom alignment implementation~~
+    - ~~Text alignment~~
     - ~~Presentation alignment~~
+    - (Extra) Improve the alignment system: Add support for group text alignments
   - ~~Custom scrolling mechanism for more granular control~~
 
 - ~~Templating Engine~~
