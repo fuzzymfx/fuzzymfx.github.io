@@ -10,7 +10,16 @@ Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, sc
 
 I enjoy music and have recently taken up playing the guitar. I also have a penchant for [adventuring and exploring places](https://anubhavp.dev/explored). Fond of *fiction*, I am trying to take time out to [read](https://anubhavp.dev/reading.html) and [write](https://anubhavp.dev/blog) more. Additionally, I have a [photography page](https://instagram.com/anubhavclicks). Besides, I attend events related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
 
+**An open invitation**
+
+If you are in Bangalore, let's meet over a cup of coffee. I am always up for a conversation. I am also open to collaborating on projects. Feel free to reach out to me over mail or any of the social media platforms. If you want to have a 10min quick chat, here are my calender and mail links. I deeply value my time, and I'm sure you do too, hence I would appreciate if you come prepared with some initial research on what you want to discuss. 
+
+[<i class="fa-solid fa-envelope" style="color: #777;"></i>](mailto:anubhabr50@gmail.com)  \   [<i class="fa-solid fa-calendar-days" style="color: #777;"></i>](https://cal.com/anubhavp)
+
 [<i class="fa-brands fa-github" style="color: #777;"></i>](https://github.com/fuzzymfx) \ [<i class="fa-solid fa-code" style="color: #777;"></i>](https://leetcode.com/anubhabr50/) \  [<i class="fa-brands fa-linkedin" style="color: #777;"></i>](https://www.linkedin.com/in/anubhabpatnaik/) \ [<i class="fa-brands fa-instagram" style="color: #777;"></i>](https://instagram.com/anubhavclicks) \ [<i class="fa-brands fa-twitter" style="color: #777;"></i>](https://twitter.com/fuzzymfx) \ [<i class="fa-solid fa-bookmark" style="color: #777;"></i>](https://fuzzymf.substack.com/subscribe)
+
+
+
 
 ---
 
