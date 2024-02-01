@@ -5,7 +5,7 @@ title: Blog
 
 <!-- <span class="custom-tags">#tech</span> -->
 
-<!-- <li class="flex justify-between pb3"><a href="./dough.html" class="link">Dough</a><span class="date gray">31-01-2024</span> </li> -->
+<li class="flex justify-between pb3"><a href="./dough.html" class="link">Dough</a><span class="date gray">31-01-2024</span> </li>
 
 <li class="flex justify-between pb3"><a href="./neak.html" class="link">Neak: A SQL generator</a><span class="date gray">10-12-2023</span> </li>
 
