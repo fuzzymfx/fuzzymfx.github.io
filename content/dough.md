@@ -31,8 +31,6 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 ## Unveiling the Core
 
-<!-- Dough uses markdown to generate slides. It uses [pulldown-cmark](https://talk.commonmark.org/t/pulldown-cmark-commonmark-in-rust/1205) syntax. Dough comes with two options: -->
-
 Dough thrives on markdown, transforming simple text files into captivating slides. Leveraging the syntax of [pulldown-cmark](https://talk.commonmark.org/t/pulldown-cmark-commonmark-in-rust/1205), it effortlessly transforms your ideas into visual stories.
 
 ### Create and present projects
@@ -44,8 +42,6 @@ Dough doesn't believe in a one-size-fits-all approach. Customize your presentati
 ### Multi-Modal presentations
 
 Choose your presentation mode with ease. Whether you prefer the simplicity of the terminal or the allure of HTML, Dough has you covered. While the HTML mode is still in the works, the terminal experience is nothing short of extraordinary.
-
-Dough isn't just a tool; it's a journey. Join us as we redefine the art of presenting, one slide at a time.
 
 <figure class="centered">
 <!-- <img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/introduction.png" class="h-50 w-50"> -->
