@@ -91,17 +91,16 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 
 - Improving the rendering engine:
   - ~~Add support for rendering **nested syntax**~~
-  - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped.
+  - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment for a seamless visual experience.
   - Enhance rendering for complex markdown elements like links within headings or lists.
     - ~~Improve the rendering of elements within lists.~~
     - Improve the rendering of elements within blockquotes.
-  - Refine color correction post-alignment for a seamless visual experience.
-  - Provide comprehensive support for common Markdown syntax, including thematic breaks.
-    -Improve the rendering of thematic breaks
+  - Provide comprehensive support for common Markdown elements.
+    - ~~Improve the rendering of thematic breaks~~
   - ~~Improve the design language.~~
   - ~~Image support for terminals with image capabilities is pending. *(Kitty, iTerm2, etc.)*~~
 - ~~Syntax Highlighting in code blocks~~
-- ~~Custom text alignment: A regex match for individual text alignment - `[\c] - for center, [\l]\ (blank) -default - for left, [\r] - for right`~~
+- ~~Custom text alignment: A regex match for individual text alignment~~
   - Improve the alignment of segments of text.
 - Implement running code blocks on separate threads and displaying results in the current console.
 
