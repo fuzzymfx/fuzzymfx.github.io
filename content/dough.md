@@ -35,7 +35,7 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 - **Alignment**: Dough also lets you align content both horizontally and vertically and also lets you specify the alignment of individual text segments, ensuring your presentations are visually refined. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
 
-- **Design**: The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have. Dough will be supporting **syntax highlighting** in code blocks soon. Dough will also be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
+- **Design**: The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have. Dough supports **syntax highlighting** in code blocks, and also will be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
 
 - **Navigation**: Scroll through slides with ease: Dough's intuitive navigation system lets you scroll through slides with ease. You can choose between scrolling top-down or bottom-up. Presentations start from `1` to the last slide. Dough supports arrow keys and VIM keybindings to navigate through slides.
 
