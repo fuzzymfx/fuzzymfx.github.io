@@ -44,9 +44,16 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 
 <figure class="centered">
-<img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/example.png" class="h-100 w-50">
+<img alt= 'example'  src ="https://anubhavp.dev/assets/img/dough/example.png" class="h-100 w-50">
 <figcaption>
 A basic example
+</figcaption>
+</figure>
+
+<figure class="centered">
+<img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/syntax-highlighting.png" class="h-50 w-50">
+<figcaption>
+Syntax Highlighting in code blocks
 </figcaption>
 </figure>
 
@@ -82,13 +89,6 @@ Dough's rendering logic in Rust orchestrates a seamless presentation experience.
 ## Contributing
 
 If you're eager to dive into the world of Rust and looking for a project to contribute to, Dough presents an exciting opportunity. Here's a breakdown of what's currently working and what areas could benefit from your expertise:
-
-<figure class="centered">
-<img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/syntax-highlighting.png" class="h-100 w-100">
-<figcaption>
-Syntax Highlighting in code blocks
-</figcaption>
-</figure>
 
 **What's working and what's not?**
 
