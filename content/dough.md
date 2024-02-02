@@ -29,15 +29,7 @@ A simple introduction slide
 
 At StackIt, the team gathers every Saturday for their weekly showcase. Each member presents their progress, showcasing the fruits of their week-long hiatus. Inspired by this collaborative spirit, I embarked on a journey to create Dough – a presentation generator tool like no other. Built in Rust, [Dough](https://github.com/fuzzymfx/dough) is a rich, modular, command-line tool to generate presentations. I found similar tools like [slidev](sli.dev) by [antfu](https://antfu.me/) and [presenterm](https://github.com/mfontanini/presenterm) that inspired me to create Dough.
 
-## Unveiling the Core
-
-Dough thrives on markdown, transforming simple text files into captivating slides. Leveraging the syntax of [pulldown-cmark](https://talk.commonmark.org/t/pulldown-cmark-commonmark-in-rust/1205), it effortlessly transforms your ideas into visual stories.
-
-Projects are created using the `new` command and presented using the `present` command. The optional `--template` flag is used to specify the template. The default template is used if not specified. The optional `--mode` flag is used to specify the mode. If not specified, the terminal mode is used. The *HTML* mode is not implemented yet.
-
-Whether you prefer the simplicity of the terminal or the allure of HTML, Dough has you covered. While the HTML mode is still in the works, the terminal experience is nothing short of extraordinary.
-
-### Features
+## Features
 
 - **Customization**: Dough's modular design allows for seamless customization, ensuring your presentations are as unique as you are. You can also customize the color scheme to suit your preferences. This lets you customize how each markdown element is rendered.
 
@@ -60,9 +52,15 @@ A basic example
 </figcaption>
 </figure>
 
-### The rendering engine
+## Unveiling the Core
 
-#### Core
+Dough thrives on markdown, transforming simple text files into captivating slides. Leveraging the syntax of [pulldown-cmark](https://talk.commonmark.org/t/pulldown-cmark-commonmark-in-rust/1205), it effortlessly transforms your ideas into visual stories.
+
+Projects are created using the `new` command and presented using the `present` command. The optional `--template` flag is used to specify the template. The default template is used if not specified. The optional `--mode` flag is used to specify the mode. If not specified, the terminal mode is used. The *HTML* mode is not implemented yet.
+
+Whether you prefer the simplicity of the terminal or the allure of HTML, Dough has you covered. While the HTML mode is still in the works, the terminal experience is nothing short of extraordinary.
+
+### The rendering engine
 
 The rendering engine serves as the backbone, seamlessly transforming markdown files into captivating presentations. At the heart of the rendering engine lie two pivotal components:
 
@@ -71,11 +69,11 @@ The rendering engine serves as the backbone, seamlessly transforming markdown fi
 
 The parser parses the markdown file, prettifies it, and then passes it to the renderer to render it. The renderer then renders the slide in the `terminal` to display it.
 
-##### Navigating the Parser's Code
+#### Navigating the Parser
 
 Crafted in Rust, Dough's parser orchestrates the markdown-to-presentation transformation with finesse. The parser takes in the markdown text and converts it into `Nodes` of `mdast`. `mdast` is a markdown Abstract Syntax Tree. The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned.
 
-##### Deciphering the Renderer's Code
+#### Deciphering the Renderer's Logic
 
 Dough's rendering logic in Rust orchestrates a seamless presentation experience. There are two stages of rendering:
 
@@ -91,6 +89,7 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 
 - Improving the rendering engine:
   - ~~Add support for rendering **nested syntax**~~
+  - Add a support for maximum width and height of the terminal. Write a word wrapper.
   - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment for a seamless visual experience.
   - Enhance rendering for complex markdown elements like links within headings or lists.
     - ~~Improve the rendering of elements within lists.~~
