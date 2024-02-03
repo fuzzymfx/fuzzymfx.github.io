@@ -18,7 +18,7 @@ Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalo
 
 Here's an improved version of Llama Index's sub-querying engine used to generate SQL from Natural Language: [Neak](/blog/neak.html).
 
-At RadiusAI, I am exploring Prefect and will be working on automating workflows in Python. I am also involved in the team that is building auto-checkout terminals for retail stores. I am working on building the POS system for the terminals.
+At Radius AI I am involved in building a async Uptime monitoring service using Rust, and also a concurent heartbeat service in Python. I will update this page with more details soon.
 
 On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer/ consumer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon. I am primarily dedicated to working on this now. The codename for the project is *'Hoid'*. Hoid has a lot of moving parts. I am focused on the market research now. I believe that tech has become a commodity. There isn't anything that you cannot build using tech now. Money is in solving the right set of problems.
 
@@ -33,23 +33,28 @@ Meanwhile, I am exploring esoteric programming languages, and I am having a blas
 
 Coming onto `Dough`: a rich, modular, and customisable content generator, crafted in Rust; [here's everything](https://anubhavp.dev/blog/dough.html) that you need to know about dough. This is a breakdown of the tasks I was working on:
 
-- Rendering Engine
-  - ~~Color coding elements~~
-  - ~~Fixed bounding box dimensions to standardize the rendering area~~
-  - Render most common markdown syntaxes
-    - ~~The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless and thus doesn't pertain to any information about the previous element. My main focus is figuring out a way to implement this.~~
-    - ~~Improve the design of the rendering engine~~
-  - ~~Custom alignment implementation~~
-    - ~~Text alignment~~
-    - ~~Presentation alignment~~
-    - (Extra) Improve the alignment system: Add support for group text alignments
-  - ~~Custom scrolling mechanism for more granular control~~
+v2:
 
-- ~~Templating Engine~~
-  - ~~Optional conf file to specify colors for a template~~
-- ~~Improving accessibility, readability, and usability~~
+- Improving the rendering engine:
+  - ~~Add a refresh feature while rendering slides~~
+    - Hot Module Reload( FIX )
+  - ~~Add support for rendering **nested syntax**~~
+  - Add a support for maximum width and height of the terminal. Write a word wrapper.
+  - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment for a seamless visual experience.
+  - Enhance rendering for complex markdown elements like links within headings or lists.
+    - ~~lists.~~
+    - blockquotes.
+  - Provide comprehensive support for common Markdown elements.
+    - ~~Improve the rendering of thematic breaks~~
+  - ~~Improve the design language.~~
+  - Image support for terminals with image capabilities is pending. *(Kitty, iTerm2, etc.)*
+- ~~Syntax Highlighting in code blocks~~
+  - ~~Improve the performance of syntax highlighting. The current implementation is CPU intensive. Use a different library for syntax highlighting, or parallel threads to improve performance.~~
+- ~~Custom text alignment: A regex match for individual text alignment~~
+  - Improve the alignment of segments of text.
+- Implement running code blocks on separate threads and displaying results in the current console.
 
-I am done with most of what I had planned for Dough. Check out the entire [TODO list here](https://github.com/fuzzymfx/dough/blob/main/README.md#contributing). I will be picking up a few of the tasks from the list and will finish them off before handing this out to the community. The important ones, involving the rendering engine, nested syntax, multi-line syntax, etc. are still pending. I would want people to contribute to the ones pending, thus making this a more robust open-source project.
+I am done with most of what I had planned for Dough. Check out the entire [TODO list here](https://github.com/fuzzymfx/dough/blob/main/README.md#contributing). I will be picking up a few of the tasks from the list and will finish them off before handing this out to the community. The important ones, involving the hot reload, parallele thread spawing with code running, and multi-line syntax, etc. are still pending. I would want people to contribute to the ones pending, thus making this a more robust open-source project.
 
 Meanwhile, I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
 
