@@ -93,17 +93,19 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 **What's working and what's not?**
 
 - Improving the rendering engine:
+  - ~~Add a Hot Module Reload feature while rendering slides~~
   - ~~Add support for rendering **nested syntax**~~
   - Add a support for maximum width and height of the terminal. Write a word wrapper.
   - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment for a seamless visual experience.
   - Enhance rendering for complex markdown elements like links within headings or lists.
-    - ~~Improve the rendering of elements within lists.~~
-    - Improve the rendering of elements within blockquotes.
+    - ~~lists.~~
+    - blockquotes.
   - Provide comprehensive support for common Markdown elements.
     - ~~Improve the rendering of thematic breaks~~
   - ~~Improve the design language.~~
-  - ~~Image support for terminals with image capabilities is pending. *(Kitty, iTerm2, etc.)*~~
+  - Image support for terminals with image capabilities is pending. *(Kitty, iTerm2, etc.)*
 - ~~Syntax Highlighting in code blocks~~
+  - Improve the performance of syntax highlighting. The current implementation is CPU intensive. Use a different library for syntax highlighting, or parallel threads to improve performance.
 - ~~Custom text alignment: A regex match for individual text alignment~~
   - Improve the alignment of segments of text.
 - Implement running code blocks on separate threads and displaying results in the current console.
