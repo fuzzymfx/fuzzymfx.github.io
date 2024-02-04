@@ -38,9 +38,9 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 - **Navigation**: Scroll through slides with ease: Dough's intuitive navigation system lets you scroll through slides with ease. You can choose between scrolling top-down or bottom-up. Presentations start from `1` to the last slide. Dough supports arrow keys and VIM keybindings to navigate through slides.
 
-- *Hot Module Reloading*: Dough will be supporting hot module reloading. This means that you can edit your markdown file and the changes will be reflected in the presentation. This is done by watching the file for changes and reloading the presentation when the file is changed.
+- **Code Execution**: Dough supports code execution in code blocks. You can run your code and the output will be displayed in the presentation. The code blocks run in a separate thread and the main thread displays the output in the terminal.
 
-- *Code Execution*: Dough will be supporting code execution in code blocks. This means that you can run your code and the output will be displayed in the presentation. This will be implemented by running the code block in a separate thread and displaying the output in the presentation.
+- *Hot Module Reloading*: Dough will be supporting hot module reloading. This means that you can edit your markdown file and the changes will be reflected in the presentation. This is done by watching the file for changes and reloading the presentation when the file is changed.
 
 
 <figure class="centered">
