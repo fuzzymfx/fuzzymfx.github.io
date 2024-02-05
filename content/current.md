@@ -51,7 +51,7 @@ v2:
 - ~~Syntax Highlighting in code blocks~~
   - ~~Improve the performance of syntax highlighting. The current implementation is CPU intensive. Use a different library for syntax highlighting, or parallel threads to improve performance.~~
 - ~~Custom text alignment: A regex match for individual text alignment~~
-  - Improve the alignment of segments of text.
+  - ~~Improve the alignment of segments of text.~~
 - ~~Implement running code blocks on separate threads and displaying results in the current console.~~
 
 I am done with most of what I had planned for Dough. Check out the entire [TODO list here](https://github.com/fuzzymfx/dough/blob/main/README.md#contributing). I will be picking up a few of the tasks from the list and will finish them off before handing this out to the community. The important ones, involving the hot reload, parallele thread spawing with code running, and multi-line syntax, etc. are still pending. I would want people to contribute to the ones pending, thus making this a more robust open-source project.

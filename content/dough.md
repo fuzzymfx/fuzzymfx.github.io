@@ -105,9 +105,9 @@ If you're eager to dive into the world of Rust and looking for a project to cont
   - ~~Improve the design language.~~
   - Image support for terminals with image capabilities is pending. *(Kitty, iTerm2, etc.)*
 - ~~Syntax Highlighting in code blocks~~
-  - Improve the performance of syntax highlighting. The current implementation is CPU intensive. Use a different library for syntax highlighting, or parallel threads to improve performance.
+  ~~- Improve the performance of syntax highlighting. The current implementation is CPU intensive.~~
 - ~~Custom text alignment: A regex match for individual text alignment~~
-  - Improve the alignment of segments of text.
-- Implement running code blocks on separate threads and displaying results in the current console.
+  - ~~Improve the alignment of segments of text.~~
+- ~~Implement running code blocks on separate threads and displaying results in the current console.~~
 
 Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere. So why wait? Dive into the world of Dough and let your presentations shine like never before.
