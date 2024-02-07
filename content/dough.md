@@ -92,8 +92,41 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 
 **What's working and what's not?**
 
+- [ ] *bug* **IMP** Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment for a seamless visual experience.
+- [ ] *bug* Fix scrolling issue in highlight mode:
+  - [ ] Over Scroll in infinite scrolling
+  - [ ] Scroll breaking in highlight mode in thematic break
+  - [ ] Skip empty lines in highlight mode
+- [ ] *bug* custom aligner adds empty lines after text-block alignment
+- [ ] *feat.* Hot Module Reload
+- [ ] *feat.* Add a support for maximum width and height of the terminal. Write a word wrapper.
+- [ ] *feat.* Add comprehensive support for common Markdown elements.
+- [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
+  - [ ] lists.
+  - [ ] blockquotes.
+
+Here's a breakdown of the tasks I was working on:
+
+- Rendering Engine
+  - ~~Color coding elements~~
+  - ~~Fixed bounding box dimensions to standardize the rendering area~~
+  - Render most common markdown syntaxes
+    - ~~The primary issue here is **rendering nested syntax**, lists, blockquotes, etc. The current implementation is stateless and thus doesn't pertain to any information about the previous element. My main focus is figuring out a way to implement this.~~
+    - ~~Improve the design of the rendering engine~~
+  - ~~Custom alignment implementation~~
+    - ~~Text alignment~~
+    - ~~Presentation alignment~~
+  - ~~Custom scrolling mechanism for more granular control~~
+
+- ~~Templating Engine~~
+  - ~~Optional conf file to specify colors for a template~~
+- ~~Improving accessibility, readability, and usability~~
+
+v2:
+
 - Improving the rendering engine:
-  - ~~Add a Hot Module Reload feature while rendering slides~~
+  - ~~Add a refresh feature while rendering slides~~
+    - Hot Module Reload( *auto* )
   - ~~Add support for rendering **nested syntax**~~
   - Add a support for maximum width and height of the terminal. Write a word wrapper.
   - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment for a seamless visual experience.
@@ -105,9 +138,10 @@ If you're eager to dive into the world of Rust and looking for a project to cont
   - ~~Improve the design language.~~
   - Image support for terminals with image capabilities is pending. *(Kitty, iTerm2, etc.)*
 - ~~Syntax Highlighting in code blocks~~
-  ~~- Improve the performance of syntax highlighting. The current implementation is CPU intensive.~~
+  - ~~Improve the performance of syntax highlighting. The current implementation is CPU intensive. Use a different library for syntax highlighting, or parallel threads to improve performance.~~
 - ~~Custom text alignment: A regex match for individual text alignment~~
   - ~~Improve the alignment of segments of text.~~
 - ~~Implement running code blocks on separate threads and displaying results in the current console.~~
+
 
 Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere. So why wait? Dive into the world of Dough and let your presentations shine like never before.
