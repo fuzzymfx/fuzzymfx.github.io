@@ -26,11 +26,16 @@ A simple introduction slide
 
 (Why, though? - *Get it? xD*)
 
-At StackIt, the team gathers every Saturday for their weekly showcase. Each member presents their progress, showcasing the fruits of their week-long hiatus. Inspired by this collaborative spirit, I embarked on a journey to create Dough – a presentation generator tool like no other. Built in Rust, [Dough](https://github.com/fuzzymfx/dough) is a rich, modular, command-line tool to generate presentations. I found similar tools like [slidev](sli.dev) by [antfu](https://antfu.me/) and [presenterm](https://github.com/mfontanini/presenterm) that inspired me to create Dough.
+At StackIt, the team gathers every Saturday for their weekly showcase. Each member presents their progress, showcasing the fruits of their week-long hiatus. Inspired by this collaborative spirit, I came on to the idea of Dough – a presentation generator tool like no other. Built in Rust, [Dough](https://github.com/fuzzymfx/dough) is a rich, modular, command-line tool to generate presentations. I found similar tools like [slidev](sli.dev) by [antfu](https://antfu.me/) and [presenterm](https://github.com/mfontanini/presenterm) that inspired me to create Dough.
 
 ## Features
 
-- **Customization**: Dough's modular design allows for seamless customization, ensuring your presentations are as unique as you are. You can also customize the color scheme to suit your preferences. This lets you customize how each markdown element is rendered. You can customize the presentation by modifying the `style.yml` file in the project directory. The `config.yaml` file contains the default style settings for the terminal markdown renderer.
+- **Customization**: Dough's modular design allows for seamless customization, ensuring your presentations are as unique as you are. You can customize the color scheme, the alignment, and the syntax highlighting of the code blocks, and even the runtime of the code blocks. The default style settings are stored in a `style.yaml` file which looks like this:
+
+  - **Alignment**: Dough also lets you align content both horizontally and vertically and also lets you specify the alignment of individual text segments, ensuring your presentations are visually refined. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
+
+  - **Design**: The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have. Dough supports **syntax highlighting** in code blocks, and also will be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
+
 
 ```yaml
 # This file contains the default style settings for the terminal markdown renderer.
@@ -39,26 +44,11 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 h1: red
 h2: yellow
 h3: green
-h4: cyan
-h5: blue
-h6: purple
+
 code: black on white
-blockquote: black on white
-ordered_list_bullet: yellow
-unordered_list_bullet: yellow
+
 ordered_list: white
 unordered_list: white
-link_text: black
-link_url: blue
-thematic_break: white on black
-
-# Terminal styles
-
-# clear will clear the terminal before rendering, you would need to scroll down to render each line
-clear: false
-
-box: false
-box_color: black on white
 
 # vertical_alignment will vertically align the text to the middle of the terminal
 vertical_alignment: true
@@ -66,20 +56,13 @@ vertical_alignment: true
 # horizontal_alignment will horizontally align the text to the middle of the terminal
 horizontal_alignment: true
 
-# syntax_highlighting will highlight the code syntax
-# this works well with GPU accelerated terminals, but not with the default Mac OS terminal. We suggest using iTerm2 or Kitty, or disabling this feature.
+box: false
+# clear will clear the terminal before rendering, you would need to scroll down to render each line
 
+# syntax_highlighting will highlight the code syntax
 syntax_highlighting: true
 synatx_theme: base16-ocean.dark
 #themes:[base16-ocean.dark,base16-eighties.dark,base16-mocha.dark,base16-ocean.light, Solarized (dark) and Solarized (light)]
-syntax_bg: false
-
-# Displays the slide number/total slides
-progress: false 
-
-# runtime map is used to store the runtimes for different languages
-# you can add your own runtimes for different languages. Currently, the following runtimes are supported:
-
 -runtime_map:
   python: python3
   sh: bash
@@ -87,16 +70,10 @@ progress: false
   javascript: node
   typescript: node
   ts: tsc
-  c: gcc
-  cpp: g++
-  java: javac
-  go: go run
-  rust: cargo run
-  ruby: ruby
-  php: php
-  swift: swift
-  kotlin: kotlinc
+...
 ```
+The entire file can be found here - [style.yaml](https://github.com/fuzzymfx/dough/blob/main/templates/default/style.yml)
+
 <figure class="centered">
 <img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/syntax-highlighting.png" class="h-50 w-50">
 <figcaption>
@@ -104,9 +81,8 @@ Syntax Highlighting in code blocks
 </figcaption>
 </figure>
 
-- **Alignment**: Dough also lets you align content both horizontally and vertically and also lets you specify the alignment of individual text segments, ensuring your presentations are visually refined. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
 
-- **Design**: The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have. Dough supports **syntax highlighting** in code blocks, and also will be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
+- **Templates**: Dough supports templates. You can create your own templates and use them to create presentations. The default template is used if not specified. The optional `--template` flag is used to specify the template. The default template is used if not specified. The optional `--mode` flag is used to specify the mode. If not specified, the terminal mode is used. The *HTML* mode is not implemented yet.
 
 - **Navigation**: Scroll through slides with ease: Dough's intuitive navigation system lets you scroll through slides with ease. You can choose between scrolling top-down or bottom-up. Presentations start from `1` to the last slide. Dough supports arrow keys and VIM keybindings to navigate through slides. There are two modes of navigation:
 
@@ -135,20 +111,19 @@ Line highlighting
   - `n`: runs the `n`th code block. and outputs the result in the terminal.
 
 
-- *Hot Module Reloading*: Dough will be supporting hot module reloading. This means that you can edit your markdown file and the changes will be reflected in the presentation. This is done by watching the file for changes and reloading the presentation when the file is changed.
+- *Hot Module Reloading*: Dough will be supporting hot module reloading. This means that you can edit your markdown file and the changes will be reflected in the presentation instantly. This feature is still in the works.
 
 
 ## Unveiling the Core
 
 Dough thrives on markdown, transforming simple text files into captivating slides. Leveraging the syntax of [pulldown-cmark](https://talk.commonmark.org/t/pulldown-cmark-commonmark-in-rust/1205), it effortlessly transforms your ideas into visual stories.
 
-Projects are created using the `new` command and presented using the `present` command. The optional `--template` flag is used to specify the template. The default template is used if not specified. The optional `--mode` flag is used to specify the mode. If not specified, the terminal mode is used. The *HTML* mode is not implemented yet.
-
-Whether you prefer the simplicity of the terminal or the allure of HTML, Dough has you covered. While the HTML mode is still in the works, the terminal experience is nothing short of extraordinary.
+Projects are created by simply writing a markdown file inside a folder. The folder name is the name of the project. Just `mkdir my_folder` 
+and `touch my_folder/1.md` and you're good to go. You can also use templates using the `new` command. The slides are presented using the `present` command. The optional `--template` flag is used to specify the template. The default template is used if not specified.
 
 ### The rendering engine
 
-The rendering engine serves as the backbone, seamlessly transforming markdown files into captivating presentations. At the heart of the rendering engine lie two pivotal components:
+The rendering engine serves as the backbone, seamlessly transforming markdown files into soothing presentations. At the heart of the rendering engine lie two pivotal components:
 
 - Renderer: This component takes charge of the visual rendering of slides.
 - Parser: Responsible for dissecting markdown files and converting them into a structured format.
@@ -157,7 +132,7 @@ The parser parses the markdown file, prettifies it, and then passes it to the re
 
 #### Navigating the Parser
 
-Crafted in Rust, Dough's parser orchestrates the markdown-to-presentation transformation with finesse. The parser takes in the markdown text and converts it into `Nodes` of `mdast`. `mdast` is a markdown Abstract Syntax Tree. The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, spacing, and adds margin to the content to fit the terminal.
+The parser takes in the markdown text and converts it into `Nodes` of `mdast`(markdown abstract syntax tree). The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, spacing, and adds margin to the content to fit the terminal.
 
 Here is an in-depth code walkthrough of the main pretiffy fn:
 
@@ -168,12 +143,14 @@ pub fn prettify(
     style_map: &HashMap<String, String>,
     highlight_line_num: u32,
 ) -> Result<String, Box<dyn std::error::Error>> {
+
+    // The yaml file
     let map = style_map.clone();
     let mut global_styles = STYLES.lock().unwrap();
     *global_styles = map;
     drop(global_styles);
 
-    // codes stores the code blocks in the markdown file  
+    // codes stores the code blocks in the markdown file to be run
     let mut codes = CODES.lock().unwrap();
     *codes = BTreeMap::new();
     drop(codes);
@@ -198,6 +175,7 @@ pub fn prettify(
     match parsed {
         Err(err) => return Err(format!("Error parsing markdown: {}", err).into()),
         Ok(node) => {
+          // this then reccursively traverses the tree and prettifies the content 
             let result = visit_md_node(node, 0);
             if let Some(text) = result {
                 prettified.push_str(&text);
@@ -274,6 +252,9 @@ If you're eager to dive into the world of Rust and looking for a project to cont
   - [ ] lists.
   - [ ] blockquotes.
 
+
+### Journey
+
 Here's a breakdown of the tasks I was working on:
 
 - Rendering Engine
@@ -295,10 +276,10 @@ v2:
 
 - Improving the rendering engine:
   - ~~Add a refresh feature while rendering slides~~
-    - Hot Module Reload( *auto* )
+    - Hot Module Reload ( *auto* )
   - ~~Add support for rendering **nested syntax**~~
   - Add a support for maximum width and height of the terminal. Write a word wrapper.
-  - Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.
+  - **Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.**
   - Enhance rendering for complex markdown elements like links within headings or lists.
     - ~~lists.~~
     - blockquotes.
@@ -313,4 +294,6 @@ v2:
 - ~~Implement running code blocks on separate threads and displaying results in the current console.~~
 
 
-Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere. So why wait? Dive into the world of Dough and let your presentations shine like never before.
+Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere. 
+
+Let your presentations shine like never before :)
