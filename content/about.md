@@ -12,14 +12,11 @@ I enjoy music and have recently taken up playing the guitar. I also have a pench
 
 **An open invitation**
 
-If you are in Bangalore, let's meet over a cup of coffee. I am always up for a conversation. I am also open to collaborating on projects. Feel free to reach out to me over mail or any of the social media platforms. If you want to have a 10min quick chat, here are my calender and mail links. I deeply value my time, and I'm sure you do too, hence I would appreciate if you come prepared with some initial research on what you want to discuss. 
+If you are in Bangalore, let's meet over a cup of coffee. I am always up for a conversation, or collaborating on projects. Feel free to reach out to me over mail or any of the social media platforms. If you want to have a 10 min quick chat, here are my calender and mail links. I deeply value my time, and I'm sure you do too, hence I would appreciate if you come prepared with some initial research on what you want to discuss.
 
 [<i class="fa-solid fa-envelope" style="color: #777;"></i>](mailto:anubhabr50@gmail.com)  \   [<i class="fa-solid fa-calendar-days" style="color: #777;"></i>](https://cal.com/anubhavp)
 
 [<i class="fa-brands fa-github" style="color: #777;"></i>](https://github.com/fuzzymfx) \ [<i class="fa-solid fa-code" style="color: #777;"></i>](https://leetcode.com/anubhabr50/) \  [<i class="fa-brands fa-linkedin" style="color: #777;"></i>](https://www.linkedin.com/in/anubhabpatnaik/) \ [<i class="fa-brands fa-instagram" style="color: #777;"></i>](https://instagram.com/anubhavclicks) \ [<i class="fa-brands fa-twitter" style="color: #777;"></i>](https://twitter.com/fuzzymfx) \ [<i class="fa-solid fa-bookmark" style="color: #777;"></i>](https://fuzzymf.substack.com/subscribe)
-
-
-
 
 ---
 
