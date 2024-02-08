@@ -32,19 +32,16 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 - **Customization**: Dough's modular design allows for seamless customization, ensuring your presentations are as unique as you are. You can customize the color scheme, the alignment, and the syntax highlighting of the code blocks, and even the runtime of the code blocks. The default style settings are stored in a `style.yaml` file which looks like this:
 
-  - **Alignment**: Dough also lets you align content both horizontally and vertically and also lets you specify the alignment of individual text segments, ensuring your presentations are visually refined. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
+  - **Alignment**: Dough lets you align content both horizontally and vertically and also lets you specify the alignment of individual text segments, ensuring your presentations are visually refined. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
 
   - **Design**: The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have. Dough supports **syntax highlighting** in code blocks, and also will be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
 
-
 ```yaml
-# This file contains the default style settings for the terminal markdown renderer.
-
 # Markdown styles
 h1: red
 h2: yellow
 h3: green
-
+...
 code: black on white
 
 ordered_list: white
@@ -72,6 +69,7 @@ synatx_theme: base16-ocean.dark
   ts: tsc
 ...
 ```
+
 The entire file can be found here - [style.yaml](https://github.com/fuzzymfx/dough/blob/main/templates/default/style.yml)
 
 <figure class="centered">
@@ -82,14 +80,14 @@ Syntax Highlighting in code blocks
 </figure>
 
 
-- **Templates**: Dough supports templates. You can create your own templates and use them to create presentations. The default template is used if not specified. The optional `--template` flag is used to specify the template. The default template is used if not specified. The optional `--mode` flag is used to specify the mode. If not specified, the terminal mode is used. The *HTML* mode is not implemented yet.
+- **Templates**: Dough supports templates. You can choose to use templates. The optional `--template` flag is used to specify the template. The default template is used if not specified.
 
 - **Navigation**: Scroll through slides with ease: Dough's intuitive navigation system lets you scroll through slides with ease. You can choose between scrolling top-down or bottom-up. Presentations start from `1` to the last slide. Dough supports arrow keys and VIM keybindings to navigate through slides. There are two modes of navigation:
 
   1. **Highlighting mode**: Highlight a line as you scroll through the slides.
   2. **Scrolling mode**: Scroll through the content of the slide.
 
-  - `t` :
+  - `t` (*toggle*) :
     - **highlighting** mode
     - **scrolling** mode
   - `q`, `Esc`, or `ctrl + c` to quit the presentation.
@@ -110,9 +108,7 @@ Line highlighting
 - **Code Execution**: Dough supports code execution in code blocks. You can run your code and the output will be displayed in the presentation. The code blocks run in a separate thread and the main thread displays the output in the terminal. The code blocks are internally ordered in the order they appear in the markdown file. The code blocks are run in a separate thread, and the results are displayed in the terminal.
   - `n`: runs the `n`th code block. and outputs the result in the terminal.
 
-
 - *Hot Module Reloading*: Dough will be supporting hot module reloading. This means that you can edit your markdown file and the changes will be reflected in the presentation instantly. This feature is still in the works.
-
 
 ## Unveiling the Core
 
@@ -195,7 +191,7 @@ Dough's rendering logic in Rust orchestrates a seamless presentation experience.
 1. The renderer takes in the `prettified` content and renders it in the terminal.
 2. The renderer then handles the navigation actions, the scrolling mechanism and the keybindings. It controls the flow of the presentation and is responsible for rendering the slides in the terminal. It switches between presentation and highlighting mode, and also handles the code execution.
 
-Taking a look at the rendering logic: -
+Taking a look at the rendering logic of the highlight mode: -
 
 ```rs
 fn render_term(
@@ -227,10 +223,16 @@ fn render_term(
                 return Ok((NavigationAction::ToggleHighlight, line_number));
             }
         }
-        // The scroll mode
+        // scrolling through the slides
+        else {
+            ...
+        }
+        // The keybindings are handled here
+        // fn returns the next action and the line numbers which is then sent back to the present_term fn which runs these actions on a loop unitl exited
         ...
     }
 ```
+
 Here is the source code of dough - [Dough](https://github.com/fuzzymfx/dough.git)
 
 ## Contributing
@@ -251,7 +253,6 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 - [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
   - [ ] lists.
   - [ ] blockquotes.
-
 
 ### Journey
 
@@ -294,6 +295,6 @@ v2:
 - ~~Implement running code blocks on separate threads and displaying results in the current console.~~
 
 
-Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere. 
+Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere.
 
 Let your presentations shine like never before :)
