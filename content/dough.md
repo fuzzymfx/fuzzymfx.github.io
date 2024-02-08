@@ -244,7 +244,6 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 - [ ] **IMP bug** Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.
 - [ ] *bug* Fix scrolling issue in highlight mode:
   - [ ] Over Scroll in infinite scrolling
-  - [ ] Scroll breaking in highlight mode in thematic break
   - [ ] *feat* Skip empty lines in highlight mode
 - [ ] *bug* custom aligner adds empty lines after text-block alignment
 - [ ] *feat.* Hot Module Reload
