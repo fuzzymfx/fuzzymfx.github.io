@@ -5,11 +5,11 @@ description: "Thoughts on books read, shows watched, and updates on everthing el
 
 ##### Reading List
 
-
 - [x] A brief history of time *- Stephen Hawking*
 - [x] The three body problem *- Cixin Liu*: A sci-fi novel about the first contact between humans and an alien civilization. Set in China during the cultural revolution. Initially I found it slow-paced, but it picks up pace after the first few chapters. **TBC..**
 - [ ] The hitchhiker's guide to the galaxy *- Douglas Adams*
 - [ ] All the light we cannot see *- Anthony Doerr*
+- [ ] Ichigo Ichie *- Hector Garcia and Francesc Miralles*
 <!-- - [ ] The dark forest *- Cixin Liu*
 - [ ] Death's end *- Cixin Liu* -->
 <!-- - [ ] The restaurant at the end of the universe *- Douglas Adams*
@@ -29,7 +29,6 @@ Yet to watch:
 - [ ] Peaky Blinders
 - [ ] Shameless
 - [ ] Farzi
-
 
 ##### What else ?
 
