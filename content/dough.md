@@ -30,11 +30,13 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 ## Features
 
-- **Customization**: Dough's modular design allows for seamless customization, ensuring your presentations are as unique as you are. You can customize the color scheme, the alignment, and the syntax highlighting of the code blocks, and even the runtime of the code blocks. The default style settings are stored in a `style.yaml` file which looks like this:
+- **Customization**: Dough's modular design allows for seamless customization, ensuring your presentations are as unique as you are. You can customize the color scheme, the alignment, and the syntax highlighting of the code blocks, and even the runtime of the code blocks.
 
   - **Alignment**: Dough lets you align content both horizontally and vertically and also lets you specify the alignment of individual text segments, ensuring your presentations are visually refined. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
 
   - **Design**: The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have. Dough supports **syntax highlighting** in code blocks, and also will be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
+
+The default style settings are stored in a `style.yaml` file which looks like this:
 
 ```yaml
 # Markdown styles
@@ -241,7 +243,7 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 
 **What's working and what's not?**
 
-- [ ] **IMP bug** Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.
+- [ ] **IMP** *bug* Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.
 - [ ] *bug* Fix scrolling issue in highlight mode:
   - [ ] Over Scroll in infinite scrolling
   - [ ] *feat* Skip empty lines in highlight mode
