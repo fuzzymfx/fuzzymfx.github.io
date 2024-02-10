@@ -1,10 +1,9 @@
 ---
 title: "Life, the Universe, and Everything"
 date: "29-02-2024"
-description: "A few thoughts that warrant a write-up." 
-author: "Anubhab Patnaik"
+description: "A few thoughts that warrant a write-up. An attempt to put into words the emotional state of the past few months. A life update, if you will." 
 ---
 
-This post is a recent life update. It tried to shed insight on what I have been going through, and how I have dealt with it. I hope this helps those who need this. Life, the Universe, and Everything is a book by Douglas Adams, and this post is a **not** related to it. It is about my journey over the past couple of months.
+This is a recent life update. It tries to shed insight into what I have been going through for the past couple of months, how I have been dealing with it. In the midst of all the whirlwind of emotions, finding the right words seem like catching a lightining in a bottle. I have always been the one to share the highs, the adventures, the trips, and the zeal to power through. But now, as I peer into the shadows that have crept into my days, I find myself at a loss. I don't honestly know where to begin writing or how to put things into perspective. This is to say that I might be bad at this, and I ask you to bear with me.
 
-This is a first for me. I have always written about all the positive things in my life, the happenings, the adventures. I don't honestly know how to write about what I have been going through, put things into perspective. This is to say that I might be bad at this, but I hope you forgive my shortcomings in writing this post.
+So here's the deal: This post will be long. I'm not promising any grand revelations or profound insights. This isn't going to be a masterpiece of prose. It's just me, reaching out to anyone who might need to hear that they're not alone in their struggles. Because sometimes, just knowing that someone else is stumbling through the darkness alongside you can make all the difference.

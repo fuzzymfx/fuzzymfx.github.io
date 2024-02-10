@@ -7,8 +7,6 @@ tags: ["project", "crypto", "web3"]
 ShowBreadCrumbs: true 
 ---
 
-**Srijan Paul**  
-
 During my short stint as a blockchain developer, I've learned a lot and have met amazing people.
 While I acknowledge the skill and reverence of some developers in this domain,
 I still remain uncharmed by the zeal of web3.

@@ -1,5 +1,4 @@
 ---
-author: Anubhab Patnaik
 title: "Unfollow all and stats check: LinkedIn Scripts"
 date: "2023-04-29"
 description: "A linkedin script to remove all your followings :D, and check your following to connection ratio."

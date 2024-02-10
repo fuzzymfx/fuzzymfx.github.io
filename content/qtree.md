@@ -1,5 +1,4 @@
 ---
-author: Anubhab Patnaik
 title: 'QTree: An image compression and decompression demonstration using Quadtrees'
 date: "2023-02-14"
 description: "Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees that partition a two-dimensional image by recursively subdividing it into four quadrants."

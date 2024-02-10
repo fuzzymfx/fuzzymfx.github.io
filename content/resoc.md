@@ -1,5 +1,4 @@
 ---
-author: Anubhab Patnaik
 title: 'RESOC'
 date: "2023-03-17"
 description: "RESOC is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free."

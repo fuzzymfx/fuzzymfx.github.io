@@ -56,12 +56,24 @@ const readFile = (filename) => {
  * @param {object} data - The data object containing date, title, content, author, and description.
  * @returns {string} - The templated string with placeholders replaced by actual data.
  */
-const templatize = (template, { date, title, content, author, description }) =>
-  template
-    .replace(/<!-- PUBLISH_DATE -->/g, date)
-    .replace(/<!-- TITLE -->/g, title)
-    .replace(/<!-- CONTENT -->/g, content)
-    .replace(/<!-- DESCRIPTION -->/g, description);
+const templatize = (
+  template,
+  { date, title, content, author, description }
+) => {
+  if (author)
+    return template
+      .replace(/<!-- PUBLISH_DATE -->/g, date)
+      .replace(/<!-- TITLE -->/g, title)
+      .replace(/<!-- CONTENT -->/g, content)
+      .replace(/<!-- DESCRIPTION -->/g, description)
+      .replace(/<!-- AUTHOR -->/g, author);
+  else
+    return template
+      .replace(/<!-- PUBLISH_DATE -->/g, date)
+      .replace(/<!-- TITLE -->/g, title)
+      .replace(/<!-- CONTENT -->/g, content)
+      .replace(/<!-- DESCRIPTION -->/g, description);
+};
 
 /**
  * Replaces placeholders in an index page template string with provided data.

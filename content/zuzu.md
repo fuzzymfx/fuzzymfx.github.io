@@ -1,5 +1,4 @@
 ---
-author: Anubhab Patnaik
 title: 'zuzu: A light weight Static Site Generator (SSG)'
 date: "2022-05-29"
 description: "Zuzu is a static site generator that converts all your markdown files into static html pages. It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets."

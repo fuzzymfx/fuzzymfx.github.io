@@ -1,5 +1,4 @@
 ---
-author: Anubhab Patnaik
 title: 'Rust: The next C++ ?'
 date: "2022-10-14"
 description: "Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++ but with emphasis on code safety"
