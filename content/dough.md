@@ -280,7 +280,7 @@ v2:
     - Hot Module Reload ( *auto* )
   - ~~Add support for rendering **nested syntax**~~
   - Add a support for maximum width and height of the terminal. Write a word wrapper.
-  - **Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.**
+  - ~~**Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment.**~~
   - Enhance rendering for complex markdown elements like links within headings or lists.
     - ~~lists.~~
     - blockquotes.
