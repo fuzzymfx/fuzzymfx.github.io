@@ -16,11 +16,12 @@ title: "Current shenanigans"
 
 Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am pretty stoked :D
 
-At Radius AI I am involved in building a async uptime monitoring service using Rust, and also a concurent heartbeat service in Python. I will update this page with more details soon.
+At Radius AI I am involved in building an async uptime monitoring service using Rust, and also a concurrent heartbeat service in Python. I will update this page with more details soon.
 
 Here's an improved version of Llama Index's sub-querying engine used to generate SQL from Natural Language: [Neak](/blog/neak.html).
 
-Coming onto `Dough`: a rich, modular, and customisable content generator, crafted in Rust; [here's everything](https://anubhavp.dev/blog/dough.html) that you need to know about dough. This is a breakdown of the tasks I was working on:
+Coming onto Dough: a rich, modular, and customisable content generator, crafted in Rust, [here's everything](https://anubhavp.dev/blog/dough.html) you need to know.
+This is a breakdown of the tasks I was working on:
 
 v2:
 
@@ -28,7 +29,7 @@ v2:
   - ~~Add a refresh feature while rendering slides~~
     - Hot Module Reload( FIX )
   - ~~Add support for rendering **nested syntax**~~
-  - Add a support for maximum width and height of the terminal. Write a word wrapper.
+  - Add support for the maximum width and height of the terminal. Write a word wrapper.
   - ~~Address the color storage issue for multiline elements, ensuring ANSI escape sequences are properly stripped: Refine color correction post-alignment~~
   - Enhance rendering for complex markdown elements like links within headings or lists.
     - ~~lists.~~
@@ -56,7 +57,7 @@ To give a sneak into Hoid, here are some of the things that I am working on:
 - content aggregation
 - bookmarks, and TL;DR
 
-Meanwhile, I am exploring esoteric programming languages, and also planning to build a distributed file system in Rust.
+Meanwhile, I am exploring esoteric programming languages and also planning to build a distributed file system in Rust.
 
 I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
 
