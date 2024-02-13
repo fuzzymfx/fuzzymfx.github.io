@@ -31,7 +31,6 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 
 - Dough's modular design allows for seamless **customization**. You can customize the color scheme, the alignment, and the syntax highlighting of the code blocks, and even the runtime of the code blocks.
 - Dough lets you align content both horizontally and vertically and also lets you specify the **alignment** of individual text segments. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
-- The design engine is a work in progress, which is built keeping in mind that customization is the biggest flex a presentation tool can have.
 - Code blocks have **syntax highlighting**, and also support code execution. You can run your code and the output will be displayed in the presentation. The code blocks run in a separate thread and the main thread displays the output in the terminal. The code blocks are internally ordered in the order they appear in the markdown file. 
 - Dough will also be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
 - You can choose to use templates. The optional `--template` flag is used to specify the template. The default template is used if not specified. If not, simply spawn a new folder and a markdown file, and you're good to go. Dough's intuitive navigation system lets you scroll through slides with ease. You can choose between scrolling top-down or bottom-up. Presentations start from `1` to the last slide. Dough supports arrow keys and VIM keybindings to navigate through slides. There are two modes of navigation:
@@ -59,22 +58,16 @@ Dough thrives on markdown, transforming simple text files into captivating slide
 Projects are created by simply writing a markdown file inside a folder. The folder name is the name of the project. Just `mkdir my_folder` 
 and `touch my_folder/1.md` and you're good to go. You can also use **templates** using the `new` command. The slides are presented using the `present` command. The optional `--template` flag is used to specify the template. The default template is used if not specified.
 
-### The rendering engine
-
-The rendering engine serves as the backbone, seamlessly transforming markdown files into soothing presentations. At the heart of the rendering engine lie two pivotal components:
+At the heart of dough lie two pivotal components:
 
 - Renderer: This component takes charge of the visual rendering of slides.
 - Parser: Responsible for dissecting markdown files and converting them into a structured format.
 
 The parser parses the markdown file, prettifies it, and then passes it to the renderer to render it. The renderer then renders the slide in the `terminal` to display it.
 
-#### Navigating the Parser
-
 The parser takes in the markdown text and converts it into `Nodes` of `mdast`(markdown abstract syntax tree). The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, spacing, and adds margin to the content to fit the terminal.
 
-#### Renderer's Logic
-
-Dough's rendering logic in Rust orchestrates a seamless presentation experience. There are two stages of rendering:
+There are two stages of rendering:
 
 1. The renderer takes in the `prettified` content and renders it in the terminal.
 2. The renderer then handles the navigation actions, the scrolling mechanism and the keybindings. It controls the flow of the presentation and is responsible for rendering the slides in the terminal. It switches between presentation and highlighting mode, and also handles the code execution.
