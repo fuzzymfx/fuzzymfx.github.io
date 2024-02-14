@@ -15,7 +15,7 @@ description: "A rich presentation tool built in Rust that uses markdown for cont
 Imagine a presentation tool that seamlessly blends simplicity with power, all while being crafted in Rust. Welcome to Dough – your new favorite presentation companion. Say goodbye to clunky interfaces and hello to a tool that's as intuitive as it is efficient.
 
 <figure class="centered">
-<img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/introduction.png" class="h-100 w-100">
+<img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/simple-presentation.gif" class="h-100 w-100">
 <figcaption>
 A simple introduction slide
 </figcaption>
@@ -43,13 +43,6 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 The default style settings are stored in a `style.yaml` file which looks like this: [style.yaml](https://github.com/fuzzymfx/dough/blob/main/templates/default/style.yml)
 
 Here's a cute, plush presentation to give you a taste of Dough's capabilities: [Introduction to Dough](https://www.linkedin.com/posts/anubhabpatnaik_a-cute-and-plush-presentation-deck-using-activity-7161072870033416192-WdY7?utm_source=share&utm_medium=member_desktop).
-
-<figure class="centered">
-<img alt= 'example'  src ="https://anubhavp.dev/assets/img/dough/example.png" class="h-50 w-50">
-<figcaption>
-Line highlighting
-</figcaption>
-</figure>
 
 ## Unveiling the Core
 
