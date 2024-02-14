@@ -25,7 +25,7 @@ A quick deck created using Dough.
 
 (Why, though? - *Get it? xD*)
 
-At StackIt, the team gathers every Saturday for their weekly showcase. Each member presents their progress, showcasing the fruits of their week-long hike. Inspired by this collaborative spirit, I came on to the idea of Dough – a presentation generator tool like no other. Built in Rust, [Dough](https://github.com/fuzzymfx/dough) is a rich, modular, command-line tool to generate presentations. I found similar tools like [slidev](sli.dev) by [antfu](https://antfu.me/) and [presenterm](https://github.com/mfontanini/presenterm) that inspired me to create Dough.
+At StackIt, the team gathers every Saturday for their weekly showcase. Each member presents their progress, showcasing the fruits of their week-long hike. Inspired by this collaborative spirit, I came to the idea of Dough - a presentation generator tool like no other. Built in Rust, [Dough](https://github.com/fuzzymfx/dough) is a rich, modular, command-line tool to generate presentations. I found similar tools like [slidev](sli.dev) by [antfu](https://antfu.me/) and [presenterm](https://github.com/mfontanini/presenterm) that inspired me to create Dough.
 
 ## Features
 
@@ -56,12 +56,12 @@ At the heart of dough lie two pivotal components:
 
 The **parser** parses the markdown file, prettifies it, and then passes it to the renderer to render it. The renderer then renders the slide in the `terminal` to display it.
 
-The parser takes in the markdown text and converts it into `Nodes` of `mdast`(markdown abstract syntax tree). The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, spacing, and adds margin to the content to fit the terminal.
+The parser takes in the markdown text and converts it into `Nodes` of `mdast`(markdown abstract syntax tree). The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, and spacing, and adds margin to the content to fit the terminal.
 
 There are two stages of **rendering**:
 
 1. The renderer takes in the `prettified` content and renders it in the terminal.
-2. The renderer then handles the navigation actions, the scrolling mechanism and the keybindings. It controls the flow of the presentation and is responsible for rendering the slides in the terminal. It switches between presentation and highlighting mode, and also handles the code execution.
+2. The renderer then handles the navigation actions, the scrolling mechanism and the keybindings. It controls the flow of the presentation and is responsible for rendering the slides in the terminal. It switches between presentation and highlighting mode and also handles the code execution.
 
 Here is the source code of dough - [Dough](https://github.com/fuzzymfx/dough.git)
 
@@ -76,7 +76,7 @@ If you're eager to dive into the world of Rust and looking for a project to cont
   - [ ] *feat* Skip empty lines in highlight mode
 - [ ] *bug* custom aligner adds empty lines after text-block alignment
 - [ ] *feat.* Hot Module Reload
-- [ ] *feat.* Add a support for maximum width and height of the terminal. Write a word wrapper.
+- [ ] *feat.* Add support for the maximum width and height of the presentation. Write a word wrapper.
 - [ ] *feat.* Add comprehensive support for common Markdown elements.
 - [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
   - [ ] lists.
