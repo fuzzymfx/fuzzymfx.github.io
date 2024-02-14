@@ -14,9 +14,45 @@ title: "Current shenanigans"
 
 [Here's what I am reading and writing these days](/reading.html)
 
-Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am pretty stoked :D
+**Feb**
+
+Here's how dough is shaping up:
+
+<figure class="centered">
+<img alt= 'introduction'  src ="../assets/img/dough/simple-presentation.gif" class="h-100 w-100">
+</figure>
+
+
+If you're eager to dive into the world of Rust and looking for a project to contribute to, Dough presents an exciting opportunity. Here's a breakdown of what's currently working and what areas could benefit from your expertise:
+
+- [ ]  Fix scrolling issue in highlight mode:
+  - [ ] *bug* Over Scroll in infinite scrolling
+  - [ ] *feat* Skip empty lines in highlight mode
+- [ ] *bug* custom aligner adds empty lines after text-block alignment
+- [ ] *feat.* Hot Module Reload
+- [ ] *feat.* Add a support for maximum width and height of the terminal. Write a word wrapper.
+- [ ] *feat.* Add comprehensive support for common Markdown elements.
+- [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
+  - [ ] lists.
+  - [ ] blockquotes.
+  - [ ] tables.
 
 At Radius AI I am involved in building an async uptime monitoring service using Rust, and also a concurrent heartbeat service in Python. I will update this page with more details soon.
+
+On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer/ consumer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon. The codename for the project is *'Hoid'*. Hoid has a lot of moving parts. I am focused on the market research now. I believe that tech has become a commodity. There isn't anything that you cannot build using tech anymore. Money is in solving the right set of problems.
+
+To give a sneak into Hoid, here are some of the things that I am working on:
+
+- content recommendation engine
+- search engine using vectors
+- content aggregation
+- bookmarks, and TL;DR
+
+Meanwhile, I am exploring esoteric programming languages and also planning to build a distributed file system in Rust.
+
+**Jan**
+
+Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am pretty stoked :D
 
 Here's an improved version of Llama Index's sub-querying engine used to generate SQL from Natural Language: [Neak](/blog/neak.html).
 
@@ -46,18 +82,7 @@ v2:
 
 I am done with most of what I had planned for Dough. Check out the entire [TODO list here](https://github.com/fuzzymfx/dough/blob/main/README.md#contributing). I want peers to contribute to the pending issues making this a more robust open-source project.
 
-**Feb**
-
-On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer/ consumer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon. The codename for the project is *'Hoid'*. Hoid has a lot of moving parts. I am focused on the market research now. I believe that tech has become a commodity. There isn't anything that you cannot build using tech anymore. Money is in solving the right set of problems.
-
-To give a sneak into Hoid, here are some of the things that I am working on:
-
-- content recommendation engine
-- search engine using vectors
-- content aggregation
-- bookmarks, and TL;DR
-
-Meanwhile, I am exploring esoteric programming languages and also planning to build a distributed file system in Rust.
+---
 
 I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
 
