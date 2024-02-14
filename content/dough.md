@@ -56,7 +56,7 @@ At the heart of dough lie two pivotal components:
 
 The **parser** parses the markdown file, prettifies it, and then passes it to the renderer to render it. The renderer then renders the slide in the `terminal` to display it.
 
-The parser takes in the markdown text and converts it into `Nodes` of `mdast`(markdown abstract syntax tree). The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, and spacing, and adds margin to the content to fit the terminal.
+The parser takes in the markdown text and converts it into `Nodes` of `mdast`(markdown abstract syntax tree). The tree is reccursively traversed and each node is then styled according to the `Node` ( Markdown Element ) type. After combining all the nodes, a `prettified` version of the text is returned. It then modifies the `prettified` content, applies custom alignment, styles, and spacing, and adds a margin to the content to fit the terminal.
 
 There are two stages of **rendering**:
 
