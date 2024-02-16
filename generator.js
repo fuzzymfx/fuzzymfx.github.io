@@ -291,7 +291,7 @@ const main = () => {
 
   const filenames = glob.sync(`${srcPath}/**/*.md`);
 
-  const expiredFiles = ["stackit.tech"];
+  const expiredFiles = ["stackit.tech", "angelfish"];
 
   if (fs.existsSync(dir)) {
     fs.rmSync(dir, { recursive: true, force: true });
