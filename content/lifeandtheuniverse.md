@@ -6,7 +6,7 @@ description: "A few thoughts that warrant a write-up. An attempt to put into wor
 
 This is a recent life update. Amidst the whirlwind of emotions, finding the right words seems like catching lightning in a bottle. I have always been the one to share the highs, the adventures, the trips, and the zeal to power through. But now, as I peer into the shadows that have crept into my days, I find myself at a loss. I don't know where to begin or how to put things into perspective. This is to say that I might be bad at this, and all I ask of you is to bear with me.
 
-> So here's the deal: **This post will be long**. I'm not promising any grand revelations or profound insights. This isn't going to be a masterpiece of prose. It's just me, reaching out to anyone who might need to hear that they're not alone in their struggles. Because sometimes, just knowing that someone else is stumbling through the darkness alongside you can make all the difference.
+> So here's the deal: **This post will be dauntigly long**. I'm not promising any grand revelations or profound insights. This isn't going to be a masterpiece of prose. It's just me, reaching out to anyone who might need to hear that they're not alone in their struggles. Because sometimes, just knowing that someone else is stumbling through the darkness alongside you can make all the difference.
 
 December brought forth the wrath of everything life had to offer – the chilly unemployment, the windy solitude, the crushing weight of imposter syndrome, and the cold, relentless struggle with body image and an eating disorder. Lately, I have had this epiphany that I have been lonely and empty for quite some time now. The reasons remained elusive; I haven't figured it out yet.
 
