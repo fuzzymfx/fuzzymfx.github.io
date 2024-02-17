@@ -210,6 +210,15 @@ blockquote {
 	font-style: italic;
 }
 
+/**
+ * Custom Tags
+ */
+
+/* .utterances-frame {}
+
+.utterances {} */
+
+
 .custom-tags {
 	color: #777 !important;
 	font-family: Inconsolata, monospace !important;
