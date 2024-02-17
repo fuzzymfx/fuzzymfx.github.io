@@ -90,6 +90,11 @@ html {
 	border-radius: 50%;
 }
 
+img,
+svg {
+	vertical-align: middle;
+}
+
 /**
  * Chrome Scrollbar
  */
