@@ -1,6 +1,6 @@
 ---
 title: "Life, the Universe, and Everything else"
-date: "29-02-2024"
+date: "18-02-2024"
 description: "A few thoughts that warrant a write-up. An attempt to put into words the emotional state of the past few months; a life update." 
 ---
 
