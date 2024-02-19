@@ -22,6 +22,9 @@ html {
 	font-family: avenir next, avenir, 'Open Sans', sans-serif !important;
 }
 
+.f6 {
+	font-size: .938rem !important;
+}
 
 /**
  * Elements
@@ -328,6 +331,10 @@ blockquote {
 }
 
 @media only screen and (max-width: 768px) {
+	.f6 {
+		font-size: .875rem !important;
+	}
+
 	html {
 		margin-left: 1rem;
 		margin-right: 1rem;
