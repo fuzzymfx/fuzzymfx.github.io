@@ -15,10 +15,10 @@
  * Reset
  */
 
-::selection {
+/* ::selection {
 	background-color: var(--selection);
 	color: #fff;
-}
+} */
 
 * {
 	box-sizing: border-box;
@@ -30,9 +30,9 @@ html {
 	font-family: avenir next, avenir, 'Open Sans', sans-serif !important;
 }
 
-.f6 {
+/* .f6 {
 	font-size: .938rem !important;
-}
+} */
 
 /**
  * Elements
