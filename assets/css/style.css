@@ -6,11 +6,19 @@
 	--ease: cubic-bezier(.82, 0, .12, 1);
 	--azure: #6f92ba;
 	--lightgray: #f7f7f7;
+	--darkgray: #333;
+	--selection: #777;
+
 }
 
 /**
  * Reset
  */
+
+::selection {
+	background-color: var(--selection);
+	color: #fff;
+}
 
 * {
 	box-sizing: border-box;
