@@ -13,7 +13,7 @@ I went on a trip to Mangalore with a friend for a night. I had been occupied wit
 Here's how dough is shaping up:
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
 <video controls style='height: 100%; width: 100%; object-fit: contain;'>
-  <source src='../assets/img/dough/simple-presentation.webm' type='video/webm'>
+  <source src='https://anubhavp.dev/assets/img/dough/simple-presentation.webm' type='video/webm'>
   Your browser does not support the video tag.
 </video>
 </figure>
