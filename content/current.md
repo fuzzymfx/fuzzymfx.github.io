@@ -6,9 +6,9 @@ title: "Current shenanigans"
 
 [Here's what I am reading and writing these days](/reading.html)
 
-**Feb**
+###### Feb
 
-I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my new fav joint to hang out with. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends, back home this last week.
+I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my new fav joint to hang out at. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
 
 Here's how dough is shaping up:
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
@@ -48,7 +48,7 @@ A sneak peek into Hoid:
 
 Meanwhile, I am exploring esoteric programming languages and also planning to build a distributed file system in Rust.
 
-**Jan**
+###### Jan
 
 Happy New Year, muchachos! I hope you had a good one. I just returned to Bangalore after a much-needed break in my hometown. Leaving home and returning to the city was a bit of a bummer, but such is life! The dreaded omicron variant is wreaking havoc in the city. I am starting a new career at RadiusAI as a Software Engineer, and I am pretty stoked :D
 
