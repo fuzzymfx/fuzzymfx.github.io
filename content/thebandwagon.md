@@ -1,5 +1,5 @@
 ---
-title: "Bandwagon"
+title: "The Bandwagon"
 date: "18-02-2024"
 description: "Software Engineering: a bandwagon effect in India" 
 ---
