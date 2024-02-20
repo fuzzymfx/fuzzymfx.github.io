@@ -3,22 +3,13 @@ title: 'Dough: A presentation tool'
 date: "2024-01-31"
 description: "A rich presentation tool built in Rust that uses markdown for content generation."
 ---
-<style>
- .centered {
- justify-content: center;
- align-items: center;
- display: flex;
- flex-direction: column;
- }
-</style>
-
 Imagine a presentation tool that seamlessly blends simplicity with power. Welcome to Dough – your new favorite presentation companion. Say goodbye to clunky interfaces and hello to a tool that's as intuitive as it is efficient.
 
-<figure class="centered">
-<img alt= 'introduction'  src ="../assets/img/dough/simple-presentation.gif" class="h-100 w-100">
-<figcaption>
-A quick deck created using Dough.
-</figcaption>
+<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
+<video controls style='height: 100%; width: 100%; object-fit: contain;'>
+  <source src='../assets/img/dough/simple-presentation.webm' type='video/webm'>
+  Your browser does not support the video tag.
+</video>
 </figure>
 
 ## Why Dough?

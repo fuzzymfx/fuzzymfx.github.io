@@ -1,14 +1,6 @@
 ---
 title: "Current shenanigans"
 ---
-<style>
- .image{
- justify-content: center;
- align-items: center;
- display: flex;
- flex-direction: column;
- }
-</style>
 
 ##### Current, 2024
 
@@ -16,12 +8,17 @@ title: "Current shenanigans"
 
 **Feb**
 
-Here's how dough is shaping up:
+I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my new fav joint to hang out with. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends, back home this last week.
 
-<figure class="centered">
-<img alt= 'introduction'  src ="../assets/img/dough/simple-presentation.gif" class="h-100 w-100">
+Here's how dough is shaping up:
+<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
+<video controls style='height: 100%; width: 100%; object-fit: contain;'>
+  <source src='../assets/img/dough/simple-presentation.webm' type='video/webm'>
+  Your browser does not support the video tag.
+</video>
 </figure>
 
+[Here's everything about Dough](https://anubhavp.dev/blog/dough.html)
 
 If you're eager to dive into the world of Rust and looking for a project to contribute to, Dough presents an exciting opportunity. Here's a breakdown of what's currently working and what areas could benefit from your expertise:
 
@@ -30,23 +27,24 @@ If you're eager to dive into the world of Rust and looking for a project to cont
   - [ ] *feat* Skip empty lines in highlight mode
 - [ ] *bug* custom aligner adds empty lines after text-block alignment
 - [ ] *feat.* Hot Module Reload
-- [ ] *feat.* Add a support for maximum width and height of the terminal. Write a word wrapper.
+- [ ] *feat.* Add support for the maximum width and height of the terminal. Write a word wrapper.
 - [ ] *feat.* Add comprehensive support for common Markdown elements.
 - [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
   - [ ] lists.
   - [ ] blockquotes.
   - [ ] tables.
 
+I am looking for contributions from peers regarding the pending issues, making this a more robust open-source project.
+
 At Radius AI I am involved in building an async uptime monitoring service using Rust, and also a concurrent heartbeat service in Python. I will update this page with more details soon.
 
-On a personal trajectory, [Srijan](https://injuly.in) and I have identified a pain point in the developer/ consumer tooling space. We are working on a solution to solve it. We are still in the early stages of the product, and I will be sharing more details soon. The codename for the project is *'Hoid'*. Hoid has a lot of moving parts. I am focused on the market research now. I believe that tech has become a commodity. There isn't anything that you cannot build using tech anymore. Money is in solving the right set of problems.
+Got a new idea about content summarization and accessibility (*codenamed 'Hoid'*). We are still in the early stages of the idea. I might share more details soon. Hoid has a lot of moving parts. Currently, I am focused on the market research. I believe that tech has become a commodity. There isn't anything that you cannot build using tech anymore. Money is in solving the right set of problems.
 
-To give a sneak into Hoid, here are some of the things that I am working on:
+A sneak peek into Hoid:
 
-- content recommendation engine
-- search engine using vectors
-- content aggregation
-- bookmarks, and TL;DR
+- content aggregation; recommendation engine
+- search engine
+- bookmarks, and TL;DR, summarization
 
 Meanwhile, I am exploring esoteric programming languages and also planning to build a distributed file system in Rust.
 
@@ -80,23 +78,9 @@ v2:
   - ~~Improve the alignment of segments of text.~~
 - ~~Implement running code blocks on separate threads and displaying results in the current console.~~
 
-I am done with most of what I had planned for Dough. Check out the entire [TODO list here](https://github.com/fuzzymfx/dough/blob/main/README.md#contributing). I want peers to contribute to the pending issues making this a more robust open-source project.
+I stumbled upon [Substack](https://fuzzymf.substack.com), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
 
----
-
-I stumbled upon [Substack](https://substack.com/), a platform for independent writers. I will be writing on substack as well. This **does not change** the fact that this will still be my primary blog.
-
-<div id="substack-feed-embed"></div>
-<script>
-  window.SubstackFeedWidget = {
-    substackUrl: "fuzzymf.substack.com",
-    posts: 3,
-    hidden: ["image"]
-  };
-</script>
-<script src="https://substackapi.com/embeds/feed.js" async></script>
-
-Feel free to check out whatever [else I have written](https://fuzzymf.substack.com) and [subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts.
+Feel free to [subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts.
 
 ---
 
