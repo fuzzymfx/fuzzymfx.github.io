@@ -7,7 +7,7 @@ Imagine a presentation tool that seamlessly blends simplicity with power. Welcom
 
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
 <video controls style='height: 100%; width: 100%; object-fit: contain;'>
-<source src='https://assets/img/dough/simple-presentation.mp4' 
+<source src='https://anubhavp.dev/assets/img/dough/simple-presentation.mp4' 
 type='video/mp4'>
   Your browser does not support the video tag.
 </video>

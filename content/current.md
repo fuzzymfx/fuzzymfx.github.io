@@ -12,7 +12,7 @@ I went on a trip to Mangalore with a friend for a night. I had been occupied wit
 
 Here's how dough is shaping up:
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
-<img alt= 'introduction'  src ="https://assets/img/dough/simple-presentation.gif" class="h-100 w-100">
+<img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/simple-presentation.gif" class="h-100 w-100">
 </figure>
 
 [Here's everything about Dough](https://anubhavp.dev/blog/dough.html)
