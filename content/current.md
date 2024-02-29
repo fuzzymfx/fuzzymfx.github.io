@@ -6,6 +6,19 @@ title: "Current shenanigans"
 
 [Here's what I am reading and writing these days](/reading.html)
 
+###### March
+
+An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we just roamed around here and there. After a week long party with friends and family, I am back in Bangalore now, and I am looking forward to a productive month.
+
+I will be working on the remaining issues in Dough. The major tasks in Dough are:
+
+- Hot Module Reload
+- Add support for the maximum width and height of the terminal. Write a word wrapper.
+- Add comprehensive support for common Markdown elements.
+- Add image support for terminals with image capabilities. *(Kitty, iTerm2, etc.)*
+
+I am planning on taking up a couple of these, before working on a new distributed file system in Rust. I am also working on a new project, Hoid, which is a content summarization and accessibility tool.
+
 ###### Feb
 
 I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my new fav joint to hang out at. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
