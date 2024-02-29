@@ -1,10 +1,10 @@
 ---
 title: "Kāshatandi (କାଶତଣ୍ଡି)"
 date: "18-02-2024"
-description: "Building up hope"
+description: "Building memories. After all, that's all we are, really. Memories."
 ---
 
-Hope is the most magical, marvelous thing. Hope keeps us alive. 
+Hope is the most magical, marvelous thing. Hope keeps us alive.
 
 <!-- Getting back up, slowly. -->
 
