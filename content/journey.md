@@ -16,7 +16,8 @@ description: "My journey so far"
 ### Work Experience
 
 - **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
-  - Working on automating workflows using Prefect and Python.
+  - Building asynchronous monitoring microservices using Rust, FastAPI, and Kafka to handle 10,000+ scraping requests per minute.
+  - Optimizing the alert module, and porting it from python and refactoring it to Rust to improve performance.
 - **Founding Engineer/SDE-1** - *StackIt* 2023 - [🔗](https://nowstackit.com)
   - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
   - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
@@ -48,10 +49,6 @@ description: "My journey so far"
   - Worked with live data to create a ransomware report and a phishing report.
 
 ---
-
-### Research
-
-- Generative AI: LLMs, GANs, VAEs, Transformers, and more. Looking into the applications of ChatGPT4, fine-tuning GPT3, using embeddings, exploring the use of transformers, exploring LLaMA and other LLMs, and more. Working on Vertex AI, PaLM, text-bison@001, chat-bison@001, textembedding-gecko@001 and other Vertex AI projects.
 
 ### Projects
 
@@ -148,24 +145,12 @@ description: "My journey so far"
   - Final Group Project for IOT Summer Internship.
 - [Ransomware Detection](https://docs.google.com/document/d/1MsFnXgt9E5oEyg8YnkDnDNy9T5AQooNEAHOjphvHVyE/edit?usp=sharing) - A **ransomware detection** demonstration on *WannaCry*.
   - \[*VmWare, Windows 10*] *- 2020*
-  - Used a virtual machine to demonstrate the attack.
-
----
-
-### Courses
-
-- Container Orchestrations with Docker Swarm - Udemy 2023 - [🔗]()
-- MERN Stack - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-1e62205e-604a-403b-86c3-c4da1a60b22e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email)
-- Modern Javascript ES6 for ReactJs - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-08f55382-07f4-4b97-93a8-da96e5c59d2e/)
-- Web Development using Python & Django - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-57717fcc-055f-4094-80e5-ead8e1e17e22/)
-- Linux for Cloud & DevOps Engineers - Udemy 2022 - [🔗](https://www.udemy.com/certificate/UC-43d4c49a-155a-4b08-8524-ed7cae15e55e/)
-- Machine Learning A-Z - Udemy 2021 - [🔗](https://www.udemy.com/certificate/UC-adb61864-cce8-4666-b69a-3928567bc557/)
-- Machine Learning 101 - Guvi 2021 - [🔗](https://www.guvi.in/verify-certificate?id=32J12d6T5mlsu464Y6&course=introduction-to-ml)
-- Python MPC - Guvi 2020 - [🔗](https://www.guvi.in/verify-certificate?id=679711o0122cwk0L2A )
+  - Used a virtual machine to demonstrate the attack. 
 
 ---
 
 ### Activities
+
 - Luma - Magic Ball: Then AI Reveal - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
 - Luma - Magic Ball: OpenAI Dev Day - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
 - CS25 I Stanford Seminar - Transformers United 2023: Introduction to Transformers
@@ -197,7 +182,8 @@ description: "My journey so far"
 - DBMUN 2015 - [🔗](https://drive.google.com/file/d/1Q_VKZvBaNKGkLvXJB_O2Tz9zrWRWqpxW/view?usp=sharing)
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)
 
-### External Links : 
+### External Links
+
 - [Resume](https://anubhavp.dev/resume.pdf)
 - [LinkedIn](https://www.linkedin.com/in/anubhabpatnaik0530/)
 - [GitHub](https://github.com/fuzzymfx)
