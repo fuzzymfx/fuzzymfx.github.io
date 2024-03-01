@@ -8,9 +8,9 @@ title: "Current shenanigans"
 
 ###### March
 
-An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we just roamed around here and there. After a week long party with friends and family, I am back in Bangalore now, and I am looking forward to a productive month.
+An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. After a week long hiatus with friends and family, I am back in Bangalore now, and I am looking forward to a productive month.
 
-I will be working on the remaining issues in Dough. The major tasks in Dough are:
+Here's what I am taking up this month for dough:
 
 - Hot Module Reload
 - Add support for the maximum width and height of the terminal. Write a word wrapper.
@@ -19,11 +19,13 @@ I will be working on the remaining issues in Dough. The major tasks in Dough are
 
 I am planning on taking up a couple of these, before working on a new distributed file system in Rust. I am also working on a new project, Hoid, which is a content summarization and accessibility tool.
 
+Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing about my experiences a lot these days. The blogs aren't indexed here, but you can find them on my [substack](https://fuzzymf.substack.com/). I will index them here as well, just as I feel more comfortable.
+
 ###### Feb
 
-I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my new fav joint to hang out at. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
+I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my go-to hangout destination. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
 
-Here's how dough is shaping up:
+Here's how Dough is shaping up:
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
 <img alt= 'introduction'  src ="https://anubhavp.dev/assets/img/dough/simple-presentation.gif" class="h-100 w-100">
 </figure>
