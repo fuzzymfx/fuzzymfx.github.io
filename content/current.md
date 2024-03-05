@@ -8,18 +8,11 @@ title: "Current shenanigans"
 
 ###### March
 
-An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. After a week long hiatus with friends and family, I am back in Bangalore now, and I am looking forward to a productive month.
+An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. The weekend after that was spent in Pondicherry, with a friend. We explore bakeries, french architecture, *Auroville*, the beach, and the city. After a week-long hiatus with friends and family, and an excruciatingly tiring trip to Pondicherry, I am back in Bangalore now, and I am looking forward to a productive month.
 
-Here's what I am taking up this month for dough:
+I am not planning on taking up much work, and have thought of taking an hour of my day to figure out where this is all going. I have long-term goals, and to be able to accomplish them, I need to be more disciplined and focused. The path must be streamlined. This daily routine will help me to stay on track and keep my goals in sight. This month would be spent planning out the next four odd years.
 
-- Hot Module Reload
-- Add support for the maximum width and height of the terminal. Write a word wrapper.
-- Add comprehensive support for common Markdown elements.
-- Add image support for terminals with image capabilities. *(Kitty, iTerm2, etc.)*
-
-I am planning on taking up a couple of these, before working on a new distributed file system in Rust. I am also working on a new project, Hoid, which is a content summarization and accessibility tool.
-
-Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing about my experiences a lot these days. The blogs aren't indexed here, but you can find them on my [substack](https://fuzzymf.substack.com/). I will index them here as well, just as I feel more comfortable.
+March is supposed to be a short pause, an interlude, a time to reflect and recharge. My goals would be to focus on my fitness journey and improve my writing. Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing a lot. The blogs aren't indexed here, but you can find them on my [substack](https://fuzzymf.substack.com/). I will index them here as well, just as I feel more comfortable.
 
 ###### Feb
 
