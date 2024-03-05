@@ -334,11 +334,11 @@ blockquote {
 	word-wrap: break-word;
 }
 
-@media screen and (min-width: 1513px) {
+/* @media screen and (min-width: 1513px) {
 	.f6 {
 		font-size: .938rem !important;
 	}
-}
+} */
 
 @media only screen and (max-width: 768px) {
 	html {
