@@ -22,15 +22,15 @@ At StackIt, the team gathers every Saturday for their weekly showcase. Each memb
 ## Features
 
 - Dough's modular design allows for seamless **customization**. You can customize the color scheme, the alignment, and the syntax highlighting of the code blocks, and even the runtime of the code blocks.
-- Dough lets you align content both horizontally and vertically and also lets you specify the **alignment** of individual text segments. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
-- Code blocks have **syntax highlighting**, and also support code execution. You can run your code and the output will be displayed in the presentation. The code blocks run in a separate thread and the main thread displays the output in the terminal. The code blocks are internally ordered in the order they appear in the markdown file. 
+- Align content both horizontally and vertically and also specify the **alignment** of individual text segments. You can decide between having a margined presentation or one without margin anywhere, in the bottom, left, or centre, of the screen.
+- Code blocks have **syntax highlighting**, and also support code execution. You can run your code and the output will be displayed in the presentation. The code blocks run in a separate thread and the main thread displays the output in the terminal. The code blocks are internally ordered in the order they appear in the markdown file.
 - Dough will also be supporting **images** in the terminal for the ones that have a GPU-enabled terminal like Kitty or iTerm2.
 - You can choose to use templates. The optional `--template` flag is used to specify the template. The default template is used if not specified. If not, simply spawn a new folder and a markdown file, and you're good to go. Dough's intuitive navigation system lets you scroll through slides with ease. You can choose between scrolling top-down or bottom-up. Presentations start from `1` to the last slide. Dough supports arrow keys and VIM keybindings to navigate through slides. There are two modes of navigation:
 
 1. **Highlight** a line as you scroll through the slides.
 2. **Scroll** through the content of the slide.
 
-- Dough supports hot reloading. You can edit your markdown file and do a `ctrl+r` to reflect in the presentation instantly. The auto hot reload is still in the works.
+- Dough supports **hot reloading**. You can edit your markdown file and do a `ctrl+r` to reflect in the presentation instantly. The auto hot reload is still in the works.
 
 The default style settings are stored in a `style.yaml` file which looks like this: [style.yaml](https://github.com/fuzzymfx/dough/blob/main/templates/default/style.yml)
 
