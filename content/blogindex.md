@@ -6,7 +6,7 @@ title: Blog
 <!-- <span class="custom-tags">#tech</span> -->
 <!-- <li class="flex justify-between pb2"><a href="./kashatandi.html" class="link">Kashatandi</a><span class="date gray">30-05-2024</span> </li> -->
 <!-- <li class="flex justify-between pb2"><a href="./bandwagon.html" class="link">Bandwagon</a><span class="date gray">15-03-2024</span> </li> -->
-<!-- <li class="flex justify-between pb2"><a href="./lifeandtheuniverse.html" class="link">Life, the Universe, and everything else</a><span class="date gray">18-02-2024</span> </li> -->
+<li class="flex justify-between pb2"><a href="./lifeandtheuniverse.html" class="link">Life, the Universe, and everything else</a><span class="date gray">18-02-2024</span> </li>
 <li class="flex justify-between pb2"><a href="./dough.html" class="link">Dough</a><span class="date gray">31-01-2024</span> </li>
 <li class="flex justify-between pb2"><a href="./neak.html" class="link">Neak</a><span class="date gray">10-12-2023</span> </li>
 <li class="flex justify-between pb2"><a href="./23.html" class="link">2023</a><span class="date gray">01-12-2023</span> </li>
