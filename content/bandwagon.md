@@ -1,6 +1,6 @@
 ---
 title: "Bandwagon"
-date: "18-02-2024"
+date: "10-03-2024"
 description: "Moving away from Software Engineering"
 ---
 
