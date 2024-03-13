@@ -10,9 +10,7 @@ title: "Current shenanigans"
 
 An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. The weekend after that was spent in Pondicherry, with a friend. We explore bakeries, french architecture, *Auroville*, the beach, and the city. After a week-long hiatus with friends and family, and an excruciatingly tiring trip to Pondicherry, I am back in Bangalore now, and I am looking forward to a productive month.
 
-I am not planning on taking up much work, and have thought of taking an hour of my day to figure out where this is all going. I have long-term goals, and to be able to accomplish them, I need to be more disciplined and focused. The path must be streamlined. This daily routine will help me to stay on track and keep my goals in sight. This month would be spent planning out the next four odd years.
-
-March is supposed to be an interlude, a time to reflect and recharge. My goals would be to focus on my fitness journey and improve my writing. Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing a lot. 
+I am not planning on taking up much work, and have thought of taking an hour of my day to figure out where this is all going. March is supposed to be an interlude, a time to reflect and recharge. I have long-term goals, and to be able to accomplish them, I need to be more disciplined and focused. The path must be streamlined. This daily routine will help me to stay on track and keep my goals in sight. This month would be spent planning out the next four odd years. My short-term goals would be to focus on my fitness journey and improve my writing. Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing a lot.
 
 ###### Feb
 
