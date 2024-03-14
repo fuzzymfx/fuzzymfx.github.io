@@ -1,6 +1,6 @@
 ---
 title: "The Bandwagon Effect"
-date: "10-03-2024"
+date: "15-03-2024"
 description: "Moving away from Software Engineering"
 ---
 
