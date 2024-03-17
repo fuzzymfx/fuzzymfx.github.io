@@ -1,6 +1,6 @@
 ---
 title: "Bangalore Chronicles: The slave city"
-date: "2023-07-08"
+date: "08-07-2023"
 description: A futile attempt to survive in Bangalore's Urban Jungle
 tags: ["life", "metro", "bangalore"]
 ShowBreadCrumbs: true 

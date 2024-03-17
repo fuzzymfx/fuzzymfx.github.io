@@ -1,10 +1,8 @@
 ---
 author: Srijan Paul
 title: Why is Web3 a sham?
-date: "2022-01-19"
+date: "19-01-2022"
 description: "A short rant on the state of Web3"
-tags: ["project", "crypto", "web3"]
-ShowBreadCrumbs: true 
 ---
 
 During my short stint as a blockchain developer, I've learned a lot and have met amazing people.

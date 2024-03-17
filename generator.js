@@ -117,6 +117,9 @@ const processBlogFile = (filename, template, outPath) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
 
+  const draft = file.data.draft;
+  if (draft) return;
+
   const templatized = templatize(template, {
     date: file.data.date,
     title: file.data.title,
@@ -207,6 +210,7 @@ const main = () => {
   const dir = path.resolve(".dist");
   const indexOutPath = path.resolve(".dist");
   const assetsPath = path.resolve("assets");
+
   const blogTemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
   const defaulTemplate = fs.readFileSync(
     "./templates/initial/default.html",
@@ -216,31 +220,23 @@ const main = () => {
   const indexFiles = glob.sync(`${srcPath}/*.md`);
   const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
 
-  const expiredFiles = ["stackit.tech"];
-
   if (fs.existsSync(dir)) {
     fs.rmSync(dir, { recursive: true, force: true });
   }
   fs.mkdirSync(dir, { recursive: true });
 
-  const templateMap = {
-    blog: blogTemplate,
-    default: defaulTemplate,
-  };
-
   indexFiles.forEach((filename) => {
     if (filename.includes("journey"))
-      processDefaultFile(filename, templateMap.default, indexOutPath, true);
-    else processDefaultFile(filename, templateMap.default, indexOutPath);
+      processDefaultFile(filename, defaulTemplate, indexOutPath, true);
+    else processDefaultFile(filename, defaulTemplate, indexOutPath);
   });
 
   blogFiles.forEach((filename) => {
-    if (expiredFiles.includes(filename)) return;
     if (filename.includes("index.md")) {
-      processDefaultFile(filename, templateMap.default, blogOutPath);
+      processDefaultFile(filename, defaulTemplate, blogOutPath);
       return;
     }
-    processBlogFile(filename, templateMap.blog, blogOutPath);
+    processBlogFile(filename, blogTemplate, blogOutPath);
   });
 
   copyAssets(assetsPath, indexOutPath);

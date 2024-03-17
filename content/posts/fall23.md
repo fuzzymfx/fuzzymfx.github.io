@@ -1,6 +1,6 @@
 ---
 title: "Fall, 2023- Kedarnath & Dubai"
-date: "2023-10-23"
+date: "23-10-2023"
 description: Two most glorious weeks of my life, unbothered by the world, one in the mountains, chasing the clouds, looking for Nirvana, and the other in the desert, chasing the sun, looking at greater heights.
 tags: ["life", "metro", "bangalore"]
 ShowBreadCrumbs: true 

@@ -1,10 +1,9 @@
 ---
 title: 'QTree: An image compression and decompression demonstration using Quadtrees'
-date: "2023-02-14"
+date: "14-02-2023"
 description: "Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees that partition a two-dimensional image by recursively subdividing it into four quadrants."
-tags: ["project", "tree", "quadtree", "image", "compression"," decompression", "javascript", "canvas", "web"]
-ShowBreadCrumbs: true 
 ---
+
 <script type="module" src="/assets/js/qtree/index.js" ></script>
 <script type="module" src="/assets/js/qtree/qdtree.js" ></script>
 

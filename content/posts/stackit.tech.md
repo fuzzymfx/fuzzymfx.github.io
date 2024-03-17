@@ -4,6 +4,7 @@ date: "2023-06-11"
 description: The tech behind the spreadsheet monster.
 tags: ["startup life", "Bangalore"]
 ShowBreadCrumbs: true 
+draft: true
 ---
 
 StackIt empowers you to automate the data importing process into your spreadsheets, making it more efficient and hassle-free. By eliminating the need for coding, StackIt enables users of all backgrounds to effortlessly create connections with various data sources and seamlessly import relevant data into their spreadsheets.

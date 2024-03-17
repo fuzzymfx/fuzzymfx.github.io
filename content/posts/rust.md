@@ -1,6 +1,6 @@
 ---
 title: 'Rust: The next C++ ?'
-date: "2022-10-14"
+date: "14-10-2022"
 description: "Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++ but with emphasis on code safety"
 tags: ["rust", "programming", "language", "c++", "c", "performance", "concurrent", "programming", "compiler", "garbage collector", "ahead-of-time", "compiled", "java", "javascript"]
 ShowBreadCrumbs: true 

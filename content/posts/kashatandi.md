@@ -2,6 +2,7 @@
 title: "Kāshatandi (କାଶତଣ୍ଡି)"
 date: "18-02-2024"
 description: "Pushing forward, slowly."
+draft: true
 ---
 
 Hope is the most magical, marvelous thing. Hope keeps us alive.
