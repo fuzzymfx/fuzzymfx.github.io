@@ -21,7 +21,7 @@ description: "Thoughts on books read, shows watched, and updates on everthing el
 
 ##### Watching 
 
-- [ ] Community *- Dan Harmon*: A sitcom about a group of misfits in a community college. Amazing show. Great humor, wholesome, but might not cater to younger audiences. Has a lot of pop culture references.
+- [x] Community *- Dan Harmon*: A sitcom about a group of misfits in a community college. Amazing show. Great humor, wholesome, but might not cater to younger audiences. Has a lot of pop culture references.
 - [x] Mad Men *- Matthew Weiner*: A period drama set in the 1960s, about an advertising agency.
 - [ ] After Life *- Ricky Gervais*: A dark comedy
 
