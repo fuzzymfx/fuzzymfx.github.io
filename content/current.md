@@ -1,5 +1,6 @@
 ---
 title: "Current shenanigans"
+description: "Here's what I am upto these days"
 ---
 
 ##### Current, 2024

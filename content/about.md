@@ -1,5 +1,6 @@
 ---
 title: Anubhab Patnaik
+description: "Anubhab Patnaik| fuzzymfx- Engineer/ Entrepreneur"
 ---
 
 [<span class="date gray">resume.</span>](/resume.pdf)
@@ -18,4 +19,4 @@ Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of
 
 ---
 
-This site (inspired by [blog.matsu.io](https://blog.matsu.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *38rem*, and the font used is *Avenir*. The source code of the site is [available here](https://github.com/fuzzymfx/fuzzymfx.github.io). Feel free to use [zuzu](https://github.com/fuzzymfx/zuzu) for your personal use.
+This site is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *38rem*, and the font used is *Segoe UI*. The source code of the site is [available here](https://github.com/fuzzymfx/fuzzymfx.github.io). Feel free to use [zuzu](https://github.com/fuzzymfx/zuzu) for your personal use.

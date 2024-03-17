@@ -56,47 +56,18 @@ const readFile = (filename) => {
  * @param {object} data - The data object containing date, title, content, author, and description.
  * @returns {string} - The templated string with placeholders replaced by actual data.
  */
-const templatize = (
-  template,
-  { date, title, content, author, description }
-) => {
-  if (author)
-    return template
-      .replace(/<!-- PUBLISH_DATE -->/g, date)
-      .replace(/<!-- TITLE -->/g, title)
-      .replace(/<!-- CONTENT -->/g, content)
-      .replace(/<!-- DESCRIPTION -->/g, description)
-      .replace(/<!-- AUTHOR -->/g, author);
-  else
-    return template
-      .replace(/<!-- PUBLISH_DATE -->/g, date)
-      .replace(/<!-- TITLE -->/g, title)
-      .replace(/<!-- CONTENT -->/g, content)
-      .replace(/<!-- DESCRIPTION -->/g, description);
+const templatize = (template, data) => {
+  let result = template;
+  for (let key in data) {
+    if (data[key] !== undefined) {
+      result = result.replace(
+        new RegExp(`<!-- ${key.toUpperCase()} -->`, "g"),
+        data[key]
+      );
+    }
+  }
+  return result;
 };
-
-/**
- * Replaces placeholders in an index page template string with provided data.
- * @param {string} template - The template string.
- * @param {object} data - The data object containing title and content.
- * @returns {string} - The templated string with placeholders replaced by actual data.
- */
-const indextemplatize = (template, { title, content }) =>
-  template
-    .replace(/<!-- CONTENT -->/g, content)
-    .replace(/<!-- TITLE -->/g, title);
-
-/**
- * Replaces placeholders in a default page template string with provided data.
- * @param {string} template - The template string.
- * @param {object} data - The data object containing title, content, and description.
- * @returns {string} - The templated string with placeholders replaced by actual data.
- */
-const defaulttempletize = (template, { title, content, description }) =>
-  template
-    .replace(/<!-- CONTENT -->/g, content)
-    .replace(/<!-- TITLE -->/g, title)
-    .replace(/<!-- DESCRIPTION -->/g, description);
 
 /**
  * Saves a string to a file, creating the necessary directories if they don't exist.
@@ -175,7 +146,7 @@ const processDefaultFile = (
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
 
-  const templatized = defaulttempletize(template, {
+  const templatized = templatize(template, {
     title: file.data.title,
     content: file.html,
     description: file.data.description,
@@ -190,42 +161,12 @@ const processDefaultFile = (
 };
 
 /**
- * Processes the current file: reads it, replaces placeholders in the template with actual data, and saves the result.
- * @param {string} filename - The filename to process.
- * @param {string} template - The template to use.
- * @param {string} outPath - The output path.
- */
-const processCurrentFile = (filename, template, outPath) => {
-  const file = readFile(filename);
-  const outfilename = getOutputFilename(filename, outPath);
-  const templatized = indextemplatize(template, {
-    content: file.html,
-    title: file.data.title,
-  });
-  saveFile(outfilename, templatized);
-  //skipcq: JS-0002
-  console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
-};
-
-/**
  * Processes the index file: reads it, replaces placeholders in the template with actual data, and saves the result.
  * @param {string} filename - The filename to process.
  * @param {string} template - The template to use.
  * @param {string} outPath - The output path.
  * @returns {string} - The output filename.
  */
-
-const processIndexFile = (filename, template, outPath) => {
-  const file = readFile(filename);
-  const outfilename = getOutputFilename(filename, outPath);
-  const templatized = indextemplatize(template, {
-    content: file.html,
-    title: file.data.title,
-  });
-  saveFile(outfilename, templatized);
-  //skipcq: JS-0002
-  console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
-};
 
 /**
  * Copies assets from the assets folder to the output folder.
@@ -262,36 +203,20 @@ const copyAssets = (src, dest, depth = 0) => {
  */
 const main = () => {
   const srcPath = path.resolve("content");
-  const outPath = path.resolve(".dist/blog");
-  const dir = path.resolve(".dist/blog");
-  const indexoutPath = path.resolve(".dist");
+  const blogOutPath = path.resolve(".dist/blog");
+  const dir = path.resolve(".dist");
+  const indexOutPath = path.resolve(".dist");
   const assetsPath = path.resolve("assets");
-  const blogtemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
-  const indextemplate = fs.readFileSync(
-    "./templates/initial/index.html",
-    "utf8"
-  );
-  const currenttemplate = fs.readFileSync(
-    "./templates/initial/current.html",
-    "utf8"
-  );
-  const blogindextemplate = fs.readFileSync(
-    "./templates/initial/blogindex.html",
-    "utf8"
-  );
-  const defaultemplate = fs.readFileSync(
+  const blogTemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
+  const defaulTemplate = fs.readFileSync(
     "./templates/initial/default.html",
     "utf8"
   );
 
-  const abouttemplate = fs.readFileSync(
-    "./templates/initial/about.html",
-    "utf8"
-  );
+  const indexFiles = glob.sync(`${srcPath}/*.md`);
+  const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
 
-  const filenames = glob.sync(`${srcPath}/**/*.md`);
-
-  const expiredFiles = ["stackit.tech", "angelfish"];
+  const expiredFiles = ["stackit.tech"];
 
   if (fs.existsSync(dir)) {
     fs.rmSync(dir, { recursive: true, force: true });
@@ -299,41 +224,26 @@ const main = () => {
   fs.mkdirSync(dir, { recursive: true });
 
   const templateMap = {
-    blog: blogtemplate,
-    index: indextemplate,
-    current: currenttemplate,
-    blogindex: blogindextemplate,
-    default: defaultemplate,
-    about: abouttemplate,
+    blog: blogTemplate,
+    default: defaulTemplate,
   };
 
-  filenames.forEach((filename) => {
-    switch (filename.split("/").slice(-1)[0]) {
-      case "index.md":
-        processIndexFile(filename, templateMap.index, indexoutPath);
-        break;
-      case "about.md":
-        processIndexFile(filename, templateMap.about, indexoutPath);
-        break;
-      case "current.md":
-        processCurrentFile(filename, templateMap.current, indexoutPath);
-        break;
-      case "blogindex.md":
-        processIndexFile(filename, templateMap.blogindex, outPath);
-        break;
-      case "journey.md":
-        processDefaultFile(filename, templateMap.default, indexoutPath, true);
-        break;
-      case "reading.md":
-        processDefaultFile(filename, templateMap.default, indexoutPath);
-        break;
-      default:
-        if (!expiredFiles.some((el) => filename.includes(el)))
-          processBlogFile(filename, templateMap.blog, outPath);
-    }
+  indexFiles.forEach((filename) => {
+    if (filename.includes("journey"))
+      processDefaultFile(filename, templateMap.default, indexOutPath, true);
+    else processDefaultFile(filename, templateMap.default, indexOutPath);
   });
 
-  copyAssets(assetsPath, indexoutPath);
+  blogFiles.forEach((filename) => {
+    if (expiredFiles.includes(filename)) return;
+    if (filename.includes("index.md")) {
+      processDefaultFile(filename, templateMap.default, blogOutPath);
+      return;
+    }
+    processBlogFile(filename, templateMap.blog, blogOutPath);
+  });
+
+  copyAssets(assetsPath, indexOutPath);
 };
 
 main();
