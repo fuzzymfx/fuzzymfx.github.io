@@ -61,7 +61,7 @@
               >
             </div>
           </nav>
-          <h2 class="f2 lh-title mb2 mt2">
+          <h2 class="f2 lh-title mb2 mt2" id="blogTitle">
             <!-- TITLE -->
           </h2>
           <div>
@@ -97,6 +97,7 @@
                 </div>
                 Feel free to
                 <a
+                  id="mailtoLink"
                   href="mailto:anubhabr50@gmail.com?subject=Here's%20a%20suggestion/feedback!&amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on..."
                   >send me a mail</a
                 >.
@@ -107,5 +108,15 @@
       </div>
     </div>
     <script src="/assets/js/main.js"></script>
+    <script>
+      window.onload = function () {
+        var title = document.getElementById("blogTitle").innerText;
+        var mailtoLink = document.getElementById("mailtoLink");
+        mailtoLink.href =
+          "mailto:anubhabr50@gmail.com?subject=Here's%20a%20suggestion/feedback%20for%20" +
+          encodeURIComponent(title) +
+          "!&amp;body=Hello%2C%20I%20think%20you%20need%20to%20work%20on...";
+      };
+    </script>
   </body>
 </html>
