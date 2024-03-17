@@ -2,31 +2,29 @@
 title: Blog
 description: "My experiences and musings on life, technology, and everything in between."
 ---
+
 [Reading/ Writing/ Watching](../reading.html)
 
 
-<li class="flex justify-between pb1">
-	<a href="./bandwagon.html" class="link">The Bandwagon Effect</a> March '24
+<li class="flex justify-between pb1"> <a href="./bandwagon.html" class="link">The Bandwagon Effect</a> March '24
 </li>
 
-<li class="flex justify-between pb1">
-	<a href="./lifeandtheuniverse.html" class="link">Life, the Universe, and everything else</a> February '24
+<li class="flex justify-between pb1"> <a href="./lifeandtheuniverse.html" class="link">Life, the Universe, and
+		everything else</a> February '24
 </li>
 
-<li class="flex justify-between pb1">
-	<a href="./dough.html" class="link">Dough</a> January '24
+<li class="flex justify-between pb1"> <a href="./dough.html" class="link">Dough</a> January '24
 </li>
 
-<li class="flex justify-between pb1">
-	<a href="./neak.html" class="link">Neak</a> December '23
+<li class="flex justify-between pb1"> <a href="./neak.html" class="link">Neak</a> December '23
 </li>
 
-<li class="flex justify-between pb1">
-	<a href="./23.html" class="link">2023</a> November '23
+<li class="flex justify-between pb1"> <a href="./23.html" class="link">2023</a> November '23
 </li>
-<li class="flex justify-between pb1">
-	<a href="./fall23.html" class="link">Fall, 2023 - Kedarnath & Dubai</a> October '23
+<li class="flex justify-between pb1"> <a href="./fall23.html" class="link">Fall, 2023 - Kedarnath & Dubai</a> October
+	'23
 </li>
+
 <li class="flex justify-between pb1"><a href="./lifeinametro.html" class="link">The Slave City</a> July '23
 </li>
 
