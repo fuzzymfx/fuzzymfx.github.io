@@ -7,9 +7,9 @@ description: "Anubhab Patnaik| fuzzymfx- Engineer/ Entrepreneur"
 
 Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I recently [left StackIt](https://www.linkedin.com/feed/update/urn:li:activity:7145664348022013952/), where I worked as the founding engineer. Right now, I am working at RadiusAI. This is a space where I publish my musings. I write about tech and my life. [Here's my journey, so far](/journey.html).
 
-[Living in BLR](https://anubhavp.dev/blog/lifeinametro.html) has its toll. The weather and the thriving tech scene in this city are undoubtedly appealing, but the over-population and traffic can be overwhelming. Trying to strike a balance between spending time in the office and doing things that I am more passionate about is a constant pain point.
+[Living in Bangalore](https://anubhavp.dev/blog/lifeinametro.html) has its toll. The weather and the thriving tech scene in this city are undoubtedly appealing, but the over-population and traffic can be overwhelming. Trying to strike a balance between spending time in the office and doing things that I am more passionate about is a constant pain point.
 
-I enjoy music and have recently taken up playing the guitar. I also have a penchant for [adventuring and exploring places](https://anubhavp.dev/explored). Fond of *fiction*, I am trying to take time out to [read](https://anubhavp.dev/reading.html) and [write](https://anubhavp.dev/blog) more. Additionally, I have a [photography page](https://instagram.com/anubhavclicks). Besides, I attend events related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
+I write about life, love poetry and music, and have recently taken up playing the guitar. I also have a penchant for [adventuring and exploring places](https://anubhavp.dev/explored). Fond of *fiction*, I am trying to take time out to [read](https://anubhavp.dev/reading.html) more. Additionally, I have a [photography page](https://instagram.com/anubhavclicks). Besides, I attend events related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
 
 Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of coffee. I am always up for a conversation, or collaborating on projects. Feel free to reach out to me over mail or any of the social media platforms. If you want to have a 10-minute quick chat, here are my calendar and mail links. I deeply value my time, and I'm sure you do too, hence I would appreciate it if you come prepared with some initial research on what you want to discuss.
 
@@ -19,4 +19,4 @@ Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of
 
 ---
 
-This site is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), a static site generator written in JS. The width is *38rem*, and the font used is *Segoe UI*. The source code of the site is [available here](https://github.com/fuzzymfx/fuzzymfx.github.io). Feel free to use [zuzu](https://github.com/fuzzymfx/zuzu) for your personal use.
+This site ([*source*](https://github.com/fuzzymfx/fuzzymfx.github.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), an open-source static site generator written in JS. The width is *38rem*, and the font used is *Segoe UI*.
