@@ -1,6 +1,6 @@
 ---
 author: Srijan Paul
-title: Why is Web3 a sham?
+title: Web3 shams
 date: "19-01-2022"
 description: "A short rant on the state of Web3"
 ---

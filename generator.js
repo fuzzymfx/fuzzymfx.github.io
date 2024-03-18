@@ -109,16 +109,24 @@ const getOutputPdfname = (filename, outPath) => {
 
 /**
  * Processes a blog file: reads it, replaces placeholders in the template with actual data, and saves the result.
+ * Builds a map of blog metadata, to be used for generating the blog index.
+ * @param {Map} blogs - The map containing blog metadata.
  * @param {string} filename - The filename to process.
  * @param {string} template - The template to use.
  * @param {string} outPath - The output path.
  */
-const processBlogFile = (filename, template, outPath) => {
+const processBlogFile = (filename, template, outPath, blogs) => {
   const file = readFile(filename);
-  const outfilename = getOutputFilename(filename, outPath);
 
   const draft = file.data.draft;
   if (draft) return;
+
+  const outfilename = getOutputFilename(filename, outPath);
+
+  blogs.set(filename.split("/").slice(-1).join("/").slice(0, -3), {
+    title: file.data.title,
+    date: file.data.date,
+  });
 
   const templatized = templatize(template, {
     date: file.data.date,
@@ -164,12 +172,59 @@ const processDefaultFile = (
 };
 
 /**
- * Processes the index file: reads it, replaces placeholders in the template with actual data, and saves the result.
- * @param {string} filename - The filename to process.
- * @param {string} template - The template to use.
- * @param {string} outPath - The output path.
- * @returns {string} - The output filename.
+ * Builds the blog index from the map of blog metadata and replaces the index placeholder in the blog index file.
+ * Updates the index file with the new index HTML.
+ * @param {Map} blogs - The map containing blog metadata.
+ * @param {string} path - The output path.
+ * @returns {string} - The index HTML.
  */
+
+const buildBlogIndex = (blogs, path) => {
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  let indexHTML = "";
+
+  const sortedBlogs = Array.from(blogs.entries()).sort((a, b) => {
+    const [dayA, monthA, yearA] = a[1].date.split("-");
+    const [dayB, monthB, yearB] = b[1].date.split("-");
+
+    return (
+      new Date(yearB, monthB - 1, dayB) - new Date(yearA, monthA - 1, dayA)
+    );
+  });
+
+  sortedBlogs.forEach(([key, value]) => {
+    const [day, month, year] = value.date.split("-");
+    const displayDate = `${monthNames[parseInt(month) - 1]} '${year.slice(-2)}`;
+    indexHTML += `<li class="flex justify-between pb1"> 
+                    <a href="./${key}.html" class="link">${value.title}</a> ${displayDate}
+                  </li>`;
+  });
+
+  // Get index from path
+  const indexFile = path + "/index.html";
+
+  // Replace the id with the indexHTML
+  const indexFileContent = fs.readFileSync(indexFile, "utf8");
+  const replacedIndex = indexFileContent.replace(
+    '<h2 id="posts" tabindex="-1">Posts</h2>',
+    `<div id="tableofindex">${indexHTML}</div>`
+  );
+
+  fs.writeFileSync(indexFile, replacedIndex);
+};
 
 /**
  * Copies assets from the assets folder to the output folder.
@@ -231,13 +286,17 @@ const main = () => {
     else processDefaultFile(filename, defaulTemplate, indexOutPath);
   });
 
+  const blogs = new Map();
+
   blogFiles.forEach((filename) => {
     if (filename.includes("index.md")) {
       processDefaultFile(filename, defaulTemplate, blogOutPath);
       return;
     }
-    processBlogFile(filename, blogTemplate, blogOutPath);
+    processBlogFile(filename, blogTemplate, blogOutPath, blogs);
   });
+
+  buildBlogIndex(blogs, blogOutPath);
 
   copyAssets(assetsPath, indexOutPath);
 };

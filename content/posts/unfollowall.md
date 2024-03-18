@@ -1,5 +1,5 @@
 ---
-title: "Unfollow all and stats check: LinkedIn Scripts"
+title: "Unfollow: LinkedIn Scripts"
 date: "29-04-2023"
 description: "A linkedin script to remove all your followings :D, and check your following to connection ratio."
 ---

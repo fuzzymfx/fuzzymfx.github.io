@@ -1,5 +1,5 @@
 ---
-title: 'Dough: A presentation tool'
+title: 'Dough'
 date: "31-01-2024"
 description: "A rich presentation tool built in Rust that uses markdown for content generation."
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Teasquared: The End of An Era"
-date: "2023-05-15"
+title: "Teasquared: Adieu, Siliconites"
+date: "15-05-2023"
 description: "A goodbye to the best four years of my life: an ode to my alma mater."
 tags: ["farewell", "adieu", "college"]
 ShowBreadCrumbs: true 

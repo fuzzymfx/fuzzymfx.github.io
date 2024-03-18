@@ -1,5 +1,5 @@
 ---
-title:  'Decentralization in MetaMUI Wallet: A Case Study'
+title:  'Decentralization in MetaMUI Wallet'
 date:  "31-08-2022"
 description: "A case study on how MetaMUI wallet claims to be decentralized and how it actully works."
 ---

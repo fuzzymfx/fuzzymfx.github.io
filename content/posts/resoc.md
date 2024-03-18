@@ -1,6 +1,6 @@
 ---
-title: 'RESOC'
-date: "17-03-2022"
+title: 'Resoc'
+date: "17-03-2023"
 description: "RESOC is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free."
 tags: ["foss", "project", "content-management-application", "notes", "react", "nodejs", "web"]
 ShowBreadCrumbs: true 
