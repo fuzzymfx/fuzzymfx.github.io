@@ -28,8 +28,8 @@ To those who find themselves at a similar crossroads, I offer this advice: dare 
 
 For those grappling with the decision of whether to leave a lucrative yet unfulfilling job, I implore you: take that leap. In the end, true peace and contentment await you in a place where you can cultivate your own *Utopia*, rather than striving to fit into a cityscape teeming with misplaced ambitions and frustrations.
 
-I am trying to get a rice paddy while you struggle to grow potatoes. We're both tilling the soil, hustling, irrigating, and yearning for a peaceful night's rest. And when the day draws to a close, there's a profound satisfaction in knowing that we've given our all, that we've poured our sweat and toil into nurturing what we hold dear.
+I am trying to get a rice paddy while you struggle to grow potatoes. We're both tilling the soil, hustling, irrigating, and yearning for a peaceful night's rest. And when the day draws to a close, looking at the orangish pink dusk from the farms, birds flying out, soaring high, there's a profound satisfaction in knowing that we've given our all, that we've poured our sweat and toil into nurturing what we hold dear.
 
-Worry about excelling in your farmlands. Work harder to strive to be the best. Grow the sweetest potatoes out there. Polish and build yourself, for yourself, and only you are skilled enough to produce the sweetest potatoes in all the farmlands, in all the worlds.
+Worry about excelling in your farmlands. Work harder to strive to be the best. Grow the sweetest potatoes out there. Polish and build yourself, for you, and only you are skilled enough to produce the sweetest potatoes in all the farmlands, in all the worlds.
 
-*(Success ke peeche mat bhaago, excellence ka peecha karo, success jhak maarke tumhare peeche ayegi. - 3Idiots)*
+*(“Success ke peeche mat bhaag, excellence ka peecha kar, success jhak maarke tere peeche ayegi”. - 3Idiots)*
