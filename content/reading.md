@@ -21,19 +21,19 @@ description: "Thoughts on books read, shows watched, and updates on everthing el
 
 ##### Watching 
 
-- [x] Community *- Dan Harmon*: A sitcom about a group of misfits in a community college. Amazing show. Great humor, wholesome, but might not cater to younger audiences. Has a lot of pop culture references.
+- ~~[x] Community *- Dan Harmon*: A sitcom about a group of misfits in a community college. Amazing show. Great humor, wholesome, but might not cater to younger audiences. Has a lot of pop culture references.~~
 - [x] Mad Men *- Matthew Weiner*: A period drama set in the 1960s, about an advertising agency.
 - [ ] After Life *- Ricky Gervais*: A dark comedy
 
-Yet to watch:
+<!-- Yet to watch:
 
 - [ ] The Umbrella Academy *- Steve Blackman*: A superhero show about a dysfunctional family of superheroes. The show is based on a comic book series of the same name. I am yet to complete this.
 - [ ] The Witcher
 - [ ] Peaky Blinders
 - [ ] Shameless
-- [ ] Farzi
+- [ ] Farzi -->
 
-##### What else ?
+##### Written recently
 
 Here's [what's up with me](/current.html), and here are some of the things I have written recently:
 
