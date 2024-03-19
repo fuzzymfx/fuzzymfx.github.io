@@ -1,5 +1,5 @@
 ---
-title: "Kāshatandi (କାଶତଣ୍ଡି)"
+title: "Kāshatandi"
 date: "18-02-2024"
 description: "Pushing forward, slowly."
 draft: true
