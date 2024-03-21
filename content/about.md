@@ -5,7 +5,7 @@ description: "Anubhab Patnaik| fuzzymfx- Engineer/ Entrepreneur"
 
 [<span class="date gray">resume.</span>](/resume.pdf)
 
-Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I recently [left StackIt](https://www.linkedin.com/feed/update/urn:li:activity:7145664348022013952/), where I worked as the founding engineer. Right now, I am working at RadiusAI. This is a space where I publish my musings. I write about tech and my life. [Here's my journey, so far](/journey.html).
+Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I recently [left StackIt](https://www.linkedin.com/feed/update/urn:li:activity:7145664348022013952/), where I worked as the founding engineer. Right now, I am working at RadiusAI. This is a space for my philosophical thoughts, monthly updates; two-cents and musings on matters. I write about tech and my life. [Here's my journey, so far](/journey.html).
 
 [Living in Bangalore](https://anubhavp.dev/blog/lifeinametro.html) has its toll. The weather and the thriving tech scene in this city are undoubtedly appealing, but the over-population and traffic can be overwhelming. Trying to strike a balance between spending time in the office and doing things that I am more passionate about is a constant pain point.
 
