@@ -45,6 +45,9 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: ./templates/resume/resume.tex
+      - name: Download existing resume
+        if: steps.check_latex.outputs.latex_changed == 'false'
+        run: wget https://anubhavp.dev/resume.pdf
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
