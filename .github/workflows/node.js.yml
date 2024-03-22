@@ -32,7 +32,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Check if LaTeX file was changed
+        id: check_latex
+        run: |
+          if git diff --name-only HEAD^..HEAD | grep -q "templates/resume/resume.tex"; then
+            echo "::set-output name=latex_changed::true"
+          else
+            echo "::set-output name=latex_changed::false"
+          fi
       - name: Compile LaTeX document
+        if: steps.check_latex.outputs.latex_changed == 'true'
         uses: xu-cheng/latex-action@v2
         with:
           root_file: ./templates/resume/resume.tex
