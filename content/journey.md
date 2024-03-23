@@ -151,7 +151,7 @@ description: "My journey so far"
 
 ### Activities
 
-- Luma - Magic Ball: Then AI Reveal - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
+- Luma - Magic Ball: The AI Reveal - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
 - Luma - Magic Ball: OpenAI Dev Day - 2023 - [🔗](https://www.linkedin.com/feed/update/urn:li:activity:7128282363955998720/)
 - CS25 I Stanford Seminar - Transformers United 2023: Introduction to Transformers
 - Luma - Magic Ball: The Reveal - 2023 - [🔗](https://www.linkedin.com/posts/anubhabpatnaik0530_the-reveal-by-magic-ball-activity-7100826884778717184-JkVu?utm_source=share&utm_medium=member_desktop)    
@@ -184,6 +184,7 @@ description: "My journey so far"
 
 ### External Links
 
+- [Anubhab Patnaik](https://anubhavp.dev)
 - [Resume](https://anubhavp.dev/resume.pdf)
 - [LinkedIn](https://www.linkedin.com/in/anubhabpatnaik0530/)
 - [GitHub](https://github.com/fuzzymfx)
