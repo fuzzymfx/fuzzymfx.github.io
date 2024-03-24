@@ -34,7 +34,7 @@ description: "My journey so far"
   - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
   - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the needs of existing users on the older blockchain.
 - **Freelance Software Developer** - *Afixi Technologies* 2022 - [🔗](https://drive.google.com/file/d/1rWImLNao3abkQF313Jb8gT5Ybq8aNQeA/view?usp=sharing)
-  - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a Python script to automate the uploading of music from the producer’s S3 bucket and automated the uploading of music on YouTube.
+  - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a Python script to automate the uploading of music from the producer's S3 bucket and automated the uploading of music on YouTube.
 - **MLOps** & **React Internship** - *Ebibil Technologies* 2021 - [🔗](https://drive.google.com/file/d/1povslBn3QFW9GvSJSvPLF3UqN1-2DBuI/view?usp=sharing)
   - Collaborated on the Django web app to integrate with ML models for a smart parking system.
   - Implemented a PWA using React for the admin panel that manages the parking system.
@@ -52,38 +52,28 @@ description: "My journey so far"
 
 ### Projects
 
-- [Dough](https://github.com/fuzzymfx/dough) - A **cli presentation tool** written in Rust. \[*Rust, Termion, Clap*] *- 2024*
-- [Bee](https://github.com/fuzzymfx/b) - A **tiny bit torrent client** written in TypeScript. Built to work with the movie recommendation system and the movie rating prediction system.  \[*TypeScript, Web Sockets, NodeJs*] *- 2023*
-- [RESOC](https://github.com/fuzzymfx/resoc) - A FOSS **social platform** for accessing free academic resources with task management, a chat section, and an open contributions page with a growing user base of 2000, more than 4000 reads, and 200 writes. \[*React, React-Bootstrap, Firebase, Cloud Firestore, emailjs, firebase-hosting, gh-actions*] *- 2022-23*
-- [zuzu](https://github.com/fuzzymfx/zuzu) - A **static site generator** written in JavaScript. \[*Node, Django REST, Bootstrap, React Hooks, SQLite3, AWS EC2, gh-actions, MarkdownIt, Glob, Gray-matter*] *- 2022-23*
-  - Live  - [🔗](https://anubhavp.dev/zuzu/)
-  - Old Blog - [🔗](https://anubhavp.dev/oldblog/)
-  - Current Blog - [🔗](https://anubhavp.dev/blog/)
-- [Qtree](https://github.com/fuzzymfx/qd-compression) - Inspired by KoalasToTheMax, QTree is a short live nstration of **image compression and decompression** using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants. \[*NodeJs, Quadtrees, Canvas- HTML5*] *- 2023*
-  - Live  - [🔗](https://anubhavp.dev/blog/qtree/)
-- [Explored](https://github.com/fuzzymfx/explored) - **The Globe** from Github's homepage implemented in **ThreeJS** with beautiful shading. \[*ThreeJS, WebGL, GLSL, JavaScript*] *- 2022*
-  - Live  - [🔗](https://anubhavp.dev/explored/)
-- [W3bChat](https://github.com/fuzzymfx/w3bchat-dapp) - A **decentralized chat application** that uses a graph DB to nstrate the concept of a decentralized chat application. \[*Svelte, CSS, GraphDB- GUNJS NodeJs*] *- 2022*
-  - Live  - [🔗](https://w3bchat-fadfa.web.app/)
+- [Dough](https://github.com/fuzzymfx/dough) - A **cli presentation tool** written in Rust.
+- [Bee](https://github.com/fuzzymfx/b) - A **tiny bit torrent client** written in TypeScript. Built to work with the movie recommendation system and the movie rating prediction system.
+- [RESOC](https://github.com/fuzzymfx/resoc) - A FOSS **social platform** for accessing free academic resources with task management, a chat section, and an open contributions page.
+- [zuzu](https://github.com/fuzzymfx/zuzu) - A **static site generator** written in JavaScript.- Live [🔗](https://anubhavp.dev/zuzu/), Old Blog [🔗](https://anubhavp.dev/oldblog/)
+- [Qtree](https://github.com/fuzzymfx/qd-compression) - Inspired by KoalasToTheMax, QTree is a short demonstration of **image compression and decompression** using Quadtrees, that partitions a two-dimensional image by recursively subdividing it into four quadrants. - Live [🔗](https://anubhavp.dev/blog/qtree/)
+- [Explored](https://github.com/fuzzymfx/explored) - **The Globe** from Github's homepage implemented in **ThreeJS** with beautiful shading. - Live  - [🔗](https://anubhavp.dev/explored/)
+- [W3bChat](https://github.com/fuzzymfx/w3bchat-dapp) - A **decentralized chat application** that uses a graph DB to nstrate the concept of a decentralized chat application. - Live  - [🔗](https://w3bchat-fadfa.web.app/)
 - [Nice Dear](https://github.com/fuzzymfx/nicedear) - A library that *generates random avatars*. *Dicebear rip-off!*
-  - \[*TypeScript, Sharp, Util, Canvas- HTML5*] *- 2022*
-- [Rokio](https://github.com/fuzzymfx/rust-tokio-chat-server) - A **multi-client chat server** written in Rust using Tokio. \[*Rust, Tokio*] *- 2022*
-- [IWT](https://github.com/fuzzymfx/iwtserver) - A group college project based on **MERN** Stack. \[*MongoDB, Express, React, NodeJs, Php*] *- 2022*
-  - Live  - [🔗](https://anubhavp.dev/IWT_project/)
-- [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using **Linear Regression** and **Gradient Descent**. \[*Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn*] *- 2021*
-- [Depression Detector](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets) - Created a **TF/IDF classifier** - sentiment analysis model to detect depression in tweets. \[*Python, NLTK, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn*] *- 2022*
-- [Taskapp](https://github.com/fuzzymfx/go-react-taskapp) - A **task** management system with. \[*Go, React, React-Bootstrap, Firebase*] *- 2022*
-  - React app - [🔗](https://github.com/fuzzymfx/react-frontend-blogapp)
-- [Fitness Videoplayer](https://github.com/fuzzymfx/fitness-videoplayer) - A **flutter application** to monitor fitness and exercise workouts. \[*Flutter, Dart, Go*] *- 2022*
-- [Kanaban Board](https://github.com/fuzzymfx/flutter-golang-taskapp) - A **Kanaban board** to manage tasks. \[*Flutter, Dart, Go*] *- 2022*
-- [Movie Rating Prediction](https://github.com/fuzzymfx/Movie-rating-prediction) - Predicting the rating of a movie based on the review using **Naive Bayes**. \[*Python, NLTK, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn*] *- 2021*
-- [Movie Recommendation System](https://github.com/fuzzymfx/Movie-recommendation) - An item-based collaborative recommendation system \[*Python, Pandas, Numpy, Matplotlib, Seaborn*] *- 2021*
-- [Digit Recognizer](https://github.com/fuzzymfx/HandwrittenDigitClassification) - Classifying handwritten digits and MNIST dataset using **CNN** and **KNN**. \[*Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn*] *- 2021*
-- [MNIST digit classifier using KNN](https://github.com/fuzzymfx/Classifying-mnist-digit-dataset)
-- [Bird Migration Analysis](https://github.com/fuzzymfx/Bird-Migration-data-analysis) - A **data analysis** project to analyze the migration of birds. \[*Matplotlib, Pandas, Numpy, Cartopy, Shapely*] *- 2021*
-- [Smart Home Automation System](https://github.com/fuzzymfx/HomeAuto) - Theoretical implementation of a **smart home automation system** in IOT Summer Internship. \[*NodeMCU, Relays, NodeRed, EC2, HiveMQ, Arduino IDE*] *- 2021*
+- [Rokio](https://github.com/fuzzymfx/rust-tokio-chat-server) - A **multi-client chat server** written in Rust using Tokio.
+- [IWT](https://github.com/fuzzymfx/iwtserver) - A group college project based on **MERN** Stack. - Live  [🔗](https://anubhavp.dev/IWT_project/)
+- [Marks Predictor](https://github.com/fuzzymfx/Marks-predictor) - Predicting the marks of a student based on the number of hours studied using **Linear Regression** and **Gradient Descent**.
+- [Depression Detector](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets) - Created a **TF/IDF classifier** - sentiment analysis model to detect depression in tweets.
+- [Taskapp](https://github.com/fuzzymfx/go-react-taskapp) - A **task** management system with - React app - [🔗](https://github.com/fuzzymfx/react-frontend-blogapp)
+- [Fitness Videoplayer](https://github.com/fuzzymfx/fitness-videoplayer) - A **flutter application** to monitor fitness and exercise workouts.
+- [Kanaban Board](https://github.com/fuzzymfx/flutter-golang-taskapp) - A **Kanaban board** to manage tasks.
+- [Movie Rating Prediction](https://github.com/fuzzymfx/Movie-rating-prediction) - Predicting the rating of a movie based on the review using **Naive Bayes**.
+- [Movie Recommendation System](https://github.com/fuzzymfx/Movie-recommendation) - An item-based collaborative recommendation system using **Cosine Similarity**.
+- [Digit Recognizer](https://github.com/fuzzymfx/HandwrittenDigitClassification) - Classifying handwritten digits and MNIST dataset using **CNN** and **KNN**. - [MNIST digit classifier using KNN](https://github.com/fuzzymfx/Classifying-mnist-digit-dataset)
+- [Bird Migration Analysis](https://github.com/fuzzymfx/Bird-Migration-data-analysis) - A **data analysis** project to analyze the migration of birds.
+- [Smart Home Automation System](https://github.com/fuzzymfx/HomeAuto) - Theoretical implementation of a **smart home automation system** in IOT Summer Internship.
 - [Industrial Contamination Detection](https://github.com/fuzzymfx/IndustrialContaminationMonitor) - A theoretical **IOT** project to detect contamination in the soil in irrigation and agriculture.  *- 2021*
-- [Ransomware Detection](https://docs.google.com/document/d/1MsFnXgt9E5oEyg8YnkDnDNy9T5AQooNEAHOjphvHVyE/edit?usp=sharing) - A **ransomware detection** nstration on *WannaCry*. \[*VmWare, Windows 10*] *- 2020*
+- [Ransomware Detection](https://docs.google.com/document/d/1MsFnXgt9E5oEyg8YnkDnDNy9T5AQooNEAHOjphvHVyE/edit?usp=sharing) - A **ransomware detection** demonstration on *WannaCry*. *2020*
 
 ---
 
