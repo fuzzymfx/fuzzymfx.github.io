@@ -10,9 +10,6 @@ However, a challenge arises when we seek to safeguard our data from direct inter
 
 *Caveat: This is a work in progress. The code is not yet available for public use. Below is a brief overview of the project.*
 
-
-
-
 ## Prompt Engineering
 
 *"Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model. A prompt is natural language text describing the task that an AI should perform".* (Source: [Wikipedia](https://en.wikipedia.org/wiki/Prompt_engineering))
