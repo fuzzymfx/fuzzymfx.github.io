@@ -11,18 +11,6 @@ However, a challenge arises when we seek to safeguard our data from direct inter
 
 *Caveat: This is a work in progress. The code is not yet available for public use. Below is a brief overview of the project.*
 
-- [The Problem](#the-problem)
-    - [Prompt Engineering](#prompt-engineering)
-        - [Lang Chain SQL Generator](#lang-chain-sql-generator)
-        - [SQL Coder](#sql-coder)
-    - [RAG pipelines](#rag-pipelines)
-        - [Lang Chain](#lang-chain)
-        - [Llama index](#llama-index)
-- [Neak](#neak)
-    - [Chunking](#chunking)
-    - [Prompt Engineering](#prompt-engineering-1)
-- [What's next?](#whats-next)
-
 ## The Problem
 
 In recent times, after the advent of LLMs, there has been a distinct surge in the applications of chat-based LLMs. We have been conditioned to rely on LLMs for our daily tasks. From writing a letter to building scalable applications, LLMs like Chat-GPT, Bard, Llama etc. have become the go-to tools for all our needs. The most complex of tasks, such as writing code or constructing queries have become a breeze. One of the common ones is to generate or construct SQL queries.
