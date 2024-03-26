@@ -1,6 +1,6 @@
 ---
 title: 'Nicedear'
-date: "26-03-2024"
+date: "01-04-2024"
 description: "A random avatar generator for your website or app: a dicebear spoof. "
 draft: false
 ---
