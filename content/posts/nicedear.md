@@ -57,7 +57,7 @@ Here's an example of a feature object, `a suspicious face`, from the theme `open
 </div>
 
 
-3.Nicedear then applies transformations to the selected choices, such as scaling, rotating, and mirroring, to create a unique avatar that captures your essence.
+3. Nicedear then applies transformations to the selected choices, such as scaling, rotating, and mirroring, to create a unique avatar that captures your essence.
 
 ```ts
 const layers: OverlayOptions[] = await Promise.all(imagePaths.map(async (imgPath, i) => {
