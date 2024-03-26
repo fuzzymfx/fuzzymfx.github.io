@@ -19,6 +19,7 @@ Source: [Nicedear](https://api.nicedear.vip/?seed=how), seed: "how"
 Behind the scenes, Nicedear uses Node and TypeScript to generate the avatar. Here's the [source](https://github.com/fuzzymfx/nicedear), and here's how it works:
 
 1. With Nicedear, every avatar starts with a seed – a tiny spark that ignites a world of creativity. Whether you provide your own or let Nicedear conjure one for you, each seed undergoes a simple hashing function, converting it into a numerical value. This hash serves as the foundation for subsequent choices in the avatar's features.
+<a name="hashfunction"></a>
 
   ```ts
   const hashString = (s: string): number => {
@@ -43,6 +44,10 @@ Behind the scenes, Nicedear uses Node and TypeScript to generate the avatar. Her
 ```
 
 The **Feature Array** is an array of Feature objects that contain the choices for each feature. `Head`, `Face`, `Facial-hair` are examples of features. Each feature has a set of choices. Nicedear uses the hash to select a choice from each feature. A **feature image** (*a face*) is a choice from a set of choices(*a folder containing all the faces*) is selected based on the modulo of the hash and the number of choices in the feature.
+
+Assuming Input = "`fuzzymf`", the hash generated using the hash function [⏎](#hashfunction) is `497870557`. The hash is then divided by the number of faces present in the folder, say '`25`', to get the modulo, which is **7**. The **7th face** is then selected from the folder containing all the faces.
+
+Similarly, the hash is used to select choices for other features, such as `Facial-hair` and `Head`.
 
 Here's an example of a feature object, `a suspicious face`, from the theme `open-peeps`:
 
