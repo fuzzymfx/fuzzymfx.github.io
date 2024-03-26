@@ -48,7 +48,7 @@ Here's an example of a feature object, `a suspicious face`, from the theme `open
 
 <div style="display: flex; justify-content: center; align-items: center;">
 
-  ![A Suspicious Face](../../assets/img/nicedear/Suspicious.svg)
+  ![A Suspicious Face](https://anubhavp.dev/assets/img/nicedear/Suspicious.svg)
 </div>
 
 
@@ -78,27 +78,27 @@ Nicedear offers a plethora of transformation features to tailor the avatar accor
 
 ### Parameters
 
-- **seed**: string
+- **seed**: string  
 Input for the random generator, ensuring reproducibility.
-- **theme**: string
+- **theme**: string  
 Defines the visual theme of the avatar, with options including open-peeps, female, male, and more.
-- **mirror**: boolean
+- **mirror**: boolean  
 When set true, flips the image horizontally when set to true.
-- **rotate**: number
+- **rotate**: number  
 Rotates the image by a specified degree. Defaults to 0.
-- **background**: string
+- **background**: string  
 The hex code of the background color. Defaults to #ffffff.
-- **skinColor**: string (*pending*)
+- **skinColor**: string (*pending*)  
 The hex code of the avatar's skin color. Defaults to #ffffff.
-- **hairColor**: string (*pending*)
+- **hairColor**: string (*pending*)  
 The hex code of the avatar's hair color. Defaults to #000000.
-- **scale**: number
+- **scale**: number  
 Adjusts the size of the avatar. Defaults to 1.0.
-- **transalteX**: number
+- **transalteX**: number  
 Fine-tunes the x-coordinate of the avatar. Defaults to 0.
-- **transalteY**: number
+- **transalteY**: number  
 Fine-tunes the y-coordinate of the avatar. Defaults to 0.
-- **features**: string[]
+- **features**: string[]  
 Specifies which features to include in the avatar, such as face, facial-hair, and head.
 
 ## Usage
