@@ -49,7 +49,7 @@ Assuming Input = "`fuzzymf`", the hash generated using the hash function [⏎](#
 
 Similarly, the hash is used to select choices for other features, such as `Facial-hair` and `Head`.
 
-Here's an example of a feature object, `a suspicious face`, from the theme `open-peeps`:
+Here's an example of a feature object, `a suspicious face`, from the theme `open-peeps`, when the input is `fuzzymfx`:
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
@@ -134,12 +134,12 @@ api.nicedear.vip/?seed=asimpleone
 And, a complex one might look like this:
 
 ```bash
-api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=350&scale=1&transalteX=10.0&transalteY=20.0&features[]=face&features[]=facial-hair&features[]=head
+api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&features[]=face&features[]=head
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: extreme](https://api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=350&scale=1&transalteX=10.0&transalteY=20.0&features[]=face&features[]=facial-hair&features[]=head)
+![Nicedear: extreme](https://api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&features[]=face&features[]=head)
 </div>
 
 Or, just visit [https://api.nicedear.vip](https://api.nicedear.vip) for a random avatar.
