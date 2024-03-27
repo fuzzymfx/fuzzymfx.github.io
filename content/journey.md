@@ -18,6 +18,7 @@ description: "My journey so far"
 - **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
   - Building asynchronous monitoring microservices using Rust, FastAPI, and Kafka to handle 10,000+ scraping requests per minute.
   - Optimizing the alert module, and porting it from python and refactoring it to Rust to improve performance.
+  - Automated fault tolerant, consistent DB write operations by different teams using lambda functions and Prefect
 - **Founding Engineer/SDE-1** - *StackIt* 2023 - [🔗](https://nowstackit.com)
   - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
   - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
