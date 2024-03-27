@@ -117,7 +117,7 @@ node dist/index.js foo open-peeps true 45 red skinColor hairColor 1.0 10.0 20.0 
 And, an API request might look like this:
 
 ```bash
-GET http://localhost:3000/?seed=<seed>&theme=<theme>&mirror=<mirror>&rotate=<rotate>&background=<background>&skincolor=<skincolor>&hairColor=<hairColor>&scale=<scale>&transalteX=<transalteX>&transalteY=<transalteY>&features[]=feature1&features[]=feature2
+GET http://localhost:3000/?seed=<seed>&theme=<theme>&mirror=<mirror>&rotate=<rotate>&background=<background>&skincolor=<skincolor>&hairColor=<hairColor>&scale=<scale>&transalteX=<transalteX>&transalteY=<transalteY>&features=face,facialHair,head
 ```
 
 Or, a simple API request might look like this:
@@ -134,12 +134,12 @@ api.nicedear.vip/?seed=asimpleone
 And, a complex one might look like this:
 
 ```bash
-api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&features[]=face&features[]=head
+api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&features=face,facialHair,head
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: extreme](https://api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&features[]=face&features[]=head)
+![Nicedear: extreme](https://api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&&features=face,facialHair,head)
 </div>
 
 Or, just visit [https://api.nicedear.vip](https://api.nicedear.vip) for a random avatar.
