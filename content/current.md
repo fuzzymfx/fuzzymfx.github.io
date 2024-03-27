@@ -9,7 +9,7 @@ description: "Here's what I am upto these days"
 
 ###### April
 
-March ended with me finishing up [NiceDear](https://anubhavp.dev/blog/nicedear.html), an avatar generator that crafts unique avatars based on user input. April is all about spending time with my family coming to visit me in Bangalore. We have planned a trip to *Gujrat* and *Rajasthan* this month. This month will be spent in a lot of travelling and sight-seeing!
+March ended with me finishing up [NiceDear](https://anubhavp.dev/blog/nicedear.html), a dynamic open-source avatar generator that crafts unique avatars based on user input. April is all about spending time with my family coming to visit me in Bangalore. We have a trip planned ahead, to *Gujrat* and *Rajasthan* in the second week. Excited.
 
 ###### March
 
