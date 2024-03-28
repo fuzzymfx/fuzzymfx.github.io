@@ -79,7 +79,7 @@ Here's an example of a feature object, `a suspicious face`, from the theme `open
   return await applyTransformations(`_output/${seed}${pathHash}.png`, params);
 ```
 
-Nicedear's transformative powers come to life. The selected choices are then layered over and composited together to form the avatar, and a png is created. The png (image) is then transformed, and the transformed SVG is returned.
+Nicedear's transformative powers come to life. The selected choices are then layered over and composited together to form the avatar, and a png is created. The png (image) is then transformed and converted to `SVG`. Your tailored avatar is ready to be shared with the world.
 
 ## The Transformations
 
