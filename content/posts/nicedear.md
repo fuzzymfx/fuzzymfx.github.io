@@ -56,26 +56,30 @@ Here's an example of a feature object, `a suspicious face`, from the theme `open
   ![A Suspicious Face](https://anubhavp.dev/assets/img/nicedear/Suspicious.svg)
 </div>
 
-
 3. Nicedear then applies transformations to the selected choices, such as scaling, rotating, and mirroring, to create a unique avatar that captures your essence.
 
 ```ts
-const layers: OverlayOptions[] = await Promise.all(imagePaths.map(async (imgPath, i) => {
-  let image: Sharp.Sharp = Sharp(imgPath);
-  image = await applyTransformations(image, params);
-  const buffer = await image.toBuffer();
-  const layer: OverlayOptions = { input: buffer };
+ const layers: OverlayOptions[] = await Promise.all(imagePaths.map(async (imgPath, i) => {
+  const feature = features[i];
+  const layer: OverlayOptions = { input: imgPath };
+  if (feature.top) layer.top = feature.top;
+  if (feature.left) layer.left = feature.left;
   return layer;
  }));
-...
- const background: SharpOptions = {
-  create: {
-  ...
 
- await Sharp(background).composite(layers);
+ const transparentBackground: SharpOptions = {
+  create: {
+   width: 1000,
+   height: 1000,
+   channels: 4,
+   background: { r: 255, g: 255, b: 255, alpha: 0 }
+  },
+ };
+  await Sharp(transparentBackground).composite(layers).png().toFile(`_output/${seed}${pathHash}.png`);
+  return await applyTransformations(`_output/${seed}${pathHash}.png`, params);
 ```
 
-Nicedear's transformative powers come to life. The selected choices are then layered over to generate the avatar, and the choices (images) are loaded, and the transformed images are then composited together to form the avatar.
+Nicedear's transformative powers come to life. The selected choices are then layered over and composited together to form the avatar, and a png is created. The png (image) is then transformed, and the transformed SVG is returned.
 
 ## The Transformations
 
