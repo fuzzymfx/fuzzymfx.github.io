@@ -9,21 +9,21 @@ description: "Here's what I am upto these days"
 
 ###### April
 
-I bid my best friend a final goodbye as he was to leave Bangalore, permanently. He decided to quit his job and follow his passion. The current economic climate is not conducive to his interests, and the job market is exteremley rough. He is moving back to his hometown, for the time being while he hunts for open teaching positions across ed-tech sectors. I am going to miss him. I am going to miss our late-night conversations, our shared interests, and our shared dreams.
+A melancholic April: I bid my best friend a final goodbye as he was supposed to leave Bangalore permanently. He decided to quit his job and follow his passion. The current economic climate is not conducive to his interests, and the job market is extremely rough. He is planning a hiatus in his hometown while he hunts for open teaching positions in the education sector. I am going to miss him. I am going to miss our late-night conversations, our shared interests, and our shared dreams. A blue summer awaits.
 
-April is all about spending time with my family coming to visit me in Bangalore. We have a trip planned ahead, to *Gujrat* and *Rajasthan* in the second week. Excited.
+April is all about spending time with my family visiting me in Bangalore. We have a trip ahead to *Gujrat* and *Rajasthan* in the second week. Excited!
 
 ###### March
 
-An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. The weekend after that was spent in Pondicherry, with a friend. We explore bakeries, french architecture, *Auroville*, the beach, and the city. After a week-long hiatus with friends and family, and an excruciatingly tiring trip to Pondicherry, I am back in Bangalore now, and I am looking forward to a productive month.
+An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. The weekend after that was spent in Pondicherry, with Abinash. We explore bakeries, french architecture, *Auroville*, the beach, and the city. After a week-long hiatus with friends and family, and an excruciatingly tiring trip to Pondicherry, I am back in Bangalore now, and I am looking forward to a productive month.
 
 I am not planning on taking up much work, and have thought of taking an hour of my day to figure out where this is all going. March is supposed to be an interlude, a time to reflect and recharge. I have long-term goals, and to be able to accomplish them, I need to be more disciplined and focused. The path must be streamlined. This daily routine will help me to stay on track and keep my goals in sight. This month would be spent planning out the next four odd years. My short-term goals would be to focus on my fitness journey and improve my writing. Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing a lot.
 
-March ends with me finishing up [NiceDear](https://anubhavp.dev/blog/nicedear.html), a dynamic open-source avatar generator that crafts unique avatars based on user input.
+March ends exciting. I finished up with [NiceDear](https://anubhavp.dev/blog/nicedear.html), a dynamic open-source avatar generator that crafts unique avatars based on user input. Looking to upgrade my desk setup, I finally made the switch to a fully customisable mechanical keyboard, and an ergonomic mouse. I initially planned on going with linear switches, but I ended up with tactile switches. They are pre-lubed, and the PCB is covered with a layer of tape. I am using the Keychron K2 Pro, with banana split switches, aluminium casing, and a custom keycap set. The mouse is the Logitech MX Master 3s Mac, white. I have mapped the horizontal scroll-wheel, and the back, and forward buttons to custom schortcuts. The next step would be upgrading my desk mat.
 
 ###### Feb
 
-I went on a trip to Mangalore with a friend for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my go-to hangout destination. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
+I went on a trip to Mangalore with my best friend, Abinash, for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my go-to hangout destination. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
 
 Here's how Dough is shaping up:
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
