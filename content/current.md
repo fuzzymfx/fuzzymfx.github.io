@@ -11,7 +11,7 @@ description: "Here's what I am upto these days"
 
 A melancholic beginning: I bid my best friend a final goodbye as he is leaving Bangalore permanently. He decided to quit his job and follow his passion. The current economic climate is not conducive to his interests, and the job market is extremely rough. He is planning a hiatus in his hometown while he hunts for open teaching positions in the education sector. I am going to miss him. I am going to miss our late-night conversations, our shared interests, and our shared dreams. A blue summer awaits.
 
-I am not planning to build anything new as of yet. Work consumes most of my time. I am mostly invested in research and I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, something unique, and sell it, or build a company around it.
+I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it.
 
 April is all about spending time with my family visiting me in Bangalore. We have a trip ahead to *Gujrat* and *Rajasthan* in the second week. Excited!
 
