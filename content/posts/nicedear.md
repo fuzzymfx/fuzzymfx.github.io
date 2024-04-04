@@ -132,7 +132,7 @@ api.nicedear.vip/?seed=asimpleone
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: simple](https://anubhavp.dev/assets/nicedear/img/how.svg)
+![Nicedear: simple](https://anubhavp.dev/assets/img/nicedear/how.svg)
 </div>
 
 And, a complex one might look like this:
@@ -143,7 +143,7 @@ api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: extreme](https://anubhavp.dev/assets/nicedear/img/extreme.svg)
+![Nicedear: extreme](https://anubhavp.dev/assets/img/nicedear/extreme.svg)
 </div>
 
 Or, just visit [https://api.nicedear.vip](https://api.nicedear.vip) for a random avatar.
