@@ -9,7 +9,7 @@ Nicedear is a dynamic open-source avatar generator that crafts unique avatars ba
 
 <div style="display: flex; justify-content: center; align-items: center;">
 
-  ![Nicedear: how](https://api.nicedear.vip/?seed=how)
+  ![Nicedear: how](https://anubhavp.dev/assets/img/nicedear/how.svg)
 </div>
 
 Source: [Nicedear](https://api.nicedear.vip/?seed=how), seed: "how"
@@ -132,7 +132,7 @@ api.nicedear.vip/?seed=asimpleone
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: simple](https://api.nicedear.vip/?seed=takli)
+![Nicedear: simple](https://anubhavp.dev/assets/nicedear/img/how.svg)
 </div>
 
 And, a complex one might look like this:
@@ -143,7 +143,7 @@ api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: extreme](https://api.nicedear.vip/?seed=extreme&theme=open-peeps&mirror=true&rotate=325&scale=0.6&transalteX=10.0&transalteY=20.0&&features=face,facialHair,head)
+![Nicedear: extreme](https://anubhavp.dev/assets/nicedear/img/extreme.svg)
 </div>
 
 Or, just visit [https://api.nicedear.vip](https://api.nicedear.vip) for a random avatar.
