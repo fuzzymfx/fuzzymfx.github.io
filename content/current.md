@@ -13,7 +13,7 @@ I bid my best friend a final goodbye as he is leaving Bangalore permanently. He 
 
 I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it.
 
-April is all about spending time with my family visiting me in Bangalore. We have a trip ahead to *Gujrat* and *Rajasthan* in the second week. Excited!
+April is all about spending time with my family visiting me in Bangalore. We have a trip ahead to *Gujrat* and *Rajasthan*, and *Dehradun* in the second week. Excited!
 
 ###### March
 
