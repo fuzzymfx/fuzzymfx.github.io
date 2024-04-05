@@ -132,7 +132,7 @@ api.nicedear.vip/?seed=asimpleone
 
 <div style="display: flex; justify-content: center; align-items: center; height: 250px; width: 250px;">
 
-![Nicedear: simple](https://anubhavp.dev/assets/img/nicedear/how.svg)
+![Nicedear: simple](https://anubhavp.dev/assets/img/nicedear/takli.svg)
 </div>
 
 And, a complex one might look like this:
