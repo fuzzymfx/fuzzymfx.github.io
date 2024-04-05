@@ -5,7 +5,7 @@
 % License: MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{fontawesome5}
 \usepackage{latexsym}
@@ -26,8 +26,12 @@
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
+\usepackage[sfdefault]{noto-sans}
+% \usepackage[light]{sourcesanspro} % Light font weight
+% \usepackage[regular]{sourcesanspro} % Regular font weight
+% \usepackage[semibold]{sourcesanspro} % Semi-bold font weight
+% \usepackage[bold]{sourcesanspro} % Bold font weight
+
 
 % serif
 % \usepackage{CormorantGaramond}
@@ -135,11 +139,11 @@
       {Software Engineer - \href{https://github.com/anubhab-rai}{\faIcon{github}}}{Jan 2024 - Present}
       \resumeItemListStart
         \resumeItem
-          {Built a multi-threaded, asynchronous monitoring microservices using Rust, and Kafka to handle 10,000+ scraping requests per minute.}
-        \resumeItem
-          {Optimizing the alert module, and porting it from python and refactoring it to Rust to improve performance.}
+          {Built a multi-threaded, asynchronous health monitoring service using Rust, and Kafka that handles 10,000+ scraping requests every 10 secs. Optimized and ported the alert mod from Python to Rust to improve performance}
         \resumeItem
           {Automated fault tolerant, consistent DB write operations by different teams using lambda functions and Prefect.}
+          \resumeItem
+          {Building a native GUI app in Rust; to highlight unknown objects present during checkout in LCD counter-top POS.}
       \resumeItemListEnd
   \resumeSubheading
       {StackIt}{Bengaluru, IN}
@@ -192,11 +196,11 @@
 \section{Technical Skills}
 \resumeSubHeadingListStart
   \resumeSubItem{\textbf{Programming Languages}}
-    {C/C++, Python, JavaScript/TypeScript $\|$ Go, PHP, Rust, SQL}
+    {C/C++, Python, JavaScript/TypeScript, Rust, $\|$ Go, PHP, SQL}
   \resumeSubItem{\textbf{Libraries/ Frameworks}}
-    {MERN, React Native, $\|$ AI-ML, Django, Flutter, Langchain, Llamaindex, FastAPI }
+    {MERN, React Native, $\|$ AI/ML, Django, Flask, Langchain, Llamaindex, FastAPI }
   \resumeSubItem{\textbf{Developer Tools \& Platforms}}
-    {Git, Bash, GitHub, Docker, AWS, GCP, Firebase, Lighthouse, Analytics, Kafka}
+    {Git, Bash, GitHub, Docker, AWS, GCP, Firebase, Lighthouse, Analytics, Kafka, Kubernetes}
 \resumeSubHeadingListEnd
 
 %-------------------------------------------
@@ -216,7 +220,7 @@
       \resumeProjectHeading
     {\href{https://github.com/fuzzymfx/b}{{\textbf{BEE} - \faIcon{link} }}}{Pandas, Sklearn, NLP, LP, BitTorrent}
     \resumeSubItem
-      {A custom BitTorrent client to download movies with an \href{https://github.com/fuzzymfx/Movie-recommendation}{\underline{\textbf{item-based collaborative movie recommendation system}}} based on user ratings and the no. of ratings \& \href{https://github.com/fuzzymfx/Movie-rating-prediction}{\underline{\textbf{a rating prediction system}}} to classify reviews with an 85\% accuracy.}
+      {A custom BitTorrent client to download movies with an item-based collaborative \href{https://github.com/fuzzymfx/Movie-recommendation}{\underline{\textbf{ movie recommendation system}}} based on user ratings and the no. of ratings \& a \href{https://github.com/fuzzymfx/Movie-rating-prediction}{\underline{\textbf{movie rating prediction system}}} to classify reviews with an 85\% accuracy.}
       \resumeProjectHeading
     {\href{https://github.com/fuzzymfx/zuzu}{\textbf{ZUZU} - \faIcon{link}}}{NodeJs, Django, React, SQLite3, AWS-EC2}
     \resumeSubItem
