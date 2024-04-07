@@ -15,7 +15,7 @@ Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of
 
 [<i class="fa-solid fa-envelope" style="color: #777;"></i>](mailto:anubhabr50@gmail.com)  \   [<i class="fa-solid fa-calendar-days" style="color: #777;"></i>](https://cal.com/anubhavp)
 
-[<i class="fa-brands fa-github" style="color: #777;"></i>](https://github.com/fuzzymfx) \ [<i class="fa-solid fa-code" style="color: #777;"></i>](https://leetcode.com/anubhabr50/) \  [<i class="fa-brands fa-linkedin" style="color: #777;"></i>](https://www.linkedin.com/in/anubhabpatnaik/) \ [<i class="fa-brands fa-instagram" style="color: #777;"></i>](https://instagram.com/anubhavclicks) \ [<i class="fa-brands fa-twitter" style="color: #777;"></i>](https://twitter.com/fuzzymfx) \ [<i class="fa-solid fa-bookmark" style="color: #777;"></i>](https://fuzzymf.substack.com/subscribe)
+[<i class="fa-brands fa-github" style="color: #777;"></i>](https://github.com/fuzzymfx) \ [<i class="fa-brands fa-linkedin" style="color: #777;"></i>](https://www.linkedin.com/in/anubhabpatnaik/) \ [<i class="fa-brands fa-instagram" style="color: #777;"></i>](https://instagram.com/anubhavclicks) \ [<i class="fa-brands fa-twitter" style="color: #777;"></i>](https://twitter.com/fuzzymfx) \ [<i class="fa-solid fa-bookmark" style="color: #777;"></i>](https://fuzzymf.substack.com/subscribe)
 
 ---
 
