@@ -11,7 +11,7 @@ Hi, I am Anubhab Patnaik, a software engineer from India. Interested in math, sc
 
 I [write about life](https://substack.com/@fuzzymf), love poetry and music, and have recently taken up playing the guitar. I also have a penchant for [travelling, adventuring, and exploring places](https://anubhavp.dev/explored). Fond of *fiction*, I am trying to take time out to [read](https://anubhavp.dev/reading.html) more. Additionally, I have a [photography page](https://instagram.com/anubhavclicks). Besides, I attend events related to space exploration, software engineering, and technology. [Here's more on what I am up to](/current.html).
 
-Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of coffee. I am always up for a conversation, exploring projects and startup ideas. We can hang out and take some photos or code together. Feel free to reach out to me over mail or any of the social media platforms. If you want to have a quick chat, here are my calendar and mail links.
+Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of coffee. I am always up for a conversation, exploring projects and startup ideas. We can hang out and take some photos or code and build something together. Feel free to reach out to me over mail or any of the social media platforms. If you want to have a quick chat, here are my calendar and mail links.
 
 [<i class="fa-solid fa-envelope" style="color: #777;"></i>](mailto:anubhabr50@gmail.com)  \   [<i class="fa-solid fa-calendar-days" style="color: #777;"></i>](https://cal.com/anubhavp)
 
