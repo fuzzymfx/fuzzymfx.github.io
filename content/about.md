@@ -19,4 +19,4 @@ Here's **an open invitation**: if you are in Bangalore, let's meet over a cup of
 
 ---
 
-This site ([*source*](https://github.com/fuzzymfx/fuzzymfx.github.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), an open-source static site generator written in JS. The width is *38rem*, and the font used is *Segoe UI*.
+This site ([*source*](https://github.com/fuzzymfx/fuzzymfx.github.io)) is built using a tailored version of [zuzu](https://github.com/fuzzymfx/zuzu), an open-source static site generator written in JS. The width is *36rem*, and the font used is *Segoe UI*.
