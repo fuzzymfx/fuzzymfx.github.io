@@ -145,15 +145,22 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
   // Create a hash of the content of the file
   const hash = crypto.createHash("md5").update(file.html).digest("hex");
   let key = filename.split("/").slice(-1).join("/").slice(0, -3);
+  const date = new Date();
+  const options = {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  };
+  const formattedDate = date.toLocaleDateString("en-US", options);
   if (hashes[key] === undefined) {
     hashes[key] = {
       hash: hash,
-      date: new Date().toISOString(),
+      date: formattedDate,
     };
   } else if (hashes[key].hash !== hash) {
     hashes[key] = {
       hash: hash,
-      date: new Date().toISOString(),
+      date: formattedDate,
     };
   }
 };
@@ -195,15 +202,22 @@ const processDefaultFile = (
   let key = filename.split("/").slice(-1).join("/").slice(0, -3);
   if (key === "index")
     key = filename.split("/").slice(-2).join("/").slice(0, -3);
+  const date = new Date();
+  const options = {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  };
+  const formattedDate = date.toLocaleDateString("en-US", options);
   if (hashes[key] === undefined) {
     hashes[key] = {
       hash: hash,
-      date: new Date().toISOString(),
+      date: formattedDate,
     };
   } else if (hashes[key].hash !== hash) {
     hashes[key] = {
       hash: hash,
-      date: new Date().toISOString(),
+      date: formattedDate,
     };
   }
 };
