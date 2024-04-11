@@ -2,7 +2,7 @@
 title: "Journey"
 description: "My journey so far"
 ---
-<script type="module" src="/assets/js/cv/index.js" ></script>
+<script type="module" src="/assets/js/cv/main.js" ></script>
 <span class="update-date-time"></span>
 
 ### Educational Background

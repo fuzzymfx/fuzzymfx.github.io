@@ -10,6 +10,7 @@ import MarkdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import string from "string";
 import { mdToPdf } from "md-to-pdf";
+import crypto from "crypto";
 
 /*
  * Function: slugify
@@ -109,13 +110,15 @@ const getOutputPdfname = (filename, outPath) => {
 
 /**
  * Processes a blog file: reads it, replaces placeholders in the template with actual data, and saves the result.
+ * Also updates the map of blog metadata.
  * Builds a map of blog metadata, to be used for generating the blog index.
  * @param {Map} blogs - The map containing blog metadata.
  * @param {string} filename - The filename to process.
  * @param {string} template - The template to use.
  * @param {string} outPath - The output path.
+ * @param {object} hashes - The object containing the hashes of the content of the files.
  */
-const processBlogFile = (filename, template, outPath, blogs) => {
+const processBlogFile = (filename, template, outPath, blogs, hashes) => {
   const file = readFile(filename);
 
   const draft = file.data.draft;
@@ -138,20 +141,37 @@ const processBlogFile = (filename, template, outPath, blogs) => {
   saveFile(outfilename, templatized);
   //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
+
+  // Create a hash of the content of the file
+  const hash = crypto.createHash("md5").update(file.html).digest("hex");
+  let key = filename.split("/").slice(-1).join("/").slice(0, -3);
+  if (hashes[key] === undefined) {
+    hashes[key] = {
+      hash: hash,
+      date: new Date().toISOString(),
+    };
+  } else if (hashes[key].hash !== hash) {
+    hashes[key] = {
+      hash: hash,
+      date: new Date().toISOString(),
+    };
+  }
 };
 
 /**
  * Processes a default file: reads it, replaces placeholders in the template with actual data, and saves the result.
- * Optionally generates a PDF version of the file.
+ * Optionally generates a PDF version of the file. The output filename is generated based on the input filename and output path.
  * @param {string} filename - The filename to process.
  * @param {string} template - The template to use.
  * @param {string} outPath - The output path.
  * @param {boolean} generatePdf - Whether to generate a PDF version of the file.
+ * @param {object} hashes - The object containing the hashes of the content of the files.
  */
 const processDefaultFile = (
   filename,
   template,
   outPath,
+  hashes,
   generatePdf = false
 ) => {
   const file = readFile(filename);
@@ -169,6 +189,23 @@ const processDefaultFile = (
   saveFile(outfilename, templatized);
   //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
+
+  // Create a hash of the content of the file
+  const hash = crypto.createHash("md5").update(file.html).digest("hex");
+  let key = filename.split("/").slice(-1).join("/").slice(0, -3);
+  if (key === "index")
+    key = filename.split("/").slice(-2).join("/").slice(0, -3);
+  if (hashes[key] === undefined) {
+    hashes[key] = {
+      hash: hash,
+      date: new Date().toISOString(),
+    };
+  } else if (hashes[key].hash !== hash) {
+    hashes[key] = {
+      hash: hash,
+      date: new Date().toISOString(),
+    };
+  }
 };
 
 /**
@@ -274,6 +311,12 @@ const main = () => {
 
   const indexFiles = glob.sync(`${srcPath}/*.md`);
   const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
+  let hashes;
+  try {
+    hashes = JSON.parse(fs.readFileSync(`${dir}/metadata.json`, "utf8"));
+  } catch (error) {
+    hashes = {};
+  }
 
   if (fs.existsSync(dir)) {
     fs.rmSync(dir, { recursive: true, force: true });
@@ -282,19 +325,21 @@ const main = () => {
 
   indexFiles.forEach((filename) => {
     if (filename.includes("journey"))
-      processDefaultFile(filename, defaulTemplate, indexOutPath, true);
-    else processDefaultFile(filename, defaulTemplate, indexOutPath);
+      processDefaultFile(filename, defaulTemplate, indexOutPath, hashes, true);
+    else processDefaultFile(filename, defaulTemplate, indexOutPath, hashes);
   });
 
   const blogs = new Map();
 
   blogFiles.forEach((filename) => {
     if (filename.includes("index.md")) {
-      processDefaultFile(filename, defaulTemplate, blogOutPath);
+      processDefaultFile(filename, defaulTemplate, blogOutPath, hashes);
       return;
     }
-    processBlogFile(filename, blogTemplate, blogOutPath, blogs);
+    processBlogFile(filename, blogTemplate, blogOutPath, blogs, hashes);
   });
+  console.log("🚀 Build complete!");
+  fs.writeFileSync(`${dir}/metadata.json`, JSON.stringify(hashes));
 
   buildBlogIndex(blogs, blogOutPath);
 
