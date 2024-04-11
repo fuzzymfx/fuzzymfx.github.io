@@ -222,7 +222,7 @@ p {
 }
 
 #header {
-	max-width: 38rem;
+	max-width: 36rem;
 }
 
 #header nav {
@@ -248,7 +248,7 @@ p {
 
 #main>ul,
 #main .content.custom>* {
-	max-width: 38rem;
+	max-width: 36rem;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -257,7 +257,7 @@ p {
 #main .content.custom figure,
 #main .content.custom blockquote,
 #main .content.custom video {
-	max-width: 40rem;
+	max-width: 38rem;
 }
 
 #main .content.custom video {
