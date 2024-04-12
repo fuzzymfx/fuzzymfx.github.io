@@ -1,12 +1,13 @@
 ---
 title: "Current shenanigans"
 description: "Here's what I am upto these days"
+showdate: true
 ---
 
 ##### Current, 2024
 
 [Here's what I am reading and writing these days](/reading.html)
-<script type="module" src="/assets/js/current/main.js" ></script>
+
 <span class="update-date-time"></span>
 
 ###### April

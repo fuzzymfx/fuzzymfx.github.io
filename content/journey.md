@@ -1,9 +1,10 @@
 ---
 title: "Journey"
 description: "My journey so far"
+showdate: true
 ---
 <script type="module" src="/assets/js/cv/main.js" ></script>
-<span class="update-date-time"></span>
+*Last Updated: <span class="update-date-time"></span>*
 
 ### Educational Background
 
@@ -114,5 +115,4 @@ description: "My journey so far"
   *...*
 
 [External Links](https://linktr.ee/anubhabr50)
-
 <span class="download-cv"></span>

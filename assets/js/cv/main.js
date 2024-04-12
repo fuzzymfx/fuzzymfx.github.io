@@ -1,49 +1,6 @@
-const pathname = window.location.pathname;
-const filename = pathname.substring(pathname.lastIndexOf("/") + 1);
-const file = filename.substring(0, filename.lastIndexOf("."));
-
-async function fetchMetadata() {
-  try {
-    const response = await fetch("../../metadata.json");
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Error:", error);
-  }
-}
-
-const metadata = await fetchMetadata();
-
-if (metadata[file]) {
-  const formattedDate = metadata[file].date;
-
-  // Create the "Last Updated" text
-  const lastUpdatedText = document.createElement("i");
-  lastUpdatedText.textContent = "Last Updated: ";
-
-  // Create the <span> element with the datetime id
-  const datetimeSpan = document.createElement("span");
-  datetimeSpan.classList.add("datetime");
-  datetimeSpan.id = "datetime";
-
-  // Wrap the datetimeSpan with the <i> tag
-  const italicizedDatetimeSpan = document.createElement("i");
-  italicizedDatetimeSpan.appendChild(datetimeSpan);
-
-  // Append the formatted date to the datetimeSpan
-  datetimeSpan.textContent = formattedDate;
-
-  // Find the <div> element with class "content custom"
-  const dateTime = document.querySelector(".update-date-time");
-
-  // Append the "Last Updated" text and datetimeSpan to the contentDiv
-  dateTime.appendChild(lastUpdatedText);
-  dateTime.appendChild(italicizedDatetimeSpan);
-}
-
 // Create the download button
 const downloadButton = document.createElement("a");
-downloadButton.textContent = " Download CV";
+downloadButton.textContent = "Save as PDF";
 downloadButton.href = "/journey.pdf";
 
 // Find the <div> element with class "content custom"

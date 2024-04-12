@@ -138,31 +138,38 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
     author: file.data.author,
     description: file.data.description,
   });
+  if (file.data.showdate == true) {
+    // Create a hash of the content of the file
+    const hash = crypto.createHash("md5").update(file.html).digest("hex");
+    let key = filename.split("/").slice(-1).join("/").slice(0, -3);
+    const date = new Date();
+    const options = {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+    };
+    const formattedDate = date.toLocaleDateString("en-US", options);
+    if (hashes[key] === undefined) {
+      hashes[key] = {
+        hash: hash,
+        date: formattedDate,
+      };
+    } else if (hashes[key].hash !== hash) {
+      hashes[key] = {
+        hash: hash,
+        date: formattedDate,
+      };
+    }
+    const datetimeSpan = `<span class="datetime" id="datetime">${formattedDate}</span>`;
+    // Use regex to find the div and replace it with the updated content
+    templatized = templatized.replace(
+      /(<span class="update-date-time">)(<\/span>)/,
+      `$1${datetimeSpan}$2`
+    );
+  }
   saveFile(outfilename, templatized);
   //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
-
-  // Create a hash of the content of the file
-  const hash = crypto.createHash("md5").update(file.html).digest("hex");
-  let key = filename.split("/").slice(-1).join("/").slice(0, -3);
-  const date = new Date();
-  const options = {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-  };
-  const formattedDate = date.toLocaleDateString("en-US", options);
-  if (hashes[key] === undefined) {
-    hashes[key] = {
-      hash: hash,
-      date: formattedDate,
-    };
-  } else if (hashes[key].hash !== hash) {
-    hashes[key] = {
-      hash: hash,
-      date: formattedDate,
-    };
-  }
 };
 
 /**
@@ -184,7 +191,7 @@ const processDefaultFile = (
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
 
-  const templatized = templatize(template, {
+  let templatized = templatize(template, {
     title: file.data.title,
     content: file.html,
     description: file.data.description,
@@ -193,35 +200,41 @@ const processDefaultFile = (
     const outpdfname = getOutputPdfname(filename, outPath);
     mdToPdf({ path: filename }, { dest: outpdfname });
   }
+
+  if (file.data.showdate == true) {
+    // Create a hash of the content of the file
+    const hash = crypto.createHash("md5").update(file.html).digest("hex");
+    let key = filename.split("/").slice(-1).join("/").slice(0, -3);
+    const date = new Date();
+    const options = {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+    };
+    const formattedDate = date.toLocaleDateString("en-US", options);
+    if (hashes[key] === undefined) {
+      hashes[key] = {
+        hash: hash,
+        date: formattedDate,
+      };
+    } else if (hashes[key].hash !== hash) {
+      hashes[key] = {
+        hash: hash,
+        date: formattedDate,
+      };
+    }
+    const datetimeSpan = `<span class="datetime" id="datetime">${formattedDate}</span>`;
+    // Use regex to find the div and replace it with the updated content
+    templatized = templatized.replace(
+      /(<span class="update-date-time">)(<\/span>)/,
+      `$1${datetimeSpan}$2`
+    );
+  }
+
   saveFile(outfilename, templatized);
   //skipcq: JS-0002
   console.log(`📄 ${filename.split("/").slice(-1).join("/").slice(0, -3)}`);
-
-  // Create a hash of the content of the file
-  const hash = crypto.createHash("md5").update(file.html).digest("hex");
-  let key = filename.split("/").slice(-1).join("/").slice(0, -3);
-  if (key === "index")
-    key = filename.split("/").slice(-2).join("/").slice(0, -3);
-  const date = new Date();
-  const options = {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-  };
-  const formattedDate = date.toLocaleDateString("en-US", options);
-  if (hashes[key] === undefined) {
-    hashes[key] = {
-      hash: hash,
-      date: formattedDate,
-    };
-  } else if (hashes[key].hash !== hash) {
-    hashes[key] = {
-      hash: hash,
-      date: formattedDate,
-    };
-  }
 };
-
 /**
  * Builds the blog index from the map of blog metadata and replaces the index placeholder in the blog index file.
  * Updates the index file with the new index HTML.
