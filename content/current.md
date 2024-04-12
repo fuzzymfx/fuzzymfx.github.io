@@ -14,11 +14,11 @@ showdate: true
 
 I bid my best friend a final goodbye as he left Bangalore permanently. He decided to quit his job and follow his passion. The current economic climate is not conducive to his interests, and the job market is extremely rough. I am going to miss our late-night conversations, our shared interests, and our shared dreams. A sense of this weird melancholy prevails over me; a blue summer awaits.
 
-I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it.
-
-April is all about spending time with my family visiting me in Bangalore. We had to visit some collges, and my sister had to appear for exams in these places, thus we had to travel a lot. A fast-paced, exicitng adventure to *Gujrat* and *Uttarakhand* ends this fortnight.
+April is all about spending time with my family visiting me in Bangalore. We had to visit some collges, thus we had to travel a lot. A fast-paced, exicitng adventure to *Gujrat* and *Uttarakhand* ends this fortnight.
 
 We went to *Ahmedabad*, *Dwarka*, *Somnath* *Rishikesh*, *Haridwar*, and *Dehradun*. We stayed in these beautiful places, and had the bestest food. The trip was a mix of adventure, culture, and spirituality. The best parts were the *river rafting*, and *Ganga Aarti* in Rishikesh, and the visit to the old city, *Dwarka*, the residence of Lord Krishna. Back in bangalore, looking forward to the same old monotony.
+
+I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it.
 
 ###### March
 
