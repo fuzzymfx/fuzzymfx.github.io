@@ -149,23 +149,28 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
       day: "numeric",
     };
     const formattedDate = date.toLocaleDateString("en-US", options);
+    const datetimeSpan = `<span class="datetime" id="datetime">${formattedDate}</span>`;
     if (hashes[key] === undefined) {
       hashes[key] = {
         hash: hash,
         date: formattedDate,
       };
+      // Use regex to find the div and replace it with the updated content
+      templatized = templatized.replace(
+        /(<span class="update-date-time">)(<\/span>)/,
+        `$1${datetimeSpan}$2`
+      );
     } else if (hashes[key].hash !== hash) {
       hashes[key] = {
         hash: hash,
         date: formattedDate,
       };
+      // Use regex to find the div and replace it with the updated content
+      templatized = templatized.replace(
+        /(<span class="update-date-time">)(<\/span>)/,
+        `$1${datetimeSpan}$2`
+      );
     }
-    const datetimeSpan = `<span class="datetime" id="datetime">${formattedDate}</span>`;
-    // Use regex to find the div and replace it with the updated content
-    templatized = templatized.replace(
-      /(<span class="update-date-time">)(<\/span>)/,
-      `$1${datetimeSpan}$2`
-    );
   }
   saveFile(outfilename, templatized);
   //skipcq: JS-0002
@@ -212,23 +217,28 @@ const processDefaultFile = (
       day: "numeric",
     };
     const formattedDate = date.toLocaleDateString("en-US", options);
+    const datetimeSpan = `<span class="datetime" id="datetime">${formattedDate}</span>`;
     if (hashes[key] === undefined) {
       hashes[key] = {
         hash: hash,
         date: formattedDate,
       };
+      // Use regex to find the div and replace it with the updated content
+      templatized = templatized.replace(
+        /(<span class="update-date-time">)(<\/span>)/,
+        `$1${datetimeSpan}$2`
+      );
     } else if (hashes[key].hash !== hash) {
       hashes[key] = {
         hash: hash,
         date: formattedDate,
       };
+      // Use regex to find the div and replace it with the updated content
+      templatized = templatized.replace(
+        /(<span class="update-date-time">)(<\/span>)/,
+        `$1${datetimeSpan}$2`
+      );
     }
-    const datetimeSpan = `<span class="datetime" id="datetime">${formattedDate}</span>`;
-    // Use regex to find the div and replace it with the updated content
-    templatized = templatized.replace(
-      /(<span class="update-date-time">)(<\/span>)/,
-      `$1${datetimeSpan}$2`
-    );
   }
 
   saveFile(outfilename, templatized);
