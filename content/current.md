@@ -6,7 +6,7 @@ showdate: true
 
 ##### Current, 2024
 
-[Here's what I am reading and writing these days](/reading.html)
+[Here's what I am reading and watching these days](/reading.html)
 
 <span class="update-date-time"></span>
 
