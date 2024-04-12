@@ -15,19 +15,21 @@ I bid my best friend a final goodbye as he left Bangalore permanently. He decide
 
 I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it.
 
-April is all about spending time with my family visiting me in Bangalore. We have a trip ahead to *Gujrat* and *Uttarakhand* in the second week. Excited!
+April is all about spending time with my family visiting me in Bangalore. We had to visit some collges, and my sister had to appear for exams in these places, thus we had to travel a lot. A fast-paced, exicitng adventure to *Gujrat* and *Uttarakhand* ends this fortnight.
+
+We went to *Ahmedabad*, *Dwarka*, *Somnath* *Rishikesh*, *Haridwar*, and *Dehradun*. We stayed in these beautiful places, and had the bestest food. The trip was a mix of adventure, culture, and spirituality. The best parts were the *river rafting*, and *Ganga Aarti* in Rishikesh, and the visit to the old city, *Dwarka*, the residence of Lord Krishna. Back in bangalore, looking forward to the same old monotony.
 
 ###### March
 
-An hectic beginning to the month; I just returned from home, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. The weekend after that was spent in Pondicherry, with Abinash. We explore bakeries, french architecture, *Auroville*, the beach, and the city. After a week-long hiatus with friends and family, and an excruciatingly tiring trip to Pondicherry, I am back in Bangalore now, and I am looking forward to a productive month.
+An hectic beginning to the month; I just returned, and had a terrific week back at home. All of my best friends were back, together, and we meandered through familiar haunts, roaming around, exploring places, and restaurants, and talking about our current lives. The weekend after that was spent in Pondicherry, with Abinash. We explore bakeries, french architecture, *Auroville*, the beach, and the city. After a week-long hiatus with friends and family, and an excruciatingly tiring trip to Pondi, I am back in Bangalore, looking forward to a productive month.
 
-I am not planning on taking up much work, and have thought of taking an hour of my day to figure out where this is all going. March is supposed to be an interlude, a time to reflect and recharge. I have long-term goals, and to be able to accomplish them, I need to be more disciplined and focused. The path must be streamlined. This daily routine will help me to stay on track and keep my goals in sight. This month would be spent planning out the next four odd years. My short-term goals would be to focus on my fitness journey and improve my writing. Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing a lot.
+Not planning on taking up much work, I have thought of taking an hour of my day to figure out where this is all going. March is supposed to be an interlude, a time to reflect and recharge. I have long-term goals, and to be able to accomplish them, I need to be more disciplined and focused. The path must be streamlined. This daily routine will help me to stay on track and keep my goals in sight. This month would be spent planning out the next four odd years. My short-term goals would be to focus on my fitness journey and improve my writing. Writing has always been a passion of mine, serving as a conduit for connecting with others and sharing my insights. Lately, I've been particularly prolific, and I have been writing a lot.
 
-March ends exciting. I finished up with [NiceDear](https://anubhavp.dev/blog/nicedear.html), a dynamic open-source avatar generator that crafts unique avatars based on user input. Looking to upgrade my desk setup, I finally made the switch to a fully customisable mechanical keyboard, and an ergonomic mouse. I initially planned on going with linear switches, but I ended up with tactile ones. They are pre-lubed, and the PCB is covered with a layer of foam. I am using the fully hot-swapable Keychron K2 Pro, with banana split switches, aluminium casing, south-facing RGB lights, and a custom keycap set. The mouse is the Logitech MX Master 3s Mac, white. It has an 8,000 DPI optical sensor that can track on virtually any surface, including glass. I have mapped the horizontal scroll-wheel, and the back, and forward buttons to custom schortcuts. The next step would be upgrading my desk mat.
+March ends exciting. I finished up with [NiceDear](https://anubhavp.dev/blog/nicedear.html), a dynamic open-source avatar generator that crafts unique avatars based on user input. Looking to upgrade my desk setup, I finally made the switch to a fully customisable mechanical keyboard, and an ergonomic mouse. I initially planned on going with linear switches, but I ended up with tactile ones. They are pre-lubed, and the PCB is covered with a layer of foam. I am using the fully hot-swapable Keychron K2 Pro, with banana switches, aluminium casing, south-facing RGB lights, and a custom keycap set. The mouse is the Logitech MX Master 3s Mac, white. It has an 8,000 DPI optical sensor that can track on virtually any surface, including glass. I have mapped the horizontal scroll-wheel, and the back, and forward buttons to custom schortcuts. The next step would be upgrading my desk mat.
 
 ###### Feb
 
-I went on a trip to Mangalore with my best friend, Abinash, for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my go-to hangout destination. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
+I went on a trip to Mangalore with Abinash for a night. I had been occupied with a lot of things lately and this was a much-needed escape. Back in Bangalore life is slow and boring. A few friends came over on the weekend and we had a ton of fun. This new place at HSR Layout, Plan B, is my go-to hangout destination. They serve the best damn chicken wings in town. Looking towards to chilling out with my friends and family, back home this last week.
 
 Here's how Dough is shaping up:
 <figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
@@ -36,19 +38,16 @@ Here's how Dough is shaping up:
 
 [Here's everything about Dough](https://anubhavp.dev/blog/dough.html)
 
-If you're eager to dive into the world of Rust and looking for a project to contribute to, Dough presents an exciting opportunity. Here's a breakdown of what's currently working and what areas could benefit from your expertise:
+If you're eager to dive into the world of Rust and looking for a project to contribute to, Dough presents an exciting opportunity. Here's a breakdown of what's currently not working and areas that could benefit from your expertise:
 
 - [ ]  Fix scrolling issue in highlight mode:
   - [ ] *bug* Over Scroll in infinite scrolling
   - [ ] *feat* Skip empty lines in highlight mode
 - [ ] *bug* custom aligner adds empty lines after text-block alignment
 - [ ] *feat.* Hot Module Reload
-- [ ] *feat.* Add support for the maximum width and height of the terminal. Write a word wrapper.
+- [ ] *feat.* Add support for the maximum width and height of the terminal. (Write a word wrapper)
 - [ ] *feat.* Add comprehensive support for common Markdown elements.
-- [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
-  - [ ] lists.
-  - [ ] blockquotes.
-  - [ ] tables.
+  - [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists, blockquotes, and tables.
 
 I am looking for contributions from peers regarding the pending issues, making this a more robust open-source project.
 
