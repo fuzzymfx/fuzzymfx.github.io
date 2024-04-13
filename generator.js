@@ -332,7 +332,7 @@ const copyAssets = (src, dest, depth = 0) => {
 /**
  * Main function that orchestrates the processing of all markdown files.
  */
-const main = () => {
+const main = async () => {
   const srcPath = path.resolve("content");
   const blogOutPath = path.resolve(".dist/blog");
   const dir = path.resolve(".dist");
@@ -349,7 +349,8 @@ const main = () => {
   const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
   let hashes;
   try {
-    hashes = JSON.parse(fs.readFileSync(`${assetsPath}/metadata.json`, "utf8"));
+    const response = await fetch("https://anubhavp.dev/metadata.json");
+    hashes = await response.json();
   } catch (error) {
     hashes = {};
   }
@@ -375,11 +376,17 @@ const main = () => {
     processBlogFile(filename, blogTemplate, blogOutPath, blogs, hashes);
   });
   console.log("🚀 Build complete!");
-  fs.writeFileSync(`${assetsPath}/metadata.json`, JSON.stringify(hashes));
+  fs.writeFileSync(`${dir}/metadata.json`, JSON.stringify(hashes));
 
   buildBlogIndex(blogs, blogOutPath);
 
   copyAssets(assetsPath, indexOutPath);
 };
 
-main();
+(async () => {
+  try {
+    await main();
+  } catch (error) {
+    console.error(error);
+  }
+})();
