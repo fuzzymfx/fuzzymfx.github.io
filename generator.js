@@ -11,6 +11,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import string from "string";
 import { mdToPdf } from "md-to-pdf";
 import crypto from "crypto";
+import https from "https";
 
 /*
  * Function: slugify
@@ -349,9 +350,27 @@ const main = async () => {
   const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
   let hashes;
   try {
-    const response = await fetch("https://anubhavp.dev/metadata.json");
-    hashes = await response.json();
+    const data = await new Promise((resolve, reject) => {
+      https
+        .get("https://anubhavp.dev/metadata.json", (res) => {
+          let data = "";
+
+          res.on("data", (chunk) => {
+            data += chunk;
+          });
+
+          res.on("end", () => {
+            resolve(JSON.parse(data));
+          });
+        })
+        .on("error", (err) => {
+          reject(err);
+        });
+    });
+
+    hashes = data;
   } catch (error) {
+    console.error("Error fetching data:", error);
     hashes = {};
   }
 
