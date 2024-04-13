@@ -238,6 +238,11 @@ const processDefaultFile = (
         /(<span class="update-date-time">)(<\/span>)/,
         `$1${datetimeSpan}$2`
       );
+    } else {
+      templatized = templatized.replace(
+        /(<span class="update-date-time">)(<\/span>)/,
+        `$1${hashes[key].date}$2`
+      )
     }
   }
 
