@@ -110,7 +110,6 @@ const getOutputPdfname = (filename, outPath) => {
 
 /**
  * Processes a blog file: reads it, replaces placeholders in the template with actual data, and saves the result.
- * Also updates the map of blog metadata.
  * Builds a map of blog metadata, to be used for generating the blog index.
  * @param {Map} blogs - The map containing blog metadata.
  * @param {string} filename - The filename to process.
