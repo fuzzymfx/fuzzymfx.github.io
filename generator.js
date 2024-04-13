@@ -349,7 +349,7 @@ const main = () => {
   const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
   let hashes;
   try {
-    hashes = JSON.parse(fs.readFileSync(`${dir}/metadata.json`, "utf8"));
+    hashes = JSON.parse(fs.readFileSync(`${assetsPath}/metadata.json`, "utf8"));
   } catch (error) {
     hashes = {};
   }
@@ -375,7 +375,7 @@ const main = () => {
     processBlogFile(filename, blogTemplate, blogOutPath, blogs, hashes);
   });
   console.log("🚀 Build complete!");
-  fs.writeFileSync(`${dir}/metadata.json`, JSON.stringify(hashes));
+  fs.writeFileSync(`${assetsPath}/metadata.json`, JSON.stringify(hashes));
 
   buildBlogIndex(blogs, blogOutPath);
 
