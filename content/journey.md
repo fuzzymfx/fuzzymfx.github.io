@@ -76,7 +76,7 @@ showdate: true
 - [Smart Home Automation System](https://github.com/fuzzymfx/HomeAuto) - Theoretical implementation of a **smart home automation system** in IOT Summer Internship.
 - [Industrial Contamination Detection](https://github.com/fuzzymfx/IndustrialContaminationMonitor) - A theoretical **IOT** project to detect contamination in the soil in irrigation and agriculture.  *- 2021*
 - [Ransomware Detection](https://docs.google.com/document/d/1MsFnXgt9E5oEyg8YnkDnDNy9T5AQooNEAHOjphvHVyE/edit?usp=sharing) - A **ransomware detection** demonstration on *WannaCry*. *2020*  
-  *...[More](https://github.com/fuzzymfx/)*
+  *...[more](https://github.com/fuzzymfx/)*
 
 ---
 
@@ -112,7 +112,7 @@ showdate: true
 - Robotics - WAC| 2017 - IIIT Hyderabad - [🔗](https://drive.google.com/file/d/1ah39XzFJcXEOMKJ7zhf-lxNRsVo_FoZJ/view?usp=sharing)
 - DBMUN 2015 - [🔗](https://drive.google.com/file/d/1Q_VKZvBaNKGkLvXJB_O2Tz9zrWRWqpxW/view?usp=sharing)
 - Verbal Mention - Carmel Summit 2015 - [🔗](https://drive.google.com/file/d/1tB5BhhxyfFI4ZGXqUUqqAgwwz8GItF3R/view?usp=sharing)  
-  *...More*
+  *...more*
 
 [External Links](https://linktr.ee/anubhabr50)
 <span class="download-cv"></span>
