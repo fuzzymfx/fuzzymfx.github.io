@@ -41,14 +41,14 @@ Here's how Dough is shaping up:
 
 If you're eager to dive into the world of Rust and looking for a project to contribute to, Dough presents an exciting opportunity. Here's a breakdown of what's currently not working and areas that could benefit from your expertise:
 
-- [ ]  Fix scrolling issue in highlight mode:
-  - [ ] *bug* Over Scroll in infinite scrolling
-  - [ ] *feat* Skip empty lines in highlight mode
-- [ ] *bug* custom aligner adds empty lines after text-block alignment
-- [ ] *feat.* Hot Module Reload
-- [ ] *feat.* Add support for the maximum width and height of the terminal. (Write a word wrapper)
-- [ ] *feat.* Add comprehensive support for common Markdown elements.
-  - [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists, blockquotes, and tables.
+- Fix scrolling issue in highlight mode:
+  - *bug* Over Scroll in infinite scrolling
+  - *feat* Skip empty lines in highlight mode
+- *bug* custom aligner adds empty lines after text-block alignment
+- *feat.* Hot Module Reload
+- *feat.* Add support for the maximum width and height of the terminal. (Write a word wrapper)
+- *feat.* Add comprehensive support for common Markdown elements.
+  - *feat.* Enhance rendering for complex markdown elements like links within headings or lists, blockquotes, and tables.
 
 I am looking for contributions from peers regarding the pending issues, making this a more robust open-source project.
 

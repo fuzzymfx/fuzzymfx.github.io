@@ -7,6 +7,7 @@ import mkdirp from "mkdirp";
 import path from "path";
 import hljs from "highlight.js";
 import MarkdownIt from "markdown-it";
+import markdownItCheckbox from "markdown-it-checkbox";
 import markdownItAnchor from "markdown-it-anchor";
 import string from "string";
 import { mdToPdf } from "md-to-pdf";
@@ -38,7 +39,9 @@ const md = MarkdownIt({
 
     return null; // If no language is specified, return null
   },
-}).use(markdownItAnchor, { slugify }); // Use markdown-it-anchor plugin with slugify function
+})
+  .use(markdownItAnchor, { slugify }) // Use markdown-it-anchor plugin with slugify function
+  .use(markdownItCheckbox); // Use markdown-it-checkbox plugin
 /**
  * Reads a file and returns its content, parsed and rendered as HTML.
  * @param {string} filename - The filename to read.
@@ -242,7 +245,7 @@ const processDefaultFile = (
       templatized = templatized.replace(
         /(<span class="update-date-time">)(<\/span>)/,
         `$1${hashes[key].date}$2`
-      )
+      );
     }
   }
 

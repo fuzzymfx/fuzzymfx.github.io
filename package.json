@@ -27,5 +27,8 @@
         "zuzussg": "./generator.js"
     },
     "author": "Anubhab Patnaik",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "markdown-it-checkbox": "^1.1.0"
+    }
 }
