@@ -325,10 +325,15 @@ blockquote {
  * Custom Tags
  */
 
-/* .utterances-frame {}
 
-.utterances {} */
+.giscus {
+	margin-top: 5px;
+}
 
+/* Not working : needs to load afte tthe iframe*/
+.gsc-reaction {
+	align-items: flex-start !important;
+}
 
 .custom-tags {
 	color: #777 !important;
