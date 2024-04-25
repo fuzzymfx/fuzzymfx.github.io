@@ -18,7 +18,7 @@ April is all about spending time with my family visiting me in Bangalore. We had
 
 We went to *Ahmedabad*, *Dwarka*, *Somnath*, *Rishikesh*, *Haridwar*, and *Dehradun*. The trip was a mix of adventure, culture, and spirituality. The best parts were the *river rafting*, and *Ganga Aarti* in Rishikesh, and the visit to the old city, *Dwarka*, the residence of Lord Krishna. Back in bangalore, looking forward to the same old monotony.
 
-I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it.
+I am not planning to build anything new as of yet. Work consumes most of my time. Mostly invested in research, I spend time exploring business, product, and tech ideas. The ultimate goal is to build something bigger, unique, and sell it, or build a company around it. Here's an amazing article that I recetly came across by Paul Graham about how [Reddit got started](https://www.ycombinator.com/blog/the-reddits). He says, *"Reddit the site (and now app) is such a fundamentally useful thing that it's almost unkillable."*. I am looking for something like that. Something that is fundamentally useful, and unkillable.
 
 ###### March
 
