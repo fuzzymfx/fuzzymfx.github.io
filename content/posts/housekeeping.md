@@ -3,6 +3,7 @@ title: 'Housekeeping'
 date: "25-03-2024"
 description: "A breakdown of various in-house caching systems at organizations like Uber and Meta."
 draft: true
+tag: "tech"
 ---
 
 Redis, Memcached are well known, simple, in-memory caching solutions. This article is a simple breakdown of how Uber and Meta use similar systems to improve performance and reduce load.

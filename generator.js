@@ -132,6 +132,7 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
   blogs.set(filename.split("/").slice(-1).join("/").slice(0, -3), {
     title: file.data.title,
     date: file.data.date,
+    tag: file.data.tag,
   });
 
   const templatized = templatize(template, {
@@ -276,7 +277,9 @@ const buildBlogIndex = (blogs, path) => {
     "November",
     "December",
   ];
-  let indexHTML = "";
+
+  let indexHTMLLife = "";
+  let indexHTMLTech = "";
 
   const sortedBlogs = Array.from(blogs.entries()).sort((a, b) => {
     const [dayA, monthA, yearA] = a[1].date.split("-");
@@ -290,9 +293,15 @@ const buildBlogIndex = (blogs, path) => {
   sortedBlogs.forEach(([key, value]) => {
     const [day, month, year] = value.date.split("-");
     const displayDate = `${monthNames[parseInt(month) - 1]} '${year.slice(-2)}`;
-    indexHTML += `<li class="flex justify-between pb1"> 
-                    <a href="./${key}.html" class="link">${value.title}</a> ${displayDate}
-                  </li>`;
+    const listItem = `<li class="flex justify-between pb1"> 
+                        <a href="./${key}.html" class="link">${value.title}</a> ${displayDate}
+                      </li>`;
+
+    if (value.tag === "life") {
+      indexHTMLLife += listItem;
+    } else if (value.tag === "tech") {
+      indexHTMLTech += listItem;
+    }
   });
 
   // Get index from path
@@ -302,12 +311,22 @@ const buildBlogIndex = (blogs, path) => {
   const indexFileContent = fs.readFileSync(indexFile, "utf8");
   const replacedIndex = indexFileContent.replace(
     '<h2 id="posts" tabindex="-1">Posts</h2>',
-    `<div id="tableofindex">${indexHTML}</div>`
+    `<div id="tableofindex">
+    <p>
+    <code>#tech</code>
+    
+    ${indexHTMLTech}
+    
+    </p>
+    <p>
+       <code>#life</code>
+       ${indexHTMLLife}
+    </p>
+     </div>`
   );
 
   fs.writeFileSync(indexFile, replacedIndex);
 };
-
 /**
  * Copies assets from the assets folder to the output folder.
  * @param {string} src - The source folder.

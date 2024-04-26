@@ -1,8 +1,9 @@
 ---
 author: Srijan Paul
-title: Web3 shams
+title: "Issues with Web3"
 date: "19-01-2022"
 description: "A short rant on the state of Web3"
+tag: "tech"
 ---
 
 During my short stint as a blockchain developer, I've learned a lot and have met amazing people.

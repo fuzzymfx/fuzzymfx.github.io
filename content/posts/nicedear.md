@@ -1,8 +1,9 @@
 ---
-title: 'Nicedear'
+title: 'Nicedear: A Dynamic Avatar Generator'
 date: "01-04-2024"
 description: "A random avatar generator for your website or app: a dicebear spoof. "
 draft: false
+tag: "tech"
 ---
 
 Nicedear is a dynamic open-source avatar generator that crafts unique avatars based on user input. Whether you're crafting a personal brand, spicing up your social media, or adding flair to your website, Nicedear has you covered with its mesmerizing array of features and customization options.
