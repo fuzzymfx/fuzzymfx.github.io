@@ -9,6 +9,11 @@
 	--darkgray: #333;
 	--selection: #777;
 	--bs-heading-color: #333;
+	--code-bg: #D1F2EB;
+	--pastel-blue: #A2D2FF;
+	--pastel-yellow: #FFD6A5;
+	--pastel-purple: #CDB4DB;
+	--pastel-red: #FFADAD;
 
 }
 
@@ -283,7 +288,7 @@ code {
 	font-family: Inconsolata, monospace !important;
 	border-radius: 2px;
 	padding: .2rem .3rem;
-	background-color: var(--lightgray);
+	background-color: var(--code-bg);
 }
 
 code {
@@ -308,10 +313,6 @@ pre {
 
 pre code .line {
 	opacity: 0.85;
-}
-
-code {
-	background-color: #dddddd;
 }
 
 /* Style for code blocks */

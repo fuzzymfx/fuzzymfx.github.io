@@ -1,5 +1,5 @@
 ---
-title: 'Becoming a Software Engineer: A coursework'
+title: 'cbrtl: becoming a better SDE'
 date: "01-05-2024"
 description: "This is how I would go about teaching software engineering, if I were to teach it."
 draft: true
@@ -8,7 +8,7 @@ tag: "tech"
 
 I recently stumbled upon an interesting offer to start something new; build a platform that aims at sharing my experience of getting into software engineering. While fundamentally I want to impart knowledge for free, I also do not have enough time to sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
 
-This became the guiding principle behind *backendhire*, the platform I was asked to build.
+This became the guiding principle behind *cbrtl*, the platform I am building. Initially, [Srijan](https://injuly.in) and I thought of starting cbrtl, an open-soruce cult that comes together as a community to build fun stuff together.
 
 This curriculum is designed to be self-sustaining; a collection of resources freely available on the internet. The idea is to curate these resources and present them in a structured manner. The entire point of this article is to share what exactly I did that landed me in the position that I am in now. Comprehend this however you will; a guide to getting a job, or becoming a better engineer in general. **This is how I became a software engineer.**
 
@@ -113,8 +113,8 @@ This is a multi-line comment
 */
 
 int main() { // The main function that runs when the program is executed
-/* In C++, the main() function serves as the entry point, and it's always called when the program starts executing.
-The int before the main() function indicates that the function returns an integer value. */
+	/* In C++, the main() function serves as the entry point, and it's always called when the program starts executing.
+	The int before the main() function indicates that the function returns an integer value. */
 	std::cout << "Hello, World!\n"; // This is a statement
 	return 0; // This is also a statement
 }
@@ -129,8 +129,8 @@ Having a defined boundary of rules makes it possible for the compiler to have a 
 Variables are used to store data. In C++, you need to declare a variable before you can use it. Here's an example:
 
 ```cpp
-	int x = 5; // Declaring a variable named x and assigning it the value 5
-	// x is an integer variable of size 4 bytes
+int x = 5; // Declaring a variable named x and assigning it the value 5
+// x is an integer variable of size 4 bytes
 ```
 
 ##### Data Types
@@ -259,11 +259,11 @@ While it's true that languages like Python and JavaScript are often preferred fo
 
 To get the hang of C++, let's start with HackerRank or Leetcode Each platform has multiple levels, and each level is associated with a difficulty jump.
 
-Once you are `5 stared` at HackerRank or have solved 40-50+ easy problems on LeetCode, you'd be good to move on.
+Once you are `5 stared` at HackerRank or have solved 40-50+ easy problems on LeetCode, we'd be good to move on.
 
-We should be good to move on to **problem-solving and critical thinking**, and there are multiple ways to develop this. You could go ahead and follow the [industry standard](https://leetcode.com), or do [what I did](https://github.com/fuzzymx).
+Moving on to **problem-solving and critical thinking**, there are multiple ways to develop this. You could go ahead and follow the [industry standard](https://leetcode.com), or do [what I did](https://github.com/fuzzymx).
 
-We'd be doing a mix of both. We'd start off with LeetCode, and then parallelly move on to building stuff.
+We'd be doing a mix of both here. We'd start off with LeetCode, and then parallelly move on to building stuff.
 
 ##### LeetCode
 
@@ -287,4 +287,31 @@ Parallelly, we'd be doing what I initially did to get into the industry. Build.
 
 We'd be looking at building entirely new applications from scratch, deploying them to a server, making them accessible through the internet, or maybe using a serverless architecture. We can get a domain, and host it on a server, or use a cloud provider like AWS, GCP, or Azure, if you want.
 
-I have curated a list of 9-12 projects that we could build together. The list keeps on changing, the same as with the DSA list. All of these can be found on the internet. I'd be explaining one here, and we could do the rest together.
+I have curated a list of 9-12 projects that we could build together. The list keeps on changing, the same as with the DSA list. All of these can be found on the internet. I'll explain a couple of projects here, and we could build the rest together.
+
+1.  A tiny cmd-line bit-torrent client written in TypeScript. 
+2.  A distributed chat application using websockets, worker threads, and a database written in Rust.
+3.  A full-fleged web application that can handle a million users, written using Firebase, React, and Node: [resoc](https://resoc.in)
+
+
+#### Clean, efficient code
+
+#### Libraries & Frameworks
+
+#### Design & Architecture
+
+### Databases
+
+### Deploying
+
+### Scaling
+
+### Networking & Security
+
+### Monitoring
+
+### Next?
+
+I hope this article was verbose enough to help you get started. The idea was to share everything I did to get into the industry, and how you could do the same. `cbrtl` is a platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. This is just the beginning of a long journey; tis would be a private beta, and I'd be sharing the link to the platform soon. I deeply value my time, and I am sure you do too. The initial fee would be minimal; to cover the costs of running the platform, and the tremendous amount of effort I'd be putting in, and the time I'd be spending with you. You could always choose to donate and contribute more in building the platform. Optionally, you could follow this guide and get started on your own.
+
+I'll be writing more on this, and sharing more resources as we move on. If you have any questions, feel free to reach out bellow. I'd be happy to help you out.
