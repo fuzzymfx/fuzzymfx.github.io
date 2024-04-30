@@ -10,6 +10,12 @@ showdate: true
 
 <span class="update-date-time"></span>
 
+###### May
+
+My family visiting me returned back home. The most dreaded feeling is when you have to say goodbye. I have always been a lot attached, and this time, like always, it was excruciately painful. Before leaving, we decided to get matching tattoos! Here are [`mama and baby dinausors`](https://anubhavp.dev/assets/img/current/dinos.png) on our wrists. 
+
+I am back to the same old routine, looking forward to an idea that was pitched to me recently. I am planning to build a platform that aims at sharing my experience of getting into software engineering. The idea is to craft a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning. This became the guiding principle behind *backendhire*. 
+
 ###### April
 
 I bid my best friend a final goodbye as he left Bangalore permanently. He decided to quit his job and follow his passion. The current economic climate is not conducive to his interests, and the job market is extremely rough. A sense of this weird melancholy prevails over me. While I applaud his courage, a part of me wants him to stay and hunt for jobs here. I am going to miss our late-night conversations, our shared interests, and our shared dreams. We started off watching stand-up comedy in the first year of college. From college politics and friendships to getting drunk and watching Rockstar. From walking Rio to getting high and watching Batman. From internships and long car rides to getting jobs and going on trips to Mumbai, Mangalore, Pondicherry, and where the hell not. We have been through a lot together. I am going to miss him a lot. Before leaving for the airport we decided to get something together and have one last meal in Bangalore; and so we went into the Apple store to get something together,, and for the restaurant I chose KFC considering that he is a vegan xD. We plan on getting the WWE2k24 and playing it together. A blue summer awaits.

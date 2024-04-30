@@ -5,10 +5,12 @@ description: "Thoughts on books read, shows watched, z"
 
 ##### Reading List
 
-- [ ]  A brief history of time *- Stephen Hawking*
+- [x]  A Thousand Splendid Suns *- Khaled Hosseini*: A novel about the lives of two girls in Afghanistan, and how their lives intertwine. I've read this book before, but I wanted to revisit it.
 - [x]  The three body problem *- Cixin Liu*: A sci-fi novel about the first contact between humans and an alien civilization, set in China during the cultural revolution. Initially I found it slow-paced, but it picks up pace after the first few chapters.
-- [ ]  The hitchhiker's guide to the galaxy *- Douglas Adams*
 - [ ]  Dune *- Frank Herbert*
+- [x]  A Thousand Years of Pain *- Moeen VN* A mythological thriller, set in early India. I met the author on Chruch Street and he gave me a copy of the book. It's a good read for a beginner. The ending made me want to read the second part, which is not out yet.
+
+<!-- - [ ]  The hitchhiker's guide to the galaxy *- Douglas Adams* -->
 <!-- - [ ] All the light we cannot see *- Anthony Doerr* -->
 <!-- - [ ] Ichigo Ichie *- Hector Garcia and Francesc Miralles* -->
 <!-- - [ ] The dark forest *- Cixin Liu*
@@ -21,7 +23,6 @@ description: "Thoughts on books read, shows watched, z"
 
 ##### Watching 
 
-- ~~Community *- Dan Harmon*: A sitcom about a group of misfits in a community college. Amazing show. Great humor, wholesome, but might not cater to younger audiences. Has a lot of pop culture references.~~
 - [x]  Mad Men *- Matthew Weiner*: A period drama set in the 1960s, about an advertising agency.
 - [ ]  After Life *- Ricky Gervais*: A dark comedy
 - [x]  Silicon Valley *- Mike Judge*: A comedy about a group of software engineers trying to build a startup. Re-watching this for the nth time!
