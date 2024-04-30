@@ -310,6 +310,17 @@ pre code .line {
 	opacity: 0.85;
 }
 
+code {
+	background-color: #dddddd;
+}
+
+/* Style for code blocks */
+pre>code {
+	border-radius: 5px;
+	background-color: var(--lightgray);
+}
+
+
 
 /**
  * Blockquote
