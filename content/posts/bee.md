@@ -3,6 +3,7 @@ title: 'Bee'
 date: "05-05-2024"
 description: "A light-weight bit-torrent client for the terminal"
 draft: true
+index: false
 tag: "tech"
 ---
 

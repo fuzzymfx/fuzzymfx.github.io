@@ -129,11 +129,13 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
 
   const outfilename = getOutputFilename(filename, outPath);
 
-  blogs.set(filename.split("/").slice(-1).join("/").slice(0, -3), {
-    title: file.data.title,
-    date: file.data.date,
-    tag: file.data.tag,
-  });
+  if (file.data.index !== false) {
+    blogs.set(filename.split("/").slice(-1).join("/").slice(0, -3), {
+      title: file.data.title,
+      date: file.data.date,
+      tag: file.data.tag,
+    });
+  }
 
   const templatized = templatize(template, {
     date: file.data.date,

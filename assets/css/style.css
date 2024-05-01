@@ -9,7 +9,7 @@
 	--darkgray: #333;
 	--selection: #777;
 	--bs-heading-color: #333;
-	--code-bg: #D1F2EB;
+	--code-bg: #e0f2fe;
 	--pastel-blue: #A2D2FF;
 	--pastel-yellow: #FFD6A5;
 	--pastel-purple: #CDB4DB;
@@ -319,6 +319,11 @@ pre code .line {
 pre>code {
 	border-radius: 5px;
 	background-color: var(--lightgray);
+}
+
+:not(pre)>code {
+	border: 0.5px solid #ccc;
+	padding: 3px;
 }
 
 
