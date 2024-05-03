@@ -1,9 +1,8 @@
 ---
-title: 'cbrtl: a community'
+title: 'cbrtl: a coding community'
 date: "01-05-2024"
 description: "This is how I would go about teaching software engineering if I were to teach it."
 draft: false
-index: false
 tag: "tech"
 ---
 
@@ -67,7 +66,9 @@ Here is one that teaches you Data Structures using C++:
 
 - [C++ Full Course | C++ Tutorial | Data Structures & Algorithms](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
 
-[DSA for cbrtl](/blog/dsa.html) is our own in-house comprehensive guide to solving problems and building stuff.
+Here is our in-house guide:
+
+[DSA for cbrtl: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
 
 We'd be doing a mix of both here. We'd start off with LeetCode, and then parallelly move on to building stuff.
 
@@ -115,10 +116,10 @@ A common starting point would be getting familiar with the language you want to 
   - [Fitness planner application](https://github.com/fuzzymfx/fitness-videoplayer)
   - [A minimal task manager](https://github.com/fuzzymfx/flutter-golang-taskapp)
 
-
 Here are some of the projects that we'll be building here:
-1. [A tiny cmd-line bit-torrent client written in TypeScript](/blog/bee.html)
-2. [A distributed chat application written in Rust and Svelte](/blog/druss.html).
+
+1. [A tiny cmd-line bit-torrent client written in TypeScript](/blog/bee.html) (*under construction*)
+2. [A distributed chat application written in Rust and Svelte](/blog/druss.html) (*under construction*)
 
 ### System Design & Architecture
 
@@ -138,7 +139,7 @@ Some of the things you could think about are:
 
 <span id="article-system-design"></span>
 
-[System Design for cbrtl: a comprehensive guide to designing your own system ->](/blog/system-design.html) gives you a comprehensive guide on how to design your own system.
+[System Design for cbrtl: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
 
 System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article [⏎](#article-system-design) above makes it clear why these decisions were made.
 
