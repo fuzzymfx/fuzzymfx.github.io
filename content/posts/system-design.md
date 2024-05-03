@@ -100,28 +100,37 @@ Considering scalability, fault tolerance, security, and monitoring, you could br
 
 ## Deploying
 
-9. Continuous Integration/ Continuous Deployment: This is where you automate the process of building, testing, and deploying the application. This is a good way to make sure that the application is always up-to-date, and running smoothly.
+9. Continuous Integration/Continuous Deployment (CI/CD):
+- Use Cases: Automating the process of building, testing, and deploying applications to ensure they are always up-to-date and running smoothly.
+- Examples: Jenkins, GitLab CI/CD, CircleCI.
+- Suitable for: Ensuring rapid and reliable software delivery, facilitating collaboration among development teams, maintaining code quality through automated testing and deployment pipelines.
 
- This helps you automate the process of building, testing, and deploying the application, and make sure that it is always up-to-date, and running smoothly. You could have multiple instances of the same service running, and if one fails, the other takes over.
+10. Containerization:
+- Use Cases: Packaging applications and their dependencies into containers to ensure consistent runtime environments across different platforms.
+- Examples: Docker, containerd, Podman.
+- Suitable for: Simplifying deployment, scaling, and management of applications, enabling portability and reproducibility, facilitating -  microservices architectures.
 
-10. Containerization: This is where you package the application, and its dependencies, into a container. This is a good way to make sure that the application runs the same way, regardless of the environment.
+11. Container Orchestration:
+- Use Cases: Managing and scaling containerized applications across a cluster of machines to ensure high availability, fault tolerance, and efficient resource utilization.
+- Examples: Kubernetes, Docker Swarm, Amazon ECS (Elastic Container Service).
+- Suitable for: Automating deployment, scaling, and management of containerized applications, providing self-healing capabilities, optimizing resource allocation, and ensuring consistent performance.
 
- This helps you package the application, and its dependencies, into a container, and make sure that it runs the same way, regardless of the environment. You could have multiple instances of the same service running, and if one fails, the other takes over.
+12. Domain Name System (DNS):
+- Use Cases: Mapping domain names to IP addresses to enable users to access web applications and services through human-readable addresses.
+- Examples: BIND, Google Cloud DNS, Amazon Route 53.
+- Suitable for: Translating domain names to IP addresses, load balancing traffic across multiple servers, managing domain records and configurations.
 
-11. Container Orchestration: This is where you manage the containers, and make sure that they are running smoothly. This is a good way to make sure that the application is always up-to-date, and running smoothly.
+13. Content Delivery Network (CDN):
+- Use Cases: Caching content and serving it from the nearest edge server to improve performance, reduce latency, and enhance the scalability of web applications.
+- Examples: Cloudflare, Akamai, Amazon CloudFront.
+- Suitable for: Accelerating content delivery, mitigating DDoS attacks, optimizing bandwidth usage, improving user experience for globally distributed audiences.
 
- This helps you manage the containers, and make sure that they are running smoothly. You could have multiple instances of the same service running, and if one fails, the other takes over.
-
-12. Domain Name System: This is where you map the domain name to the IP address of the server. This is a good way to make sure that the application is accessible through the internet.
-
- This helps you map the domain name to the IP address of the server, and make sure that the application is accessible through the internet. You could have multiple instances of the same service running, and if one fails, the other takes over.
-
-13. Content Delivery Network: This is where you cache the content, and serve it from the nearest server. This is a good way to make sure that the application is fast, and responsive.
-
- This helps you cache the content, and serve it from the nearest server, and make sure that the application is fast, and responsive. You could have multiple instances of the same service running, and if one fails, the other takes over.
 
 ## Monitoring
 
-14. A Logging System: This is where you monitor the application, and make sure that it is running smoothly. This is a good way to make sure that the application is always up-to-date, and running smoothly.
+- Logging Framework:
+- Use Cases: Capturing and recording events, errors, and activities within an application for troubleshooting, auditing, and monitoring purposes.
+- Examples: Log4j, Logback, Winston (Node.js), Serilog (.NET).
+- Suitable for: Generating structured logs with customizable formats, levels, and destinations, facilitating centralized logging and log aggregation.
 
- This helps you monitor the application, and make sure that it is running smoothly. You could have multiple instances of the same service running, and if one fails, the other takes over.
+There is a lot of information here, and it can be overwhelming. But, the key is to start small, and then grow as you need. You don't need to implement all of these at once. You could start with a monolithic application, and then split it into multiple services as you grow. You could start with a SQL database, and then move to a NoSQL database as you need. It is totaly understandable if you do not understand everything at once, that is also not expected. All of this will start making sense once you start building your application, and as you grow, you will learn more about what you need.
