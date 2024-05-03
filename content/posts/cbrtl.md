@@ -77,7 +77,7 @@ Some of the most popular sought-after LeetCode problems are:
 
 There's no particular order in which you should solve these problems. You could start with the easy ones, and then move on to the hard ones. The idea is to get the hang of it, and then move on to building stuff. With our curriculum, we'd be following a curated mix of all of these; we'd be solving some problems from all of these lists. The number depends on the target you set. We could cover 250+ problems, or 100, or 50. It's up to you. There's no single way to do this.
 
-I haven't completed all, this also essentially helps me as well. I could try solving the unsolved at my end in real-time with you. Here are my repos for the same:
+I haven't completed all, this also essentially helps me as well. I could try solving the unsolved at my end in real-time with you. Here are my repos for the same, feel free to track my progress:
 
 - [LC200](https://github.com/fuzzymfx/LC-200/)
 - [DSA450](https://github.com/fuzzymfx/DSA-450/)
