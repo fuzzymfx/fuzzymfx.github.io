@@ -47,12 +47,11 @@ We start by getting into the [documentation](https://devdocs.io/cpp/), learning 
 - [C++ Tutorial for Beginners - Learn C++ in 1 Hour](https://youtu.be/ZzaPdXTrSb8?si=hD1z12yg6trfLPrs)
 - [C++ Crash Course For Beginners](https://www.youtube.com/watch?v=1v_4dL8l8pQ&t=4s&pp=ygUQYysrIGNyYXNoIGNvdXJzZQ%3D%3D)
 - [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=528s&pp=ygUQYysrIGNyYXNoIGNvdXJzZQ%3D%3D)  
-[*More...*](https://www.youtube.com/results?search_query=c%2B%2B+full+course)  
-[*...*](https://www.youtube.com/results?search_query=c%2B%2B+crash+course)  
+[*More...*](https://www.youtube.com/results?search_query=c%2B%2B+crash+course)  
 
 We'd not be following anything mentioned above. The problem with visual-based learning is that it is **inherently slow**; I am trying to make this process faster and more efficient by sharing everything you need to know to get started. Here's a comprehensive guide on `C++`, and `stdlib`:
 
-[C++ for cbrtl: a short guide to getting started with cbrtl ->](/blog/c++.html)
+[**C++ for cbrtl**: a short guide to getting started with cbrtl ->](/blog/c++.html)
 
 ### Problem Solving/ Data Structures
 
@@ -62,13 +61,11 @@ Once you are `3-5 starred` at HackerRank or have solved 40-50+ easy problems on 
 
 Moving on to **problem-solving and critical thinking**, there are multiple ways to develop this. You could go ahead and follow the [industry standard](https://leetcode.com), or do [what I did](https://github.com/fuzzymx).
 
-Here is one that teaches you Data Structures using C++:
+Here is one that teaches you Data Structures using C++: [C++ Full Course | C++ Tutorial | Data Structures & Algorithms](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
 
-- [C++ Full Course | C++ Tutorial | Data Structures & Algorithms](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
+We'd follow our own course here. Here is our in-house comprehensive guide to getting started with DSA:
 
-Here is our in-house guide:
-
-[DSA for cbrtl: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
+[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
 
 We'd be doing a mix of both here. We'd start off with LeetCode, and then parallelly move on to building stuff.
 
@@ -103,12 +100,12 @@ A common starting point would be getting familiar with the language you want to 
   - [A college resource-sharing platform built using Firebase and React](https://resoc.in)
   - [A decentralized chat application built using Svelte and GunJS](https://w3bchat-fadfa.web.app/)
   - [An API to generate random avatars](https://api.nicedear.vip/)
-  - A [movie rating prediction](https://github.com/fuzzymfx/Movie-rating-prediction), and a [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation)
+  - [A static site generator, zuzu](https://github.com/fuzzymfx/zuzu)
 - Commandline:
   - [A command line tool to present presentations written in markdown](https://github.com/fuzzymfx/dough.git)
   - [A chat server](https://github.com/fuzzymfx/rust-tokio-chat-server)
 - Machine Learning:
-  - [A static site generator, zuzu](https://github.com/fuzzymfx/zuzu)
+  - A [movie rating prediction](https://github.com/fuzzymfx/Movie-rating-prediction), and a [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation)
   - [Depression detection in tweets](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets)
   - [An examination marks predictor](https://github.com/fuzzymfx/Marks-predictor) 
   - [Bird migration analysis over the west coast from SA to NA](https://github.com/fuzzymfx/Bird-Migration-data-analysis)
@@ -139,7 +136,7 @@ Some of the things you could think about are:
 
 <span id="article-system-design"></span>
 
-[System Design for cbrtl: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
+[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
 
 System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article [⏎](#article-system-design) above makes it clear why these decisions were made.
 
