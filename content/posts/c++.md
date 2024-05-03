@@ -7,6 +7,8 @@ index: false
 tag: "tech"
 ---
 
+Before starting with this, I wanted to ensure that if at any point you feel that you're not able to undetstand or grasp what is written in this page, that is **totally understandable**. These concepts are better understood when practiced, not theoretically. So, if you're not able to understand something, don't worry, we'll be coding using these in the next few days, and you'll get a hang of it.
+
 #### C++
 
 You can use any IDE (playgrounds to experiment with your code in your machine), or any online compiler (online playground) you're comfortable with. I'd recommend using [Repl.it](https://repl.it) for the time being. It's free, and you can run your code without any hassle.
@@ -25,13 +27,13 @@ C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form 
 
 - Statically typed: data types are checked at compile time
 - Compiled: code is translated into machine code before execution
-- *Interpreted: code is translated into machine code during execution. Eg: Python, JavaScript, Ruby, etc.*
+- *Interpreted: code is translated into machine code during execution. Eg: Python, JavaScript, Ruby, etc. **C++ is not an interpreted language***
 - General-purpose: can be used to develop a wide range of applications, such as operating systems, games, and software applications
 - Case-sensitive: variable names are case-sensitive, e.g. x and X are different variables
 - Free-form: does not require the use of specific indentation or spacing, e.g. Python requires indentation
 - Object-oriented: supports classes and objects, but also supports procedural programming
 - Generic programming: supports features such as templates
-- *Functional programming: supports features, such as lambda expressions, but is not a functional programming language. Eg: Haskell, Lisp, etc.*
+- *Functional programming: supports features, such as lambda expressions, but C++ is **not** a functional programming language. Eg: Haskell, Lisp, etc.*
 
 All of this would start making more sense as we move on. Like Inception.
 
@@ -190,3 +192,8 @@ The C++ Standard Library is a collection of classes and functions that are part 
 We'll come across this while writing code. We'd be using the `iostream` library to print stuff to the console, and the `string` library to work with strings. We'd also be using the `vector` library to work with arrays, and the `map` library to work with key-value pairs.
 
 While it's true that languages like Python and JavaScript are often preferred for certain types of applications like web development and data science, C++ remains widely used in many domains, including systems programming, game development, and high-performance computing. Learning C++ can open up a wide range of opportunities for you as a software engineer.
+
+
+#### Next?
+
+Again, I would like to make this known that it is totaly fine if you get stuck somewhere, do not understand *classes*, *objects*, *pointers*, *references*, etc. You'll start getting a hang of it as you start writing code.
