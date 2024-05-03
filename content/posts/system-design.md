@@ -2,7 +2,7 @@
 title: 'System Design & Architecture for cbrtl'
 date: "01-05-2024"
 description: "Things to consider while building a system"
-draft: true
+draft: false
 index: false
 tag: "tech"
 ---
@@ -13,11 +13,11 @@ Considering scalability, fault tolerance, security, and monitoring, you could br
 
 1. A Microservice Architecture: This is where you split your application into multiple services, each handling a specific task. Each service is independent of the other, and communicates with the other services. This is a good way to scale your application, and make it fault-tolerant.
 
- This architecture helps you scale your application horizontally, and make it fault-tolerant. You could have multiple instances of the same service running, and if one fails, the other takes over.
+	 This architecture helps you scale your application horizontally, and make it fault-tolerant. You could have multiple instances of the same service running, and if one fails, the other takes over.
 
 2. A Monolithic Architecture: This is where you build your entire application in a single service. This is easier to build, and deploy, but harder to scale.
 
-	This helps you scale vertically, and is easier and quicker to build. You could have a single instance of the service running, and if it fails, you could restart it.
+ 	This helps you scale vertically, and is easier and quicker to build. You could have a single instance of the service running, and if it fails, you could restart it.
 
 	| Aspect            | Monolithic Architecture | Microservices Architecture |
 	|-------------------|-------------------------|----------------------------|
@@ -35,34 +35,68 @@ Considering scalability, fault tolerance, security, and monitoring, you could br
 
 3. A Message Queue: This is where you have a queue of messages, and each service reads from the queue, processes the message, and then sends it to the next service. This is a good way to handle asynchronous communication between services.
 
- This helps you handle asynchronous communication between services, and makes sure that the messages are not lost. You could have multiple instances of the same service running, and if one fails, the other takes over.
+- Use Cases: Asynchronous communication between distributed systems, reliable message delivery, load leveling, and buffering.
+- Examples: RabbitMQ, Apache ActiveMQ, Amazon SQS (Simple Queue Service).
+- Suitable for: Task scheduling, job queues, order processing, workflow management, ensuring message delivery.
 
-4. A Pub-Sub System: This is where you have a publisher that sends messages to a topic, and multiple subscribers that read from the topic. This is a good way to handle real-time communication between services.
+4. A Pub-Sub System: A publisher sends messages to a topic, and multiple subscribers receive messages from the topic. This is a good way to handle real-time communication between services.
 
- This helps you handle real-time communication between services, and makes sure that the messages are not lost. You could have multiple instances
- of the same service running, and if one fails, the other takes over.
+- Use Cases: Real-time event-driven architectures, decoupling of components, broadcasting messages to multiple subscribers.
+- Examples: Apache Kafka, RabbitMQ, Amazon SNS (Simple Notification Service).
+- Suitable for: Event sourcing, logging and monitoring, real-time analytics, microservices communication, IoT data ingestion.
+
+ A brief overview:
+
+- Pub-Sub systems are designed for broadcasting messages to multiple subscribers (one-to-many), where subscribers express interest in specific topics or channels. They're often used in scenarios requiring real-time event-driven communication and are highly scalable.
+- Message Queues, on the other hand, facilitate point-to-point (one-to-one) communication, where messages are sent to specific queues and consumed by exactly one consumer. They're focused on ensuring reliable message delivery and are commonly used for asynchronous communication, load leveling, and decoupling components.
 
 ## Databases
 
-5. A Database: This is where you store the data. You could use a SQL database, or a NoSQL database. You could use a relational database, or a non-relational database. You could use a database that is optimized for reads, or writes, or both.
+5. A Database: This is where you store the data. There are broadly two kinds: a SQL based and a NOSQL databse. The choice of a databse is hugely dependent on the use case.
 
- This helps you store the data, and make sure that it is secure. You could have multiple instances of the same service running, and if one fails, the other takes over.
+ 	You could use a SQL database, or a NoSQL database. You could use a relational database, or a non-relational database. You could use a database that is optimized for reads, or writes, or both based on what you need.
 
-6. A Cache: This is where you store the data temporarily, so that you can access it quickly. You could use a cache that is optimized for reads, or writes, or both.
+ Here's a brief overview:
 
- This helps you store the data temporarily, and make sure that it is secure. You could have multiple instances of the same service running, and if one fails, the other takes over.
+- SQL Database (Relational Database Management System - RDBMS):
+  - Use Cases: Structured data with complex relationships, transactions, and strict schemas.
+  -Examples: MySQL, PostgreSQL, Oracle, SQL Server.
+  - Suitable for: Financial transactions, e-commerce platforms, banking systems, accounting software.
+- NoSQL Database:
+  - Use Cases: Handling large volumes of unstructured or semi-structured data, distributed data models.
+  - Examples: MongoDB, Cassandra, Redis, Couchbase.
+  - Suitable for: Real-time analytics, content management systems, IoT applications, social networks, and mobile applications.
+- Key-Value Stores:
+  - Use Cases: Simple data models, high performance, and scalability.
+  - Examples: Redis, DynamoDB.
+  - Suitable for: Caching, session management, real-time bidding, gaming leaderboards.
+- Document Stores:
+  - Use Cases: Handling document-oriented data structures like JSON, XML, BSON.
+  - Examples: MongoDB, Couchbase, CouchDB.
+  - Suitable for: Content management systems, blogging platforms, user profiles, e-commerce product catalogs.
+- Column-Family Stores (Wide-Column Stores):
+  -Use Cases: Analytical workloads, time-series data, scalable and distributed storage.
+  - Examples: Cassandra, HBase.
+  - Suitable for: Big data analytics, time-series databases, recommendation systems.
+- Graph Databases:
+  - Use Cases: Representing and querying highly interconnected data, social networks, fraud detection, recommendation engines.
+  - Examples: Neo4j, Amazon Neptune.
+  - Suitable for: Social networks, recommendation engines, network and IT operations, fraud detection.
 
 ## Networking & Security
 
-7. A Load Balancer: This is where you distribute the load across multiple instances of the same service. This is a good way to make sure that the application is scalable, and fault-tolerant.
+6. Load Balancers focus on distributing incoming traffic across multiple servers or instances to ensure scalability and fault tolerance. They operate at the network (Layer 4) or application (Layer 7) level and are primarily concerned with optimizing resource utilization and ensuring high availability.
 
- This helps you distribute the load across multiple instances of the same service, and make sure that the application is scalable, and fault-tolerant. You could have multiple instances of the same service running, and if one fails, the other takes over.
+- Use Cases: Distributing incoming network traffic across multiple servers or instances to ensure optimal resource utilization, scalability, and fault tolerance.
+- Examples: NGINX, HAProxy, Amazon ELB (Elastic Load Balancer), Azure Load Balancer.
+- Suitable for: Web servers, application servers, database servers, microservices architectures, high-traffic websites, and applications.
 
-8. A Reverse Proxy: This is where you route the requests to the appropriate service. This is a good way to make sure that the application is secure, and fault-tolerant.
+7. A Reverse Proxy is where how route the requests to the appropriate service. This is a good way to make sure that the application is secure, and fault-tolerant.
 
- This helps you route the requests to the appropriate service, and make sure that the application is secure, and fault-tolerant. You could have multiple instances of the same service running, and if one fails, the other takes over.
+- Use Cases: Handling incoming client requests and routing them to appropriate backend servers or services, providing an additional layer of security, and improving performance by caching and compression.
+- Examples: NGINX, Apache HTTP Server (with mod_proxy), HAProxy, Envoy Proxy.
+- Suitable for: Web applications, APIs, microservices architectures, protecting backend servers from direct exposure to the internet, implementing SSL termination, load balancing, and content caching.
 
-<!-- You could also have a cache, and a database, and a message queue, and a pub-sub system, and a load balancer, and a reverse proxy, and a firewall, and a VPN, and a CDN, and a WAF, and a DDoS protection, and a monitoring system, and a logging system, and a CI/CD pipeline, and a containerization system, and a container orchestration system, and a service mesh, and a secret manager, and a configuration manager, and a DNS, and a domain, and a certificate, and the list goes on. -->
 
 ## Deploying
 
