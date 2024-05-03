@@ -143,14 +143,21 @@ While building a rust based project, you could have a dockerfile, (which is a fi
 - Examples: Log4j, Logback, Winston (Node.js), Serilog (.NET). These logs can then accurately represent the state of your application, what issues it is facing, and how it is performing.
 - Suitable for: Generating structured logs with customizable formats, levels, and destinations, facilitating centralized logging and log aggregation.
 
-# Building a System
+# Case Studies
 
-Now coming to the meat of the matter, building a system. We will build an application, discuss various strategies implementd by the top ech companies like Uber, Netflix, Meta, etc. and then implement them in our application.
+Now coming to the meat of the matter, building a system. We will discuss about building an application and discuss various strategies implemented by the top tech companies like Uber, Netflix, Meta, etc.
 
-We will be building a content recommendation system, where we recommend content to the user based on their preferences. This is a good way to improve user engagement, and increase the time spent on the platform. We will be using a microservice architecture, with a message queue, a NoSQL database, a load balancer, a reverse proxy, and a CDN.
+1. A content recommendation system, where we recommend content to the user based on their preferences; Netflix. An insight into how to improve user engagement, and increase the time spent on the platform.
 
 ## Architecture
 
+We will be using a microservice architecture, with a message queue, a NoSQL database, a load balancer, a reverse proxy, and a CDN.
+
+2. A ride-hailing application, where we match the rider with the driver, and provide real-time updates to the user; Uber. A discussion on how to make the application fault tolerant, and scalable.
+
+## Architecture
+
+We will be using a microservice architecture, with a message queue, a NoSQL database, a load balancer, a reverse proxy, and a CDN.
 
 ## Next ?
 
