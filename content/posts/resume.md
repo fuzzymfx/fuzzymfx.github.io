@@ -6,7 +6,7 @@ draft: false
 tag: "tech"
 ---
 
-This guide is specifically for the resume that I built for myself, for a SDE/SE role. These points may or may not cater to your needs, depending on the role you are applying for.
+This guide is specifically for the resume that I built for myself, for a SDE/SE role. These points may or may not cater to your needs depending on the role you are applying for.
 
 When I started building my resume, I thought of dividing it into six sections:
 
@@ -17,26 +17,27 @@ When I started building my resume, I thought of dividing it into six sections:
 - Projects
 - Extra-curriculars
 
-I started building my resume when I had just completed the second year of my undergraduate. After my summer vacations, with some minor experience in IOT, Cybersecurity, and Python, I started hunting for internships and landed three of them. 
+I started building my resume when I had just completed the second year of my undergraduate. After my summer vacations, with some minor experience in IOT, Cybersecurity, Python, and Machine Learning, I started hunting for internships and landed a couple.
 
 There are a couple of rules that I follow:
 
 - Do not write complete sentences. Try to keep it short and account for more information about the matter. 
 	
-	Ex. "Worked on a project that involved the use of a Raspberry Pi and a camera module to detect the presence of a person in a room. The project was built using Python and OpenCV." can be written as "Built a person detection system using a Raspberry Pi and a camera module using Python and OpenCV."
+	Ex. "Worked on a project that involved the use of a Raspberry Pi and a camera module to detect the presence of a person in a room. The project was built using Python and OpenCV." can be written as "Built a person detection system using a Raspberry Pi and a camera module written in Python and OpenCV."
 
-- Avoid including **soft skills**, statements, intros, and conclusions. "An excellent team player", "A quick learner", "A good communicator", etc. 
-are bogus. These are not skills, but rather traits. Traits can be discussed on call or in interviews, while skills are what you have learned and can do to get shit done.
+- Avoid including photos, **soft skills**, statements, intros, and conclusions. "An excellent team player", "A quick learner", "A good communicator", etc. are bogus. These are not skills, but rather traits. Traits can be discussed on call or in interviews, while skills are what you have learned and can do to get shit done.
 
-- Try not to **lie** in yout resume. Well, I did. Not completely, but I did. My advice to you would be not to lie, but if you want to follow what I did, here it goes:
+- Try not to **lie** in yout resume. My advice to you would be not to lie, but I have encountered a gray area, and if you want to follow what I did, here it goes:
 
   While building my resume, I decided to add three projects, out of which two I had completed, and one was half-baked. I added all the information about all the projects completed. The trick was that the text I wrote indicated that the project was done and completed following best practices.
 
-  All of them were ML projects. The third one was a prediction model. I was supposed to add an error correction algorithm; gradient descent, but I was feeling lazy and thought I'd do it later. Initially, I added that to my resume, but I finished what I started within a couple of weeks.
+  All of them were ML projects. The third one was a prediction model. I was supposed to add an error correction algorithm; gradient descent, but I was feeling lazy and thought I'd do it later. Initially, I added that to my resume, but finished it a little later.
 
 	Similarly, I never **officially** worked with TCS. I was working under a project manager/ developer as an intern. They did not give me any certificates, acknowledgement or anything. But, I still decided to pen down whatever I did accomplish in that short while. I was confident with the work I did, and with any questions thrown at me, I could answer them. This accountability is important.
 
-	Do not try to fill up the page. If you have less experience, it's okay. You can always add more projects, or more information about the projects you have done. Do not bullshit your way through the resume. Adding more information about the projects you have done is better than adding more projects that you have not done. If you're adding something, make sure you have something to show and can account for it. You can add 20-30% about the projects that you are currently working on, and the rest about the projects that you have completed.
+	The crux is **if** you're adding something, make sure you have something to show and can aboslutely account for it. Or, you can also add information about the projects that you are currently working on and are not complete. This is a good way to show that you are working on something, and are not just sitting idle.
+
+- Do not try to fill up the page. It's perfectly alright to have less experience. You can always add more projects, or more information about the projects you have done. Do not bullshit your way through. Adding more information about the projects you have done is better than adding more projects that you have not done.
 
 - Use a **single-page** resume. If you have more experience, build a CV. A resume is a brief summary of your experience, while a CV is a detailed account of your experience. It is understandable if you have a lot to add, the challenge is to differentiate between what is important and what is not, what counts and what does not.
 
@@ -48,12 +49,11 @@ are bogus. These are not skills, but rather traits. Traits can be discussed on c
 
 - Try to add links for the projects that you build. Preferably deployed links, or GitHub repositories. 
 
-The hierarchy of efficient content management in a resume is as follows:
+The hierarchy of space allocation is as follows:
 
 - Max span should be taken up by the experience section, or projects if you do not have enough experience.
 - The next would be projects.
 - The next would be skills, followed by extra-curricular activities, and then education.
-- Adding relevant links such as LinkedIn, GitHub, or a personal website is a really good idea.
 
 
 Here is my resume a couple of months later from when I started building it:
@@ -68,11 +68,8 @@ Here is what it looks like [now](/resume.pdf)
 
 To give you a little more insight, my current resume includes Bee, which I have not completed :P. The entire project mentioned goes like this:
 
-	"A custom BitTorrent client to download movies with an item-based collaborative movie recommendation
-		system based on user ratings and the no. of ratings & a movie rating prediction system to classify reviews with an 85% accuracy"
+	"A custom BitTorrent client to download movies with an item-based collaborative movie recommendation system based on user ratings and the no. of ratings & a movie rating prediction system to classify reviews with an 85% accuracy"
 
-While the ML models for rating prediction and recommendation system are complete, the BitTorrent client is still in progress. I have completed a short version of the client, using the BitTorrent protocol, and the torrent library, but I wanted to write the entire client from scratch. I have not completed it yet, but I am working on it.
-
-I would still not recommend following this.	
+While the ML models for rating prediction and recommendation system are complete, the BitTorrent client is still in progress. I have completed a short version of the client, using the BitTorrent protocol, and the torrent library, but I wanted to write the entire client from scratch. I have not completed it yet, but I am working on it. But, I have mentioned it in my resume, and I am confident that I can answer questions if ever thrown at me.
 
 Hope this helps you build your resume. Resume building is an extremely subjective topic, and there is no right or wrong way to do it. The only thing that matters is that can convey what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.

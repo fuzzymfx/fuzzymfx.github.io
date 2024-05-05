@@ -143,11 +143,11 @@ System designing is essential to build solid, production-grade applications. It 
 
 ### Resume
 
-Your resume/ portfolio makes you stand out in the crowd. It is the first thing that a recruiter sees. **If** you're pursuing this curriculum to get a job, you'd want to make sure that your resume is top-notch. Now, there are a lot of successful folks, with a lot of varied opinions on how to build a resume. Some say it should be a single page, some say it can be two pages, some ask you to only put in things that you have worked on and not lie on your resume, and so on.
+Your resume/ portfolio makes you stand out in the crowd. It is the first thing that a recruiter sees. **If** you're pursuing this curriculum to get a job, you'd want to make sure that your resume is top-notch. There are a lot of varied opinions on how to build a resume. Some say it should be a single page, some say it can be two pages, and some ask you to only put in things that you have worked on and not lie on your resume. In the end, it's up to you how you want to build it.
 
 [**Resume for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
 
-Note: Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, exp, and skills would speak for themselves.
+Note: Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, work experience, and skills would speak for themselves. Your resume should effectively communicate what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
 
 ## Next?
 
