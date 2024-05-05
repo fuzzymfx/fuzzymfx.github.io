@@ -54,21 +54,13 @@ We'd not be following anything mentioned above. The problem with visual-based le
 
 [**C++ for cbrtl**: a short guide to getting started with cbrtl ->](/blog/c++.html)
 
-### Problem Solving/ Data Structures
-
 To get the hang of C++, let's start with HackerRank or Leetcode. Each platform has multiple levels, and each level is associated with a difficult jump.
 
-Once you are `3-5 starred` at HackerRank or have solved 40-50+ easy problems on LeetCode, we'd be good to move on.
+### Problem Solving/ Data Structures
 
-Moving on to **problem-solving and critical thinking**, there are multiple ways to develop this. You could go ahead and follow the [industry standard](https://leetcode.com), or do [what I did](https://github.com/fuzzymx).
+Moving on to **problem-solving and critical thinking**, there are multiple ways to develop this. You could go ahead and follow the [industry standard](https://leetcode.com), or do [what I did](https://github.com/fuzzymx). To approach a problem, you need to think about how to approach the problem, and then write code to solve it. This is where you'd want to learn about data structures and algorithms.
 
 Here is one that teaches you Data Structures using C++: [C++ Full Course | C++ Tutorial | Data Structures & Algorithms](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
-
-We'd follow our own course here. Here is our in-house comprehensive guide to getting started with DSA:
-
-[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
-
-We'd be doing a mix of both here. We'd start off with LeetCode, and then parallelly move on to building stuff.
 
 Some of the most popular sought-after LeetCode problems are:
 
@@ -83,6 +75,10 @@ I haven't completed all, this also essentially helps me as well. I could try sol
 - [LC200](https://github.com/fuzzymfx/LC-200/)
 - [DSA450](https://github.com/fuzzymfx/DSA-450/)
 - [Striver's SDE Sheet](https://github.com/fuzzymfx/SDE-sheet)
+
+DSA is vast and takes a lot of space. Resouces are scattered all over the internet. The ones that I have come across are either too verbose, or too concise We'd be following our in-house comprehensive guide to getting started with DSA:
+
+[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
 
 Parallelly, we'd be doing what I initially did to get into the industry. Build.
 
@@ -135,19 +131,17 @@ Some of the things you could think about are:
 - What if you do not want the entire Internet to access your data/ app?
 - Do the current users like the user interface? How do you make sure that the UI is user-friendly? 
 
-<span id="article-system-design"></span>
+System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article makes it clear why these decisions were made.
 
 [**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
-
-System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article [⏎](#article-system-design) above makes it clear why these decisions were made.
 
 ### Resume
 
 Your resume/ portfolio makes you stand out in the crowd. It is the first thing that a recruiter sees. **If** you're pursuing this curriculum to get a job, you'd want to make sure that your resume is top-notch. There are a lot of varied opinions on how to build a resume. Some say it should be a single page, some say it can be two pages, and some ask you to only put in things that you have worked on and not lie on your resume. In the end, it's up to you how you want to build it.
 
-[**Resume for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
+Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, work experience, and skills would speak for themselves. Your resume should effectively communicate what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
 
-Note: Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, work experience, and skills would speak for themselves. Your resume should effectively communicate what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
+[**Resume for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
 
 ## Next?
 

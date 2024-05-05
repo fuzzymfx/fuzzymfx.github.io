@@ -27,7 +27,7 @@ There are a couple of rules that I follow:
 
 - Avoid including photos, **soft skills**, statements, intros, and conclusions. "An excellent team player", "A quick learner", "A good communicator", etc. are bogus. These are not skills, but rather traits. Traits can be discussed on call or in interviews, while skills are what you have learned and can do to get shit done.
 
-- Try not to **lie** in yout resume. My advice to you would be not to lie, but I have encountered a gray area, and if you want to follow what I did, here it goes:
+- Try not to **lie** in your resume. My advice to you would be not to lie, but I have encountered a gray area, and if you want to follow what I did, here it goes:
 
   While building my resume, I decided to add three projects, out of which two I had completed, and one was half-baked. I added all the information about all the projects completed. The trick was that the text I wrote indicated that the project was done and completed following best practices.
 
