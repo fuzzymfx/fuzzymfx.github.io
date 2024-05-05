@@ -6,11 +6,11 @@ draft: false
 tag: "tech"
 ---
 
-I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. There are tons of platforms that provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
+I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. Tons of platforms provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
 
 This became the guiding principle behind *cbrtl*, the platform I am building. Initially, [Srijan](https://injuly.in) and I thought of starting cbrtl, an open-source cult that comes together as a community to build fun stuff together.
 
-This curriculum is designed to be self-sustaining-a collection of resources freely available on the internet. The idea is to curate these resources and present them in a structured manner. Comprehend this however you will; a guide to getting a job, or becoming a better engineer in general. **This is how I became a software engineer.**
+This curriculum is designed to be self-sustaining: a collection of resources freely available on the internet. The idea is to curate these resources and present them in a structured manner. Comprehend this however you will; a guide to getting a job, or becoming a better engineer in general. **This is how I became a software engineer.**
 
 ## The Curriculum
 
@@ -30,6 +30,7 @@ The difference between the platform I am building, and this curriculum is that I
 - [Problem Solving/ Data Structures](#problem-solving-data-structures)
 - [Building](#building)
 - [System Design & Architecture](#system-design-architecture)
+- [Resume](#resume)
 - [Next?](#next)
 
 We'd start by learning to write code. This involves you to learn the basics of a programming language, and start solving a few problems to get the hang of it.
@@ -85,7 +86,7 @@ I haven't completed all, this also essentially helps me as well. I could try sol
 
 Parallelly, we'd be doing what I initially did to get into the industry. Build.
 
-## Building
+### Building
 
 We'd be looking at building entirely new applications from scratch, deploying them to a server, making them accessible through the internet, or maybe using a serverless architecture. We can get a domain, and host it on a server, or use a cloud provider like AWS, GCP, or Azure, if you want.
 
@@ -139,6 +140,14 @@ Some of the things you could think about are:
 [**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
 
 System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article [⏎](#article-system-design) above makes it clear why these decisions were made.
+
+### Resume
+
+Your resume/ portfolio makes you stand out in the crowd. It is the first thing that a recruiter sees. **If** you're pursuing this curriculum to get a job, you'd want to make sure that your resume is top-notch. Now, there are a lot of successful folks, with a lot of varied opinions on how to build a resume. Some say it should be a single page, some say it can be two pages, some ask you to only put in things that you have worked on and not lie on your resume, and so on.
+
+[**Resume for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
+
+Note: Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, exp, and skills would speak for themselves.
 
 ## Next?
 
