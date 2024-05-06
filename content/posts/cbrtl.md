@@ -24,7 +24,9 @@ This curriculum is designed to be self-sustaining: a collection of resources fre
 
     This is where you start to think about the architecture of your application, and how to make it scalable, fault-tolerant, and secure. You'd want to monitor your application, and make sure it's running smoothly. You would not want anybody accessing your data, securing them, and allowing only a selected few to access it. The differences between a monolith and a microservice architecture help.
 
-The difference between the platform I am building, and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish. While following this curriculum, you'd be doing it yourself. I'd still be available to help you out in any way I could.
+<!-- The difference between the platform I am building, and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish. -->
+
+While following this curriculum, you'd be doing it yourself. I'd still be available to help you out in any way I could.
 
 - [Languages](#languages)
 - [Problem Solving/ Data Structures](#problem-solving-data-structures)
@@ -147,6 +149,6 @@ Resumes are highly subjective, and you can choose to build them however you want
 
 I hope this series of articles was verbose enough to help you get started. The idea was to share everything I had knowledge and hands-on experience on and help you get started on your journey to becoming a software engineer.
 
-`cbrtl` is a platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. This is just the beginning of a long journey. cbrtl is in a private beta, and I'll be sharing the link to the platform soon. I deeply value my time, and I am sure you do too. The initial fee would be minimal, to cover the costs of running the platform and for the tremendous amount of effort and time I'd be putting in. You could always choose to donate and contribute more to building the platform. Optionally, you could follow this guide and get started on your own.
+<!-- `cbrtl` is a platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. This is just the beginning of a long journey. cbrtl is in a private beta, and I'll be sharing the link to the platform soon. I deeply value my time, and I am sure you do too. The initial fee would be minimal, to cover the costs of running the platform and for the tremendous amount of effort and time I'd be putting in. You could always choose to donate and contribute more to building the platform. Optionally, you could follow this guide and get started on your own. -->
 
 I'll be writing more on this, and sharing more resources as we move on. If you have any questions, feel free to reach out below. I'd be happy to help you out.
