@@ -6,7 +6,7 @@ draft: false
 tag: "tech"
 ---
 
-I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. Tons of platforms provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
+I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. Tons of platforms provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to make sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
 
 This became the guiding principle behind *cbrtl*, the platform I am building. Initially, [Srijan](https://injuly.in) and I thought of starting cbrtl, an open-source cult that comes together as a community to build fun stuff together.
 
@@ -24,7 +24,7 @@ This curriculum is designed to be self-sustaining: a collection of resources fre
 
     This is where you start to think about the architecture of your application, and how to make it scalable, fault-tolerant, and secure. You'd want to monitor your application, and make sure it's running smoothly. You would not want anybody accessing your data, securing them, and allowing only a selected few to access it. The differences between a monolith and a microservice architecture help.
 
-<!-- The difference between the platform I am building, and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish. -->
+The difference between the platform I am building, and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish.
 
 While following this curriculum, you'd be doing it yourself. I'd still be available to help you out in any way I could.
 
@@ -149,6 +149,13 @@ Resumes are highly subjective, and you can choose to build them however you want
 
 I hope this series of articles was verbose enough to help you get started. The idea was to share everything I had knowledge and hands-on experience on and help you get started on your journey to becoming a software engineer.
 
-<!-- `cbrtl` is a platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. This is just the beginning of a long journey. cbrtl is in a private beta, and I'll be sharing the link to the platform soon. I deeply value my time, and I am sure you do too. The initial fee would be minimal, to cover the costs of running the platform and for the tremendous amount of effort and time I'd be putting in. You could always choose to donate and contribute more to building the platform. Optionally, you could follow this guide and get started on your own. -->
+
+## cbrtl
+
+`cbrtl` is a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community.
+
+This is a **free** platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. I deeply value my time, and I am sure you do too. Hence, it would be understandable if at times, I am unavilable to help you out. The primary goal still remains the same: to empower you to build stuff and become a better engineer. Any help in donating and contributing more to building the platform would be appreciated. Optionally, you could follow this guide and get started on your own.
+
+To begin with, drop a mail at [anubhabr50@gmail.com](mailto:anubhabr50@gmail.com) with the subject as `cbrtl`, and I'll get back to you with the resources and the plan.
 
 I'll be writing more on this, and sharing more resources as we move on. If you have any questions, feel free to reach out below. I'd be happy to help you out.
