@@ -67,10 +67,5 @@ Here is my resume a couple of months later from when I started building it:
 
 Here is what it looks like [now](/resume.pdf)
 
-To give you a little more insight, my current resume includes Bee, which I have not completed :P. The entire project mentioned goes like this:
-
-	"A custom BitTorrent client to download movies with an item-based collaborative movie recommendation system based on user ratings and the no. of ratings & a movie rating prediction system to classify reviews with an 85% accuracy"
-
-While the ML models for rating prediction and recommendation system are complete, the BitTorrent client is still in progress. I have completed a short version of the client, using the BitTorrent protocol, and the torrent library, but I wanted to write the entire client from scratch. I have not completed it yet, but I am working on it. But, I have mentioned it in my resume, and I am confident that I can answer questions if ever thrown at me.
 
 Hope this helps you build your resume. Resume building is an extremely subjective topic, and there is no right or wrong way to do it. The only thing that matters is that can convey what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
