@@ -147,17 +147,17 @@ While building a rust-based project, you could have a dockerfile, (which is a fi
 
 Considering a real-world example, let's take a look at two scenarios: 
 
-1. **A content recommendation system**, where we recommend content to the user based on their preferences; Netflix. An insight into how to improve user engagement, and increase the time spent on the platform.
+1. **A content recommendation system**, where we recommend content to the user based on their preferences; Netflix.
 	
 Before jumping into any architecture, ask yourself the following questions:
 
-- What problem am I trying to solve ?
-- Who are the users ?
-- What are the features I want to build ?
+- What problem am I trying to solve?
+- Who are the users?
+- What features do I want?
 
-A breif description about the requirement be:
+A breif description about the requirement would be:
 
-A platform that users can log onto and watch movies etc. The platform stores the history of the shows or movies watched, the ratings of the user; what they like/dislike, and then recommends content based on that. The platform should be able to handle millions of users, and terabytes of data. 
+A platform that users can log on to, and watch content. The platform stores the history of the shows or movies watched and the ratings of the user; what they like/dislike. It then recommends content based on that. The platform should be able to handle millions of users, and terabytes of data. 
 
 Technically, a platform as such would have a million other services like copyright management, payment gateway, content advisory, etc. But, for the simplicity of this exercise, we would focus primarily on the content recommendation system.
 
@@ -166,7 +166,7 @@ Before moving on, you have the following bullet points to consider:
 - Content Recommendation
 - User Authentication
 - Rating Management
-- A platform that can handle millions of users and terabytes of data
+- Load Handling
 
 ### System Design
 
@@ -259,9 +259,7 @@ Streams video content to users, handles video playback, and ensures a smooth str
 
 ##### Database
 
-The data storage layer where user data, content data, ratings, and other information are stored. We could use a NoSQL database like MongoDB for storing user profiles, content metadata, and ratings. We could also use a caching layer like Redis for caching frequently accessed data, improving performance.
-
-A NoSQL database like MongoDB would be a good choice for storing user profiles, content metadata, and ratings. We could have multiple collections for storing different types of data:
+The data storage layer where user data, content data, ratings, and other information are stored. We could use a NoSQL database like MongoDB for storing user profiles, content metadata, and ratings. We could also use a caching layer like Redis for caching frequently accessed data, improving performance. We could have multiple collections for storing different types of data:
 
 - User Collection: Stores user profiles, including user ID, name, email, password, viewing history, and preferences.
 - Content Collection: Stores content metadata, including content ID, title, description, genre, duration, and other details.
@@ -281,9 +279,9 @@ Caches and delivers content to users from the nearest edge server to improve per
 
 A monitoring system that tracks the performance of the application, identifies issues, and ensures the system is running smoothly. Tools like Prometheus, Grafana, and ELK Stack could be used for monitoring and logging.
 
-This is a very high-level overview of the system design for a content recommendation system like Netflix. In reality, the system would be much more complex, with additional services, databases, caching layers, load balancers, and monitoring systems. But this should give you a good starting point for building a content recommendation system.
+---
 
-This looks like a good starting point for building a content recommendation system like Netflix. As you grow, you can add more features, optimize the system, and scale it to handle millions of users and terabytes of data.
+This is a very high-level overview of the system design for a content recommendation system like Netflix. In reality, the system would be much more complex, with additional services, databases, caching layers, load balancers, and monitoring systems. But this should give you a good starting point for building a content recommendation system.
 
 2. A social media platform; [Instagram](https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad).
 
