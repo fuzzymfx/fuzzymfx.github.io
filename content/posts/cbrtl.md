@@ -133,7 +133,7 @@ Some of the things you could think about are:
 
 System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article makes it clear why these decisions were made.
 
-[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
+[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) gives you a comprehensive guide on how to design your own system.
 
 ### Resume
 
@@ -141,7 +141,7 @@ Your resume/ portfolio makes you stand out in the crowd. It is the first thing t
 
 Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, work experience, and skills would speak for themselves. Your resume should effectively communicate what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
 
-[**Resume for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
+[**Resume Building for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
 
 ## Next?
 

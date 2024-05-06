@@ -1,5 +1,5 @@
 ---
-title: 'resume for cbrtl'
+title: 'resume building for cbrtl'
 date: "01-05-2024"
 description: "This is how I built my resume."
 draft: false

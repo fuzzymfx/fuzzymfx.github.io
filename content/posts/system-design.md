@@ -148,70 +148,120 @@ While building a rust-based project, you could have a dockerfile, (which is a fi
 Considering a real-world example, let's take a look at two scenarios: 
 
 1. **A content recommendation system**, where we recommend content to the user based on their preferences; Netflix. An insight into how to improve user engagement, and increase the time spent on the platform.
+	
+Before jumping into any architecture, ask yourself the following questions:
 
-### High-Level Architecture
+- What problem am I trying to solve ?
+- Who are the users ?
+- What are the features I want to build ?
 
-#### Frontend
+A breif description about the requirement be:
 
-- Frontend: The user interface where users interact with the application. This could be a web application, mobile application, or smart TV application. Here, we could go with a single-page application (SPA) for a seamless user experience using React and React-Native for web and mobile applications, respectively.
+A platform that users can log onto and watch movies etc. The platform stores the history of the shows or movies watched, the ratings of the user; what they like/dislike, and then recommends content based on that. The platform should be able to handle millions of users, and terabytes of data. 
 
-#### Backend
+Technically, a platform as such would have a million other services like copyright management, payment gateway, content advisory, etc. But, for the simplicity of this exercise, we would focus primarily on the content recommendation system.
 
-- Backend: The server-side logic that processes requests from the frontend, interacts with the database, and sends responses back to the frontend. We could use Node.js with Express.js for building the backend services.
+Before moving on, you have the following bullet points to consider:
 
-	Here, the backend service would be having multiple services, each responsible for a specific task. For example, one service could be responsible for user authentication, another for content recommendation, and another for content rating. Thus, a microservices architecture would be a good fit here.
+- Content Recommendation
+- User Authentication
+- Rating Management
+- A platform that can handle millions of users and terabytes of data
+
+### System Design
+
+##### Frontend
+
+- Frontend: The user interface where users interact with the application. This could be a web application, mobile application, or smart TV application. This platform should be able to handle a lot of incoming data and display using in a video streaming service, a video player. Popular frameworks to handle this are React, Angular, Vue, etc.
+
+	The frontend could look something like this:
+
+```/homepage```
+
+Displays recommended content, trending content, and user-specific recommendations.
+
+- Recommended Content: Shows personalized content recommendations based on user preferences and viewing history.
+- Trending Content: Displays popular content that is trending on the platform.
+- User-Specific Recommendations: Shows content recommendations based on user preferences, ratings, and viewing history.
+
+```/profile```
+
+Allows users to update their profiles, change passwords, and manage preferences.
+
+- Profile Management: Enables users to update their profiles, change passwords, and manage preferences.
+- Viewing History: Displays the user's viewing history, including shows watched, ratings, and timestamps.
+- Preferences: Allows users to set preferences, genres, and content types they like.
+
+
+```/content?id=123```
+
+Shows detailed information about content, including title, description, genre, duration, and ratings.
+
+- Title and Description: Displays the title and description of the content.
+- Genre and Duration: Shows the genre, duration, and other details of the content.
+- Ratings: Displays the average rating and user ratings for the content.
+
+```/video?id=123```
+
+Streams video content to users, handles video playback, and ensures a smooth streaming experience.
+
+- Video Streaming: Streams video content to users, handles video playback, and ensures a smooth streaming experience.
+- Playback Controls: Provides playback controls like play, pause, seek, volume, and full-screen mode.
+- Quality Settings: Allows users to adjust video quality settings based on their internet connection.
+
+##### Backend
+
+- Backend: The server-side logic that processes requests from the frontend, interacts with the database, and sends responses back to the frontend.
 
 	The backend could look something like this:
 
-##### User Service
+- User Service:
 
-Responsible for user authentication, registration, and profile management.
+	Responsible for user authentication, registration, and profile management.
 
-- User Authentication: Handles user registration, login, and authentication using JWT tokens.
-- User Profile Management: Allows users to update their profiles, change passwords, and manage preferences.
-- User Data Storage: Stores user profiles in a MongoDB database, including user ID, name, email, password, viewing history, and preferences.
+	- User Authentication: Handles user registration, login, and authentication using JWT tokens.
+	- User Profile Management: Allows users to update their profiles, change passwords, and manage preferences.
+	- User Data Storage: Stores user profiles in a NoSQL database, including user ID, name, email, password, viewing history, and preferences.
 
-##### Content Service
+- Content Service:
 
-Responsible for managing content, including fetching, updating, and deleting content. 
+	Responsible for managing content, including fetching, updating, and deleting content. 
 
-- Content Management: Manages content metadata, including fetching, updating, and deleting content.
-- Homepage Display: Displays the homepage with recommended content, trending content, and user-specific recommendations.
-- User Preferences: Fetches user preferences and viewing history to personalize content recommendations.
-- Content Data Storage: Stores content metadata in a MongoDB database, including content ID, title, description, genre, duration, and other details.
+	- Content Management: Manages content metadata, including fetching, updating, and deleting content.
+	- Homepage Display: Displays the homepage with recommended content, trending content, and user-specific recommendations.
+	- User Preferences: Fetches user preferences and viewing history to personalize content recommendations.
+	- Content Data Storage: Stores content metadata in a NoSQL database, including content ID, title, description, genre, duration, and other details.
 
-##### Recommendation Engine
+- Recommendation Engine:
 
-Responsible for generating personalized content recommendations based on user preferences and viewing history, maybe running a ML/ DL model.
+	Responsible for generating personalized content recommendations based on user preferences and viewing history, maybe running a ML/ DL model.
 
-- Personalized Recommendations: Generates personalized content recommendations based on user preferences and viewing history.
-- Machine Learning Model: Runs a machine learning model to predict user preferences and recommend relevant content.
-- Recommendation Data Storage: Stores recommendation data in a MongoDB database, including user ID, recommended content, and timestamp.
+	- Personalized Recommendations: Generates personalized content recommendations based on user preferences and viewing history.
+	- Machine Learning Model: Runs a machine learning model to predict user preferences and recommend relevant content.
+	- Recommendation Data Storage: Stores recommendation data in a NoSQL database, including user ID, recommended content, and timestamp.
 
-##### Rating Service
+- Rating Service:
 
-Responsible for managing user ratings for content, updating the ratings, and calculating the average rating for each content.
+	Responsible for managing user ratings for content, updating the ratings, and calculating the average rating for each content.
 
-- User Ratings: Manages user ratings for content, updates ratings, and calculates the average rating for each content.
-- Rating Data Storage: Stores user ratings in a MongoDB database, including user ID, content ID, rating, and timestamp.
-- Average Rating Calculation: Calculates the average rating for each content based on user ratings.
-- Input for Recommendation Engine: Provides user ratings as input to the recommendation engine for generating personalized recommendations.
+	- User Ratings: Manages user ratings for content, updates ratings, and calculates the average rating for each content.
+	- Rating Data Storage: Stores user ratings in a NoSQL database, including user ID, content ID, rating, and timestamp.
+	- Average Rating Calculation: Calculates the average rating for each content based on user ratings.
+	- Input for Recommendation Engine: Provides user ratings as input to the recommendation engine for generating personalized recommendations.
 
+- Video Streaming Service:
 
-##### Streaming Service
+	Responsible for streaming content to users, handling video playback, and ensuring a smooth streaming experience.
 
-Responsible for streaming content to users, handling video playback, and ensuring a smooth streaming experience.
-
-- Video Streaming: Streams video content to users, handles video playback, and ensures a smooth streaming experience.
-- Content Delivery: Delivers content from the storage layer to users via a content delivery network (CDN) for faster access.
-- Video Player Integration: Integrates with video players to provide a seamless streaming experience on web and mobile applications.
-
+	- Video Streaming: Streams video content to users, handles video playback, and ensures a smooth streaming experience.
+	- Content Delivery: Delivers content from the storage layer to users via a content delivery network (CDN) for faster access.
+	- Video Player Integration: Integrates with video players to provide a seamless streaming experience on web and mobile applications.
 
 ##### Database
 
 The data storage layer where user data, content data, ratings, and other information are stored. We could use a NoSQL database like MongoDB for storing user profiles, content metadata, and ratings. We could also use a caching layer like Redis for caching frequently accessed data, improving performance.
 
-The database could look something like this:
+A NoSQL database like MongoDB would be a good choice for storing user profiles, content metadata, and ratings. We could have multiple collections for storing different types of data:
 
 - User Collection: Stores user profiles, including user ID, name, email, password, viewing history, and preferences.
 - Content Collection: Stores content metadata, including content ID, title, description, genre, duration, and other details.
@@ -230,40 +280,6 @@ Caches and delivers content to users from the nearest edge server to improve per
 ##### Monitoring System
 
 A monitoring system that tracks the performance of the application, identifies issues, and ensures the system is running smoothly. Tools like Prometheus, Grafana, and ELK Stack could be used for monitoring and logging.
-
-### Low-Level Design
-
-Coming into a low-level design of the backend system, a detailed design of each service, including the API endpoints, data models, and interactions between services would look something like this:
-
-- User Service: 
-	- API Endpoints: /register, /login, /profile, /password
-	- Data Models: User (user ID, name, email, password, viewing history, preferences)
-	- Interactions: Communicates with the Content Service, Recommendation Engine, and Rating Service.
-
-- Content Service:
-	- API Endpoints: /content, /homepage, /preferences
-	- Data Models: Content (content ID, title, description, genre, duration)
-	- Interactions: Communicates with the User Service, Recommendation Engine, and Rating Service.
-
-- Recommendation Engine:
-	- API Endpoints: /recommendations
-	- Data Models: Recommendations (user ID, recommended content)
-	- Interactions: Communicates with the User Service, Content Service, and Rating Service.
-
-- Rating Service:
-	- API Endpoints: /rate, /average
-	- Data Models: Rating (user ID, content ID, rating, timestamp)
-	- Interactions: Communicates with the User Service, Content Service, and Recommendation Engine.
-
-The frontend would interact with the backend services via RESTful APIs, sending requests to the backend services and receiving responses back. The backend services would communicate with each other using message queues or direct API calls, depending on the use case.
-
-The frontend could look something like this:
-
-- Homepage: Displays recommended content, trending content, and user-specific recommendations.
-- User Profile: Allows users to update their profiles, change passwords, and manage preferences.
-- Content Details: Shows detailed information about content, including title, description, genre, duration, and ratings.
-- Video Player: Streams video content to users, handles video playback, and ensures a smooth streaming experience.
-
 
 This is a very high-level overview of the system design for a content recommendation system like Netflix. In reality, the system would be much more complex, with additional services, databases, caching layers, load balancers, and monitoring systems. But this should give you a good starting point for building a content recommendation system.
 
