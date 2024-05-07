@@ -43,7 +43,7 @@ This doesn't mean that choosing anything else makes you lethargic. You could sti
 
 ### Languages
 
-**Pick up a language, and stick to it**. Python, JavaScript, Java *(well, not Java, that is shit. "But, but, but....." shhhhhhh.)*, C++, Go, Rust, etc. are all good choices. In the long run, it doesn't matter which language you pick. Real-world applications require you to know the basics and learn the rest on the go.
+Pick up a language, and **stick to it**. Python, JavaScript, Java *(well, not Java, that is shit. "But, but, but....." shhhhhhh.)*, C++, Go, Rust, etc. are all good choices. It doesn't matter which language you pick. Real-world applications require you to know the basics and learn the rest on the go. You can always learn as many languages you wish.
 
 We start by getting into the [documentation](https://devdocs.io/cpp/), learning the basics, and then moving on to practising. There are a ton of tutorials on YouTube that help you learn C++. I am sharing a few here that I followed while I was learning to code:
 
