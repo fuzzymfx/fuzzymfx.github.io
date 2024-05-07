@@ -143,7 +143,7 @@ Your resume/ portfolio makes you stand out in the crowd. It is the first thing t
 
 Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, work experience, and skills would speak for themselves. Your resume should effectively communicate what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
 
-[**Resume Building for cbrtl**: a short guide to building your resume](/blog/resume.html) is what I followed to build my resume. 
+[**Resume Building for cbrtl**: a short guide to building your resume](/blog/resume-building.html) is what I followed to build my resume. 
 
 ## Next?
 
