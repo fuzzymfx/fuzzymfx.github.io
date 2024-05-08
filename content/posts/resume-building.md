@@ -48,6 +48,8 @@ There are a couple of rules that I follow:
 
 - Instead of hobbies, try to put down something more relevant to the job you are applying for. A football player is not going to be hired as a software developer. A keen eye for design, a graphics design interest, or a photography enthusiast can contribute well to front-end engineering.
 
+- Most certifications are useless. Unless you have a security certification like AZ-900, or a cloud certification like AWS solutions architect, do not add them. Anybody can learn 'Python', or 'Machine Learning'. What matters is what you have done with it; what you have built (projects).
+
 - Try to add links for the projects that you build. Preferably deployed links, or GitHub repositories. 
 
 The hierarchy of space allocation is as follows:
