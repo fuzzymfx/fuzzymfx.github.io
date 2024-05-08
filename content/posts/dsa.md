@@ -179,6 +179,7 @@ etc.
 	cout<<"The top element is:"<<s.top()<<endl;
 	```
 	You can also use vectors/ arrays/ linked lists to implement stacks manually. Try implementing a stack using vectors.
+
 	Stacks are used in applications where the order of elements is important, such as in compilers, browsers, etc. In compilers, the stack is used to store the operators and operands of an expression, and the order in which they are popped determines the order of evaluation. [*Refer*](https://www.geeksforgeeks.org/expression-evaluation/) to this link for more information. A function call is also implemented using a stack. When a function is called, the address of the next instruction is pushed onto the stack, and when the function returns, the address is popped from the stack. All of this becomes clear when you start coding.
 
 	The std::stack in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. It is implemented using arrays. The std::stack is a wrapper around the std::deque.
@@ -199,6 +200,7 @@ etc.
 	```
 
 	Try implementing a queue using vectors/ arrays/ linked lists.
+
 	Queues are also used when the order of elements is important, such as in printers, operating systems, etc. In printers, the queue is used to store the print jobs, and the order in which they are dequeued determines the order of printing. In operating systems, the queue is used to store the processes, and the order in which they are dequeued determines the order of execution.
 
 	The std::queue in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. It is implemented using arrays. The std::queue is a wrapper around the std::deque.
@@ -218,7 +220,7 @@ etc.
 		cout<<"The top element is:"<<pq.top()<<endl;
 		```
 
-	2. **Deques** - Deques(Double-ended queues) are a type of queue where elements can be added or removed from both the front and the rear. They are implemented using arrays. They are used in applications where elements need to be added or removed from both ends, such as in a sliding window, etc.
+	2. **Deques** - Deques(Double-ended queues) are a type of queue where elements can be added or removed from both the front and the rear. They are used in applications where elements need to be added or removed from both ends, such as in a sliding window, etc.
 
 		```cpp
 		#include <deque>
@@ -229,7 +231,7 @@ etc.
 		cout<<"The front element is:"<<dq.front()<<endl;
 		cout<<"The rear element is:"<<dq.back()<<endl;
 		```
-	3. **Circular Queues** - Circular queues are a type of queue where the rear of the queue is connected to the front of the queue. They are implemented using arrays. They are used in applications where the queue needs to be circular, such as in a round-robin scheduling algorithm, etc.
+	3. **Circular Queues** - Circular queues are a type of queue where the rear of the queue is connected to the front of the queue. They are used in applications where the queue needs to be circular, such as in a round-robin scheduling algorithm, etc.
 
 		```cpp
 		#include <queue>

@@ -80,7 +80,7 @@ I haven't completed all, this also essentially helps me as well. I could try sol
 
 DSA is vast and takes a lot of space. Resouces are scattered all over the internet. The ones that I have come across are either too verbose, or too concise We'd be following our in-house comprehensive guide to getting started with DSA:
 
-[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
+[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html)
 
 Parallelly, we'd be doing what I initially did to get into the industry. Build.
 
