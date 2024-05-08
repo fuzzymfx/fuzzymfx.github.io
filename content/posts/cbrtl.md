@@ -112,10 +112,10 @@ A common starting point would be getting familiar with the language you want to 
   - [Fitness planner application](https://github.com/fuzzymfx/fitness-videoplayer)
   - [A minimal task manager](https://github.com/fuzzymfx/flutter-golang-taskapp)
 
-Here are some of the projects that we'll be building here:
+Here are some of the projects that we'll be building here, in the upcoming months:
 
-1. [A tiny cmd-line bit-torrent client written in TypeScript](/blog/bee.html) (*under construction*)
-2. [A distributed chat application written in Rust and Svelte](/blog/druss.html) (*under construction*)
+1. A tiny cmd-line bit-torrent client written in TypeScript
+2. A distributed chat application written in Rust and Svelte
 
 ### System Design & Architecture
 
