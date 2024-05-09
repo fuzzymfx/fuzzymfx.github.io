@@ -8,7 +8,7 @@ tag: "tech"
 
 I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. Tons of platforms provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to make sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
 
-This became the guiding principle behind *cbrtl*, the platform I am building. Initially, [Srijan](https://injuly.in) and I thought of starting cbrtl, an open-source cult that comes together as a community to build fun stuff together.
+This became the guiding principle behind [cbrtl](https://cbrtl.github.io), the platform I am building. Initially, [Srijan](https://injuly.in) and I thought of starting cbrtl, an open-source cult that comes together as a community to build fun stuff together. Following this, I thought of adding my experience of getting into software engineering, and building a platform that aims at sharing this experience with each other, as a community, first-hand. 
 
 This curriculum is designed to be self-sustaining: a collection of resources freely available on the internet. The idea is to curate these resources and present them in a structured manner. Comprehend this however you will; a guide to getting a job, or becoming a better engineer in general. **This is how I became a software engineer.**
 
@@ -152,7 +152,7 @@ I hope this series of articles was verbose enough to help you get started. The i
 
 ## cbrtl
 
-`cbrtl` is a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community.
+[cbrtl](https://cbrtl.github.io) is a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community.
 
 This is a **free** platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. I deeply value my time, and I am sure you do too. Hence, it would be understandable if at times, I am unavilable to help you out. The primary goal still remains the same: to empower you to build stuff and become a better engineer. Any help in donating and contributing more to building the platform would be appreciated. Optionally, you could follow this guide and get started on your own.
 
