@@ -1,5 +1,5 @@
 ---
-title: 'cbrtl: a coding community'
+title: 'cbrtl: getting started with SWE'
 date: "01-05-2024"
 description: "This is how I would go about teaching software engineering if I were to teach it."
 draft: false
