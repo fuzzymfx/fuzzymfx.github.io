@@ -12,7 +12,7 @@ showdate: true
 
 ###### May
 
-I finally decided to showcase a small percentage of posters that I designed a couple of years ago. Find my graphic design portfolio [here](https://dribbble.com/fuzzymf). The next would be adding UI designs and illustrations here.
+I built a [portfolio](https://dribbble.com/fuzzymf) to showcase some of the posters I designed some years ago. The next would be adding more posters, UI designs, and illustrations here.
 
 My family visiting me returned back home. The most dreaded feeling is when you have to say goodbye. I have always been a lot attached, and this time, like always, it was excruciately painful. Before leaving, we decided to get matching tattoos! Here are [mama and baby dinausors](https://anubhavp.dev/assets/img/current/dinos.png) on our wrists.
 
