@@ -12,9 +12,11 @@ showdate: true
 
 ###### May
 
+I finally decided to showcase a small percentage of posters that I designed a couple of years ago. Find my graphic design portfolio [here](https://dribbble.com/fuzzymf). The next would be adding UI designs and illustrations here.
+
 My family visiting me returned back home. The most dreaded feeling is when you have to say goodbye. I have always been a lot attached, and this time, like always, it was excruciately painful. Before leaving, we decided to get matching tattoos! Here are [mama and baby dinausors](https://anubhavp.dev/assets/img/current/dinos.png) on our wrists.
 
-I am back to the same old routine, looking forward to an idea that was pitched to me recently. I am planning to build a platform that aims at sharing my experience of getting into software engineering. The idea is to craft a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning. This became the guiding principle behind [cbrtl](https://anubhavp.dev/blog/cbrtl.html).
+I am back to the same old routine, looking forward to an idea that was pitched to me recently. I am planning to build a platform that aims at sharing my experience of getting into software engineering. The idea is to craft a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning. This became the guiding principle behind restarting [cbrtl](https://anubhavp.dev/blog/cbrtl.html): a tight-knit coding community that I started in my undergrad.
 
 ###### April
 

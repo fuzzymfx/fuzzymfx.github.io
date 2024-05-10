@@ -8,7 +8,7 @@ tag: "tech"
 
 I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. Tons of platforms provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to make sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
 
-This became the guiding principle behind [cbrtl](https://cbrtl.github.io), the platform I am building. Initially, [Srijan](https://injuly.in) and I thought of starting cbrtl, an open-source cult that comes together as a community to build fun stuff together. Following this, I thought of adding my experience of getting into software engineering, and building a platform that aims at sharing this experience with each other, as a community, first-hand. 
+This became the guiding principle behind restarting [cbrtl](https://cbrtl.github.io). [Srijan](https://injuly.in) and I started cbrtl, an open-source cult that comes together as a community to build fun stuff together. Following this, I am adding my experience of getting into software engineering, and building a platform that aims at sharing this experience with each other, as a community, first-hand. 
 
 This curriculum is designed to be self-sustaining: a collection of resources freely available on the internet. The idea is to curate these resources and present them in a structured manner. Comprehend this however you will; a guide to getting a job, or becoming a better engineer in general. **This is how I became a software engineer.**
 
@@ -24,9 +24,7 @@ This curriculum is designed to be self-sustaining: a collection of resources fre
 
     This is where you start to think about the architecture of your application, and how to make it scalable, fault-tolerant, and secure. You'd want to monitor your application, and make sure it's running smoothly. You would not want anybody accessing your data, securing them, and allowing only a selected few to access it. The differences between a monolith and a microservice architecture help.
 
-The difference between the platform I am building, and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish.
-
-While following this curriculum, you'd be doing it yourself. I'd still be available to help you out in any way I could.
+The difference between the cbrtl and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish. While following this curriculum, you'd be doing it yourself. I'd still be available to help you out in any way I could.
 
 - [Languages](#languages)
 - [Problem Solving/ Data Structures](#problem-solving-data-structures)
