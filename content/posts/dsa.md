@@ -74,7 +74,7 @@ etc.
 
 #### Data Structures in C++
 
-1. **Arrays** - Arrays are a collection of elements of the same data type. They are static in nature, meaning that the size of the array is fixed; you can't change it once declared. The elements are stored in contiguous memory locations. The index of the first element is 0.
+1. **Arrays** - [Arrays](https://en.wikipedia.org/wiki/Array_(data_structure)) are a collection of elements of the same data type. They are static in nature, meaning that the size of the array is fixed; you can't change it once declared. The elements are stored in contiguous memory locations. The index of the first element is 0.
 
 	```cpp
 	int arr[5] = {1, 2, 3, 4, 5};
@@ -93,7 +93,7 @@ etc.
 
 	The benefit of using vectors is that you don't have to worry about the size of the vector, you can keep adding elements to it. Usually, the size is always doubled when the vector is full.
 
-3. **Linked Lists** - Linked lists are a collection of elements called nodes. Each node contains data and a pointer to the next node. They are dynamic. There are three types of linked lists:
+3. **Linked Lists** - [Linked lists](https://en.wikipedia.org/wiki/Linked_list) are a collection of elements called nodes. Each node contains data and a pointer to the next node. They are dynamic. There are three types of linked lists:
 
 	1. Singly Linked List - Each node contains data and a pointer to the next node. The last node points to NULL. It can be traversed only in one direction.
 
@@ -166,7 +166,7 @@ etc.
 
 	In almost all cases, **vectors** are preferred over arrays and linked lists because of their dynamic nature and the ability to access elements randomly.
 
-4. **Stacks** - Stacks are a collection of elements that follow the Last In First Out (LIFO) principle. They have two main operations: push and pop. The push operation adds an element to the top of the stack, and the pop operation removes the top element from the stack. (A stack of PS5 CDs, a stack of papers, etc.)
+4. **Stacks** - [Stacks](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) are a collection of elements that follow the Last In First Out (LIFO) principle. They have two main operations: push and pop. The push operation adds an element to the top of the stack, and the pop operation removes the top element from the stack. (A stack of PS5 CDs, a stack of papers, etc.)
 
 	```cpp
 	#include <stack>
@@ -186,7 +186,7 @@ etc.
 
 	Stacks - O(1) to access the top element, O(1) to insert an element, O(1) to delete an element
 
-5. **Queues** - Queues are a collection of elements that follow the First In First Out (FIFO) principle. They have two main operations: enqueue and dequeue. The enqueue operation adds an element to the rear of the queue, and the dequeue operation removes the front element from the queue. (A queue of people waiting at Comicon, a book signing by JKR, a queue of cars at a toll booth, etc.)
+5. **Queues** - [Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) are a collection of elements that follow the First In First Out (FIFO) principle. They have two main operations: enqueue and dequeue. The enqueue operation adds an element to the rear of the queue, and the dequeue operation removes the front element from the queue. (A queue of people waiting at Comicon, a book signing by JKR, a queue of cars at a toll booth, etc.)
 
 	```cpp
 	#include <queue>
@@ -244,7 +244,7 @@ etc.
 		cout<<"The front element is:"<<q.front()<<endl;
 		```
 
-6. **Hash Tables** - Hash tables are a type of data structure that stores key-value pairs. They are implemented using hash functions. The key is hashed to generate a unique index, and the value is stored at that index. They are used in applications where fast access to elements is required, such as in databases, compilers, etc.
+6. **Hash Tables** - [Hash tables](https://en.wikipedia.org/wiki/Hash_table) are a type of data structure that stores key-value pairs. They are implemented using hash functions. The key is hashed to generate a unique index, and the value is stored at that index. They are used in applications where fast access to elements is required, such as in databases, compilers, etc.
 
 	1. **Unordered Map** - There is no order maintained in the keys. The keys are hashed to generate a unique index, and the value is stored at that index. The keys are unique.
 
@@ -274,7 +274,7 @@ etc.
 
 	3. Unordered/ Ordered Set: A set is a collection of unique elements. Same as the other, but with unique elements.
 
-7. **Tree** - A tree is a collection of nodes(vertices) connected by edges. The nodes are arranged in a hierarchical order.
+7. **Tree** - A [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) is a collection of nodes(vertices) connected by edges. The nodes are arranged in a hierarchical order.
 
 	1. **Binary Tree** - A tree where each node has at most two children.
 
@@ -300,6 +300,19 @@ etc.
 
 	8. Fenwick Tree - A Fenwick tree is a type of tree where each node represents a range of elements. The Fenwick tree is used to perform range queries on an array. The Fenwick tree is used in applications where range queries are important, such as in databases, etc.
 
+		
+		Segment tree -
+		- query in O(logN)
+		- preprocessing in O(N)
+		- Pros: less time complexity.
+		- Cons: More amount of code compared to the other data structures.
+		
+		Fenwick tree -
+		- query in O(logN)
+		- preprocessing in O(NlogN)
+		- Pros: the shortest code, less time complexity
+		- Cons: Fenwick tree can only be used for queries with L=1, so it is not applicable to many problems.
+
 	9. Suffix Tree - A suffix tree is a type of tree where each node represents a suffix of a string. The suffix tree is used to store strings. The suffix tree is used in applications where the search for strings is important, such as in dictionaries, etc.
 
 	10. Binary Indexed Tree - A binary indexed tree is a type of tree where each node represents a range of elements. The binary indexed tree is used to perform range queries on an array. The binary indexed tree is used in applications where range queries are important, such as in databases, etc.
@@ -317,7 +330,7 @@ etc.
 	Trees - O(log n) to search for an element, O(log n) to insert an element, O(log n) to delete an element
 
 
-8. **Graph** - A graph is a collection of nodes(vertices) and edges. The edges connect the nodes. There are two types of graphs:
+8. **Graph** - A [graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)) is a collection of nodes(vertices) and edges. The edges connect the nodes. There are two types of graphs:
 
 	1. Directed Graph - The edges have a direction associated with them. The direction is from one node to another. *Tree* is a type of directed graph.
 	2. Undirected Graph - The edges do not have a direction associated with them. The direction is bidirectional.
