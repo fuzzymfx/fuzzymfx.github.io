@@ -12,7 +12,25 @@ showdate: true
 
 ###### May
 
-I built a [portfolio](https://dribbble.com/fuzzymf) to showcase some of the posters I designed some years ago. The next would be adding more posters, UI designs, and illustrations here.
+Currently, I am working on [bee](https://github.com/fuzzymfx/b), a light-wight bittorrent client written in TypeScript. A bencode parser, and a torrent file parser are already implemented. The class looks like
+  
+  ```ts
+  export class Torrent {
+    public readonly infoHash: string; // 20 bytes --> The SHA1 hash of the value of the info key from the Metainfo file.
+    public readonly displayName?: string; // The name of the file or directory to store the data in.
+    public readonly trackers?: string[]; // The list of trackers.
+    public readonly urlList?: string[]; // The list of web seeds.
+    public readonly announce?: string; // The URL of the tracker.
+    public readonly announceList?: string[][]; // The list of lists of trackers.
+    public readonly size?: number; // The total length of the file(s) in bytes.
+}
+  ```
+
+The list of trackers give a list of peers each, and the next steps would be to implement the handshake, and the peer wire protocol. There are various strategies to follow here. My aim is to get the fastest peers, and download the rare pieces first. I am not sure whether I would start seeding the files as soon as they are downloaded since that increases the complexity of the current implementation, but I am interested in implementing that someday later. The DHT protocol seemed more interesting to me. The DHT protocol is a decentralized way of finding peers, and it is used by clients like qBittorrent, and Transmission to find peers for a torrent.
+
+The project is still in its early stages, and I am looking for contributors. If you are interested in contributing, feel free to reach out to me.
+
+I built a [dribble portfolio](https://dribbble.com/fuzzymf) to showcase some of the posters I designed a few years ago. The next would be adding more posters, UI designs, and illustrations here.
 
 My family visiting me returned back home. The most dreaded feeling is when you have to say goodbye. I have always been a lot attached, and it was painful. Before leaving, we decided to get matching tattoos! Here are [mama and baby dinausors](https://anubhavp.dev/assets/img/current/dinos.png) on our wrists.
 
