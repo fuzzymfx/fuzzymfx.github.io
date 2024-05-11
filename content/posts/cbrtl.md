@@ -78,7 +78,7 @@ I haven't completed all, this also essentially helps me as well. I could try sol
 
 DSA is vast and takes a lot of space. Resouces are scattered all over the internet. The ones that I have come across are either too verbose, or too concise We'd be following our in-house comprehensive guide to getting started with DSA:
 
-[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html)
+[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
 
 Parallelly, we'd be doing what I initially did to get into the industry. Build.
 
@@ -86,7 +86,7 @@ Parallelly, we'd be doing what I initially did to get into the industry. Build.
 
 We'd be looking at building entirely new applications from scratch, deploying them to a server, making them accessible through the internet, or maybe using a serverless architecture. We can get a domain, and host it on a server, or use a cloud provider like AWS, GCP, or Azure, if you want.
 
-Coming to building projects, you can have various interests and domains. You could be wanting to become a game developer, a data scientist, a web developer, or a backend developer. This article is a common guide for all of these. I'd primarily be focusing on application development and backend development in this article. Nevertheless, I'd be sharing resources for ML and AI as well; I have worked on quite a few projects in these domains.
+cbrtl was meant to be a hub for projects. You can have various interests and domains. You could be wanting to become a game developer, a data scientist, a web developer, or a backend developer. We'd be building projects in all of these domains.
 
 I have curated a list of 9-12 projects that we could build together. The list keeps on changing, the same as with the DSA list. These include common topics, such as application dev, game dev, and ML/ AI, etc. All of these can be found on the internet. I'll explain a couple of projects here, and we could build the rest together.
 
@@ -110,10 +110,10 @@ A common starting point would be getting familiar with the language you want to 
   - [Fitness planner application](https://github.com/fuzzymfx/fitness-videoplayer)
   - [A minimal task manager](https://github.com/fuzzymfx/flutter-golang-taskapp)
 
-Here are some of the projects that we'll be building here, in the upcoming months:
+Here are some of the projects that I am currently working on, and you're welcome to join me:
 
 1. A tiny cmd-line bit-torrent client written in TypeScript
-2. A distributed chat application written in Rust and Svelte
+2. A distributed cache application written in Rust and Svelte
 
 ### System Design & Architecture
 
@@ -133,7 +133,7 @@ Some of the things you could think about are:
 
 System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article makes it clear why these decisions were made.
 
-[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) gives you a comprehensive guide on how to design your own system.
+[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
 
 ### Resume
 

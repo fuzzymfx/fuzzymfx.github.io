@@ -11,8 +11,7 @@ Before starting with this, I wanted to ensure that if at any point you feel that
 
 This guide has been written keeping in mind that you have a basic understanding of C++ and have written some code in it. If you haven't, I would recommend you to [start with that first](/blog/c++.html). Although the language used is C++, the concepts are the same in any language, so you can follow along with any language you're comfortable with. The syntax might change, but the concepts remain the same.
 
-Data Structures and Algorithms are the building blocks of any program. They help you write efficient code and solve complex problems. They are essentially structures that hold data.
-
+Data Structures and Algorithms are the building blocks of any program. They help you write efficient code and solve complex problems. Most essential for systems programming, they are also used in other core software engineering roles.
 
 ## Time Complexity
 
@@ -27,7 +26,11 @@ Time complexity is a measure of the amount of time an algorithm takes to run as 
 
 Algorithms with lesser time complexity are more efficient than those with higher time complexity. For example, an algorithm with O(1) time complexity is more efficient than an algorithm with O(n) time complexity. We would want our tasks to be completed quickly, like in a sec, rather than waiting for n seconds.
 
-## Primitive Data Structures
+## Data Structures
+
+Data structures are a way of organizing and storing data so that it can be accessed and modified efficiently. They are used to store and manipulate data in a computer program.
+
+### Primitive Data Structures
 
 Primitive data structures allow you to store a single data value. These include:
 
@@ -38,14 +41,14 @@ Primitive data structures allow you to store a single data value. These include:
 5. Pointers
 
 
-## Non-Primitive Data Structures
+### Non-Primitive Data Structures
 
 Non-primitive data structures allow you to store multiple data types. There are two types of non-primitive data structures:
 
 1. Linear Data Structures
 2. Non-Linear Data Structures
 
-### Linear Data Structures
+#### Linear Data Structures
 
 As the name suggests, the linear data structures can store data in a linear dimension. There are two types of linear data structures: 
 
@@ -60,7 +63,7 @@ Elements are stored sequentially. These include:
 4. Stacks - *Dynamic*
 5. Queues - *Dynamic*
 
-### Non-Linear Data Structures
+#### Non-Linear Data Structures
 
 Elements are stored in a non-sequential manner. These include:
 
@@ -72,7 +75,7 @@ Elements are stored in a non-sequential manner. These include:
 etc.
 
 
-#### Data Structures in C++
+##### Data Structures in C++
 
 1. **Arrays** - [Arrays](https://en.wikipedia.org/wiki/Array_(data_structure)) are a collection of elements of the same data type. They are static in nature, meaning that the size of the array is fixed; you can't change it once declared. The elements are stored in contiguous memory locations. The index of the first element is 0.
 
@@ -186,7 +189,7 @@ etc.
 	s.pop();
 	cout<<"The top element is:"<<s.top()<<endl;
 	```
-	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/1920px-Lifo_stack.svg.png" alt="Stack" class='h-50 w-50 mb2'>Simple representation of a stack runtime with push and pop operations.</figure>
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/1920px-Lifo_stack.svg.png" alt="Stack" class='h-100 w-100 mb2'>Simple representation of a stack runtime with push and pop operations.</figure>
 
 	You can also use vectors/ arrays/ linked lists to implement stacks manually. Try implementing a stack using vectors.
 
@@ -394,6 +397,196 @@ etc.
 
 11. Skip List - A data structure that allows for fast search, insertion, and deletion of elements. The skip list is used to store elements. The skip list is used in applications where fast search, insertion, and deletion of elements are important, such as in databases, etc.
 
-#### Next?
+## Algorithms
 
-There is a lot of information in these pages, half of which you probably won't need. The important data structures are marked with \b font-weight. The rest are just for your information. You can always come back to this page if you need to refer to any data structure. Again, it is completely understandable if this becomes too much for you to understand all at once. The best way to understand these is to code them. I will keep updating this page, adding more information as we go along.
+Algorithms are a set of instructions that are used to solve a problem. There are a million algorithms out there, but the most common ones are:
+
+
+- [Searching Algorithms](#searching-algorithms)
+	- [Binary Search](#binary-search)
+	- [Linear Search](#linear-search)
+- [Sorting Algorithms](#sorting-algorithms)
+	- [Bubble Sort](#bubble-sort)
+	- [Selection Sort](#selection-sort)
+	- [Insertion Sort](#insertion-sort)
+	- [Merge Sort](#merge-sort)
+	- [Quick Sort](#quick-sort)
+- [Graph Algorithms](#graph-algorithms)
+	- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+	- [Depth-First Search (DFS)](#depth-first-search-dfs)
+- [Tree Algorithms](#tree-algorithms)
+	- [Tree Traversal (Inorder, Preorder, Postorder)](#tree-traversal-inorder-preorder-postorder)
+	- [Binary Search Tree (BST) operations (Insertion, Deletion, Searching)](#binary-search-tree-bst-operations-insertion-deletion-searching)
+- [Dynamic Programming](#dynamic-programming)
+	- [Fibonacci Series](#fibonacci-series)
+	- [Knapsack Problem (0/1 Knapsack)](#knapsack-problem-01-knapsack)
+- [Greedy Algorithms](#greedy-algorithms)
+	- [Activity Selection](#activity-selection)
+	- [Fractional Knapsack](#fractional-knapsack)
+	- [Dijkstra's Algorithm (for shortest path)](#dijkstras-algorithm-for-shortest-path)
+- [Miscellaneous](#miscellaneous)
+	- [Recursion Basics](#recursion-basics)
+	- [Basic Math Algorithms (GCD, LCM)](#basic-math-algorithms-gcd-lcm)
+- [String Algorithms](#string-algorithms)
+	- [String Matching (Naive Algorithm)](#string-matching-naive-algorithm)
+	- [KMP Algorithm](#kmp-algorithm)
+	- [Rabin-Karp Algorithm (for substring search)](#rabin-karp-algorithm-for-substring-search)
+
+
+### Searching Algorithms
+
+#### Binary Search
+
+#### Linear Search
+
+### Sorting Algorithms
+
+#### Bubble Sort
+
+#### Selection Sort
+
+#### Insertion Sort
+
+#### Merge Sort
+
+#### Quick Sort
+
+### Graph Algorithms
+
+#### Breadth-First Search (BFS)
+
+#### Depth-First Search (DFS)
+
+### Tree Algorithms
+
+#### Tree Traversal (Inorder, Preorder, Postorder)
+
+#### Binary Search Tree (BST) operations (Insertion, Deletion, Searching)
+
+### Dynamic Programming
+
+#### Fibonacci Series
+
+#### Knapsack Problem (0/1 Knapsack)
+
+### Greedy Algorithms
+
+#### Activity Selection
+
+#### Fractional Knapsack
+
+#### Dijkstra's Algorithm (for shortest path)
+
+### Miscellaneous
+
+#### Recursion Basics
+
+#### Basic Math Algorithms (GCD, LCM)
+
+### String Algorithms
+
+#### String Matching (Naive Algorithm)
+
+#### KMP Algorithm
+
+#### Rabin-Karp Algorithm (for substring search)
+
+
+### Quick Reference
+
+- Searching Algorithms:
+	- Binary Search:
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Large datasets, sorted arrays. 
+	- Linear Search:
+		- Time Complexity: O(n)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+- Sorting Algorithms:
+	- Bubble Sort:
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+	- Selection Sort:
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+	- Insertion Sort:
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+	- Merge Sort:
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Large datasets.
+	- Quick Sort:
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(log n)
+		- Suitable for: Large datasets.
+- Graph Algorithms:
+	- Breadth-First Search (BFS):
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)	
+		- Suitable for: Shortest path, connected components, etc.
+	- Depth-First Search (DFS):
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)
+		- Suitable for: Topological sorting, connected components, etc.
+- Tree Algorithms:
+	- Tree Traversal (Inorder, Preorder, Postorder):
+		- Time Complexity: O(n)
+		- Space Complexity: O(n)
+		- Suitable for: Tree traversal, expression evaluation, etc.
+	- Binary Search Tree (BST) operations (Insertion, Deletion, Searching):
+		- Time Complexity: O(log n)
+		- Space Complexity: O(n)
+		- Suitable for: Searching, sorting, etc.
+- Dynamic Programming:
+	- Fibonacci Series:
+		- Time Complexity: O(n)
+		- Space Complexity: O(n)
+		- Suitable for: Fibonacci series, etc.
+	- Knapsack Problem (0/1 Knapsack):
+		- Time Complexity: O(nW)
+		- Space Complexity: O(nW)
+		- Suitable for: Knapsack problem, etc.
+- Greedy Algorithms:
+	- Activity Selection:
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Activity selection, etc.
+	- Fractional Knapsack:
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Fractional knapsack, etc.
+	- Dijkstra's Algorithm (for shortest path):
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)	
+		- Suitable for: Shortest path, etc.
+- Miscellaneous:
+	- Recursion Basics:
+		- Time Complexity: O(2^n)
+		- Space Complexity: O(n)
+		- Suitable for: Recursion, etc.
+	- Basic Math Algorithms (GCD, LCM):
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: GCD, LCM, etc.
+- String Algorithms:
+	- String Matching (Naive Algorithm):
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: String matching, etc.
+	- KMP Algorithm:
+		- Time Complexity: O(m+n)
+		- Space Complexity: O(m)
+		- Suitable for: String matching, etc.
+	- Rabin-Karp Algorithm (for substring search):
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: Substring search, etc.
+
+## Next?
+
+There is a lot of information in these pages, more than 70% of which you probably won't need. The important data structures are marked with \b font-weight. The rest are just for your information. Again, it is completely understandable if this becomes too much for you to understand all at once. The best way to understand these is to code them. My primary advice remains the same; try building something cool, and these data structures and algorithms will come to your rescue when stuck. I will keep updating this page, adding more information as we go along.
