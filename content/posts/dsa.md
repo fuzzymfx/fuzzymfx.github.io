@@ -79,7 +79,10 @@ etc.
 	```cpp
 	int arr[5] = {1, 2, 3, 4, 5};
 	cout<<"The first element is:"<<arr[0]<<endl;
+
 	```
+
+	`[1, 2, 3, 4, 5]`
 
 2. **Vectors** - Vectors are similar to arrays, but they are dynamic. You can change the size of the vector once declared. They are implemented using arrays. They are part of the Standard Template Library (STL) in C++.
 
@@ -159,6 +162,11 @@ etc.
 		}
 		```
 
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/2560px-Singly-linked-list.svg.png" alt="Linked List" class='h-50 w-100 mb2'>
+	A Singly Linked List with data value as integers
+	</figure>
+
 	Linked Lists allow you to insert and delete elements in O(1) time complexity, whereas arrays or vectors take O(n) time complexity. The disadvantage of linked lists is that you can't access elements randomly, you have to traverse the list to access an element.
 
 	Arrays/ Vectors: O(1) to access an element, O(n) to insert/delete an element
@@ -178,6 +186,8 @@ etc.
 	s.pop();
 	cout<<"The top element is:"<<s.top()<<endl;
 	```
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lifo_stack.svg/1920px-Lifo_stack.svg.png" alt="Stack" class='h-50 w-50 mb2'>Simple representation of a stack runtime with push and pop operations.</figure>
+
 	You can also use vectors/ arrays/ linked lists to implement stacks manually. Try implementing a stack using vectors.
 
 	Stacks are used in applications where the order of elements is important, such as in compilers, browsers, etc. In compilers, the stack is used to store the operators and operands of an expression, and the order in which they are popped determines the order of evaluation. [*Refer*](https://www.geeksforgeeks.org/expression-evaluation/) to this link for more information. A function call is also implemented using a stack. When a function is called, the address of the next instruction is pushed onto the stack, and when the function returns, the address is popped from the stack. All of this becomes clear when you start coding.
@@ -198,6 +208,8 @@ etc.
 	q.pop();
 	cout<<"The front element is:"<<q.front()<<endl;
 	```
+
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/1920px-Data_Queue.svg.png" alt="Queue" class='h-50 w-50 mb2'>Representation of a FIFO (first in, first out) queue</figure>
 
 	Try implementing a queue using vectors/ arrays/ linked lists.
 
@@ -246,6 +258,8 @@ etc.
 
 6. **Hash Tables** - [Hash tables](https://en.wikipedia.org/wiki/Hash_table) are a type of data structure that stores key-value pairs. They are implemented using hash functions. The key is hashed to generate a unique index, and the value is stored at that index. They are used in applications where fast access to elements is required, such as in databases, compilers, etc.
 
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1920px-Hash_table_3_1_1_0_1_0_0_SP.svg.png" alt="Hash Table" class='h-50 w-50 mb2'>A small phone book as a hash table</figure>
+
 	1. **Unordered Map** - There is no order maintained in the keys. The keys are hashed to generate a unique index, and the value is stored at that index. The keys are unique.
 
 		```cpp
@@ -275,6 +289,8 @@ etc.
 	3. Unordered/ Ordered Set: A set is a collection of unique elements. Same as the other, but with unique elements.
 
 7. **Tree** - A [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) is a collection of nodes(vertices) connected by edges. The nodes are arranged in a hierarchical order.
+
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Tree_%28computer_science%29.svg" alt="Tree" class='h-50 w-50 mb2'>This unsorted tree has non-unique values (e.g., the value 2 existing in different nodes, not in a single node only) and is non-binary (only up to two children nodes per parent node in a binary tree). The root node at the top (with the value 2 here), has no parent as it is the highest in the tree hierarchy.</figure>
 
 	1. **Binary Tree** - A tree where each node has at most two children.
 
@@ -331,6 +347,8 @@ etc.
 
 
 8. **Graph** - A [graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)) is a collection of nodes(vertices) and edges. The edges connect the nodes. There are two types of graphs:
+
+	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Directed.svg/1920px-Directed.svg.png" alt="Graph" class='h-50 w-50 mb2'>A directed graph with three vertices (blue circles) and three edges (black arrows).</figure>
 
 	1. Directed Graph - The edges have a direction associated with them. The direction is from one node to another. *Tree* is a type of directed graph.
 	2. Undirected Graph - The edges do not have a direction associated with them. The direction is bidirectional.
