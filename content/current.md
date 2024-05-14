@@ -18,9 +18,9 @@ The project is still in its early stages, and I am looking for contributors. If 
 
 I built a [dribble portfolio](https://dribbble.com/fuzzymf) to showcase some of the posters I designed a few years ago. The next would be adding more posters, UI designs, and illustrations here.
 
-My family visiting me returned back home. The most dreaded feeling is when you have to say goodbye. I have always been a lot attached, and it was painful. Before leaving, we decided to get matching tattoos! Here are [mama and baby dinausors](https://anubhavp.dev/assets/img/current/dinos.png) on our wrists.
-
 Looking forward to an idea that was pitched to me recently, I am planning to build a platform that aims at sharing my experience of getting into software engineering. The idea is to craft a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning. This became the guiding principle behind restarting [cbrtl](https://anubhavp.dev/blog/cbrtl.html): a tight-knit coding community that I started in my undergrad.
+
+My family visiting me returned back home. The most dreaded feeling is when you have to say goodbye. I have always been a lot attached, and it was painful. Before leaving, we decided to get matching tattoos! Here are [mama and baby dinausors](https://anubhavp.dev/assets/img/current/dinos.png) on our wrists.
 
 ###### April
 
