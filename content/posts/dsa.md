@@ -400,7 +400,7 @@ etc.
 ## Algorithms
 
 Algorithms are a set of instructions that are used to solve a problem. There are a million algorithms out there, but the most common ones are:
-
+<!-- 
 
 - [Searching Algorithms](#searching-algorithms)
 	- [Binary Search](#binary-search)
@@ -489,7 +489,7 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 
 #### KMP Algorithm
 
-#### Rabin-Karp Algorithm (for substring search)
+#### Rabin-Karp Algorithm (for substring search) -->
 
 
 ### Quick Reference
@@ -586,6 +586,8 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 		- Time Complexity: O(mn)
 		- Space Complexity: O(1)
 		- Suitable for: Substring search, etc.
+
+**To be continued...**
 
 ## Next?
 
