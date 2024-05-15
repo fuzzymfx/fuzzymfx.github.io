@@ -2,7 +2,7 @@
 title: "The Parakeet King"
 date: "30-05-2024"
 description: "A story about a king who lost his kingdom and found a friend; an exploration of resilience, friendship, and the pursuit of happiness amidst adversity."
-draft: false
+draft: true
 tag: "life"
 ---
 
