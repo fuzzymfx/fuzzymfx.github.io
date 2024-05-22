@@ -35,3 +35,8 @@ I now find joy in the simple pleasures; having a hearty breakfast, coaxing colle
 These conversations transcended the mundane, offering glimpses into each other's lives, dreams, and struggles. As we shared our stories, I found solace that my experiences were not unique. We laughed, commiserated, and dreamed, finding comfort in our shared humanity. Visualising lives from another perspective helps us remarkably. Empathy reigns, and we look to live another day more resilient, looking forward to sharing our stories, breaking bread, and gulping beer cans with each other as we engross in laughter and mutual connection.
 
 We are all stuck here. You might be on the further end of the scale than I am right now. But both of us are here. If I could walk downstairs, you could too. Talk to people, share, watch movies, read stories, get lost in a million other worlds, and come up with something to do about your issues. In the end, it all becomes an act of letting go. Trying to get back up, holding hands and walking together. It took me some time to figure this out; you take the sourest lemon life has to offer and turn it into something resembling Lemonade. Share it among others; live, try, and help live. Build memories. After all, that's all we are, really. Memories.
+
+![parakeet king](../assets/img/parakeetking/evildoer.png)
+
+\- *the evildoer*  
+*undersigned*
