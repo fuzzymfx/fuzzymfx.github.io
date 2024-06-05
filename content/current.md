@@ -10,6 +10,12 @@ showdate: true
 
 <span class="update-date-time"></span>
 
+###### June
+
+May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy. I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and the *Content summarization and acces using vectorDb and AI*, codenamed *Hoid*. I am planning to start working on them once I settle down.
+
+The most recent biggest life altering update is that I got accepted into NYU( *New York University* ) for Masters in Computer Science & Engineering in the Tandon School of Engineering. This is super, super exciting. The past couple of weeks have been really busy, arranging funds, exploring scholarships, and preparing for the visa interview. I am planning to move to New York by the end of August. Looking forward to this new experience, the new people, and the new culture, I am excited to start this new chapter.
+
 ###### May
 
 I am working on [bee](https://github.com/fuzzymfx/b), a light-weight bittorrent client written in TypeScript. A bencode parser, and a torrent file parser have been implemented. There is a list of trackers associated with a torrent file/ magnet link and each tracker gives out a list of peers from which pieces of the file can be downloaded. The next step would be to implement the handshake and the peer wire protocol. There are various strategies to follow here. My aim is to get the fastest peers, and download the rarest pieces first. I am not sure whether I would start seeding the files as soon as they are downloaded since that would be more complicated, but I am interested in implementing that someday later. The DHT protocol also seemed interesting to me. The DHT protocol is a decentralized way of finding peers, and it is used by clients like qBittorrent, and Transmission to find peers for a torrent.
