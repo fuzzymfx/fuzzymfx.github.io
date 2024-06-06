@@ -14,7 +14,7 @@ showdate: true
 
 May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
 
-I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and the *Content summarization and acces using vectorDb and AI*, codenamed *Hoid*. I am planning to start working on them once I settle down.
+I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and a *content summarization using tokenization, vectorDb and AI tool*, codenamed *Hoid*. I am planning to start working on them once I settle down.
 
 Also, I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
 
