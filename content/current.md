@@ -12,9 +12,13 @@ showdate: true
 
 ###### June
 
-May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy. I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and the *Content summarization and acces using vectorDb and AI*, codenamed *Hoid*. I am planning to start working on them once I settle down.
+May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
 
-The most recent biggest life altering update is that I got accepted into NYU( *New York University* ) for Masters in Computer Science & Engineering in the Tandon School of Engineering. This is super, super exciting. The past couple of weeks have been really busy, arranging funds, exploring scholarships, and preparing for the visa interview. I am planning to move to New York by the end of August. Looking forward to this new experience, the new people, and the new culture, I am excited to start this new chapter.
+I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and the *Content summarization and acces using vectorDb and AI*, codenamed *Hoid*. I am planning to start working on them once I settle down.
+
+Also, I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
+
+<!-- The most recent biggest life altering update is that I got accepted into NYU( *New York University* ) for Masters in Computer Science & Engineering in the Tandon School of Engineering. This is super, super exciting. The past couple of weeks have been really busy, arranging funds, exploring scholarships, and preparing for the visa interview. I am planning to move to New York by the end of August. Looking forward to this new experience, the new people, and the new culture, I am excited to start this new chapter. -->
 
 ###### May
 
