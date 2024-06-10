@@ -23,10 +23,10 @@ description: "Thoughts on books read, shows watched, z"
 
 ##### Watching 
 
-- [x]  Mad Men *- Matthew Weiner*: A period drama set in the 1960s, about an advertising agency.
-- [ ]  After Life *- Ricky Gervais*: A dark comedy
+- [x]  ~~Mad Men *- Matthew Weiner*: A period drama set in the 1960s, about an advertising agency.~~
+- [x]  After Life *- Ricky Gervais*: A dark comedy
 - [x]  Silicon Valley *- Mike Judge*: A comedy about a group of software engineers trying to build a startup. Re-watching this for the nth time!
-
+- [x] Fleabag *- Phoebe Waller-Bridge*: A dark comedy about a dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy. - *this is the **best, the best** show I have watched in a long long time*
 Left somewhere in between, yet to pick up:
 
 - [ ]  The Umbrella Academy *- Steve Blackman*: A superhero show about a dysfunctional family of superheroes. The show is based on a comic book series of the same name.
