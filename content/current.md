@@ -18,7 +18,7 @@ I have a lot of things on my plate at Work and thus, I am not planning to take u
 
 Also, I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
 
-The most recent biggest life altering update is that I got accepted into NYU( *New York University* ) for Masters in Computer Science & Engineering in the Tandon School of Engineering, and that I am moving to NYC! The past couple of weeks have been really busy, arranging funds, exploring scholarships, and preparing for the visa interview. I fly out by the end of August.
+<!-- The most recent biggest life altering update is that I got accepted into NYU( *New York University* ) for Masters in Computer Science & Engineering in the Tandon School of Engineering, and that I am moving to NYC! The past couple of weeks have been really busy, arranging funds, exploring scholarships, and preparing for the visa interview. I fly out by the end of August. -->
 
 ###### May
 
