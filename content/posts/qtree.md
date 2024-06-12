@@ -10,7 +10,7 @@ tag: "tech"
 
 I stumbled upon [KoalasToTheMax](https://koalastothemax.com/) while reading a blog post about the most exciting web pages built for fun, and I was blown away. [Srijan](https://injuly.in/) explained how it works, and we were inspired to create something similar.
 
-But first, let's get into the basics of the data structures used in our project.
+But first, let's get into the basics of the data structures used in our project.
 
 - [Quadtree](#quadtree)
   - [Member Functions](#member-functions)

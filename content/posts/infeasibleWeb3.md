@@ -1,6 +1,6 @@
 ---
 author: Srijan Paul
-title: "Issues with Web3"
+title: "Issues with NFT & Web3"
 date: "19-01-2022"
 description: "A short rant on the state of Web3"
 tag: "tech"
