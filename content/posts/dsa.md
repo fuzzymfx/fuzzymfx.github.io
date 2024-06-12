@@ -638,18 +638,98 @@ void selectionSort(int arr[], int n) {
 
 Insertion sort works by building a sorted array from the unsorted portion of the array; it iterates over the array and removes one element per iteration, finds the place the element belongs in the sorted list, and inserts it there. Insertion sort is how you arrange a deck of cards. It has a time complexity of **O(n^2)**.
 
+Ex. [5, 3, 8, 6, 2]
+
+1. Select 3. Insert it at the correct position. [3, 5, 8, 6, 2]
+2. Select 8. Insert it at the correct position. [3, 5, 8, 6, 2]
+3. Select 6. Insert it at the correct position. [3, 5, 6, 8, 2]
+4. Select 2. Insert it at the correct position. [2, 3, 5, 6, 8]
+
+```cpp
+void insertionSort(int arr[], int n) {
+	for(int i = 1; i<n; i++) {
+		int key = arr[i];
+		int j = i-1;
+		while(j>=0 && arr[j]>key) {
+			arr[j+1] = arr[j];
+			j--;
+		}
+		arr[j+1] = key;
+	}
+}
+```
+
 #### Merge Sort
 
 This is a divide-and-conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. It has a time complexity of **O(n log n)**.
 
+Ex. [5, 3, 8, 6, 2]
+
+1. Divide the array into two halves. [5, 3, 8] [6, 2]
+2. Divide the first half into two halves. \[5] [3, 8]
+3. Divide the second half into two halves.\[6] \[2]
+4. Merge the two halves. [3, 5, 8] [2, 6]
+5. Merge the two halves. [2, 3, 5, 6, 8]
+
 ```cpp
+void merge(int arr[], int l, int m, int r) {
+	int n1 = m-l+1;
+	int n2 = r-m;
+	int L[n1], R[n2];
+	for(int i = 0; i<n1; i++) {
+		L[i] = arr[l+i];
+	}
+	for(int i = 0; i<n2; i++) {
+		R[i] = arr[m+1+i];
+	}
+	int i = 0, j = 0, k = l;
+	while(i<n1 && j<n2) {
+		if(L[i]<=R[j]) {
+			arr[k] = L[i];
+			i++;
+		}
+		else {
+			arr[k] = R[j];
+			j++;
+		}
+		k++;
+	}
+	while(i<n1) {
+		arr[k] = L[i];
+		i++;
+		k++;
+	}
+	while(j<n2) {
+		arr[k] = R[j];
+		j++;
+		k++;
+	}
+}
 ```
 
 #### Quick Sort
 
 Quick sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. It has a time complexity of **O(n^2)** in the worst case, but **O(n log n)** in the average case.
 
+Ex. [5, 3, 8, 6, 2]
+
+1. Select 5 as the pivot. [3, 2, 5, 8, 6]
+2. Select 3 as the pivot. [2, 3, 5, 8, 6]
+3. Select 8 as the pivot. [2, 3, 5, 6, 8]
+
 ```cpp
+int partition(int arr[], int low, int high) {
+	int pivot = arr[high];
+	int i = low-1;
+	for(int j = low; j<high; j++) {
+		if(arr[j]<pivot) {
+			i++;
+			swap(arr[i], arr[j]);
+		}
+	}
+	swap(arr[i+1], arr[high]);
+	return i+1;
+}
 ```
 <!-- 
 ### Graph Algorithms
