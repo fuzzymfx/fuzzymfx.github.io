@@ -400,57 +400,258 @@ etc.
 ## Algorithms
 
 Algorithms are a set of instructions that are used to solve a problem. There are a million algorithms out there, but the most common ones are:
-<!-- 
 
 - [Searching Algorithms](#searching-algorithms)
 	- [Binary Search](#binary-search)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Large datasets, sorted arrays. 
 	- [Linear Search](#linear-search)
+		- Time Complexity: O(n)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets, unsorted arrays.
 - [Sorting Algorithms](#sorting-algorithms)
 	- [Bubble Sort](#bubble-sort)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
 	- [Selection Sort](#selection-sort)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
 	- [Insertion Sort](#insertion-sort)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
 	- [Merge Sort](#merge-sort)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Large datasets.
 	- [Quick Sort](#quick-sort)
+		- Time Complexity: O(n^2) (worst case), O(n log n) (average case)
+		- Space Complexity: O(log n)
+		- Suitable for: Large datasets.
 - [Graph Algorithms](#graph-algorithms)
 	- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)
+		- Suitable for: Shortest path, connected components, etc.
 	- [Depth-First Search (DFS)](#depth-first-search-dfs)
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)
+		- Suitable for: Topological sorting, connected components, etc.
 - [Tree Algorithms](#tree-algorithms)
 	- [Tree Traversal (Inorder, Preorder, Postorder)](#tree-traversal-inorder-preorder-postorder)
+		- Time Complexity: O(n)
+		- Space Complexity: O(n)
+		- Suitable for: Traversing a tree.
 	- [Binary Search Tree (BST) operations (Insertion, Deletion, Searching)](#binary-search-tree-bst-operations-insertion-deletion-searching)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Searching, sorting, etc.
 - [Dynamic Programming](#dynamic-programming)
+	- [Longest Common Subsequence (LCS)](#longest-common-subsequence-lcs)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(mn)
+		- Suitable for: DNA sequence matching, etc.
+	- [Longest Increasing Subsequence (LIS)](#longest-increasing-subsequence-lis)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(n)
+		- Suitable for: Longest increasing subsequence, etc.
+	- [Matrix Chain Multiplication](#matrix-chain-multiplication)
+		- Time Complexity: O(n^3)
+		- Space Complexity: O(n^2)
+		- Suitable for: Matrix chain multiplication, etc.
+	- [Edit Distance](#edit-distance)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(mn)
+		- Suitable for: DNA sequence matching, etc.
+	- [Coin Change Problem](#coin-change-problem)
+		- Time Complexity: O(nm)
+		- Space Complexity: O(n)
+		- Suitable for: Coin change, etc.
 	- [Fibonacci Series](#fibonacci-series)
+		- Time Complexity: O(n)
+		- Space Complexity: O(n)
+		- Suitable for: Fibonacci series, etc.
 	- [Knapsack Problem (0/1 Knapsack)](#knapsack-problem-01-knapsack)
-- [Greedy Algorithms](#greedy-algorithms)
+		- Time Complexity: O(nW)
+		- Space Complexity: O(nW)
+		- Suitable for: Knapsack problem, etc.
+- [Greedy Algorithms](#greedy-algorithms):
 	- [Activity Selection](#activity-selection)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Activity selection, etc.
 	- [Fractional Knapsack](#fractional-knapsack)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Fractional knapsack, etc.
 	- [Dijkstra's Algorithm (for shortest path)](#dijkstras-algorithm-for-shortest-path)
-- [Miscellaneous](#miscellaneous)
-	- [Recursion Basics](#recursion-basics)
-	- [Basic Math Algorithms (GCD, LCM)](#basic-math-algorithms-gcd-lcm)
-- [String Algorithms](#string-algorithms)
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)	
+		- Suitable for: Shortest path, etc.
+	- [Prim's Algorithm (for minimum spanning tree)](#prims-algorithm-for-minimum-spanning-tree)
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)
+		- Suitable for: Minimum spanning tree, etc.
+	- [Kruskal's Algorithm (for minimum spanning tree)](#kruskals-algorithm-for-minimum-spanning-tree)
+		- Time Complexity: O(E log V)
+		- Space Complexity: O(V)
+		- Suitable for: Minimum spanning tree, etc.
+	- [Huffman Coding](#huffman-coding)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Data compression, etc.
+- [String Algorithms](#string-algorithms):
 	- [String Matching (Naive Algorithm)](#string-matching-naive-algorithm)
-	- [KMP Algorithm](#kmp-algorithm)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: String matching, etc.
+	- [KMP Algorithm](#kmp-algorithm-for-substring-search)
+		- Time Complexity: O(m+n)
+		- Space Complexity: O(m)
+		- Suitable for: String matching, etc.
 	- [Rabin-Karp Algorithm (for substring search)](#rabin-karp-algorithm-for-substring-search)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: Substring search, etc.
 
 
 ### Searching Algorithms
 
+#### Linear Search
+
+Linear search employs a straight-forward search technique. It keeps on searching the element until found. It is not suitable for large datasets as it has a time complexity of **O(n)**.
+
+```cpp
+int linearSearch(int arr[], int n, int key) {
+	for(int i = 0; i<n; i++) {
+		if(arr[i] == key) {
+			return i;
+		}
+	}
+	return -1;
+}
+```
+
 #### Binary Search
 
-#### Linear Search
+Binary search is a search algorithm that finds the position of a target value **within a sorted array**. It compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated, and the search continues on the remaining half until it is successful. It has a time complexity of **O(log n)**.
+
+Ex. [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
+Element to search: 2
+
+1. Compare 2 with the middle element 6. 2<6.
+2. Eliminate the right half. The array becomes: [1, 2, 3, 4, 5]
+3. Compare 2 with the middle element 3. 2<3. The array becomes: [1, 2]
+4. Compare 2 with the middle element 2. 2=2. Element found at index 1. (*Indexing starts from 0*)
+
+```cpp
+int binarySearch(int arr[], int n, int key) {
+	int low = 0, high = n-1;
+	while(low<=high) {
+		int mid = low + (high-low)/2;
+		if(arr[mid] == key) {
+			return mid;
+		}
+		else if(arr[mid]<key) {
+			low = mid+1;
+		}
+		else {
+			high = mid-1;
+		}
+	}
+	return -1;
+}
+```
+
+The only caveat with this is that the array needs to be sorted, else the algorithm won't work.
+
+Using either of two depends on the size of the dataset and the order. For small datasets, linear search is preferred, and for large datasets, binary search is preferred. If the dataset is sorted, binary search is preferred. If the dataset is unsorted, linear search is preferred.
 
 ### Sorting Algorithms
 
 #### Bubble Sort
 
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. It has a time complexity of **O(n^2)**.
+
+Ex. [5, 3, 8, 6, 2]
+
+1. Compare 5 and 3. 5>3. Swap them. [3, 5, 8, 6, 2]
+2. Compare 5 and 8. 5<8. No swap. [3, 5, 8, 6, 2]
+3. Compare 8 and 6. 8>6. Swap them. [3, 5, 6, 8, 2]
+4. Compare 8 and 2. 8>2. Swap them. [3, 5, 6, 2, 8]
+5. Compare 3 and 5. 3<5. No swap. [3, 5, 6, 2, 8]
+6. Compare 5 and 6. 5<6. No swap. [3, 5, 6, 2, 8]
+7. Compare 6 and 2. 6>2. Swap them. [3, 5, 2, 6, 8]
+8. Compare 6 and 8. 6<8. No swap. [3, 5, 2, 6, 8]
+9. Compare 3 and 5. 3<5. No swap. [3, 5, 2, 6, 8]
+10. Compare 5 and 2. 5>2. Swap them. [3, 2, 5, 6, 8]
+11. Compare 5 and 6. 5<6. No swap. [3, 2, 5, 6, 8]
+12. Compare 6 and 8. 6<8. No swap. [3, 2, 5, 6, 8]
+13. Compare 3 and 2. 3>2. Swap them. [2, 3, 5, 6, 8]
+14. Compare 3 and 5. 3<5. No swap. [2, 3, 5, 6, 8]
+15. Compare 5 and 6. 5<6. No swap. [2, 3, 5, 6, 8]
+16. Compare 6 and 8. 6<8. No swap. [2, 3, 5, 6, 8]
+
+Now the array is sorted. The number of passes is n-1, where n is the number of elements in the array.
+
+```cpp
+void bubbleSort(int arr[], int n) {
+	for(int i = 0; i<n-1; i++) {
+		for(int j = 0; j<n-i-1; j++) {
+			if(arr[j]>arr[j+1]) {
+				swap(arr[j], arr[j+1]);
+			}
+		}
+	}
+}
+```
+
 #### Selection Sort
+
+It is the simplest sorting algorithm. It works by selecting the smallest (or largest, depending on sorting order) element from the unsorted portion of the array and swapping it with the first unsorted element. It has a time complexity of **O(n^2)**.
+
+Ex. [5, 3, 8, 6, 2]
+
+1. Select 2 as the minimum element. Swap it with 5. [2, 3, 8, 6, 5]
+2. Select 3 as the minimum element. Swap it with 3. [2, 3, 8, 6, 5]
+3. Select 5 as the minimum element. Swap it with 8. [2, 3, 5, 6, 8]
+4. Select 6 as the minimum element. Swap it with 6. [2, 3, 5, 6, 8]
+
+```cpp
+void selectionSort(int arr[], int n) {
+	for(int i = 0; i<n-1; i++) {
+		int minIndex = i;
+		for(int j = i+1; j<n; j++) {
+			if(arr[j]<arr[minIndex]) {
+				minIndex = j;
+			}
+		}
+		swap(arr[i], arr[minIndex]);
+	}
+}
+```
 
 #### Insertion Sort
 
+Insertion sort works by building a sorted array from the unsorted portion of the array; it iterates over the array and removes one element per iteration, finds the place the element belongs in the sorted list, and inserts it there. Insertion sort is how you arrange a deck of cards. It has a time complexity of **O(n^2)**.
+
 #### Merge Sort
+
+This is a divide-and-conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. It has a time complexity of **O(n log n)**.
+
+```cpp
+```
 
 #### Quick Sort
 
+Quick sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. It has a time complexity of **O(n^2)** in the worst case, but **O(n log n)** in the average case.
+
+```cpp
+```
+<!-- 
 ### Graph Algorithms
 
 #### Breadth-First Search (BFS)
@@ -461,8 +662,8 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 
 #### Tree Traversal (Inorder, Preorder, Postorder)
 
-#### Binary Search Tree (BST) operations (Insertion, Deletion, Searching)
-
+#### Binary Search Tree (BST) operations (Insertion, Deletion, Searching) -->
+<!-- 
 ### Dynamic Programming
 
 #### Fibonacci Series
@@ -492,102 +693,6 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 #### Rabin-Karp Algorithm (for substring search) -->
 
 
-### Quick Reference
-
-- Searching Algorithms:
-	- Binary Search:
-		- Time Complexity: O(log n)
-		- Space Complexity: O(1)
-		- Suitable for: Large datasets, sorted arrays. 
-	- Linear Search:
-		- Time Complexity: O(n)
-		- Space Complexity: O(1)
-		- Suitable for: Small datasets.
-- Sorting Algorithms:
-	- Bubble Sort:
-		- Time Complexity: O(n^2)
-		- Space Complexity: O(1)
-		- Suitable for: Small datasets.
-	- Selection Sort:
-		- Time Complexity: O(n^2)
-		- Space Complexity: O(1)
-		- Suitable for: Small datasets.
-	- Insertion Sort:
-		- Time Complexity: O(n^2)
-		- Space Complexity: O(1)
-		- Suitable for: Small datasets.
-	- Merge Sort:
-		- Time Complexity: O(n log n)
-		- Space Complexity: O(n)
-		- Suitable for: Large datasets.
-	- Quick Sort:
-		- Time Complexity: O(n log n)
-		- Space Complexity: O(log n)
-		- Suitable for: Large datasets.
-- Graph Algorithms:
-	- Breadth-First Search (BFS):
-		- Time Complexity: O(V+E)
-		- Space Complexity: O(V)	
-		- Suitable for: Shortest path, connected components, etc.
-	- Depth-First Search (DFS):
-		- Time Complexity: O(V+E)
-		- Space Complexity: O(V)
-		- Suitable for: Topological sorting, connected components, etc.
-- Tree Algorithms:
-	- Tree Traversal (Inorder, Preorder, Postorder):
-		- Time Complexity: O(n)
-		- Space Complexity: O(n)
-		- Suitable for: Tree traversal, expression evaluation, etc.
-	- Binary Search Tree (BST) operations (Insertion, Deletion, Searching):
-		- Time Complexity: O(log n)
-		- Space Complexity: O(n)
-		- Suitable for: Searching, sorting, etc.
-- Dynamic Programming:
-	- Fibonacci Series:
-		- Time Complexity: O(n)
-		- Space Complexity: O(n)
-		- Suitable for: Fibonacci series, etc.
-	- Knapsack Problem (0/1 Knapsack):
-		- Time Complexity: O(nW)
-		- Space Complexity: O(nW)
-		- Suitable for: Knapsack problem, etc.
-- Greedy Algorithms:
-	- Activity Selection:
-		- Time Complexity: O(n log n)
-		- Space Complexity: O(n)
-		- Suitable for: Activity selection, etc.
-	- Fractional Knapsack:
-		- Time Complexity: O(n log n)
-		- Space Complexity: O(n)
-		- Suitable for: Fractional knapsack, etc.
-	- Dijkstra's Algorithm (for shortest path):
-		- Time Complexity: O(V^2)
-		- Space Complexity: O(V)	
-		- Suitable for: Shortest path, etc.
-- Miscellaneous:
-	- Recursion Basics:
-		- Time Complexity: O(2^n)
-		- Space Complexity: O(n)
-		- Suitable for: Recursion, etc.
-	- Basic Math Algorithms (GCD, LCM):
-		- Time Complexity: O(log n)
-		- Space Complexity: O(1)
-		- Suitable for: GCD, LCM, etc.
-- String Algorithms:
-	- String Matching (Naive Algorithm):
-		- Time Complexity: O(mn)
-		- Space Complexity: O(1)
-		- Suitable for: String matching, etc.
-	- KMP Algorithm:
-		- Time Complexity: O(m+n)
-		- Space Complexity: O(m)
-		- Suitable for: String matching, etc.
-	- Rabin-Karp Algorithm (for substring search):
-		- Time Complexity: O(mn)
-		- Space Complexity: O(1)
-		- Suitable for: Substring search, etc.
-
-**To be continued...**
 
 ## Next?
 
