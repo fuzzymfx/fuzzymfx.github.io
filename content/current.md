@@ -12,17 +12,17 @@ showdate: true
 
 ###### June
 
-May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
-
-I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and a *content summarization using tokenization, vectorDb and AI tool*, codenamed *Hoid*. I am planning to start working on them once I settle down.
-
-Also, I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
-
 I finally got to building my own budget gaming PC with Akash, a senior from office. Coming from a PS5, a gaming PC did not make sense initially. I wanted to play competitive FPS( first-person shooting ) games with my mates but Valorant and CS2 are not cross-play compatible or present on PS, yet. A minimum budget windows CPU build seemed apt.
 
 I went with the AMD Ryzen 5 3400G with Radeon RX Vega 11 because it has [decent benchmarks](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400G) and has a built in GPU and I did not want to spend on an additional GPU **now**. This CPU is powered by two [8GB DDR4 RAM](https://www.amazon.in/G-SKILL-F4-3200C16S-8GVKB-Ripjaws-DDR4-3200MHz-CL16-18-18-38/dp/B01J6OA8RU?th=1) and the xmp profile set in BIOS to make them run at 1600 Mhz( max capacity ) each. The build is powered by a [Gigabyte B450M DS3H V2](https://www.gigabyte.com/Motherboard/B450M-DS3H-V2-rev-1x#kf) motherboard, without a wireless module, and a MSI cabinet with 6 fans. I am yet to achieve the maximum performance out of this build, and will update here soon.
 
-<!-- The most recent biggest life altering update is that I got accepted into NYU( *New York University* ) for Masters in Computer Science & Engineering in the Tandon School of Engineering, and that I am moving to NYC! The past couple of weeks have been really busy, arranging funds, exploring scholarships, and preparing for the visa interview. I fly out by the end of August. -->
+I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
+
+I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and a *content summarization using tokenization, vectorDb and AI tool*, codenamed *Hoid*. I am planning to start working on them once I settle down.
+
+The most recent life update is that I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! The past couple of weeks have been really busy; arranging funds, exploring scholarships, looking for hosuing, and overally planning the move. I fly out by the end of August.
+
+May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
 
 ###### May
 
