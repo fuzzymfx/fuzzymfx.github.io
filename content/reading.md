@@ -24,9 +24,9 @@ description: "Thoughts on books read, shows watched, z"
 ##### Watching 
 
 - [x]  ~~Mad Men *- Matthew Weiner*: A period drama set in the 1960s, about an advertising agency.~~
-- [x]  After Life *- Ricky Gervais*: A dark comedy
 - [x]  Silicon Valley *- Mike Judge*: A comedy about a group of software engineers trying to build a startup. Re-watching this for the nth time!
-- [x] ~~Fleabag *- Phoebe Waller-Bridge*: A dark comedy about a dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy.~~ - *this is the **best, the best** show I have watched in a long long time*  
+- [x]  ~~After Life *- Ricky Gervais*: A dark comedy about a man who is trying to cope with the death of his wife.~~ - ***loved** it!*
+- [x] ~~Fleabag *- Phoebe Waller-Bridge*: A dark comedy about a dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy.~~ - *one of the best shows I have watched in a long time*  
 
 Left somewhere in between, yet to pick up:
 
