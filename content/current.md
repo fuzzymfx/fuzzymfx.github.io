@@ -12,7 +12,16 @@ showdate: true
 
 <!-- ###### July
 
-The most recent life update is that I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! The past couple of weeks have been really busy; arranging funds, exploring scholarships, looking for hosuing, and overally planning the move. I fly out by the end of August. -->
+Three biggest changes in life:
+
+1. I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! 
+2. Back to the startup life; building datingai.pro, your perfect wingman as the founding engineer.
+3. With all good things, comes an end. I am leaving RadiusAI, and Bangalore.
+
+I am back to the startup drill. Staying up late, shipping features, building, failing, talking to customers, discussing our GTM strategy, and building the product, have been the highlights of the past month. I am excited to be a part of the founding team at *datingai.pro*. Including me, there are four of us in the team now.
+
+Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for hosuing, and overally planning the move. I fly out by the end of August. I am looking forward to the new challenges, the new people, and the new experiences that await me in NYC. -->
+
 
 ###### June
 
