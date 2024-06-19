@@ -10,6 +10,10 @@ showdate: true
 
 <span class="update-date-time"></span>
 
+<!-- ###### July
+
+The most recent life update is that I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! The past couple of weeks have been really busy; arranging funds, exploring scholarships, looking for hosuing, and overally planning the move. I fly out by the end of August. -->
+
 ###### June
 
 I finally got to building my own budget gaming PC with Akash, a senior from office. Coming from a PS5, a gaming PC did not make sense initially. I wanted to play competitive FPS( first-person shooting ) games with my mates but Valorant and CS2 are not cross-play compatible or present on PS, yet. A minimum budget windows CPU build seemed apt.
@@ -19,8 +23,6 @@ I went with the AMD Ryzen 5 3400G with Radeon RX Vega 11 because it has [decent 
 I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
 
 I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and a *content summarization using tokenization, vectorDb and AI tool*, codenamed *Hoid*. I am planning to start working on them once I settle down.
-
-The most recent life update is that I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! The past couple of weeks have been really busy; arranging funds, exploring scholarships, looking for hosuing, and overally planning the move. I fly out by the end of August.
 
 May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
 
