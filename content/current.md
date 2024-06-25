@@ -26,7 +26,6 @@ A new chapter begins.
 
 Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC.
 
-
 ###### June
 
 The last weekend was an extremely emotional goodbye. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. I have been friends with Ankit since 2012 now, with Vishnu since 2016, and with Abinash since 2019 now. Getting together, drinking and talking about our lives, our dreams, and our future, was a heartfelt experience. I am going to miss them a lot. Goodbyes are tough. More on that above.
