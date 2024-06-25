@@ -10,7 +10,7 @@ showdate: true
 
 <span class="update-date-time"></span>
 
-<!-- ###### July
+###### July
 
 Three biggest changes in life:
 
@@ -18,13 +18,13 @@ Three biggest changes in life:
 2. Back to the startup life; building datingai.pro, your perfect wingman. Joined as the founding engineer.
 3. With all good things, comes an end. I am leaving RadiusAI, and Bangalore.
 
-I am back to the startup drill. Staying up late, shipping features, building, failing, talking to customers, discussing our GTM strategy, and building the product, have been the highlights of the past month. I am excited to be a part of the founding team at *datingai.pro*. Including me, there are four of us in the team now. 
+I am back to the startup drill. Staying up late, shipping features, building, failing, talking to customers, discussing our GTM strategy, and building the product, have been the highlights of the past month. I am excited to be a part of the founding team at *datingai.pro*. Including me, there are five of us in the team now. 
 
 A sad part of all of this is leaving RadiusAI. I have been with the company for more than seven months, and I loved it here. In the end, difficult decisions have to be taken for the greater good, and while this was an amazing experience and a great place for growth, it's time for me to leave, take flight, learn to fetch food, and build my own nest. I am going to miss my team, and the office. The weekend get-togethers at pubs and breweries, and me forcing everyone to come out for lunch and play carrom have been the highlights of my time here. I am forever grateful to Rachna and indebted to Ram for making this happen. To the team, I will miss you guys, and I hope we cross paths again. Here's to the good times, and the memories we made, 🥂!
 
 A new chapter begins.
 
-Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC. -->
+Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC.
 
 
 ###### June
