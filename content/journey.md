@@ -8,6 +8,7 @@ showdate: true
 
 ### Educational Background
 
+- New York University, Tandon School of Engineering, Brooklyn, NY - MS Computer Engineering - 2026 - [🔗]()
 - B.Tech Silicon Institute of Technology, Bhubaneswar, 8.9 CGPA - 2023 - [🔗](/assets/docs/190310030.pdf)
 - 12th FIITJEE Junior College, Hyderabad, 83.5% - 2018  - [🔗](https://drive.google.com/file/d/1GYaQYoUpT1h76NqwHfml-aByx4YrshfK/view?usp=sharing)
 - 10th DAV Public School, Jamshedpur, 9.2 CGPA - 2016 - [🔗](https://drive.google.com/file/d/12Nwsc_b1iR7ZO70Oh-c7T9ImnDcg_GL4/view?usp=sharing)
@@ -17,9 +18,12 @@ showdate: true
 ### Work Experience
 
 - **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
-  - Building asynchronous monitoring microservices using Rust, FastAPI, and Kafka to handle 10,000+ scraping requests per minute.
-  - Optimizing the alert module, and porting it from python and refactoring it to Rust to improve performance.
+  - Built a multi-threaded, asynchronous health monitoring service using Rust, and Kafka to handle scraping requests every 10 secs. Optimized and ported the alert mod from Python to Rust to improve performance
   - Automated fault tolerant, consistent DB write operations by different teams using lambda functions and Prefect
+  - Built a native GUI app in Rust; to highlight unknown objects present during checkout in LCD counter-top POS.
+  - Ported the existing python shopassist cart simulator codebase to Rust. Updated the code to run asynchronous operations in parallel thread to improve performance and reduce bottleneck issues by more than 50%.
+  - Created a data analytics dashboard app using Gradio to display annotations statistics reducing failures and inaccuracies by over 70-75%
+  - Optimizing the alert module, and porting it from python and refactoring it to Rust to improve performance.
 - **Founding Engineer/SDE-1** - *StackIt* 2023 - [🔗](https://nowstackit.com)
   - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
   - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.

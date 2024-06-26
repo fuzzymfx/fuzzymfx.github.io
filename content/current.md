@@ -12,11 +12,11 @@ showdate: true
 
 ###### July
 
-Three biggest changes in life:
+Three biggest updates:
 
 1. I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! 
 2. Back to the startup life; building datingai.pro, your perfect wingman. Joined as the founding engineer.
-3. With all good things, comes an end. I am leaving RadiusAI, and Bangalore.
+3. With all good things, comes an end. I am leaving RadiusAI, and India.
 
 I am back to the startup drill. Staying up late, shipping features, building, failing, talking to customers, discussing our GTM strategy, and building the product, have been the highlights of the past month. I am excited to be a part of the founding team at *datingai.pro*. Including me, there are five of us in the team now. 
 
