@@ -36,12 +36,12 @@ The beginning of the month was an extremely emotional goodbye. This unfolds in t
 
 2. I went to Goa with my college friends, Tushar and Mahak, and it was amazing! It was a road trip from Bangalore, and it took us 10-11 hours to reach there. We stayed at a AirBnb, spent three and a half amazing days there before returning back to Bangalore.
 
-    The first day was tiring, we just hung out in the Bnb room, had amazing seafood in a beach shacks and just sat and chilled on the beach. The second day was exploring North, and Old Goa. We webt to forts, beaches, lighthouses, trekked, and found cliffs from where we could see the entire Goa, and in the evening, we explored the old city, monuments and architecture. The third day was spent in South Goa, exploring the rocky beaches, hidden beaches, and the best sunsets. We kayaked on the backwaters, and went to the best beach in Goa, Palolem. 
+    The first day was tiring, we just hung out in the Bnb room, had amazing seafood in a beach shacks and just sat and chilled on the beach. The second day was exploring North, and Old Goa. We webt to forts, beaches, lighthouses, trekked, and found cliffs from where we could see the entire Goa, and in the evening, we explored the old city, monuments and architecture. The third day was spent in South Goa, exploring the rocky beaches, hidden beaches, and the best sunsets. We kayaked on the backwaters, and had lunches in beach shacks.
 
     The last day was churches, and shopping, and we returned back to Bangalore. We had amazing food, and drinks, and we danced, and sang, and laughed, and had the best time of our lives.
     
 
-Looking at all this, I don't just see the point in going abroad now. It just does not make sense. I have everything I need here. I have my family, my friends, my job, my life. I have everything I need here. I am not sure if I want to go anymore. I am not sure if I want to leave all this behind. Well, too late for this now. Everything is set, and I am going. I am going to miss all of this. I am going to miss my family, my friends, my job, my life.
+Looking at all this, I don't just see the point in going abroad now. It just does not make sense. I have everything I need here. I have my family, my friends, my job, my life. I am not sure if I want to leave all this behind and go anymore. Well, too late for this now. Everything is set, and I am going. I am going to miss all of this. I am going to miss my family, my friends, my job, my life.
 
 ###### June
  
