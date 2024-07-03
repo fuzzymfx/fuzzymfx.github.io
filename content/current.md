@@ -26,14 +26,25 @@ A new chapter begins.
 
 Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC.
 
+The last weekend was an extremely emotional goodbye. This unfolds in two parts:
+
+1. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. 
+
+    We reminisced about our school days, gossiped about who dated whom, and laughed about the stupid things we and our teachers used to do. We talked about our JEE preparation days, locked our home, unable to fous with all the pressure surmounting us and finally giving up and buying a gaming console instead of shutting down TV. Our college days, and how we used to bunk classes, and go to the beach, and how we used to get drunk and watch movies. 
+
+    I have been friends with Ankit since 2012 now, with Vishnu since 2016, and with Abinash since 2019 now. Getting together, drinking and talking about our lives, our dreams, and our future, was an extremely heartfelt and emotional experience. Goodbyes are tough. This is the best farewell gift I could have ever asked for; them, just being there, and being my friends.
+
+2. I went to Goa with my college friends, Tushar and Mahak, and it was amazing! It was a road trip from Bangalore, and it took us 10-11 hours to reach there. We stayed at a AirBnb, spent three and a half amazing days there before returning back to Bangalore.
+
+    The first day was tiring, we just hung out in the Bnb room, had amazing seafood in a beach shacks and just sat and chilled on the beach. The second day was exploring North, and Old Goa. We webt to forts, beaches, lighthouses, trekked, and found cliffs from where we could see the entire Goa, and in the evening, we explored the old city, monuments and architecture. The third day was spent in South Goa, exploring the rocky beaches, hidden beaches, and the best sunsets. We kayaked on the backwaters, and went to the best beach in Goa, Palolem. 
+
+    The last day was churches, and shopping, and we returned back to Bangalore. We had amazing food, and drinks, and we danced, and sang, and laughed, and had the best time of our lives.
+    
+
+Looking at all this, I don't just see the point in going abroad now. It just does not make sense. I have everything I need here. I have my family, my friends, my job, my life. I have everything I need here. I am not sure if I want to go anymore. I am not sure if I want to leave all this behind. Well, too late for this now. Everything is set, and I am going. I am going to miss all of this. I am going to miss my family, my friends, my job, my life.
+
 ###### June
-
-The last weekend was an extremely emotional goodbye. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. 
-
-We reminisced about our school days, gossiped about who dated whom, and laughed about the stupid things we and our teachers used to do. We talked about our JEE preparation days, locked our home, unable to fous with all the pressure surmounting us and finally giving up and buying a gaming console instead of shutting down TV. Our college days, and how we used to bunk classes, and go to the beach, and how we used to get drunk and watch movies. 
-
-I have been friends with Ankit since 2012 now, with Vishnu since 2016, and with Abinash since 2019 now. Getting together, drinking and talking about our lives, our dreams, and our future, was an extremely heartfelt and emotional experience. Goodbyes are tough. This is the best farewell gift I could have ever asked for; them, just being there, and being my friends.
-
+ 
 Back in Bangalore, I finally got to building my own budget gaming PC with Akash, a senior from office. Coming from a PS5, a gaming PC did not make sense initially. I wanted to play competitive FPS( first-person shooting ) games with my mates but Valorant and CS2 are not cross-play compatible or present on PS, yet. A minimum budget windows CPU build seemed apt.
 
 I went with the AMD Ryzen 5 3400G with Radeon RX Vega 11 because it has [decent benchmarks](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400G) and has a built in GPU and I did not want to spend on an additional GPU **now**. This CPU is powered by two [8GB DDR4 RAM](https://www.amazon.in/G-SKILL-F4-3200C16S-8GVKB-Ripjaws-DDR4-3200MHz-CL16-18-18-38/dp/B01J6OA8RU?th=1) and the xmp profile set in BIOS to make them run at 1600 Mhz( max capacity ) each. The build is powered by a [Gigabyte B450M DS3H V2](https://www.gigabyte.com/Motherboard/B450M-DS3H-V2-rev-1x#kf) motherboard, without a wireless module, and a MSI cabinet with 6 fans. I am yet to achieve the maximum performance out of this build, and will update here soon.
