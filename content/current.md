@@ -26,7 +26,7 @@ A new chapter begins.
 
 Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC.
 
-The last weekend was an extremely emotional goodbye. This unfolds in two parts:
+The beginning of the month was an extremely emotional goodbye. This unfolds in two parts:
 
 1. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. 
 
