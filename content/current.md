@@ -10,6 +10,12 @@ showdate: true
 
 <span class="update-date-time"></span>
 
+<!-- ###### August 
+
+A new chapter begins.
+
+Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC. -->
+
 ###### July
 
 Three biggest updates:
@@ -22,11 +28,7 @@ I am back to the startup drill. Staying up late, shipping features, building, fa
 
 A sad part of all of this is leaving RadiusAI. I have been with the company for more than seven months, and I loved it here. In the end, difficult decisions have to be taken for the greater good, and while this was an amazing experience and a great place for growth, it's time for me to leave, take flight, learn to fetch food, and build my own nest. I am going to miss my team, and the office. The weekend get-togethers at pubs and breweries, and me forcing everyone to come out for lunch and play carrom have been the highlights of my time here. I am forever grateful to Rachna and indebted to Ram for making this happen. To the team, I will miss you guys, and I hope we cross paths again. Here's to the good times, and the memories we made, 🥂!
 
-A new chapter begins.
-
-Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC.
-
-The beginning of the month was an extremely emotional goodbye. This unfolds in two parts:
+The end of June and the beginning of this month was an extremely emotional goodbye. This unfolds in two parts:
 
 1. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. 
 
@@ -39,9 +41,7 @@ The beginning of the month was an extremely emotional goodbye. This unfolds in t
     The first day was tiring, we just hung out in the Bnb room, had amazing seafood in a beach shacks and just sat and chilled on the beach. The second day was exploring North, and Old Goa. We webt to forts, beaches, lighthouses, trekked, and found cliffs from where we could see the entire Goa, and in the evening, we explored the old city, monuments and architecture. The third day was spent in South Goa, exploring the rocky beaches, hidden beaches, and the best sunsets. We kayaked on the backwaters, and had lunches in beach shacks.
 
     The last day was churches, and shopping, and we returned back to Bangalore. We had amazing food, and drinks, and we danced, and sang, and laughed, and had the best time of our lives.
-    
 
-Looking at all this, I don't just see the point in going abroad now. It just does not make sense. I have everything I need here. I have my family, my friends, my job, my life. I am not sure if I want to leave all this behind and go anymore. Well, too late for this now. Everything is set, and I am going. I am going to miss all of this. I am going to miss my family, my friends, my job, my life.
 
 ###### June
  
