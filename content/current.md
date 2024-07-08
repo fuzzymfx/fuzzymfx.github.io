@@ -28,7 +28,7 @@ I am back to the startup drill. Staying up late, shipping features, building, fa
 
 A sad part of all of this is leaving RadiusAI. I have been with the company for more than seven months, and I loved it here. In the end, difficult decisions have to be taken for the greater good, and while this was an amazing experience and a great place for growth, it's time for me to leave, take flight, learn to fetch food, and build my own nest. I am going to miss my team, and the office. The weekend get-togethers at pubs and breweries, and me forcing everyone to come out for lunch and play carrom have been the highlights of my time here. I am forever grateful to Rachna and indebted to Ram for making this happen. To the team, I will miss you guys, and I hope we cross paths again. Here's to the good times, and the memories we made, 🥂!
 
-The end of June and the beginning of this month was an extremely emotional goodbye. This unfolds in two parts:
+The end of June and the beginning of this month was an extremely emotional goodbye. This unfolds in three parts:
 
 1. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. 
 
@@ -42,9 +42,14 @@ The end of June and the beginning of this month was an extremely emotional goodb
 
     The last day was churches, and shopping, and we returned back to Bangalore. We had amazing food, and drinks, and we danced, and sang, and laughed, and had the best time of our lives.
 
+3. I went on a major road trip with my dad from Bangalore to Bhubaneswar. We travelled through 1500 kms, and it took us a day and a half with a small halt near Nellore. I was shifting, and I returned home with a bunch of stuff that I wanted to keep. The most important on my bucket list was attending *Ratha Jaatra* before leaving, and I also had to sell my car. I had to meet my family, and friends, and say goodbye to them. I had to pack, and plan, and prepare for the move. I had to get my visa, and my tickets, and my insurance, and my housing, and my bank accounts, and my sim cards, and my luggage, and my documents, and everything.
+
+June and July had me cover entire western to eastern India, from beaches to ghats, the road trips were dreamy, magical, and I would cherish them for a lifetime.
 
 ###### June
  
+May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
+
 Back in Bangalore, I finally got to building my own budget gaming PC with Akash, a senior from office. Coming from a PS5, a gaming PC did not make sense initially. I wanted to play competitive FPS( first-person shooting ) games with my mates but Valorant and CS2 are not cross-play compatible or present on PS, yet. A minimum budget windows CPU build seemed apt.
 
 I went with the AMD Ryzen 5 3400G with Radeon RX Vega 11 because it has [decent benchmarks](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400G) and has a built in GPU and I did not want to spend on an additional GPU **now**. This CPU is powered by two [8GB DDR4 RAM](https://www.amazon.in/G-SKILL-F4-3200C16S-8GVKB-Ripjaws-DDR4-3200MHz-CL16-18-18-38/dp/B01J6OA8RU?th=1) and the xmp profile set in BIOS to make them run at 1600 Mhz( max capacity ) each. The build is powered by a [Gigabyte B450M DS3H V2](https://www.gigabyte.com/Motherboard/B450M-DS3H-V2-rev-1x#kf) motherboard, without a wireless module, and a MSI cabinet with 6 fans. I am yet to achieve the maximum performance out of this build, and will update here soon.
@@ -52,8 +57,6 @@ I went with the AMD Ryzen 5 3400G with Radeon RX Vega 11 because it has [decent 
 I am looking to hire a SE intern at my office, RadiusAI. Feel free to [reach out](mailto:anubhabr50@gmail.com) if you are interested.
 
 I have a lot of things on my plate at Work and thus, I am not planning to take up anything new now. The projects on hold are *Bee*, *cbrtl- Starting with SWE*, *memcached*, a *distributed file system in Rust*, and a *content summarization using tokenization, vectorDb and AI tool*, codenamed *Hoid*. I am planning to start working on them once I settle down.
-
-May was hectic. I turned 24, went back to home for a week, and spent an amazing time with family and friends. I am back in Bangalore now, and life is busy.
 
 ###### May
 
