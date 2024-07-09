@@ -9,4 +9,4 @@ description: "My experiences and musings on life, technology, and everything in 
 
 ---
 
-[Subscribe to my newsletter](https://fuzzymf.substack.com/subscribe) to get notifications about new posts :)
+Feel free to [send me a mail](mailto:anubhabr50@gmail.com) :)
