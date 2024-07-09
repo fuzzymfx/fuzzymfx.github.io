@@ -1,5 +1,5 @@
 ---
-title: "The slave city"
+title: "The tech-slave city"
 date: "08-07-2023"
 description: A futile attempt to survive in Bangalore's Urban Jungle
 tag: "life"
