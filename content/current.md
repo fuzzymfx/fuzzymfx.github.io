@@ -30,7 +30,7 @@ A sad part of all of this is leaving RadiusAI. I have been with the company for 
 
 I am going to miss my team and the office. The weekend get-togethers at pubs and breweries, and me coaxing everyone to come out for lunch and play carrom have been the highlights of my time here. From GitHub actions deployment failures and optimising memory in my Rust applications to compiling cross-platform binaries and multi-threaded applications and fixing Kafka and RedPanda issues, I have learnt and grown a lot as a software engineer. I will be forever grateful to Rachna and indebted to Ram for getting me into the team and making this happen. 
 
-To the team, I will miss you guys, and I hope we cross paths again. I wish we get to play carrom again. We've got to arrange money for Dheeraj and get him a true smartphone. The highlight has to be the day when we discovered Rachna can sing and played Jiya Jiya re on loop. Thanking Arijit for this gem. Wishing for Sri to beat Dheeraj in a one on one carrom match. I'll call up Akash when I build my next gaming PC. This time, I'll ensure to have the budget for a graphics card. I would request you guys to keep visiting AOB on Thursdays so that Ketaki has to give up her wrat. Also, visit One8 Commune again and include Jaya and Suraj, please 😂. Here's to the good times and the memories we made. 🥂!
+To the team, I will miss you guys, and I hope we cross paths again. Here's to the good times and the memories we made. 🥂!
 
 The end of June and the beginning of this month was an extremely emotional goodbye. This unfolds in three parts:
 
