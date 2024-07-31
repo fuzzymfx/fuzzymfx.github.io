@@ -32,7 +32,7 @@ I am going to miss my team and the office. The weekend get-togethers at pubs and
 
 To the team, I will miss you guys, and I hope we cross paths again. Here's to the good times and the memories we made. 🥂!
 
-The end of June and the beginning of this month was an extremely emotional goodbye. This unfolds in three parts:
+The end of June and the beginning of this month was an extremely emotional goodbye, as:
 
 1. I met with my childhood best friends from all phases of my life, toghether, had an amazing weekend in Mumbai, and bid adeiu to them. It was a nostalgia trip, and it felt very content to see them become friends. 
 
@@ -47,6 +47,8 @@ The end of June and the beginning of this month was an extremely emotional goodb
     The last day was churches, and shopping, and we returned back to Bangalore. We had amazing food, and drinks, and we danced, and sang, and laughed, and had the best time of our lives.
 
 3. I went on a major road trip with my dad from Bangalore to Bhubaneswar. We travelled through 1500 kms, and it took us a day and a half with a small halt near Nellore. I was shifting, and I returned home with a bunch of stuff that I wanted to keep. The most important on my bucket list was attending *Ratha Jaatra* before leaving, and I also had to sell my car. I had to meet my family, and friends, and say goodbye to them. I had to pack, and plan, and prepare for the move. I had to get my visa, and my tickets, and my insurance, and my housing, and my bank accounts, and my sim cards, and my luggage, and my documents, and everything.
+
+4. The entire shifting from Bangalore journey ends with me and mom in a TN tour. We visited Pondicherry, Rameswaram, Madurai and other places. 
 
 June and July had me cover entire western to eastern India, from beaches to ghats, the road trips were dreamy, magical, and I would cherish them for a lifetime.
 
