@@ -8,15 +8,16 @@ showdate: true
 
 ### Educational Background
 
-- New York University, Tandon School of Engineering, Brooklyn, NY - MS Computer Engineering - 2026 - [🔗]()
-- B.Tech Silicon Institute of Technology, Bhubaneswar, 8.9 CGPA - 2023 - [🔗](/assets/docs/190310030.pdf)
-- 12th FIITJEE Junior College, Hyderabad, 83.5% - 2018  - [🔗](https://drive.google.com/file/d/1GYaQYoUpT1h76NqwHfml-aByx4YrshfK/view?usp=sharing)
-- 10th DAV Public School, Jamshedpur, 9.2 CGPA - 2016 - [🔗](https://drive.google.com/file/d/12Nwsc_b1iR7ZO70Oh-c7T9ImnDcg_GL4/view?usp=sharing)
+- M.Sc in Computer Engineering at New York University, Tandon School of Engineering, Brooklyn, NY- 2026 - [🔗]()
+- B.Tech in Computer Science at Silicon Institute of Technology, Bhubaneswar- 2023 - [🔗](/assets/docs/190310030.pdf)
 
 ---
 
 ### Work Experience
 
+- **Founding Engineer** - *DatingAI* 2024 - [🔗](https://datingai.pro)
+  - Revamping the existing infrastructure in NodeJs and NextJs to reduce network load and effectively allow the usage of API keys to limit exhaustion. Improving the efficiency of the AI engine.
+  - Built the Telegram-Bot that mimics the entire application on Telegram enabling multi-platform application access
 - **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
   - Built a multi-threaded, asynchronous health monitoring service using Rust, and Kafka to handle scraping requests every 10 secs. Optimized and ported the alert mod from Python to Rust to improve performance
   - Automated fault tolerant, consistent DB write operations by different teams using lambda functions and Prefect
