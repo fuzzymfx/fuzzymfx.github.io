@@ -8,7 +8,7 @@ showdate: true
 
 ### Educational Background
 
-- M.Sc in Computer Engineering at New York University, Tandon School of Engineering, Brooklyn, NY- 2026 - [🔗]()
+- MSc in Computer Engineering at New York University, Tandon School of Engineering, Brooklyn, NY- 2026 - [🔗]()
 - B.Tech in Computer Science at Silicon Institute of Technology, Bhubaneswar- 2023 - [🔗](/assets/docs/190310030.pdf)
 
 ---
