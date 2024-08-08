@@ -7,7 +7,7 @@ index: false
 tag: "tech"
 ---
 
-Before starting with this, I wanted to ensure that if at any point you feel that you're not able to undetstand or grasp what is written in this page, that is **totally understandable**. These concepts are better understood when practiced, not theoretically. So, if you're not able to understand something, don't worry, we'll be coding using these in the next few days, and you'll get a hang of it.
+Before starting with this, I wanted to ensure that if at any point you feel that you're not able to undetstand or grasp what is written in this page, that is **totally understandable**. These concepts are better understood when practiced, not theoretically. So, if you're not able to understand something, don't worry, once you start writing code, you'd get a hang of it.
 
 #### C++
 

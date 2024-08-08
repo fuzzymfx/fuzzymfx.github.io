@@ -145,9 +145,9 @@ While building a rust-based project, you could have a dockerfile, (which is a fi
 
 ## Case Studies
 
-Considering a real-world example, let's take a look at two scenarios: 
+Considering a real-world example, let's take a look at a scenario: 
 
-1. **A content recommendation system**, where we recommend content to the user based on their preferences; Netflix.
+**A content recommendation system**, where we recommend content to the user based on their preferences; Netflix.
 	
 Before jumping into any architecture, ask yourself the following questions:
 
@@ -282,8 +282,6 @@ A monitoring system that tracks the performance of the application, identifies i
 ---
 
 This is a very high-level overview of the system design for a content recommendation system like Netflix. In reality, the system would be much more complex, with additional services, databases, caching layers, load balancers, and monitoring systems. But this should give you a good starting point for building a content recommendation system.
-
-2. A social media platform; [Instagram](https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad).
 
 ## Next?
 

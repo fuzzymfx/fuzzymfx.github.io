@@ -16,15 +16,17 @@ This curriculum is designed to be self-sustaining: a collection of resources fre
 
 1. **The Basics**: Familiarize yourself with the basics; programming languages, data structures, and algorithms, design patterns, etc. Not knowing how to drive, but buying a GT3 RS is a waste of money. Learning to drive in a Hyundai would be a good start. The job market is cruel, it makes you emphasize Nuxt, React, Node, Pandas, Django, Kafka, and what-not, but it wouldn't help until you know how to parse a column in *Pandas dataframe* as *Datetime* and process it, or how to push async messages in a queue and handle them in a worker thread. We would start off with an online platform like [LeetCode](https://leetcode.com) / [HackerRank](https://hackerrank.com), and then move on to building stuff.
 
-    You can become a god-tier Python or TS dev, writing clean, efficient, and maintainable code, writing lambda functions, higher-order functions and closures while working with tech like databases, web development/ machine learning. With the basics cleared, it wouldn't be difficult to comprehend these. They start off scary but are pretty simple once you get the hang of it.
+    This can be your starting point to becoming a god-tier Python or TS dev, writing clean, efficient, and maintainable code, writing lambda functions, higher-order functions and closures while working with tech like databases, web development/ machine learning. With the basics ceared, it wouldn't be difficult to comprehend these. They start off scary but are pretty simple once you get the hang of it.
 
-    This step also requires you to start building stuff parallelly. React may look like it's just `npx create-react-app`, `npm start`, and a bunch of useless `useStates`, `useEffects`, and `props`, but it's not. It's about building a component library, a design system, with a bunch of hooks, a bunch of context providers, and a full-fledged application that can handle a million users.
+    This step also requires you to start building stuff parallelly. React may look like it's just `npx create-react-app`, `npm start`, and a bunch of useless `useStates`, `useEffects`, and `props`, but it's not. Think more on the lines of building a component library, a design system, with a bunch of hooks, a bunch of context providers, and a full-fledged application that can handle a million users.
 
 2. **The Advanced**: After you've built your first to-do app or your first ML model that predicts movie ratings, or maybe an FPS game, you feel contempt and proud, wiping the sweat off your forehead. You'd want to post on LinkedIn, share your code, manage it on GitHub, and show it off to your friends. This is where it gets more interesting.
 
     This is where you start to think about the architecture of your application, and how to make it scalable, fault-tolerant, and secure. You'd want to monitor your application, and make sure it's running smoothly. You would not want anybody accessing your data, securing them, and allowing only a selected few to access it. The differences between a monolith and a microservice architecture help.
 
-The difference between the cbrtl and this curriculum is that I would be writing code, building this right with you, and you'd be able to live the entire process from two perspectives and gain much more insight from start to finish. While following this curriculum, you'd be doing it yourself. I'd still be available to help you out in any way I could.
+**Summarizing**, the curriculum is divided into two parts:  
+1. Learn the basics; a programming language, data structures, and algorithms, and start practicing. Parallelly, start building projects.
+2. Take up real-world problem statements, and start building them. Think about the architecture, and how to make it scalable, fault-tolerant, and secure.
 
 - [Languages](#languages)
 - [Problem Solving/ Data Structures](#problem-solving-data-structures)
@@ -33,7 +35,7 @@ The difference between the cbrtl and this curriculum is that I would be writing 
 - [Resume](#resume)
 - [Next?](#next)
 
-We'd start by learning to write code. This involves you to learn the basics of a programming language, and start solving a few problems to get the hang of it.
+Start by learning to write code. This involves you to learn the basics of a programming language, and start solving a few problems to get the hang of it.
 
 I'd be choosing *C++* here. Despite being categorized as a high-level language, it retains a lower-level essence when compared to the likes of Python or JavaScript/TypeScript. With its manual memory management and requirement to construct everything from scratch, C++ fosters a deeper understanding of coding principles. You become less reliant on pre-existing libraries and functions, thereby honing your coding prowess.
 
@@ -43,22 +45,24 @@ This doesn't mean that choosing anything else makes you lethargic. You could sti
 
 Pick up a language, and **stick to it**. Python, JavaScript, Java *(well, not Java, that is shit. "But, but, but....." shhhhhhh.)*, C++, Go, Rust, etc. are all good choices. It doesn't matter which language you pick. Real-world applications require you to know the basics and learn the rest on the go. You can always learn as many languages you wish.
 
-We start by getting into the [documentation](https://devdocs.io/cpp/), learning the basics, and then moving on to practising. There are a ton of tutorials on YouTube that help you learn C++. I am sharing a few here that I followed while I was learning to code:
+Start by getting into the [documentation](https://devdocs.io/cpp/), learning the basics, and then moving on to practising. Now, the process of reading through documntation and can get a bit tedious and boring, but the habbit of reading and understanding documentation is extremely important. It is the fastest way. Otherwise, there are a ton of tutorials on YouTube that help you learn C++. I am sharing a few here that I followed while I was learning to code:
 
 - [C++ Tutorial for Beginners - Learn C++ in 1 Hour](https://youtu.be/ZzaPdXTrSb8?si=hD1z12yg6trfLPrs)
 - [C++ Crash Course For Beginners](https://www.youtube.com/watch?v=1v_4dL8l8pQ&t=4s&pp=ygUQYysrIGNyYXNoIGNvdXJzZQ%3D%3D)
 - [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=528s&pp=ygUQYysrIGNyYXNoIGNvdXJzZQ%3D%3D)  
 [*More...*](https://www.youtube.com/results?search_query=c%2B%2B+crash+course)  
 
-We'd not be following anything mentioned above. The problem with visual-based learning is that it is **inherently slow**; I am trying to make this process faster and more efficient by sharing everything you need to know to get started. Here's a comprehensive guide on `C++`, and `stdlib`:
+The problem with visual-based learning is that it is **inherently slow**; I am trying to make this process faster and more efficient by sharing everything you need to know to get started. Here's a comprehensive guide on `C++`, and `stdlib`:
 
 [**C++ for cbrtl**: a short guide to getting started with cbrtl ->](/blog/c++.html)
 
-To get the hang of C++, let's start with HackerRank or Leetcode. Each platform has multiple levels, and each level is associated with a difficult jump.
+To get the hang of C++, let's start with HackerRank or Leetcode. Each platform has multiple levels, and each level is associated with a difficulty jump.
 
 ### Problem Solving/ Data Structures
 
-Moving on to **problem-solving and critical thinking**, there are multiple ways to develop this. You could go ahead and follow the [industry standard](https://leetcode.com), or do [what I did](https://github.com/fuzzymx). To approach a problem, you need to think about how to approach the problem, and then write code to solve it. This is where you'd want to learn about data structures and algorithms.
+Moving on to **problem-solving and critical thinking**, there are multiple steps to develop this.The first would be to go ahead and follow the [generic approach](https://leetcode.com), and the next is to [start building](https://github.com/fuzzymx). To solve a problem, you need to think about how to approach the problem, and then write code to solve it. This is where you'd want to learn about data structures and algorithms.
+
+For example, if you're given a problem to find the maximum element in a given set of numbers, you'd want to think about how to approach the problem. You could start by having a variable for a maximum number, and then pick up each number from set to check if the number that you see is greater than the maximum number you've seen so far. If it is, then you'd want to update the maximum number. For this, you would want to have a **data structure** *(array)* to store the numbers, and an **algorithm** *(loop)* to iterate over the numbers.
 
 Here is one that teaches you Data Structures using C++: [C++ Full Course | C++ Tutorial | Data Structures & Algorithms](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
 
@@ -68,9 +72,9 @@ Some of the most popular sought-after LeetCode problems are:
 - [SDE sheet by Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - [450 questions by Love Babbar](https://github.com/fuzzymfx/DSA-450/blob/main/Final-450.pdf)
 
-There's no particular order in which you should solve these problems. You could start with the easy ones, and then move on to the hard ones. The idea is to get the hang of it, and then move on to building stuff. With our curriculum, we'd be following a curated mix of all of these; we'd be solving some problems from all of these lists. The number depends on the target you set. We could cover 250+ problems, or 100, or 50. It's up to you. There's no single way to do this.
+There's no particular order in which you should solve these problems. You could start with the easy ones, and then move on to the hard ones. The idea is to get the hang of it, and then move on to building stuff. With the curriculum, you can follow a curated mix of all of these: solve some problems from all of these lists. The number depends on the target you set. You could cover 250+ problems, or 100, or 50. It's up to you. There's no single way to do this.
 
-I haven't completed all, this also essentially helps me as well. I could try solving the unsolved at my end in real-time with you. Here are my repos for the same, feel free to track my progress:
+I haven't completed all, this also essentially helps me as well. Here are my repos for the same, feel free to track my progress:
 
 - [LC200](https://github.com/fuzzymfx/LC-200/)
 - [DSA450](https://github.com/fuzzymfx/DSA-450/)
@@ -80,7 +84,7 @@ DSA is vast and takes a lot of space. Resouces are scattered all over the intern
 
 [**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
 
-Parallelly, we'd be doing what I initially did to get into the industry. Build.
+Parallelly, you could start utilizing your DSA superpowers into building stuff. This is where the fun begins.
 
 ### Building
 
@@ -110,10 +114,10 @@ A common starting point would be getting familiar with the language you want to 
   - [Fitness planner application](https://github.com/fuzzymfx/fitness-videoplayer)
   - [A minimal task manager](https://github.com/fuzzymfx/flutter-golang-taskapp)
 
-Here are some of the projects that I am currently working on, and you're welcome to join me:
+<!-- Here are some of the projects that I am currently working on, and you're welcome to join me:
 
 1. A tiny cmd-line bit-torrent client written in TypeScript
-2. A distributed cache application written in Rust and Svelte
+2. A distributed cache application written in Rust and Svelte -->
 
 ### System Design & Architecture
 
@@ -133,7 +137,7 @@ Some of the things you could think about are:
 
 System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article makes it clear why these decisions were made.
 
-[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) (*under construction*) gives you a comprehensive guide on how to design your own system.
+[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) gives you a comprehensive guide on how to design your own system.
 
 ### Resume
 
@@ -146,7 +150,6 @@ Resumes are highly subjective, and you can choose to build them however you want
 ## Next?
 
 I hope this series of articles was verbose enough to help you get started. The idea was to share everything I had knowledge and hands-on experience on and help you get started on your journey to becoming a software engineer.
-
 
 ## cbrtl
 
