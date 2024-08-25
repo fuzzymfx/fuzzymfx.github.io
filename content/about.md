@@ -5,7 +5,7 @@ description: "Anubhab Patnaik| fuzzymf- Engineer/ Entrepreneur"
 
 [<span style="color: #777;"><i class="fa-solid fa-light fa-file-invoice"></i> resume</span>](/resume.pdf)
 
-Hi, I am Anubhab Patnaik("fuzzymf"), a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I work with [DatingAI](https://datingai.pro) and previously worked as a software engineer at [RadiusAI](https://radius.ai/), and as the founding engineer at [StackIt](https://nowstackit.com) before that. Currently, a graduate student pursuing a Master's in Computer Engineering at New York University, Tandon. This is a space for my philosophical thoughts and monthly updates; my two cents and musings on life and tech. Here's my [journey so far <i class="fa-solid fa-arrow-right" ></i> ](/journey.html).
+Hi, I am Anubhab Patnaik("fuzzymf"), a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I previously worked as a software engineer at [RadiusAI](https://radius.ai/), and as the founding engineer at [StackIt](https://nowstackit.com) before that. Currently, a graduate student pursuing a Master's in Computer Engineering at New York University, Tandon. This is a space for my philosophical thoughts and monthly updates; my two cents and musings on life and tech. Here's my [journey so far <i class="fa-solid fa-arrow-right" ></i> ](/journey.html).
 
 I recently moved from Bangalore to NYC, and am exploring the city. The rent is exhorbitant, but the city is vibrant and full of life. Indian food is a miss.
 

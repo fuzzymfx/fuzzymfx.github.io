@@ -10,18 +10,14 @@ showdate: true
 
 <span class="update-date-time"></span>
 
-<!-- ###### August 
-
-A new chapter begins.
-
-Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by the end of August. Looking forward to the new challenges, the new people, and the new experiences that await me in NYC. -->
-
 ###### July
+
+Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. We fly out by August mid.
 
 Three biggest updates:
 
 1. I got accepted into NYU( *New York University* ) for Masters in Computer Engineering in the Tandon School of Engineering. I am moving to NYC! 
-2. Back to the startup life; building datingai.pro, your perfect wingman. Joined as the founding engineer.
+2. Back to the startup life; building datingai.pro, your perfect wingman.
 3. With all good things, comes an end. I am leaving RadiusAI, and India.
 
 I am back to the startup drill. Staying up late, shipping features, building, failing, talking to customers, discussing our GTM strategy, and building the product, have been the highlights of the past month. I am excited to be a part of the founding team at *datingai.pro*. Including me, there are five of us in the team now. 
