@@ -15,7 +15,7 @@ showdate: true
 
 ### Work Experience
 
-- **Founding Engineer** - *DatingAI* 2024 - [🔗](https://datingai.pro)
+- **Software Engineer** - *DatingAI* 2024 - [🔗](https://datingai.pro)
   - Revamping the existing infrastructure in NodeJs and NextJs to reduce network load and effectively allow the usage of API keys to limit exhaustion. Improving the efficiency of the AI engine.
   - Built the Telegram-Bot that mimics the entire application on Telegram enabling multi-platform application access
 - **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
