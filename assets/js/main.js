@@ -34,7 +34,9 @@ document.addEventListener("DOMContentLoaded", function () {
   links.forEach(function (link) {
     if (
       link.getAttribute("href") === currentPath ||
-      link.getAttribute("href") + "/" === currentPath
+      link.getAttribute("href") === currentPath + ".html" ||
+      link.getAttribute("href") + "/" === currentPath ||
+      link.getAttribute("href") + "/" === currentPath + ".html"
     ) {
       link.classList.add("active");
     }
