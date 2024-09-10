@@ -18,9 +18,9 @@ Living in Jersey City gives me access to bigger, wider rooms with amazing skylin
 
 The only downside is that I have to take a subway to reach NYC, and then transfer to another subway to Brooklyn. Midtown Manhattan is a 5-minute ride across the river, and Brooklyn is a 30-minute subway ride. The commute can be a bit overwhelming at times. The peace, the size of my room for the rent, the views from the window, and the facilities in the locality make up for it.
 
-September begins with my first semester at NYU. The culture here is very diverse. The classes are long, the assignments are overwhelming, and the professors are very knowledgeable. Most are part-time lecturers and have a full-time job at a multi-national tech company. Although, I'll be honest, there is an "accent" problem; it is difficult to understand some of them at times, but it is a learning curve.
+September begins with my first semester at NYU. The culture here is very diverse. The classes are long, the assignments are overwhelming, and the professors are very knowledgeable. Most are part-time lecturers with a full-time job at multi-national tech companies. Although, there is an "accent" problem; it is difficult to understand some of them at times, but it is a learning curve.
 
-I have taken up three courses this semester: *Data Structures and Algorithms(the same old kingmaker terrorizzing entire fleet of SEs all across the world xD)*, *Computer Systems Architecture( COA from bachelors)*, and *Internet Architecture and Protocols( CN from bachelors)*. The subjects are interesting; they help make sense of how computers and the internet work. The assignment overload is intense, but I manage.
+I have taken up three courses this semester: *Data Structures and Algorithms(the same old kingmaker terrorizzing SEs all across the world xD)*, *Computer Systems Architecture( an advanved version of COA from bachelors)*, and *Internet Architecture and Protocols( focusing on Internet architecture from CN in bachelors)*. The subjects are interesting but the assignment overload is intense.
 
 Meanwhile, I am planning to restart a couple of projects that align with the subjects I have taken up, the distributed file system, and the compiler.
 
