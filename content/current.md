@@ -10,9 +10,25 @@ showdate: true
 
 <span class="update-date-time"></span>
 
+###### September
+
+Settling in here, in New York City, has been fun and growthful. The worst part of staying away from India is not having access to a myriad of cheap labor. I have to do everything myself now. I must cook, clean, do laundry, commute using public transport, and manage my finances until I find some form of employment.
+
+Living in Jersey City gives me access to bigger, wider rooms with amazing skyline views, and a lot of greenery. The rent is cheaper, and the cost of living is lower. Jersey City is very clean and quiet, away from the hustle and bustle of NYC, and has a lot of parks and greenery. I stay on the bank of the Hudson River, and the view is amazing. I can see the entire skyline of NYC from my window. The state taxes are lower, and access to Indian communities is easier. There are a **LOT** of Indians staying in New Jersey, and I can find Indian groceries and restaurants easily.
+
+The only downside is that I have to take a subway to reach NYC, and then transfer to another subway to Brooklyn. Midtown Manhattan is a 5-minute walk across the river, and Brooklyn is a 30-minute subway ride. The commute can be a bit overwhelming at times. The peace, the size of my room for the rent, the views from the window, and the facilities in the locality make up for it.
+
+September begins with my first semester at NYU. The culture here is very diverse. The classes are long, the assignments are overwhelming, and the professors are very knowledgeable. Most are part-time lecturers and have a full-time job at a tech company. Although, I'll be honest, there is an "accent" problem; it is difficult to understand some of them at times, but it is a learning curve.
+
+I have taken up three courses this semester: *Data Structures and Algorithms(the same old kingmaker terrorizzing entire fleet of SEs all across the world xD)*, *Computer Systems Architecture( COA from bachlors)*, and *Internate Architecture and Protocols( CN from bachelors)*. The subjects are interesting; they help make sense of how computers and the internet work. The assignment overload is intense, but I manage.
+
+Meanwhile, I am planning to restart a couple of projects that align with the subject I have taken up, a distributed file system, and the compiler.
+
+Looking forward to an amazing Semester here at NYU, New York City.
+
 ###### August
 
-New York is wild! The city is bustling with life, and the energy is infectious. The city is a melting pot of cultures, and the diversity is palpable. It is a hub for tech, and innovation, and I am excited to be a part of it. The other difficult part of living this dream is leaving my family and friends behind. I have been feeling extremely, extremely homesick, and I miss them a lot.
+New York is wild! The city is bustling with life, and the energy is infectious. The city is a melting pot of cultures, and the diversity is palpable. It is a hub for tech, and innovation, and I am excited to be a part of it. The other difficult part of living this dream is leaving my family and friends behind. I have been feeling extremely homesick since I have arrived here, and I miss my friends and family a lot.
 
 Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. 
 
