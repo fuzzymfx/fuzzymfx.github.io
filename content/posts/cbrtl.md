@@ -1,5 +1,5 @@
 ---
-title: 'Getting started with SWE'
+title: 'Getting started with software engineering'
 date: "01-05-2024"
 description: "This is how I would go about teaching software engineering if I were to teach it; a comprehensive guide to getting started with software engineering."
 draft: false
@@ -8,13 +8,13 @@ tag: "tech"
 
 I was offered to start an interesting venture: to curate a course for software engineering and to build a platform that aims at sharing my experience of getting into software engineering. Tons of platforms provide the same, but none of them are as comprehensive as I would like them to be. While fundamentally I want to impart knowledge for free, I also do not have enough time to make sit with everybody and teach them. Hence, this idea of crafting a self-sustaining curriculum capable of imparting software engineering skills to anyone keen on learning seemed apt.
 
-This became the guiding principle behind restarting [cbrtl](https://cbrtl.github.io). [Srijan](https://injuly.in) and I started cbrtl, an open-source cult that comes together as a community to build fun stuff together. Following this, I am adding my experience of getting into software engineering, and building a platform that aims at sharing this experience with each other, as a community, first-hand. 
+This became the guiding principle behind starting [cbrtl](https://cbrtl.github.io). [Srijan](https://injuly.in) and I started cbrtl, an open-source cult that comes together as a community to build fun stuff together. Following this, I am adding my experience of getting into software engineering, and building a platform that aims at sharing this experience with each other, as a community, first-hand. 
 
 This curriculum is designed to be self-sustaining: a collection of resources freely available on the internet. The idea is to curate these resources and present them in a structured manner. Comprehend this however you will; a guide to getting a job, or becoming a better engineer in general. **This is how I became a software engineer.**
 
 ## The Curriculum
 
-1. **The Basics**: Familiarize yourself with the basics; programming languages, data structures, and algorithms, design patterns, etc. Not knowing how to drive, but buying a GT3 RS is a waste of money. Learning to drive in a Hyundai would be a good start. The job market is cruel, it makes you emphasize Nuxt, React, Node, Pandas, Django, Kafka, and what-not, but it wouldn't help until you know how to parse a column in *Pandas dataframe* as *Datetime* and process it, or how to push async messages in a queue and handle them in a worker thread. We would start off with an online platform like [LeetCode](https://leetcode.com) / [HackerRank](https://hackerrank.com), and then move on to building stuff.
+1. **The Basics**: Familiarize yourself with the basics; programming languages, data structures, and algorithms, design patterns, etc. Not knowing how to drive, but buying a GT3 RS is a waste of money. Learning to drive in a Hyundai would be a good start. The job market is cruel, it makes you emphasize Nuxt, React, Node, Pandas, Django, Kafka, and what-not, but it wouldn't help until you know how to parse a column in *Pandas dataframe* as *Datetime* and process it, or how to push async messages in a queue and handle them in a worker thread. You could start by learning a programming language, and then move on to data structures and algorithms. 
 
     This can be your starting point to becoming a god-tier Python or TS dev, writing clean, efficient, and maintainable code, writing lambda functions, higher-order functions and closures while working with tech like databases, web development/ machine learning. With the basics ceared, it wouldn't be difficult to comprehend these. They start off scary but are pretty simple once you get the hang of it.
 
@@ -23,10 +23,6 @@ This curriculum is designed to be self-sustaining: a collection of resources fre
 2. **The Advanced**: After you've built your first to-do app or your first ML model that predicts movie ratings, or maybe an FPS game, you feel contempt and proud, wiping the sweat off your forehead. You'd want to post on LinkedIn, share your code, manage it on GitHub, and show it off to your friends. This is where it gets more interesting.
 
     This is where you start to think about the architecture of your application, and how to make it scalable, fault-tolerant, and secure. You'd want to monitor your application, and make sure it's running smoothly. You would not want anybody accessing your data, securing them, and allowing only a selected few to access it. The differences between a monolith and a microservice architecture help.
-
-**Summarizing**, the curriculum is divided into two parts:  
-1. Learn the basics; a programming language, data structures, and algorithms, and start practicing. Parallelly, start building projects.
-2. Take up real-world problem statements, and start building them. Think about the architecture, and how to make it scalable, fault-tolerant, and secure.
 
 - [Languages](#languages)
 - [Problem Solving/ Data Structures](#problem-solving-data-structures)
@@ -39,22 +35,15 @@ Start by learning to write code. This involves you to learn the basics of a prog
 
 I'd be choosing *C++* here. Despite being categorized as a high-level language, it retains a lower-level essence when compared to the likes of Python or JavaScript/TypeScript. With its manual memory management and requirement to construct everything from scratch, C++ fosters a deeper understanding of coding principles. You become less reliant on pre-existing libraries and functions, thereby honing your coding prowess.
 
-This doesn't mean that choosing anything else makes you lethargic. You could still choose what you want and proceed to write everything yourself, and not use built-in functions or libraries, it wouldn't matter. I choose C++ because it is the first programming language that I have learnt.
-
 ### Languages
 
 Pick up a language, and **stick to it**. Python, JavaScript, Java *(well, not Java, that is shit. "But, but, but....." shhhhhhh.)*, C++, Go, Rust, etc. are all good choices. It doesn't matter which language you pick. Real-world applications require you to know the basics and learn the rest on the go. You can always learn as many languages you wish.
 
-Start by getting into the [documentation](https://devdocs.io/cpp/), learning the basics, and then moving on to practising. Now, the process of reading through documntation and can get a bit tedious and boring, but the habbit of reading and understanding documentation is extremely important. It is the fastest way. Otherwise, there are a ton of tutorials on YouTube that help you learn C++. I am sharing a few here that I followed while I was learning to code:
-
-- [C++ Tutorial for Beginners - Learn C++ in 1 Hour](https://youtu.be/ZzaPdXTrSb8?si=hD1z12yg6trfLPrs)
-- [C++ Crash Course For Beginners](https://www.youtube.com/watch?v=1v_4dL8l8pQ&t=4s&pp=ygUQYysrIGNyYXNoIGNvdXJzZQ%3D%3D)
-- [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=528s&pp=ygUQYysrIGNyYXNoIGNvdXJzZQ%3D%3D)  
-[*More...*](https://www.youtube.com/results?search_query=c%2B%2B+crash+course)  
+Start by getting into the [documentation](https://devdocs.io/cpp/), learning the basics, and then moving on to practising. Now, the process of reading through documntation and can get a bit tedious and boring, but the habbit of reading and understanding documentation is extremely important. It is the fastest way. Otherwise, there are [a ton of tutorials on YouTube that help you learn C++](https://www.youtube.com/results?search_query=c%2B%2B+crash+course).
 
 The problem with visual-based learning is that it is **inherently slow**; I am trying to make this process faster and more efficient by sharing everything you need to know to get started. Here's a comprehensive guide on `C++`, and `stdlib`:
 
-[**C++ for cbrtl**: a short guide to getting started with cbrtl ->](/blog/c++.html)
+[**C++**: a short guide to getting started with cbrtl ->](/blog/c++.html)
 
 To get the hang of C++, let's start with HackerRank or Leetcode. Each platform has multiple levels, and each level is associated with a difficulty jump.
 
@@ -64,9 +53,11 @@ Moving on to **problem-solving and critical thinking**, there are multiple steps
 
 For example, if you're given a problem to find the maximum element in a given set of numbers, you'd want to think about how to approach the problem. You could start by having a variable for a maximum number, and then pick up each number from set to check if the number that you see is greater than the maximum number you've seen so far. If it is, then you'd want to update the maximum number. For this, you would want to have a **data structure** *(array)* to store the numbers, and an **algorithm** *(loop)* to iterate over the numbers.
 
-Here is one that teaches you Data Structures using C++: [C++ Full Course | C++ Tutorial | Data Structures & Algorithms](https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
+DSA is vast and takes a lot of space. Resouces are scattered all over the internet. The ones that I have come across are either too verbose, or too concise We'd be following our in-house comprehensive guide to getting started with DSA:
 
-Some of the most popular sought-after LeetCode problems are:
+[**DSA**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
+
+The best way to get started with DSA is to solve problems. There are a lot of platforms that provide you with problems to solve. Some of the most popular sought-after LeetCode problems are:
 
 - [This 200 list of problems I found somewhere on the internet](https://github.com/fuzzymfx/LC-200/blob/main/Leetcode%20Questions%20-%20200.xlsx)
 - [SDE sheet by Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
@@ -80,44 +71,19 @@ I haven't completed all, this also essentially helps me as well. Here are my rep
 - [DSA450](https://github.com/fuzzymfx/DSA-450/)
 - [Striver's SDE Sheet](https://github.com/fuzzymfx/SDE-sheet)
 
-DSA is vast and takes a lot of space. Resouces are scattered all over the internet. The ones that I have come across are either too verbose, or too concise We'd be following our in-house comprehensive guide to getting started with DSA:
-
-[**DSA for cbrtl**: a comprehensive guide to getting started with most common data structures and algorithms ->](/blog/dsa.html) (*under construction*)
-
 Parallelly, you could start utilizing your DSA superpowers into building stuff. This is where the fun begins.
 
 ### Building
 
 We'd be looking at building entirely new applications from scratch, deploying them to a server, making them accessible through the internet, or maybe using a serverless architecture. We can get a domain, and host it on a server, or use a cloud provider like AWS, GCP, or Azure, if you want.
 
-cbrtl was meant to be a hub for projects. You can have various interests and domains. You could be wanting to become a game developer, a data scientist, a web developer, or a backend developer. We'd be building projects in all of these domains.
-
-I have curated a list of 9-12 projects that we could build together. The list keeps on changing, the same as with the DSA list. These include common topics, such as application dev, game dev, and ML/ AI, etc. All of these can be found on the internet. I'll explain a couple of projects here, and we could build the rest together.
+cbrtl was meant to be a hub for projects. You can have various interests and domains. You could be wanting to become a game developer, a data scientist, a web developer, or a backend developer. 
 
 A common starting point would be getting familiar with the language you want to build your project in. You could start off with a simple project, and then move on to more complex ones. Here are a few projects that I have built:
 
-- Web:
-  <span id="react-system-design"></span>
-  - [A college resource-sharing platform built using Firebase and React](https://resoc.in)
-  - [A decentralized chat application built using Svelte and GunJS](https://w3bchat-fadfa.web.app/)
-  - [An API to generate random avatars](https://api.nicedear.vip/)
-  - [A static site generator, zuzu](https://github.com/fuzzymfx/zuzu)
-- Commandline:
-  - [A command line tool to present presentations written in markdown](https://github.com/fuzzymfx/dough.git)
-  - [A chat server](https://github.com/fuzzymfx/rust-tokio-chat-server)
-- Machine Learning:
-  - A [movie rating prediction](https://github.com/fuzzymfx/Movie-rating-prediction), and a [movie recommendation system](https://github.com/fuzzymfx/Movie-recommendation)
-  - [Depression detection in tweets](https://github.com/fuzzymfx/Detecting-Depression-in-Tweets)
-  - [An examination marks predictor](https://github.com/fuzzymfx/Marks-predictor) 
-  - [Bird migration analysis over the west coast from SA to NA](https://github.com/fuzzymfx/Bird-Migration-data-analysis)
-- Application Development:
-  - [Fitness planner application](https://github.com/fuzzymfx/fitness-videoplayer)
-  - [A minimal task manager](https://github.com/fuzzymfx/flutter-golang-taskapp)
-
-<!-- Here are some of the projects that I am currently working on, and you're welcome to join me:
-
-1. A tiny cmd-line bit-torrent client written in TypeScript
-2. A distributed cache application written in Rust and Svelte -->
+Here are three projects that I help you run through:
+- [**College Resource Sharing Platform**: a React-based platform to share resources ->](/blog/resoc.html)<span id="react-system-design"></span>
+- [**Image Compression/ Decompression**: a Quadtree based image compression/ decompression algorithm ->](/blog/qtree.html)
 
 ### System Design & Architecture
 
@@ -135,9 +101,13 @@ Some of the things you could think about are:
 - What if you do not want the entire Internet to access your data/ app?
 - Do the current users like the user interface? How do you make sure that the UI is user-friendly? 
 
-System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the chat application is deployed on Netlify. The chat server is deployed on a VPS, and the movie rating prediction system is deployed on Heroku. This article makes it clear why these decisions were made.
+System designing is essential to build solid, production-grade applications. It makes sure that the application is equipped to handle whatever is thrown at it. We'd be deploying, scaling and building inherent architectures for all the projects that we build. For ex., the react-based college resource-sharing platform [⏎](#react-system-design) is deployed on Firebase, and the image compression/ decompression algorithm is deployed using GitHub Actions on GitHub Pages.
 
-[**System Design for cbrtl**: a comprehensive guide to designing your own system ->](/blog/system-design.html) gives you a comprehensive guide on how to design your own system.
+[**System Design**: a comprehensive guide to designing your own system ->](/blog/system-design.html) gives you a comprehensive guide on how to design your own system.
+
+<!-- Here are two systems that I have designed for the projects that I have built: -->
+<!-- - [*A distributed database system in Rust*]() -->
+
 
 ### Resume
 
@@ -145,7 +115,7 @@ Your resume/ portfolio makes you stand out in the crowd. It is the first thing t
 
 Resumes are highly subjective, and you can choose to build them however you want. I'm sharing mine here. In the end, your projects, work experience, and skills would speak for themselves. Your resume should effectively communicate what you have done, and what you can do. Make sure you can highlight what you've done and it stands out.
 
-[**Resume Building for cbrtl**: a short guide to building your resume](/blog/resume-building.html) is what I followed to build my resume. 
+[**Resume Building**: a short guide to building your resume](/blog/resume-building.html) is what I followed to build my resume. 
 
 ## Next?
 
@@ -155,7 +125,7 @@ I hope this series of articles was verbose enough to help you get started. The i
 
 [cbrtl](https://cbrtl.github.io) is a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community.
 
-This is a **free** platform that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. I deeply value my time, and I am sure you do too. Hence, it would be understandable if at times, I am unavilable to help you out. The primary goal still remains the same: to empower you to build stuff and become a better engineer. Any help in donating and contributing more to building the platform would be appreciated. Optionally, you could follow this guide and get started on your own.
+This is a **free** platform we started in our college days that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. I deeply value my time, and I am sure you do too. Hence, it would be understandable if at times, I am unavilable to help you out. The primary goal still remains the same: to empower you to build stuff and become a better engineer. Any help in donating and contributing more to building the platform would be appreciated. Optionally, you could follow this guide and get started on your own.
 
 To begin with, drop a mail at [anubhabr50@gmail.com](mailto:anubhabr50@gmail.com) with the subject as `cbrtl`, and I'll get back to you with the resources and the plan.
 

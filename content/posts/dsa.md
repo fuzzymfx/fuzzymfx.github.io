@@ -1,5 +1,5 @@
 ---
-title: 'DSA for cbrtl'
+title: 'DSA'
 date: "01-05-2024"
 description: "A short, concise guide to starting with Data Structures and Algorithms in c++"
 draft: false
@@ -15,7 +15,17 @@ Data Structures and Algorithms are the building blocks of any program. They help
 
 ## Time Complexity
 
-Time complexity is a measure of the amount of time an algorithm takes to run as a function of the length of the input. It is used to analyze the efficiency of an algorithm. The time complexity of an algorithm is usually expressed using Big O notation. Big O notation describes the upper bound of the time complexity of an algorithm. It is used to describe the worst-case scenario of an algorithm. Other notations include Big Omega and Big Theta, which describe the lower bound and average case of an algorithm, respectively. 
+Time complexity is a measure of the amount of time an algorithm takes to run as a function of the length of the input. It is used to analyze the efficiency of an algorithm. The time complexity of an algorithm is usually expressed using asymptotic notations, that describe bounds of a function, or how the function behaves as the input size approaches infinity.
+
+- Big O notation describes the upper bound of the time complexity of an algorithm. It is used to describe the worst-case scenario of an algorithm.
+- Big Omega notation describes the lower bound of the time complexity of an algorithm. It is used to describe the best-case scenario of an algorithm.
+- Theta notation describes the average case of the time complexity of an algorithm.
+
+Two other notations are also there(but we won't be using them):
+- Little omega notation describes the lower bound of the time complexity of an algorithm, excluding the function itself.
+- Little O notation describes the upper bound of the time complexity of an algorithm, excluding the function itself.
+
+All of these are for information, we are only going to encounter Big O notation in the real world.
 
 1. O(1) - Constant time complexity
 2. O(log n) - Logarithmic time complexity

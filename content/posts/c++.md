@@ -1,5 +1,5 @@
 ---
-title: 'c++ for cbrtl'
+title: 'c++'
 date: "01-05-2024"
 description: "Starting with c++ in cbrtl"
 draft: false
