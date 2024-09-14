@@ -9,4 +9,4 @@ description: "My experiences and musings on life, technology, and everything in 
 
 ---
 
-Feel free to [send me a mail](mailto:anubhabr50@gmail.com) :)
+[contact here](mailto:anubhabr50@gmail.com) :)

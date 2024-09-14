@@ -123,10 +123,4 @@ I hope this series of articles was verbose enough to help you get started. The i
 
 ## cbrtl
 
-[cbrtl](https://cbrtl.github.io) is a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community.
-
-This is a **free** platform we started in our college days that aims at sharing this experience with you, first-hand. We would be building stuff together, writing code, and sharing resources. I deeply value my time, and I am sure you do too. Hence, it would be understandable if at times, I am unavilable to help you out. The primary goal still remains the same: to empower you to build stuff and become a better engineer. Any help in donating and contributing more to building the platform would be appreciated. Optionally, you could follow this guide and get started on your own.
-
-To begin with, drop a mail at [anubhabr50@gmail.com](mailto:anubhabr50@gmail.com) with the subject as `cbrtl`, and I'll get back to you with the resources and the plan.
-
-I'll be writing more on this, and sharing more resources as we move on. If you have any questions, feel free to reach out below. I'd be happy to help you out.
+[cbrtl](https://cbrtl.github.io) was a small, tight knit group of programmers and open source sorcerers who like to craft fun projects together and build a community; a platform we started in our college days that aimed at sharing this experience with you, first-hand. The primary goal still remains the same: to empower you to build stuff and become a better engineer.
