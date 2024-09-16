@@ -28,9 +28,7 @@ Looking forward to an amazing Semester here at NYU, New York City.
 
 ###### August
 
-New York is wild! The city is bustling with life, and the energy is infectious. The city is a melting pot of cultures, and the diversity is palpable. It is a hub for tech, and innovation, and I am excited to be a part of it. The other difficult part of living this dream is leaving my family and friends behind. I have been feeling extremely homesick since I have arrived here, and I miss my friends and family a lot.
-
-Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. 
+Moving to a new country is tough. The past couple of weeks have been really busy and exciting; arranging funds, exploring scholarships, looking for housing, and overally planning the move. Me, and my friend, Rachna, are leaving together for NY, and this makes the transition a little bit easier. The other difficult part of living this dream is leaving my family and friends behind. I have been feeling extremely homesick since I have arrived here, and I miss my friends and family a lot.
 
 ###### July
 
