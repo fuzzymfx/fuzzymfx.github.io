@@ -3,7 +3,10 @@ title: 'Introducing Resoc'
 date: "17-03-2023"
 description: "RESOC; short for Resources + Community, is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free."
 tag: "tech"
-ShowBreadCrumbs: true 
+ShowBreadCrumbs: true
+draft: false
+index: false
+
 ---
 <style>
  .resoc {
@@ -13,11 +16,11 @@ ShowBreadCrumbs: true
  flex-direction: column;
  }
  </style>
-RESOC lets you share notes, question papers, and other academic resources with your friends and classmates. It’s a free and open-source platform, built by a bunch of tech-savvy students at Silicon Institute, Bhubaneswar.
+RESOC lets you share notes, question papers, and other academic resources with your friends and classmates. It's a free and open-source platform, built by a bunch of tech-savvy students at Silicon Institute, Bhubaneswar.
 
 ## How it all started
 
-The idea came to me in the first year of my undergrad, when I found myself scouring the internet for notes, and calling up friends in the middle of the night. I have a terrible habit of studying just before the exam, and at the end of the day, I always find myself having nothing to read from. This led me to build a Google Drive collection that became an instant hit among my peers. Everybody wanted the link! I didn’t bother to put much effort into it, and it was just a bunch of collection of notes that I had collected over the years. I built a static html page and hosted it in GitHub pages.
+The idea came to me in the first year of my undergrad, when I found myself scouring the internet for notes, and calling up friends in the middle of the night. I have a terrible habit of studying just before the exam, and at the end of the day, I always find myself having nothing to read from. This led me to build a Google Drive collection that became an instant hit among my peers. Everybody wanted the link! I didn't bother to put much effort into it, and it was just a bunch of collection of notes that I had collected over the years. I built a static html page and hosted it in GitHub pages.
 
 ## The Journey
 
@@ -29,7 +32,7 @@ THIS IS [RESOC](https://resoc.in/)
 
 ## RESOC
 
-The best notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it’s totally free. We have a [nifty task section](https://resoc.in/taskboard) for you to manage your work. No more forgetting deadlines and drowning in assignments. Pop over to the [community chat page](https://resoc.in/community) and give us a holler. We're always happy to help out and connect with like-minded folks. You might even make a new study buddy or two! We're looking for active contributions and you're always welcome to [contribute](https://resoc.in/contributions) to RESOC :) We've got a [team](https://resoc.in/team) of talented content creators who are always looking for new ideas and suggestions. If you've got something to say, we're all ears!
+The best notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free. We have a [nifty task section](https://resoc.in/taskboard) for you to manage your work. No more forgetting deadlines and drowning in assignments. Pop over to the [community chat page](https://resoc.in/community) and give us a holler. We're always happy to help out and connect with like-minded folks. You might even make a new study buddy or two! We're looking for active contributions and you're always welcome to [contribute](https://resoc.in/contributions) to RESOC :) We've got a [team](https://resoc.in/team) of talented content creators who are always looking for new ideas and suggestions. If you've got something to say, we're all ears!
 
 As we continue to develop RESOC, our goal is to create a platform that feels like home to our users. We want to cater to your academic needs, and let you access important data when you need them. We've already added a ton of features, but we're always looking for ways to make the platform even more user-friendly.
 
