@@ -83,6 +83,8 @@ Other significant components include:
 - **Database**: The notes are in Google Drive, and Cloud Firestore is used for authentication and storing user data, tasks, and chat messages. Firebase storage is used to store files uploaded by users.
 - **Authentication**: Google OAuth and email/password is used for authentication using Firebase Authentication.
 
+The deployment and CI/CD pipeline is managed using GitHub Actions. A github action is responsible for deploying the codebase to Firebase Hosting.
+
 ### Getting Started
 
 The best way to get started would be to clone the repository and try running and exploring all seciton of the web app to become familiar with the codebase. The codebase is open-source and can be found [here](https://github.com/fuzzymfx/resoc). The codebase is a Nodejs project, so you would need to have Nodejs installed on your system. You can install the dependencies by running `npm install` in the root directory. You can run the project by running `npm start`.
