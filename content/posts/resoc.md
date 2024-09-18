@@ -58,34 +58,30 @@ The primary features of RESOC is sharing Notes, Question Papers, and other acade
 
 ### Deep Dive into the codebase
 
-The major components and routes look something like this:
+The major components and routes are:
 
-**/**: Renders the App component.  
-**/team**: Lazily loads and renders the AboutUs component.  
-**/notes**: Lazily loads and renders the Notes component.  
-**/visitloader**: Renders the Loader component.  
-**/previewnotes**: Lazily loads and renders the PreviewNotes component.  
-**/community-guidelines**: Lazily loads and renders the Disclaimer component.  
-**/update-profile**: Requires authentication, lazily loads and renders the UpdateProfile component.  
-**/community**: Requires authentication, lazily loads and renders the Chat component.  
-**/taskboard**: Requires authentication, lazily loads and renders the Todo component.  
-**/login**: Redirects to profile if logged in, otherwise lazily loads and renders the Login component.  
-**/profile**: Requires authentication, lazily loads and renders the Profile component.  
-**/signup**: Redirects to profile if logged in, otherwise lazily loads and renders the Signup component.  
-**/forgot-password**: Redirects to update profile if logged in, otherwise lazily loads and renders the ForgotPassword component.  
-**/contributions**: Requires authentication, lazily loads and renders the Contributions component.  
+**/team**
+**/notes**
+**/previewnotes**
+**/community-guidelines**
+**/update-profile**
+**/community**
+**/taskboard**
+**/login**
+**/profile**
+**/signup**
+**/forgot-password**
+**/contributions**
 
 Here's why there was **a need for authentication**:  
 
 There are various actions that would need to distinguish individual users. From uploading notes to maintaing personal task list and communicating with the community, authentication is a must. RESOC uses Google OAuth for authentication.
 
-
 Other significant components include:
 
-- **Hosting**: The platform is hosted on Firebase Hosting.
-- **Database**: The database is managed using Firebase Firestore. The notes are in Google Drive.
-- **Contributions/ Storage**: Firebase Storage is used to store files uploaded by users.
-- **Authentication**: Google OAuth and email/password is used for authentication. The sign up and login pages are managed using Firebase Auth.
+- **Hosting**: Resoc is hosted in Firebase Hosting.
+- **Database**: The notes are in Google Drive, and Cloud Firestore is used for authentication and storing user data, tasks, and chat messages. Firebase storage is used to store files uploaded by users.
+- **Authentication**: Google OAuth and email/password is used for authentication using Firebase Authentication.
 
 ### Getting Started
 
