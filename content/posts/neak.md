@@ -1,5 +1,5 @@
 ---
-title: 'Neak: A NL to SQL Engine'
+title: 'Neak: Natural Language --> SQL'
 date: "10-12-2023"
 description: "Neak is a natural language to SQL engine that uses the RAG pipeline to generate SQL queries from natural language questions."
 tag: "tech"

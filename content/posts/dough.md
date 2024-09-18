@@ -1,5 +1,5 @@
 ---
-title: 'Dough: A CLI Presentation Tool'
+title: 'Dough - A Rich Presentation Tool'
 date: "31-01-2024"
 description: "A rich presentation tool built in Rust that uses markdown for content generation."
 tag: "tech"
@@ -65,16 +65,16 @@ If you're eager to dive into the world of Rust and looking for a project to cont
 **What's working and what's not?**
 
 - [ ]  Fix scrolling issue in highlight mode:
-  - [ ] *bug* Over Scroll in infinite scrolling
-  - [ ] *feat* Skip empty lines in highlight mode
-- [ ] *bug* custom aligner adds empty lines after text-block alignment
-- [ ] *feat.* Hot Module Reload
-- [ ] *feat.* Add support for the maximum width and height of the presentation. Write a word wrapper.
-- [ ] *feat.* Add comprehensive support for common Markdown elements.
-- [ ] *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
-  - [ ] lists.
-  - [ ] blockquotes.
-  - [ ] tables.
+  - [ ]  *bug* Over Scroll in infinite scrolling
+  - [ ]  *feat* Skip empty lines in highlight mode
+- [ ]  *bug* custom aligner adds empty lines after text-block alignment
+- [ ]  *feat.* Hot Module Reload
+- [ ]  *feat.* Add support for the maximum width and height of the presentation. Write a word wrapper.
+- [ ]  *feat.* Add comprehensive support for common Markdown elements.
+- [ ]  *feat.* Enhance rendering for complex markdown elements like links within headings or lists.
+  - [ ]  lists.
+  - [ ]  blockquotes.
+  - [ ]  tables.
 
 Feel free to explore these areas, open new issues, or submit pull requests to contribute to Dough's evolution. Your insights and contributions are highly valued as we strive to make Dough the go-to presentation tool for Rust enthusiasts everywhere.
 

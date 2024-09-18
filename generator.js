@@ -108,7 +108,14 @@ const getOutputFilename = (filename, outPath) => {
 const getOutputPdfname = (filename, outPath) => {
   const basename = path.basename(filename);
   const newfilename = `${basename.slice(0, -3)}.pdf`;
-  const outfile = path.join(outPath, newfilename);
+  const newFolder = "documents";
+  const newFolderPath = path.join(outPath, newFolder);
+
+  if (!fs.existsSync(newFolderPath)) {
+    fs.mkdirSync(newFolderPath, { recursive: true });
+  }
+
+  const outfile = path.join(newFolderPath, newfilename);
   return outfile;
 };
 
@@ -128,6 +135,11 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
   if (draft) return;
 
   const outfilename = getOutputFilename(filename, outPath);
+
+  if (file.data.pdf && file.data.pdf == true) {
+    const outpdfname = getOutputPdfname(filename, outPath);
+    mdToPdf({ path: filename }, { dest: outpdfname });
+  }
 
   if (file.data.index !== false) {
     blogs.set(filename.split("/").slice(-1).join("/").slice(0, -3), {
@@ -191,14 +203,9 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
  * @param {string} outPath - The output path.
  * @param {boolean} generatePdf - Whether to generate a PDF version of the file.
  * @param {object} hashes - The object containing the hashes of the content of the files.
+ * @param {string} pdfOutPath - The output path for the PDF file.
  */
-const processDefaultFile = (
-  filename,
-  template,
-  outPath,
-  hashes,
-  generatePdf = false
-) => {
+const processDefaultFile = (filename, template, outPath, hashes) => {
   const file = readFile(filename);
   const outfilename = getOutputFilename(filename, outPath);
 
@@ -207,7 +214,7 @@ const processDefaultFile = (
     content: file.html,
     description: file.data.description,
   });
-  if (generatePdf) {
+  if (file.data.pdf && file.data.pdf == true) {
     const outpdfname = getOutputPdfname(filename, outPath);
     mdToPdf({ path: filename }, { dest: outpdfname });
   }
@@ -368,6 +375,7 @@ const main = async () => {
   const dir = path.resolve(".dist");
   const indexOutPath = path.resolve(".dist");
   const assetsPath = path.resolve("assets");
+  const pdfOutPath = path.resolve(".dist/documents");
 
   const blogTemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
   const defaulTemplate = fs.readFileSync(
@@ -410,7 +418,7 @@ const main = async () => {
 
   indexFiles.forEach((filename) => {
     if (filename.includes("journey"))
-      processDefaultFile(filename, defaulTemplate, indexOutPath, hashes, true);
+      processDefaultFile(filename, defaulTemplate, indexOutPath, hashes);
     else processDefaultFile(filename, defaulTemplate, indexOutPath, hashes);
   });
 

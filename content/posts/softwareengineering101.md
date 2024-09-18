@@ -1,5 +1,5 @@
 ---
-title: 'Getting started with software engineering'
+title: 'Software Enginerering 101'
 date: "01-05-2024"
 description: "This is how I would go about teaching software engineering if I were to teach it; a comprehensive guide to getting started with software engineering."
 draft: false

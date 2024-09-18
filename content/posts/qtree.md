@@ -1,5 +1,5 @@
 ---
-title: 'QTree: Image Compression algorithm'
+title: 'QTree - Images in Quadtrees '
 date: "14-02-2023"
 description: "Inspired by KoalasToTheMax, QTree is a short live demonstration of image compression and decompression using Quadtrees that partition a two-dimensional image by recursively subdividing it into four quadrants."
 tag: "tech"

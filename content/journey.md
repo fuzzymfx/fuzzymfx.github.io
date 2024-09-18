@@ -2,6 +2,7 @@
 title: "Journey"
 description: "My journey so far"
 showdate: true
+pdf: true
 ---
 <script type="module" src="/assets/js/cv/main.js" ></script>
 *Last Updated: <span class="update-date-time"></span>*

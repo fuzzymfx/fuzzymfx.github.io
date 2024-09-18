@@ -1,7 +1,7 @@
 ---
-title: 'Nicedear: A Random Avatar Generator'
+title: 'Generating avatars with Nicedear'
 date: "01-04-2024"
-description: "A random avatar generator for your website or app: a dicebear spoof. "
+description: "A random avatar generator for your website or app: an obvious dicebear spoof :P "
 draft: false
 tag: "tech"
 ---

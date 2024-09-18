@@ -1,52 +1,69 @@
 ---
-title: 'zuzu - a static site generator'
+title: 'Zuzu'
 date: "29-05-2022"
+pdf: true
 description: "Zuzu is a static site generator that converts all your markdown files into static html pages. It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets."
 tag: "tech"
 ---
 
-Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code ;)
+Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code :P . 
 
+**Imp**: The latest version of zuzu might not updated in the [original codebase](https://github.com/fuzzymfx/zuzu), but instead all the features can be found here: [fuzzymfx/fuzzymfx.github.io](https://github.com/fuzzymfx/fuzzymfx.github.io). A couple of features have been added to the original codebase, such as RSS feed, PDF generation, and CSS/JS injection. The better codebase is the one mentioned above.
+
+
+- [Features](#features)
 - [How does it work?](#how-does-it-work)
-  - [1. Create a markdown file](#1-create-a-markdown-file)
-  - [2. Run the generator and find your blog](#2-run-the-generator-and-find-your-blog)
-- [The Static Site Generator](#the-static-site-generator)
-  - [1. Libraries used](#1-libraries-used)
-  - [2. Workflow](#2-workflow)
-  - [3. Generator Code](#3-generator-code)
-  
+- [Getting Started](#getting-started)
+- [Next?](#next)
+
+
+## Features
+
+Zuzu builds on a very basic problem statement: *I want to start my own blog without having to learn a lot of code*. The current version supports a ton of features:
+
+- **Markdown**: Zuzu supports Github-flavoured markdown. Ramble on about your favourite topics, add code snippets, tables, and images, and Zuzu will render them for you.
+- **Syntax Highlighting**: Zuzu uses highlight.js to beautify your code snippets. Just add your code in a code block and Zuzu will take care of the rest.
+- **CSS/JS Injection**: Zuzu allows you to add your own CSS and JS files. Just add them to the `static` folder and Zuzu will inject them into your HTML files. Make sure to include the path in the markdown file. Example: `....<link rel="stylesheet" href="/static/css/style.css">...`.
+- **Front Matter**: Zuzu uses front matter to extract metadata from the markdown file. The front matter is written in YAML and is enclosed between `---`. 
+
+Example: 
+```
+--- title: 'Zuzu' 
+date: "29-05-2022" 
+description: "Zuzu is a static site generator that converts all your markdown files into static html pages.
+It uses Github-flavoured Markdown CSS and highlight.js to beautify code snippets." tag: "tech" 
+---
+```
+
+- **RSS Feed**: Zuzu generates an RSS feed for your blog. Just add the `rss.xml` file to the `static` folder and Zuzu will take care of the rest.
+- **PDF Generation**: Zuzu uses `md-to-pdf` to convert your markdown files into PDFs. Just add the `pdf` link to your markdown file and Zuzu will take care of the rest. Example: [Download PDF](/blog/documents/zuzu.pdf).
+- **Configurable**: Zuzu is highly configurable. You can change the theme, add your own CSS and JS files, and even add your own `static` folders. The `config.toml` looks like this:
+
+```
+# Homepage
+base_url = "https://anubhavp.dev/zuzu/"
+
+# template
+template = "fuzzymfx"
+
+...
+
+# Path to the directory containing the templates
+template_dir = "templates/fuzzymfx"
+
+# Path to the directory containing the static files
+static_dir = "static"
+
+...
+
+# Theme
+templateHTML = "templates/fuzzymfx/template.html"
+
+```
+
 ## How does it work?
 
-Zuzu parses the markdown file using *javascript* and renders it as *html documents*. It then saves the html files in the `docs` folder. The `docs`, is the final output of the generator and this can be deployed and hosted on various platforms. This particular blog has been deployed on Github Pages. Here is another blog built using zuzu and react for some additional feat. [Anubhab's Blog](https://anubhavp.dev/oldblog/)
-
-### 1. Create a markdown file
-
-    # This is a title
-    This is a paragraph
-    This is another paragraph
-    This is a list:
-    * Item 1
-    * Item 2
-    * Item 3
-    This is a code block:
-    ```
-    print("Hello World")
-    ```
-    This is a table:
-    | Column 1 | Column 2 | Column 3 |
-    | -------- | -------- | -------- |
-    | 1        | 2        | 3        |
-    | 4        | 5        | 6        |
-    | 7        | 8        | 9        |
-    This is a link: [zuzu](https://anubhavp.dev/blog/zuzu.html)
-
-### 2. Run the generator and find your blog
-
-Run `npm run generate` in the console. We have used GitHub-flavoured markdown in the initial setup. You may add your theme, build your css and js files and add them to the `static` folder. The `static` folder contains all the static files that are required to render the blog.
-
-## The Static Site Generator
-
-### 1. Libraries used
+Zuzu leverages Node.js and a few packages to convert markdown files into HTML pages. It parses the markdown files, extracts the front matter, and converts the markdown content into HTML. The HTML is then injected into a template to generate the final HTML page. The final HTML page is then written to the output directory. The packages used are:
 
 - [MarkdownIt](https://www.npmjs.com/package/markdown-it) *Markdown parser done right.*
 - [MarkdownItAnchor](https://www.npmjs.com/package/markdown-it-anchor) *Header anchors for markdown-it.*
@@ -54,134 +71,62 @@ Run `npm run generate` in the console. We have used GitHub-flavoured markdown in
 - [Gray-Matter](https://www.npmjs.com/package/gray-matter) *Parse front-matter from a string or file.*
 - [Mkdirp](https://npmjs.com/package/mkdirp) *Create Dirs if they do not exist.*
 - [Path](https://nodejs.org/api/path.html) *Provides utilities for working with file and directory paths.*
-- [Highlight.js](https://highlightjs.org/) *Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It works with pretty much any markup, and doesn’t depend on any framework and has automatic language detection.*
+- [Highlight.js](https://highlightjs.org/) *Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It works with pretty much any markup, and doesn't depend on any framework and has automatic language detection.*
 - [MDtoPDF](https://www.npmjs.com/package/md-to-pdf) *Converts markdown to pdf.*
 - [RSS](https://www.npmjs.com/package/rss) *RSS parser.*
-- [Cheerio](https://www.npmjs.com/package/cheerio) *Fast, flexible, and lean implementation of core jQuery designed specifically for the server.*
 
-### 2. Workflow
+The generator file is `generate.js`. It has a few functions:
 
-The code referred to here is the `version1` of the generator.js. We are currently running with the `version3`. The rest of the code is in the [Github Repo](https://github.com/fuzzymfx/zuzu). Feel free to [browse](https://github.com/fuzzymfx/zuzu) through the rest of the codes to explore additional features like **RSS feed generation**, **PDF generation**, **search** have been added to the generator.
+- slugify: Converts a string into a URL-friendly slug.
+- readFile: Reads a markdown file, parses its front matter, and renders its content to HTML.
+- templatize: Replaces placeholders in a template string with actual data.
+- saveFile: Saves content to a file, creating necessary directories if they don't exist.
+- getOutputFilename: Generates the output HTML filename for a given input filename and output path.
+- getOutputPdfname: Generates the output PDF filename for a given input filename and output path, ensuring the folder exists.
+- processBlogFile: Processes a blog file, converting it to HTML and optionally to PDF, and updates a map of blog metadata.
+- processDefaultFile: Processes a default file, converting it to HTML and optionally to PDF.
+- buildBlogIndex: Builds the blog index from the map of blog metadata and updates the index file.
+- copyAssets: Copies assets from the source folder to the destination folder.
+- main: Orchestrates the processing of all markdown files, fetching metadata, and generating the static site.
 
-1. `fs.readfile() from fs` reads all the files from the said directory and stores them in `filename` using `glob`. It is a `glob` that matches all the files in the directory. The `file system` module allows you to work with the file system on your computer.
-1. `gray-matter` helps extract front matter from the string or file.
-Converts a string with front matter, like this:
+The script follows this flow:
 
+- Initialization: Import necessary modules and define utility functions.
+- MarkdownIt Setup: Initialize MarkdownIt with plugins for rendering markdown content.
+- Main Function:
+    - Define paths for source content, output directories, and templates.
+    - Fetch metadata from a remote URL.
+    - Clean and create necessary directories.
+    - Process markdown files in the source directory, converting them to HTML and optionally to PDF.
+    - Build the blog index from processed blog files.
+    - Copy static assets to the output directory.
+Execution: The script is executed by calling the main function within an async IIFE, handling any errors that occur.
+
+
+## Getting Started
+
+To get started with Zuzu, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/fuzzymfx/zuzu.git
+cd zuzu
+npm install
 ```
-    title: Hello
-    slug: home
-    ---
-    <h1>Hello world!</h1>
+
+This would be a good place to start your markdown files. The `content` folder contains all the markdown files. The `templates` folder contains the HTML templates. The `static` folder contains the CSS and JS files.
+
+To generate the HTML files, run:
+
+```bash
+npm run generate
 ```
 
-Into an object like this:
+You can find two themes in the `templates` folder: `fuzzymfx` and `initial`. To change the theme, change the `template` in the `config.toml` file, and the `templateHTML` in the `config.toml` file. Zuzu is highly configurable. You can add your own CSS and JS files to the `static` folder and include them in the markdown file, or better, start with your own `theme`.
 
-    {
-    content: '<h1>Hello world!</h1>',
-    data: { 
-        title: 'Hello', 
-        slug: 'home' 
-    }
-    }
+## Next?
 
- It then extracts the front matter and stores it in `data`. It then stores the content in `content` and returns the `filename` to the `main()` function. It then repeats the process for all the files in the directory.
+The [zuzu](https://github.com/fuzzymfx/zuzu) repository is a good place to start. The latest version of zuzu might not updated in the original codebase, but instead you can always find all the features maintained here: [fuzzymfx/fuzzymfx.github.io](https://github.com/fuzzymfx/fuzzymfx.github.io). 
 
-3. The `main()` function then takes in one `filename` at a time and then parses it through `markdownit( ,{markdownitanchor})`. `markdownit` parses the file and converts the markdown content into HTML files. It then creates an `html` file and writes the parsed content into it. It then saves the `html` file in the `docs` folder. This process repeats for all the files in the directory.
+I am eagerly looking for someone to migrate all the features to the original codebase. Feel free to ping me if you're interested.
 
-4. The converted html files are stored in the specified directories then using `mkdirp`. The `index.html` file is already present in the `docs` folder. `mkdirp` creates the directories if they do not exist.
-
-### 3. Generator Code
-
-This is version 1 of zuzu. The current version is version 3. The code for version 3 is in the [Github Repo](https://github.com/fuzzymfx/zuzu). This gives you a basic idea of how the generator works.
-
-```js
-
-import fs from 'fs'
-import glob from 'glob'
-import matter from 'gray-matter'
-import mkdirp from 'mkdirp'
-import path from 'path'
-import hljs from 'highlight.js';
-import MarkdownIt from 'markdown-it'
-import markdownItAnchor from 'markdown-it-anchor'
-import string from 'string'
-
-const slugify = s => string(s).slugify().toString()
-
-
-const md = MarkdownIt({
-    html: true,
-    linkify: true,
-    typographer: true,
-    highlight(str, language) {
-        if (language && hljs.getLanguage(language)) {
-            try {
-
-                return hljs.highlight(str, { language: language }).value;
-            } catch (err) {
-                console.log(err)
-            }
-        }
-
-        return null;
-    }
-}).use(markdownItAnchor, { slugify });
-
-
-const readFile = (filename) => {
-    const rawFile = fs.readFileSync(filename, 'utf8')
-    const parsed = matter(rawFile)
-    const html = md.render(parsed.content)
-
-    return {...parsed, html }
-}
-
-const templatize = (template, { date, title, content, author }) =>
-    template
-    .replace(/<!-- PUBLISH_DATE -->/g, date)
-    .replace(/<!-- TITLE -->/g, title)
-    .replace(/<!-- CONTENT -->/g, content)
-    .replace(/<!-- AUTHOR -->/g, author)
-
-const saveFile = (filename, contents) => {
-    const dir = path.dirname(filename)
-    mkdirp.sync(dir)
-    fs.writeFileSync(filename, contents)
-}
-
-const getOutputFilename = (filename, outPath) => {
-    const basename = path.basename(filename)
-    const newfilename = basename.substring(0, basename.length - 3) + '.html'
-    const outfile = path.join(outPath, newfilename)
-    return outfile
-}
-
-const processFile = (filename, template, outPath) => {
-    const file = readFile(filename)
-    const outfilename = getOutputFilename(filename, outPath)
-
-    const templatized = templatize(template, {
-        date: file.data.date,
-        title: file.data.title,
-        content: file.html,
-        author: file.data.author,
-    })
-
-    saveFile(outfilename, templatized)
-    console.log(`📝 ${outfilename}`)
-}
-
-const main = () => {
-    const srcPath = path.resolve('content')
-    const outPath = path.resolve('docs')
-    const template = fs.readFileSync('./templates/initial/template.html', 'utf8')
-    const filenames = glob.sync(srcPath + '/**/*.md')
-
-    filenames.forEach((filename) => {
-        processFile(filename, template, outPath)
-    })
-}
-
-main()
-
-```
+If you really dig zuzu, I would suggest you try Zuzu out, and then maybe contribute to the codebase. The codebase is open-source and contributions are welcome. Feel free to add comments, issues, or pull requests. Update the codebase, add new features, or even create your own theme. The world is your oyster, and zuzu is your playground.

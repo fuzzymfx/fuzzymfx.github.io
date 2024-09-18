@@ -21,10 +21,13 @@ description: "Thoughts on books read, shows watched, z"
 
 ##### Watching 
 
-- [ ] The Bear 
-- [ ] Monk *- Andy Breckman*: A detective show about an obsessive-compulsive detective, Adrian Monk, who solves crimes in San Francisco.
-- [x]  The Umbrella Academy *- Steve Blackman*: A superhero show about a dysfunctional family of superheroes. The show is based on a comic book series of the same name by Gerard Way and Gabriel Bá.
-- [x] Fleabag *- Phoebe Waller-Bridge*: A dark comedy about a dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy. - *this show is ssoooooooo good*
+
+- [ ] Attack on Titan *- Hajime Isayama*: An anime about humanity's fight against giant humanoid creatures known as Titans.
+- [ ]  The Bear 
+- [x]  Better Call Saul *- Vince Gilligan*: A prequel to Breaking Bad, about the life of Jimmy McGill, a small-time lawyer who eventually becomes the sleazy lawyer Saul Goodman.
+- [ ]  Shogun *- James Clavell*: A miniseries based on the novel of the same name, about an English sailor who becomes a samurai in feudal Japan.
+- [ ]  Monk *- Andy Breckman*: A detective show about an obsessive-compulsive detective, Adrian Monk, who solves crimes in San Francisco.
+- [x]  Fleabag *- Phoebe Waller-Bridge*: A dark comedy about a dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy. - *this show is ssoooooooo good*
 - [x]  After Life *- Ricky Gervais*: A dark comedy about a widower who contemplates life after his wife's death. *heartfelt and amazing <3*
 - [ ]  The Mandalorian *- Jon Favreau*: A Star Wars series set after the fall of the Empire, following the adventures of a lone bounty hunter in the outer reaches of the galaxy.
 
