@@ -60,18 +60,18 @@ The primary features of RESOC is sharing Notes, Question Papers, and other acade
 
 The major components and routes are:
 
-**/team**
-**/notes**
-**/previewnotes**
-**/community-guidelines**
-**/update-profile**
-**/community**
-**/taskboard**
-**/login**
-**/profile**
-**/signup**
-**/forgot-password**
-**/contributions**
+/team  
+/notes  
+/previewnotes  
+/community-guidelines  
+/update-profile  
+/community  
+/taskboard  
+/login  
+/profile  
+/signup  
+/forgot-password  
+/contributions  
 
 Here's why there was **a need for authentication**:  
 
