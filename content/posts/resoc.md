@@ -1,11 +1,11 @@
 ---
-title: 'Introducing Resoc'
+title: 'Resoc; a gift to my alma mater'
 date: "17-03-2023"
-description: "RESOC; short for Resources + Community, is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free."
+description: "RESOC; short for Resources + Community, is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free. The metrics below show the traffic :P"
 tag: "tech"
 ShowBreadCrumbs: true
 draft: false
-index: false
+index: true
 
 ---
 <style>
@@ -22,27 +22,88 @@ RESOC lets you share notes, question papers, and other academic resources with y
 
 The idea came to me in the first year of my undergrad, when I found myself scouring the internet for notes, and calling up friends in the middle of the night. I have a terrible habit of studying just before the exam, and at the end of the day, I always find myself having nothing to read from. This led me to build a Google Drive collection that became an instant hit among my peers. Everybody wanted the link! I didn't bother to put much effort into it, and it was just a bunch of collection of notes that I had collected over the years. I built a static html page and hosted it in GitHub pages.
 
-## The Journey
-
-Cut to December 2021- January 2022. I was experimenting with development using NodeJs and ReactJs and was trying to build something meaningful. I built an authentication management app using Firebase. I wanted to build something cool that would use the authentication system, and I built a chat application, using Firebase. I loved the site and I kept thinking about ways to improve it. I kept on adding features until I realized that I had essentially created a mini social media platform that could potentially help students in a big way. The initial name for the platform was notes.sit. I added a kanaban board, and my older html page, on top of everything I had built so far.
-
-A year late, admist all the placement chaos, I had completeley forgotten about RESOC. [Khusi](https://www.linkedin.com/in/smruti-dash-1210/) reminded me that I always wanted to complete that half-baked project and build the best, free and open-source (FOSS) website. I wanted to add tons of features to notes.sit, add a markdown support (maybe), a search bar, a better UI with excellent user experience, and customizable sections that fetch free data from the college ERP to make it feel more like home. I wanted to make it more RESOC. Our mid-terms began and while looking for ways not to study, I started building Resoc xD. Together, we started with the UI and changed everything. We designed the UI by building on the older interface and implemented best design practices. We slowly took each component, loaded it with tons of features, and kept on improving it, until we looked back to see what we have accomplished.
-
-THIS IS [RESOC](https://resoc.in/)
-
 ## RESOC
 
 The best notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free. We have a [nifty task section](https://resoc.in/taskboard) for you to manage your work. No more forgetting deadlines and drowning in assignments. Pop over to the [community chat page](https://resoc.in/community) and give us a holler. We're always happy to help out and connect with like-minded folks. You might even make a new study buddy or two! We're looking for active contributions and you're always welcome to [contribute](https://resoc.in/contributions) to RESOC :) We've got a [team](https://resoc.in/team) of talented content creators who are always looking for new ideas and suggestions. If you've got something to say, we're all ears!
 
 As we continue to develop RESOC, our goal is to create a platform that feels like home to our users. We want to cater to your academic needs, and let you access important data when you need them. We've already added a ton of features, but we're always looking for ways to make the platform even more user-friendly.
 
-We don't charge you anything for the notes, but you could always consider buying us pizza! ;)
+### The open-source codebase
 
- - With love and pizza dreams, TeamSoc
+This aims at being a starting point for your journey in contributing to RESOC. This article attempts at explaining the working of this project. Resoc is built using the React and Firebase, majorly. The codebase is open-source and can be found [here](httpsL//github.com/fuzzymfx/resoc).
 
-Check out the page now!! [RESOC](https://resoc.in/)
+Frontend tools in use:
 
-### Update
+- React
+- Bootstrap
+- Undraw + Storyset for illustrations
+
+The backend is built using:
+
+- Firebase
+- Cloud Firestore
+- Firebase Storage for storing files uploaded by users for contributions
+- Google Drive for storing and fetching notes
+
+Other libraries and tools used:
+
+- React Router
+- React Bootstrap
+- React Firebase Hooks
+
+- Context APIs to manange authentication state
+
+
+### Features
+
+The primary features of RESOC is sharing Notes, Question Papers, and other academic resources. Other than this, users can have a personal *Kanan board* to manage their tasks. The *community chat page* is a place where users can interact with each other. Resoc also includes community contributions, where users can contribute to the platform. The platform also includes a team page, where the team members are listed, and there are specific community guidelines that need to be followed.
+
+### Deep Dive into the codebase
+
+The major components and routes look something like this:
+
+**/**: Renders the App component.  
+**/team**: Lazily loads and renders the AboutUs component.  
+**/notes**: Lazily loads and renders the Notes component.  
+**/visitloader**: Renders the Loader component.  
+**/previewnotes**: Lazily loads and renders the PreviewNotes component.  
+**/community-guidelines**: Lazily loads and renders the Disclaimer component.  
+**/update-profile**: Requires authentication, lazily loads and renders the UpdateProfile component.  
+**/community**: Requires authentication, lazily loads and renders the Chat component.  
+**/taskboard**: Requires authentication, lazily loads and renders the Todo component.  
+**/login**: Redirects to profile if logged in, otherwise lazily loads and renders the Login component.  
+**/profile**: Requires authentication, lazily loads and renders the Profile component.  
+**/signup**: Redirects to profile if logged in, otherwise lazily loads and renders the Signup component.  
+**/forgot-password**: Redirects to update profile if logged in, otherwise lazily loads and renders the ForgotPassword component.  
+**/contributions**: Requires authentication, lazily loads and renders the Contributions component.  
+
+Here's why there was **a need for authentication**:  
+
+There are various actions that would need to distinguish individual users. From uploading notes to maintaing personal task list and communicating with the community, authentication is a must. RESOC uses Google OAuth for authentication.
+
+
+Other significant components include:
+
+- **Hosting**: The platform is hosted on Firebase Hosting.
+- **Database**: The database is managed using Firebase Firestore. The notes are in Google Drive.
+- **Contributions/ Storage**: Firebase Storage is used to store files uploaded by users.
+- **Authentication**: Google OAuth and email/password is used for authentication. The sign up and login pages are managed using Firebase Auth.
+
+### Getting Started
+
+The best way to get started would be to clone the repository and try running and exploring all seciton of the web app to become familiar with the codebase. The codebase is open-source and can be found [here](https://github.com/fuzzymfx/resoc). The codebase is a Nodejs project, so you would need to have Nodejs installed on your system. You can install the dependencies by running `npm install` in the root directory. You can run the project by running `npm start`.
+
+## Next?
+
+There are a ton of features and fixes we are looking to add, and we would love to have you on board!
+
+A couple of bugs that we are looking to fix are:
+
+- The community chat loading page is too slow; we want to store the chats in cache before lazy loading them to make the page load faster.
+- The contributions page has an expired email link that we use to notify the maintainers. We want to fix this and make it more user-friendly.
+- The router fails when a page needs authentication and the user is not logged in. When the user logs in, he should be redirected to the page he was trying to access, not the profile page.
+
+### Metrics
 
 <figure class="resoc">
 <img alt="analytics" src ="https://anubhavp.dev/assets/img/resoc/resoc-traffic.jpeg" class="h-75 w-75">
