@@ -50,9 +50,7 @@ Other libraries and tools used:
 - React Router
 - React Bootstrap
 - React Firebase Hooks
-
 - Context APIs to manange authentication state
-
 
 ### Features
 
