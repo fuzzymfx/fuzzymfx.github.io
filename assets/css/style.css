@@ -289,6 +289,7 @@ code {
 	border-radius: 2px;
 	padding: .2rem .3rem;
 	background-color: var(--code-bg);
+	tab-size: 2;
 }
 
 code {
