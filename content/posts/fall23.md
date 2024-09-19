@@ -18,7 +18,7 @@ ShowBreadCrumbs: true
  }
 </style>
 
---- **A trek to Kedarnath** ---
+**A trek to Kedarnath** 
 
 I left from BLR to DEL via train and stayed with Mukul's sister for a day. Despite our tight schedule we managed to explore *Purani Dilli* for a day before Haridwar. Our day was filled with visits to iconic landmarks, including the magnificent Jama Masjid and the historic Red Fort. And obviously, we explored the amazing culinary places that I had bookmarked earlier and had multiple feasts there.
 
