@@ -8,7 +8,7 @@ tag: "tech"
 
 Zuzu is a static site generator that takes in markdown files and renders HTML pages. This blog has been written using this generator. This enables noobs like me to write blogs without having to learn a lot of code :P . 
 
-**Imp**: The latest version of zuzu might not updated in the [original codebase](https://github.com/fuzzymfx/zuzu), but instead all the features can be found here: [fuzzymfx/fuzzymfx.github.io](https://github.com/fuzzymfx/fuzzymfx.github.io). A couple of features have been added to the original codebase, such as RSS feed, PDF generation, and CSS/JS injection. The better codebase is the one mentioned above.
+⚠️ The latest version of zuzu might not updated in the [original codebase](https://github.com/fuzzymfx/zuzu), but instead all the features can be found here: [fuzzymfx/fuzzymfx.github.io](https://github.com/fuzzymfx/fuzzymfx.github.io). A couple of features have been added to the original codebase, such as RSS feed, PDF generation, and CSS/JS injection. The better codebase is the one mentioned above❗
 
 
 - [Features](#features)
@@ -75,7 +75,7 @@ Zuzu leverages Node.js and a few packages to convert markdown files into HTML pa
 - [MDtoPDF](https://www.npmjs.com/package/md-to-pdf) *Converts markdown to pdf.*
 - [RSS](https://www.npmjs.com/package/rss) *RSS parser.*
 
-The generator file is `generate.js`. It has a few functions:
+The generator consists of, but not limited to, the following functions:
 
 - slugify: Converts a string into a URL-friendly slug.
 - readFile: Reads a markdown file, parses its front matter, and renders its content to HTML.
