@@ -3,6 +3,7 @@ title: "The Bandwagon Effect"
 date: "15-03-2024"
 description: "Moving away from Software Engineering"
 tag: "life"
+index: false
 ---
 
 A little background: AICTE(*All India Council for Technical Education*) states that approximately 1.5 million engineers graduate from India each year, worth $3.7 trillion to the economy. According to a report published by the National Employability Report for Engineers, only about 20-30% of engineering graduates are employable in the IT services sector. Less than 3% get into the creamy layer of tech jobs (*8–10+* LPA), and the rest are left to fend for themselves.
