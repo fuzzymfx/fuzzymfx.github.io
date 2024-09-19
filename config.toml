@@ -1,0 +1,28 @@
+# Paths
+[srcPath]
+content = "content"
+blogOutPath = ".dist/blog"
+indexOutPath = ".dist"
+assetsPath = "assets"
+template = "./templates/initial"
+pdfOutPath = "documents"
+hashesmetadata = "https://anubhavp.dev/metadata.json"
+
+# MarkdownIt Options
+[markdown]
+enable = true
+options = { html = true, breaks = true, linkify = true, typographer = true }
+
+# Highlight.js Options
+[highlight]
+enable = true
+defaultLanguage = "javascript"
+
+# Date Formatting
+[date]
+format = "en-US"
+options = { weekday = "long", month = "long", day = "numeric" }
+
+
+[indexes]
+tags = { tech = 0, life = 1, journal = 2 }

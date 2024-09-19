@@ -13,7 +13,10 @@ import string from "string";
 import { mdToPdf } from "md-to-pdf";
 import crypto from "crypto";
 import https from "https";
+import toml from "toml";
 
+// Read the config file
+const config = toml.parse(fs.readFileSync("./config.toml", "utf-8"));
 /*
  * Function: slugify
  * Description: Converts a string into a slug, which is a URL-friendly version of a string.
@@ -108,8 +111,7 @@ const getOutputFilename = (filename, outPath) => {
 const getOutputPdfname = (filename, outPath) => {
   const basename = path.basename(filename);
   const newfilename = `${basename.slice(0, -3)}.pdf`;
-  const newFolder = "documents";
-  const newFolderPath = path.join(outPath, newFolder);
+  const newFolderPath = path.join(outPath, config.srcPath.pdfOutPath);
 
   if (!fs.existsSync(newFolderPath)) {
     fs.mkdirSync(newFolderPath, { recursive: true });
@@ -203,7 +205,6 @@ const processBlogFile = (filename, template, outPath, blogs, hashes) => {
  * @param {string} outPath - The output path.
  * @param {boolean} generatePdf - Whether to generate a PDF version of the file.
  * @param {object} hashes - The object containing the hashes of the content of the files.
- * @param {string} pdfOutPath - The output path for the PDF file.
  */
 const processDefaultFile = (filename, template, outPath, hashes) => {
   const file = readFile(filename);
@@ -287,9 +288,6 @@ const buildBlogIndex = (blogs, path) => {
     "December",
   ];
 
-  let indexHTMLLife = "";
-  let indexHTMLTech = "";
-
   const sortedBlogs = Array.from(blogs.entries()).sort((a, b) => {
     const [dayA, monthA, yearA] = a[1].date.split("-");
     const [dayB, monthB, yearB] = b[1].date.split("-");
@@ -298,6 +296,7 @@ const buildBlogIndex = (blogs, path) => {
       new Date(yearB, monthB - 1, dayB) - new Date(yearA, monthA - 1, dayA)
     );
   });
+  let tagMap = new Map();
 
   sortedBlogs.forEach(([key, value]) => {
     const [day, month, year] = value.date.split("-");
@@ -306,34 +305,38 @@ const buildBlogIndex = (blogs, path) => {
                         <a href="./${key}.html" class="link">${value.title}</a> ${displayDate}
                       </li>`;
 
-    if (value.tag === "life") {
-      indexHTMLLife += listItem;
-    } else if (value.tag === "tech") {
-      indexHTMLTech += listItem;
+    if (tagMap.has(value.tag)) {
+      tagMap.set(value.tag, tagMap.get(value.tag) + listItem);
+    } else {
+      tagMap.set(value.tag, listItem);
     }
   });
 
   // Get index from path
   const indexFile = path + "/index.html";
 
-  // Replace the id with the indexHTML
-  const indexFileContent = fs.readFileSync(indexFile, "utf8");
-  const replacedIndex = indexFileContent.replace(
-    '<h2 id="posts" tabindex="-1">Posts</h2>',
-    `<div id="tableofindex">
-    <p>
-    <code>#tech</code>
-    
-    ${indexHTMLTech}
-    
-    </p>
-    <p>
-       <code>#life</code>
-       ${indexHTMLLife}
-    </p>
-     </div>`
+  const sortedKeys = Object.keys(config.indexes.tags).sort(
+    (a, b) => config.indexes.tags[a] - config.indexes.tags[b]
   );
 
+  // Replace the id with the indexHTML
+  const indexFileContent = fs.readFileSync(indexFile, "utf8");
+  let generatedHTML = '<div id="tableofindex">';
+  sortedKeys.forEach((key) => {
+    if (tagMap.has(key)) {
+      generatedHTML += `
+    <p>
+      <code>#${key}</code>
+      ${tagMap.get(key)}
+    </p>`;
+    }
+  });
+  generatedHTML += "</div>";
+
+  const replacedIndex = indexFileContent.replace(
+    '<h2 id="posts" tabindex="-1">Posts</h2>',
+    generatedHTML
+  );
   fs.writeFileSync(indexFile, replacedIndex);
 };
 /**
@@ -370,16 +373,18 @@ const copyAssets = (src, dest, depth = 0) => {
  * Main function that orchestrates the processing of all markdown files.
  */
 const main = async () => {
-  const srcPath = path.resolve("content");
-  const blogOutPath = path.resolve(".dist/blog");
-  const dir = path.resolve(".dist");
-  const indexOutPath = path.resolve(".dist");
-  const assetsPath = path.resolve("assets");
-  const pdfOutPath = path.resolve(".dist/documents");
+  const srcPath = path.resolve(config.srcPath.content);
+  const blogOutPath = path.resolve(config.srcPath.blogOutPath);
+  const dir = path.resolve(config.srcPath.indexOutPath);
+  const indexOutPath = path.resolve(config.srcPath.indexOutPath);
+  const assetsPath = path.resolve(config.srcPath.assetsPath);
 
-  const blogTemplate = fs.readFileSync("./templates/initial/blog.html", "utf8");
+  const blogTemplate = fs.readFileSync(
+    config.srcPath.template + "/blog.html",
+    "utf8"
+  );
   const defaulTemplate = fs.readFileSync(
-    "./templates/initial/default.html",
+    config.srcPath.template + "/default.html",
     "utf8"
   );
 
@@ -387,9 +392,10 @@ const main = async () => {
   const blogFiles = glob.sync(`${srcPath}/posts/*.md`);
   let hashes;
   try {
+    const link = config.srcPath.hashesmetadata;
     const data = await new Promise((resolve, reject) => {
       https
-        .get("https://anubhavp.dev/metadata.json", (res) => {
+        .get(link, (res) => {
           let data = "";
 
           res.on("data", (chunk) => {
@@ -417,9 +423,7 @@ const main = async () => {
   fs.mkdirSync(dir, { recursive: true });
 
   indexFiles.forEach((filename) => {
-    if (filename.includes("journey"))
-      processDefaultFile(filename, defaulTemplate, indexOutPath, hashes);
-    else processDefaultFile(filename, defaulTemplate, indexOutPath, hashes);
+    processDefaultFile(filename, defaulTemplate, indexOutPath, hashes);
   });
 
   const blogs = new Map();
