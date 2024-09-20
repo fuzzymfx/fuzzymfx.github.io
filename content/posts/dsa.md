@@ -456,7 +456,7 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 - [Backtracking](#backtracking):
 	- [N-Queens Problem](#n-queens-problem)
 	- [Sudoku Solver](#sudoku-solver)
-- [Miscellaneous]
+- [Miscellaneous](#miscellaneous):
 	- [Divide and Conquer (Merge Sort, Quick Sort)](#divide-and-conquer-merge-sort-quick-sort)
 	- [Bit Manipulation Algorithms](#bit-manipulation-algorithms)
 	- [Union-Find (Disjoint Set Union)](#union-find-disjoint-set-union)
@@ -797,6 +797,202 @@ void heapify(int arr[], int n, int i) {
 #### Rabin-Karp Algorithm (for substring search)
 -->
 
+
+### References
+
+- [Searching Algorithms](#searching-algorithms)
+	- [Binary Search](#binary-search)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Large datasets, sorted arrays. 
+	- [Linear Search](#linear-search)
+		- Time Complexity: O(n)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets, unsorted arrays.
+- [Sorting Algorithms](#sorting-algorithms)
+	- [Bubble Sort](#bubble-sort)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+	- [Selection Sort](#selection-sort)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+	- [Insertion Sort](#insertion-sort)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(1)
+		- Suitable for: Small datasets.
+	- [Merge Sort](#merge-sort)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Large datasets.
+	- [Quick Sort](#quick-sort)
+		- Time Complexity: O(n^2) (worst case), O(n log n) (average case)
+		- Space Complexity: O(log n)
+		- Suitable for: Large datasets.
+- [Graph Algorithms](#graph-algorithms)
+	- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)
+		- Suitable for: Shortest path, connected components, etc.
+	- [Depth-First Search (DFS)](#depth-first-search-dfs)
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)
+		- Suitable for: Topological sorting, connected components, etc.
+	- [Kruskal's Algorithm (for Minimum Spanning Tree)](#kruskals-algorithm-for-minimum-spanning-tree)
+		- Time Complexity: O(E log V)
+		- Space Complexity: O(V)
+		- Suitable for: Minimum spanning tree, etc.
+	- [Prim's Algorithm (for Minimum Spanning Tree)](#prims-algorithm-for-minimum-spanning-tree)
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)
+		- Suitable for: Minimum spanning tree, etc.
+	- [Dijkstra's Algorithm (for Shortest Path)](#dijkstras-algorithm-for-shortest-path)
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)
+		- Suitable for: Shortest path, etc.
+	- [Bellman-Ford Algorithm (for Shortest Path)](#bellman-ford-algorithm-for-shortest-path)
+		- Time Complexity: O(VE)
+		- Space Complexity: O(V)
+		- Suitable for: Shortest path, etc.
+	- [Floyd-Warshall Algorithm (for All Pairs Shortest Path)](#floyd-warshall-algorithm-for-all-pairs-shortest-path)
+		- Time Complexity: O(V^3)
+		- Space Complexity: O(V^2)
+		- Suitable for: All pairs shortest path, etc.
+	- [Topological Sorting](#topological-sorting)
+		- Time Complexity: O(V+E)
+		- Space Complexity: O(V)
+		- Suitable for: Topological sorting, etc.
+- [Tree Algorithms](#tree-algorithms)
+	- [Tree Traversal (Inorder, Preorder, Postorder)](#tree-traversal-inorder-preorder-postorder)
+		- Time Complexity: O(n)
+		- Space Complexity: O(n)
+		- Suitable for: Traversing a tree.
+	- [Binary Search Tree (BST) operations (Insertion, Deletion, Searching)](#binary-search-tree-bst-operations-insertion-deletion-searching)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Searching, sorting, etc.
+	- [AVL Tree operations (Insertion, Deletion, Searching)](#avl-tree-operations-insertion-deletion-searching)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Searching, sorting, etc.
+	- [Red-Black Tree operations (Insertion, Deletion, Searching)](#red-black-tree-operations-insertion-deletion-searching)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(1)
+		- Suitable for: Searching, sorting, etc.
+	- [Segment Tree operations (Range queries)](#segment-tree-operations-range-queries)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(n)
+		- Suitable for: Range queries, etc.
+- [Dynamic Programming](#dynamic-programming)
+	- [Maximum Subarray Sum](#maximum-subarray-sum)
+		- Time Complexity: O(n)
+		- Space Complexity: O(1)
+		- Suitable for: Maximum subarray sum, etc.
+	- [Longest Common Subsequence (LCS)](#longest-common-subsequence-lcs)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(mn)
+		- Suitable for: DNA sequence matching, etc.
+	- [Longest Increasing Subsequence (LIS)](#longest-increasing-subsequence-lis)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(n)
+		- Suitable for: Longest increasing subsequence, etc.
+	- [Matrix Chain Multiplication](#matrix-chain-multiplication)
+		- Time Complexity: O(n^3)
+		- Space Complexity: O(n^2)
+		- Suitable for: Matrix chain multiplication, etc.
+	- [Edit Distance](#edit-distance)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(mn)
+		- Suitable for: DNA sequence matching, etc.
+	- [Coin Change Problem](#coin-change-problem)
+		- Time Complexity: O(nm)
+		- Space Complexity: O(n)
+		- Suitable for: Coin change, etc.
+	- [Rod Cutting Problem](#rod-cutting-problem)
+		- Time Complexity: O(n^2)
+		- Space Complexity: O(n)
+		- Suitable for: Rod cutting, etc.
+	- [Fibonacci Series](#fibonacci-series)
+		- Time Complexity: O(n)
+		- Space Complexity: O(n)
+		- Suitable for: Fibonacci series, etc.
+	- [Knapsack Problem (0/1 Knapsack)](#knapsack-problem-01-knapsack)
+		- Time Complexity: O(nW)
+		- Space Complexity: O(nW)
+		- Suitable for: Knapsack problem, etc.
+- [Greedy Algorithms](#greedy-algorithms):
+	- [Activity Selection](#activity-selection)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Activity selection, etc.
+	- [Fractional Knapsack](#fractional-knapsack)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Fractional knapsack, etc.
+	- [Dijkstra's Algorithm (for shortest path)](#dijkstras-algorithm-for-shortest-path)
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)	
+		- Suitable for: Shortest path, etc.
+	- [Prim's Algorithm (for minimum spanning tree)](#prims-algorithm-for-minimum-spanning-tree)
+		- Time Complexity: O(V^2)
+		- Space Complexity: O(V)
+		- Suitable for: Minimum spanning tree, etc.
+	- [Kruskal's Algorithm (for minimum spanning tree)](#kruskals-algorithm-for-minimum-spanning-tree)
+		- Time Complexity: O(E log V)
+		- Space Complexity: O(V)
+		- Suitable for: Minimum spanning tree, etc.
+	- [Huffman Coding](#huffman-coding)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Data compression, etc.
+- [Backtracking](#backtracking):
+	- [N-Queens Problem](#n-queens-problem)
+		- Time Complexity: O(n!)
+		- Space Complexity: O(n^2)
+		- Suitable for: N-queens problem, etc.
+	- [Sudoku Solver](#sudoku-solver)
+		- Time Complexity: O(9^(n*n))
+		- Space Complexity: O(n^2)
+		- Suitable for: Sudoku solver, etc.
+- [Miscellaneous](#miscellaneous):
+	- [Divide and Conquer (Merge Sort, Quick Sort)](#divide-and-conquer-merge-sort-quick-sort)
+		- Time Complexity: O(n log n)
+		- Space Complexity: O(n)
+		- Suitable for: Sorting, etc.
+	- [Bit Manipulation Algorithms](#bit-manipulation-algorithms)
+		- Time Complexity: O(1)
+		- Space Complexity: O(1)
+		- Suitable for: Bit manipulation, etc.
+	- [Union-Find (Disjoint Set Union)](#union-find-disjoint-set-union)
+		- Time Complexity: O(log n)
+		- Space Complexity: O(n)
+		- Suitable for: Disjoint set union, etc.
+- [String Algorithms](#string-algorithms):
+	- [String Matching (Naive Algorithm)](#string-matching-naive-algorithm)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: String matching, etc.
+	- [Boyer-Moore Algorithm (for pattern matching)](#boyer-moore-algorithm-for-pattern-matching)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: Pattern matching, etc.
+	- [Z Algorithm (for pattern matching)](#z-algorithm-for-pattern-matching)
+		- Time Complexity: O(m+n)
+		- Space Complexity: O(n)
+		- Suitable for: Pattern matching, etc.
+	- [Suffix Array and Suffix Tree (for pattern matching)](#suffix-array-and-suffix-tree-for-pattern-matching)
+		- Time Complexity: O(n^2 log n)
+		- Space Complexity: O(n^2)
+		- Suitable for: Pattern matching, etc.
+	- [KMP Algorithm](#kmp-algorithm-for-substring-search)
+		- Time Complexity: O(m+n)
+		- Space Complexity: O(m)
+		- Suitable for: String matching, etc.
+	- [Rabin-Karp Algorithm (for substring search)](#rabin-karp-algorithm-for-substring-search)
+		- Time Complexity: O(mn)
+		- Space Complexity: O(1)
+		- Suitable for: Substring search, etc.
 
 ## Next?
 
