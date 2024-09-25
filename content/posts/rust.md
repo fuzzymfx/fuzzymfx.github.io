@@ -1,5 +1,5 @@
 ---
-title: 'The future C++?'
+title: 'Rust: the future C++?'
 date: "14-10-2022"
 description: "Rust is a multi-paradigm systems programming language created to ensure high performance similar to that offered by C and C++ but with emphasis on code safety. Will it replace C++ anytime soon?"
 tag: "tech"
