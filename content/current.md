@@ -1,5 +1,5 @@
 ---
-title: "Current odyssey and on-going quests"
+title: "Current odyssey"
 description: "Here's what I am upto these days"
 showdate: true
 ---

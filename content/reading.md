@@ -1,6 +1,6 @@
 ---
 title: Pages, Pens, and Pixels
-description: "Thoughts on books read, shows watched, z"
+description: "Thoughts on books read, shows watched"
 ---
 
 ##### Reading List
@@ -22,7 +22,7 @@ description: "Thoughts on books read, shows watched, z"
 ##### Watching 
 
 
-- [ ] Attack on Titan *- Hajime Isayama*: An anime about humanity's fight against giant humanoid creatures known as Titans.
+- [ ]  Attack on Titan *- Hajime Isayama*: An anime about humanity's fight against giant humanoid creatures known as Titans.
 - [ ]  The Bear 
 - [x]  Better Call Saul *- Vince Gilligan*: A prequel to Breaking Bad, about the life of Jimmy McGill, a small-time lawyer who eventually becomes the sleazy lawyer Saul Goodman.
 - [ ]  Shogun *- James Clavell*: A miniseries based on the novel of the same name, about an English sailor who becomes a samurai in feudal Japan.

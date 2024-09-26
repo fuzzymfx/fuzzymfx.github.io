@@ -1,6 +1,6 @@
 ---
 title: "Journey"
-description: "My journey so far"
+description: "Conquests, sojourns, and adventures in the world of tech."
 showdate: true
 pdf: true
 ---
