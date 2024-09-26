@@ -2,6 +2,14 @@ import fs from "fs/promises";
 import path from "path";
 import rss from "rss";
 import { JSDOM } from "jsdom";
+import toml from "toml";
+
+// Read the config file
+async function loadConfig() {
+  const configFile = await fs.readFile("./config.toml", "utf-8");
+  const config = toml.parse(configFile);
+  return config;
+}
 
 // Set up RSS feed
 const feed = new rss({
@@ -32,7 +40,9 @@ const feed = new rss({
 
 async function generateXmls() {
   try {
-    const directoryPath = path.resolve(".dist/blog");
+    const config = await loadConfig();
+    // const directoryPath = path.resolve(".dist/blog");
+    const directoryPath = path.resolve(config.srcPath.blogOutPath);
     const blogFiles = await fs.readdir(directoryPath);
 
     for (const file of blogFiles) {
@@ -53,6 +63,15 @@ async function generateXmls() {
           'meta[name="description"]'
         );
         const bodyElement = dom.window.document.querySelector("main");
+
+        if (dateElement) {
+          const dateValue = dateElement.getAttribute("content");
+          const day = dateValue.substring(0, 2);
+          const month = dateValue.substring(3, 5);
+          const year = dateValue.substring(6, 10);
+          const formattedDate = `${month}-${day}-${year}`;
+          dateElement.setAttribute("content", formattedDate);
+        }
 
         const date = dateElement ? dateElement.getAttribute("content") : "";
         let author = authorElement ? authorElement.getAttribute("content") : "";
