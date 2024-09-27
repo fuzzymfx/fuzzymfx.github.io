@@ -17,29 +17,32 @@ pdf: true
 ### Work Experience
 
 - **Software Engineer** - *DatingAI* 2024 - [🔗](https://datingai.pro)
-  - Revamping the existing infrastructure in NodeJs and NextJs to reduce network load and effectively allow the usage of API keys to limit exhaustion. Improving the efficiency of the AI engine.
-  - Built the Telegram-Bot that mimics the entire application on Telegram enabling multi-platform application access
+  - Led the revamp of the infrastructure in NodeJs and NextJs, coordinating efforts across teams to reduce network load and
+  improve API throttling by 15%, limiting API exhaustion and improving the performance of the AI engine.
+  - Built the Telegram and Discord bots that mimicked the entire application on
+  Telegram, enabling multi-platform access
+  and increasing the total active users by 50%.
 - **Software Engineer** - *RadisuAI* 2024 - [🔗](https://radius.ai)
-  - Built a multi-threaded, asynchronous health monitoring service using Rust, and Kafka to handle scraping requests every 10 secs. Optimized and ported the alert mod from Python to Rust to improve performance
+  - Built a multi-threaded, asynchronous health monitoring service using Rust, and Kafka to handle scraping 5000 requests every 10 secs. Optimized and ported the alert mod from Python to Rust to improve performance
   - Automated fault tolerant, consistent DB write operations by different teams using lambda functions and Prefect
-  - Built a native GUI app in Rust; to highlight unknown objects present during checkout in LCD counter-top POS.
-  - Ported the existing python shopassist cart simulator codebase to Rust. Updated the code to run asynchronous operations in parallel thread to improve performance and reduce bottleneck issues by more than 50%.
-  - Created a data analytics dashboard app using Gradio to display annotations statistics reducing failures and inaccuracies by over 70-75%
-  - Optimizing the alert module, and porting it from python and refactoring it to Rust to improve performance.
+  - Built a native GUI app in Rust to highlight unknown objects present during checkout in LCD counter-top POS.
+  - Rewrote the existing Python Shopassist cart simulator codebase in Rust, updating the code to run asynchronous operations in parallel threads, improving performance by 10x and reducing bottleneck issues.
+  - Created a data analytics dashboard app using Gradio to display annotations statistics reducing failures and inaccuracies by over 30-35%
+  - Optimized the alert module, porting it from python and refactoring it to Rust to improve performance.
 - **Founding Engineer/SDE-1** - *StackIt* 2023 - [🔗](https://nowstackit.com)
-  - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs.
-  - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
+  - Developed a Chrome extension that integrates with the StakIt Google Workspace application, enabling users to import CSV files directly into Google Sheets. Leveraged the Google Apps Script layer and utilized the available spreadsheet APIs. Increased user acquisition by 4x. 
+  - Built the Data-Preview section in the Chargebee component to vizualize the data before importing it, reducing run-time errors over 20%. Incorporated filters, joins, and v-lookups, to perform ETL operations. Wrote custom backend methods and modified the existing codebase to work with the new UI.
   - Implementing the data pipeline to import data from Hubspot to the Google Spreadsheet ecosystem.
-  - Working on the CI/CD pipeline to automate the deployment of the application using GitHub Actions.
-  - Creating multiple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
+  - Automated the deployment of the application using GitHub Actions.
+  - Created multiple instances to abstract development and production layers using Docker, Kubernetes, and Google Cloud Platform.
   - Built an advanced custom scheduling and logging using service using React, Node, and Python, to store user data periodically.
-  - Building natural language to SQL engines using LangChain, vector-embeddings - Llama-index prompt engineering, GPT-3.5-turbo & GPT-4-1106-preview.
+  - Built natural language to SQL engines using LangChain, vector-embeddings - Llama-index prompt engineering, GPT-3.5-turbo & GPT-4-1106-preview reducing more than 50% user churn.
 - **Full-stack Developer** - *Asymmetri* 2023 - [🔗](https://www.linkedin.com/company/asymmetri/)
   - Implemented a dynamic PDF generator using react-pdf and react-pdf-highlighter.
   - Building a custom PDF viewer using Firebase SDK. Used Cloud Firestore as the database.
 - **Full Stack Engineer** - *Squbix Digital* 2022 - [🔗](https://drive.google.com/file/d/1Pr6ttzQEk0Bj83pxCafFloiKx7KYOLJX/view?usp=sharing)
   - Designed and developed the Squbix Website. Refactored React-Native applications with better UI, implemented offline storage, and push notifications, and built an ERP app to monitor the attendance and tasks of employees.
-  - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions. Used mocha for unit testing.
+  - Built backend APIs using NodeJs. Configured optional parameters to switch between different blockchains. Refactored the JS-based SDK to TypeScript and NodeJs. Built Chrome extension for wallet transactions for legacy users, solving more than 90% of errors. Used mocha for unit testing.
   - Modified the existing DID pallet using Rust \& Substrate to store ID information in the blockchain with additional unit tests. Collaborated on the wallet transfer PWA to cater to the needs of existing users on the older blockchain.
 - **Freelance Software Developer** - *Afixi Technologies* 2022 - [🔗](https://drive.google.com/file/d/1rWImLNao3abkQF313Jb8gT5Ybq8aNQeA/view?usp=sharing)
   - Set up a platform to handle DDEX submissions using Amazon AWS S3 & Go. Wrote a Python script to automate the uploading of music from the producer's S3 bucket and automated the uploading of music on YouTube.
