@@ -798,4 +798,4 @@ void heapify(int arr[], int n, int i) {
 -->
 ## Next?
 
-There is a lot of information in these pages, more than 70% of which you probably won't need. The important data structures are marked with \b font-weight. The rest are just for your information. Again, it is completely understandable if this becomes too much for you to understand all at once. The best way to understand these is to code them. My primary advice remains the same; try building something cool, and these data structures and algorithms will come to your rescue when stuck. I will keep updating this page, adding more information as we go along.
+There is a lot of information in these pages, more than 70% of which you probably won't need. The important data structures are marked with \b font-weight. The rest are just for your information. The best way to understand these is to code them. My primary advice remains the same; try building something cool, and these data structures and algorithms will come to your rescue when stuck.

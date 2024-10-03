@@ -7,9 +7,9 @@ description: "Anubhab Patnaik| fuzzymf- Engineer/ Entrepreneur"
 
 Hi, I am Anubhab Patnaik("fuzzymf"), a software engineer from India. Interested in math, science, engineering, and entrepreneurship, I try to solve real-world problems. I previously worked as a software engineer at [RadiusAI](https://radius.ai/), and as the founding engineer at [StackIt](https://nowstackit.com) before that. Currently, a graduate student pursuing a Master's in Computer Engineering at New York University, Tandon. This is a space for my philosophical thoughts and monthly updates; my two cents and musings on life and tech. Here's my [journey so far <i class="fa-solid fa-arrow-right" ></i> ](/journey.html).
 
-I [write about the alchemy of life](/blog), love poetry and music, and have recently taken up playing the guitar. Fond of tales and lores, I try to carve out time to [read](https://anubhavp.dev/reading.html) more. I also have a penchant for [travelling, adventuring, exploring places](https://anubhavp.dev/explored), [photography](https://instagram.com/anubhavclicks), and [graphic design](https://dribbble.com/fuzzymf). Besides, I attend gatherings related to space exploration and tech startups. More on [what I am up to <i class="fa-solid fa-arrow-right" ></i> ](/current.html).
+I write about [life](/blog), love poetry and music, and have recently taken up playing the guitar. Fond of tales and lores, I try to carve out time to [read](https://anubhavp.dev/reading.html) more. I also have a penchant for [travelling, adventuring, exploring places](https://anubhavp.dev/explored), [photography](https://instagram.com/anubhavclicks), and [graphic design](https://dribbble.com/fuzzymf). Besides, I attend gatherings related to space exploration and tech startups. More on [what I am up to <i class="fa-solid fa-arrow-right" ></i> ](/current.html).
 
-Right now, I live in NYC. If you are around, feel free to reach out. We could hang out, discuss startups or code and build something together. 
+Right now, I live in NYC. If you are around, feel free to reach out. We could discuss startups or code and build something together. 
 
 [<i class="fa-solid fa-envelope" style="color: #777;"></i>](mailto:anubhabr50@gmail.com)  \   [<i class="fa-solid fa-calendar-days" style="color: #777;"></i>](https://cal.com/anubhavp) 
 
