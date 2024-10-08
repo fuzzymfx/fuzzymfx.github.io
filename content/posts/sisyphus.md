@@ -3,7 +3,7 @@ title: Sisyphus
 date: 06-10-2024
 description: Dreamy eyes and a heart full of hope. Growing up, old and looking for the purpose of life.
 draft: true
-tags: "life"
+tag: "life"
 ---
 
 Greek mythology is full of stories that explore the human condition and the nature of existence. My fascination with Greek Mythology is about how even Gods can be flawed. They are not perfect beings, but rather, they are subject to the same emotions and desires as mortals. They are capricious and unpredictable, and their actions often have unintended consequences. Zeus, the king of the gods, is known for his infidelity and his vengeful nature. Hera, his wife, is jealous and vindictive. Aphrodite, the goddess of love, is vain and manipulative.
