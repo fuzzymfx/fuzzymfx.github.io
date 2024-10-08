@@ -97,7 +97,7 @@ etc.
 
 	`[1, 2, 3, 4, 5]`
 
-2. **Vectors** - Vectors are similar to arrays, but they are dynamic. You can change the size of the vector once declared. They are implemented using arrays. They are part of the Standard Template Library (STL) in C++.
+2. **Vectors** - Vectors are similar to arrays, but they are dynamic. You can change the size of the vector once declared. They are implemented using arrays or contiguous memory blocks. They are part of the Standard Template Library (STL) in C++.
 
 	```cpp
 	#include <vector>
@@ -180,10 +180,10 @@ etc.
 	A Singly Linked List with data value as integers
 	</figure>
 
-	Linked Lists allow you to insert and delete elements in O(1) time complexity, whereas arrays or vectors take O(n) time complexity. The disadvantage of linked lists is that you can't access elements randomly, you have to traverse the list to access an element.
+	Linked Lists allow you to insert and delete elements at the beginning in O(1) and end in O(n) time complexity for singly linked lists and O(1) for doublt linked list with a tail pointer, whereas arrays or vectors take O(n) time complexity to insert at the beginning, and O(n) at the end if the array is full, else O(1). The disadvantage of linked lists is that you can't access elements randomly, you have to traverse the list to access an element.
 
 	Arrays/ Vectors: O(1) to access an element, O(n) to insert/delete an element
-	Linked Lists: O(n) to access an element, O(1) to insert/delete an element
+	Linked Lists: O(n) to access an element, O(1) to insert/delete an element at the beginning/end
 
 	In almost all cases, **vectors** are preferred over arrays and linked lists because of their dynamic nature and the ability to access elements randomly.
 
@@ -205,7 +205,7 @@ etc.
 
 	Stacks are used in applications where the order of elements is important, such as in compilers, browsers, etc. In compilers, the stack is used to store the operators and operands of an expression, and the order in which they are popped determines the order of evaluation. [*Refer*](https://www.geeksforgeeks.org/expression-evaluation/) to this link for more information. A function call is also implemented using a stack. When a function is called, the address of the next instruction is pushed onto the stack, and when the function returns, the address is popped from the stack. All of this becomes clear when you start coding.
 
-	The std::stack in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. It is implemented using arrays. The std::stack is a wrapper around the std::deque.
+	The std::stack in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. The std::stack is a wrapper around the std::deque.
 
 	Stacks - O(1) to access the top element, O(1) to insert an element, O(1) to delete an element
 
@@ -228,7 +228,7 @@ etc.
 
 	Queues are also used when the order of elements is important, such as in printers, operating systems, etc. In printers, the queue is used to store the print jobs, and the order in which they are dequeued determines the order of printing. In operating systems, the queue is used to store the processes, and the order in which they are dequeued determines the order of execution.
 
-	The std::queue in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. It is implemented using arrays. The std::queue is a wrapper around the std::deque.
+	The std::queue in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. The std::queue is a wrapper around the std::deque.
 
 	Queues - O(1) to access the front element, O(1) to insert an element, O(n) to delete an element
 
@@ -269,7 +269,7 @@ etc.
 		cout<<"The front element is:"<<q.front()<<endl;
 		```
 
-6. **Hash Tables** - [Hash tables](https://en.wikipedia.org/wiki/Hash_table) are a type of data structure that stores key-value pairs. They are implemented using hash functions. The key is hashed to generate a unique index, and the value is stored at that index. They are used in applications where fast access to elements is required, such as in databases, compilers, etc.
+6. **Hash Tables** - [Hash tables](https://en.wikipedia.org/wiki/Hash_table) are a type of data structure that stores key-value pairs. They are implemented using [hash functions](https://en.wikipedia.org/wiki/Hash_function). The key is hashed to generate a unique index, and the value is stored at that index. They are used in applications where fast access to elements is required, such as in databases, compilers, etc.
 
 	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1920px-Hash_table_3_1_1_0_1_0_0_SP.svg.png" alt="Hash Table" class='h-50 w-50 mb2'>A small phone book as a hash table</figure>
 
@@ -315,7 +315,12 @@ etc.
 		};
 		```
 
-	2. **Binary Search Tree** - A type of binary tree where the left child is smaller than the parent node, and the right child is greater than the parent node. The binary search tree is used to search for elements in O(log n) time complexity. The binary search tree can be traversed in three ways:
+	2. **Binary Search Tree** - A type of binary tree where the left child is smaller than the parent node, and the right child is greater than the parent node. The binary search tree is used to search for elements in O(log n) time complexity in balanced BST (like AVL or Red-Black Trees), and O(n) in worst case; if the tree is skewed. The binary search tree can be traversed in three ways:
+
+	- Inorder Traversal - Left, Root, Right
+	- Preorder Traversal - Root, Left, Right
+	- Postorder Traversal - Left, Right, Root
+
 
 	3. AVL Tree - A type of binary search tree where the difference in height between the left and right subtrees of each node is at most one. The AVL tree is used to maintain the balance of the tree. The AVL tree is used in applications where the height of the tree needs to be minimized, such as in databases, etc.
 
