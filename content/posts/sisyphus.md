@@ -7,15 +7,13 @@ index: false
 tag: "life"
 ---
 
-## Prologue
-
 Greek mythology is fascinating, full of stories that explore the human condition and the nature of existence. My fascination with it stems from the fact that even gods are flawed. They are not perfect beings, but rather, subject to the same emotions and desires as mortals—capricious, unpredictable, and often facing unintended consequences from their actions. Zeus, the king of the gods, is known for his infidelity and vengeful nature. Hera, his wife, embodies jealousy and vindictiveness, while Aphrodite, the goddess of love, is vain and manipulative.
 
 Mortals, gods, and monsters alike are bound by the whims of fate. Our lives are marked by joy and triumph, but also by tragedy and suffering. Each of us has our own personal myth that we live out every day, a prophecy to fulfil.
 
 Sisyphus, the king of Ephyra, was punished by the gods for his deceitfulness in cheating death twice. He was condemned to roll a boulder up a hill, only to watch it roll back down. He was doomed to repeat this task for eternity, never able to complete it. I see the myth of Sisyphus as a metaphor for the futility of life and the eternal struggle to find meaning in a world that is indifferent to our existence. Finding purpose in life is a never-ending quest, a journey that is fraught with uncertainty and doubt.
 
-## Chapter 1
+---
 
 My journey throughout these twenty-four years has been quite similar. Not because I am being punished by the gods for cheating death, but because I find myself constantly building a new life in a new corner of the world, pushing a new boulder up a different hill, only to watch it roll back down again. Each push represents a new beginning, a fresh start in a different city, where I find myself building a new life, making new friends, and immersing in a new culture. The ascent is filled with hope and possibility. Still, eventually, the boulder rolls back down, signalling the inevitable need to move again, leaving behind what I've built and starting afresh.
 
@@ -27,7 +25,7 @@ The irony is, that it makes more and more sense as I grow up. I don't know why I
 
 This was in 2002-2003, a time when my father got married and started his family, much like I find myself doing in a few years now. Another boulder up a different hill. As I write this, my same sister is preparing for her wedding next month, marking yet another cycle of life. In a year or two, her kids would be listening to Arijit Singh while taking a nap. A fresh start with a new boulder. A cycle completed. It's strange how nostalgia grips you—reminding you that what once felt like yesterday is now a memory of a distant past.
 
-## Chapter 2
+---
 
 We moved to Kolkata in 2004. My father's job took us there. We had gotten quarters in the company's colony. The colony, in Tallygunge, was a small one, it had two buildings one beside the other, a narrow entrance and common passage for both, and a small backyard. Towards the end the turning for the backyard used to be a bench. One side was buildings, and the other side was a tall wall. This was situated on the main road, and a mosque was in the middle of the road. I used to figure out time by listening to the *azaan*. On the other side of the road was a sweet shop.
 
@@ -57,8 +55,6 @@ We moved to Kolkata in 2004. My father's job took us there. We had gotten quarte
 // TODO: Move to Bangalore, Karnataka
 
 // TODO: Move to New York, USA - current -->
-
-## Epilogue
 
 Each time, I find myself answering the same question: what does this even achieve? It feels futile, like I'm stuck in a never-ending cycle of building and rebuilding, always searching for something that remains just out of reach. But perhaps that is the point. Life is not about reaching a destination, but rather, about the journey itself. It is about taking the sourest lemons life has to offer and turning it into something resembling lemonade.
 
