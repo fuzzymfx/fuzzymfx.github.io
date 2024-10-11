@@ -2,14 +2,6 @@
 title: Sisyphus
 date: 06-10-2024
 description: "A journey through whims of fate and lucid memories. Growing up, old and looking for the purpose of life."
-draft: true
-tag: "life"
----
-
----
-title: Sisyphus
-date: 06-10-2024
-description: "A journey through whims of fate and lucid memories. Growing up, old and looking for the purpose of life."
 draft: false
 tag: "life"
 ---
