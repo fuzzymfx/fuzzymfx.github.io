@@ -679,6 +679,21 @@ Quick sort is a divide-and-conquer algorithm. It picks an element as a pivot and
 
 There are many different versions of quickSort that pick pivot in different ways. It has a time complexity of **O(n^2)** in the worst case, but **O(n log n)** in the average case.
 
+- Case 1: Selecting Pivot as the first element, last element, or middle element.
+	This is a simple approach where the pivot is selected as the first element, last element, or middle element. But, the probability of
+	already sorted, or reverse sorted arrays remains same. This leads to higher chances of ending up with the worst case time complexity of O(n^2).
+
+- Case 2: Selecting Pivot as the median of the first, middle, and last element.
+	Performs well on all kinds of input data, including sorted, reverse-sorted, and random arrays. Despite improvements in average-case performance, median-of-three quicksort can still degrade to O(n²) in the worst case, especially if the array contains many duplicates or adversarial patterns.
+		- Better suited for inputs that are sorted or nearly sorted because it avoids the worst-case performance of picking the first or last element.
+		- Slightly faster in practice due to fewer recursive calls on highly structured data, but the median calculation adds constant overhead.
+
+- Case 3: Selecting Pivot as a random element.
+	This is a better approach where the pivot is selected as a random element. This reduces the probability of ending up with the worst case time complexity of O(n^2). The worst case occurs when the pivot divides the array into subarrays of size 0 and n - 1 repeatedly, which probabilistically occurs with a probability of 1/n!, which is very low. This basically means that the worst case is very unlikely to occur.
+
+		- Better suited for unknown or random input distributions.
+		- Ensures that no specific input can cause poor performance, making it more robust and reliable in practice.
+
 Ex. [5, 3, 8, 6, 2]
 
 1. Select 5 as the pivot. [3, 2, 5, 8, 6]
@@ -688,7 +703,7 @@ Ex. [5, 3, 8, 6, 2]
 ```cpp
  void quickSort(vector<int>& nums, int left, int right) {
 	if (left >= right) return;
-  int pivot = left + (right - left) / 2;
+  int pivot = left + (right - left) / 2; // here the pivot is the middle element
   int pivotValue = nums[pivot];
 
   swap(nums[pivot], nums[right]);
