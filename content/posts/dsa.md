@@ -627,45 +627,57 @@ Ex. [5, 3, 8, 6, 2]
 4. Merge the two halves. [3, 5, 8] [2, 6]
 5. Merge the two halves. [2, 3, 5, 6, 8]
 
+In the final case, the array is divided into single elements, which are by default sorted. The trick here is to effectively merge the sorted arrays. Two pointers( or indices ) both in the sorted arrays are used to compare and merge the arrays. When one of the arrays is exhausted, the remaining elements of the other array are directly copied to the result array.
+
 ```cpp
-void merge(int arr[], int l, int m, int r) {
-	int n1 = m-l+1;
-	int n2 = r-m;
-	int L[n1], R[n2];
-	for(int i = 0; i<n1; i++) {
-		L[i] = arr[l+i];
-	}
-	for(int i = 0; i<n2; i++) {
-		R[i] = arr[m+1+i];
-	}
-	int i = 0, j = 0, k = l;
-	while(i<n1 && j<n2) {
-		if(L[i]<=R[j]) {
-			arr[k] = L[i];
-			i++;
-		}
-		else {
-			arr[k] = R[j];
-			j++;
-		}
-		k++;
-	}
-	while(i<n1) {
-		arr[k] = L[i];
-		i++;
-		k++;
-	}
-	while(j<n2) {
-		arr[k] = R[j];
-		j++;
-		k++;
-	}
+vector<int> sortArray(vector<int>& nums) {
+  if (nums.size() == 1) return nums;   
+  int mid = nums.size() / 2; 
+  vector<int> leftArr = vector<int>(nums.begin(), nums.begin() + mid);
+  vector<int> rightArr = vector<int>(nums.begin() + mid, nums.end());
+    
+  vector<int> left = sortArray(leftArr);
+  vector<int> right = sortArray(rightArr);
+    
+  return mergeTwoSortedArrays(left, right);
+}
+vector<int> mergeTwoSortedArrays(vector<int>&nums1, vector<int>& nums2){
+  vector<int> res;
+  if(nums1.size()==0) return nums2;
+  else if(nums2.size()==0) return nums1;
+
+	int i = 0, j=0;
+	// Compare the elements of the two arrays and push the smaller element into the result array
+  while(i<nums1.size() && j<nums2.size()){
+    if(nums1[i]<nums2[j]){
+      res.push_back(nums1[i]);
+      i++;
+    } else{
+      res.push_back(nums2[j]);
+      j++;
+    }
+  }
+	// If any of the arrays have elements left, push them into the result array
+  if(i==nums1.size()){
+    while(j<nums2.size()){
+      res.push_back(nums2[j]);
+      j++;
+    }
+  }else if(j==nums2.size()){
+    while(i<nums1.size()){
+      res.push_back(nums1[i]);
+      i++;
+    }
+  }
+  return res;
 }
 ```
 
 #### Quick Sort
 
-Quick sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. It has a time complexity of **O(n^2)** in the worst case, but **O(n log n)** in the average case.
+Quick sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. The objective here is to make sure that all the elements in the left array of the pivot element is less than the pivot element, and all the elements in the right array of the pivot element are greater than the pivot element. Essentially, the pivot element is placed in its correct position.
+
+There are many different versions of quickSort that pick pivot in different ways. It has a time complexity of **O(n^2)** in the worst case, but **O(n log n)** in the average case.
 
 Ex. [5, 3, 8, 6, 2]
 
@@ -674,18 +686,29 @@ Ex. [5, 3, 8, 6, 2]
 3. Select 8 as the pivot. [2, 3, 5, 6, 8]
 
 ```cpp
-int partition(int arr[], int low, int high) {
-	int pivot = arr[high];
-	int i = low-1;
-	for(int j = low; j<high; j++) {
-		if(arr[j]<pivot) {
-			i++;
-			swap(arr[i], arr[j]);
-		}
-	}
-	swap(arr[i+1], arr[high]);
-	return i+1;
-}
+ void quickSort(vector<int>& nums, int left, int right) {
+	if (left >= right) return;
+  int pivot = left + (right - left) / 2;
+  int pivotValue = nums[pivot];
+
+  swap(nums[pivot], nums[right]);
+
+  int maxLeftIndex = left;
+  int minRightIndex = right - 1;
+
+  while (maxLeftIndex <= minRightIndex) {
+    while (maxLeftIndex <= minRightIndex && nums[maxLeftIndex] <= pivotValue)
+			maxLeftIndex++;
+    while (maxLeftIndex <= minRightIndex && nums[minRightIndex] >= pivotValue)
+      minRightIndex--;
+    if (maxLeftIndex < minRightIndex)
+      swap(nums[maxLeftIndex], nums[minRightIndex]);
+    }
+    swap(nums[maxLeftIndex], nums[right]);
+
+    quickSort(nums, left, maxLeftIndex - 1);
+    quickSort(nums, maxLeftIndex + 1, right);
+  }
 ```
 
 ### Heap Sort
