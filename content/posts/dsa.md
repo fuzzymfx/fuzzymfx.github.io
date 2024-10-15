@@ -273,7 +273,7 @@ etc.
 
 	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1920px-Hash_table_3_1_1_0_1_0_0_SP.svg.png" alt="Hash Table" class='h-50 w-50 mb2'>A small phone book as a hash table</figure>
 
-	1. **Unordered Map** - There is no order maintained in the keys. The keys are hashed to generate a unique index, and the value is stored at that index. The keys are unique.
+	1. **Unordered Map** - There is no order maintained in the keys. The keys are hashed to generate a unique index, and the value is stored at that index. The keys are unique. Internally, it uses a hash table to map keys to values, which provides average-time complexity of O(1) for insertion, deletion, and lookup.
 
 		```cpp
 		#include <unordered_map>
@@ -286,7 +286,7 @@ etc.
 
 		Hash Tables - O(1) to access an element, O(1) to insert an element, O(1) to delete an element
 
-	2. **Ordered Map** - The keys are ordered based on the key values.
+	2. **Ordered Map** - The keys are ordered/ sorted based on the key values. Internally, it uses a self-balancing binary search tree (typically a Red-Black Tree), which ensures that the keys are always stored in sorted order.
 
 		```cpp
 		#include <map>
@@ -322,17 +322,17 @@ etc.
 	- Postorder Traversal - Left, Right, Root
 
 
-	3. AVL Tree - A type of binary search tree where the difference in height between the left and right subtrees of each node is at most one. The AVL tree is used to maintain the balance of the tree. The AVL tree is used in applications where the height of the tree needs to be minimized, such as in databases, etc.
+	3. **AVL Tree** - A type of binary search tree where the difference in height between the left and right subtrees of each node is at most one. The AVL tree is used to maintain the balance of the tree. This balance ensures the tree's height remains O(log n). The AVL tree is used in applications where the height of the tree needs to be minimized to perform insertions, deletions, and searches in O(log n) time complexity, such as in databases, etc.
 
-	4. Red-Black Tree - A type of binary search tree where each node is colored red or black. The red-black tree is used to maintain the balance of the tree. The red-black tree is used in applications where the height of the tree needs to be minimized, such as in databases, etc.
+	4. **Red-Black Tree** - A type of binary search tree where each node is colored red or black. Red-black trees do not maintain a strict height balance like AVL trees but provide a "good enough" balance. This makes insertion and deletion operations faster (compared to AVL trees), which can require more rotations. As a result, red-black trees are often used in many libraries (like std::map in C++). The red-black tree is used in applications where the height of the tree needs to be minimized to perform fast insertions, deletions, and searches such as in associative containers like std::map, sets etc.
 
-	5. B-Tree - A type of tree where each node can have more than two children. The B-tree is used to maintain the balance of the tree. The B-tree is used in applications where the height of the tree needs to be minimized, such as in databases, etc.
+	5. B-Tree - A type of tree where each node can have more than two children. B-Trees are used in databases and filesystems due to their ability to handle multiple children where the cost of accessing data (on disk) is high, and it's important to minimize the number of disk accesses by keeping more data in each node. B-Trees are particularly good for minimizing disk reads.
 
-	6. **Trie (Prefix Tree)** - A trie is a type of tree where each node represents a character. The trie is used to store strings. The trie is used in applications where the search for strings is important, such as in dictionaries, etc.
+	6. **Trie (Prefix Tree)** - A trie is a type of tree where each node represents a character. The trie is used to store strings. Tries are used to store strings efficiently, especially when dealing with prefix searches, like autocomplete or dictionary search. Tries take up more space than binary search trees, as each node typically represents a single character, but they are highly efficient for operations like prefix-based lookups.
 
-	7. **Segment Tree** - A segment tree is a type of tree where each node represents a range of elements. The segment tree is used to perform range queries on an array. The segment tree is used in applications where range queries are important, such as in databases, etc.
+	7. **Segment Tree** - A segment tree is a type of tree where each node represents a range of elements. The segment tree is used to perform range queries (like sum, minimum, maximum) efficiently. Each node represents a range of elements, and it can answer range queries in O(log n) time. They allow both point updates and range queries in O(log n) time, but the preprocessing time is O(n). Segment trees take up O(2n) space. Ideal for situations requiring dynamic range queries, such as in competitive programming, etc.
 
-	8. Fenwick Tree - A Fenwick tree is a type of tree where each node represents a range of elements. The Fenwick tree is used to perform range queries on an array. The Fenwick tree is used in applications where range queries are important, such as in databases, etc.
+	8. Fenwick Tree( Binary Indexed Tree(BIT) ) - A Fenwick tree is a type of tree where each node represents a range of elements. Fenwick trees allow for efficient point updates and prefix sum queries in O(log n). Fenwick trees are slightly simpler to code than segment trees, but they cannot handle arbitrary range queries like a segment tree. They are better suited for problems where you only need to compute prefix sums or perform single point updates.
 
 		
 		Segment tree -
@@ -347,21 +347,28 @@ etc.
 		- Pros: the shortest code, less time complexity
 		- Cons: Fenwick tree can only be used for queries with L=1, so it is not applicable to many problems.
 
-	9. Suffix Tree - A suffix tree is a type of tree where each node represents a suffix of a string. The suffix tree is used to store strings. The suffix tree is used in applications where the search for strings is important, such as in dictionaries, etc.
+	9. Suffix Tree - A suffix tree is a type of tree where each node represents a suffix of a string. Suffix trees are specialized for string operations and allow efficient pattern matching, finding the longest common prefix, and solving other string-related problems. The space complexity of a suffix tree can be quite large (due to the number of nodes), but they allow for very fast string operations (like finding substrings in O(m) time, where m is the length of the pattern).
 
-	10. Binary Indexed Tree - A binary indexed tree is a type of tree where each node represents a range of elements. The binary indexed tree is used to perform range queries on an array. The binary indexed tree is used in applications where range queries are important, such as in databases, etc.
+	10. Huffman Tree - A Huffman tree is a type of tree where each node represents a character and its frequency. Huffman trees are used in data compression algorithms like Huffman coding. They create an optimal prefix-free encoding based on character frequencies, minimizing the total number of bits required to represent a set of characters.
 
-	11. Huffman Tree - A Huffman tree is a type of tree where each node represents a character and its frequency. The Huffman tree is used to compress data. The Huffman tree is used in applications where data compression is important, such as in file compression, etc.
+	11. Quad Tree - A quadtree is a type of tree where each node represents a quadrant of a 2D space. It tree is used to partition a 2D space. The quadtree is used in applications where the partitioning of a 2D space is important, such as in image processing, etc.
 
-	12. Quad Tree - A quadtree is a type of tree where each node represents a quadrant of a 2D space. It tree is used to partition a 2D space. The quadtree is used in applications where the partitioning of a 2D space is important, such as in image processing, etc.
+	12. Octree - An octree is a type of tree where each node represents an octant of a 3D space. The octree is used to partition a 3D space. The octree is used in applications where the partitioning of a 3D space is important, such as in 3D graphics, etc.
 
-	13. Octree - An octree is a type of tree where each node represents an octant of a 3D space. The octree is used to partition a 3D space. The octree is used in applications where the partitioning of a 3D space is important, such as in 3D graphics, etc.
+	13. **Heap** - Heaps are binary trees where the root node is either the maximum (in a max heap) or the minimum (in a min heap). Heaps are used in priority queues, where you need to quickly access the maximum or minimum element. Heaps are generally not balanced trees, but they maintain a partial ordering that allows for efficient access to the minimum/maximum element.
 
-	14. **Heap** - A heap is a type of tree where each node is greater than or equal to its children. The heap is used to maintain the maximum or minimum element at the root node. The heap is used in applications where the maximum or minimum element needs to be maintained, such as in priority queues, etc.
+	Trees are used in applications where the hierarchical relationship between elements is important, such as in file systems, family trees, etc. They usually have a time complexity of O(log n) for search, insert, and delete operations.
 
-	Trees are used in applications where the hierarchical relationship between elements is important, such as in file systems, family trees, etc.
-
-	Trees - O(log n) to search for an element, O(log n) to insert an element, O(log n) to delete an element
+Summary of Use Cases:
+- AVL Trees: Applications requiring strict balance for fast lookups and where insertions/deletions are relatively infrequent (e.g., databases). - O(log n)
+- Red-Black Trees: Applications requiring reasonably balanced trees with fast insertions and deletions (e.g., associative containers in libraries). - O(log n)
+- B-Trees: Databases and file systems where minimizing disk accesses is important. - O(log n)
+- Tries: Efficient string searching (e.g., auto-complete systems, dictionaries). - O(m)
+- Segment Trees: Range queries (e.g., sum, minimum, maximum) in arrays, often used in competitive programming. - O(log n) for query, O(n) for preprocessing
+- Fenwick Trees: Efficient prefix sums and single point updates (e.g., cumulative frequency tables). - O(log n) 
+- Huffman Trees: Data compression (e.g., text file compression). - O(n log n) -construction, O(n) -encoding/decoding
+- Quad Trees/Octrees: Spatial indexing and partitioning in 2D/3D spaces (e.g., image processing, video games). - O(log n)
+- Heaps: Priority queues, where the minimum or maximum element is needed frequently. - O(1) to search for an element, O(log n)
 
 
 8. **Graph** - A [graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)) is a collection of nodes(vertices) and edges. The edges connect the nodes. There are two types of graphs:
@@ -406,11 +413,17 @@ etc.
 		Graphs - O(n) to search for an element, O(1) to insert an element, O(1) to delete an element
 
 
-9. **Suffix Array** - A type of array where each element represents a suffix of a string. The suffix array is used to store strings. The suffix array is used in applications where the search for strings is important, such as in dictionaries, etc.
+9. **Suffix Array** - A suffix array is an array of integers that represent the starting positions of the suffixes of a given string, sorted in lexicographical order. It's widely used in string processing algorithms, particularly for problems like pattern matching, searching for substrings, and finding the longest common prefix (LCP) between strings.
+Suffix arrays are space-efficient compared to suffix trees but still allow efficient searching.
 
-10. Bloom Filter - A bloom filter is a type of data structure that tests whether an element is a member of a set. The bloom filter is used to test the membership of an element in a set. The bloom filter is used in applications where the membership of an element needs to be tested, such as in spell checkers, etc.
+10. Bloom Filter -  A Bloom Filter is a probabilistic data structure used to test whether an element is a member of a set. It can give false positives (i.e., it might incorrectly indicate that an element is in the set when it isn't) but never gives false negatives. A Bloom Filter uses multiple hash functions to set bits in a bit array. When checking membership, it verifies whether all the relevant bits are set. If they are, the element is probably in the set, and if not, it definitely isn't.
 
-11. Skip List - A data structure that allows for fast search, insertion, and deletion of elements. The skip list is used to store elements. The skip list is used in applications where fast search, insertion, and deletion of elements are important, such as in databases, etc.
+11. Skip List - A Skip List is a probabilistic data structure that allows for fast search, insertion, and deletion by maintaining multiple layers of linked lists, each with progressively fewer elements. It's an alternative to balanced trees, offering similar time complexities, but its operations are often simpler and more efficient in practice due to its probabilistic nature. 
+
+Summary:
+- Suffix Array: Used for string processing and efficient pattern matching, lexicographically ordered suffixes of a string, with construction time of O(n log n).
+- Bloom Filter: A probabilistic data structure for membership tests, space-efficient but can yield false positives. Used in applications like caching and networking. - O(1) for membership tests, O(1) for insert/query operations
+- Skip List: A probabilistic data structure that supports fast search, insertion, and deletion, often simpler and more efficient than balanced trees in practice. - O(log n) for insert/delete/search operations
 
 ## Algorithms
 
