@@ -17,9 +17,9 @@ Data Structures and Algorithms are the building blocks of any program. They help
 
 Time complexity is a measure of the amount of time an algorithm takes to run as a function of the length of the input. It is used to analyze the efficiency of an algorithm. The time complexity of an algorithm is usually expressed using asymptotic notations, that describe bounds of a function, or how the function behaves as the input size approaches infinity.
 
-- Big O notation describes the upper bound of the time complexity of an algorithm. It is used to describe the worst-case scenario of an algorithm.
-- Big Omega notation describes the lower bound of the time complexity of an algorithm. It is used to describe the best-case scenario of an algorithm.
-- Theta notation describes the average case of the time complexity of an algorithm.
+- Big O notation describes the upper bound of the time complexity of an algorithm. 
+- Big Omega notation describes the lower bound of the time complexity of an algorithm.
+- Theta notation describes the average time complexity of an algorithm.
 
 Two other notations are also there(but we won't be using them):
 - Little omega notation describes the lower bound of the time complexity of an algorithm, excluding the function itself.
@@ -182,7 +182,8 @@ etc.
 
 	Linked Lists allow you to insert and delete elements at the beginning in O(1) and end in O(n) time complexity for singly linked lists and O(1) for doublt linked list with a tail pointer, whereas arrays or vectors take O(n) time complexity to insert at the beginning, and O(n) at the end if the array is full, else O(1). The disadvantage of linked lists is that you can't access elements randomly, you have to traverse the list to access an element.
 
-	Arrays/ Vectors: O(1) to access an element, O(n) to insert/delete an element
+	Arrays: O(1) to access an element, O(n) to insert/delete an element
+	Vectors: O(1) to access an element, O(n) to insert/delete an element at an arbitrary position, amortized O(1)(*Interesting concept, google it!*) to insert/delete an element at the end,
 	Linked Lists: O(n) to access an element, O(1) to insert/delete an element at the beginning/end
 
 	In almost all cases, **vectors** are preferred over arrays and linked lists because of their dynamic nature and the ability to access elements randomly.
@@ -230,7 +231,7 @@ etc.
 
 	The std::queue in C++ is implemented using a deque (double-ended queue). A deque is a type of queue where elements can be added or removed from both the front and the rear. The std::queue is a wrapper around the std::deque.
 
-	Queues - O(1) to access the front element, O(1) to insert an element, O(n) to delete an element
+	Queues - O(1) to access the front element, O(1) to insert an element, O(1) to delete an element
 
 	1. **Priority Queues** - Priority queues are a type of queue where each element has a priority associated with it. The element with the highest priority is dequeued first. They are implemented using heaps. Heaps are a type of binary tree where the parent node is greater than the child nodes. They are used in Dijkstra's algorithm, Prim's algorithm, etc.
 
@@ -301,7 +302,7 @@ etc.
 
 	3. Unordered/ Ordered Set: A set is a collection of unique elements. Same as the other, but with unique elements.
 
-7. **Tree** - A [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) is a collection of nodes(vertices) connected by edges. The nodes are arranged in a hierarchical order.
+7. **Tree** - A [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) is a collection of nodes(vertices) connected by edges. The nodes are arranged in a hierarchical order. A tree is an undirected, connected, acyclic graph. When rooted, it can be represented as a directed graph with edges directed away from the root.
 
 	<figure style="justify-content: center; align-items: center; display: flex;flex-direction: column;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Tree_%28computer_science%29.svg" alt="Tree" class='h-50 w-50 mb2'>This unsorted tree has non-unique values (e.g., the value 2 existing in different nodes, not in a single node only) and is non-binary (only up to two children nodes per parent node in a binary tree). The root node at the top (with the value 2 here), has no parent as it is the highest in the tree hierarchy.</figure>
 
@@ -343,7 +344,7 @@ etc.
 		
 		Fenwick tree -
 		- query in O(logN)
-		- preprocessing in O(NlogN)
+		- preprocessing in O(N)
 		- Pros: the shortest code, less time complexity
 		- Cons: Fenwick tree can only be used for queries with L=1, so it is not applicable to many problems.
 
@@ -355,7 +356,7 @@ etc.
 
 	12. Octree - An octree is a type of tree where each node represents an octant of a 3D space. The octree is used to partition a 3D space. The octree is used in applications where the partitioning of a 3D space is important, such as in 3D graphics, etc.
 
-	13. **Heap** - Heaps are binary trees where the root node is either the maximum (in a max heap) or the minimum (in a min heap). Heaps are used in priority queues, where you need to quickly access the maximum or minimum element. Heaps are generally not balanced trees, but they maintain a partial ordering that allows for efficient access to the minimum/maximum element.
+	13. **Heap** - Heaps are binary trees where the root node is either the maximum (in a max heap) or the minimum (in a min heap). Heaps are used in priority queues, where you need to quickly access the maximum or minimum element. Heaps are complete binary trees, which means they are balanced in terms of shape (completely filled except possibly for the last level, which is filled from left to right).
 
 	Trees are used in applications where the hierarchical relationship between elements is important, such as in file systems, family trees, etc. They usually have a time complexity of O(log n) for search, insert, and delete operations.
 
@@ -413,8 +414,7 @@ Summary of Use Cases:
 		Graphs - O(n) to search for an element, O(1) to insert an element, O(1) to delete an element
 
 
-9. **Suffix Array** - A suffix array is an array of integers that represent the starting positions of the suffixes of a given string, sorted in lexicographical order. It's widely used in string processing algorithms, particularly for problems like pattern matching, searching for substrings, and finding the longest common prefix (LCP) between strings.
-Suffix arrays are space-efficient compared to suffix trees but still allow efficient searching.
+9. **Suffix Array** - A suffix array is an array of integers that represent the starting positions of the suffixes of a given string, sorted in lexicographical order. It's widely used in string processing algorithms, particularly for problems like pattern matching, searching for substrings, and finding the longest common prefix (LCP) between strings. Suffix arrays are space-efficient compared to suffix trees but still allow efficient searching and can be constructed in O(n log n) time.
 
 10. Bloom Filter -  A Bloom Filter is a probabilistic data structure used to test whether an element is a member of a set. It can give false positives (i.e., it might incorrectly indicate that an element is in the set when it isn't) but never gives false negatives. A Bloom Filter uses multiple hash functions to set bits in a bit array. When checking membership, it verifies whether all the relevant bits are set. If they are, the element is probably in the set, and if not, it definitely isn't.
 
@@ -439,6 +439,8 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 	- [Merge Sort](#merge-sort)
 	- [Quick Sort](#quick-sort)
 	- [Heap Sort](#heap-sort)
+	- [Counting Sort](#counting-sort)
+	- [Radix Sort](#radix-sort)
 - [Graph Algorithms](#graph-algorithms)
 	- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
 	- [Depth-First Search (DFS)](#depth-first-search-dfs)
@@ -467,10 +469,7 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 - [Greedy Algorithms](#greedy-algorithms):
 	- [Activity Selection](#activity-selection)
 	- [Fractional Knapsack](#fractional-knapsack)
-	- [Dijkstra's Algorithm (for shortest path)](#dijkstras-algorithm-for-shortest-path)
 	- [Huffman Coding](#huffman-coding)
-	- [Kruskal's Algorithm (for minimum spanning tree)](#kruskals-algorithm-for-minimum-spanning-tree)
-	- [Prim's Algorithm (for minimum spanning tree)](#prims-algorithm-for-minimum-spanning-tree)
 - [Backtracking](#backtracking):
 	- [N-Queens Problem](#n-queens-problem)
 	- [Sudoku Solver](#sudoku-solver)
@@ -486,6 +485,7 @@ Algorithms are a set of instructions that are used to solve a problem. There are
 	- [KMP Algorithm](#kmp-algorithm-for-substring-search)
 	- [Rabin-Karp Algorithm (for substring search)](#rabin-karp-algorithm-for-substring-search)
 
+---
 
 ### Searching Algorithms
 
@@ -538,6 +538,8 @@ int binarySearch(int arr[], int n, int key) {
 The only caveat with this is that the array needs to be sorted, else the algorithm won't work.
 
 Using either of two depends on the size of the dataset and the order. For small datasets, linear search is preferred, and for large datasets, binary search is preferred. If the dataset is sorted, binary search is preferred. If the dataset is unsorted, linear search is preferred.
+
+---
 
 ### Sorting Algorithms
 
@@ -627,6 +629,13 @@ void insertionSort(int arr[], int n) {
 	}
 }
 ```
+---
+
+Although these above algorithms are simple and easy to implement, they are not efficient for large datasets. They have an average time complexity of **O(n^2)**. For large datasets, for example if you have to sort a database of customers with more than a million records, these algorithms would take 10^12 operations, which is not feasible. 
+
+The following algorithms are more efficient and can handle large datasets:
+
+---
 
 #### Merge Sort
 
@@ -686,6 +695,8 @@ vector<int> mergeTwoSortedArrays(vector<int>&nums1, vector<int>& nums2){
 }
 ```
 
+The problem with merge sort is that it requires extra space for the two halves. This can be avoided by using an in-place merge sort, which is a bit more complex.
+
 #### Quick Sort
 
 Quick sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. The objective here is to make sure that all the elements in the left array of the pivot element is less than the pivot element, and all the elements in the right array of the pivot element are greater than the pivot element. Essentially, the pivot element is placed in its correct position.
@@ -709,9 +720,26 @@ There are many different versions of quickSort that pick pivot in different ways
 
 Ex. [5, 3, 8, 6, 2]
 
-1. Select 5 as the pivot. [3, 2, 5, 8, 6]
-2. Select 3 as the pivot. [2, 3, 5, 8, 6]
-3. Select 8 as the pivot. [2, 3, 5, 6, 8]
+For simplicity, let's select the pivot as the middle element.
+
+1. **Select the pivot**: Choose the middle element of the array as the pivot. In the array [5, 3, 8, 6, 2], the middle element is 8. Swap it with the last element, so the array becomes [5, 3, 2, 6, 8].
+
+2. Working array is [5, 3, 2, 6], and the pivot is 8.
+3. **Partitioning process**: You now look for elements in the left subarray that are greater than the pivot and in the right subarray that are less than the pivot, and you swap them.
+
+	In this case, there is no element greater than the pivot (8) in the left subarray, so the partitioning results in maxLeftIndex = 4 (end of the array).
+
+4. **Place the pivot in its correct position**: After the partitioning is done, the pivot element (8) is placed at its correct position at nums[maxLeftIndex].
+
+5. **Recursively sort the left and right subarrays**: Call quickSort on the left subarray [5, 3, 2, 6] and the right subarray [].
+
+6. For the left subarray [5, 3, 2, 6], the pivot is 3. Swap it with the last element, so the array becomes [5, 6, 2, 3].
+
+7. Working array is [5, 6, 2], and the pivot is 3. Maximum left index > pivot(3) is 0 and minimum right index < pivot(3) is 2. Swap 5 and 2. The new working array becomes [2, 6, 5].
+
+8. **Repeat the process**: The maximum left index is 1 and the minimum right index is 0. Since 1 < 0, all elements less than pivot are on the left side of the pivot. Now replace the pivot with the element at the maximum left index, that is **1** nums[1] = 6. The array becomes [2, 3, 5, 6]. Swap 2 and 3. The array becomes [2, 3, 5, 6]
+
+9. This process is repeated by diving the array into smaller subarrays until the array is sorted.
 
 ```cpp
  void quickSort(vector<int>& nums, int left, int right) {
@@ -739,27 +767,373 @@ Ex. [5, 3, 8, 6, 2]
   }
 ```
 
+The only caveat with quick sort is that it is not stable. This means that the relative order of equal elements is not preserved. This can be a problem when you have to sort objects based on multiple keys.
+
 ### Heap Sort
 
 Heap Sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the maximum element and place the maximum element at the end. We repeat the same process for the remaining elements.
 
+(A heap is a complete binary tree where each node has a value greater than or equal to its children. The root node is the maximum element in the heap. The heap can be a max heap or a min heap.)
+
+Ex. [5, 3, 8, 6, 2]
+
+1. Build a max heap. [8, 6, 5, 3, 2]. It would look like this:
+
+```
+		8
+		/ \
+	6		5
+	/ \
+3		2
+```
+
+2. Start from the last parent node.(2*n-1, where n is the number of elements in the array) and replace the root element( which is the max element now, since we built a max heap) with the last element. [2, 6, 5, 3, 8]
+3. Heapify the array. [6, 3, 5, 2, 8] (Heapifying means making sure that the heap property is maintained. The change is reversed, and the new array is a max heap.)
+4. Repeat the process.
+`[5, 3, 6, 2, 8] -> [3, 2, 5, 6, 8] -> [2, 3, 5, 6, 8]`
+
+```
+		5(<6, thus needs to be swapped)
+		/ \
+	3		6
+	/ \
+2		*8*
+```
+->
+
+```
+		6(max heap)
+		/ \
+	3(max heap)		5(max heap)
+	/ \
+2(max heap)		*8*
+```
+->
+
+*replace*
+
+```
+		2 (replaced)
+		/ \
+	3(max heap)		5(max heap)
+	/ \
+*6*		*8*
+```
+->
+
+```
+		2(<5, thus needs to be swapped)
+		/ \
+	3(max heap)		5(max heap)
+	/ \
+*6*		*8*
+```
+->
+
+```
+
+		5(max heap)
+		/ \
+	3(max heap)		2(max heap)
+	/ \
+*6*		*8*
+```
+->
+
+*replace*
+
+```
+		2(replaced)
+		/ \
+	3(max heap)		*5*
+	/ \
+*6*		*8*
+
+```
+->
+
+```
+		2(<3, thus needs to be swapped)
+		/ \
+	3(max heap)		*5*
+	/ \
+*6*		*8*
+```
+->
+
+```
+		3(max heap)
+		/ \
+	2(max heap)		*5*
+	/ \
+*6*		*8*
+
+```
+->
+
+*replace*
+
+```
+		2(replaced)
+		/ \
+	*3*		*5*
+	/ \
+*6*		*8*
+
+```
+->
+
+```
+		2(max heap)
+		/ \
+	*3*		*5*
+	/ \
+*6*		*8*
+
+```
+
+The array is now sorted.  
+
+The best part is that the time complexity is **O(n log n)** in all cases. 
+
 ```cpp
-void heapify(int arr[], int n, int i) {
-	int largest = i;
-	int l = 2*i+1;
-	int r = 2*i+2;
-	if(l<n && arr[l]>arr[largest]) {
-		largest = l;
+vector<int> sortArray(vector<int>& nums) {
+	buildMaxHeap(nums);
+	for (int i = nums.size() - 1; i > 0; i--) {
+		swap(nums[0], nums[i]);
+		heapify(nums, i, 0);
+		}
+		return nums;
+  }
+	void buildMaxHeap(vector<int>& nums) {
+		int n = nums.size();
+		for (int i = n / 2 - 1; i >= 0; i--) {
+			heapify(nums, n, i);
+			}
+		}
+
+	void heapify(vector<int>& nums, int n, int i) {
+		int largest = i;
+		int left = 2 * i + 1;
+		int right = 2 * i + 2;
+
+		if (left < n && nums[left] > nums[largest])
+		largest = left;
+	
+		if (right < n && nums[right] > nums[largest])
+		largest = right;
+	
+		if (largest != i) {
+			swap(nums[i], nums[largest]);
+      heapify(nums, n, largest);
+		}
+  }
+};
+```
+
+---
+
+The above algorithms are the most common ones. It might look like Heap Sort is the best, but it is not always the case. The best sorting algorithm depends on the size of the dataset, the order of the elements, and the space complexity. Usually, Quick Sort is the best choice for large datasets, and Merge Sort is the best choice for linked lists. In real-world applications, we usually encounter with key-value pairs, or objects, and in such cases, we can use the built-in sort function in the language, which is usually built on top of these algorithms, mostly **Quick Sort**.
+
+Quick Sort is usually preferred over Heap Sort because it's faster in practice due to better cache performance, fewer data movements, and the availability of optimizations that reduce its average runtime significantly. Heap Sort, while reliable in terms of time complexity, is often slower because of its less efficient memory access patterns and higher constant factors.
+
+Here's a general comparison of the sorting algorithms:
+
+| Feature/Metric           | In-Place Merge Sort                      | Randomized Quick Sort                    | Heap Sort                                  |
+|--------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|
+| **Time Complexity (Best)**     | O(n log n)                               | O(n log n)                               | O(n log n)                                 |
+| **Time Complexity (Average)**  | O(n log n)                               | O(n log n)                               | O(n log n)                                 |
+| **Time Complexity (Worst)**    | O(n log n)                               | O(n²) (without randomization)            | O(n log n)                                 |
+| **Space Complexity**           | O(1) (for in-place)                      | O(log n) (for recursion stack)           | O(1)                                       |
+| **Stability**                  | Stable (in standard form)                | Unstable                                 | Unstable                                   |
+| **In-Place**                   | Yes                                      | Yes                                      | Yes                                        |
+| **Cache Efficiency**           | Poor                                     | High                                     | Poor                                       |
+| **Typical Use Cases**          | Linked lists, external sorting           | General-purpose sorting, average-case fast | Predictable performance, real-time systems |
+| **Practical Performance**      | Slower due to complex in-place merging   | Fastest on average                       | Slower due to more swaps and comparisons   |
+
+
+---
+The following are some more sorting algorithms that are used in specific cases, and they have a linear time complexity:
+
+---
+
+### Counting Sort
+
+Counting Sort counts the number of occurrences of each element and stores it in an auxiliary array. It then calculates the position of each element in the sorted array. It has a time complexity of **O(n+k)**, where n is the number of elements in the array and k is the range of the input.
+
+It is pretty straightforward and is used when the range of elements is known.
+
+```cpp
+vector<int> sortArray(vector<int>& nums) {
+	vector<int> neg;
+	vector<int> pos;
+
+	for(int i=0;i<nums.size();i++){
+		if(nums[i]<0) neg.push_back(-1*nums[i]);
+		else pos.push_back(nums[i]);
 	}
-	if(r<n && arr[r]>arr[largest]) {
-		largest = r;
+
+		countSortArray(neg);
+		
+		for (auto& num : neg)
+			num = -num;
+
+    std::reverse(neg.begin(), neg.end());
+		
+		countSortArray(pos);
+    neg.insert(neg.end(), pos.begin(), pos.end());
+        
+    return neg;
+  }
+
+vector<int> countSortArray(vector<int>& nums) {
+  if(nums.size()>0){
+  	int max=nums[0],min=nums[0];
+            
+		for(auto &num: nums){
+			if(num>max)
+			max=num;
+		if(num<min)
+			min=num;
+		}
+		
+		vector<int> counts(max-min+1);
+		
+		for (auto &num : nums) 
+			counts[num - min]++;
+		
+		for (auto &num : counts) 
+			cout<<num<<" ";
+		
+		nums.clear();
+		
+		for (int i = 0; i < counts.size(); i++) 
+			while (counts[i] != 0){
+				nums.push_back(i+min);
+				counts[i]--;
+				}          
+      }
+
+    return nums;
+    }
+};
+
+```
+
+Technically, the time complexity is **O(n+k)** ≈ **O(n)**, but it is not always the best choice. It is best suited for small datasets with a small range of elements. Say, if the range k is large relative to n(for example, n = 1,000 and k = 1,000,000), Counting Sort becomes less efficient both in terms of time and space complexity. Quick sort would take **O(3000)** time in such cases, but Counting Sort would take **O(1000000)** time.
+
+### Radix Sort
+
+Radix Sort is a non-comparative sorting algorithm that sorts the elements by first grouping the individual digits of the same place value. Then, the elements are sorted according to their increasing/decreasing order. It has a time complexity of **O(nk)**, where n is the number of elements and k is the number of digits in the largest element.
+
+Ex. [170, 45, 75, 90, 802, 24, 2, 66]
+
+Step 1. **Calculate number of passes**: The maximum number of digits in the elements is 3. So, we need to perform 3 passes.
+
+Step 2. **Sort based on the least significant digit (1's place)**: [17****0**, 9**0**, 80**2**, 2**4**, 4**5**, 7**5**, 6**6**]
+
+**Original Array**: [170, 45, 75, 90, 802, 24, 2, 66]
+
+**Buckets** based on the 1's place:
+
+| Bucket 0 | Bucket 1 | Bucket 2 | Bucket 3 | Bucket 4 | Bucket 5 | Bucket 6 | Bucket 7 | Bucket 8 | Bucket 9 |
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| 17**0**, 9**0**  |          | 80**2**,**2**    |          | 2**4**       | 4**5**, 7**5**   | 6**6**       |          |          |          |
+
+**Reassembled Array after 1st pass**:  
+`[170, 90, 802, 2, 24, 45, 75, 66]`
+
+
+Step 3: **Sort based on the 10's place**
+
+**Array after 1st pass**: [170, 90, 802, 2, 24, 45, 75, 66]
+
+**Buckets** based on the 10's place:
+
+| Bucket 0 | Bucket 1 | Bucket 2 | Bucket 3 | Bucket 4 | Bucket 5 | Bucket 6 | Bucket 7 | Bucket 8 | Bucket 9 |
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| 8**0**2, **0**2   |          | **2**4       |          | **4**5       |          | **6**6       | 1**7**0, **7**5  |          | **9**0       |
+
+**Reassembled Array after 2nd pass**:  
+`[802, 2, 24, 45, 66, 170, 75, 90]`
+
+
+Step 4: **Sort based on the 100's place**
+
+**Array after 2nd pass**: [802, 2, 24, 45, 66, 170, 75, 90]
+
+**Buckets** based on the 100's place:
+
+| Bucket 0 | Bucket 1 | Bucket 2 | Bucket 3 | Bucket 4 | Bucket 5 | Bucket 6 | Bucket 7 | Bucket 8 | Bucket 9 |
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| **0**02, **0**24, **0**45, **0**66, **0**75, **0**90 | **1**70      |          |          |          |          |          |          | **8**02      |          |
+
+**Reassembled Array after 3rd pass**:  
+`[2, 24, 45, 66, 75, 90, 170, 802]`
+
+
+**Final Sorted Array**:  `[2, 24, 45, 66, 75, 90, 170, 802]`
+
+The time complexity of Radix Sort is **O(nk)**, where n is the number of elements and k is the number of digits in the largest element. The space complexity is **O(n+k)**.
+
+```cpp
+vector<int> sortArray(vector<int>& nums) {
+	vector<int> neg;
+	vector<int> pos;
+	for(int i=0;i<nums.size();i++){
+		if(nums[i]<0) neg.push_back(-1*nums[i]);
+		else pos.push_back(nums[i]);
 	}
-	if(largest != i) {
-		swap(arr[i], arr[largest]);
-		heapify(arr, n, largest);
+	radixSort(neg);
+	for (auto& num : neg)
+		num = -num;
+	std::reverse(neg.begin(), neg.end());
+
+	radixSort(pos);
+	neg.insert(neg.end(), pos.begin(), pos.end());
+	return neg;
+  }
+
+void radixSort(vector<int>& nums){
+	int max=0;
+	for(int i =0;i< nums.size();i++){
+		int key = nums[i];
+		int check = 1;
+		while(key!=0){
+			key = key/10;
+			if(key!=0)
+			check++;
+		}
+		if(check>max)
+		max = check;
 	}
+		
+	vector<queue<int>> buckets(10);
+		
+	for(int i =1;i<=max;i++){
+		for(int j=0;j<nums.size();j++){
+			int bucket = (nums[j] / (int)pow(10, i - 1)) % 10;
+			buckets[bucket].push(nums[j]);
+		}
+		nums.clear();
+			
+		for (int k = 0; k < buckets.size(); k++) {
+			while (!buckets[k].empty()) {
+				nums.push_back(buckets[k].front());  // Add the front element of the queue
+				buckets[k].pop();  // Remove the element from the queue
+			}
+    }   
+  }
 }
 ```
+
+Usually, Radix Sort is used when the range of elements is known, and the number of elements is not very large. It is not used for general-purpose sorting because it has a time complexity of **O(nk)**, which can be very high for large datasets. Also, in case of negetive integers, we can't use Radix Sort directly. We have a workaround for that, where we sort the negetive integers separately, reverse them and then merge them with the positive integers. Similarily, for floating point numbers, we sort them based on the decimal places. We can muliply them with ao^(the highest number of decimal places), convert them to integers, and then sort them.
+
+---
+
+These sorting algorithms are mostly used in specific cases. Radix sort is mostly used in case of integers, and counting sort is used when the range of elements is known. For all other general-purpose sorting, we use Quick Sort, Merge Sort, or the built-in sort function in the language, which is usually built on top of these algorithms.
+
+---
 
 <!-- 
 ### Graph Algorithms
@@ -854,4 +1228,6 @@ void heapify(int arr[], int n, int i) {
 -->
 ## Next?
 
-There is a lot of information in these pages, more than 70% of which you probably won't need. The important data structures are marked with \b font-weight. The rest are just for your information. The best way to understand these is to code them. My primary advice remains the same; try building something cool, and these data structures and algorithms will come to your rescue when stuck.
+There is a lot of information in these pages, more than 70% of which you probably won't be needing in day-to day work. But, it's improtant to understand how the underlying stuff work, when for example you do `array.sort()` or `array.filter()`, you should know what's happening behind the scenes. This helps you handle edge cases and optimize your code. This would also let you build your own algorithms when required by a particular problem in your project.
+
+The important data structures are marked with \b font-weight. The rest are just for your information. The best way to understand these is to code them. My primary advice remains the same; try building something cool, and these data structures and algorithms will come to your rescue when stuck!

@@ -340,6 +340,57 @@ blockquote {
 }
 
 /**
+ * Table
+ */
+
+/* Table styling */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	/* Ensures borders do not have gaps between cells */
+	margin-bottom: 1.5rem;
+}
+
+th,
+td {
+	border: 1px solid var(--darkgray);
+	/* Sets a visible border for table cells */
+	padding: 0.5rem;
+	/* Adds some padding for readability */
+	text-align: left;
+	/* Align text to the left */
+}
+
+th {
+	background-color: var(--lightgray);
+	/* Adds a background color for the header */
+	font-weight: 600;
+	/* Makes the header bold */
+}
+
+td {
+	background-color: #fff;
+	/* Ensures table cells have a white background */
+}
+
+/* Optional: Add hover effect for table rows */
+td:hover {
+	background-color: var(--pastel-yellow);
+}
+
+/* If hovering over the 0th column, highlight the entire row */
+td:first-child:hover {
+	background-color: inherit;
+	/* Remove the highlight from the first cell */
+}
+
+td:first-child:hover~td {
+	background-color: var(--pastel-yellow);
+	/* Highlight the rest of the row */
+}
+
+
+/**
  * Custom Tags
  */
 
